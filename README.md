@@ -1,6 +1,6 @@
-# GenMentor: AI-Powered Career Guidance System
+# Cortex: AI-Powered Career Guidance System
 
-GenMentor is an intelligent career guidance system that combines AI-powered recommendations with community feedback to create personalized learning paths. Built on the ESCO (European Skills, Competences and Occupations) framework, it helps users identify skill gaps and provides structured learning plans to achieve their career goals.
+Cortex is an intelligent career guidance system that combines AI-powered recommendations with community feedback to create personalized learning paths. Built on the ESCO (European Skills, Competences and Occupations) framework, it helps users identify skill gaps and provides structured learning plans to achieve their career goals.
 
 ## Features
 
@@ -33,7 +33,7 @@ The system follows a hybrid approach combining:
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd Hybrid-GenMentor
+   cd Hybrid-Cortex
    ```
 
 2. **Install dependencies:**
@@ -45,7 +45,7 @@ The system follows a hybrid approach combining:
    ```bash
    python setup_database.py
    ```
-   This will create `genmentor.db` and populate it with ESCO data from the CSV files.
+   This will create `Cortex.db` and populate it with ESCO data from the CSV files.
 
 4. **Configure API keys (optional but recommended):**
    - Get a Google API key for Gemini
@@ -144,12 +144,12 @@ The system uses SQLite with the following main tables:
 ## Project Structure
 
 ```
-Hybrid-GenMentor/
+Hybrid-Cortex/
 ├── setup_database.py      # Database initialization
 ├── ai_engine.py          # Core AI functionality
 ├── app.py               # Flask API server
 ├── test_client.py       # API testing client
-├── genmentor.db         # SQLite database (created after setup)
+├── Cortex.db         # SQLite database (created after setup)
 ├── occupation_embeddings.pkl  # Cached embeddings (created after first run)
 ├── occupations_en.csv   # ESCO occupation data
 ├── skills_en.csv        # ESCO skill data
@@ -171,7 +171,7 @@ The project was developed following a structured approach:
 - Ingested ESCO CSV data
 - Implemented efficient indexing
 
-### Phase 2: Implementing the GenMentor AI Engine ✅
+### Phase 2: Implementing the Cortex AI Engine ✅
 - Built skill identifier with semantic matching
 - Created path scheduler with dependency resolution
 - Implemented RAG-based content creator
@@ -231,13 +231,6 @@ This project is part of academic research. Please refer to the institution's pol
 - **NetworkX**: For graph-based dependency analysis
 - **Google Gemini**: For advanced language model capabilities
 
-## Support
-
-For questions or issues:
-1. Check the API documentation at `http://localhost:5000`
-2. Review the test client examples in `test_client.py`
-3. Examine the database structure using any SQLite browser
-
 ---
 
-**GenMentor**: *Guiding careers through intelligent learning paths*
+**Cortex**: *Guiding careers through intelligent learning paths*
