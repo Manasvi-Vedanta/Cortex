@@ -94,7 +94,7 @@ Based on comprehensive testing (15 test cases):
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Manasvi-Vedanta/Cortex.git
+git clone https://github.com/Manasvi-Vedanta/Hybrid-GenMentor.git
 cd Hybrid-GenMentor
 ```
 
@@ -404,7 +404,7 @@ MIT License - see [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/Manasvi-Vedanta/Cortex/issues)
+- **Issues**: [GitHub Issues](https://github.com/Manasvi-Vedanta/Hybrid-GenMentor/issues)
 - **Documentation**: See `COMPLETE_SYSTEM_EXPLANATION.md`
 
 ---
