@@ -16,14 +16,52 @@ from typing import List, Dict, Tuple, Any
 import pickle
 from sklearn.metrics.pairwise import cosine_similarity
 
+# Import similarity metrics module
+try:
+    from similarity_metrics import SimilarityMetrics, compare_metrics_performance
+    SIMILARITY_METRICS_AVAILABLE = True
+except ImportError:
+    SIMILARITY_METRICS_AVAILABLE = False
+    print("⚠️ similarity_metrics module not available, using basic cosine similarity only")
+
 class GenMentorAI:
-    """Main AI engine for GenMentor system."""
+    """Main AI engine for GenMentor system with enhanced similarity metrics."""
     
-    def __init__(self, db_path: str = 'genmentor.db', api_key: str = None):
-        """Initialize the GenMentor AI engine."""
+    def __init__(self, db_path: str = 'genmentor.db', api_key: str = None, model_name: str = 'all-mpnet-base-v2'):
+        """
+        Initialize the GenMentor AI engine with advanced capabilities.
+        
+        Args:
+            db_path: Path to SQLite database
+            api_key: Gemini API key
+            model_name: Sentence transformer model to use
+                       Options: 'all-MiniLM-L6-v2' (384 dim, fast)
+                               'all-mpnet-base-v2' (768 dim, more accurate)
+                               'all-distilroberta-v1' (768 dim, balanced)
+        """
         self.db_path = db_path
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
-        self.embeddings_cache_path = 'occupation_embeddings.pkl'
+        
+        # Initialize advanced similarity metrics
+        if SIMILARITY_METRICS_AVAILABLE:
+            self.similarity_metrics = SimilarityMetrics()
+            print(f"✅ Advanced similarity metrics initialized")
+        else:
+            self.similarity_metrics = None
+        
+        # Initialize sentence transformer with specified model
+        print(f"Loading sentence transformer model: {model_name}...")
+        try:
+            self.model = SentenceTransformer(model_name)
+            self.model_name = model_name
+            self.embedding_dim = self.model.get_sentence_embedding_dimension()
+            print(f"✅ Loaded {model_name} (dimension: {self.embedding_dim})")
+        except Exception as e:
+            print(f"⚠️ Failed to load {model_name}, falling back to all-MiniLM-L6-v2")
+            self.model = SentenceTransformer('all-MiniLM-L6-v2')
+            self.model_name = 'all-MiniLM-L6-v2'
+            self.embedding_dim = 384
+        
+        self.embeddings_cache_path = f'occupation_embeddings_{self.model_name.replace("/", "_")}.pkl'
         
         # Configure Gemini API with explicit API key
         if not api_key:

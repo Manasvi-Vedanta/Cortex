@@ -121,6 +121,17 @@ def index():
     """API documentation homepage."""
     return render_template_string(API_DOCS_TEMPLATE)
 
+@app.route('/api/health', methods=['GET'])
+def health_check():
+    """Quick health check endpoint to verify API is working."""
+    return jsonify({
+        'status': 'healthy',
+        'message': 'GenMentor API is running',
+        'model': ai_engine.model_name,
+        'embedding_dimension': ai_engine.embedding_dim,
+        'llm_available': ai_engine.llm_model is not None
+    })
+
 @app.route('/api/path', methods=['POST'])
 def generate_learning_path():
     """Generate personalized learning path."""
@@ -140,8 +151,8 @@ def generate_learning_path():
         # Schedule learning path
         learning_path = []
         if skill_gap_result['skill_gap']:
-            # Limit to first 20 skills for performance
-            limited_skills = skill_gap_result['skill_gap'][:20]
+            # Limit to first 15 skills for better performance (reduced from 20)
+            limited_skills = skill_gap_result['skill_gap'][:15]
             learning_path = ai_engine.schedule_learning_path(limited_skills)
         
         response = {
@@ -300,6 +311,12 @@ def get_stats():
         conn.close()
         
         return jsonify({
+            'total_occupations': stats.get('occupations', 0),
+            'total_skills': stats.get('skills', 0),
+            'total_votes': stats.get('votes', 0),
+            'total_suggestions': stats.get('suggestions', 0),
+            'total_occupation_skill_relations': stats.get('occupation_skill_relations', 0),
+            'total_skill_skill_relations': stats.get('skill_skill_relations', 0),
             'database_stats': stats,
             'top_voted_skills': top_voted,
             'ai_engine_status': 'active',
