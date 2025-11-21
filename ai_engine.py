@@ -65,17 +65,17 @@ class GenMentorAI:
         
         # Configure Gemini API with explicit API key
         if not api_key:
-            api_key = "AIzaSyCxzK8D-PQQl9sCCu0uVMRFjdhZjn3Sda4"  # Your API key
+            api_key = "AIzaSyDRf_5b1YQxEyr80pnq9pI8NmT_ZWuNKjs"  # Your API key
         
         try:
             genai.configure(api_key=api_key)
-            self.llm_model = genai.GenerativeModel('gemini-2.5-pro')  # Using latest Gemini 2.5 Pro model
-            # Skip test call to avoid timeout during startup
-            # test_response = self.llm_model.generate_content("Hello")
-            print("✅ Gemini 2.5 Pro API configured successfully!")
+            self.llm_model = genai.GenerativeModel('gemini-2.0-flash')  # Primary model
+            self.llm_model_flash = genai.GenerativeModel('gemini-2.0-flash')  # Fallback model
+            print("✅ Gemini 2.0 Flash API configured successfully!")
         except Exception as e:
             print(f"❌ Gemini API initialization failed: {e}")
             self.llm_model = None
+            self.llm_model_flash = None
             print("⚠️ Falling back to template-based content generation")
         
         # Load or create occupation embeddings
@@ -194,18 +194,32 @@ class GenMentorAI:
         skill_gap = []
         recognized_skills = []
         
+        # Determine user level (beginner if few/no skills)
+        is_beginner = len(user_current_skills) < 3
+        
         for skill_data in relevant_skills:
             uri, label, description, relation_type = skill_data
             if not self._is_skill_covered(label, user_skills_lower):
+                # Skip soft skills and irrelevant conceptual skills
+                if self._is_soft_or_irrelevant_skill(label):
+                    continue
+                
+                # Skip overly advanced/specialized skills for beginners
+                if is_beginner and self._is_too_advanced_for_beginners(label):
+                    continue
+                    
                 # Enhanced priority calculation based on goal alignment
                 priority = self._calculate_enhanced_skill_priority(label, relation_type, goal_string)
+                difficulty = self._estimate_skill_difficulty(label)
+                
                 skill_gap.append({
                     'uri': uri,
                     'label': label,
                     'description': description,
                     'relation_type': relation_type,
                     'priority': priority,
-                    'relevance_score': self._calculate_skill_goal_relevance(label, goal_string)
+                    'relevance_score': self._calculate_skill_goal_relevance(label, goal_string),
+                    'difficulty': difficulty
                 })
             else:
                 recognized_skills.append(label)
@@ -391,10 +405,27 @@ class GenMentorAI:
         return False
     
     def _super_expand_goal_with_domain_knowledge(self, goal_string: str) -> str:
-        """Super-enhanced goal expansion with deep domain knowledge for maximum similarity."""
+        """Super-enhanced goal expansion with exact keyword boosting for maximum similarity."""
         goal_lower = goal_string.lower()
         
-        # Comprehensive domain mappings for data science career transitions
+        # BOOST EXACT MATCHES: Check for exact occupation names first
+        exact_occupation_matches = {
+            'data scientist': 'data scientist machine learning statistics python analytics',
+            'machine learning engineer': 'machine learning engineer artificial intelligence deep learning',
+            'computer vision engineer': 'computer vision engineer image processing deep learning',
+            'ai engineer': 'artificial intelligence engineer machine learning deep learning neural networks',
+            'web developer': 'web developer javascript html css frontend backend',
+            'full stack': 'full stack developer web developer javascript python',
+            'devops': 'devops engineer cloud infrastructure kubernetes docker',
+            'mobile': 'mobile application developer android ios react native',
+        }
+        
+        # Check for exact matches and heavily boost them
+        for exact_key, boost_terms in exact_occupation_matches.items():
+            if exact_key in goal_lower:
+                return f"{goal_string} {boost_terms} {boost_terms} {boost_terms}"  # Triple boost for exact matches
+        
+        # Comprehensive domain mappings for other cases
         domain_expansions = {
             'data science': [
                 'data scientist', 'machine learning engineer', 'data analyst', 'research scientist',
@@ -404,13 +435,6 @@ class GenMentorAI:
                 'data engineering', 'database analysis', 'statistical computing', 'research methodology',
                 'analytics professional', 'data professional', 'quantitative researcher', 'business analyst',
                 'marketing data scientist', 'customer analytics specialist', 'digital analyst'
-            ],
-            'data scientist': [
-                'machine learning', 'statistical analysis', 'python programming', 'r programming',
-                'data visualization', 'predictive analytics', 'statistical modeling', 'data mining',
-                'artificial intelligence', 'big data', 'database querying', 'research scientist',
-                'quantitative analysis', 'hypothesis testing', 'experimental design', 'data interpretation',
-                'analytics', 'insights', 'modeling', 'algorithms', 'statistics'
             ],
             'data analyst': [
                 'business intelligence', 'reporting', 'dashboard creation', 'data visualization',
@@ -937,6 +961,155 @@ class GenMentorAI:
         
         return base_priority
     
+    def _is_soft_or_irrelevant_skill(self, skill_label: str) -> bool:
+        """Filter out soft skills and irrelevant conceptual skills."""
+        skill_lower = skill_label.lower()
+        
+        # ONLY filter pure soft skills - be very specific to avoid false positives
+        soft_skills = [
+            'critical thinking', 'analytical thinking', 'logical thinking',
+            'creative thinking', 'design thinking', 'ethical reasoning',
+            'problem-solving', 'communication', 'collaboration',
+            'digital literacy', 'research and analysis', 'visual communication',
+            'content creation', 'content development',
+            'process improvement', 'process optimization',
+            'collect customer feedback', 'interpret technical texts',
+            'translate requirements'
+        ]
+        
+        # Very generic phrases that indicate soft skills
+        generic_phrases = [
+            'knowledge of', 'familiarity with', 'awareness of', 'appreciation of',
+            'understanding of', 'experience with', 'solid understanding', 
+            'conceptual understanding', 'basic understanding'
+        ]
+        
+        # Check if it's a pure soft skill
+        for soft in soft_skills:
+            if soft == skill_lower or skill_lower.startswith(soft + ' '):
+                return True
+        
+        # Check if it starts with generic phrases but allow technical exceptions
+        technical_terms = [
+            'programming', 'framework', 'library', 'api', 'database', 'sql',
+            'javascript', 'python', 'java', 'react', 'angular', 'vue', 'node',
+            'cloud', 'aws', 'azure', 'docker', 'kubernetes', 'git', 'linux',
+            'machine learning', 'data', 'algorithm', 'testing', 'security',
+            'mobile', 'web', 'frontend', 'backend', 'devops', 'ci/cd'
+        ]
+        
+        for phrase in generic_phrases:
+            if phrase in skill_lower:
+                # Allow if it contains technical terms
+                if not any(tech in skill_lower for tech in technical_terms):
+                    return True
+        
+        return False
+    
+    def _filter_soft_skills_from_sessions(self, sessions: List[Dict]) -> List[Dict]:
+        """Remove soft/irrelevant skills from session skills list."""
+        filtered_sessions = []
+        for session in sessions:
+            filtered_skills = [
+                skill for skill in session.get('skills', [])
+                if not self._is_soft_or_irrelevant_skill(skill)
+            ]
+            
+            # Only include session if it has technical skills remaining
+            if filtered_skills:
+                session_copy = session.copy()
+                session_copy['skills'] = filtered_skills
+                filtered_sessions.append(session_copy)
+            elif session.get('skills'):
+                # Session had only soft skills, skip it entirely
+                print(f"  ⚠️  Filtered out session with only soft skills: {session.get('title', 'Unknown')}")
+        
+        return filtered_sessions
+    
+    def _filter_to_database_skills_only(self, sessions: List[Dict], allowed_skills: List[str]) -> List[Dict]:
+        """Keep ONLY skills that are from our database (in allowed_skills list)."""
+        # Create lowercase mapping for fuzzy matching
+        allowed_skills_lower = {skill.lower(): skill for skill in allowed_skills}
+        
+        filtered_sessions = []
+        total_removed = 0
+        
+        for session in sessions:
+            original_skills = session.get('skills', [])
+            
+            # Keep only skills that match database skills (case-insensitive)
+            kept_skills = []
+            for skill in original_skills:
+                skill_lower = skill.lower()
+                # Exact match or fuzzy match
+                if skill_lower in allowed_skills_lower:
+                    kept_skills.append(allowed_skills_lower[skill_lower])
+                elif skill in allowed_skills:
+                    kept_skills.append(skill)
+                else:
+                    # Check if it's a close match (substring)
+                    matched = False
+                    for db_skill in allowed_skills:
+                        if skill_lower in db_skill.lower() or db_skill.lower() in skill_lower:
+                            kept_skills.append(db_skill)
+                            matched = True
+                            break
+                    if not matched:
+                        total_removed += 1
+            
+            # Only include session if it has database skills remaining
+            if kept_skills:
+                session_copy = session.copy()
+                session_copy['skills'] = kept_skills
+                filtered_sessions.append(session_copy)
+        
+        if total_removed > 0:
+            print(f"  🗑️  Removed {total_removed} non-database skills from sessions")
+        
+        return filtered_sessions
+    
+    def _is_too_advanced_for_beginners(self, skill_label: str) -> bool:
+        """Filter out overly advanced/specialized skills for beginners."""
+        skill_lower = skill_label.lower()
+        
+        # Skip these for beginners
+        too_advanced = [
+            'consortium', 'w3c', 'domain name service', 'dns',
+            'scientific literature', 'draft scientific', 'empirical analysis',
+            'business process modelling', 'information architecture',
+            'resource description framework', 'sparql', 'rdf',
+            'normalise data', 'dimensionality reduction',
+            'utilise computer-aided', 'conduct literature research',
+            'migration to cloud', 'cloud security and compliance',
+            'system backup best practice', 'online analytical processing'
+        ]
+        
+        return any(adv in skill_lower for adv in too_advanced)
+    
+    def _estimate_skill_difficulty(self, skill_label: str) -> str:
+        """Estimate difficulty level of a skill."""
+        skill_lower = skill_label.lower()
+        
+        # Beginner-friendly skills
+        beginner_skills = [
+            'html', 'css', 'basic', 'introduction', 'fundamental',
+            'git', 'version control', 'sql basics'
+        ]
+        
+        # Advanced skills
+        advanced_skills = [
+            'machine learning', 'deep learning', 'neural network',
+            'kubernetes', 'microservices', 'distributed systems',
+            'algorithm', 'optimization', 'security', 'architecture'
+        ]
+        
+        if any(s in skill_lower for s in beginner_skills):
+            return 'beginner'
+        elif any(s in skill_lower for s in advanced_skills):
+            return 'advanced'
+        else:
+            return 'intermediate'
+    
     def schedule_learning_path(self, skill_gap: List[Dict]) -> List[Dict]:
         """
         Schedule learning path based on skill dependencies.
@@ -1036,57 +1209,51 @@ class GenMentorAI:
         if not self.llm_model:
             return self._create_basic_learning_sessions(ordered_skills)
         
-        skills_text = "\n".join([
-            f"- {skill['label']}: {skill.get('description', 'No description')} (Priority: {skill['priority']:.1f}, Votes: {skill.get('vote_score', 0)})"
-            for skill in ordered_skills[:20]  # Limit for token efficiency
-        ])
+        # Get exact skill labels from database - use ALL skills, not limited to 12
+        skills_list = [skill['label'] for skill in ordered_skills]
         
-        prompt = f"""
-        You are an expert learning path designer. Create a structured learning plan for these skills, grouping them logically into 7-10 sessions. Each session should have realistic duration estimates based on skill complexity.
+        prompt = f"""Create learning sessions using ONLY these exact skills from our database: {', '.join(skills_list)}
 
-        Skills to learn:
-        {skills_text}
+CRITICAL: Use ONLY the skills listed above. Do not add any other skills.
+For the "skills" field in each session, use the exact skill names from the list.
 
-        Guidelines:
-        1. Group related/prerequisite skills together
-        2. Start with foundational skills (programming, statistics)
-        3. Progress to advanced topics (machine learning, specialized tools)
-        4. Estimate realistic learning durations:
-           - Basic concepts: 2-4 hours
-           - Programming skills: 6-12 hours
-           - Complex frameworks: 8-16 hours
-           - Advanced topics: 10-20 hours
-        5. Prioritize skills with higher priority scores
-
-        Respond with ONLY a valid JSON object in this exact format:
-        {{
-            "sessions": [
-                {{
-                    "session_number": 1,
-                    "title": "Session Title",
-                    "objectives": ["objective1", "objective2"],
-                    "skills": ["skill1", "skill2"],
-                    "estimated_duration_hours": 8,
-                    "difficulty_level": "beginner|intermediate|advanced",
-                    "prerequisites": ["prerequisite1"]
-                }}
-            ]
-        }}
-        """
+Output JSON format:
+{{"sessions":[{{"session_number":1,"title":"title","objectives":["obj1"],"skills":["exact skill from list"],"estimated_duration_hours":8,"difficulty_level":"beginner","prerequisites":[]}}]}}"""
         
         try:
             print("🤖 Generating learning sessions with Gemini Pro...")
+            
             response = self.llm_model.generate_content(
                 prompt,
                 generation_config={
-                    'temperature': 0.3,
-                    'top_p': 0.8,
+                    'temperature': 0.2,
+                    'top_p': 0.9,
+                    'top_k': 40,
                     'max_output_tokens': 2048
-                }
+                },
+                safety_settings=[
+                    {'category': 'HARM_CATEGORY_HARASSMENT', 'threshold': 'BLOCK_NONE'},
+                    {'category': 'HARM_CATEGORY_HATE_SPEECH', 'threshold': 'BLOCK_NONE'},
+                    {'category': 'HARM_CATEGORY_SEXUALLY_EXPLICIT', 'threshold': 'BLOCK_NONE'},
+                    {'category': 'HARM_CATEGORY_DANGEROUS_CONTENT', 'threshold': 'BLOCK_NONE'}
+                ]
             )
             
+            # Try to access response text directly without finish_reason check
+            try:
+                response_text = response.text.strip()
+            except Exception as text_error:
+                # If we can't get text, check finish_reason
+                if hasattr(response, 'candidates') and response.candidates:
+                    if response.candidates[0].finish_reason == 2:
+                        print("⚠️ Gemini Pro response blocked by safety filters")
+                        if hasattr(response.candidates[0], 'safety_ratings'):
+                            print(f"   Safety ratings: {response.candidates[0].safety_ratings}")
+                        print("   Switching to fallback...")
+                        raise Exception(f"finish_reason=2: {str(text_error)}")
+                raise text_error
+            
             # Clean and parse JSON response
-            response_text = response.text.strip()
             
             # Remove markdown code blocks if present
             if response_text.startswith('```'):
@@ -1100,16 +1267,74 @@ class GenMentorAI:
                 learning_plan = json.loads(json_match.group())
                 sessions = learning_plan.get('sessions', [])
                 
+                # Filter out soft/irrelevant skills from generated sessions
+                sessions = self._filter_soft_skills_from_sessions(sessions)
+                
+                # Filter to keep ONLY database skills (remove any skills Gemini added)
+                sessions = self._filter_to_database_skills_only(sessions, skills_list)
+                
                 print(f"✅ Generated {len(sessions)} learning sessions with Gemini Pro")
                 return sessions
             else:
                 print("⚠️ Could not parse JSON from Gemini response, using fallback")
                 
         except Exception as e:
-            print(f"❌ Error generating learning sessions with Gemini: {e}")
+            error_str = str(e)
+            
+            # Check if it's a rate limit error (429 or quota exceeded)
+            if '429' in error_str or 'quota' in error_str.lower() or 'rate' in error_str.lower():
+                print(f"⚠️ Gemini Pro rate limited, switching to Gemini Flash...")
+                
+                # Try with Flash model
+                try:
+                    response = self.llm_model_flash.generate_content(
+                        prompt,
+                        generation_config={
+                            'temperature': 0.2,
+                            'top_p': 0.9,
+                            'top_k': 40,
+                            'max_output_tokens': 2048
+                        },
+                        safety_settings=[
+                            {'category': 'HARM_CATEGORY_HARASSMENT', 'threshold': 'BLOCK_NONE'},
+                            {'category': 'HARM_CATEGORY_HATE_SPEECH', 'threshold': 'BLOCK_NONE'},
+                            {'category': 'HARM_CATEGORY_SEXUALLY_EXPLICIT', 'threshold': 'BLOCK_NONE'},
+                            {'category': 'HARM_CATEGORY_DANGEROUS_CONTENT', 'threshold': 'BLOCK_NONE'}
+                        ]
+                    )
+                    
+                    # Try to access Flash response text
+                    try:
+                        response_text = response.text.strip()
+                    except Exception as flash_error:
+                        if hasattr(response, 'candidates') and response.candidates:
+                            if response.candidates[0].finish_reason == 2:
+                                print("⚠️ Gemini Flash also blocked, using enhanced basic sessions...")
+                                raise Exception(f"finish_reason=2: {str(flash_error)}")
+                        raise flash_error
+                    if response_text.startswith('```'):
+                        lines = response_text.split('\n')
+                        response_text = '\n'.join(lines[1:-1])
+                    
+                    json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+                    if json_match:
+                        learning_plan = json.loads(json_match.group())
+                        sessions = learning_plan.get('sessions', [])
+                        
+                        # Filter out soft/irrelevant skills from generated sessions
+                        sessions = self._filter_soft_skills_from_sessions(sessions)
+                        
+                        # Filter to keep ONLY database skills
+                        sessions = self._filter_to_database_skills_only(sessions, skills_list)
+                        
+                        print(f"✅ Generated {len(sessions)} learning sessions with Gemini Flash")
+                        return sessions
+                        
+                except Exception as flash_error:
+                    print(f"❌ Gemini Flash also failed: {flash_error}")
+            else:
+                print(f"❌ Error generating learning sessions with Gemini: {e}")
         
-        # Fallback to enhanced basic sessions
-        return self._create_enhanced_basic_sessions(ordered_skills)
         # Fallback to enhanced basic sessions
         return self._create_enhanced_basic_sessions(ordered_skills)
     
@@ -1151,9 +1376,10 @@ class GenMentorAI:
         # Session 1: Foundations
         if categorized_skills['foundations']:
             foundation_guides = self._generate_skill_guides(categorized_skills['foundations'])
+            title = self._generate_session_title(categorized_skills['foundations'], 'Foundations')
             sessions.append({
                 'session_number': session_number,
-                'title': 'Foundation Skills',
+                'title': title,
                 'skills': [s['label'] for s in categorized_skills['foundations']],
                 'skill_details': categorized_skills['foundations'],
                 'duration': f"{self._estimate_session_duration(categorized_skills['foundations'])} hours",
@@ -1168,9 +1394,10 @@ class GenMentorAI:
         # Session 2: Programming Basics
         if categorized_skills['programming']:
             programming_guides = self._generate_skill_guides(categorized_skills['programming'])
+            title = self._generate_session_title(categorized_skills['programming'], 'Programming Languages')
             sessions.append({
                 'session_number': session_number,
-                'title': 'Programming & Query Languages',
+                'title': title,
                 'skills': [s['label'] for s in categorized_skills['programming']],
                 'skill_details': categorized_skills['programming'],
                 'duration': f"{self._estimate_session_duration(categorized_skills['programming'])} hours",
@@ -1185,9 +1412,10 @@ class GenMentorAI:
         # Session 3: Data Tools
         if categorized_skills['data_tools']:
             data_tools_guides = self._generate_skill_guides(categorized_skills['data_tools'])
+            title = self._generate_session_title(categorized_skills['data_tools'], 'Data Tools')
             sessions.append({
                 'session_number': session_number,
-                'title': 'Data Analysis Tools',
+                'title': title,
                 'skills': [s['label'] for s in categorized_skills['data_tools']],
                 'skill_details': categorized_skills['data_tools'],
                 'duration': f"{self._estimate_session_duration(categorized_skills['data_tools'])} hours",
@@ -1207,9 +1435,11 @@ class GenMentorAI:
             ('specialized', 'Specialized Topics', 'advanced', ['Apply domain-specific techniques', 'Advanced implementations'])
         ]
         
-        for category, title, difficulty, objectives in category_sessions:
+        for category, default_title, difficulty, objectives in category_sessions:
             if categorized_skills[category]:
                 category_guides = self._generate_skill_guides(categorized_skills[category])
+                # Generate dynamic title based on actual skills
+                title = self._generate_session_title(categorized_skills[category], default_title)
                 sessions.append({
                     'session_number': session_number,
                     'title': title,
@@ -1227,9 +1457,11 @@ class GenMentorAI:
         # Add uncategorized skills to final session with comprehensive guides
         if uncategorized_skills:
             additional_guides = self._generate_skill_guides(uncategorized_skills)
+            # Generate dynamic title for uncategorized skills too
+            title = self._generate_session_title(uncategorized_skills, 'Additional Skills')
             sessions.append({
                 'session_number': session_number,
-                'title': 'Additional Skills',
+                'title': title,
                 'skills': [s['label'] for s in uncategorized_skills],
                 'skill_details': uncategorized_skills,
                 'duration': f"{self._estimate_session_duration(uncategorized_skills)} hours",
@@ -1241,6 +1473,38 @@ class GenMentorAI:
             })
         
         return sessions
+    
+    def _generate_session_title(self, skills: List[Dict], default_category: str) -> str:
+        """Generate a descriptive session title based on actual skills."""
+        if not skills:
+            return default_category
+        
+        # Extract key skill names (take first 2-3 most relevant)
+        skill_names = [s['label'] for s in skills[:3]]
+        
+        # Capitalize and format nicely
+        formatted_skills = []
+        for skill in skill_names:
+            # Clean up skill name
+            skill_clean = skill.replace('(computer programming)', '').replace('ICT', '').strip()
+            # Capitalize properly
+            words = skill_clean.split()
+            formatted = ' '.join([w.capitalize() if len(w) > 2 else w for w in words])
+            formatted_skills.append(formatted)
+        
+        # Create title
+        if len(formatted_skills) == 1:
+            title = f"{formatted_skills[0]} Fundamentals"
+        elif len(formatted_skills) == 2:
+            title = f"{formatted_skills[0]} & {formatted_skills[1]}"
+        else:
+            title = f"{formatted_skills[0]}, {formatted_skills[1]} & More"
+        
+        # Add skill count if many skills
+        if len(skills) > 3:
+            title += f" ({len(skills)} Skills)"
+        
+        return title
     
     def _estimate_session_duration(self, skills: List[Dict]) -> int:
         """Estimate session duration based on skill complexity and count."""

@@ -1,0 +1,540 @@
+{
+  "scenario": "AI Engineer",
+  "status": "success",
+  "goal": "I want to become an AI engineer specializing in deep learning",
+  "current_skills": [
+    "Python",
+    "Machine learning basics"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+    "label": " artificial intelligence engineer ",
+    "description": "Artificial intelligence engineer apply methods of artificial intelligence in engineering, robotics and computer science to design programs which simulate intelligence including thinking models, cognitive and knowledge-based systems, problem solving, and decision making. They also integrate structured knowledge into computer systems (ontologies, knowledge bases) in order to solve complex problems normally requiring a high level of human expertise or artificial intelligence methods.",
+    "similarity_score": 0.9326030611991882
+  },
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "Computer Simulation, Information Architecture & More (9 Skills)",
+      "skills": [
+        "computer simulation",
+        "information architecture",
+        "algorithms",
+        "artificial neural networks",
+        "information extraction",
+        "task algorithmisation",
+        "information categorisation",
+        "business process modelling",
+        "resource description framework query language"
+      ],
+      "skill_details": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/0823ccef-813f-4f22-afef-ac0d68615e8f",
+          "label": "computer simulation",
+          "description": "A programme run on a computer that represents dynamic responses of a system to explore a mathematical model behaviour, using a model of a real system, composed of mathematical equations.  ",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/1bba98a7-92b9-450b-9235-e0c905f8f3c4",
+          "label": "information architecture",
+          "description": "The methods through which information is generated, structured, stored, maintained, linked, exchanged and used.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38",
+          "label": "algorithms",
+          "description": "The self-contained step-by-step sets of operations that carry out calculations, data processing and automated reasoning, usually to solve problems.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5608d5a0-6d5e-43b7-be37-616501729bb4",
+          "label": "artificial neural networks",
+          "description": "A network of artificial neurons composed for solving artificial intelligence problems. These computing systems are inspired by the biological neural networks that constitute brains. Understanding of its general model and its  elements. Knowledge of its use possibilities for automation. ",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec",
+          "label": "information extraction",
+          "description": "The techniques and methods used for eliciting and extracting information from unstructured or semi-structured digital documents and sources.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+          "label": "task algorithmisation",
+          "description": "The techniques to convert unstructured descriptions of a process into step-by-step sequence of actions of a finite number of steps.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6",
+          "label": "information categorisation",
+          "description": "The process of classifying the information into categories and showing relationships between the data for some clearly defined purposes.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb",
+          "label": "business process modelling",
+          "description": "The tools, methods and notations such as Business Process Model and Notation (BPMN) and Business Process Execution Language (BPEL), used to describe and analyse the characteristics of a business process and model its further development.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/99207709-d076-4cce-ba38-e90d3bb28806",
+          "label": "resource description framework query language",
+          "description": "The query languages such as SPARQL which are used to retrieve and manipulate data stored in Resource Description Framework format (RDF).",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        }
+      ],
+      "duration": "20 hours",
+      "estimated_duration_hours": 20,
+      "difficulty_level": "beginner",
+      "objectives": [
+        "Master essential programming languages",
+        "Learn database querying"
+      ],
+      "comprehensive_guides": {
+        "computer simulation": "# 📚 Comprehensive Guide: computer simulation\n\n## 🎯 Overview\nA programme run on a computer that represents dynamic responses of a system to explore a mathematical model behaviour, using a model of a real system, composed of mathematical equations.  \n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply computer simulation in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why computer simulation matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How computer simulation enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "information architecture": "# 📚 Comprehensive Guide: information architecture\n\n## 🎯 Overview\nThe methods through which information is generated, structured, stored, maintained, linked, exchanged and used.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply information architecture in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why information architecture matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How information architecture enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "algorithms": "# 📚 Comprehensive Guide: algorithms\n\n## 🎯 Overview\nThe self-contained step-by-step sets of operations that carry out calculations, data processing and automated reasoning, usually to solve problems.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply algorithms in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why algorithms matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How algorithms enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "artificial neural networks": "# 📚 Comprehensive Guide: artificial neural networks\n\n## 🎯 Overview\nA network of artificial neurons composed for solving artificial intelligence problems. These computing systems are inspired by the biological neural networks that constitute brains. Understanding of its general model and its  elements. Knowledge of its use possibilities for automation. \n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply artificial neural networks in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why artificial neural networks matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How artificial neural networks enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "information extraction": "# 📚 Comprehensive Guide: information extraction\n\n## 🎯 Overview\nThe techniques and methods used for eliciting and extracting information from unstructured or semi-structured digital documents and sources.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply information extraction in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why information extraction matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How information extraction enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "task algorithmisation": "# 📚 Comprehensive Guide: task algorithmisation\n\n## 🎯 Overview\nThe techniques to convert unstructured descriptions of a process into step-by-step sequence of actions of a finite number of steps.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply task algorithmisation in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why task algorithmisation matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How task algorithmisation enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "information categorisation": "# 📚 Comprehensive Guide: information categorisation\n\n## 🎯 Overview\nThe process of classifying the information into categories and showing relationships between the data for some clearly defined purposes.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply information categorisation in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why information categorisation matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How information categorisation enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "business process modelling": "# 📚 Comprehensive Guide: business process modelling\n\n## 🎯 Overview\nThe tools, methods and notations such as Business Process Model and Notation (BPMN) and Business Process Execution Language (BPEL), used to describe and analyse the characteristics of a business process and model its further development.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply business process modelling in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why business process modelling matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How business process modelling enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "resource description framework query language": "# 📚 Comprehensive Guide: resource description framework query language\n\n## 🎯 Overview\nThe query languages such as SPARQL which are used to retrieve and manipulate data stored in Resource Description Framework format (RDF).\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply resource description framework query language in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why resource description framework query language matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How resource description framework query language enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "learning_resources": {
+        "online_courses": [],
+        "tutorials": [],
+        "documentation": [],
+        "practice_platforms": [],
+        "communities": []
+      }
+    },
+    {
+      "session_number": 2,
+      "title": "Data Visualization",
+      "skills": [
+        "data visualization"
+      ],
+      "skill_details": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213",
+          "label": "data visualization",
+          "description": "The visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        }
+      ],
+      "duration": "7 hours",
+      "estimated_duration_hours": 7,
+      "difficulty_level": "intermediate",
+      "objectives": [
+        "Create compelling visual narratives",
+        "Master visualization tools"
+      ],
+      "comprehensive_guides": {
+        "data visualization": "# 📚 Comprehensive Guide: data visualization\n\n## 🎯 Overview\nThe visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data visualization in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data visualization matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data visualization enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "learning_resources": {
+        "online_courses": [
+          "Microsoft Power BI Course",
+          "Google Data Analytics Certificate",
+          "IBM Data Science Specialization"
+        ],
+        "tutorials": [
+          "Pandas Documentation Tutorials",
+          "NumPy Quickstart",
+          "Matplotlib Tutorials"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "NumPy Documentation",
+          "Pandas Documentation"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "Kaggle Learn",
+          "DataCamp Practice"
+        ],
+        "communities": [
+          "KDnuggets Community",
+          "r/analytics",
+          "Data Science Central"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "data visualization": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=data+visualization+tutorial",
+        "resource_title": "data visualization Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning data visualization",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:47:04"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=data visualization",
+        "resource_title": "data visualization - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about data visualization",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:47:04"
+      }
+    ],
+    "business process modelling": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=business+process+modelling+tutorial",
+        "resource_title": "business process modelling Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning business process modelling",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:56:16"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=business process modelling",
+        "resource_title": "business process modelling - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about business process modelling",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:56:16"
+      }
+    ],
+    "information architecture": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=information+architecture+tutorial",
+        "resource_title": "information architecture Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning information architecture",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:56:14"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=information architecture",
+        "resource_title": "information architecture - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about information architecture",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:56:14"
+      },
+      {
+        "resource_url": "https://github.com/dafthack/MailSniper",
+        "resource_title": "MailSniper",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.). It can be used as a non-administrative user to search their own email, or by an administrator to search the mailboxes of every user in a domain.",
+        "difficulty_level": "",
+        "quality_score": 0.3148,
+        "created_at": "2025-11-16 08:56:14"
+      },
+      {
+        "resource_url": "https://github.com/sashs/Ropper",
+        "resource_title": "Ropper",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "Display information about files in different file formats and find gadgets to build rop chains for different architectures (x86/x86_64, ARM/ARM64, MIPS, PowerPC, SPARC64). For disassembly ropper uses the awesome Capstone Framework. ",
+        "difficulty_level": "",
+        "quality_score": 0.2063,
+        "created_at": "2025-11-16 08:56:14"
+      },
+      {
+        "resource_url": "https://github.com/ningyu1/e-books",
+        "resource_title": "e-books",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "IT technical related e-books and PPT information, continuous updating. For those in need, Keep real, peace and love.",
+        "difficulty_level": "",
+        "quality_score": 0.0755,
+        "created_at": "2025-11-16 08:56:14"
+      },
+      {
+        "resource_url": "https://github.com/acpica/acpica",
+        "resource_title": "acpica",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI).  For detailed project  information and downloads, go to https://www.acpica.org.  For ACPICA contributor and source code licensing information,  go to ",
+        "difficulty_level": "",
+        "quality_score": 0.0573,
+        "created_at": "2025-11-16 08:56:14"
+      },
+      {
+        "resource_url": "https://github.com/milinda/kappa-architecture.com",
+        "resource_title": "kappa-architecture.com",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "A repository of information, implementations and examples around the Kappa Architecture",
+        "difficulty_level": "",
+        "quality_score": 0.0461,
+        "created_at": "2025-11-16 08:56:14"
+      }
+    ],
+    "information extraction": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=information+extraction+tutorial",
+        "resource_title": "information extraction Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning information extraction",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:47:04"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=information extraction",
+        "resource_title": "information extraction - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about information extraction",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:47:04"
+      }
+    ],
+    "resource description framework query language": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=resource+description+framework+query+language+tutorial",
+        "resource_title": "resource description framework query language Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning resource description framework query language",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:47:04"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=resource description framework query language",
+        "resource_title": "resource description framework query language - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about resource description framework query language",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:47:04"
+      }
+    ],
+    "computer simulation": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=computer+simulation+tutorial",
+        "resource_title": "computer simulation Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning computer simulation",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:55:22"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=computer simulation",
+        "resource_title": "computer simulation - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about computer simulation",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:55:22"
+      },
+      {
+        "resource_url": "https://github.com/gem5/gem5",
+        "resource_title": "gem5",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "The official repository for the gem5 computer-system architecture simulator.",
+        "difficulty_level": "",
+        "quality_score": 0.2295,
+        "created_at": "2025-11-16 08:55:22"
+      },
+      {
+        "resource_url": "https://github.com/unrealcv/unrealcv",
+        "resource_title": "unrealcv",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "UnrealCV: Connecting Computer Vision to Unreal Engine",
+        "difficulty_level": "",
+        "quality_score": 0.2069,
+        "created_at": "2025-11-16 08:55:22"
+      },
+      {
+        "resource_url": "https://github.com/doyubkim/fluid-engine-dev",
+        "resource_title": "fluid-engine-dev",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "Fluid simulation engine for computer graphics applications",
+        "difficulty_level": "",
+        "quality_score": 0.2045,
+        "created_at": "2025-11-16 08:55:22"
+      },
+      {
+        "resource_url": "https://github.com/simh/simh",
+        "resource_title": "simh",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "The Computer History Simulation Project ",
+        "difficulty_level": "",
+        "quality_score": 0.1793,
+        "created_at": "2025-11-16 08:55:22"
+      },
+      {
+        "resource_url": "https://github.com/mit-han-lab/torchquantum",
+        "resource_title": "torchquantum",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "A PyTorch-based framework for Quantum Classical Simulation, Quantum Machine Learning, Quantum Neural Networks, Parameterized Quantum Circuits with support for easy deployments on real quantum computers.",
+        "difficulty_level": "",
+        "quality_score": 0.1568,
+        "created_at": "2025-11-16 08:55:22"
+      }
+    ],
+    "task algorithmisation": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=task+algorithmisation+tutorial",
+        "resource_title": "task algorithmisation Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning task algorithmisation",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:56:15"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=task algorithmisation",
+        "resource_title": "task algorithmisation - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about task algorithmisation",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:56:15"
+      }
+    ],
+    "artificial neural networks": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=artificial+neural+networks+tutorial",
+        "resource_title": "artificial neural networks Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning artificial neural networks",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:56:15"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=artificial neural networks",
+        "resource_title": "artificial neural networks - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about artificial neural networks",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:56:15"
+      }
+    ],
+    "information categorisation": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=information+categorisation+tutorial",
+        "resource_title": "information categorisation Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning information categorisation",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:47:04"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=information categorisation",
+        "resource_title": "information categorisation - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about information categorisation",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:47:04"
+      }
+    ],
+    "algorithms": [
+      {
+        "resource_url": "https://www.youtube.com/results?search_query=algorithms+tutorial",
+        "resource_title": "algorithms Tutorial - YouTube",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Video tutorials for learning algorithms",
+        "difficulty_level": "",
+        "quality_score": 0.8,
+        "created_at": "2025-11-16 08:56:14"
+      },
+      {
+        "resource_url": "https://medium.com/search?q=algorithms",
+        "resource_title": "algorithms - Medium Articles",
+        "resource_type": "article",
+        "provider": "Medium",
+        "description": "Articles and tutorials about algorithms",
+        "difficulty_level": "",
+        "quality_score": 0.7,
+        "created_at": "2025-11-16 08:56:14"
+      }
+    ]
+  },
+  "statistics": {
+    "total_hours": 27,
+    "total_skills": 10,
+    "duration_days": 9,
+    "total_sessions": 2,
+    "total_resources": 30
+  },
+  "performance": {
+    "skill_gap_time": 17.49154496192932,
+    "schedule_time": 36.169673919677734,
+    "resources_time": 0.006284475326538086,
+    "total_time": 53.66941022872925
+  }
+}

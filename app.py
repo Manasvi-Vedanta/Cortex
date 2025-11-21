@@ -3,12 +3,22 @@ GenMentor Flask API Server
 Web API server that exposes the GenMentor AI functionality.
 """
 
-from flask import Flask, request, jsonify, render_template_string
+from flask import Flask, request, jsonify, render_template_string, send_file
 from flask import send_from_directory
 import os
 import json
 from ai_engine import GenMentorAI, add_vote_to_db, add_suggestion_to_db, analyze_feedback
 from typing import Dict, List, Any
+
+# Import new modules
+try:
+    from community_feedback import CommunityFeedbackSystem
+    from learning_path_visualizer import LearningPathVisualizer
+    from resource_curator import ResourceCurator
+    ENHANCED_FEATURES_AVAILABLE = True
+except ImportError as e:
+    print(f"⚠️ Enhanced features not available: {e}")
+    ENHANCED_FEATURES_AVAILABLE = False
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -16,6 +26,18 @@ app.config['JSON_SORT_KEYS'] = False
 
 # Initialize AI engine
 ai_engine = GenMentorAI()
+
+# Initialize enhanced features if available
+if ENHANCED_FEATURES_AVAILABLE:
+    feedback_system = CommunityFeedbackSystem()
+    visualizer = LearningPathVisualizer()
+    resource_curator = ResourceCurator()
+    print("✅ Enhanced features initialized: Feedback, Visualization, Resource Curation")
+else:
+    feedback_system = None
+    visualizer = None
+    resource_curator = None
+    print("⚠️ Running with basic features only")
 
 # HTML template for API documentation
 API_DOCS_TEMPLATE = """
@@ -423,6 +445,394 @@ def search_skills():
             'count': len(results)
         })
         
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+# ==================== ENHANCED COMMUNITY FEEDBACK ENDPOINTS ====================
+
+@app.route('/api/feedback/vote', methods=['POST'])
+def enhanced_vote():
+    """Enhanced voting endpoint with item types."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        data = request.get_json()
+        item_uri = data.get('item_uri')
+        item_type = data.get('item_type', 'skill')  # 'skill', 'occupation', 'session', 'resource'
+        user_id = data.get('user_id', 'anonymous')
+        vote_value = data.get('vote', 1)  # -1, 0, 1
+        
+        if not item_uri:
+            return jsonify({'error': 'item_uri is required'}), 400
+        
+        stats = feedback_system.add_vote(item_uri, item_type, user_id, vote_value)
+        
+        return jsonify({
+            'success': True,
+            'message': 'Vote recorded',
+            'stats': stats
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/feedback/suggest', methods=['POST'])
+def enhanced_suggest():
+    """Add a suggestion with community voting support."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        data = request.get_json()
+        item_uri = data.get('item_uri')
+        item_type = data.get('item_type', 'general')
+        user_id = data.get('user_id', 'anonymous')
+        suggestion_type = data.get('suggestion_type', 'general')
+        suggestion_text = data.get('suggestion_text')
+        
+        if not all([item_uri, suggestion_text]):
+            return jsonify({'error': 'item_uri and suggestion_text are required'}), 400
+        
+        suggestion_id = feedback_system.add_suggestion(
+            item_uri, item_type, user_id, suggestion_type, suggestion_text
+        )
+        
+        return jsonify({
+            'success': True,
+            'suggestion_id': suggestion_id,
+            'message': 'Suggestion added successfully'
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/feedback/suggestions/pending', methods=['GET'])
+def get_pending_suggestions():
+    """Get pending suggestions with community support."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        min_score = request.args.get('min_score', 5, type=int)
+        suggestions = feedback_system.get_pending_suggestions(min_score)
+        
+        return jsonify({
+            'suggestions': suggestions,
+            'count': len(suggestions)
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/feedback/suggestions/<int:suggestion_id>/vote', methods=['POST'])
+def vote_on_suggestion(suggestion_id):
+    """Vote on a suggestion."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        data = request.get_json()
+        user_id = data.get('user_id', 'anonymous')
+        vote = data.get('vote', 1)  # 1 or -1
+        
+        result = feedback_system.vote_on_suggestion(suggestion_id, user_id, vote)
+        
+        return jsonify({
+            'success': True,
+            'result': result
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/feedback/trending', methods=['GET'])
+def get_trending_items():
+    """Get trending items based on votes."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        item_type = request.args.get('type', 'skill')
+        days = request.args.get('days', 7, type=int)
+        limit = request.args.get('limit', 10, type=int)
+        
+        trending = feedback_system.get_trending_items(item_type, days, limit)
+        
+        return jsonify({
+            'item_type': item_type,
+            'trending_items': trending,
+            'period_days': days
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/feedback/metrics', methods=['GET'])
+def get_community_metrics():
+    """Get community engagement metrics."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        metrics = feedback_system.get_community_metrics()
+        return jsonify(metrics)
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+# ==================== LEARNING PATH VISUALIZATION ENDPOINTS ====================
+
+@app.route('/api/path/visualize', methods=['POST'])
+def visualize_learning_path():
+    """Generate visualizations for a learning path."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        data = request.get_json()
+        learning_path = data.get('learning_path')
+        
+        if not learning_path:
+            return jsonify({'error': 'learning_path is required'}), 400
+        
+        # Clean the learning path
+        cleaned_path = visualizer.clean_learning_path(learning_path)
+        
+        # Generate visualizations
+        gantt_data = visualizer.generate_gantt_chart_data(cleaned_path)
+        graph_data = visualizer.generate_dependency_graph_data(cleaned_path)
+        timeline = visualizer.generate_skills_timeline(cleaned_path)
+        validation = visualizer.validate_prerequisites(cleaned_path)
+        
+        return jsonify({
+            'cleaned_path': cleaned_path,
+            'gantt_data': gantt_data,
+            'dependency_graph': graph_data,
+            'skills_timeline': timeline,
+            'validation': validation
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/path/visualize/gantt', methods=['GET'])
+def get_gantt_html():
+    """Get Gantt chart HTML visualization."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        # Get the most recent learning path from request or use example
+        learning_path = request.args.get('path_data')
+        
+        if learning_path:
+            learning_path = json.loads(learning_path)
+        else:
+            return jsonify({'error': 'path_data parameter required'}), 400
+        
+        cleaned_path = visualizer.clean_learning_path(learning_path)
+        gantt_data = visualizer.generate_gantt_chart_data(cleaned_path)
+        html = visualizer.generate_gantt_chart_html(gantt_data)
+        
+        return html, 200, {'Content-Type': 'text/html'}
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/path/visualize/graph', methods=['GET'])
+def get_graph_html():
+    """Get dependency graph HTML visualization."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        learning_path = request.args.get('path_data')
+        
+        if learning_path:
+            learning_path = json.loads(learning_path)
+        else:
+            return jsonify({'error': 'path_data parameter required'}), 400
+        
+        cleaned_path = visualizer.clean_learning_path(learning_path)
+        graph_data = visualizer.generate_dependency_graph_data(cleaned_path)
+        html = visualizer.generate_dependency_graph_html(graph_data)
+        
+        return html, 200, {'Content-Type': 'text/html'}
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+# ==================== RESOURCE CURATION ENDPOINTS ====================
+
+@app.route('/api/resources/search', methods=['GET'])
+def search_resources():
+    """Search for learning resources."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        skill_name = request.args.get('skill')
+        limit = request.args.get('limit', 10, type=int)
+        
+        if not skill_name:
+            return jsonify({'error': 'skill parameter is required'}), 400
+        
+        resources = resource_curator.search_resources(skill_name, limit)
+        
+        return jsonify({
+            'skill': skill_name,
+            'resources': resources,
+            'count': len(resources)
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/resources/add', methods=['POST'])
+def add_resource():
+    """Add a new learning resource."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        data = request.get_json()
+        
+        resource_id = resource_curator.add_resource(
+            skill_uri=data.get('skill_uri'),
+            resource_url=data.get('resource_url'),
+            resource_title=data.get('resource_title'),
+            resource_type=data.get('resource_type'),
+            provider=data.get('provider'),
+            description=data.get('description'),
+            difficulty_level=data.get('difficulty_level', 'intermediate'),
+            is_free=data.get('is_free', True),
+            estimated_duration=data.get('estimated_duration')
+        )
+        
+        return jsonify({
+            'success': True,
+            'resource_id': resource_id
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/resources/skill/<path:skill_uri>', methods=['GET'])
+def get_skill_resources(skill_uri):
+    """Get resources for a specific skill."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        difficulty = request.args.get('difficulty')
+        min_quality = request.args.get('min_quality', 0.0, type=float)
+        validated_only = request.args.get('validated_only', 'false').lower() == 'true'
+        
+        resources = resource_curator.get_resources_for_skill(
+            skill_uri, difficulty, min_quality, validated_only
+        )
+        
+        return jsonify({
+            'skill_uri': skill_uri,
+            'resources': resources,
+            'count': len(resources)
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/resources/rate', methods=['POST'])
+def rate_resource():
+    """Rate a learning resource."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        data = request.get_json()
+        
+        # Use feedback_system instead of resource_curator for rating
+        stats = feedback_system.rate_resource(
+            resource_url=data.get('resource_url'),
+            skill_uri=data.get('skill_uri'),
+            user_id=data.get('user_id', 'anonymous'),
+            rating=data.get('rating'),
+            quality_score=data.get('quality_score'),
+            review_text=data.get('review_text')
+        )
+        
+        return jsonify({
+            'success': True,
+            'stats': stats
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/resources/popular', methods=['GET'])
+def get_popular_resources():
+    """Get popular resources."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        days = request.args.get('days', 30, type=int)
+        limit = request.args.get('limit', 10, type=int)
+        
+        resources = resource_curator.get_popular_resources(days, limit)
+        
+        return jsonify({
+            'popular_resources': resources,
+            'period_days': days
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/path/with-resources', methods=['POST'])
+def generate_path_with_resources():
+    """Generate learning path with curated resources."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        data = request.get_json()
+        goal = data.get('goal')
+        current_skills = data.get('current_skills', [])
+        user_id = data.get('user_id', 'anonymous')
+        
+        if not goal:
+            return jsonify({'error': 'goal is required'}), 400
+        
+        # Generate basic learning path
+        result = ai_engine.identify_skill_gap(goal, current_skills)
+        
+        if not result['skill_gap']:
+            return jsonify({
+                'message': 'No skill gap identified',
+                'matched_occupation': result.get('matched_occupation')
+            })
+        
+        # Generate learning path (only takes skill_gap parameter)
+        learning_path = ai_engine.schedule_learning_path(result['skill_gap'])
+        
+        # Curate resources for the learning path
+        enhanced_path = resource_curator.curate_resources_for_learning_path(learning_path)
+        
+        # Clean and visualize
+        cleaned_path = visualizer.clean_learning_path(enhanced_path)
+        gantt_data = visualizer.generate_gantt_chart_data(cleaned_path)
+        
+        return jsonify({
+            'matched_occupation': result['matched_occupation'],
+            'learning_path': cleaned_path,
+            'recognized_skills': result.get('recognized_skills', []),
+            'total_skills_needed': result.get('total_skills_needed', 0),
+            'skills_to_learn': result.get('skills_to_learn', 0),
+            'gantt_timeline': gantt_data,
+            'total_sessions': len(cleaned_path)
+        })
+    
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 

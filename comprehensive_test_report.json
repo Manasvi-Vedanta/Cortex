@@ -1,0 +1,20 @@
+{
+  "database_stats": {
+    "total_skills": 13939,
+    "total_occupations": 3039,
+    "total_relations": 129004,
+    "web_dev_essential_skills": 26
+  },
+  "test_results": {
+    "skills_identified": 23,
+    "coverage_percent": 88.46153846153845,
+    "resource_coverage": 80.0,
+    "total_resources": 33,
+    "total_sessions": 8,
+    "total_hours": 46
+  },
+  "skills_without_resources": [
+    "use e-services",
+    "use markup languages"
+  ]
+}

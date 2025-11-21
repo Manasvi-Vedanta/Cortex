@@ -1,0 +1,542 @@
+{
+  "scenario": "AI Engineer",
+  "status": "success",
+  "goal": "I want to become an AI engineer specializing in deep learning",
+  "current_skills": [
+    "Python",
+    "Machine learning basics"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+    "label": " artificial intelligence engineer ",
+    "description": "Artificial intelligence engineer apply methods of artificial intelligence in engineering, robotics and computer science to design programs which simulate intelligence including thinking models, cognitive and knowledge-based systems, problem solving, and decision making. They also integrate structured knowledge into computer systems (ontologies, knowledge bases) in order to solve complex problems normally requiring a high level of human expertise or artificial intelligence methods.",
+    "similarity_score": 1.0
+  },
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "Introduction to Computer Simulation",
+      "objectives": [
+        "Understand the fundamental concepts of computer simulation.",
+        "Learn about different types of simulation (e.g., Monte Carlo, Discrete Event).",
+        "Identify real-world applications of computer simulation.",
+        "Gain hands-on experience with a basic simulation tool."
+      ],
+      "skills": [
+        "Abstract thinking",
+        "Statistical analysis (basic)"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 2,
+      "title": "Data Visualization Fundamentals",
+      "objectives": [
+        "Understand the principles of effective data visualization.",
+        "Learn about different chart types and their appropriate uses.",
+        "Develop skills in creating clear and informative visualizations.",
+        "Explore data visualization tools (e.g., Tableau, Python libraries).",
+        "Learn how to tell a story with data."
+      ],
+      "skills": [
+        "Data analysis",
+        "Design principles"
+      ],
+      "estimated_duration_hours": 12,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 3,
+      "title": "Introduction to Algorithms",
+      "objectives": [
+        "Understand the concept of an algorithm and its importance.",
+        "Learn about common algorithm design techniques (e.g., divide and conquer, greedy algorithms).",
+        "Analyze the time and space complexity of algorithms.",
+        "Implement basic algorithms in a programming language.",
+        "Understand data structures like arrays, linked lists, and trees."
+      ],
+      "skills": [
+        "Logical reasoning",
+        "Programming (e.g., Python, Java, C++)",
+        "Mathematical thinking"
+      ],
+      "estimated_duration_hours": 16,
+      "difficulty_level": "intermediate",
+      "prerequisites": []
+    },
+    {
+      "session_number": 4,
+      "title": "Artificial Neural Networks: A Gentle Introduction",
+      "objectives": [
+        "Understand the basic structure and function of artificial neural networks.",
+        "Learn about different types of neural networks (e.g., feedforward, recurrent).",
+        "Implement a simple neural network using a library like TensorFlow or PyTorch.",
+        "Understand the concepts of backpropagation and gradient descent.",
+        "Apply neural networks to simple classification or regression problems."
+      ],
+      "skills": [
+        "Linear Algebra (basic)",
+        "Calculus (basic)",
+        "Programming (Python)",
+        "Machine learning fundamentals"
+      ],
+      "estimated_duration_hours": 20,
+      "difficulty_level": "intermediate",
+      "prerequisites": []
+    },
+    {
+      "session_number": 5,
+      "title": "Information Extraction from Text",
+      "objectives": [
+        "Understand the challenges of extracting information from unstructured text.",
+        "Learn about techniques for named entity recognition (NER).",
+        "Explore methods for relationship extraction.",
+        "Use regular expressions and NLP libraries (e.g., NLTK, SpaCy) for information extraction.",
+        "Evaluate the performance of information extraction systems."
+      ],
+      "skills": [
+        "Natural Language Processing (NLP) basics",
+        "Regular expressions",
+        "Programming (Python)",
+        "Text processing"
+      ],
+      "estimated_duration_hours": 16,
+      "difficulty_level": "intermediate",
+      "prerequisites": []
+    },
+    {
+      "session_number": 6,
+      "title": "Task Algorithmisation: Breaking Down Complex Problems",
+      "objectives": [
+        "Learn how to decompose complex tasks into smaller, manageable steps.",
+        "Develop skills in creating flowcharts and pseudocode.",
+        "Understand different algorithm design paradigms (e.g., top-down, bottom-up).",
+        "Apply algorithmisation techniques to real-world problems.",
+        "Learn to optimize algorithms for efficiency."
+      ],
+      "skills": [
+        "Abstract reasoning",
+        "Process mapping"
+      ],
+      "estimated_duration_hours": 12,
+      "difficulty_level": "intermediate",
+      "prerequisites": []
+    },
+    {
+      "session_number": 7,
+      "title": "Information Categorization and Classification",
+      "objectives": [
+        "Understand the principles of information categorization.",
+        "Learn about different classification techniques (e.g., rule-based, machine learning).",
+        "Explore methods for feature selection and dimensionality reduction.",
+        "Implement classification models using machine learning libraries.",
+        "Evaluate the performance of classification models."
+      ],
+      "skills": [
+        "Machine learning fundamentals",
+        "Data analysis",
+        "Programming (Python)",
+        "Statistical analysis"
+      ],
+      "estimated_duration_hours": 16,
+      "difficulty_level": "intermediate",
+      "prerequisites": []
+    },
+    {
+      "session_number": 8,
+      "title": "Working with Unstructured Data",
+      "objectives": [
+        "Understand the characteristics of unstructured data.",
+        "Learn about different data formats (e.g., text, images, audio, video).",
+        "Explore techniques for preprocessing and cleaning unstructured data.",
+        "Apply NLP and computer vision techniques to extract information from unstructured data.",
+        "Learn how to store and manage unstructured data."
+      ],
+      "skills": [
+        "Data analysis",
+        "Natural Language Processing (NLP)",
+        "Computer Vision (basic)",
+        "Data preprocessing"
+      ],
+      "estimated_duration_hours": 20,
+      "difficulty_level": "intermediate",
+      "prerequisites": []
+    },
+    {
+      "session_number": 9,
+      "title": "Principles of Artificial Intelligence",
+      "objectives": [
+        "Understand the core concepts and history of AI.",
+        "Learn about different AI paradigms (e.g., symbolic AI, machine learning, deep learning).",
+        "Explore the ethical and societal implications of AI.",
+        "Discuss the future of AI and its potential impact on various industries.",
+        "Understand the Turing test and its significance."
+      ],
+      "skills": [
+        "Abstract thinking"
+      ],
+      "estimated_duration_hours": 12,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 10,
+      "title": "Creatively Using Digital Technologies",
+      "objectives": [
+        "Explore various digital technologies and their potential applications.",
+        "Develop skills in brainstorming and ideation using digital tools.",
+        "Learn how to use digital technologies to solve problems in creative ways.",
+        "Experiment with different digital media formats (e.g., video, audio, animation).",
+        "Understand the principles of design thinking and apply them to digital projects."
+      ],
+      "skills": [
+        "Creativity",
+        "Tool proficiency (various digital tools)"
+      ],
+      "estimated_duration_hours": 16,
+      "difficulty_level": "intermediate",
+      "prerequisites": []
+    }
+  ],
+  "resources": {
+    "Regular expressions": [
+      {
+        "title": "regexr (10,254 stars)",
+        "url": "https://github.com/gskinner/regexr",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions.",
+        "is_free": true,
+        "quality_score": 0.20508,
+        "stars": 10254
+      }
+    ],
+    "Logical reasoning": [
+      {
+        "title": "KAG (8,226 stars)",
+        "url": "https://github.com/OpenSPG/KAG",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.",
+        "is_free": true,
+        "quality_score": 0.16452,
+        "stars": 8226
+      }
+    ],
+    "Programming (e.g., Python, Java, C++)": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Statistical analysis": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Computer Vision (basic)": [],
+    "Abstract thinking": [],
+    "Natural Language Processing (NLP)": [],
+    "Machine learning fundamentals": [
+      {
+        "title": "Machine Learning by Andrew Ng",
+        "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "Stanford's legendary ML course",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Practical Deep Learning for Coders",
+        "url": "https://course.fast.ai/",
+        "type": "course",
+        "provider": "Fast.ai",
+        "description": "Hands-on deep learning course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Machine Learning Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=NWONeJKn6kc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete ML tutorial with Python (10 hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "handson-ml2 (29,610 stars)",
+        "url": "https://github.com/ageron/handson-ml2",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2.",
+        "is_free": true,
+        "quality_score": 0.5922,
+        "stars": 29610
+      },
+      {
+        "title": "handson-ml3 (11,679 stars)",
+        "url": "https://github.com/ageron/handson-ml3",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2.",
+        "is_free": true,
+        "quality_score": 0.23358,
+        "stars": 11679
+      }
+    ],
+    "Creativity": [],
+    "Programming (Python)": [
+      {
+        "resource_url": "https://docs.python.org/3/tutorial/",
+        "resource_title": "Official Python Tutorial",
+        "resource_type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "difficulty_level": "",
+        "quality_score": 1.0,
+        "created_at": "2025-11-16 10:28:06"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "resource_title": "Python Full Course - freeCodeCamp",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "difficulty_level": "",
+        "quality_score": 0.98,
+        "created_at": "2025-11-16 10:28:06"
+      },
+      {
+        "resource_url": "https://www.coursera.org/specializations/python",
+        "resource_title": "Python for Everybody Specialization",
+        "resource_type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 10:28:06"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "resource_title": "Python Tutorial for Beginners",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Complete Python tutorial (6+ hours)",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 10:28:06"
+      },
+      {
+        "resource_url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "resource_title": "Complete Python Bootcamp",
+        "resource_type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "difficulty_level": "",
+        "quality_score": 0.9,
+        "created_at": "2025-11-16 10:28:06"
+      },
+      {
+        "resource_url": "https://www.w3schools.com/python/python_exercises.asp",
+        "resource_title": "Python Exercises - W3Schools",
+        "resource_type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "difficulty_level": "",
+        "quality_score": 0.85,
+        "created_at": "2025-11-16 10:28:06"
+      }
+    ],
+    "Calculus (basic)": [],
+    "Design principles": [
+      {
+        "title": "p5.js (23,156 stars)",
+        "url": "https://github.com/processing/p5.js",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
+        "is_free": true,
+        "quality_score": 0.46312,
+        "stars": 23156
+      }
+    ],
+    "Text processing": [],
+    "Linear Algebra (basic)": [],
+    "Natural Language Processing (NLP) basics": [],
+    "Data preprocessing": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Data analysis": [
+      {
+        "resource_url": "https://pandas.pydata.org/docs/",
+        "resource_title": "Pandas Documentation",
+        "resource_type": "documentation",
+        "provider": "Pandas",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 1.0,
+        "created_at": "2025-11-16 10:28:06"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=vmEHCJofslg",
+        "resource_title": "Pandas Tutorial",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.9,
+        "created_at": "2025-11-16 10:28:06"
+      }
+    ],
+    "Statistical analysis (basic)": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Mathematical thinking": [],
+    "Tool proficiency (various digital tools)": [
+      {
+        "title": "Pro Git Book",
+        "url": "https://git-scm.com/book/en/v2",
+        "type": "documentation",
+        "provider": "Git",
+        "description": "Official Git documentation and book",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Git and GitHub Course",
+        "url": "https://roadmap.sh/git-github",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Git and GitHub guide",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Git and GitHub for Beginners",
+        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Git tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "Abstract reasoning": [],
+    "Process mapping": []
+  },
+  "statistics": {
+    "total_hours": 148,
+    "total_skills": 28,
+    "duration_days": 49,
+    "total_sessions": 10,
+    "total_resources": 31
+  },
+  "performance": {
+    "skill_gap_time": 22.68195128440857,
+    "schedule_time": 9.790911674499512,
+    "resources_time": 0.8991799354553223,
+    "total_time": 33.385552644729614
+  }
+}

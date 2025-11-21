@@ -1,0 +1,600 @@
+{
+  "scenario": "Data Scientist",
+  "status": "success",
+  "goal": "I want to become a data scientist with machine learning expertise",
+  "current_skills": [
+    "Python programming",
+    "Statistics"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/2079755f-d809-49e6-8037-4de6180e54c0",
+    "label": "data engineer",
+    "description": "Data engineers develop the architecture needed to process, manage, and store large amounts of data which will be used by data scientists for analysis. They design the infrastructure and maintain data pipelines and warehouses to leverage data for strategic advantage.",
+    "similarity_score": 0.7355917096138
+  },
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "Introduction to Data Warehousing",
+      "objectives": [
+        "Understand the fundamental concepts of data warehousing.",
+        "Differentiate between OLTP and OLAP systems.",
+        "Identify the key components of a data warehouse architecture.",
+        "Learn about different data warehouse modeling techniques (e.g., star schema, snowflake schema)."
+      ],
+      "skills": [
+        "Data modeling",
+        "Database concepts",
+        "Analytical thinking"
+      ],
+      "estimated_duration_hours": 4,
+      "difficulty_level": "beginner",
+      "prerequisites": [
+        "Basic understanding of databases"
+      ]
+    },
+    {
+      "session_number": 2,
+      "title": "Computer Science Fundamentals for Data Professionals",
+      "objectives": [
+        "Understand basic data structures (arrays, linked lists, trees, graphs).",
+        "Learn about algorithms and their complexity (Big O notation).",
+        "Grasp the principles of operating systems and networking.",
+        "Understand the basics of programming paradigms (e.g., procedural, object-oriented)."
+      ],
+      "skills": [
+        "Problem-solving",
+        "Algorithmic thinking",
+        "Programming logic"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Basic programming knowledge (any language)"
+      ]
+    },
+    {
+      "session_number": 3,
+      "title": "Data Storage Technologies: A Comprehensive Overview",
+      "objectives": [
+        "Explore different data storage options (e.g., relational databases, NoSQL databases, cloud storage).",
+        "Understand the trade-offs between different storage technologies (e.g., cost, performance, scalability).",
+        "Learn about data storage formats (e.g., CSV, JSON, Parquet, ORC).",
+        "Understand the concepts of data backup and recovery."
+      ],
+      "skills": [
+        "Data storage selection",
+        "Database administration",
+        "Cloud computing"
+      ],
+      "estimated_duration_hours": 6,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Basic understanding of databases"
+      ]
+    },
+    {
+      "session_number": 4,
+      "title": "Working with Unstructured Data",
+      "objectives": [
+        "Define unstructured data and its characteristics.",
+        "Learn about techniques for extracting information from unstructured data (e.g., text mining, image recognition).",
+        "Explore different tools and technologies for processing unstructured data (e.g., NLP libraries, computer vision frameworks).",
+        "Understand the challenges of storing and managing unstructured data."
+      ],
+      "skills": [
+        "Text mining",
+        "Natural Language Processing (NLP)",
+        "Image processing"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Basic programming knowledge (Python preferred)"
+      ]
+    },
+    {
+      "session_number": 5,
+      "title": "Managing Research Data: Best Practices and Tools",
+      "objectives": [
+        "Understand the importance of research data management.",
+        "Learn about data management planning (DMP).",
+        "Explore best practices for data documentation, metadata creation, and data preservation.",
+        "Discover tools and resources for managing research data (e.g., data repositories, version control systems)."
+      ],
+      "skills": [
+        "Data governance",
+        "Metadata management",
+        "Data preservation"
+      ],
+      "estimated_duration_hours": 4,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 6,
+      "title": "Data Processing Techniques: ETL and Beyond",
+      "objectives": [
+        "Understand the ETL (Extract, Transform, Load) process.",
+        "Learn about different data transformation techniques (e.g., data cleaning, data integration, data aggregation).",
+        "Explore modern data processing frameworks (e.g., Apache Spark, Apache Flink).",
+        "Understand the concepts of data pipelines and data orchestration."
+      ],
+      "skills": [
+        "ETL development",
+        "Data transformation",
+        "Data pipeline design"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Basic understanding of databases and SQL"
+      ]
+    },
+    {
+      "session_number": 7,
+      "title": "Establishing Data Processes: From Collection to Analysis",
+      "objectives": [
+        "Learn how to define and document data processes.",
+        "Understand the importance of data quality and data validation.",
+        "Explore different data governance frameworks.",
+        "Learn how to monitor and improve data processes."
+      ],
+      "skills": [
+        "Data governance",
+        "Data quality management",
+        "Process improvement"
+      ],
+      "estimated_duration_hours": 6,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Basic understanding of data management"
+      ]
+    },
+    {
+      "session_number": 8,
+      "title": "Managing ICT Data Architecture: Principles and Practices",
+      "objectives": [
+        "Understand the principles of ICT data architecture.",
+        "Learn about different data architecture patterns (e.g., data lake, data mesh).",
+        "Explore the role of data architects in an organization.",
+        "Understand the importance of data security and data privacy."
+      ],
+      "skills": [
+        "Data architecture design",
+        "Data modeling",
+        "Data security"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "advanced",
+      "prerequisites": [
+        "Experience with data warehousing and data management"
+      ]
+    },
+    {
+      "session_number": 9,
+      "title": "Storing Digital Data and Systems: Infrastructure Considerations",
+      "objectives": [
+        "Understand different infrastructure options for storing digital data (e.g., on-premise, cloud, hybrid).",
+        "Learn about storage capacity planning and performance optimization.",
+        "Explore different storage technologies (e.g., SAN, NAS, object storage).",
+        "Understand the importance of data security and disaster recovery."
+      ],
+      "skills": [
+        "Infrastructure management",
+        "Cloud computing",
+        "Data security"
+      ],
+      "estimated_duration_hours": 6,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Basic understanding of computer networks and operating systems"
+      ]
+    },
+    {
+      "session_number": 10,
+      "title": "Creating Data Sets: From Raw Data to Analysis-Ready Formats",
+      "objectives": [
+        "Learn how to identify and collect relevant data sources.",
+        "Understand data cleaning and data transformation techniques.",
+        "Explore different data set formats (e.g., CSV, JSON, Parquet).",
+        "Learn how to create data dictionaries and metadata documentation."
+      ],
+      "skills": [
+        "Data collection",
+        "Data cleaning",
+        "Data transformation"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "beginner",
+      "prerequisites": [
+        "Basic understanding of data and databases"
+      ]
+    }
+  ],
+  "resources": {
+    "Process improvement": [],
+    "Infrastructure management": [],
+    "Metadata management": [],
+    "Data collection": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Image processing": [],
+    "Natural Language Processing (NLP)": [],
+    "Analytical thinking": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Database concepts": [
+      {
+        "title": "Database Design",
+        "url": "https://www.coursera.org/learn/database-design",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Database Design Course",
+        "url": "https://www.youtube.com/watch?v=ztHopE5Wnpc",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.87
+      }
+    ],
+    "Data transformation": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Data pipeline design": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Data architecture design": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Cloud computing": [
+      {
+        "title": "AWS Documentation",
+        "url": "https://docs.aws.amazon.com/",
+        "type": "documentation",
+        "provider": "AWS",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "AWS Certified Solutions Architect",
+        "url": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/",
+        "type": "course",
+        "provider": "Udemy",
+        "is_free": false,
+        "quality_score": 0.95
+      },
+      {
+        "title": "AWS Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=ulprqHHWlng",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.92
+      }
+    ],
+    "Problem-solving": [],
+    "Algorithmic thinking": [
+      {
+        "title": "Algorithms Specialization",
+        "url": "https://www.coursera.org/specializations/algorithms",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.97
+      },
+      {
+        "title": "LeetCode",
+        "url": "https://leetcode.com/",
+        "type": "practice",
+        "provider": "LeetCode",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Algorithms Course",
+        "url": "https://www.youtube.com/watch?v=8hly31xKli0",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.9
+      }
+    ],
+    "Programming logic": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Data quality management": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Data security": [
+      {
+        "title": "Cybersecurity Specialization",
+        "url": "https://www.coursera.org/specializations/cyber-security",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.93
+      },
+      {
+        "title": "Cybersecurity Full Course",
+        "url": "https://www.youtube.com/watch?v=U_P23SqJaDc",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.86
+      }
+    ],
+    "Data cleaning": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Text mining": [],
+    "Database administration": [
+      {
+        "title": "Database Design",
+        "url": "https://www.coursera.org/learn/database-design",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Database Design Course",
+        "url": "https://www.youtube.com/watch?v=ztHopE5Wnpc",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.87
+      }
+    ],
+    "Data governance": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "ETL development": [],
+    "Data preservation": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Data storage selection": [
+      {
+        "title": "Database Design",
+        "url": "https://www.coursera.org/learn/database-design",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Database Design Course",
+        "url": "https://www.youtube.com/watch?v=ztHopE5Wnpc",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.87
+      }
+    ],
+    "Data modeling": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ]
+  },
+  "statistics": {
+    "total_hours": 66,
+    "total_skills": 30,
+    "duration_days": 22,
+    "total_sessions": 10,
+    "total_resources": 40
+  },
+  "performance": {
+    "skill_gap_time": 28.899681329727173,
+    "schedule_time": 10.764131307601929,
+    "resources_time": 0.222489595413208,
+    "total_time": 39.894603967666626
+  }
+}

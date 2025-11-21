@@ -1,0 +1,77 @@
+{
+  "database_optimization": {
+    "connection_pool": {
+      "status": "passed",
+      "total_time": 0.004042387008666992,
+      "avg_per_query_ms": 0.08084774017333984
+    },
+    "optimized_queries": {
+      "status": "passed",
+      "query_time_ms": 0.0,
+      "results_count": 48
+    },
+    "resource_cache": {
+      "status": "passed",
+      "cached_count": 1
+    }
+  },
+  "faiss_integration": {
+    "status": "passed",
+    "build_time_s": 0.20442962646484375,
+    "avg_search_time_ms": 0.41689634323120117,
+    "embeddings_count": 3039,
+    "pre_filtering": {
+      "test_goal": "I want to become a software engineer",
+      "detected_domains": [
+        "technology",
+        "engineering"
+      ]
+    }
+  },
+  "async_resources": {
+    "single_search": {
+      "status": "passed",
+      "results_count": 8,
+      "time_s": 2.3731589317321777
+    },
+    "cache_hit": {
+      "status": "passed",
+      "time_s": 0.0,
+      "speedup": 0
+    },
+    "batch_search": {
+      "status": "passed",
+      "skills_count": 3,
+      "total_time_s": 3.571195363998413,
+      "avg_time_per_skill_s": 1.1903984546661377,
+      "total_resources": 24
+    },
+    "cache_stats": {
+      "memory_cache_entries": 4,
+      "cache_backend": "memory"
+    }
+  },
+  "visualizations": {
+    "status": "passed",
+    "html_size_chars": 14689,
+    "generation_time_s": 0.0016515254974365234,
+    "output_file": "test_comprehensive_visualization.html"
+  },
+  "performance_metrics": {
+    "database": {
+      "current_avg_query_ms": 0.08084774017333984,
+      "estimated_baseline_ms": 0.12127161026000977,
+      "improvement_percent": 33.33333333333333
+    },
+    "faiss": {
+      "current_avg_search_ms": 0.41689634323120117,
+      "linear_search_baseline_ms": 9.5,
+      "speedup_factor": 22.787439022297967,
+      "improvement_percent": 95.61161743967158
+    },
+    "resource_curator": {
+      "cache_speedup_factor": 0,
+      "improvement_percent": -100
+    }
+  }
+}

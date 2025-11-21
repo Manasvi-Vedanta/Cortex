@@ -1,0 +1,311 @@
+{
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "Python Fundamentals",
+      "objectives": [],
+      "skills": [
+        "Python programming",
+        "Variables",
+        "Data types",
+        "Control flow"
+      ],
+      "estimated_duration_hours": 25,
+      "difficulty_level": "beginner",
+      "prerequisites": [],
+      "resources": [],
+      "curated_resources": [
+        {
+          "url": "https://www.youtube.com/results?search_query=Control+flow+tutorial",
+          "title": "Control flow Tutorial - YouTube",
+          "type": "video",
+          "provider": "YouTube",
+          "description": "Video tutorials for Control flow",
+          "is_free": true,
+          "relevance_score": 0.8,
+          "id": 117
+        },
+        {
+          "url": "https://github.com/AppFlowy-IO/AppFlowy",
+          "title": "AppFlowy",
+          "type": "repository",
+          "provider": "GitHub",
+          "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+          "is_free": true,
+          "relevance_score": 0.7,
+          "id": 118
+        }
+      ]
+    },
+    {
+      "session_number": 2,
+      "title": "Object-Oriented Programming",
+      "objectives": [],
+      "skills": [
+        "Classes",
+        "Inheritance",
+        "Polymorphism",
+        "Encapsulation"
+      ],
+      "estimated_duration_hours": 30,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Python Fundamentals"
+      ],
+      "resources": [],
+      "curated_resources": [
+        {
+          "url": "https://www.youtube.com/results?search_query=Inheritance+tutorial",
+          "title": "Inheritance Tutorial - YouTube",
+          "type": "video",
+          "provider": "YouTube",
+          "description": "Video tutorials for Inheritance",
+          "is_free": true,
+          "relevance_score": 0.8,
+          "id": 119
+        },
+        {
+          "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+          "title": "clean-code-javascript",
+          "type": "repository",
+          "provider": "GitHub",
+          "description": "Clean Code concepts adapted for JavaScript",
+          "is_free": true,
+          "relevance_score": 0.7,
+          "id": 120
+        }
+      ]
+    },
+    {
+      "session_number": 3,
+      "title": "Data Structures & Algorithms",
+      "objectives": [],
+      "skills": [
+        "Lists",
+        "Dictionaries",
+        "Sets",
+        "Algorithms"
+      ],
+      "estimated_duration_hours": 35,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Object-Oriented Programming"
+      ],
+      "resources": [],
+      "curated_resources": [
+        {
+          "url": "https://www.youtube.com/results?search_query=Lists+tutorial",
+          "title": "Lists Tutorial - YouTube",
+          "type": "video",
+          "provider": "YouTube",
+          "description": "Video tutorials for Lists",
+          "is_free": true,
+          "relevance_score": 0.8,
+          "id": 121
+        },
+        {
+          "url": "https://github.com/sindresorhus/awesome",
+          "title": "awesome",
+          "type": "repository",
+          "provider": "GitHub",
+          "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
+          "is_free": true,
+          "relevance_score": 0.7,
+          "id": 122
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Dictionaries+tutorial",
+          "title": "Dictionaries Tutorial - YouTube",
+          "type": "video",
+          "provider": "YouTube",
+          "description": "Video tutorials for Dictionaries",
+          "is_free": true,
+          "relevance_score": 0.8,
+          "id": 123
+        },
+        {
+          "url": "https://medium.com/search?q=Dictionaries",
+          "title": "Dictionaries Articles - Medium",
+          "type": "article",
+          "provider": "Medium",
+          "description": "Articles and guides about Dictionaries",
+          "is_free": true,
+          "relevance_score": 0.6,
+          "id": 129
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Sets+tutorial",
+          "title": "Sets Tutorial - YouTube",
+          "type": "video",
+          "provider": "YouTube",
+          "description": "Video tutorials for Sets",
+          "is_free": true,
+          "relevance_score": 0.8,
+          "id": 125
+        },
+        {
+          "url": "https://medium.com/search?q=Sets",
+          "title": "Sets Articles - Medium",
+          "type": "article",
+          "provider": "Medium",
+          "description": "Articles and guides about Sets",
+          "is_free": true,
+          "relevance_score": 0.6,
+          "id": 130
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Algorithms+tutorial",
+          "title": "Algorithms Tutorial - YouTube",
+          "type": "video",
+          "provider": "YouTube",
+          "description": "Video tutorials for Algorithms",
+          "is_free": true,
+          "relevance_score": 0.8,
+          "id": 127
+        },
+        {
+          "url": "https://medium.com/search?q=Algorithms",
+          "title": "Algorithms Articles - Medium",
+          "type": "article",
+          "provider": "Medium",
+          "description": "Articles and guides about Algorithms",
+          "is_free": true,
+          "relevance_score": 0.6,
+          "id": 131
+        }
+      ]
+    }
+  ],
+  "visualizations": {
+    "gantt_chart": {
+      "title": "Learning Path Timeline",
+      "start_date": "2025-10-31T06:37:59.506673",
+      "tasks": [
+        {
+          "id": "session_1",
+          "name": "Python Fundamentals",
+          "start": "2025-10-31T06:37:59.506673",
+          "end": "2025-11-03T09:37:59.506673",
+          "duration_hours": 25,
+          "duration_days": 3.1,
+          "progress": 0,
+          "dependencies": [],
+          "difficulty": "beginner",
+          "skills_count": 4
+        },
+        {
+          "id": "session_2",
+          "name": "Object-Oriented Programming",
+          "start": "2025-11-03T09:37:59.506673",
+          "end": "2025-11-07T03:37:59.506673",
+          "duration_hours": 30,
+          "duration_days": 3.8,
+          "progress": 0,
+          "dependencies": [
+            "Python Fundamentals"
+          ],
+          "difficulty": "intermediate",
+          "skills_count": 4
+        },
+        {
+          "id": "session_3",
+          "name": "Data Structures & Algorithms",
+          "start": "2025-11-07T03:37:59.506673",
+          "end": "2025-11-11T12:37:59.506673",
+          "duration_hours": 35,
+          "duration_days": 4.4,
+          "progress": 0,
+          "dependencies": [
+            "Object-Oriented Programming"
+          ],
+          "difficulty": "intermediate",
+          "skills_count": 4
+        }
+      ],
+      "total_duration_hours": 90,
+      "total_duration_days": 11,
+      "estimated_completion_date": "2025-11-11T12:37:59.506673"
+    },
+    "dependency_graph": {
+      "nodes": [
+        {
+          "id": "session_1",
+          "label": "Python Fundamentals",
+          "session_number": 1,
+          "skills_count": 4,
+          "duration_hours": 25,
+          "difficulty": "beginner",
+          "color": "#4CAF50"
+        },
+        {
+          "id": "session_2",
+          "label": "Object-Oriented Programming",
+          "session_number": 2,
+          "skills_count": 4,
+          "duration_hours": 30,
+          "difficulty": "intermediate",
+          "color": "#FF9800"
+        },
+        {
+          "id": "session_3",
+          "label": "Data Structures & Algorithms",
+          "session_number": 3,
+          "skills_count": 4,
+          "duration_hours": 35,
+          "difficulty": "intermediate",
+          "color": "#FF9800"
+        }
+      ],
+      "edges": [
+        {
+          "from": "session_1",
+          "to": "session_2",
+          "label": "requires"
+        },
+        {
+          "from": "session_2",
+          "to": "session_3",
+          "label": "requires"
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "sessions": [
+            "session_1"
+          ]
+        },
+        {
+          "level": 1,
+          "sessions": [
+            "session_2"
+          ]
+        },
+        {
+          "level": 2,
+          "sessions": [
+            "session_3"
+          ]
+        }
+      ],
+      "max_level": 2,
+      "metrics": {
+        "total_sessions": 3,
+        "total_dependencies": 2,
+        "independent_sessions": 1,
+        "complexity_score": 0.6666666666666666
+      }
+    }
+  },
+  "metadata": {
+    "total_sessions": 3,
+    "total_duration_hours": 90,
+    "total_skills": 12,
+    "total_resources": 12,
+    "difficulty_progression": [
+      "beginner",
+      "intermediate",
+      "intermediate"
+    ]
+  }
+}

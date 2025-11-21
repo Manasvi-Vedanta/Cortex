@@ -1,0 +1,38 @@
+{
+  "timestamp": "20251116_144847",
+  "total_tests": 5,
+  "successful": 0,
+  "failed": 5,
+  "test_results": [
+    {
+      "scenario": "Web Developer",
+      "status": "failed",
+      "error": "'ImprovedResourceCurator' object has no attribute 'batch_search'"
+    },
+    {
+      "scenario": "Data Scientist",
+      "status": "failed",
+      "error": "'ImprovedResourceCurator' object has no attribute 'batch_search'"
+    },
+    {
+      "scenario": "AI Engineer",
+      "status": "failed",
+      "error": "'ImprovedResourceCurator' object has no attribute 'batch_search'"
+    },
+    {
+      "scenario": "DevOps Engineer",
+      "status": "failed",
+      "error": "'ImprovedResourceCurator' object has no attribute 'batch_search'"
+    },
+    {
+      "scenario": "Mobile Developer",
+      "status": "failed",
+      "error": "'ImprovedResourceCurator' object has no attribute 'batch_search'"
+    }
+  ],
+  "performance_summary": {
+    "avg_total_time": 0.0,
+    "avg_resources": 0.0,
+    "avg_hours": 0.0
+  }
+}
