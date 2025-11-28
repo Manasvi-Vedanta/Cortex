@@ -1,0 +1,4890 @@
+{
+  "test_suite": "GenMentor Enhanced Test Suite",
+  "timestamp": "2025-11-28T08:36:49.601996",
+  "summary": {
+    "total_tests": 25,
+    "successful_tests": 0,
+    "failed_tests": 25,
+    "success_rate": 0.0
+  },
+  "performance_metrics": {},
+  "similarity_scores": {},
+  "relevance_analysis": {},
+  "category_breakdown": {},
+  "test_results": [
+    {
+      "test_id": "T001",
+      "name": "Marketing to Data Science",
+      "goal": "I want to transition from marketing to data science",
+      "current_skills": [
+        "marketing analytics",
+        "excel",
+        "basic statistics"
+      ],
+      "category": "Career Transition",
+      "experience_level": "beginner",
+      "difficulty": "high",
+      "timestamps": {
+        "skill_gap_analysis": 40.12155199050903,
+        "learning_path_generation": 5.841853857040405,
+        "total": 45.96340584754944
+      },
+      "matched_occupation": {
+        "label": "data analyst",
+        "similarity_score": 0.7891113758087158,
+        "similarity_percentage": 78.91113758087158,
+        "uri": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2"
+      },
+      "skill_gap": {
+        "total_skills_needed": 17,
+        "skills_to_learn": 17,
+        "recognized_skills": 8
+      },
+      "learning_path": {
+        "total_sessions": 6,
+        "total_hours": 32,
+        "weeks_full_time": 0.8,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Data Handling and Confidentiality",
+            "objectives": [
+              "Understand the importance of information confidentiality.",
+              "Learn to identify and handle unstructured data.",
+              "Grasp the basics of normalising data."
+            ],
+            "skills": [
+              "information confidentiality",
+              "unstructured data",
+              "normalise data"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Data Processing and Categorisation Fundamentals",
+            "objectives": [
+              "Learn basic data processing techniques.",
+              "Understand the principles of information categorisation.",
+              "Apply techniques to categorise unstructured data."
+            ],
+            "skills": [
+              "use data processing techniques",
+              "information categorisation",
+              "unstructured data"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              1
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Database Design and Data Mining Introduction",
+            "objectives": [
+              "Learn the fundamentals of database design.",
+              "Understand the basics of data mining.",
+              "Apply data processing techniques to prepare data for mining."
+            ],
+            "skills": [
+              "database design",
+              "data mining",
+              "use data processing techniques",
+              "normalise data"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              2
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Querying Data: An Introduction to Query Languages",
+            "objectives": [
+              "Understand the purpose of query languages.",
+              "Learn the basics of a general query language.",
+              "Practice querying normalised data."
+            ],
+            "skills": [
+              "query languages",
+              "normalise data"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              3
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Advanced Querying with RDF and Data Extraction",
+            "objectives": [
+              "Learn to use Resource Description Framework Query Language (SPARQL).",
+              "Understand how to extract information from unstructured data.",
+              "Combine RDF querying with information extraction techniques."
+            ],
+            "skills": [
+              "resource description framework query language",
+              "information extraction",
+              "unstructured data"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              4
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Data Visualisation and Process Establishment",
+            "objectives": [
+              "Learn to use data visualisation software to present data insights.",
+              "Establish data processes for data handling and analysis.",
+              "Apply data mining techniques to generate data for visualisation."
+            ],
+            "skills": [
+              "data visualisation software",
+              "establish data processes",
+              "data mining",
+              "use data processing techniques"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              5
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T002",
+      "name": "Finance to Data Engineering",
+      "goal": "I work in finance and want to become a data engineer",
+      "current_skills": [
+        "excel",
+        "sql",
+        "financial modeling",
+        "python basics"
+      ],
+      "category": "Career Transition",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 38.1276957988739,
+        "learning_path_generation": 6.747958660125732,
+        "total": 44.875654458999634
+      },
+      "matched_occupation": {
+        "label": "data engineer",
+        "similarity_score": 0.9223822355270386,
+        "similarity_percentage": 92.23822355270386,
+        "uri": "http://data.europa.eu/esco/occupation/2079755f-d809-49e6-8037-4de6180e54c0"
+      },
+      "skill_gap": {
+        "total_skills_needed": 20,
+        "skills_to_learn": 20,
+        "recognized_skills": 5
+      },
+      "learning_path": {
+        "total_sessions": 8,
+        "total_hours": 55,
+        "weeks_full_time": 1.4,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Data Warehousing and Data Processing",
+            "objectives": [
+              "Understand the fundamentals of data warehousing.",
+              "Learn basic data processing techniques.",
+              "Explore the concept of unstructured data."
+            ],
+            "skills": [
+              "data warehouse",
+              "use data processing techniques",
+              "unstructured data"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Data Processing Fundamentals",
+            "objectives": [
+              "Learn how to process data effectively.",
+              "Understand the importance of establishing data processes.",
+              "Create basic data sets for analysis."
+            ],
+            "skills": [
+              "process data",
+              "establish data processes",
+              "create data sets"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Data Storage and Management",
+            "objectives": [
+              "Learn how to store digital data and systems.",
+              "Understand the basics of managing research data.",
+              "Explore ICT data architecture."
+            ],
+            "skills": [
+              "store digital data and systems",
+              "manage research data",
+              "manage ICT data architecture"
+            ],
+            "estimated_duration_hours": 5,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Data Warehousing and Data Processing"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Advanced Data Processing Techniques",
+            "objectives": [
+              "Learn to develop data processing applications.",
+              "Understand and apply dimensionality reduction techniques.",
+              "Explore advanced data processing techniques."
+            ],
+            "skills": [
+              "develop data processing applications",
+              "perform dimensionality reduction",
+              "use data processing techniques"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Data Processing Fundamentals"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Data Warehouse Design and Implementation",
+            "objectives": [
+              "Design and implement a simple data warehouse.",
+              "Establish data processes for data warehousing.",
+              "Process data for loading into a data warehouse."
+            ],
+            "skills": [
+              "data warehouse",
+              "establish data processes",
+              "process data"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Data Storage and Management",
+              "Advanced Data Processing Techniques"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Computer Science Fundamentals for Data Management",
+            "objectives": [
+              "Understand the computer science principles underlying data management.",
+              "Apply computer science concepts to manage research data.",
+              "Use computer science principles to develop data processing applications."
+            ],
+            "skills": [
+              "computer science",
+              "manage research data",
+              "develop data processing applications"
+            ],
+            "estimated_duration_hours": 7,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 7,
+            "title": "Managing Unstructured Data",
+            "objectives": [
+              "Learn techniques for managing unstructured data.",
+              "Process unstructured data for analysis.",
+              "Create data sets from unstructured data."
+            ],
+            "skills": [
+              "unstructured data",
+              "process data",
+              "create data sets"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Data Processing Fundamentals"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "ICT Data Architecture and Data Warehousing",
+            "objectives": [
+              "Design and manage ICT data architecture for data warehousing.",
+              "Store digital data and systems within the ICT architecture.",
+              "Establish data processes within the ICT data architecture."
+            ],
+            "skills": [
+              "manage ICT data architecture",
+              "store digital data and systems",
+              "establish data processes",
+              "data warehouse"
+            ],
+            "estimated_duration_hours": 9,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Data Storage and Management",
+              "Data Warehouse Design and Implementation"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T003",
+      "name": "Teacher to UX Designer",
+      "goal": "I am a teacher who wants to transition into UX design",
+      "current_skills": [
+        "presentation",
+        "communication",
+        "basic design"
+      ],
+      "category": "Career Transition",
+      "experience_level": "beginner",
+      "difficulty": "high",
+      "timestamps": {
+        "skill_gap_analysis": 36.57585573196411,
+        "learning_path_generation": 6.967907190322876,
+        "total": 43.54376292228699
+      },
+      "matched_occupation": {
+        "label": "career guidance advisor",
+        "similarity_score": 0.8908451795578003,
+        "similarity_percentage": 89.08451795578003,
+        "uri": "http://data.europa.eu/esco/occupation/5d0cc30d-068a-424c-8463-f42872a7149e"
+      },
+      "skill_gap": {
+        "total_skills_needed": 25,
+        "skills_to_learn": 25,
+        "recognized_skills": 0
+      },
+      "learning_path": {
+        "total_sessions": 8,
+        "total_hours": 32,
+        "weeks_full_time": 0.8,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Understanding the Labour Market and Job Search Strategies",
+            "objectives": [
+              "Identify current labour market trends.",
+              "Understand the relationship between curriculum standards and job market offers.",
+              "Develop effective job search strategies."
+            ],
+            "skills": [
+              "labour market",
+              "job market offers",
+              "provide assistance with job search",
+              "curriculum standards"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Curriculum Objectives and Study Programme Alignment with Labour Market Needs",
+            "objectives": [
+              "Analyze curriculum objectives in relation to labour market demands.",
+              "Evaluate study programmes based on their alignment with job market offers.",
+              "Provide information on study programmes relevant to specific career paths."
+            ],
+            "skills": [
+              "curriculum objectives",
+              "job market offers",
+              "provide information on study programmes",
+              "labour market"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Understanding of basic labour market concepts"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Assessment and Evaluation in Career Guidance",
+            "objectives": [
+              "Implement assessment processes to evaluate clients' skills and interests.",
+              "Monitor educational developments to inform assessment strategies.",
+              "Evaluate clients' progress in achieving career goals."
+            ],
+            "skills": [
+              "assessment processes",
+              "evaluate clients' progress",
+              "monitor educational developments"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Facilitating Job Market Access for Diverse Target Groups",
+            "objectives": [
+              "Identify barriers to job market access for different target groups.",
+              "Develop strategies to facilitate job market access for diverse populations.",
+              "Tailor job search assistance to meet the specific needs of different target groups."
+            ],
+            "skills": [
+              "work with different target groups",
+              "facilitate job market access",
+              "provide assistance with job search"
+            ],
+            "estimated_duration_hours": 5,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Understanding of diverse populations and their needs"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Professional Administration and Documentation in Career Services",
+            "objectives": [
+              "Maintain accurate and up-to-date client records.",
+              "Adhere to ethical guidelines in professional administration.",
+              "Document assessment processes and client progress."
+            ],
+            "skills": [
+              "maintain professional administration",
+              "assessment processes",
+              "evaluate clients' progress"
+            ],
+            "estimated_duration_hours": 2,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 6,
+            "title": "Advanced Labour Market Analysis and Curriculum Development",
+            "objectives": [
+              "Conduct in-depth analysis of labour market trends and their implications for curriculum development.",
+              "Align curriculum standards with evolving job market offers.",
+              "Monitor educational developments to inform curriculum updates."
+            ],
+            "skills": [
+              "labour market",
+              "curriculum standards",
+              "job market offers",
+              "monitor educational developments"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Completion of introductory courses on labour market analysis and curriculum development"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Integrating Assessment, Evaluation, and Job Search Assistance",
+            "objectives": [
+              "Utilize assessment processes to inform job search strategies.",
+              "Evaluate clients' progress in job search activities.",
+              "Provide targeted job search assistance based on assessment results."
+            ],
+            "skills": [
+              "assessment processes",
+              "evaluate clients' progress",
+              "provide assistance with job search"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Experience with assessment and job search assistance"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Study Programmes and Facilitating Job Market Access",
+            "objectives": [
+              "Provide information on study programmes that align with high-demand job market offers.",
+              "Facilitate job market access for graduates of specific study programmes.",
+              "Connect students with relevant job market opportunities during their studies."
+            ],
+            "skills": [
+              "provide information on study programmes",
+              "facilitate job market access",
+              "job market offers"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T004",
+      "name": "Junior to Senior Developer",
+      "goal": "I am a junior software developer and want to become a senior developer",
+      "current_skills": [
+        "python",
+        "javascript",
+        "git",
+        "rest apis",
+        "databases"
+      ],
+      "category": "Career Advancement",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 28.627256155014038,
+        "learning_path_generation": 4.974767446517944,
+        "total": 33.60202360153198
+      },
+      "matched_occupation": {
+        "label": "embedded systems software developer",
+        "similarity_score": 0.6987048983573914,
+        "similarity_percentage": 69.87048983573914,
+        "uri": "http://data.europa.eu/esco/occupation/57af9090-55b4-4911-b2d0-86db01c00b02"
+      },
+      "skill_gap": {
+        "total_skills_needed": 22,
+        "skills_to_learn": 22,
+        "recognized_skills": 2
+      },
+      "learning_path": {
+        "total_sessions": 5,
+        "total_hours": 96,
+        "weeks_full_time": 2.4,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to IoT Device Driver Development with Ruby",
+            "objectives": [
+              "Understand the basics of IoT device interaction.",
+              "Learn to develop a simple device driver using Ruby.",
+              "Utilize software libraries for device communication.",
+              "Debug common driver issues."
+            ],
+            "skills": [
+              "Internet of Things",
+              "Ruby (computer programming)",
+              "develop ICT device driver",
+              "use software libraries",
+              "debug software"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Software Configuration Management and Prototyping for IoT Applications",
+            "objectives": [
+              "Learn to use tools for software configuration management.",
+              "Develop a software prototype for an IoT application.",
+              "Apply software design patterns to the prototype.",
+              "Analyse software specifications for the prototype."
+            ],
+            "skills": [
+              "tools for software configuration management",
+              "develop software prototype",
+              "use software design patterns",
+              "analyse software specifications",
+              "Internet of Things"
+            ],
+            "estimated_duration_hours": 24,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to IoT Device Driver Development with Ruby"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Advanced Debugging and Software Design Patterns in Ruby for IoT",
+            "objectives": [
+              "Master advanced debugging techniques in Ruby.",
+              "Implement complex software design patterns.",
+              "Utilize computer-aided software engineering tools for design and analysis.",
+              "Refine the IoT prototype based on analysis."
+            ],
+            "skills": [
+              "debug software",
+              "use software design patterns",
+              "utilise computer-aided software engineering tools",
+              "Ruby (computer programming)",
+              "Internet of Things"
+            ],
+            "estimated_duration_hours": 32,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Software Configuration Management and Prototyping for IoT Applications"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Visualizing Software Architecture with Flowcharts and Integrated Development Environments",
+            "objectives": [
+              "Learn to create flowchart diagrams to represent software architecture.",
+              "Utilize an integrated development environment software for efficient coding.",
+              "Integrate software libraries into the development process.",
+              "Understand how flowcharts aid in debugging software."
+            ],
+            "skills": [
+              "create flowchart diagram",
+              "integrated development environment software",
+              "use software libraries",
+              "debug software"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 5,
+            "title": "Software Specification Analysis and Prototyping with CASE Tools",
+            "objectives": [
+              "Master the analysis of software specifications.",
+              "Develop a software prototype based on specifications.",
+              "Utilize computer-aided software engineering tools for prototyping.",
+              "Create flowchart diagrams to represent the prototype's logic."
+            ],
+            "skills": [
+              "analyse software specifications",
+              "develop software prototype",
+              "utilise computer-aided software engineering tools",
+              "create flowchart diagram"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T005",
+      "name": "Software Engineer to ML Engineer",
+      "goal": "I am a software engineer transitioning to machine learning engineering",
+      "current_skills": [
+        "python",
+        "java",
+        "algorithms",
+        "data structures",
+        "cloud computing"
+      ],
+      "category": "Career Advancement",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 23.420915365219116,
+        "learning_path_generation": 6.773770332336426,
+        "total": 30.194685697555542
+      },
+      "matched_occupation": {
+        "label": "computer vision engineer",
+        "similarity_score": 0.8449069261550903,
+        "similarity_percentage": 84.49069261550903,
+        "uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341"
+      },
+      "skill_gap": {
+        "total_skills_needed": 20,
+        "skills_to_learn": 20,
+        "recognized_skills": 5
+      },
+      "learning_path": {
+        "total_sessions": 8,
+        "total_hours": 51,
+        "weeks_full_time": 1.3,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Image Recognition with AI",
+            "objectives": [
+              "Understand the basics of image recognition.",
+              "Learn how AI principles are applied to image recognition.",
+              "Preprocess images for AI models."
+            ],
+            "skills": [
+              "image recognition",
+              "principles of artificial intelligence",
+              "digital image processing",
+              "normalise data"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Building a Simple Image Classifier with IDE",
+            "objectives": [
+              "Set up an integrated development environment (IDE) for image processing.",
+              "Implement a basic image classification algorithm.",
+              "Evaluate the performance of the classifier."
+            ],
+            "skills": [
+              "image recognition",
+              "integrated development environment software",
+              "digital image processing",
+              "principles of artificial intelligence"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Image Recognition with AI"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Data Normalization and Dimensionality Reduction for Image Data",
+            "objectives": [
+              "Learn techniques for normalizing image data.",
+              "Apply dimensionality reduction methods to improve image recognition performance.",
+              "Understand the impact of data preprocessing on AI models."
+            ],
+            "skills": [
+              "digital image processing",
+              "normalise data",
+              "perform dimensionality reduction",
+              "principles of artificial intelligence"
+            ],
+            "estimated_duration_hours": 5,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Image Recognition with AI"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Simulating Image Recognition Systems",
+            "objectives": [
+              "Create computer simulations of image recognition systems.",
+              "Analyze the behavior of image recognition systems under different conditions.",
+              "Use simulation to optimize image recognition algorithms."
+            ],
+            "skills": [
+              "computer simulation",
+              "image recognition",
+              "principles of artificial intelligence",
+              "statistics"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Building a Simple Image Classifier with IDE",
+              "Data Normalization and Dimensionality Reduction for Image Data"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Data Processes and Interpretation for AI Systems",
+            "objectives": [
+              "Establish data processes for collecting and preparing data for AI models.",
+              "Interpret current data to identify trends and patterns.",
+              "Apply statistical methods to analyze AI system performance."
+            ],
+            "skills": [
+              "establish data processes",
+              "interpret current data",
+              "statistics",
+              "principles of artificial intelligence"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 6,
+            "title": "Literature Review and CASE Tools for AI Development",
+            "objectives": [
+              "Conduct literature research on current trends in AI.",
+              "Utilize computer-aided software engineering (CASE) tools for AI development.",
+              "Document and manage AI projects effectively."
+            ],
+            "skills": [
+              "conduct literature research",
+              "utilise computer-aided software engineering tools",
+              "principles of artificial intelligence"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 7,
+            "title": "Advanced Image Recognition Simulation and Analysis",
+            "objectives": [
+              "Develop complex computer simulations of image recognition systems.",
+              "Apply statistical analysis to evaluate simulation results.",
+              "Optimize image recognition algorithms based on simulation data."
+            ],
+            "skills": [
+              "computer simulation",
+              "image recognition",
+              "statistics",
+              "digital image processing",
+              "principles of artificial intelligence"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Simulating Image Recognition Systems"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Optimizing Image Recognition with Dimensionality Reduction and Data Normalization",
+            "objectives": [
+              "Apply advanced dimensionality reduction techniques to improve image recognition accuracy.",
+              "Develop optimal data normalization strategies for specific image datasets.",
+              "Evaluate the impact of preprocessing on AI model performance using statistical methods."
+            ],
+            "skills": [
+              "image recognition",
+              "digital image processing",
+              "normalise data",
+              "perform dimensionality reduction",
+              "statistics",
+              "principles of artificial intelligence"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Data Normalization and Dimensionality Reduction for Image Data"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T006",
+      "name": "Data Analyst to Data Scientist",
+      "goal": "I want to advance from data analyst to data scientist",
+      "current_skills": [
+        "sql",
+        "excel",
+        "tableau",
+        "statistics",
+        "python basics"
+      ],
+      "category": "Career Advancement",
+      "experience_level": "intermediate",
+      "difficulty": "low",
+      "timestamps": {
+        "skill_gap_analysis": 41.84889578819275,
+        "learning_path_generation": 5.729468822479248,
+        "total": 47.578364610672
+      },
+      "matched_occupation": {
+        "label": "data scientist",
+        "similarity_score": 0.9514890313148499,
+        "similarity_percentage": 95.14890313148499,
+        "uri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30"
+      },
+      "skill_gap": {
+        "total_skills_needed": 20,
+        "skills_to_learn": 20,
+        "recognized_skills": 5
+      },
+      "learning_path": {
+        "total_sessions": 8,
+        "total_hours": 64,
+        "weeks_full_time": 1.6,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Data Engineering and Visualisation",
+            "objectives": [
+              "Understand the basics of data engineering pipelines.",
+              "Learn to visualise data using a chosen software.",
+              "Understand the importance of data normalisation."
+            ],
+            "skills": [
+              "data engineering",
+              "data visualisation software",
+              "normalise data"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Information Extraction and Categorisation from Scientific Literature",
+            "objectives": [
+              "Learn to extract key information from scientific papers.",
+              "Categorise extracted information effectively.",
+              "Understand the role of information categorisation in research."
+            ],
+            "skills": [
+              "information extraction",
+              "scientific literature",
+              "information categorisation"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "information categorisation"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Querying Data with SPARQL and Other Query Languages",
+            "objectives": [
+              "Learn the basics of Resource Description Framework (RDF).",
+              "Write queries using Resource Description Framework Query Language (SPARQL).",
+              "Understand the application of query languages in data retrieval."
+            ],
+            "skills": [
+              "resource description framework query language",
+              "query languages"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Online Analytical Processing (OLAP) and Data Visualisation",
+            "objectives": [
+              "Understand the principles of Online Analytical Processing (OLAP).",
+              "Apply OLAP techniques to analyse data.",
+              "Create insightful visualisations based on OLAP results."
+            ],
+            "skills": [
+              "online analytical processing",
+              "data visualisation software"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "data visualisation software"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Empirical Analysis and Research Data Management",
+            "objectives": [
+              "Conduct empirical analysis on research data.",
+              "Learn best practices for managing research data.",
+              "Understand the importance of data integrity in research."
+            ],
+            "skills": [
+              "empirical analysis",
+              "manage research data"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 6,
+            "title": "Drafting Scientific Papers and Technical Documentation",
+            "objectives": [
+              "Learn to draft scientific papers based on research findings.",
+              "Create clear and concise technical documentation.",
+              "Understand the structure and style of academic writing."
+            ],
+            "skills": [
+              "draft scientific or academic papers and technical documentation"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "empirical analysis",
+              "manage research data"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Advanced Data Engineering and Normalisation Techniques",
+            "objectives": [
+              "Explore advanced data engineering concepts.",
+              "Implement complex data normalisation strategies.",
+              "Optimize data pipelines for performance."
+            ],
+            "skills": [
+              "data engineering",
+              "normalise data"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "data engineering",
+              "normalise data"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Applying Query Languages to Extract Information from Scientific Literature",
+            "objectives": [
+              "Use query languages to extract specific information from scientific literature.",
+              "Combine information extraction with query languages for efficient data retrieval.",
+              "Build knowledge graphs from scientific literature using RDF and SPARQL."
+            ],
+            "skills": [
+              "query languages",
+              "information extraction",
+              "scientific literature",
+              "resource description framework query language"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "query languages",
+              "information extraction",
+              "scientific literature",
+              "resource description framework query language"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T007",
+      "name": "AWS Cloud Architect",
+      "goal": "I want to become an AWS cloud architect",
+      "current_skills": [
+        "linux",
+        "networking",
+        "docker",
+        "basic aws"
+      ],
+      "category": "Tech Specialization",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 17.530961275100708,
+        "learning_path_generation": 6.551611661911011,
+        "total": 24.08257293701172
+      },
+      "matched_occupation": {
+        "label": "cloud architect",
+        "similarity_score": 0.9883924126625061,
+        "similarity_percentage": 98.83924126625061,
+        "uri": "http://data.europa.eu/esco/occupation/2fb96c6c-8d0b-4ef0-b1ee-3e493305e4eb"
+      },
+      "skill_gap": {
+        "total_skills_needed": 17,
+        "skills_to_learn": 17,
+        "recognized_skills": 0
+      },
+      "learning_path": {
+        "total_sessions": 8,
+        "total_hours": 54,
+        "weeks_full_time": 1.4,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Cloud Architecture and Security",
+            "objectives": [
+              "Understand fundamental cloud concepts.",
+              "Learn about different cloud deployment models.",
+              "Grasp basic cloud security principles.",
+              "Identify key components of a cloud architecture."
+            ],
+            "skills": [
+              "design cloud architecture",
+              "cloud security and compliance",
+              "ICT architectural frameworks"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Planning a Cloud Migration Strategy",
+            "objectives": [
+              "Define a cloud migration strategy.",
+              "Assess current infrastructure for cloud readiness.",
+              "Identify potential challenges and risks.",
+              "Develop a migration plan."
+            ],
+            "skills": [
+              "plan migration to cloud",
+              "design cloud architecture",
+              "cloud security and compliance",
+              "ICT architectural frameworks"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              1
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Designing Cloud Networks",
+            "objectives": [
+              "Design secure and scalable cloud networks.",
+              "Implement network segmentation and security controls.",
+              "Understand cloud networking services.",
+              "Plan for hybrid cloud connectivity."
+            ],
+            "skills": [
+              "design cloud networks",
+              "cloud security and compliance",
+              "design cloud architecture"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              1
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Deploying and Managing Cloud Resources",
+            "objectives": [
+              "Deploy cloud resources using Infrastructure as Code (IaC).",
+              "Automate resource provisioning and management.",
+              "Monitor resource utilization and performance.",
+              "Implement cost optimization strategies."
+            ],
+            "skills": [
+              "deploy cloud resource",
+              "develop with cloud services",
+              "design cloud architecture"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              1
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Cloud Refactoring Techniques",
+            "objectives": [
+              "Identify opportunities for cloud refactoring.",
+              "Apply different refactoring patterns.",
+              "Optimize applications for cloud environments.",
+              "Improve application performance and scalability."
+            ],
+            "skills": [
+              "do cloud refactoring",
+              "develop with cloud services",
+              "design cloud architecture"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              4
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Agile Project Management for Cloud Migrations",
+            "objectives": [
+              "Apply Agile methodologies to cloud migration projects.",
+              "Manage sprints and track progress.",
+              "Collaborate effectively with engineering teams.",
+              "Adapt to changing requirements and priorities."
+            ],
+            "skills": [
+              "Agile project management",
+              "collaborate with engineers",
+              "coordinate engineering teams",
+              "plan migration to cloud"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              2
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Cloud Security and Compliance Deep Dive",
+            "objectives": [
+              "Implement advanced cloud security controls.",
+              "Ensure compliance with industry regulations.",
+              "Manage identity and access management (IAM).",
+              "Respond to security incidents."
+            ],
+            "skills": [
+              "cloud security and compliance",
+              "design cloud architecture",
+              "design cloud networks"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              3
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Designing for Organisational Complexity in Cloud Environments",
+            "objectives": [
+              "Understand the impact of organizational structure on cloud adoption.",
+              "Design cloud solutions that align with business needs.",
+              "Manage stakeholders and communication effectively.",
+              "Address challenges related to organizational complexity."
+            ],
+            "skills": [
+              "design for organisational complexity",
+              "design cloud architecture",
+              "collaborate with engineers",
+              "coordinate engineering teams"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              2,
+              6
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T008",
+      "name": "DevOps Engineer",
+      "goal": "I want to become a DevOps engineer",
+      "current_skills": [
+        "linux",
+        "python",
+        "git",
+        "ci/cd basics"
+      ],
+      "category": "Tech Specialization",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 30.33882164955139,
+        "learning_path_generation": 7.744459867477417,
+        "total": 38.08328151702881
+      },
+      "matched_occupation": {
+        "label": "cloud DevOps engineer ",
+        "similarity_score": 0.913364052772522,
+        "similarity_percentage": 91.3364052772522,
+        "uri": "http://data.europa.eu/esco/occupation/cc867bee-ab5c-427f-9244-f7a204d9574b"
+      },
+      "skill_gap": {
+        "total_skills_needed": 25,
+        "skills_to_learn": 25,
+        "recognized_skills": 0
+      },
+      "learning_path": {
+        "total_sessions": 14,
+        "total_hours": 74,
+        "weeks_full_time": 1.9,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Cloud Security and Compliance",
+            "objectives": [
+              "Understand fundamental cloud security concepts.",
+              "Learn about common cloud compliance frameworks.",
+              "Identify potential security risks in cloud environments."
+            ],
+            "skills": [
+              "cloud security and compliance"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Cloud Architecture Design Fundamentals",
+            "objectives": [
+              "Learn the basics of designing cloud architectures.",
+              "Understand different cloud deployment models.",
+              "Explore key considerations for scalability and reliability."
+            ],
+            "skills": [
+              "design cloud architecture"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Introduction to JavaScript for Cloud Applications",
+            "objectives": [
+              "Learn the basics of JavaScript syntax and data types.",
+              "Understand how to use JavaScript in cloud-based applications.",
+              "Explore common JavaScript libraries and frameworks."
+            ],
+            "skills": [
+              "JavaScript"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Setting up an Integrated Development Environment (IDE) for Cloud Development",
+            "objectives": [
+              "Learn how to install and configure an IDE for cloud development.",
+              "Understand how to use IDE features for debugging and testing.",
+              "Explore common IDE plugins for cloud development."
+            ],
+            "skills": [
+              "integrated development environment software"
+            ],
+            "estimated_duration_hours": 2,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 5,
+            "title": "System Backup Best Practices in the Cloud",
+            "objectives": [
+              "Understand the importance of system backups in the cloud.",
+              "Learn about different backup strategies and techniques.",
+              "Explore tools and services for cloud-based backups."
+            ],
+            "skills": [
+              "system backup best practice"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 6,
+            "title": "Cloud Monitoring and Reporting Basics",
+            "objectives": [
+              "Learn how to monitor cloud resources and applications.",
+              "Understand different monitoring metrics and alerts.",
+              "Explore tools and services for cloud monitoring and reporting."
+            ],
+            "skills": [
+              "cloud monitoring and reporting"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 7,
+            "title": "Introduction to Jenkins for Cloud Deployment",
+            "objectives": [
+              "Learn the basics of Jenkins for continuous integration and continuous deployment (CI/CD).",
+              "Understand how to configure Jenkins pipelines for cloud deployment.",
+              "Explore common Jenkins plugins for cloud automation."
+            ],
+            "skills": [
+              "Jenkins (tools for software configuration management)"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 8,
+            "title": "Planning a Migration to the Cloud",
+            "objectives": [
+              "Learn how to assess your current infrastructure for cloud migration.",
+              "Understand different migration strategies and approaches.",
+              "Explore key considerations for cost optimization and security."
+            ],
+            "skills": [
+              "plan migration to cloud"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 9,
+            "title": "Cloud Refactoring Techniques",
+            "objectives": [
+              "Understand the principles of cloud refactoring.",
+              "Learn how to identify and address common cloud refactoring challenges.",
+              "Explore different refactoring patterns and techniques."
+            ],
+            "skills": [
+              "do cloud refactoring"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 10,
+            "title": "Advanced Cloud Security and Compliance Strategies",
+            "objectives": [
+              "Explore advanced cloud security controls and techniques.",
+              "Understand how to implement compliance frameworks in the cloud.",
+              "Learn about incident response and security auditing in the cloud."
+            ],
+            "skills": [
+              "cloud security and compliance"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "cloud security and compliance"
+            ]
+          },
+          {
+            "session_number": 11,
+            "title": "ICT System Programming for Cloud Automation",
+            "objectives": [
+              "Understand the fundamentals of ICT system programming.",
+              "Learn how to automate cloud infrastructure and applications.",
+              "Explore scripting languages and tools for cloud automation."
+            ],
+            "skills": [
+              "ICT system programming"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 12,
+            "title": "Software Frameworks for Cloud Application Development",
+            "objectives": [
+              "Explore popular software frameworks for building cloud applications.",
+              "Understand the benefits and drawbacks of different frameworks.",
+              "Learn how to use frameworks to accelerate development and improve code quality."
+            ],
+            "skills": [
+              "software frameworks"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "JavaScript"
+            ]
+          },
+          {
+            "session_number": 13,
+            "title": "Advanced Cloud Architecture Design",
+            "objectives": [
+              "Design highly scalable and resilient cloud architectures.",
+              "Implement best practices for security and cost optimization.",
+              "Integrate different cloud services and technologies."
+            ],
+            "skills": [
+              "design cloud architecture"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "design cloud architecture"
+            ]
+          },
+          {
+            "session_number": 14,
+            "title": "Computer Engineering Principles in Cloud Computing",
+            "objectives": [
+              "Apply computer engineering principles to cloud infrastructure design.",
+              "Understand the performance characteristics of cloud hardware.",
+              "Optimize cloud applications for performance and efficiency."
+            ],
+            "skills": [
+              "computer engineering"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "design cloud architecture"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T009",
+      "name": "Cybersecurity Specialist",
+      "goal": "I want to become a cybersecurity specialist",
+      "current_skills": [
+        "networking",
+        "linux",
+        "programming basics"
+      ],
+      "category": "Tech Specialization",
+      "experience_level": "beginner",
+      "difficulty": "high",
+      "timestamps": {
+        "skill_gap_analysis": 24.88484764099121,
+        "learning_path_generation": 4.921491622924805,
+        "total": 29.806339263916016
+      },
+      "matched_occupation": {
+        "label": "food safety specialist",
+        "similarity_score": 0.7161340713500977,
+        "similarity_percentage": 71.61340713500977,
+        "uri": "http://data.europa.eu/esco/occupation/00ab5610-e715-428f-99f6-b1e5e469dbcd"
+      },
+      "skill_gap": {
+        "total_skills_needed": 25,
+        "skills_to_learn": 25,
+        "recognized_skills": 0
+      },
+      "learning_path": {
+        "total_sessions": 8,
+        "total_hours": 52,
+        "weeks_full_time": 1.3,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Food Safety and Hygiene",
+            "objectives": [
+              "Understand the importance of personal hygiene in food handling.",
+              "Learn basic food storage principles.",
+              "Recognize potential sources of food contamination."
+            ],
+            "skills": [
+              "maintain personal hygiene standards",
+              "food storage"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Food Preservation Techniques",
+            "objectives": [
+              "Learn different methods of food preservation.",
+              "Understand the science behind food preservation techniques.",
+              "Apply food storage principles to preserved foods."
+            ],
+            "skills": [
+              "food preservation",
+              "food storage"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "maintain personal hygiene standards"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Understanding Food Fraud",
+            "objectives": [
+              "Identify common types of food fraud.",
+              "Understand the impact of food fraud on consumers and businesses.",
+              "Learn basic methods for detecting food fraud."
+            ],
+            "skills": [
+              "food fraud"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Sanitation Inspection and Reporting",
+            "objectives": [
+              "Learn how to plan sanitation inspections.",
+              "Identify potential sanitation violations.",
+              "Prepare reports on sanitation inspection findings."
+            ],
+            "skills": [
+              "plan inspections for prevention of sanitation violations",
+              "prepare reports on sanitation",
+              "keep task records"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "maintain personal hygiene standards",
+              "food storage"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Food Safety Program Development",
+            "objectives": [
+              "Understand the components of a food safety program.",
+              "Learn how to develop a food safety program for a specific food operation.",
+              "Understand food safety regulations."
+            ],
+            "skills": [
+              "develop food safety programmes",
+              "control food safety regulations"
+            ],
+            "estimated_duration_hours": 12,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "maintain personal hygiene standards",
+              "food storage",
+              "plan inspections for prevention of sanitation violations"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Monitoring Packaging Operations for Food Safety",
+            "objectives": [
+              "Understand the role of packaging in food safety.",
+              "Learn how to monitor packaging operations to ensure food safety.",
+              "Identify potential packaging-related food safety hazards."
+            ],
+            "skills": [
+              "monitor packaging operations",
+              "food storage"
+            ],
+            "estimated_duration_hours": 5,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "maintain personal hygiene standards"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Advanced Food Safety and Consumer Protection",
+            "objectives": [
+              "Evaluate retail food inspection findings.",
+              "Investigate complaints related to consumer protection.",
+              "Apply food safety regulations to real-world scenarios."
+            ],
+            "skills": [
+              "evaluate retail food inspection findings",
+              "investigate complaints related to consumer protection",
+              "control food safety regulations"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "plan inspections for prevention of sanitation violations",
+              "develop food safety programmes"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Record Keeping and Reporting for Food Safety",
+            "objectives": [
+              "Maintain accurate task records related to food safety.",
+              "Prepare comprehensive reports on sanitation and food safety inspections.",
+              "Use data to improve food safety practices."
+            ],
+            "skills": [
+              "keep task records",
+              "prepare reports on sanitation"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "plan inspections for prevention of sanitation violations"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T010",
+      "name": "Blockchain Developer",
+      "goal": "I want to become a blockchain developer",
+      "current_skills": [
+        "javascript",
+        "node.js",
+        "cryptography basics"
+      ],
+      "category": "Tech Specialization",
+      "experience_level": "intermediate",
+      "difficulty": "high",
+      "timestamps": {
+        "skill_gap_analysis": 22.192157745361328,
+        "learning_path_generation": 7.160601615905762,
+        "total": 29.35275936126709
+      },
+      "matched_occupation": {
+        "label": "blockchain developer",
+        "similarity_score": 0.9414669275283813,
+        "similarity_percentage": 94.14669275283813,
+        "uri": "http://data.europa.eu/esco/occupation/24135b84-cbdd-4d42-9ed2-02fd982d15b2"
+      },
+      "skill_gap": {
+        "total_skills_needed": 24,
+        "skills_to_learn": 24,
+        "recognized_skills": 1
+      },
+      "learning_path": {
+        "total_sessions": 10,
+        "total_hours": 78,
+        "weeks_full_time": 1.9,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Blockchain Fundamentals",
+            "objectives": [
+              "Understand the core concepts of blockchain technology.",
+              "Differentiate between different types of distributed ledgers.",
+              "Learn basic blockchain terminology."
+            ],
+            "skills": [
+              "blockchain terminology",
+              "distributed ledger technology"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Exploring Blockchain Architecture",
+            "objectives": [
+              "Describe the components of a blockchain architecture.",
+              "Understand the role of consensus mechanisms.",
+              "Explore different blockchain platforms."
+            ],
+            "skills": [
+              "blockchain architecture",
+              "blockchain platforms",
+              "blockchain terminology"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "blockchain terminology",
+              "distributed ledger technology"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Introduction to Smart Contracts",
+            "objectives": [
+              "Define smart contracts and their purpose.",
+              "Understand the basics of smart contract programming languages.",
+              "Explore the lifecycle of a smart contract."
+            ],
+            "skills": [
+              "smart contract",
+              "smart contract programming languages"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "blockchain terminology",
+              "blockchain architecture"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Decentralized Application (DApp) Development Fundamentals",
+            "objectives": [
+              "Understand the architecture of a DApp.",
+              "Learn how to use decentralized application frameworks.",
+              "Explore software components libraries for DApp development."
+            ],
+            "skills": [
+              "decentralized application frameworks",
+              "software components libraries",
+              "blockchain architecture"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "smart contract",
+              "smart contract programming languages"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Advanced Smart Contract Programming",
+            "objectives": [
+              "Write secure and efficient smart contracts.",
+              "Implement complex business logic in smart contracts.",
+              "Understand gas optimization techniques."
+            ],
+            "skills": [
+              "smart contract",
+              "smart contract programming languages",
+              "game theory"
+            ],
+            "estimated_duration_hours": 12,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "smart contract",
+              "smart contract programming languages"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Blockchain Application Areas and Use Cases",
+            "objectives": [
+              "Explore various blockchain application areas.",
+              "Analyze real-world use cases of blockchain technology.",
+              "Identify potential applications of blockchain in different industries."
+            ],
+            "skills": [
+              "blockchain application areas ",
+              "blockchain platforms"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "blockchain terminology",
+              "blockchain architecture"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Decentralized Identifiers (DIDs) and Identity Management",
+            "objectives": [
+              "Understand the concept of Decentralized Identifiers (DIDs).",
+              "Learn how DIDs can be used for identity management.",
+              "Explore the benefits of using DIDs in blockchain applications."
+            ],
+            "skills": [
+              "decentralised identifiers ",
+              "blockchain application areas "
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "blockchain terminology",
+              "blockchain architecture"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Blockchain-Based Services Regulation and Compliance",
+            "objectives": [
+              "Understand the regulatory landscape for blockchain-based services.",
+              "Learn about compliance requirements for blockchain applications.",
+              "Explore the legal challenges associated with blockchain technology."
+            ],
+            "skills": [
+              "blockchain-based services regulation",
+              "blockchain application areas "
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "blockchain terminology",
+              "blockchain architecture"
+            ]
+          },
+          {
+            "session_number": 9,
+            "title": "Game Theory and Blockchain Security",
+            "objectives": [
+              "Apply game theory concepts to blockchain security.",
+              "Analyze the incentives and disincentives in blockchain systems.",
+              "Design secure blockchain protocols using game theory principles."
+            ],
+            "skills": [
+              "game theory",
+              "blockchain architecture"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "blockchain terminology",
+              "blockchain architecture"
+            ]
+          },
+          {
+            "session_number": 10,
+            "title": "Building a Complete DApp",
+            "objectives": [
+              "Integrate smart contracts, frontend, and backend components to build a fully functional DApp.",
+              "Deploy and test the DApp on a blockchain platform.",
+              "Understand the challenges of DApp development and deployment."
+            ],
+            "skills": [
+              "decentralized application frameworks",
+              "software components libraries",
+              "smart contract programming languages",
+              "blockchain platforms",
+              "smart contract"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "decentralized application frameworks",
+              "software components libraries",
+              "smart contract programming languages"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T011",
+      "name": "AI Research Scientist",
+      "goal": "I want to become an AI research scientist",
+      "current_skills": [
+        "python",
+        "mathematics",
+        "statistics",
+        "machine learning",
+        "deep learning"
+      ],
+      "category": "Research & Advanced",
+      "experience_level": "advanced",
+      "difficulty": "low",
+      "timestamps": {
+        "skill_gap_analysis": 38.48491859436035,
+        "learning_path_generation": 7.243325233459473,
+        "total": 45.728243827819824
+      },
+      "matched_occupation": {
+        "label": "computer scientist",
+        "similarity_score": 0.8490119576454163,
+        "similarity_percentage": 84.90119576454163,
+        "uri": "http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e"
+      },
+      "skill_gap": {
+        "total_skills_needed": 23,
+        "skills_to_learn": 23,
+        "recognized_skills": 2
+      },
+      "learning_path": {
+        "total_sessions": 12,
+        "total_hours": 59,
+        "weeks_full_time": 1.5,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Scientific Research and Literature Review",
+            "objectives": [
+              "Understand the principles of scientific research methodology.",
+              "Learn how to conduct effective literature research.",
+              "Identify relevant sources for research projects."
+            ],
+            "skills": [
+              "scientific research methodology",
+              "conduct literature research"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Managing Research Data Effectively",
+            "objectives": [
+              "Learn best practices for managing research data.",
+              "Understand the importance of data integrity and security.",
+              "Explore tools for organizing and storing research data."
+            ],
+            "skills": [
+              "manage research data"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Writing Effective Research Proposals",
+            "objectives": [
+              "Learn the structure and components of a research proposal.",
+              "Develop skills in formulating research questions and hypotheses.",
+              "Practice writing compelling research proposals."
+            ],
+            "skills": [
+              "write research proposals"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "scientific research methodology",
+              "conduct literature research"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Drafting Scientific Papers and Technical Documentation",
+            "objectives": [
+              "Understand the principles of scientific writing.",
+              "Learn how to structure and format scientific papers.",
+              "Develop skills in writing clear and concise technical documentation."
+            ],
+            "skills": [
+              "draft scientific or academic papers and technical documentation"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "scientific research methodology",
+              "conduct literature research",
+              "write research proposals"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Disseminating Research Results to the Scientific Community",
+            "objectives": [
+              "Learn strategies for disseminating research findings.",
+              "Understand the importance of presenting research at conferences and in publications.",
+              "Develop skills in communicating research effectively."
+            ],
+            "skills": [
+              "disseminate results to the scientific community"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "draft scientific or academic papers and technical documentation"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Professional Interaction in Research Environments",
+            "objectives": [
+              "Understand the dynamics of research teams.",
+              "Learn effective communication strategies for research environments.",
+              "Develop skills in collaborating with colleagues and mentors."
+            ],
+            "skills": [
+              "interact professionally in research and professional environments"
+            ],
+            "estimated_duration_hours": 2,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 7,
+            "title": "Evaluating Research Activities",
+            "objectives": [
+              "Learn how to critically evaluate research papers and projects.",
+              "Understand the principles of peer review.",
+              "Develop skills in providing constructive feedback."
+            ],
+            "skills": [
+              "evaluate research activities"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "scientific research methodology",
+              "draft scientific or academic papers and technical documentation"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Open Source Software for Research",
+            "objectives": [
+              "Learn how to use open source software for research purposes.",
+              "Understand the benefits of open source tools.",
+              "Explore specific open source applications relevant to research."
+            ],
+            "skills": [
+              "operate open source software"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 9,
+            "title": "Application-Specific Interface Training",
+            "objectives": [
+              "Become proficient in using a specific application interface.",
+              "Understand the functionalities and features of the application.",
+              "Apply the application to solve research problems."
+            ],
+            "skills": [
+              "use an application-specific interface"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 10,
+            "title": "Defining Technology Strategy for Research Projects",
+            "objectives": [
+              "Learn how to define a technology strategy for research projects.",
+              "Understand the importance of aligning technology with research goals.",
+              "Develop skills in selecting appropriate technologies for research."
+            ],
+            "skills": [
+              "define technology strategy"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "scientific research methodology",
+              "manage research data",
+              "operate open source software",
+              "use an application-specific interface"
+            ]
+          },
+          {
+            "session_number": 11,
+            "title": "Advanced Literature Research and Synthesis",
+            "objectives": [
+              "Develop advanced skills in conducting comprehensive literature reviews.",
+              "Learn how to synthesize information from multiple sources.",
+              "Apply literature research to inform research design and analysis."
+            ],
+            "skills": [
+              "conduct literature research"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "scientific research methodology",
+              "draft scientific or academic papers and technical documentation"
+            ]
+          },
+          {
+            "session_number": 12,
+            "title": "Cross-Lingual Research Communication",
+            "objectives": [
+              "Understand the challenges of communicating research across languages.",
+              "Learn strategies for translating and adapting research materials.",
+              "Practice communicating research findings in different languages."
+            ],
+            "skills": [
+              "speak different languages",
+              "disseminate results to the scientific community"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "draft scientific or academic papers and technical documentation"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T012",
+      "name": "Computer Vision Engineer",
+      "goal": "I want to specialize in computer vision engineering",
+      "current_skills": [
+        "python",
+        "machine learning",
+        "opencv basics"
+      ],
+      "category": "Tech Specialization",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 26.653083562850952,
+        "learning_path_generation": 6.327398777008057,
+        "total": 32.98048233985901
+      },
+      "matched_occupation": {
+        "label": "computer vision engineer",
+        "similarity_score": 0.9908962845802307,
+        "similarity_percentage": 99.08962845802307,
+        "uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341"
+      },
+      "skill_gap": {
+        "total_skills_needed": 17,
+        "skills_to_learn": 17,
+        "recognized_skills": 8
+      },
+      "learning_path": {
+        "total_sessions": 9,
+        "total_hours": 68,
+        "weeks_full_time": 1.7,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Image Recognition with Computer Simulation",
+            "objectives": [
+              "Understand the basics of image recognition.",
+              "Learn how to simulate image data for training.",
+              "Apply image recognition techniques to simulated data."
+            ],
+            "skills": [
+              "image recognition",
+              "computer simulation",
+              "principles of artificial intelligence"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Setting up an IDE for Computer Vision Development",
+            "objectives": [
+              "Install and configure an Integrated Development Environment (IDE) for computer vision.",
+              "Learn basic IDE functionalities.",
+              "Write and execute simple computer vision code."
+            ],
+            "skills": [
+              "integrated development environment software",
+              "develop computer vision system"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Digital Image Processing Fundamentals",
+            "objectives": [
+              "Understand fundamental digital image processing techniques.",
+              "Apply image filtering and enhancement techniques.",
+              "Analyze image histograms."
+            ],
+            "skills": [
+              "digital image processing"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Data Preprocessing for Computer Vision",
+            "objectives": [
+              "Learn how to cleanse and normalize image data.",
+              "Understand dimensionality reduction techniques for image data.",
+              "Establish data processes for image datasets."
+            ],
+            "skills": [
+              "perform data cleansing",
+              "normalise data",
+              "establish data processes",
+              "perform dimensionality reduction"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "digital image processing"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Building a Simple Computer Vision System",
+            "objectives": [
+              "Integrate image recognition and digital image processing techniques.",
+              "Develop a basic computer vision system for a specific task.",
+              "Test and evaluate the performance of the system."
+            ],
+            "skills": [
+              "develop computer vision system",
+              "image recognition",
+              "digital image processing",
+              "principles of artificial intelligence"
+            ],
+            "estimated_duration_hours": 12,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "image recognition",
+              "digital image processing",
+              "integrated development environment software"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Advanced Data Preprocessing and Feature Engineering for Computer Vision",
+            "objectives": [
+              "Master advanced data cleansing and normalization techniques.",
+              "Explore advanced dimensionality reduction methods.",
+              "Learn how to engineer features for improved computer vision performance."
+            ],
+            "skills": [
+              "perform data cleansing",
+              "normalise data",
+              "perform dimensionality reduction"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "perform data cleansing",
+              "normalise data",
+              "perform dimensionality reduction",
+              "establish data processes"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Utilizing Computer-Aided Software Engineering (CASE) Tools for Computer Vision Projects",
+            "objectives": [
+              "Learn how to use CASE tools to design and develop computer vision systems.",
+              "Understand the benefits of using CASE tools for software engineering.",
+              "Apply CASE tools to manage computer vision projects."
+            ],
+            "skills": [
+              "utilise computer-aided software engineering tools",
+              "develop computer vision system"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "integrated development environment software"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Literature Review and Research in Computer Vision",
+            "objectives": [
+              "Learn how to conduct literature research in the field of computer vision.",
+              "Identify relevant research papers and publications.",
+              "Summarize and synthesize research findings."
+            ],
+            "skills": [
+              "conduct literature research"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 9,
+            "title": "Simulating Complex Scenarios for Computer Vision System Training",
+            "objectives": [
+              "Design and implement computer simulations for complex computer vision scenarios.",
+              "Generate synthetic data for training computer vision models.",
+              "Evaluate the effectiveness of simulated data for improving model performance."
+            ],
+            "skills": [
+              "computer simulation",
+              "develop computer vision system",
+              "principles of artificial intelligence"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "computer simulation",
+              "image recognition",
+              "principles of artificial intelligence"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T013",
+      "name": "NLP Engineer",
+      "goal": "I want to become a natural language processing engineer",
+      "current_skills": [
+        "python",
+        "machine learning",
+        "linguistics basics"
+      ],
+      "category": "Tech Specialization",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 32.84508538246155,
+        "learning_path_generation": 6.8991546630859375,
+        "total": 39.744240045547485
+      },
+      "matched_occupation": {
+        "label": "language engineer",
+        "similarity_score": 0.8802768588066101,
+        "similarity_percentage": 88.02768588066101,
+        "uri": "http://data.europa.eu/esco/occupation/4874fa37-0cd1-4a68-aed8-a838851f242d"
+      },
+      "skill_gap": {
+        "total_skills_needed": 24,
+        "skills_to_learn": 24,
+        "recognized_skills": 1
+      },
+      "learning_path": {
+        "total_sessions": 9,
+        "total_hours": 108,
+        "weeks_full_time": 2.7,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Machine Translation Engineering",
+            "objectives": [
+              "Understand the basic principles of machine translation.",
+              "Learn about different approaches to machine translation.",
+              "Explore the role of natural language processing in machine translation."
+            ],
+            "skills": [
+              "machine translation",
+              "natural language processing",
+              "engineering principles"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Algorithms for Machine Translation",
+            "objectives": [
+              "Implement basic algorithms for machine translation.",
+              "Analyze the performance of different algorithms.",
+              "Understand the computational complexity of machine translation algorithms."
+            ],
+            "skills": [
+              "algorithms",
+              "machine translation",
+              "task algorithmisation"
+            ],
+            "estimated_duration_hours": 12,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Machine Translation Engineering"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Project Management for Machine Translation Systems",
+            "objectives": [
+              "Learn how to manage a machine translation project.",
+              "Understand the different phases of a machine translation project.",
+              "Learn how to estimate the cost and time required for a machine translation project."
+            ],
+            "skills": [
+              "project management",
+              "machine translation",
+              "engineering processes"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Machine Translation Engineering"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Technical Drawings for Machine Translation Infrastructure",
+            "objectives": [
+              "Create technical drawings for machine translation infrastructure components.",
+              "Understand the standards for technical drawings.",
+              "Use technical drawing software to create technical drawings."
+            ],
+            "skills": [
+              "technical drawings",
+              "use technical drawing software",
+              "engineering principles"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 5,
+            "title": "Modern Languages and Machine Translation",
+            "objectives": [
+              "Explore the challenges of machine translation for different modern languages.",
+              "Learn about the specific linguistic features of different modern languages.",
+              "Understand how to adapt machine translation algorithms to different modern languages."
+            ],
+            "skills": [
+              "modern languages",
+              "machine translation",
+              "natural language processing"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Machine Translation Engineering"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Artificial Intelligence and Machine Translation",
+            "objectives": [
+              "Explore the role of artificial intelligence in machine translation.",
+              "Learn about different AI techniques used in machine translation.",
+              "Understand the limitations of AI-based machine translation systems."
+            ],
+            "skills": [
+              "principles of artificial intelligence",
+              "machine translation",
+              "natural language processing"
+            ],
+            "estimated_duration_hours": 12,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Introduction to Machine Translation Engineering",
+              "Algorithms for Machine Translation"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Scientific Research in Machine Translation",
+            "objectives": [
+              "Conduct scientific research in the field of machine translation.",
+              "Design and implement experiments to evaluate machine translation systems.",
+              "Write scientific papers on machine translation."
+            ],
+            "skills": [
+              "perform scientific research",
+              "machine translation",
+              "algorithms"
+            ],
+            "estimated_duration_hours": 20,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Artificial Intelligence and Machine Translation"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Advanced Engineering Processes for Machine Translation",
+            "objectives": [
+              "Apply advanced engineering processes to the development of machine translation systems.",
+              "Optimize machine translation systems for performance and scalability.",
+              "Troubleshoot complex problems in machine translation systems."
+            ],
+            "skills": [
+              "engineering processes",
+              "machine translation",
+              "engineering principles"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Project Management for Machine Translation Systems"
+            ]
+          },
+          {
+            "session_number": 9,
+            "title": "Task Algorithmisation for Natural Language Processing",
+            "objectives": [
+              "Develop algorithms for specific natural language processing tasks.",
+              "Optimize algorithms for efficiency and accuracy.",
+              "Apply algorithms to real-world NLP problems."
+            ],
+            "skills": [
+              "task algorithmisation",
+              "natural language processing",
+              "algorithms"
+            ],
+            "estimated_duration_hours": 12,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Machine Translation Engineering"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T014",
+      "name": "Full-Stack Web Developer",
+      "goal": "I want to become a full-stack web developer",
+      "current_skills": [
+        "html",
+        "css",
+        "javascript basics"
+      ],
+      "category": "Web Development",
+      "experience_level": "beginner",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 23.364935159683228,
+        "learning_path_generation": 4.239899396896362,
+        "total": 27.60483455657959
+      },
+      "matched_occupation": {
+        "label": "web developer",
+        "similarity_score": 0.84682697057724,
+        "similarity_percentage": 84.682697057724,
+        "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d"
+      },
+      "skill_gap": {
+        "total_skills_needed": 20,
+        "skills_to_learn": 20,
+        "recognized_skills": 1
+      },
+      "learning_path": {
+        "total_sessions": 5,
+        "total_hours": 26,
+        "weeks_full_time": 0.7,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Web Development Fundamentals",
+            "objectives": [
+              "Understand the basics of the World Wide Web.",
+              "Learn about domain name service and its role.",
+              "Get familiar with markup languages for structuring web content."
+            ],
+            "skills": [
+              "domain name service",
+              "World Wide Web Consortium standards",
+              "use markup languages"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Setting Up Your Web Development Environment",
+            "objectives": [
+              "Install and configure an integrated development environment software.",
+              "Learn to use tools for software configuration management for version control.",
+              "Understand the basics of web programming."
+            ],
+            "skills": [
+              "integrated development environment software",
+              "tools for software configuration management",
+              "web programming"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "Introduction to Web Development Fundamentals"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Building a Simple Web Service",
+            "objectives": [
+              "Create a basic web service using web programming.",
+              "Learn to use an application-specific interface to interact with the web service.",
+              "Understand how to use e-services within a web application."
+            ],
+            "skills": [
+              "web programming",
+              "web services",
+              "use an application-specific interface",
+              "use e-services"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Setting Up Your Web Development Environment"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Collaborative Web Development",
+            "objectives": [
+              "Learn to use web based collaborative platforms for team development.",
+              "Understand how to use tools for software configuration management in a team environment.",
+              "Practice debugging software collaboratively."
+            ],
+            "skills": [
+              "web based collaborative platforms",
+              "tools for software configuration management",
+              "debug software"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Building a Simple Web Service"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Advanced Web Development Techniques",
+            "objectives": [
+              "Apply software design patterns to improve code quality.",
+              "Debug software using advanced techniques.",
+              "Understand how World Wide Web Consortium standards impact web service design."
+            ],
+            "skills": [
+              "use software design patterns",
+              "debug software",
+              "World Wide Web Consortium standards"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Collaborative Web Development"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T015",
+      "name": "Mobile App Developer",
+      "goal": "I want to develop mobile apps for iOS and Android",
+      "current_skills": [
+        "programming basics",
+        "ui design"
+      ],
+      "category": "Mobile Development",
+      "experience_level": "beginner",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 18.161149501800537,
+        "learning_path_generation": 5.867250919342041,
+        "total": 24.028400421142578
+      },
+      "matched_occupation": {
+        "label": "mobile application developer",
+        "similarity_score": 0.9243611693382263,
+        "similarity_percentage": 92.43611693382263,
+        "uri": "http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c"
+      },
+      "skill_gap": {
+        "total_skills_needed": 21,
+        "skills_to_learn": 21,
+        "recognized_skills": 1
+      },
+      "learning_path": {
+        "total_sessions": 7,
+        "total_hours": 36,
+        "weeks_full_time": 0.9,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Python for IoT Data Handling",
+            "objectives": [
+              "Understand basic Python syntax and data structures.",
+              "Learn how to interact with IoT devices using Python.",
+              "Explore libraries for data processing and communication."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "Internet of Things",
+              "use software libraries"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Setting Up Your Python Development Environment",
+            "objectives": [
+              "Install and configure an integrated development environment (IDE) for Python development.",
+              "Learn to use the IDE for writing, running, and debugging Python code.",
+              "Understand basic software configuration management using a simple tool."
+            ],
+            "skills": [
+              "integrated development environment software",
+              "Python (computer programming)",
+              "tools for software configuration management",
+              "debug software"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "Python (computer programming)"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Prototyping a Mobile IoT Application Interface",
+            "objectives": [
+              "Design a basic user interface for an IoT application on a mobile operating system.",
+              "Develop a software prototype to demonstrate the interface functionality.",
+              "Learn how to use an application-specific interface to interact with IoT data."
+            ],
+            "skills": [
+              "mobile operating systems",
+              "develop software prototype",
+              "use an application-specific interface",
+              "Internet of Things"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Python (computer programming)",
+              "integrated development environment software"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Data Migration Strategies for IoT Systems",
+            "objectives": [
+              "Understand the challenges of migrating data in IoT systems.",
+              "Learn how to migrate existing data from one system to another.",
+              "Explore different data migration techniques and tools."
+            ],
+            "skills": [
+              "migrate existing data",
+              "Internet of Things"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Python (computer programming)",
+              "Internet of Things"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Automated Data Migration with Python",
+            "objectives": [
+              "Develop automated migration methods using Python.",
+              "Learn how to handle data transformations and error handling during migration.",
+              "Implement data validation techniques to ensure data integrity."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "migrate existing data",
+              "develop automated migration methods",
+              "debug software"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "migrate existing data",
+              "Python (computer programming)"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Software Design Patterns for IoT Applications",
+            "objectives": [
+              "Understand common software design patterns used in IoT development.",
+              "Learn how to apply these patterns to improve code maintainability and scalability.",
+              "Implement design patterns in Python for IoT applications."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "use software design patterns",
+              "Internet of Things"
+            ],
+            "estimated_duration_hours": 5,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Python (computer programming)",
+              "Internet of Things"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Advanced Debugging Techniques for IoT Software",
+            "objectives": [
+              "Master advanced debugging techniques for complex IoT software.",
+              "Learn how to use debugging tools effectively to identify and fix errors.",
+              "Apply debugging strategies to resolve issues in real-time IoT systems."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "debug software",
+              "Internet of Things"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Python (computer programming)",
+              "debug software",
+              "Internet of Things"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T016",
+      "name": "Technical Product Manager",
+      "goal": "I want to become a technical product manager",
+      "current_skills": [
+        "project management",
+        "business analysis",
+        "technical background"
+      ],
+      "category": "Management",
+      "experience_level": "intermediate",
+      "difficulty": "low",
+      "timestamps": {
+        "skill_gap_analysis": 32.75556969642639,
+        "learning_path_generation": 5.132614374160767,
+        "total": 37.88818407058716
+      },
+      "matched_occupation": {
+        "label": "technical sales representative",
+        "similarity_score": 0.82526695728302,
+        "similarity_percentage": 82.526695728302,
+        "uri": "http://data.europa.eu/esco/occupation/c956be07-53a3-4b01-b8f8-f0c5a428eaa8"
+      },
+      "skill_gap": {
+        "total_skills_needed": 25,
+        "skills_to_learn": 25,
+        "recognized_skills": 0
+      },
+      "learning_path": {
+        "total_sessions": 6,
+        "total_hours": 30,
+        "weeks_full_time": 0.8,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Product & Service Fundamentals",
+            "objectives": [
+              "Distinguish between products and services.",
+              "Identify key characteristics of products and services.",
+              "Understand the importance of product comprehension for effective sales."
+            ],
+            "skills": [
+              "characteristics of products",
+              "characteristics of services",
+              "product comprehension"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Customer Communication & Satisfaction",
+            "objectives": [
+              "Develop effective communication skills for interacting with customers.",
+              "Learn techniques to guarantee customer satisfaction.",
+              "Understand the importance of building customer relationships."
+            ],
+            "skills": [
+              "communicate with customers",
+              "guarantee customer satisfaction",
+              "maintain relationship with customers"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Sales Promotion & Prospecting",
+            "objectives": [
+              "Identify and apply various sales promotion techniques.",
+              "Develop strategies for prospecting new customers.",
+              "Learn how to effectively answer requests for quotation."
+            ],
+            "skills": [
+              "sales promotion techniques",
+              "prospect new customers",
+              "answer requests for quotation"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "communicate with customers"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Marketing Strategy & Legal Compliance",
+            "objectives": [
+              "Understand the basics of marketing strategies.",
+              "Learn how to implement marketing strategies effectively.",
+              "Ensure compliance with legal requirements in all sales and marketing activities."
+            ],
+            "skills": [
+              "implement marketing strategies",
+              "ensure compliance with legal requirements"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 5,
+            "title": "Customer Follow-Up & Relationship Management",
+            "objectives": [
+              "Implement effective customer follow-up procedures.",
+              "Strengthen customer relationships through consistent communication.",
+              "Utilize customer follow-up to guarantee customer satisfaction."
+            ],
+            "skills": [
+              "implement customer follow-up",
+              "maintain relationship with customers",
+              "guarantee customer satisfaction"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "communicate with customers"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Advanced Sales & Marketing Integration",
+            "objectives": [
+              "Integrate all learned skills to maximize sales and customer satisfaction.",
+              "Develop a comprehensive sales and marketing plan.",
+              "Apply all skills to real-world scenarios."
+            ],
+            "skills": [
+              "characteristics of products",
+              "characteristics of services",
+              "sales promotion techniques",
+              "product comprehension",
+              "guarantee customer satisfaction",
+              "communicate with customers",
+              "implement marketing strategies",
+              "ensure compliance with legal requirements",
+              "answer requests for quotation",
+              "maintain relationship with customers",
+              "implement customer follow-up",
+              "prospect new customers"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "characteristics of products",
+              "characteristics of services",
+              "product comprehension",
+              "communicate with customers",
+              "guarantee customer satisfaction",
+              "maintain relationship with customers",
+              "sales promotion techniques",
+              "prospect new customers",
+              "answer requests for quotation",
+              "implement marketing strategies",
+              "ensure compliance with legal requirements",
+              "implement customer follow-up"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T017",
+      "name": "Engineering Manager",
+      "goal": "I want to move from senior engineer to engineering manager",
+      "current_skills": [
+        "software development",
+        "team collaboration",
+        "mentoring"
+      ],
+      "category": "Management",
+      "experience_level": "advanced",
+      "difficulty": "low",
+      "timestamps": {
+        "skill_gap_analysis": 15.378246784210205,
+        "learning_path_generation": 6.111709117889404,
+        "total": 21.48995590209961
+      },
+      "matched_occupation": {
+        "label": "mining, construction and civil engineering machinery distribution manager",
+        "similarity_score": 0.8039002418518066,
+        "similarity_percentage": 80.39002418518066,
+        "uri": "http://data.europa.eu/esco/occupation/ad404c6b-291f-439e-9ad4-c93ddabd3c13"
+      },
+      "skill_gap": {
+        "total_skills_needed": 25,
+        "skills_to_learn": 25,
+        "recognized_skills": 0
+      },
+      "learning_path": {
+        "total_sessions": 8,
+        "total_hours": 44,
+        "weeks_full_time": 1.1,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Freight Transport and Payment",
+            "objectives": [
+              "Understand different freight transport methods.",
+              "Learn about freight payment methods.",
+              "Gain basic knowledge of shipment tracking."
+            ],
+            "skills": [
+              "freight transport methods",
+              "manage freight payment methods",
+              "track shipments"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Hazardous Freight and Customs Compliance",
+            "objectives": [
+              "Learn about hazardous freight regulations.",
+              "Understand the importance of customs compliance.",
+              "Learn how to track hazardous shipments."
+            ],
+            "skills": [
+              "hazardous freight regulations",
+              "ensure customs compliance",
+              "track shipments"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "Introduction to Freight Transport and Payment"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Financial Risk in International Trade",
+            "objectives": [
+              "Understand financial risks in international trade.",
+              "Learn to perform financial risk management.",
+              "Develop financial statistics reports related to international trade."
+            ],
+            "skills": [
+              "perform financial risk management in international trade",
+              "develop financial statistics reports",
+              "perform risk analysis"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Freight Payment and Financial Reporting",
+            "objectives": [
+              "Manage freight payment methods effectively.",
+              "Develop financial statistics reports related to freight costs.",
+              "Perform risk analysis on freight payment processes."
+            ],
+            "skills": [
+              "manage freight payment methods",
+              "develop financial statistics reports",
+              "perform risk analysis"
+            ],
+            "estimated_duration_hours": 5,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Freight Transport and Payment",
+              "Financial Risk in International Trade"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Machinery in Mining, Construction, and Civil Engineering",
+            "objectives": [
+              "Understand the types of machinery used in mining, construction, and civil engineering.",
+              "Learn about the freight transport methods for these machines.",
+              "Understand hazardous freight regulations related to these machines."
+            ],
+            "skills": [
+              "mining, construction and civil engineering machinery products",
+              "freight transport methods",
+              "hazardous freight regulations"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 6,
+            "title": "BIM and Construction Logistics",
+            "objectives": [
+              "Understand how Building Information Modelling (BIM) can be used to optimize construction logistics.",
+              "Learn to track shipments of construction materials using BIM data.",
+              "Identify potential risks in construction material supply chains using BIM."
+            ],
+            "skills": [
+              "building information modelling",
+              "track shipments",
+              "perform risk analysis"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Machinery in Mining, Construction, and Civil Engineering"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Advanced Problem Solving in International Trade",
+            "objectives": [
+              "Create solutions to complex problems in international trade.",
+              "Perform multiple tasks at the same time to manage international trade operations.",
+              "Ensure customs compliance while managing financial risks."
+            ],
+            "skills": [
+              "create solutions to problems",
+              "perform multiple tasks at the same time",
+              "ensure customs compliance",
+              "perform financial risk management in international trade"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Financial Risk in International Trade",
+              "Hazardous Freight and Customs Compliance"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Comprehensive Risk Analysis and Mitigation in Freight Transport",
+            "objectives": [
+              "Perform comprehensive risk analysis of freight transport operations.",
+              "Create solutions to mitigate risks in freight transport.",
+              "Develop financial statistics reports to track the impact of risk mitigation strategies."
+            ],
+            "skills": [
+              "perform risk analysis",
+              "create solutions to problems",
+              "develop financial statistics reports",
+              "freight transport methods"
+            ],
+            "estimated_duration_hours": 7,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Advanced Problem Solving in International Trade"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T018",
+      "name": "Complete Beginner - Programming",
+      "goal": "I want to learn programming and get a tech job",
+      "current_skills": [],
+      "category": "Edge Case",
+      "experience_level": "beginner",
+      "difficulty": "high",
+      "timestamps": {
+        "skill_gap_analysis": 2.44901180267334,
+        "learning_path_generation": 8.179641962051392,
+        "total": 10.628653764724731
+      },
+      "matched_occupation": {
+        "label": "software developer",
+        "similarity_score": 0.7357746958732605,
+        "similarity_percentage": 73.57746958732605,
+        "uri": "http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1"
+      },
+      "skill_gap": {
+        "total_skills_needed": 24,
+        "skills_to_learn": 24,
+        "recognized_skills": 0
+      },
+      "learning_path": {
+        "total_sessions": 14,
+        "total_hours": 168,
+        "weeks_full_time": 4.2,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Database Engineering and SQL",
+            "objectives": [
+              "Understand basic database concepts.",
+              "Write simple SQL queries.",
+              "Apply engineering principles to database design."
+            ],
+            "skills": [
+              "SQL",
+              "engineering principles"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Programming Fundamentals for Engineers",
+            "objectives": [
+              "Learn basic programming concepts.",
+              "Write simple programs.",
+              "Understand how programming relates to engineering processes."
+            ],
+            "skills": [
+              "programming",
+              "engineering processes"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Technical Drawings and Engineering Communication",
+            "objectives": [
+              "Interpret technical drawings.",
+              "Create basic technical drawings.",
+              "Understand the role of technical drawings in engineering projects."
+            ],
+            "skills": [
+              "technical drawings",
+              "engineering principles"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Introduction to Project Management for Engineers",
+            "objectives": [
+              "Understand basic project management principles.",
+              "Learn how to plan and execute small engineering projects.",
+              "Apply engineering processes to project management."
+            ],
+            "skills": [
+              "project management",
+              "engineering processes",
+              "engineering principles"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 5,
+            "title": "Integrated Development Environments (IDEs)",
+            "objectives": [
+              "Learn how to use an IDE.",
+              "Write and debug code in an IDE.",
+              "Understand the benefits of using an IDE."
+            ],
+            "skills": [
+              "integrated development environment software",
+              "programming"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "programming"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Software Configuration Management (SCM) Tools",
+            "objectives": [
+              "Understand the principles of SCM.",
+              "Learn how to use SCM tools.",
+              "Manage code changes using SCM."
+            ],
+            "skills": [
+              "tools for software configuration management",
+              "programming"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "programming"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Introduction to Web Services",
+            "objectives": [
+              "Understand the basics of web services.",
+              "Learn how to consume web services.",
+              "Understand how web services can be used in engineering applications."
+            ],
+            "skills": [
+              "web services",
+              "programming"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "programming"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Application-Specific Interface Usage",
+            "objectives": [
+              "Learn how to use a specific application interface.",
+              "Understand the functionality of the interface.",
+              "Integrate the interface into an engineering workflow."
+            ],
+            "skills": [
+              "use an application-specific interface",
+              "engineering processes"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 9,
+            "title": "Automated Migration Methods",
+            "objectives": [
+              "Understand the need for automated migration.",
+              "Develop automated migration scripts.",
+              "Apply engineering principles to migration processes."
+            ],
+            "skills": [
+              "develop automated migration methods",
+              "programming",
+              "engineering principles"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "programming"
+            ]
+          },
+          {
+            "session_number": 10,
+            "title": "Gathering and Analyzing Customer Requirements",
+            "objectives": [
+              "Learn how to identify customer requirements.",
+              "Document customer requirements.",
+              "Translate customer requirements into engineering specifications."
+            ],
+            "skills": [
+              "identify customer requirements",
+              "engineering processes"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 11,
+            "title": "Project Management with Customer Requirements",
+            "objectives": [
+              "Manage projects based on customer requirements.",
+              "Use engineering processes to meet customer needs.",
+              "Apply project management principles to customer-focused projects."
+            ],
+            "skills": [
+              "project management",
+              "identify customer requirements",
+              "engineering processes"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "project management",
+              "identify customer requirements"
+            ]
+          },
+          {
+            "session_number": 12,
+            "title": "Advanced SQL and Database Engineering",
+            "objectives": [
+              "Write complex SQL queries.",
+              "Design and implement databases.",
+              "Apply engineering principles to database optimization."
+            ],
+            "skills": [
+              "SQL",
+              "engineering principles",
+              "engineering processes"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "SQL",
+              "engineering principles"
+            ]
+          },
+          {
+            "session_number": 13,
+            "title": "Integrating Web Services with Application Interfaces",
+            "objectives": [
+              "Connect web services to application-specific interfaces.",
+              "Develop applications that use both web services and interfaces.",
+              "Apply engineering principles to integration processes."
+            ],
+            "skills": [
+              "web services",
+              "use an application-specific interface",
+              "engineering principles",
+              "programming"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "web services",
+              "use an application-specific interface",
+              "programming"
+            ]
+          },
+          {
+            "session_number": 14,
+            "title": "Advanced Automated Migration and SCM",
+            "objectives": [
+              "Develop robust automated migration methods.",
+              "Integrate migration processes with SCM tools.",
+              "Apply engineering principles to ensure data integrity during migration."
+            ],
+            "skills": [
+              "develop automated migration methods",
+              "tools for software configuration management",
+              "engineering principles",
+              "programming"
+            ],
+            "estimated_duration_hours": 24,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "develop automated migration methods",
+              "tools for software configuration management",
+              "programming"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T019",
+      "name": "Vague Goal - Tech Career",
+      "goal": "I want to work in technology",
+      "current_skills": [
+        "computer basics"
+      ],
+      "category": "Edge Case",
+      "experience_level": "beginner",
+      "difficulty": "high",
+      "timestamps": {
+        "skill_gap_analysis": 19.938396692276,
+        "learning_path_generation": 4.733193635940552,
+        "total": 24.671590328216553
+      },
+      "matched_occupation": {
+        "label": "electronics engineer",
+        "similarity_score": 0.7664403319358826,
+        "similarity_percentage": 76.64403319358826,
+        "uri": "http://data.europa.eu/esco/occupation/4d34a9ee-2653-4da0-bef7-f59294577224"
+      },
+      "skill_gap": {
+        "total_skills_needed": 25,
+        "skills_to_learn": 25,
+        "recognized_skills": 0
+      },
+      "learning_path": {
+        "total_sessions": 7,
+        "total_hours": 37,
+        "weeks_full_time": 0.9,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Electronics and Electricity",
+            "objectives": [
+              "Understand basic electricity principles.",
+              "Identify common types of electronics.",
+              "Learn fundamental electronic test procedures."
+            ],
+            "skills": [
+              "electricity principles",
+              "types of electronics",
+              "electronic test procedures",
+              "electronics",
+              "electricity"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Battery Management Systems Overview",
+            "objectives": [
+              "Explain the function of battery management systems.",
+              "Describe different battery technologies.",
+              "Understand basic battery testing methods."
+            ],
+            "skills": [
+              "battery management systems",
+              "electrical testing methods",
+              "electronics",
+              "electricity principles"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "Introduction to Electronics and Electricity"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Advanced Electronic Testing and Troubleshooting",
+            "objectives": [
+              "Apply advanced electronic test procedures.",
+              "Troubleshoot common electronic circuits.",
+              "Interpret test results effectively."
+            ],
+            "skills": [
+              "electronic test procedures",
+              "electrical testing methods",
+              "electronics",
+              "electricity principles"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Electronics and Electricity"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Engineering Principles in Electronic Design",
+            "objectives": [
+              "Apply engineering principles to electronic design.",
+              "Interpret design drawings.",
+              "Understand the design process for electronic systems."
+            ],
+            "skills": [
+              "engineering principles",
+              "design drawings",
+              "electronics",
+              "electricity principles"
+            ],
+            "estimated_duration_hours": 5,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Introduction to Electronics and Electricity"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Environmental Impact of Electronics and Legislation",
+            "objectives": [
+              "Understand environmental legislation related to electronics.",
+              "Identify environmental threats posed by electronic waste.",
+              "Explore sustainable electronic design practices."
+            ],
+            "skills": [
+              "environmental legislation",
+              "environmental threats",
+              "electronics",
+              "engineering principles"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 6,
+            "title": "Industrial Research and Development in Electronics",
+            "objectives": [
+              "Explore the role of industrial research and development in electronics.",
+              "Understand the process of developing new electronic technologies.",
+              "Apply engineering principles to R&D projects."
+            ],
+            "skills": [
+              "industrial research and development",
+              "engineering principles",
+              "electronics",
+              "design drawings",
+              "electricity principles"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Engineering Principles in Electronic Design",
+              "Advanced Electronic Testing and Troubleshooting"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Advanced Battery Management System Design",
+            "objectives": [
+              "Design advanced battery management systems.",
+              "Optimize battery performance and lifespan.",
+              "Incorporate environmental considerations into battery design."
+            ],
+            "skills": [
+              "battery management systems",
+              "engineering principles",
+              "design drawings",
+              "environmental legislation",
+              "environmental threats",
+              "electronics",
+              "electricity principles"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "Battery Management Systems Overview",
+              "Engineering Principles in Electronic Design"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T020",
+      "name": "Highly Experienced - Specialization",
+      "goal": "I want to specialize in reinforcement learning",
+      "current_skills": [
+        "python",
+        "machine learning",
+        "deep learning",
+        "neural networks",
+        "mathematics",
+        "statistics",
+        "tensorflow",
+        "pytorch"
+      ],
+      "category": "Edge Case",
+      "experience_level": "advanced",
+      "difficulty": "low",
+      "timestamps": {
+        "skill_gap_analysis": 44.88796591758728,
+        "learning_path_generation": 8.819193363189697,
+        "total": 53.70715928077698
+      },
+      "matched_occupation": {
+        "label": "veterinary scientist",
+        "similarity_score": 0.6992868185043335,
+        "similarity_percentage": 69.92868185043335,
+        "uri": "http://data.europa.eu/esco/occupation/557f9ccc-4e46-4bb2-8d20-272cd978b152"
+      },
+      "skill_gap": {
+        "total_skills_needed": 25,
+        "skills_to_learn": 25,
+        "recognized_skills": 0
+      },
+      "learning_path": {
+        "total_sessions": 10,
+        "total_hours": 52,
+        "weeks_full_time": 1.3,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Veterinary Terminology and Fundamental Sciences",
+            "objectives": [
+              "Define common veterinary terms.",
+              "Explain basic concepts in veterinary anatomy and physiology.",
+              "Relate terminology to fundamental scientific principles."
+            ],
+            "skills": [
+              "veterinary terminology",
+              "fundamental veterinary sciences"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Laboratory Testing Fundamentals",
+            "objectives": [
+              "Understand the principles of common veterinary laboratory tests.",
+              "Properly collect and handle animal samples for testing.",
+              "Perform basic laboratory tests on animal samples under supervision."
+            ],
+            "skills": [
+              "fundamental veterinary sciences",
+              "perform laboratory testing on samples of animals"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Veterinary Clinical Records Management",
+            "objectives": [
+              "Understand the importance of accurate and complete veterinary clinical records.",
+              "Learn how to properly document patient information.",
+              "Practice maintaining veterinary clinical records according to established protocols."
+            ],
+            "skills": [
+              "maintain veterinary clinical records"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Introduction to Animal Biosecurity",
+            "objectives": [
+              "Define animal biosecurity and its importance.",
+              "Identify potential biosecurity risks in veterinary settings.",
+              "Implement basic biosecurity measures to prevent disease spread."
+            ],
+            "skills": [
+              "manage animal biosecurity"
+            ],
+            "estimated_duration_hours": 2,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 5,
+            "title": "Professional Communication in Veterinary Settings",
+            "objectives": [
+              "Develop effective communication skills for interacting with colleagues and clients.",
+              "Practice professional etiquette in research and clinical environments.",
+              "Learn how to communicate specialized veterinary information clearly and concisely."
+            ],
+            "skills": [
+              "interact professionally in research and professional environments",
+              "communicate specialised veterinary information"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 6,
+            "title": "Data Management in Veterinary Research",
+            "objectives": [
+              "Understand the principles of research data management.",
+              "Learn how to organize and store veterinary research data effectively.",
+              "Utilize open source software for data analysis and visualization."
+            ],
+            "skills": [
+              "manage research data",
+              "operate open source software"
+            ],
+            "estimated_duration_hours": 5,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 7,
+            "title": "Drafting Scientific Papers and Technical Documentation",
+            "objectives": [
+              "Learn the structure and format of scientific papers.",
+              "Practice writing clear and concise technical documentation.",
+              "Develop skills in citing sources and avoiding plagiarism."
+            ],
+            "skills": [
+              "draft scientific or academic papers and technical documentation"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 8,
+            "title": "Advanced Laboratory Techniques and Data Analysis",
+            "objectives": [
+              "Perform advanced laboratory tests on animal samples.",
+              "Analyze laboratory data using statistical methods.",
+              "Interpret laboratory results in the context of veterinary medicine."
+            ],
+            "skills": [
+              "fundamental veterinary sciences",
+              "perform laboratory testing on samples of animals",
+              "manage research data",
+              "operate open source software"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "advanced",
+            "prerequisites": []
+          },
+          {
+            "session_number": 9,
+            "title": "Disseminating Research Findings",
+            "objectives": [
+              "Prepare presentations for scientific conferences.",
+              "Write abstracts and posters for scientific meetings.",
+              "Effectively communicate research findings to the scientific community."
+            ],
+            "skills": [
+              "disseminate results to the scientific community",
+              "draft scientific or academic papers and technical documentation",
+              "communicate specialised veterinary information"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 10,
+            "title": "Multilingual Communication in Veterinary Medicine",
+            "objectives": [
+              "Communicate basic veterinary information in different languages.",
+              "Understand cultural differences in veterinary practices.",
+              "Interact professionally with international colleagues."
+            ],
+            "skills": [
+              "speak different languages",
+              "interact professionally in research and professional environments",
+              "communicate specialised veterinary information"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T021",
+      "name": "Game Developer",
+      "goal": "I want to become a game developer",
+      "current_skills": [
+        "c++",
+        "graphics basics",
+        "game design"
+      ],
+      "category": "Game Development",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 18.578185319900513,
+        "learning_path_generation": 5.262753248214722,
+        "total": 23.840938568115234
+      },
+      "matched_occupation": {
+        "label": "gambling games designer",
+        "similarity_score": 0.7908424139022827,
+        "similarity_percentage": 79.08424139022827,
+        "uri": "http://data.europa.eu/esco/occupation/11830794-108c-48fe-a282-2cd7a2945344"
+      },
+      "skill_gap": {
+        "total_skills_needed": 19,
+        "skills_to_learn": 19,
+        "recognized_skills": 1
+      },
+      "learning_path": {
+        "total_sessions": 7,
+        "total_hours": 39,
+        "weeks_full_time": 1.0,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Gambling Game Design and Legal Compliance",
+            "objectives": [
+              "Understand the legal landscape of gambling game design.",
+              "Learn to create basic game concepts that adhere to legal standards.",
+              "Develop an awareness of the importance of legal compliance in the gambling industry."
+            ],
+            "skills": [
+              "legal standards in gambling",
+              "create gambling games concepts",
+              "ensure legal gaming"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Visualizing Gambling Games: Graphic Design and Digital Interface",
+            "objectives": [
+              "Learn the fundamentals of graphic design for gambling games.",
+              "Design a basic digital interface for a simple gambling game.",
+              "Understand how visual elements contribute to the user experience."
+            ],
+            "skills": [
+              "graphic design",
+              "design the digital interface of gambling, betting and lottery games"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Game Rules and Technical Documentation",
+            "objectives": [
+              "Formulate clear and concise game rules for a gambling game.",
+              "Create technical drawings to illustrate game mechanics.",
+              "Understand the importance of accurate documentation."
+            ],
+            "skills": [
+              "games rules",
+              "formulate game rules",
+              "use technical drawing software"
+            ],
+            "estimated_duration_hours": 5,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "games rules"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Developing and Demonstrating Gambling Games",
+            "objectives": [
+              "Develop a simple gambling game based on a given concept.",
+              "Demonstrate the game to others and gather feedback.",
+              "Refine the game based on feedback."
+            ],
+            "skills": [
+              "create gambling games concepts",
+              "games rules",
+              "demonstrate games"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "games rules",
+              "formulate game rules"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Legal Gaming and Incident Reporting",
+            "objectives": [
+              "Understand the legal requirements for ensuring fair gaming.",
+              "Learn how to identify and report gaming incidents.",
+              "Develop a proactive approach to legal compliance."
+            ],
+            "skills": [
+              "ensure legal gaming",
+              "report gaming incidents",
+              "legal standards in gambling"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "legal standards in gambling"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Digital Problem Solving in Gambling",
+            "objectives": [
+              "Identify common problems in digital gambling environments.",
+              "Develop digital solutions to address these problems.",
+              "Implement and test these solutions."
+            ],
+            "skills": [
+              "solve problems in gambling through digital means",
+              "design the digital interface of gambling, betting and lottery games"
+            ],
+            "estimated_duration_hours": 7,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "design the digital interface of gambling, betting and lottery games"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Adapting Gambling Games to the Market",
+            "objectives": [
+              "Analyze market trends and player preferences.",
+              "Adapt existing gambling games to suit specific markets.",
+              "Understand the importance of cultural sensitivity in game design."
+            ],
+            "skills": [
+              "adapt developed game to the market",
+              "create gambling games concepts"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "create gambling games concepts"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T022",
+      "name": "Database Administrator",
+      "goal": "I want to become a database administrator",
+      "current_skills": [
+        "sql",
+        "database basics",
+        "networking"
+      ],
+      "category": "Data Management",
+      "experience_level": "beginner",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 28.99082326889038,
+        "learning_path_generation": 4.410199403762817,
+        "total": 33.4010226726532
+      },
+      "matched_occupation": {
+        "label": "database administrator",
+        "similarity_score": 0.9555975794792175,
+        "similarity_percentage": 95.55975794792175,
+        "uri": "http://data.europa.eu/esco/occupation/8c57af09-719c-42b3-be40-6ed4946236cc"
+      },
+      "skill_gap": {
+        "total_skills_needed": 18,
+        "skills_to_learn": 18,
+        "recognized_skills": 6
+      },
+      "learning_path": {
+        "total_sessions": 6,
+        "total_hours": 40,
+        "weeks_full_time": 1.0,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to System Administration and Scripting",
+            "objectives": [
+              "Understand basic system administration tasks.",
+              "Learn to automate tasks using scripting.",
+              "Grasp the fundamentals of domain name service."
+            ],
+            "skills": [
+              "administer ICT system",
+              "use scripting programming",
+              "domain name service"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Database Fundamentals: Structure and Querying",
+            "objectives": [
+              "Learn to define the physical structure of a database.",
+              "Understand and use query languages to retrieve data.",
+              "Explore the Resource Description Framework Query Language (SPARQL)."
+            ],
+            "skills": [
+              "define database physical structure",
+              "query languages",
+              "resource description framework query language"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "ICT Troubleshooting and Application Interfaces",
+            "objectives": [
+              "Develop skills in troubleshooting common ICT issues.",
+              "Learn to interact with systems using application-specific interfaces."
+            ],
+            "skills": [
+              "perform ICT troubleshooting",
+              "use an application-specific interface"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "administer ICT system"
+            ]
+          },
+          {
+            "session_number": 4,
+            "title": "Backup and Recovery Strategies",
+            "objectives": [
+              "Implement best practices for system backups.",
+              "Understand the importance of data backups.",
+              "Learn how to perform backups effectively."
+            ],
+            "skills": [
+              "system backup best practice",
+              "perform backups"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "administer ICT system"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Advanced Database Administration: Resource Balancing",
+            "objectives": [
+              "Learn to balance database resources for optimal performance.",
+              "Understand the factors affecting database performance."
+            ],
+            "skills": [
+              "balance database resources"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "define database physical structure",
+              "query languages"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Distributed Computing and System Administration",
+            "objectives": [
+              "Understand the concepts of distributed computing.",
+              "Apply system administration skills in a distributed environment."
+            ],
+            "skills": [
+              "distributed computing",
+              "administer ICT system"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "administer ICT system",
+              "use scripting programming"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T023",
+      "name": "Business Intelligence Analyst",
+      "goal": "I want to become a business intelligence analyst",
+      "current_skills": [
+        "excel",
+        "sql",
+        "data analysis",
+        "tableau"
+      ],
+      "category": "Business Analytics",
+      "experience_level": "intermediate",
+      "difficulty": "low",
+      "timestamps": {
+        "skill_gap_analysis": 32.798309087753296,
+        "learning_path_generation": 6.916780710220337,
+        "total": 39.71508979797363
+      },
+      "matched_occupation": {
+        "label": "business intelligence manager",
+        "similarity_score": 0.9161451458930969,
+        "similarity_percentage": 91.61451458930969,
+        "uri": "http://data.europa.eu/esco/occupation/207d7b18-6540-432e-8aa6-785ed434572f"
+      },
+      "skill_gap": {
+        "total_skills_needed": 24,
+        "skills_to_learn": 24,
+        "recognized_skills": 1
+      },
+      "learning_path": {
+        "total_sessions": 10,
+        "total_hours": 66,
+        "weeks_full_time": 1.6,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Business Analysis and Organizational Needs",
+            "objectives": [
+              "Understand the fundamentals of business analysis.",
+              "Learn how to identify and interpret business information.",
+              "Discover methods for identifying undetected organizational needs."
+            ],
+            "skills": [
+              "perform business analysis",
+              "interpret business information",
+              "identify undetected organisational needs"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Strategic Planning and its Integration into Daily Performance",
+            "objectives": [
+              "Learn the basics of strategic planning.",
+              "Understand how to integrate strategic foundations into daily work.",
+              "Explore the relationship between strategic planning and business management principles."
+            ],
+            "skills": [
+              "strategic planning",
+              "integrate strategic foundation in daily performance",
+              "business management principles"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Data Analysis for Business Insights",
+            "objectives": [
+              "Learn how to use statistical analysis system software for data analysis.",
+              "Understand how to apply statistical analysis to business problems.",
+              "Learn to interpret business information using statistical analysis."
+            ],
+            "skills": [
+              "statistical analysis system software",
+              "statistical analysis system software",
+              "interpret business information"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Corporate Social Responsibility and Organizational Policies",
+            "objectives": [
+              "Understand the principles of corporate social responsibility.",
+              "Learn how organizational policies support corporate social responsibility.",
+              "Identify organizational needs related to corporate social responsibility."
+            ],
+            "skills": [
+              "corporate social responsibility",
+              "organisational policies",
+              "identify undetected organisational needs"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 5,
+            "title": "Operational Research and Business Management",
+            "objectives": [
+              "Learn the basics of operational research.",
+              "Understand how operational research can be applied to business management.",
+              "Apply operational research techniques to identify organizational needs."
+            ],
+            "skills": [
+              "operational research",
+              "business management principles",
+              "identify undetected organisational needs"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 6,
+            "title": "Advanced Business Analysis and Strategic Alignment",
+            "objectives": [
+              "Perform in-depth business analysis to inform strategic planning.",
+              "Integrate strategic foundations into daily performance based on business analysis.",
+              "Identify undetected organizational needs through business analysis and strategic planning."
+            ],
+            "skills": [
+              "perform business analysis",
+              "strategic planning",
+              "integrate strategic foundation in daily performance",
+              "identify undetected organisational needs"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": []
+          },
+          {
+            "session_number": 7,
+            "title": "Gathering and Interpreting Technical Information for Business Decisions",
+            "objectives": [
+              "Learn how to effectively gather technical information.",
+              "Understand how to interpret technical information in a business context.",
+              "Use technical information to inform business analysis and strategic planning."
+            ],
+            "skills": [
+              "gather technical information",
+              "interpret business information",
+              "perform business analysis",
+              "strategic planning"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 8,
+            "title": "Statistical Analysis System Software for Advanced Business Insights",
+            "objectives": [
+              "Master advanced techniques in statistical analysis system software.",
+              "Apply statistical analysis to complex business problems.",
+              "Interpret business information derived from advanced statistical analysis."
+            ],
+            "skills": [
+              "statistical analysis system software",
+              "statistical analysis system software",
+              "interpret business information"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "advanced",
+            "prerequisites": []
+          },
+          {
+            "session_number": 9,
+            "title": "Organizational Policies and Corporate Social Responsibility: Implementation and Impact",
+            "objectives": [
+              "Analyze the impact of organizational policies on corporate social responsibility.",
+              "Develop strategies for aligning organizational policies with corporate social responsibility goals.",
+              "Identify undetected organizational needs related to corporate social responsibility and policy implementation."
+            ],
+            "skills": [
+              "organisational policies",
+              "corporate social responsibility",
+              "identify undetected organisational needs"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 10,
+            "title": "Strategic Planning and Operational Research Integration",
+            "objectives": [
+              "Integrate operational research findings into strategic planning processes.",
+              "Use strategic planning to guide operational research efforts.",
+              "Apply business management principles to optimize the integration of strategic planning and operational research."
+            ],
+            "skills": [
+              "strategic planning",
+              "operational research",
+              "business management principles"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "advanced",
+            "prerequisites": []
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T024",
+      "name": "Network Engineer",
+      "goal": "I want to become a network engineer",
+      "current_skills": [
+        "networking basics",
+        "cisco",
+        "routing"
+      ],
+      "category": "Network Engineering",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 23.20035743713379,
+        "learning_path_generation": 7.730788230895996,
+        "total": 30.931145668029785
+      },
+      "matched_occupation": {
+        "label": "ICT network engineer",
+        "similarity_score": 0.961789071559906,
+        "similarity_percentage": 96.1789071559906,
+        "uri": "http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d"
+      },
+      "skill_gap": {
+        "total_skills_needed": 23,
+        "skills_to_learn": 23,
+        "recognized_skills": 1
+      },
+      "learning_path": {
+        "total_sessions": 10,
+        "total_hours": 156,
+        "weeks_full_time": 3.9,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Network Security with Python",
+            "objectives": [
+              "Understand basic network concepts.",
+              "Learn how to use Python for network analysis.",
+              "Identify common network vulnerabilities.",
+              "Write simple Python scripts for network security tasks."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "network engineering",
+              "information security strategy"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Designing a Secure Mobile Network",
+            "objectives": [
+              "Learn the fundamentals of mobile network architecture.",
+              "Understand security considerations for mobile operating systems.",
+              "Design a secure mobile network infrastructure.",
+              "Apply network standards to mobile network design."
+            ],
+            "skills": [
+              "design computer network",
+              "mobile operating systems",
+              "network standards",
+              "information security strategy"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "network engineering"
+            ]
+          },
+          {
+            "session_number": 3,
+            "title": "Automated Data Migration Strategies",
+            "objectives": [
+              "Understand data migration challenges.",
+              "Learn how to use Python to automate data migration.",
+              "Develop automated migration methods.",
+              "Use application-specific interfaces for data migration."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "migrate existing data",
+              "use an application-specific interface",
+              "develop automated migration methods"
+            ],
+            "estimated_duration_hours": 24,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Advanced Network Routing and Performance Analysis",
+            "objectives": [
+              "Master advanced network routing protocols.",
+              "Learn how to analyze network performance.",
+              "Apply ICT performance analysis methods.",
+              "Troubleshoot network routing issues."
+            ],
+            "skills": [
+              "network engineering",
+              "ICT network routing",
+              "ICT performance analysis methods"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "network engineering"
+            ]
+          },
+          {
+            "session_number": 5,
+            "title": "Defining a Technology Strategy for Secure ICT Networks",
+            "objectives": [
+              "Understand the importance of a technology strategy.",
+              "Learn how to define a technology strategy for ICT networks.",
+              "Incorporate information security strategy into the overall technology strategy.",
+              "Consider network standards and performance in technology strategy."
+            ],
+            "skills": [
+              "define technology strategy",
+              "information security strategy",
+              "network standards",
+              "ICT performance analysis methods"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "network engineering"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Securing Data During Migration",
+            "objectives": [
+              "Understand security risks associated with data migration.",
+              "Implement security measures during data migration.",
+              "Use Python to secure data during migration.",
+              "Apply information security strategy to data migration processes."
+            ],
+            "skills": [
+              "migrate existing data",
+              "Python (computer programming)",
+              "information security strategy",
+              "develop automated migration methods"
+            ],
+            "estimated_duration_hours": 12,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "migrate existing data"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Python for Network Automation and Management",
+            "objectives": [
+              "Learn to automate network configuration using Python.",
+              "Use Python to monitor network performance.",
+              "Develop Python scripts for network troubleshooting.",
+              "Integrate Python with network management tools."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "network engineering",
+              "ICT performance analysis methods",
+              "network standards"
+            ],
+            "estimated_duration_hours": 20,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "network engineering"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Designing Resilient and Secure Computer Networks",
+            "objectives": [
+              "Design computer networks with high availability.",
+              "Implement security measures to protect against network threats.",
+              "Apply network standards to ensure interoperability.",
+              "Optimize network performance using ICT performance analysis methods."
+            ],
+            "skills": [
+              "design computer network",
+              "network engineering",
+              "information security strategy",
+              "network standards",
+              "ICT performance analysis methods"
+            ],
+            "estimated_duration_hours": 24,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "design computer network",
+              "network engineering"
+            ]
+          },
+          {
+            "session_number": 9,
+            "title": "Mobile Operating System Security Hardening",
+            "objectives": [
+              "Understand the security architecture of mobile operating systems.",
+              "Implement security hardening techniques for mobile devices.",
+              "Configure mobile operating systems to meet security standards.",
+              "Analyze and mitigate mobile security vulnerabilities."
+            ],
+            "skills": [
+              "mobile operating systems",
+              "information security strategy",
+              "network standards"
+            ],
+            "estimated_duration_hours": 16,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "mobile operating systems"
+            ]
+          },
+          {
+            "session_number": 10,
+            "title": "Strategic ICT Network Routing Design",
+            "objectives": [
+              "Develop a strategic approach to ICT network routing.",
+              "Design routing protocols to meet business requirements.",
+              "Optimize routing performance for efficiency and security.",
+              "Integrate routing design with overall technology strategy."
+            ],
+            "skills": [
+              "ICT network routing",
+              "design computer network",
+              "define technology strategy",
+              "ICT performance analysis methods"
+            ],
+            "estimated_duration_hours": 12,
+            "difficulty_level": "advanced",
+            "prerequisites": [
+              "ICT network routing",
+              "define technology strategy"
+            ]
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    },
+    {
+      "test_id": "T025",
+      "name": "IoT Engineer",
+      "goal": "I want to work with Internet of Things and embedded systems",
+      "current_skills": [
+        "programming",
+        "electronics basics",
+        "sensors"
+      ],
+      "category": "IoT & Embedded",
+      "experience_level": "intermediate",
+      "difficulty": "medium",
+      "timestamps": {
+        "skill_gap_analysis": 21.22213053703308,
+        "learning_path_generation": 6.453729152679443,
+        "total": 27.675859689712524
+      },
+      "matched_occupation": {
+        "label": "embedded systems software developer",
+        "similarity_score": 0.8346893787384033,
+        "similarity_percentage": 83.46893787384033,
+        "uri": "http://data.europa.eu/esco/occupation/57af9090-55b4-4911-b2d0-86db01c00b02"
+      },
+      "skill_gap": {
+        "total_skills_needed": 23,
+        "skills_to_learn": 23,
+        "recognized_skills": 1
+      },
+      "learning_path": {
+        "total_sessions": 10,
+        "total_hours": 65,
+        "weeks_full_time": 1.6,
+        "sessions": [
+          {
+            "session_number": 1,
+            "title": "Introduction to Python for IoT",
+            "objectives": [
+              "Understand the basics of Python syntax and data structures.",
+              "Learn how to use an integrated development environment (IDE) for Python development.",
+              "Explore the application of Python in Internet of Things (IoT) projects."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "integrated development environment software",
+              "Internet of Things"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 2,
+            "title": "Software Configuration Management with Git",
+            "objectives": [
+              "Learn the fundamentals of software configuration management.",
+              "Understand how to use Git for version control.",
+              "Practice branching, merging, and resolving conflicts."
+            ],
+            "skills": [
+              "tools for software configuration management"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 3,
+            "title": "Creating Flowchart Diagrams for Software Design",
+            "objectives": [
+              "Understand the importance of flowchart diagrams in software design.",
+              "Learn how to create flowchart diagrams to represent software logic.",
+              "Use flowchart diagrams to communicate software design ideas."
+            ],
+            "skills": [
+              "create flowchart diagram"
+            ],
+            "estimated_duration_hours": 3,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 4,
+            "title": "Software Specification Analysis",
+            "objectives": [
+              "Learn how to read and understand software specifications.",
+              "Identify key requirements and constraints from software specifications.",
+              "Translate software specifications into design documents."
+            ],
+            "skills": [
+              "analyse software specifications"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "intermediate",
+            "prerequisites": []
+          },
+          {
+            "session_number": 5,
+            "title": "Debugging Python Code",
+            "objectives": [
+              "Learn how to use debugging tools in an IDE.",
+              "Understand common debugging techniques.",
+              "Practice debugging Python code to identify and fix errors."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "integrated development environment software",
+              "debug software"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Python (computer programming)",
+              "integrated development environment software"
+            ]
+          },
+          {
+            "session_number": 6,
+            "title": "Software Design Patterns in Python",
+            "objectives": [
+              "Understand the concept of software design patterns.",
+              "Learn common design patterns and their applications.",
+              "Implement design patterns in Python code."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "use software design patterns"
+            ],
+            "estimated_duration_hours": 8,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "Python (computer programming)"
+            ]
+          },
+          {
+            "session_number": 7,
+            "title": "Developing a Software Prototype",
+            "objectives": [
+              "Learn how to create a software prototype.",
+              "Understand the importance of prototyping in software development.",
+              "Develop a functional prototype for a given software specification."
+            ],
+            "skills": [
+              "develop software prototype",
+              "analyse software specifications"
+            ],
+            "estimated_duration_hours": 12,
+            "difficulty_level": "intermediate",
+            "prerequisites": [
+              "analyse software specifications"
+            ]
+          },
+          {
+            "session_number": 8,
+            "title": "Introduction to Computer-Aided Software Engineering (CASE) Tools",
+            "objectives": [
+              "Understand the role of CASE tools in software development.",
+              "Learn how to use CASE tools for different software development activities.",
+              "Explore different types of CASE tools."
+            ],
+            "skills": [
+              "utilise computer-aided software engineering tools"
+            ],
+            "estimated_duration_hours": 4,
+            "difficulty_level": "beginner",
+            "prerequisites": []
+          },
+          {
+            "session_number": 9,
+            "title": "Using Software Libraries in Python",
+            "objectives": [
+              "Learn how to use software libraries in Python.",
+              "Understand the benefits of using software libraries.",
+              "Explore common Python libraries for different tasks."
+            ],
+            "skills": [
+              "Python (computer programming)",
+              "use software libraries"
+            ],
+            "estimated_duration_hours": 6,
+            "difficulty_level": "beginner",
+            "prerequisites": [
+              "Python (computer programming)"
+            ]
+          },
+          {
+            "session_number": 10,
+            "title": "Developing a Simple ICT Device Driver",
+            "objectives": [
+              "Understand the basics of ICT device drivers.",
+              "Learn the steps involved in developing a simple device driver.",
+              "Develop a basic driver for a virtual device."
+            ],
+            "skills": [
+              "develop ICT device driver"
+            ],
+            "estimated_duration_hours": 10,
+            "difficulty_level": "advanced",
+            "prerequisites": []
+          }
+        ]
+      },
+      "error": "Resource curation failed: 'dict' object has no attribute 'split'",
+      "status": "failed"
+    }
+  ]
+}

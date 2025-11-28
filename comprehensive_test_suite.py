@@ -1,604 +1,966 @@
 """
-Comprehensive Test Suite for GenMentor System
-Tests multiple scenarios, edge cases, and system components.
+Comprehensive Test Suite for GenMentor System with Optimization Benchmarks
+Tests multiple scenarios, edge cases, system components, and performance optimizations.
+Includes full resource curation testing.
 """
 
-import requests
 import time
 import json
-import numpy as np
-from typing import Dict, List
+import sys
+import asyncio
+from typing import Dict, List, Tuple
 from datetime import datetime
+from ai_engine import GenMentorAI
+import numpy as np
 
-# Import similarity metrics for detailed comparison
+# Check available optimizations
 try:
-    from similarity_metrics import SimilarityMetrics
-    SIMILARITY_METRICS_AVAILABLE = True
+    from database_optimizer import ConnectionPool
+    DATABASE_OPTIMIZER_AVAILABLE = True
 except ImportError:
-    SIMILARITY_METRICS_AVAILABLE = False
-    print("⚠️ similarity_metrics module not available")
+    DATABASE_OPTIMIZER_AVAILABLE = False
+
+try:
+    from faiss_optimizer import FAISSIndex
+    FAISS_OPTIMIZER_AVAILABLE = True
+except ImportError:
+    FAISS_OPTIMIZER_AVAILABLE = False
+
+try:
+    from async_resource_curator import AsyncResourceCurator
+    ASYNC_RESOURCE_AVAILABLE = True
+except ImportError:
+    ASYNC_RESOURCE_AVAILABLE = False
+
+try:
+    from improved_resource_curator import ImprovedResourceCurator
+    RESOURCE_CURATOR_AVAILABLE = True
+except ImportError:
+    RESOURCE_CURATOR_AVAILABLE = False
 
 
-class GenMentorTestSuite:
+class ComprehensiveTestSuite:
     """
-    Comprehensive testing framework for GenMentor system.
+    Enhanced testing framework for GenMentor system with optimization benchmarks.
     
     Tests cover:
-    - Various career transitions
-    - Different skill levels
-    - Edge cases
-    - Performance metrics
-    - System components
+    - Various career transitions (20+ scenarios)
+    - Different skill levels and backgrounds
+    - Edge cases and error handling
+    - Performance benchmarks for all optimizations
+    - Accuracy validation
+    - System integration tests
     """
     
-    def __init__(self, base_url: str = "http://localhost:5000"):
-        self.base_url = base_url
+    def __init__(self):
         self.test_results = []
-        self.test_users = self._initialize_test_users()
+        self.benchmark_results = {}
+        self.test_users = self._initialize_comprehensive_test_cases()
         
-        # Initialize similarity metrics calculator
-        if SIMILARITY_METRICS_AVAILABLE:
-            self.similarity_calculator = SimilarityMetrics()
-            print("✅ Similarity metrics calculator initialized")
-        else:
-            self.similarity_calculator = None
-            print("⚠️ Will skip detailed similarity breakdown")
+        print("=" * 80)
+        print(" GenMentor Comprehensive Test Suite with Optimization Benchmarks")
+        print("=" * 80)
         
-    def _calculate_all_metrics(self, text1: str, text2: str, api_score: float = 0.0, 
-                               embedding1: np.ndarray = None, embedding2: np.ndarray = None) -> Dict:
-        """Calculate all 7 similarity metrics between two texts."""
-        if self.similarity_calculator:
-            try:
-                # Calculate text-based metrics (jaccard, dice, overlap, tfidf)
-                scores = {}
-                scores['jaccard'] = self.similarity_calculator.jaccard_similarity(text1, text2)
-                scores['dice'] = self.similarity_calculator.dice_coefficient(text1, text2)
-                scores['overlap'] = self.similarity_calculator.overlap_coefficient(text1, text2)
-                scores['tfidf'] = self.similarity_calculator.tfidf_similarity(text1, text2)
-                
-                # Use API's cosine similarity (from embeddings)
-                scores['cosine'] = api_score
-                
-                # For euclidean and manhattan, we need embeddings
-                # If not provided, calculate approximations or set to derived values
-                if embedding1 is not None and embedding2 is not None:
-                    scores['euclidean'] = self.similarity_calculator.euclidean_distance_similarity(embedding1, embedding2)
-                    scores['manhattan'] = self.similarity_calculator.manhattan_distance_similarity(embedding1, embedding2)
-                else:
-                    # Approximate based on cosine (inverse relationship with distance)
-                    scores['euclidean'] = api_score * 0.95  # Close to cosine
-                    scores['manhattan'] = api_score * 0.90  # Slightly different scale
-                
-                # Calculate weighted average
-                scores['weighted_average'] = (
-                    scores['cosine'] * 0.35 +
-                    scores['euclidean'] * 0.15 +
-                    scores['manhattan'] * 0.10 +
-                    scores['tfidf'] * 0.20 +
-                    scores['jaccard'] * 0.10 +
-                    scores['dice'] * 0.05 +
-                    scores['overlap'] * 0.05
-                )
-                
-                return scores
-            except Exception as e:
-                print(f"⚠️ Error calculating metrics: {e}")
-                # Use API score as fallback
-                return {
-                    'cosine': api_score,
-                    'euclidean': api_score * 0.95,
-                    'manhattan': api_score * 0.90,
-                    'jaccard': 0.0,
-                    'tfidf': 0.0,
-                    'dice': 0.0,
-                    'overlap': 0.0,
-                    'weighted_average': api_score
-                }
-        else:
-            # Return API cosine similarity as fallback if metrics not available
-            return {
-                'cosine': api_score,
-                'euclidean': api_score * 0.95,
-                'manhattan': api_score * 0.90,
-                'jaccard': 0.0,
-                'tfidf': 0.0,
-                'dice': 0.0,
-                'overlap': 0.0,
-                'weighted_average': api_score
-            }
+        # Check available features
+        print("\n📦 Available Features:")
+        print(f"  • Database Optimizer: {'✅ Available' if DATABASE_OPTIMIZER_AVAILABLE else '❌ Not Available'}")
+        print(f"  • FAISS Optimizer: {'✅ Available' if FAISS_OPTIMIZER_AVAILABLE else '❌ Not Available'}")
+        print(f"  • Async Resource Curator: {'✅ Available' if ASYNC_RESOURCE_AVAILABLE else '❌ Not Available'}")
     
-    def _initialize_test_users(self) -> List[Dict]:
-        """Initialize diverse test user profiles."""
+    def _initialize_comprehensive_test_cases(self) -> List[Dict]:
+        """Initialize comprehensive test cases covering various scenarios."""
         return [
+            # Tech Career Transitions
             {
-                'name': 'Sarah Johnson',
+                'test_id': 'TC001',
+                'name': 'Marketing to Data Science',
                 'goal': 'I want to transition from marketing to data science',
-                'current_skills': ['excel', 'google analytics', 'basic statistics', 'presentation skills'],
-                'experience_level': 'beginner',
-                'expected_career': 'data scientist',
-                'test_id': 'TC001'
+                'current_skills': ['excel', 'google analytics', 'basic statistics'],
+                'expected_keywords': ['data', 'scientist', 'analyst', 'statistics'],
+                'min_skills': 8,
+                'category': 'tech_transition'
             },
             {
-                'name': 'Michael Chen',
+                'test_id': 'TC002',
+                'name': 'Software Engineer to ML Engineer',
                 'goal': 'I am a software engineer and want to become a machine learning engineer',
-                'current_skills': ['python', 'java', 'algorithms', 'data structures', 'git'],
-                'experience_level': 'intermediate',
-                'expected_career': 'machine learning engineer',
-                'test_id': 'TC002'
+                'current_skills': ['python', 'java', 'algorithms', 'data structures'],
+                'expected_keywords': ['machine learning', 'engineer', 'ai'],
+                'min_skills': 10,
+                'category': 'tech_advancement'
             },
             {
-                'name': 'Emily Rodriguez',
+                'test_id': 'TC003',
+                'name': 'Beginner Web Developer',
                 'goal': 'I want to become a full-stack web developer',
                 'current_skills': ['HTML', 'CSS', 'basic JavaScript'],
-                'experience_level': 'beginner',
-                'expected_career': 'web developer',
-                'test_id': 'TC003'
+                'expected_keywords': ['web', 'developer', 'full stack'],
+                'min_skills': 12,
+                'category': 'beginner_tech'
             },
             {
-                'name': 'David Kim',
-                'goal': 'I want to transition from teaching to instructional design and e-learning',
-                'current_skills': ['curriculum development', 'public speaking', 'PowerPoint'],
-                'experience_level': 'intermediate',
-                'expected_career': 'instructional designer',
-                'test_id': 'TC004'
-            },
-            {
-                'name': 'Jessica Martinez',
+                'test_id': 'TC004',
+                'name': 'Data Analyst to Business Intelligence',
                 'goal': 'I am a data analyst and want to move into business intelligence',
                 'current_skills': ['SQL', 'Excel', 'Tableau', 'statistics'],
-                'experience_level': 'intermediate',
-                'expected_career': 'business intelligence analyst',
-                'test_id': 'TC005'
+                'expected_keywords': ['business intelligence', 'analyst', 'data'],
+                'min_skills': 8,
+                'category': 'tech_advancement'
             },
             {
-                'name': 'Alex Thompson',
+                'test_id': 'TC005',
+                'name': 'Cloud Architect AWS',
                 'goal': 'I want to become a cloud architect specializing in AWS',
                 'current_skills': ['Linux', 'networking', 'basic AWS'],
-                'experience_level': 'intermediate',
-                'expected_career': 'cloud architect',
-                'test_id': 'TC006'
+                'expected_keywords': ['cloud', 'architect', 'aws'],
+                'min_skills': 10,
+                'category': 'tech_specialization'
             },
             {
-                'name': 'Maria Garcia',
-                'goal': 'I want to transition from graphic design to UX/UI design',
-                'current_skills': ['Adobe Creative Suite', 'graphic design', 'visual communication'],
-                'experience_level': 'intermediate',
-                'expected_career': 'UX designer',
-                'test_id': 'TC007'
-            },
-            {
-                'name': 'Tom Wilson',
+                'test_id': 'TC006',
+                'name': 'Cybersecurity Analyst',
                 'goal': 'I want to become a cybersecurity analyst',
                 'current_skills': ['networking basics', 'IT support'],
-                'experience_level': 'beginner',
-                'expected_career': 'cybersecurity specialist',
-                'test_id': 'TC008'
+                'expected_keywords': ['security', 'cybersecurity', 'analyst'],
+                'min_skills': 12,
+                'category': 'beginner_tech'
             },
             {
-                'name': 'Linda Brown',
+                'test_id': 'TC007',
+                'name': 'Finance to Data Engineering',
                 'goal': 'I want to transition from finance to data engineering',
                 'current_skills': ['Excel', 'SQL', 'financial analysis'],
-                'experience_level': 'beginner',
-                'expected_career': 'data engineer',
-                'test_id': 'TC009'
+                'expected_keywords': ['data', 'engineer', 'engineering'],
+                'min_skills': 10,
+                'category': 'tech_transition'
             },
             {
-                'name': 'Chris Anderson',
+                'test_id': 'TC008',
+                'name': 'Product Manager Tech',
                 'goal': 'I want to become a product manager in tech',
-                'current_skills': ['project management', 'business analysis', 'communication'],
-                'experience_level': 'intermediate',
-                'expected_career': 'product manager',
-                'test_id': 'TC010'
+                'current_skills': ['project management', 'business analysis'],
+                'expected_keywords': ['product manager', 'manager', 'product'],
+                'min_skills': 8,
+                'category': 'management'
+            },
+            {
+                'test_id': 'TC009',
+                'name': 'DevOps Engineer',
+                'goal': 'I want to become a DevOps engineer',
+                'current_skills': ['Linux', 'Python', 'git'],
+                'expected_keywords': ['devops', 'engineer', 'operations'],
+                'min_skills': 12,
+                'category': 'tech_specialization'
+            },
+            {
+                'test_id': 'TC010',
+                'name': 'AI Research Scientist',
+                'goal': 'I want to become an AI research scientist',
+                'current_skills': ['python', 'mathematics', 'statistics', 'machine learning'],
+                'expected_keywords': ['ai', 'research', 'scientist', 'intelligence'],
+                'min_skills': 8,
+                'category': 'tech_advancement'
+            },
+            
+            # Additional Career Paths
+            {
+                'test_id': 'TC011',
+                'name': 'Mobile App Developer',
+                'goal': 'I want to become a mobile app developer for iOS and Android',
+                'current_skills': ['programming basics', 'UI design'],
+                'expected_keywords': ['mobile', 'developer', 'app'],
+                'min_skills': 10,
+                'category': 'beginner_tech'
+            },
+            {
+                'test_id': 'TC012',
+                'name': 'Blockchain Developer',
+                'goal': 'I want to become a blockchain developer',
+                'current_skills': ['JavaScript', 'cryptography basics'],
+                'expected_keywords': ['blockchain', 'developer', 'cryptocurrency'],
+                'min_skills': 10,
+                'category': 'tech_specialization'
+            },
+            {
+                'test_id': 'TC013',
+                'name': 'Game Developer',
+                'goal': 'I want to become a game developer',
+                'current_skills': ['C++', 'graphics basics'],
+                'expected_keywords': ['game', 'developer', 'gaming'],
+                'min_skills': 10,
+                'category': 'tech_specialization'
+            },
+            {
+                'test_id': 'TC014',
+                'name': 'Database Administrator',
+                'goal': 'I want to become a database administrator',
+                'current_skills': ['SQL', 'basic networking'],
+                'expected_keywords': ['database', 'administrator', 'dba'],
+                'min_skills': 10,
+                'category': 'tech_specialization'
+            },
+            {
+                'test_id': 'TC015',
+                'name': 'Network Engineer',
+                'goal': 'I want to become a network engineer',
+                'current_skills': ['networking basics', 'cisco'],
+                'expected_keywords': ['network', 'engineer', 'networking'],
+                'min_skills': 10,
+                'category': 'tech_specialization'
+            },
+            
+            # Edge Cases
+            {
+                'test_id': 'TC016',
+                'name': 'Minimal Skills Input',
+                'goal': 'I want to learn programming',
+                'current_skills': [],
+                'expected_keywords': ['programming', 'developer', 'software'],
+                'min_skills': 5,
+                'category': 'edge_case'
+            },
+            {
+                'test_id': 'TC017',
+                'name': 'Vague Goal',
+                'goal': 'I want to work with computers',
+                'current_skills': ['basic computer skills'],
+                'expected_keywords': ['computer', 'it', 'technology'],
+                'min_skills': 5,
+                'category': 'edge_case'
+            },
+            {
+                'test_id': 'TC018',
+                'name': 'Many Current Skills',
+                'goal': 'I want to advance my data science career',
+                'current_skills': ['python', 'R', 'SQL', 'machine learning', 'deep learning', 
+                                 'statistics', 'data visualization', 'tableau', 'pandas', 'numpy'],
+                'expected_keywords': ['data', 'scientist', 'advanced'],
+                'min_skills': 3,
+                'category': 'edge_case'
+            },
+            {
+                'test_id': 'TC019',
+                'name': 'Long Detailed Goal',
+                'goal': 'I am currently working as a business analyst with 5 years of experience in retail industry and I want to transition to a data science role focusing on predictive analytics and machine learning in the e-commerce domain',
+                'current_skills': ['excel', 'SQL', 'business intelligence', 'statistics'],
+                'expected_keywords': ['data', 'scientist', 'analytics'],
+                'min_skills': 8,
+                'category': 'edge_case'
+            },
+            {
+                'test_id': 'TC020',
+                'name': 'Short Goal',
+                'goal': 'AI Engineer',
+                'current_skills': ['python'],
+                'expected_keywords': ['ai', 'engineer', 'intelligence'],
+                'min_skills': 8,
+                'category': 'edge_case'
             }
         ]
     
     def print_header(self, text: str, char: str = "="):
         """Print formatted section header."""
-        print(f"\n{char * 70}")
+        print(f"\n{char * 80}")
         print(f" {text}")
-        print(f"{char * 70}")
+        print(f"{char * 80}")
     
-    def test_career_matching(self, user_profile: Dict) -> Dict:
-        """Test career matching functionality with detailed similarity metrics and learning paths."""
-        self.print_header(f"Testing: {user_profile['test_id']} - {user_profile['name']}")
+    def print_subheader(self, text: str):
+        """Print formatted subsection header."""
+        print(f"\n{'─' * 80}")
+        print(f" {text}")
+        print(f"{'─' * 80}")
+    
+    def benchmark_occupation_matching(self, ai_engine: GenMentorAI, goal: str, iterations: int = 5) -> Dict:
+        """Benchmark occupation matching with and without FAISS."""
+        print(f"\n  Testing occupation matching for: '{goal[:50]}...'")
         
-        start_time = time.time()
+        expanded_goal = ai_engine._super_expand_goal_with_domain_knowledge(goal)
+        goal_embedding = ai_engine.model.encode([expanded_goal])
         
-        try:
-            response = requests.post(f"{self.base_url}/api/path", json=user_profile, timeout=60)
+        results = {
+            'with_faiss': None,
+            'without_faiss': None,
+            'speedup': 0
+        }
+        
+        # Test with FAISS if available
+        if ai_engine.faiss_index and ai_engine.faiss_index.index:
+            times = []
+            for _ in range(iterations):
+                start = time.time()
+                uri, similarity, raw_sim = ai_engine._faiss_occupation_matching(goal, expanded_goal, goal_embedding)
+                times.append(time.time() - start)
             
-            if response.status_code == 200:
-                result = response.json()
-                elapsed_time = time.time() - start_time
-                
-                matched_occupation = result.get('matched_occupation', {})
-                similarity_score = matched_occupation.get('similarity_score', 0)
-                learning_path = result.get('learning_path', [])
-                skill_gap_summary = result.get('skill_gap_summary', {})
-                
-                # Calculate all 7 similarity metrics for comparison
-                # Use API's cosine similarity as the semantic baseline
-                similarity_breakdown = self._calculate_all_metrics(
-                    user_profile['goal'], 
-                    matched_occupation.get('label', ''),
-                    similarity_score  # Pass API's cosine similarity score
-                )
-                
-                # Override cosine with API's score (most accurate)
-                similarity_breakdown['cosine'] = similarity_score
-                
-                # Evaluate results
-                test_result = {
-                    'test_id': user_profile['test_id'],
-                    'user_name': user_profile['name'],
-                    'goal': user_profile['goal'],
-                    'current_skills': user_profile.get('current_skills', []),
-                    'status': 'PASS',
-                    'matched_career': matched_occupation.get('label', 'N/A'),
-                    'similarity_score': similarity_score,
-                    'similarity_breakdown': similarity_breakdown,
-                    'learning_path': learning_path,
-                    'learning_path_generated': len(learning_path) > 0,
-                    'num_sessions': len(learning_path),
-                    'response_time': round(elapsed_time, 2),
-                    'skills_to_learn': skill_gap_summary.get('skills_to_learn', 0),
-                    'skill_gap_summary': skill_gap_summary
-                }
-                
-                # Check if similarity meets threshold
-                if similarity_score < 0.50:
-                    test_result['status'] = 'WARNING'
-                    test_result['warning'] = 'Similarity score below 50%'
-                
-                # Display results with all metrics
-                print(f"✅ Status: {test_result['status']}")
-                print(f"🎯 Matched Career: {test_result['matched_career']}")
-                print(f"\n📊 Similarity Metrics (All 7 Algorithms):")
-                print(f"   {'─'*60}")
-                
-                # Define metric order and categories
-                semantic_metrics = ['cosine', 'euclidean', 'manhattan']
-                lexical_metrics = ['jaccard', 'dice', 'overlap', 'tfidf']
-                
-                # Show semantic metrics first
-                print(f"   🧠 Semantic Similarity (Embedding-based):")
-                for metric in semantic_metrics:
-                    if metric in similarity_breakdown:
-                        score = similarity_breakdown[metric]
-                        bar = '░' * int(score * 40)
-                        print(f"      {metric.capitalize():<25} {score:>8.1%}  {bar}")
-                
-                # Show lexical metrics
-                print(f"\n   📝 Lexical Similarity (Text-based):")
-                for metric in lexical_metrics:
-                    if metric in similarity_breakdown:
-                        score = similarity_breakdown[metric]
-                        bar = '░' * int(score * 40)
-                        print(f"      {metric.capitalize():<25} {score:>8.1%}  {bar}")
-                
-                # Show weighted average
-                if 'weighted_average' in similarity_breakdown:
-                    print(f"   {'─'*60}")
-                    score = similarity_breakdown['weighted_average']
-                    bar = '█' * int(score * 40)
-                    print(f"   ⭐ WEIGHTED_AVERAGE        {score:>8.1%}  {bar}")
-                    print(f"   {'─'*60}")
-                
-                print(f"\n📚 Learning Sessions: {test_result['num_sessions']}")
-                print(f"🎓 Skills to Learn: {test_result['skills_to_learn']}")
-                print(f"⏱️  Response Time: {test_result['response_time']}s")
-                
-                # Display learning path details
-                if learning_path:
-                    print(f"\n📖 Generated Learning Path:")
-                    print(f"   {'═'*60}")
-                    for session in learning_path:
-                        session_num = session.get('session_number', 0)
-                        title = session.get('title', 'Untitled')
-                        skills = session.get('skills', [])
-                        duration = session.get('estimated_duration', 'N/A')
-                        
-                        print(f"\n   📍 Session {session_num}: {title}")
-                        print(f"      Duration: {duration}")
-                        print(f"      Skills ({len(skills)}):")
-                        
-                        # Show first 5 skills, then "..." if more
-                        for i, skill in enumerate(skills[:5], 1):
-                            print(f"         {i}. {skill}")
-                        
-                        if len(skills) > 5:
-                            print(f"         ... and {len(skills) - 5} more skills")
-                    
-                    print(f"   {'═'*60}")
-                else:
-                    print(f"\n⚠️  No learning path generated")
-                
-                return test_result
-                
-            else:
-                return {
-                    'test_id': user_profile['test_id'],
-                    'status': 'FAIL',
-                    'error': f"HTTP {response.status_code}",
-                    'response_time': time.time() - start_time
-                }
-                
-        except Exception as e:
-            return {
-                'test_id': user_profile['test_id'],
-                'status': 'FAIL',
-                'error': str(e),
-                'response_time': time.time() - start_time
+            results['with_faiss'] = {
+                'avg_time': np.mean(times),
+                'min_time': np.min(times),
+                'max_time': np.max(times),
+                'std_time': np.std(times)
             }
-    
-    def test_edge_cases(self) -> List[Dict]:
-        """Test edge cases and boundary conditions."""
-        self.print_header("EDGE CASE TESTING", "=")
+            print(f"    ✅ FAISS matching: {results['with_faiss']['avg_time']*1000:.2f}ms (avg)")
         
-        edge_cases = [
-            {
-                'name': 'Empty Skills Test',
-                'goal': 'I want to become a data scientist',
-                'current_skills': [],
-                'experience_level': 'beginner',
-                'test_id': 'EDGE001'
-            },
-            {
-                'name': 'Vague Goal Test',
-                'goal': 'I want a better job',
-                'current_skills': ['communication'],
-                'experience_level': 'beginner',
-                'test_id': 'EDGE002'
-            },
-            {
-                'name': 'Many Skills Test',
-                'goal': 'I want to become a senior developer',
-                'current_skills': [
-                    'python', 'java', 'c++', 'javascript', 'react', 'angular',
-                    'node.js', 'sql', 'mongodb', 'docker', 'kubernetes', 'aws',
-                    'git', 'agile', 'testing', 'ci/cd'
-                ],
-                'experience_level': 'advanced',
-                'test_id': 'EDGE003'
-            },
-            {
-                'name': 'Special Characters Test',
-                'goal': 'I want to learn C++ & C# programming!',
-                'current_skills': ['basic programming', 'algorithms & data structures'],
-                'experience_level': 'beginner',
-                'test_id': 'EDGE004'
-            },
-            {
-                'name': 'Long Goal Test',
-                'goal': 'I want to transition from my current role as a marketing specialist with 5 years of experience into the field of data science, specifically focusing on machine learning and AI applications in marketing analytics',
-                'current_skills': ['marketing', 'analytics'],
-                'experience_level': 'intermediate',
-                'test_id': 'EDGE005'
-            }
-        ]
+        # Test without FAISS (simulate linear search)
+        times = []
+        for _ in range(iterations):
+            start = time.time()
+            # Simulate linear search through occupations
+            best_sim = -1
+            for uri, embedding in list(ai_engine.occupation_embeddings.items())[:100]:  # Sample 100 for speed
+                from sklearn.metrics.pairwise import cosine_similarity
+                sim = cosine_similarity(goal_embedding, [embedding])[0][0]
+                if sim > best_sim:
+                    best_sim = sim
+            times.append(time.time() - start)
         
-        results = []
-        for edge_case in edge_cases:
-            print(f"\n📝 Testing: {edge_case['name']}")
-            result = self.test_career_matching(edge_case)
-            results.append(result)
-            time.sleep(1)  # Rate limiting
+        results['without_faiss'] = {
+            'avg_time': np.mean(times),
+            'min_time': np.min(times),
+            'max_time': np.max(times),
+            'std_time': np.std(times)
+        }
+        print(f"    ⚠️  Linear search: {results['without_faiss']['avg_time']*1000:.2f}ms (avg)")
+        
+        if results['with_faiss']:
+            results['speedup'] = results['without_faiss']['avg_time'] / results['with_faiss']['avg_time']
+            print(f"    🚀 Speedup: {results['speedup']:.2f}x")
         
         return results
     
-    def test_similarity_metrics(self) -> Dict:
-        """Test different similarity metrics if available."""
-        self.print_header("SIMILARITY METRICS COMPARISON", "=")
+    def benchmark_database_operations(self, ai_engine: GenMentorAI, iterations: int = 10) -> Dict:
+        """Benchmark database operations with and without connection pooling."""
+        print(f"\n  Testing database operations...")
         
-        # This would test the new similarity_metrics module
-        print("Testing multiple similarity calculation methods...")
+        results = {
+            'with_pool': None,
+            'without_pool': None,
+            'speedup': 0
+        }
         
-        test_pairs = [
-            ("data scientist", "chief data officer"),
-            ("web developer", "software engineer"),
-            ("marketing manager", "data analyst")
+        # Test with connection pool
+        if ai_engine.db_pool:
+            times = []
+            for _ in range(iterations):
+                start = time.time()
+                with ai_engine._get_db_connection() as conn:
+                    cursor = conn.cursor()
+                    cursor.execute("SELECT COUNT(*) FROM skills")
+                    cursor.fetchone()
+                times.append(time.time() - start)
+            
+            results['with_pool'] = {
+                'avg_time': np.mean(times),
+                'min_time': np.min(times),
+                'max_time': np.max(times),
+                'std_time': np.std(times)
+            }
+            print(f"    ✅ Connection pool: {results['with_pool']['avg_time']*1000:.2f}ms (avg)")
+        
+        # Test without pool (direct connection)
+        import sqlite3
+        times = []
+        for _ in range(iterations):
+            start = time.time()
+            conn = sqlite3.connect('genmentor.db')
+            cursor = conn.cursor()
+            cursor.execute("SELECT COUNT(*) FROM skills")
+            cursor.fetchone()
+            conn.close()
+            times.append(time.time() - start)
+        
+        results['without_pool'] = {
+            'avg_time': np.mean(times),
+            'min_time': np.min(times),
+            'max_time': np.max(times),
+            'std_time': np.std(times)
+        }
+        print(f"    ⚠️  Direct connection: {results['without_pool']['avg_time']*1000:.2f}ms (avg)")
+        
+        if results['with_pool']:
+            results['speedup'] = results['without_pool']['avg_time'] / results['with_pool']['avg_time']
+            improvement = (1 - results['with_pool']['avg_time'] / results['without_pool']['avg_time']) * 100
+            print(f"    🚀 Improvement: {improvement:.1f}% faster")
+        
+        return results
+    
+    def run_performance_benchmarks(self):
+        """Run comprehensive performance benchmarks for all optimizations."""
+        self.print_header("PERFORMANCE BENCHMARKS", "=")
+        
+        print("\n🔧 Initializing AI Engine for benchmarking...")
+        ai_engine = GenMentorAI()
+        
+        # Benchmark 1: Occupation Matching (FAISS)
+        self.print_subheader("1. Occupation Matching Benchmark (FAISS)")
+        
+        test_goals = [
+            "I want to become a data scientist",
+            "I want to transition to machine learning engineer",
+            "I want to become a full-stack developer"
         ]
         
-        results = []
-        for text1, text2 in test_pairs:
-            print(f"\n Comparing: '{text1}' vs '{text2}'")
-            # Would call similarity_metrics module here
-            results.append({
-                'pair': (text1, text2),
-                'metrics': {
-                    'cosine': 0.85,  # Placeholder
-                    'jaccard': 0.45,
-                    'tfidf': 0.72
-                }
-            })
+        occupation_results = []
+        for goal in test_goals:
+            result = self.benchmark_occupation_matching(ai_engine, goal, iterations=5)
+            occupation_results.append(result)
         
-        return {'tested_pairs': len(test_pairs), 'results': results}
-    
-    def test_performance(self) -> Dict:
-        """Test system performance under load."""
-        self.print_header("PERFORMANCE TESTING", "=")
+        # Calculate average speedup
+        avg_speedup = np.mean([r['speedup'] for r in occupation_results if r['speedup'] > 0])
+        self.benchmark_results['occupation_matching'] = {
+            'avg_speedup': avg_speedup,
+            'details': occupation_results
+        }
+        print(f"\n  📊 Average FAISS Speedup: {avg_speedup:.2f}x")
         
-        test_user = self.test_users[0]
-        num_requests = 5
-        response_times = []
+        # Benchmark 2: Database Operations (Connection Pool)
+        self.print_subheader("2. Database Operations Benchmark (Connection Pool)")
         
-        print(f"Sending {num_requests} requests to measure performance...")
+        db_result = self.benchmark_database_operations(ai_engine, iterations=20)
+        self.benchmark_results['database_operations'] = db_result
         
-        for i in range(num_requests):
+        # Benchmark 3: Full Skill Gap Analysis
+        self.print_subheader("3. End-to-End Skill Gap Analysis Benchmark")
+        
+        print("\n  Testing full skill gap analysis pipeline...")
+        times = []
+        for i in range(3):
+            test_case = self.test_users[i]
             start = time.time()
-            try:
-                response = requests.post(
-                    f"{self.base_url}/api/path",
-                    json=test_user,
-                    timeout=60
-                )
+            result = ai_engine.identify_skill_gap(test_case['goal'], test_case['current_skills'])
+            elapsed = time.time() - start
+            times.append(elapsed)
+            print(f"    Test {i+1}: {elapsed:.2f}s - {len(result.get('skill_gap', []))} skills identified")
+        
+        self.benchmark_results['skill_gap_analysis'] = {
+            'avg_time': np.mean(times),
+            'min_time': np.min(times),
+            'max_time': np.max(times)
+        }
+        print(f"\n  📊 Average Time: {np.mean(times):.2f}s")
+        
+        # Benchmark 4: Learning Path Scheduling
+        self.print_subheader("4. Learning Path Scheduling Benchmark")
+        
+        print("\n  Testing learning path generation...")
+        scheduling_times = []
+        for i in range(3):
+            test_case = self.test_users[i]
+            result = ai_engine.identify_skill_gap(test_case['goal'], test_case['current_skills'])
+            
+            if result['skill_gap']:
+                start = time.time()
+                learning_path = ai_engine.schedule_learning_path(result['skill_gap'][:15])
                 elapsed = time.time() - start
-                response_times.append(elapsed)
-                print(f"  Request {i+1}: {elapsed:.2f}s")
-            except Exception as e:
-                print(f"  Request {i+1}: FAILED - {e}")
-            
-            time.sleep(0.5)
+                scheduling_times.append(elapsed)
+                print(f"    Test {i+1}: {elapsed:.2f}s - {len(learning_path)} sessions created")
         
-        if response_times:
-            return {
-                'num_requests': num_requests,
-                'avg_response_time': sum(response_times) / len(response_times),
-                'min_response_time': min(response_times),
-                'max_response_time': max(response_times),
-                'success_rate': len(response_times) / num_requests
+        self.benchmark_results['learning_path_scheduling'] = {
+            'avg_time': np.mean(scheduling_times),
+            'min_time': np.min(scheduling_times),
+            'max_time': np.max(scheduling_times)
+        }
+        print(f"\n  📊 Average Time: {np.mean(scheduling_times):.2f}s")
+        
+        # Summary
+        self.print_subheader("Benchmark Summary")
+        print("\n  🏆 Performance Improvements:")
+        if 'occupation_matching' in self.benchmark_results:
+            print(f"    • Occupation Matching (FAISS): {self.benchmark_results['occupation_matching']['avg_speedup']:.2f}x faster")
+        if 'database_operations' in self.benchmark_results and self.benchmark_results['database_operations']['speedup'] > 0:
+            improvement = (1 - 1/self.benchmark_results['database_operations']['speedup']) * 100
+            print(f"    • Database Operations (Pool): {improvement:.1f}% faster")
+        print(f"    • Skill Gap Analysis: {self.benchmark_results['skill_gap_analysis']['avg_time']:.2f}s average")
+        print(f"    • Learning Path Generation: {self.benchmark_results['learning_path_scheduling']['avg_time']:.2f}s average")
+    
+    def test_skill_gap_identification(self, test_case: Dict, ai_engine: GenMentorAI) -> Dict:
+        """Test skill gap identification for a single test case."""
+        start_time = time.time()
+        
+        try:
+            result = ai_engine.identify_skill_gap(
+                test_case['goal'],
+                test_case['current_skills']
+            )
+            
+            elapsed_time = time.time() - start_time
+            
+            # Validate results
+            occupation = result.get('matched_occupation', {})
+            skill_gap = result.get('skill_gap', [])
+            
+            # Check if occupation matches expected keywords
+            occupation_label = occupation.get('label', '').lower()
+            keyword_match = any(keyword in occupation_label for keyword in test_case['expected_keywords'])
+            
+            # Validate skill count
+            sufficient_skills = len(skill_gap) >= test_case.get('min_skills', 5)
+            
+            # Count technical skills (non-soft skills)
+            technical_skills = [s for s in skill_gap if not ai_engine._is_soft_or_irrelevant_skill(s.get('label', ''))]
+            
+            test_result = {
+                'test_id': test_case['test_id'],
+                'name': test_case['name'],
+                'status': 'PASS' if keyword_match and sufficient_skills else 'WARN',
+                'elapsed_time': elapsed_time,
+                'matched_occupation': occupation.get('label', 'Unknown'),
+                'similarity_score': occupation.get('similarity_score', 0),
+                'total_skills': len(skill_gap),
+                'technical_skills': len(technical_skills),
+                'keyword_match': keyword_match,
+                'sufficient_skills': sufficient_skills,
+                'category': test_case.get('category', 'unknown')
             }
-        else:
-            return {'error': 'All requests failed'}
+            
+            return test_result
+            
+        except Exception as e:
+            return {
+                'test_id': test_case['test_id'],
+                'name': test_case['name'],
+                'status': 'FAIL',
+                'error': str(e),
+                'elapsed_time': time.time() - start_time,
+                'category': test_case.get('category', 'unknown')
+            }
     
-    def run_full_test_suite(self) -> Dict:
-        """Run complete test suite and generate report."""
-        self.print_header("GENMENTOR COMPREHENSIVE TEST SUITE", "=")
-        print(f"🚀 Starting test suite at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        print(f"🌐 Testing endpoint: {self.base_url}")
+    def test_learning_path_generation(self, test_case: Dict, ai_engine: GenMentorAI) -> Dict:
+        """Test learning path generation for a single test case."""
+        try:
+            # First get skill gap
+            skill_gap_result = ai_engine.identify_skill_gap(
+                test_case['goal'],
+                test_case['current_skills']
+            )
+            
+            if not skill_gap_result.get('skill_gap'):
+                return {
+                    'test_id': test_case['test_id'],
+                    'status': 'SKIP',
+                    'reason': 'No skill gap identified'
+                }
+            
+            start_time = time.time()
+            
+            # Generate learning path
+            learning_path = ai_engine.schedule_learning_path(
+                skill_gap_result['skill_gap'][:15]  # Limit to 15 skills for speed
+            )
+            
+            elapsed_time = time.time() - start_time
+            
+            # Validate learning path
+            has_sessions = len(learning_path) > 0
+            has_skills = all('skills' in session for session in learning_path)
+            has_duration = all('estimated_duration_hours' in session for session in learning_path)
+            
+            # Calculate total duration
+            total_duration = sum(session.get('estimated_duration_hours', 0) for session in learning_path)
+            
+            # Check skill categorization
+            categories_used = set()
+            for session in learning_path:
+                for skill in session.get('skills', []):
+                    if isinstance(skill, dict):
+                        label = skill.get('label', '')
+                    else:
+                        label = skill
+                    
+                    # Determine category
+                    label_lower = label.lower()
+                    if any(kw in label_lower for kw in ['python', 'java', 'programming']):
+                        categories_used.add('programming')
+                    elif any(kw in label_lower for kw in ['data', 'analysis', 'statistics']):
+                        categories_used.add('data_analysis')
+                    elif any(kw in label_lower for kw in ['machine learning', 'ai', 'neural']):
+                        categories_used.add('machine_learning')
+            
+            return {
+                'test_id': test_case['test_id'],
+                'status': 'PASS' if has_sessions and has_skills and has_duration else 'WARN',
+                'elapsed_time': elapsed_time,
+                'total_sessions': len(learning_path),
+                'total_duration_hours': total_duration,
+                'has_valid_structure': has_sessions and has_skills and has_duration,
+                'categories_identified': len(categories_used),
+                'category_names': list(categories_used)
+            }
+            
+        except Exception as e:
+            return {
+                'test_id': test_case['test_id'],
+                'status': 'FAIL',
+                'error': str(e)
+            }
+    
+    def run_functional_tests(self):
+        """Run comprehensive functional tests on all test cases."""
+        self.print_header("FUNCTIONAL TESTS - SKILL GAP IDENTIFICATION", "=")
         
-        suite_results = {
-            'start_time': datetime.now().isoformat(),
-            'test_cases': [],
-            'edge_cases': [],
-            'performance': {},
-            'summary': {}
+        print("\n🔧 Initializing AI Engine...")
+        ai_engine = GenMentorAI()
+        print("✅ AI Engine initialized\n")
+        
+        # Group tests by category
+        categories = {}
+        for test_case in self.test_users:
+            cat = test_case.get('category', 'unknown')
+            if cat not in categories:
+                categories[cat] = []
+            categories[cat].append(test_case)
+        
+        all_results = []
+        
+        # Run tests by category
+        for category, test_cases in categories.items():
+            self.print_subheader(f"Category: {category.replace('_', ' ').title()}")
+            
+            for i, test_case in enumerate(test_cases, 1):
+                print(f"\n  [{test_case['test_id']}] {test_case['name']}")
+                print(f"  Goal: {test_case['goal'][:60]}...")
+                print(f"  Current Skills: {len(test_case['current_skills'])} skills")
+                
+                result = self.test_skill_gap_identification(test_case, ai_engine)
+                all_results.append(result)
+                
+                if result['status'] == 'PASS':
+                    print(f"  ✅ PASS - {result['matched_occupation']} (similarity: {result['similarity_score']:.1%})")
+                    print(f"     Skills: {result['technical_skills']} technical / {result['total_skills']} total")
+                    print(f"     Time: {result['elapsed_time']:.2f}s")
+                elif result['status'] == 'WARN':
+                    print(f"  ⚠️  WARN - {result.get('matched_occupation', 'N/A')}")
+                    if not result.get('keyword_match'):
+                        print(f"     Issue: Occupation doesn't match expected keywords")
+                    if not result.get('sufficient_skills'):
+                        print(f"     Issue: Insufficient skills ({result.get('total_skills', 0)} < {test_case.get('min_skills', 5)})")
+                else:
+                    print(f"  ❌ FAIL - {result.get('error', 'Unknown error')}")
+        
+        # Summary statistics
+        self.print_subheader("Test Results Summary")
+        
+        total_tests = len(all_results)
+        passed = len([r for r in all_results if r['status'] == 'PASS'])
+        warned = len([r for r in all_results if r['status'] == 'WARN'])
+        failed = len([r for r in all_results if r['status'] == 'FAIL'])
+        
+        print(f"\n  📊 Overall Results:")
+        print(f"    • Total Tests: {total_tests}")
+        print(f"    • Passed: {passed} ({passed/total_tests*100:.1f}%)")
+        print(f"    • Warnings: {warned} ({warned/total_tests*100:.1f}%)")
+        print(f"    • Failed: {failed} ({failed/total_tests*100:.1f}%)")
+        
+        avg_time = np.mean([r['elapsed_time'] for r in all_results if 'elapsed_time' in r])
+        avg_skills = np.mean([r['total_skills'] for r in all_results if 'total_skills' in r])
+        avg_similarity = np.mean([r['similarity_score'] for r in all_results if 'similarity_score' in r])
+        
+        print(f"\n  📈 Performance Metrics:")
+        print(f"    • Average Time: {avg_time:.2f}s")
+        print(f"    • Average Skills Identified: {avg_skills:.1f}")
+        print(f"    • Average Similarity Score: {avg_similarity:.1%}")
+        
+        # Category breakdown
+        print(f"\n  📂 Results by Category:")
+        for category in categories.keys():
+            cat_results = [r for r in all_results if r.get('category') == category]
+            cat_passed = len([r for r in cat_results if r['status'] == 'PASS'])
+            print(f"    • {category.replace('_', ' ').title()}: {cat_passed}/{len(cat_results)} passed")
+        
+        self.test_results.extend(all_results)
+        
+        # Learning Path Tests
+        self.print_header("FUNCTIONAL TESTS - LEARNING PATH GENERATION", "=")
+        
+        print("\n  Testing learning path generation for sample cases...\n")
+        
+        # Test learning paths for first 5 cases
+        path_results = []
+        for i, test_case in enumerate(self.test_users[:5], 1):
+            print(f"  [{test_case['test_id']}] Generating learning path for: {test_case['name']}")
+            result = self.test_learning_path_generation(test_case, ai_engine)
+            path_results.append(result)
+            
+            if result['status'] == 'PASS':
+                print(f"  ✅ PASS - {result['total_sessions']} sessions, {result['total_duration_hours']} hours")
+                print(f"     Categories: {', '.join(result['category_names'])}")
+                print(f"     Time: {result['elapsed_time']:.2f}s")
+            elif result['status'] == 'SKIP':
+                print(f"  ⏭️  SKIP - {result['reason']}")
+            else:
+                print(f"  ❌ FAIL - {result.get('error', 'Unknown error')}")
+            print()
+        
+        # Path generation summary
+        self.print_subheader("Learning Path Test Summary")
+        
+        path_passed = len([r for r in path_results if r['status'] == 'PASS'])
+        path_skipped = len([r for r in path_results if r['status'] == 'SKIP'])
+        path_failed = len([r for r in path_results if r['status'] == 'FAIL'])
+        
+        print(f"\n  📊 Learning Path Results:")
+        print(f"    • Total Tests: {len(path_results)}")
+        print(f"    • Passed: {path_passed}")
+        print(f"    • Skipped: {path_skipped}")
+        print(f"    • Failed: {path_failed}")
+        
+        if path_passed > 0:
+            avg_sessions = np.mean([r['total_sessions'] for r in path_results if 'total_sessions' in r])
+            avg_duration = np.mean([r['total_duration_hours'] for r in path_results if 'total_duration_hours' in r])
+            avg_categories = np.mean([r['categories_identified'] for r in path_results if 'categories_identified' in r])
+            
+            print(f"\n  📈 Path Metrics:")
+            print(f"    • Average Sessions: {avg_sessions:.1f}")
+            print(f"    • Average Duration: {avg_duration:.1f} hours")
+            print(f"    • Average Categories: {avg_categories:.1f}")
+    
+    def generate_report(self):
+        """Generate comprehensive test report."""
+        self.print_header("TEST REPORT SUMMARY", "=")
+        
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        
+        print(f"\n  📅 Test Run: {timestamp}")
+        print(f"\n  🎯 Test Coverage:")
+        print(f"    • Total Test Cases: {len(self.test_users)}")
+        print(f"    • Functional Tests: {len(self.test_results)}")
+        print(f"    • Benchmark Tests: {len(self.benchmark_results)}")
+        
+        if self.test_results:
+            print(f"\n  ✅ Functional Test Success Rate:")
+            passed = len([r for r in self.test_results if r['status'] == 'PASS'])
+            print(f"    • {passed}/{len(self.test_results)} ({passed/len(self.test_results)*100:.1f}%)")
+        
+        if self.benchmark_results:
+            print(f"\n  🚀 Performance Benchmarks:")
+            if 'occupation_matching' in self.benchmark_results:
+                print(f"    • FAISS Occupation Matching: {self.benchmark_results['occupation_matching']['avg_speedup']:.2f}x speedup")
+            if 'database_operations' in self.benchmark_results and self.benchmark_results['database_operations']['speedup'] > 0:
+                print(f"    • Connection Pool: {self.benchmark_results['database_operations']['speedup']:.2f}x speedup")
+            if 'skill_gap_analysis' in self.benchmark_results:
+                print(f"    • Skill Gap Analysis: {self.benchmark_results['skill_gap_analysis']['avg_time']:.2f}s average")
+            if 'learning_path_scheduling' in self.benchmark_results:
+                print(f"    • Learning Path Generation: {self.benchmark_results['learning_path_scheduling']['avg_time']:.2f}s average")
+        
+        print(f"\n  💾 Saving detailed report to JSON...")
+        report = {
+            'timestamp': timestamp,
+            'test_cases': len(self.test_users),
+            'functional_results': self.test_results,
+            'benchmark_results': self.benchmark_results,
+            'summary': {
+                'total_tests': len(self.test_results),
+                'passed': len([r for r in self.test_results if r['status'] == 'PASS']),
+                'warned': len([r for r in self.test_results if r['status'] == 'WARN']),
+                'failed': len([r for r in self.test_results if r['status'] == 'FAIL'])
+            }
         }
         
-        # Test 1: Main test cases
-        self.print_header("MAIN TEST CASES", "=")
-        for user in self.test_users:
-            result = self.test_career_matching(user)
-            suite_results['test_cases'].append(result)
-            time.sleep(1)  # Rate limiting
+        with open('comprehensive_test_report.json', 'w') as f:
+            json.dump(report, f, indent=2)
         
-        # Test 2: Edge cases
-        edge_results = self.test_edge_cases()
-        suite_results['edge_cases'] = edge_results
+        print(f"  ✅ Report saved: comprehensive_test_report.json")
+    
+    def test_resource_curation(self):
+        """Test complete resource curation for learning paths."""
+        self.print_header("RESOURCE CURATION TESTS", "=")
         
-        # Test 3: Performance
-        perf_results = self.test_performance()
-        suite_results['performance'] = perf_results
+        print("  Testing end-to-end learning path with resource curation...\n")
         
-        # Generate summary
-        all_tests = suite_results['test_cases'] + suite_results['edge_cases']
-        passed = sum(1 for t in all_tests if t.get('status') == 'PASS')
-        failed = sum(1 for t in all_tests if t.get('status') == 'FAIL')
-        warnings = sum(1 for t in all_tests if t.get('status') == 'WARNING')
+        # Initialize AI engine
+        print("🔧 Initializing AI Engine...")
+        ai_engine = GenMentorAI()
+        print("✅ AI Engine initialized\n")
         
-        # Calculate average similarity only for tests with similarity scores
-        tests_with_scores = [t for t in all_tests if 'similarity_score' in t and t.get('similarity_score', 0) > 0]
-        avg_similarity = sum(t.get('similarity_score', 0) for t in tests_with_scores) / len(tests_with_scores) if tests_with_scores else 0
+        # Initialize resource curator
+        if RESOURCE_CURATOR_AVAILABLE:
+            resource_curator = ImprovedResourceCurator()
+            print("✅ Resource curator initialized\n")
+        else:
+            print("⚠️  Resource curator not available, skipping tests\n")
+            return
         
-        suite_results['summary'] = {
-            'total_tests': len(all_tests),
-            'passed': passed,
-            'failed': failed,
-            'warnings': warnings,
-            'success_rate': f"{(passed / len(all_tests) * 100):.1f}%",
-            'avg_similarity_score': f"{avg_similarity:.1%}",
-            'avg_response_time': f"{suite_results['performance'].get('avg_response_time', 0):.2f}s"
+        # Test case
+        test_case = {
+            'name': 'Marketing to Data Science (Full System)',
+            'goal': 'I want to transition from marketing to data science',
+            'current_skills': ['marketing analytics', 'excel', 'basic statistics']
         }
         
-        # Print summary
-        self.print_header("TEST SUITE SUMMARY", "=")
-        print(f"✅ Passed: {passed}")
-        print(f"❌ Failed: {failed}")
-        print(f"⚠️  Warnings: {warnings}")
-        print(f"📊 Success Rate: {suite_results['summary']['success_rate']}")
-        print(f"🎯 Avg Similarity: {suite_results['summary']['avg_similarity_score']}")
-        print(f"⏱️  Avg Response Time: {suite_results['summary']['avg_response_time']}")
+        print(f"  📋 Test Case: {test_case['name']}")
+        print(f"  Goal: {test_case['goal']}")
+        print(f"  Current Skills: {', '.join(test_case['current_skills'])}\n")
         
-        # Print detailed similarity metrics comparison
-        if SIMILARITY_METRICS_AVAILABLE and tests_with_scores:
-            self.print_header("SIMILARITY METRICS COMPARISON", "=")
-            print("Comparing all 7 metrics across test cases:\n")
-            
-            # Calculate average for each metric
-            metric_names = ['cosine', 'euclidean', 'manhattan', 'jaccard', 'tfidf', 'dice', 'overlap', 'weighted_average']
-            metric_averages = {metric: [] for metric in metric_names}
-            
-            for test in tests_with_scores:
-                breakdown = test.get('similarity_breakdown', {})
-                for metric in metric_names:
-                    if metric in breakdown:
-                        metric_averages[metric].append(breakdown[metric])
-            
-            # Print comparison table with categories
-            print(f"{'Metric':<25} {'Avg Score':>12} {'Min':>8} {'Max':>8} {'Visual':>20}")
-            print("─" * 78)
-            
-            # Semantic metrics
-            print("🧠 SEMANTIC (Embedding-based):")
-            for metric in ['cosine', 'euclidean', 'manhattan']:
-                if metric_averages[metric]:
-                    avg = sum(metric_averages[metric]) / len(metric_averages[metric])
-                    min_score = min(metric_averages[metric])
-                    max_score = max(metric_averages[metric])
-                    bar = '█' * int(avg * 30)
-                    print(f"   {metric.capitalize():<22} {avg:>11.1%} {min_score:>7.1%} {max_score:>7.1%}  {bar}")
-            
-            print("\n📝 LEXICAL (Text-based):")
-            for metric in ['jaccard', 'tfidf', 'dice', 'overlap']:
-                if metric_averages[metric]:
-                    avg = sum(metric_averages[metric]) / len(metric_averages[metric])
-                    min_score = min(metric_averages[metric])
-                    max_score = max(metric_averages[metric])
-                    bar = '█' * int(avg * 30)
-                    print(f"   {metric.capitalize():<22} {avg:>11.1%} {min_score:>7.1%} {max_score:>7.1%}  {bar}")
-            
-            # Weighted average
-            if metric_averages['weighted_average']:
-                avg = sum(metric_averages['weighted_average']) / len(metric_averages['weighted_average'])
-                min_score = min(metric_averages['weighted_average'])
-                max_score = max(metric_averages['weighted_average'])
-                bar = '█' * int(avg * 30)
-                print("─" * 78)
-                print(f"⭐ WEIGHTED_AVERAGE       {avg:>11.1%} {min_score:>7.1%} {max_score:>7.1%}  {bar}")
-                print("─" * 78)
-            
-            print("\n💡 Semantic metrics use all-mpnet-base-v2 embeddings (768-dim)")
-            print("💡 Lexical metrics compare word/token overlap between texts")
+        print("─" * 80)
+        print("  STEP 1: Skill Gap Analysis")
+        print("─" * 80)
         
-        # Save results to file
-        output_file = f"test_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-        with open(output_file, 'w') as f:
-            json.dump(suite_results, f, indent=2)
-        print(f"\n📄 Detailed results saved to: {output_file}")
+        start_time = time.time()
+        result = ai_engine.identify_skill_gap(test_case['goal'], test_case['current_skills'])
+        gap_time = time.time() - start_time
         
-        suite_results['end_time'] = datetime.now().isoformat()
-        return suite_results
-
-
-def main():
-    """Run the test suite."""
-    print("=" * 70)
-    print("  GENMENTOR COMPREHENSIVE TEST SUITE")
-    print("=" * 70)
-    
-    # Check if server is running
-    try:
-        response = requests.get("http://localhost:5000/api/health", timeout=5)
-        if response.status_code == 200:
-            health_data = response.json()
-            print(f"✅ Server is running and accessible")
-            print(f"   Model: {health_data.get('model', 'unknown')}")
-            print(f"   LLM Available: {health_data.get('llm_available', False)}")
+        print(f"\n  ✅ Matched Occupation: {result['matched_occupation']['label']}")
+        print(f"     Similarity: {result['matched_occupation']['similarity_score']*100:.1f}%")
+        print(f"     Time: {gap_time:.2f}s")
+        print(f"  ✅ Skills to Learn: {len(result['skill_gap'])} skills identified\n")
+        
+        print("─" * 80)
+        print("  STEP 2: Learning Path Generation")
+        print("─" * 80)
+        
+        start_time = time.time()
+        learning_path = ai_engine.schedule_learning_path(result['skill_gap'])
+        path_time = time.time() - start_time
+        
+        print(f"\n  ✅ Generated {len(learning_path)} learning sessions")
+        print(f"     Total Duration: {sum(s.get('estimated_duration_hours', 0) for s in learning_path)} hours")
+        print(f"     Time: {path_time:.2f}s\n")
+        
+        print("─" * 80)
+        print("  STEP 3: Resource Curation for Each Skill")
+        print("─" * 80)
+        
+        total_resources = 0
+        skills_with_resources = 0
+        resource_details = []
+        
+        print("\n  Curating resources for each skill...\n")
+        
+        for session_idx, session in enumerate(learning_path[:3], 1):  # Test first 3 sessions
+            print(f"  📚 Session {session_idx}: {session.get('title', 'Untitled')}")
+            
+            session_skills = session.get('skills', [])
+            for skill_idx, skill in enumerate(session_skills[:2], 1):  # Test first 2 skills per session
+                if isinstance(skill, dict):
+                    skill_name = skill.get('label', str(skill))
+                else:
+                    skill_name = str(skill)
+                
+                print(f"     └─ Skill {skill_idx}: {skill_name}")
+                
+                # Get resources for this skill
+                start_time = time.time()
+                resources = resource_curator.search_resources(skill_name, limit=10)
+                resource_time = time.time() - start_time
+                
+                if resources and len(resources) > 0:
+                    skills_with_resources += 1
+                    total_resources += len(resources)
+                    
+                    print(f"        ✅ Found {len(resources)} resources ({resource_time:.2f}s)")
+                    
+                    # Show first 3 resources
+                    for res_idx, resource in enumerate(resources[:3], 1):
+                        print(f"           {res_idx}. [{resource.get('type', 'N/A')}] {resource.get('title', 'Untitled')}")
+                        print(f"              URL: {resource.get('url', 'N/A')}")
+                        print(f"              Provider: {resource.get('provider', 'N/A')}")
+                    
+                    if len(resources) > 3:
+                        print(f"           ... and {len(resources) - 3} more resources")
+                    
+                    resource_details.append({
+                        'skill': skill_name,
+                        'resources_found': len(resources),
+                        'time': resource_time,
+                        'sample_resources': resources[:3]
+                    })
+                else:
+                    print(f"        ⚠️  No resources found")
+            
+            print()
+        
+        print("─" * 80)
+        print("  STEP 4: Async Resource Curation (Batch)")
+        print("─" * 80)
+        
+        if ASYNC_RESOURCE_AVAILABLE:
+            print("\n  Testing async batch resource fetching...\n")
+            
+            # Collect all skills from first 3 sessions
+            all_skills = []
+            for session in learning_path[:3]:
+                for skill in session.get('skills', [])[:2]:
+                    if isinstance(skill, dict):
+                        all_skills.append(skill.get('label', str(skill)))
+                    else:
+                        all_skills.append(str(skill))
+            
+            print(f"  Fetching resources for {len(all_skills)} skills in parallel...")
+            
+            async_curator = AsyncResourceCurator()
+            start_time = time.time()
+            resources_dict = asyncio.run(async_curator.batch_search(all_skills))
+            async_time = time.time() - start_time
+            
+            async_total = sum(len(resources) for resources in resources_dict.values())
+            async_with_resources = len([r for r in resources_dict.values() if len(r) > 0])
+            
+            print(f"\n  ✅ Async Batch Results:")
+            print(f"     Skills Processed: {len(all_skills)}")
+            print(f"     Skills with Resources: {async_with_resources}/{len(all_skills)}")
+            print(f"     Total Resources: {async_total}")
+            print(f"     Time: {async_time:.2f}s")
+            print(f"     🚀 Average per skill: {async_time/len(all_skills):.2f}s")
         else:
-            print("⚠️  Server responded but with unexpected status")
-    except Exception as e:
-        print(f"❌ Cannot connect to server: {e}")
-        print("   Please start the server with: python app.py")
-        return
-    
-    # Run test suite
-    test_suite = GenMentorTestSuite()
-    results = test_suite.run_full_test_suite()
-    
-    print("\n" + "=" * 70)
-    print("  TEST SUITE COMPLETED")
-    print("=" * 70)
+            print("\n  ⚠️  Async resource curator not available\n")
+        
+        print("\n" + "─" * 80)
+        print("  Resource Curation Summary")
+        print("─" * 80)
+        
+        print(f"\n  📊 Overall Statistics:")
+        print(f"     • Skills Processed: {skills_with_resources} skills")
+        print(f"     • Total Resources Found: {total_resources}")
+        print(f"     • Average Resources per Skill: {total_resources/max(skills_with_resources, 1):.1f}")
+        print(f"     • Coverage: {skills_with_resources}/{len(resource_details)*2 if resource_details else 0} ({skills_with_resources/(len(resource_details)*2)*100 if resource_details else 0:.1f}%)")
+        
+        print(f"\n  💾 Saving sample with resources...")
+        
+        # Save complete example
+        full_output = {
+            'test_case': test_case,
+            'matched_occupation': result['matched_occupation'],
+            'skill_gap_summary': {
+                'total_skills': len(result['skill_gap']),
+                'skills_to_learn': len(result['skill_gap'])
+            },
+            'learning_path': learning_path,
+            'resource_curation': {
+                'skills_processed': skills_with_resources,
+                'total_resources': total_resources,
+                'resource_details': resource_details
+            },
+            'timing': {
+                'skill_gap_analysis': gap_time,
+                'learning_path_generation': path_time
+            }
+        }
+        
+        with open('complete_learning_path_with_resources.json', 'w', encoding='utf-8') as f:
+            json.dump(full_output, f, indent=2, ensure_ascii=False)
+        
+        print(f"  ✅ Saved: complete_learning_path_with_resources.json\n")
+
+    def run_all_tests(self):
+        """Run complete test suite with benchmarks and functional tests."""
+        print("\n🚀 Starting Comprehensive Test Suite...\n")
+        
+        # Run performance benchmarks first
+        self.run_performance_benchmarks()
+        
+        # Run functional tests
+        self.run_functional_tests()
+        
+        # Test resource curation (NEW)
+        self.test_resource_curation()
+        
+        # Generate final report
+        self.generate_report()
+        
+        print("\n" + "=" * 80)
+        print(" ✅ ALL TESTS COMPLETED")
+        print("=" * 80)
 
 
 if __name__ == "__main__":
-    main()
+    # Run comprehensive test suite
+    test_suite = ComprehensiveTestSuite()
+    test_suite.run_all_tests()

@@ -1,7 +1,14 @@
+import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Configure API
-api_key = "AIzaSyDRf_5b1YQxEyr80pnq9pI8NmT_ZWuNKjs"
+api_key = os.getenv("GOOGLE_API_KEY")
+if not api_key:
+    raise ValueError("GOOGLE_API_KEY not found in environment variables. Please set it in .env file.")
 genai.configure(api_key=api_key)
 
 print("Fetching available models...")

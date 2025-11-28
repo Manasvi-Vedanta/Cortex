@@ -1,0 +1,240 @@
+{
+  "goal": "I want to transition from marketing to data science",
+  "current_skills": [
+    "marketing analytics",
+    "excel",
+    "basic statistics"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+    "label": "data analyst",
+    "description": "Data analysts import, inspect, clean, transform, validate, model, or interpret collections of data with regard to the business goals of the company. They ensure that the data sources and repositories provide consistent and reliable data. Data analysts use different algorithms and IT tools as demanded by the situation and the current data. They might prepare reports in the form of visualisations such as graphs, charts, and dashboards.",
+    "similarity_score": 0.7891113758087158
+  },
+  "skill_gap_summary": {
+    "total_skills_needed": 25,
+    "skills_to_learn": 17,
+    "recognized_skills": 8
+  },
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "Introduction to Data Handling and Ethics",
+      "objectives": [
+        "Understand the basics of data, its ethical implications, and how to prepare it for analysis."
+      ],
+      "skills": [
+        "unstructured data",
+        "normalise data",
+        "data ethics",
+        "information confidentiality",
+        "establish data processes"
+      ],
+      "estimated_duration_hours": 4,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 2,
+      "title": "Data Extraction, Categorization, and Quality",
+      "objectives": [
+        "Learn to extract information from unstructured data, categorize it effectively, and ensure data quality."
+      ],
+      "skills": [
+        "unstructured data",
+        "information extraction",
+        "information categorisation",
+        "data quality management",
+        "establish data processes"
+      ],
+      "estimated_duration_hours": 6,
+      "difficulty_level": "beginner",
+      "prerequisites": [
+        {
+          "session_number": 1,
+          "title": "Introduction to Data Handling and Ethics"
+        }
+      ]
+    },
+    {
+      "session_number": 3,
+      "title": "Database Design and Data Modeling Fundamentals",
+      "objectives": [
+        "Learn the fundamentals of database design and how to create effective data models."
+      ],
+      "skills": [
+        "database design",
+        "data models",
+        "normalise data",
+        "data quality management"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "beginner",
+      "prerequisites": [
+        {
+          "session_number": 2,
+          "title": "Data Extraction, Categorization, and Quality"
+        }
+      ]
+    },
+    {
+      "session_number": 4,
+      "title": "Introduction to Data Processing Techniques",
+      "objectives": [
+        "Learn to apply basic data processing techniques to clean, transform, and prepare data for analysis."
+      ],
+      "skills": [
+        "use data processing techniques",
+        "normalise data",
+        "data quality management",
+        "data models"
+      ],
+      "estimated_duration_hours": 6,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        {
+          "session_number": 3,
+          "title": "Database Design and Data Modeling Fundamentals"
+        }
+      ]
+    },
+    {
+      "session_number": 5,
+      "title": "Data Mining Fundamentals",
+      "objectives": [
+        "Understand the basics of data mining and how to extract valuable insights from data."
+      ],
+      "skills": [
+        "data mining",
+        "use data processing techniques",
+        "data models",
+        "execute analytical mathematical calculations"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        {
+          "session_number": 4,
+          "title": "Introduction to Data Processing Techniques"
+        }
+      ]
+    },
+    {
+      "session_number": 6,
+      "title": "Querying Data with Query Languages",
+      "objectives": [
+        "Learn to use query languages to retrieve and manipulate data from databases."
+      ],
+      "skills": [
+        "query languages",
+        "database design",
+        "data models",
+        "information extraction"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        {
+          "session_number": 3,
+          "title": "Database Design and Data Modeling Fundamentals"
+        }
+      ]
+    },
+    {
+      "session_number": 7,
+      "title": "Data Visualization Techniques",
+      "objectives": [
+        "Learn to create effective data visualizations to communicate insights."
+      ],
+      "skills": [
+        "data visualisation software",
+        "data models",
+        "data quality management",
+        "information categorisation"
+      ],
+      "estimated_duration_hours": 6,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        {
+          "session_number": 5,
+          "title": "Data Mining Fundamentals"
+        }
+      ]
+    },
+    {
+      "session_number": 8,
+      "title": "Advanced Data Processing and Analysis",
+      "objectives": [
+        "Apply advanced data processing techniques and perform complex data analysis."
+      ],
+      "skills": [
+        "use data processing techniques",
+        "data mining",
+        "execute analytical mathematical calculations",
+        "data models"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "advanced",
+      "prerequisites": [
+        {
+          "session_number": 5,
+          "title": "Data Mining Fundamentals"
+        },
+        {
+          "session_number": 6,
+          "title": "Querying Data with Query Languages"
+        }
+      ]
+    },
+    {
+      "session_number": 9,
+      "title": "RDF Query Language and Semantic Data",
+      "objectives": [
+        "Learn to use RDF query language to query and manipulate semantic data."
+      ],
+      "skills": [
+        "resource description framework query language",
+        "query languages",
+        "data models",
+        "information extraction",
+        "information categorisation"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "advanced",
+      "prerequisites": [
+        {
+          "session_number": 6,
+          "title": "Querying Data with Query Languages"
+        }
+      ]
+    },
+    {
+      "session_number": 10,
+      "title": "Data Governance and Documentation",
+      "objectives": [
+        "Learn to establish data governance processes and create comprehensive technical documentation."
+      ],
+      "skills": [
+        "establish data processes",
+        "technical documentation",
+        "data quality management",
+        "data ethics",
+        "information confidentiality"
+      ],
+      "estimated_duration_hours": 4,
+      "difficulty_level": "advanced",
+      "prerequisites": [
+        {
+          "session_number": 7,
+          "title": "Data Visualization Techniques"
+        },
+        {
+          "session_number": 8,
+          "title": "Advanced Data Processing and Analysis"
+        }
+      ]
+    }
+  ],
+  "total_sessions": 10,
+  "total_hours": 66
+}

@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer to Machine Learning Engineer - GenMentor Learning Path</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .demo-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.85em;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        
+        .header .category {
+            display: inline-block;
+            background: rgba(255,255,255,0.25);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0;
+            background: #f8f9fa;
+            border-bottom: 3px solid #e9ecef;
+        }
+        
+        .stat-card {
+            text-align: center;
+            padding: 30px 20px;
+            background: white;
+            border-right: 1px solid #e9ecef;
+            transition: all 0.3s;
+        }
+        
+        .stat-card:last-child {
+            border-right: none;
+        }
+        
+        .stat-card:hover {
+            background: #f8f9fa;
+            transform: translateY(-2px);
+        }
+        
+        .stat-card .icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .stat-card .number {
+            font-size: 2.8em;
+            font-weight: 700;
+            color: #667eea;
+            display: block;
+            line-height: 1;
+        }
+        
+        .stat-card .label {
+            color: #666;
+            font-size: 0.95em;
+            margin-top: 8px;
+            font-weight: 500;
+        }
+        
+        .content {
+            padding: 50px 40px;
+        }
+        
+        .profile-section {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .profile-section h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .profile-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .profile-item strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        
+        .match-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+        
+        .section-title {
+            color: #333;
+            font-size: 2.2em;
+            margin: 50px 0 30px 0;
+            padding-bottom: 15px;
+            border-bottom: 4px solid #667eea;
+            font-weight: 700;
+        }
+        
+        .session {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 0;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border: 1px solid #e9ecef;
+            transition: all 0.3s;
+        }
+        
+        .session:hover {
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+            transform: translateY(-5px);
+        }
+        
+        .session-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .session-number {
+            background: rgba(255,255,255,0.2);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-right: 20px;
+        }
+        
+        .session-title {
+            flex: 1;
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+        
+        .session-badges {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            padding: 8px 18px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+            background: rgba(255,255,255,0.95);
+        }
+        
+        .badge-duration { color: #667eea; }
+        .badge-difficulty.beginner { color: #38ef7d; }
+        .badge-difficulty.intermediate { color: #f59e0b; }
+        .badge-difficulty.advanced { color: #ef4444; }
+        
+        .session-body {
+            padding: 35px;
+        }
+        
+        .objectives {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .objectives h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .objectives ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .objectives li {
+            padding: 10px 0 10px 30px;
+            position: relative;
+            color: #555;
+        }
+        
+        .objectives li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #38ef7d;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .skills-grid {
+            display: grid;
+            gap: 25px;
+        }
+        
+        .skill-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s;
+        }
+        
+        .skill-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
+        }
+        
+        .skill-name {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .resources-list {
+            display: grid;
+            gap: 15px;
+        }
+        
+        .resource-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s;
+        }
+        
+        .resource-item:hover {
+            transform: translateX(8px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .resource-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            gap: 15px;
+        }
+        
+        .resource-title a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        
+        .resource-title a:hover {
+            color: #667eea;
+            text-decoration: underline;
+        }
+        
+        .resource-type-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.75em;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: white;
+        }
+        
+        .resource-type-badge.course { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+        .resource-type-badge.video { background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%); }
+        .resource-type-badge.documentation { background: linear-gradient(135deg, #2196f3 0%, #21cbf3 100%); }
+        .resource-type-badge.repository { background: linear-gradient(135deg, #9c27b0 0%, #ba68c8 100%); }
+        .resource-type-badge.practice { background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%); }
+        .resource-type-badge.tutorial { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        
+        .resource-provider {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+        }
+        
+        .resource-description {
+            color: #555;
+            font-size: 0.95em;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+        
+        .resource-meta {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        
+        .meta-badge {
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-weight: 600;
+            font-size: 0.85em;
+        }
+        
+        .meta-badge.free { background: #d1fae5; color: #065f46; }
+        .meta-badge.quality { background: #fef3c7; color: #92400e; }
+        .meta-badge.stars { background: #dbeafe; color: #1e40af; }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+        
+        .footer h3 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2em; }
+            .stats { grid-template-columns: repeat(2, 1fr); }
+            .content { padding: 30px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="demo-badge">DEMO DEMO_02</div>
+            <h1>Software Engineer to Machine Learning Engineer</h1>
+            <p class="subtitle">Technical specialization within software engineering</p>
+            <span class="category">Career Advancement</span>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="icon">📚</div>
+                <span class="number">8</span>
+                <span class="label">Learning Sessions</span>
+            </div>
+            <div class="stat-card">
+                <div class="icon">⏱️</div>
+                <span class="number">41</span>
+                <span class="label">Total Hours</span>
+            </div>
+            <div class="stat-card">
+                <div class="icon">🎯</div>
+                <span class="number">15</span>
+                <span class="label">Skills to Master</span>
+            </div>
+            <div class="stat-card">
+                <div class="icon">🔗</div>
+                <span class="number">46</span>
+                <span class="label">Quality Resources</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="profile-section">
+                <h2>👤 Your Profile</h2>
+                <div class="profile-item">
+                    <strong>🎯 Career Goal</strong>
+                    <p>I am a software engineer who wants to specialize in machine learning and AI</p>
+                </div>
+                <div class="profile-item">
+                    <strong>📋 Current Skills</strong>
+                    <p>Python, Java, Git, Algorithms, Data Structures, REST APIs</p>
+                </div>
+                <div class="profile-item">
+                    <strong>🎯 Best Career Match</strong>
+                    <p><strong style="color: #667eea; font-size: 1.2em;">Computer Vision Engineer</strong></p>
+                    <span class="match-badge">✓ 86.9% Match</span>
+                </div>
+            </div>
+            
+            <h2 class="section-title">🚀 Your Learning Path</h2>
+
+            <div class="session">
+                <div class="session-header">
+                    <div style="display: flex; align-items: center;">
+                        <div class="session-number">1</div>
+                        <div class="session-title">Introduction to Image Recognition with AI</div>
+                    </div>
+                    <div class="session-badges">
+                        <span class="badge badge-duration">⏱️ 4 hours</span>
+                        <span class="badge badge-difficulty beginner">📊 Beginner</span>
+                    </div>
+                </div>
+                
+                <div class="session-body">
+
+                    <div class="objectives">
+                        <h4>🎯 Learning Objectives</h4>
+                        <ul>
+                            <li>Understand the basics of image recognition.</li>
+                            <li>Learn how AI principles are applied to image recognition.</li>
+                            <li>Preprocess images for AI models.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Digital Image Processing</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">Pro Git Book</a>
+                                        </div>
+                                        <span class="resource-type-badge documentation">documentation</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Git</div>
+                                    <div class="resource-description">Official Git documentation and book</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 1.00</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://roadmap.sh/git-github" target="_blank" rel="noopener">Git and GitHub Course</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 roadmap.sh</div>
+                                    <div class="resource-description">Complete Git and GitHub guide</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=RGOj5yH7evk" target="_blank" rel="noopener">Git and GitHub for Beginners</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Git tutorial (1 hour)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Normalise Data</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Coursera</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.96</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.89</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div style="display: flex; align-items: center;">
+                        <div class="session-number">2</div>
+                        <div class="session-title">Setting up Your IDE for Image Processing</div>
+                    </div>
+                    <div class="session-badges">
+                        <span class="badge badge-duration">⏱️ 3 hours</span>
+                        <span class="badge badge-difficulty beginner">📊 Beginner</span>
+                    </div>
+                </div>
+                
+                <div class="session-body">
+
+                    <div class="objectives">
+                        <h4>🎯 Learning Objectives</h4>
+                        <ul>
+                            <li>Install and configure an Integrated Development Environment (IDE) for image processing.</li>
+                            <li>Learn basic image manipulation techniques within the IDE.</li>
+                            <li>Understand how to import and use image processing libraries.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Integrated Development Environment Software</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://docs.python.org/3/tutorial/" target="_blank" rel="noopener">Official Python Tutorial</a>
+                                        </div>
+                                        <span class="resource-type-badge documentation">documentation</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Python.org</div>
+                                    <div class="resource-description">Official Python documentation and tutorial</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 1.00</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" target="_blank" rel="noopener">Python Full Course - freeCodeCamp</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Python course for beginners (4.5 hours)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.98</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.coursera.org/specializations/python" target="_blank" rel="noopener">Python for Everybody Specialization</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Coursera</div>
+                                    <div class="resource-description">University of Michigan's comprehensive Python course</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" target="_blank" rel="noopener">Python Tutorial for Beginners</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Python tutorial (6+ hours)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.udemy.com/course/complete-python-bootcamp/" target="_blank" rel="noopener">Complete Python Bootcamp</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Udemy</div>
+                                    <div class="resource-description">From zero to hero in Python</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge quality">⭐ 0.90</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.w3schools.com/python/python_exercises.asp" target="_blank" rel="noopener">Python Exercises - W3Schools</a>
+                                        </div>
+                                        <span class="resource-type-badge practice">practice</span>
+                                    </div>
+                                    <div class="resource-provider">📍 W3Schools</div>
+                                    <div class="resource-description">Interactive Python exercises</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.85</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Digital Image Processing</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">Pro Git Book</a>
+                                        </div>
+                                        <span class="resource-type-badge documentation">documentation</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Git</div>
+                                    <div class="resource-description">Official Git documentation and book</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 1.00</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://roadmap.sh/git-github" target="_blank" rel="noopener">Git and GitHub Course</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 roadmap.sh</div>
+                                    <div class="resource-description">Complete Git and GitHub guide</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=RGOj5yH7evk" target="_blank" rel="noopener">Git and GitHub for Beginners</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Git tutorial (1 hour)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div style="display: flex; align-items: center;">
+                        <div class="session-number">3</div>
+                        <div class="session-title">Data Normalization and Dimensionality Reduction for Image Datasets</div>
+                    </div>
+                    <div class="session-badges">
+                        <span class="badge badge-duration">⏱️ 5 hours</span>
+                        <span class="badge badge-difficulty intermediate">📊 Intermediate</span>
+                    </div>
+                </div>
+                
+                <div class="session-body">
+
+                    <div class="objectives">
+                        <h4>🎯 Learning Objectives</h4>
+                        <ul>
+                            <li>Learn techniques for normalizing image data.</li>
+                            <li>Understand the importance of dimensionality reduction for image processing.</li>
+                            <li>Apply dimensionality reduction techniques to image datasets.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Normalise Data</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Coursera</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.96</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.89</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Digital Image Processing</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">Pro Git Book</a>
+                                        </div>
+                                        <span class="resource-type-badge documentation">documentation</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Git</div>
+                                    <div class="resource-description">Official Git documentation and book</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 1.00</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://roadmap.sh/git-github" target="_blank" rel="noopener">Git and GitHub Course</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 roadmap.sh</div>
+                                    <div class="resource-description">Complete Git and GitHub guide</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=RGOj5yH7evk" target="_blank" rel="noopener">Git and GitHub for Beginners</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Git tutorial (1 hour)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div style="display: flex; align-items: center;">
+                        <div class="session-number">4</div>
+                        <div class="session-title">Simulating Image Recognition Models</div>
+                    </div>
+                    <div class="session-badges">
+                        <span class="badge badge-duration">⏱️ 6 hours</span>
+                        <span class="badge badge-difficulty intermediate">📊 Intermediate</span>
+                    </div>
+                </div>
+                
+                <div class="session-body">
+
+                    <div class="objectives">
+                        <h4>🎯 Learning Objectives</h4>
+                        <ul>
+                            <li>Learn how to create computer simulations of image recognition models.</li>
+                            <li>Understand how to use simulation to test and improve model performance.</li>
+                            <li>Interpret the results of simulations.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Interpret Current Data</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Coursera</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.96</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.89</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div style="display: flex; align-items: center;">
+                        <div class="session-number">5</div>
+                        <div class="session-title">Advanced Image Processing Techniques and AI Integration</div>
+                    </div>
+                    <div class="session-badges">
+                        <span class="badge badge-duration">⏱️ 8 hours</span>
+                        <span class="badge badge-difficulty advanced">📊 Advanced</span>
+                    </div>
+                </div>
+                
+                <div class="session-body">
+
+                    <div class="objectives">
+                        <h4>🎯 Learning Objectives</h4>
+                        <ul>
+                            <li>Explore advanced digital image processing techniques.</li>
+                            <li>Integrate AI principles with advanced image processing methods.</li>
+                            <li>Develop a project using image recognition and AI.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Digital Image Processing</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">Pro Git Book</a>
+                                        </div>
+                                        <span class="resource-type-badge documentation">documentation</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Git</div>
+                                    <div class="resource-description">Official Git documentation and book</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 1.00</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://roadmap.sh/git-github" target="_blank" rel="noopener">Git and GitHub Course</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 roadmap.sh</div>
+                                    <div class="resource-description">Complete Git and GitHub guide</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=RGOj5yH7evk" target="_blank" rel="noopener">Git and GitHub for Beginners</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Git tutorial (1 hour)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Integrated Development Environment Software</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://docs.python.org/3/tutorial/" target="_blank" rel="noopener">Official Python Tutorial</a>
+                                        </div>
+                                        <span class="resource-type-badge documentation">documentation</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Python.org</div>
+                                    <div class="resource-description">Official Python documentation and tutorial</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 1.00</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" target="_blank" rel="noopener">Python Full Course - freeCodeCamp</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Python course for beginners (4.5 hours)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.98</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.coursera.org/specializations/python" target="_blank" rel="noopener">Python for Everybody Specialization</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Coursera</div>
+                                    <div class="resource-description">University of Michigan's comprehensive Python course</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" target="_blank" rel="noopener">Python Tutorial for Beginners</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Python tutorial (6+ hours)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.udemy.com/course/complete-python-bootcamp/" target="_blank" rel="noopener">Complete Python Bootcamp</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Udemy</div>
+                                    <div class="resource-description">From zero to hero in Python</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge quality">⭐ 0.90</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.w3schools.com/python/python_exercises.asp" target="_blank" rel="noopener">Python Exercises - W3Schools</a>
+                                        </div>
+                                        <span class="resource-type-badge practice">practice</span>
+                                    </div>
+                                    <div class="resource-provider">📍 W3Schools</div>
+                                    <div class="resource-description">Interactive Python exercises</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.85</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div style="display: flex; align-items: center;">
+                        <div class="session-number">6</div>
+                        <div class="session-title">Data Processes for Image Recognition Projects</div>
+                    </div>
+                    <div class="session-badges">
+                        <span class="badge badge-duration">⏱️ 4 hours</span>
+                        <span class="badge badge-difficulty intermediate">📊 Intermediate</span>
+                    </div>
+                </div>
+                
+                <div class="session-body">
+
+                    <div class="objectives">
+                        <h4>🎯 Learning Objectives</h4>
+                        <ul>
+                            <li>Establish robust data processes for image recognition projects.</li>
+                            <li>Learn how to manage and maintain image datasets.</li>
+                            <li>Understand data governance principles in the context of image recognition.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Establish Data Processes</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="noopener">Data Science Specialization</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Coursera</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.96</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" target="_blank" rel="noopener">Data Science Full Course</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.89</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Digital Image Processing</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">Pro Git Book</a>
+                                        </div>
+                                        <span class="resource-type-badge documentation">documentation</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Git</div>
+                                    <div class="resource-description">Official Git documentation and book</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 1.00</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://roadmap.sh/git-github" target="_blank" rel="noopener">Git and GitHub Course</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 roadmap.sh</div>
+                                    <div class="resource-description">Complete Git and GitHub guide</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=RGOj5yH7evk" target="_blank" rel="noopener">Git and GitHub for Beginners</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Git tutorial (1 hour)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Normalise Data</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Coursera</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.96</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.89</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div style="display: flex; align-items: center;">
+                        <div class="session-number">7</div>
+                        <div class="session-title">Literature Review and CASE Tools for Image Recognition</div>
+                    </div>
+                    <div class="session-badges">
+                        <span class="badge badge-duration">⏱️ 6 hours</span>
+                        <span class="badge badge-difficulty advanced">📊 Advanced</span>
+                    </div>
+                </div>
+                
+                <div class="session-body">
+
+                    <div class="objectives">
+                        <h4>🎯 Learning Objectives</h4>
+                        <ul>
+                            <li>Conduct a thorough literature review on current image recognition techniques.</li>
+                            <li>Utilize Computer-Aided Software Engineering (CASE) tools to design and document image recognition systems.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Utilise Computer Aided Software Engineering Tools</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://docs.python.org/3/tutorial/" target="_blank" rel="noopener">Official Python Tutorial</a>
+                                        </div>
+                                        <span class="resource-type-badge documentation">documentation</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Python.org</div>
+                                    <div class="resource-description">Official Python documentation and tutorial</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 1.00</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" target="_blank" rel="noopener">Python Full Course - freeCodeCamp</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Python course for beginners (4.5 hours)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.98</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.coursera.org/specializations/python" target="_blank" rel="noopener">Python for Everybody Specialization</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Coursera</div>
+                                    <div class="resource-description">University of Michigan's comprehensive Python course</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" target="_blank" rel="noopener">Python Tutorial for Beginners</a>
+                                        </div>
+                                        <span class="resource-type-badge video">video</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-description">Complete Python tutorial (6+ hours)</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.95</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.udemy.com/course/complete-python-bootcamp/" target="_blank" rel="noopener">Complete Python Bootcamp</a>
+                                        </div>
+                                        <span class="resource-type-badge course">course</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Udemy</div>
+                                    <div class="resource-description">From zero to hero in Python</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge quality">⭐ 0.90</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.w3schools.com/python/python_exercises.asp" target="_blank" rel="noopener">Python Exercises - W3Schools</a>
+                                        </div>
+                                        <span class="resource-type-badge practice">practice</span>
+                                    </div>
+                                    <div class="resource-provider">📍 W3Schools</div>
+                                    <div class="resource-description">Interactive Python exercises</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.85</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div style="display: flex; align-items: center;">
+                        <div class="session-number">8</div>
+                        <div class="session-title">Statistical Analysis of Image Recognition Performance</div>
+                    </div>
+                    <div class="session-badges">
+                        <span class="badge badge-duration">⏱️ 5 hours</span>
+                        <span class="badge badge-difficulty intermediate">📊 Intermediate</span>
+                    </div>
+                </div>
+                
+                <div class="session-body">
+
+                    <div class="objectives">
+                        <h4>🎯 Learning Objectives</h4>
+                        <ul>
+                            <li>Apply statistical methods to analyze the performance of image recognition models.</li>
+                            <li>Interpret statistical results to identify areas for improvement.</li>
+                            <li>Use statistics to compare different image recognition algorithms.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Statistics</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://github.com/scikit-learn/scikit-learn" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 GitHub</div>
+                                    <div class="resource-description">scikit-learn: machine learning in Python</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 1.00</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-name">📚 Interpret Current Data</div>
+                            <div class="resources-list">
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 Coursera</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.96</span>
+                                    </div>
+                                </div>
+
+                                <div class="resource-item">
+                                    <div class="resource-header">
+                                        <div class="resource-title">
+                                            <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" target="_blank" rel="noopener">Resource</a>
+                                        </div>
+                                        <span class="resource-type-badge resource">resource</span>
+                                    </div>
+                                    <div class="resource-provider">📍 YouTube</div>
+                                    <div class="resource-meta">
+                                        <span class="meta-badge free">✓ FREE</span>
+                                        <span class="meta-badge quality">⭐ 0.89</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="footer">
+            <h3>🎓 GenMentor AI</h3>
+            <p>Personalized learning paths powered by artificial intelligence</p>
+            <p style="margin-top: 15px;">Generated on November 28, 2025 at 08:06 AM</p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                41 hours • 8 sessions • 46 resources
+            </p>
+        </div>
+    </div>
+</body>
+</html>
