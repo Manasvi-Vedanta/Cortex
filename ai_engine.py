@@ -100,9 +100,9 @@ class GenMentorAI:
         
         try:
             genai.configure(api_key=api_key)
-            self.llm_model = genai.GenerativeModel('gemini-2.0-flash')  # Primary model
-            self.llm_model_flash = genai.GenerativeModel('gemini-2.0-flash')  # Fallback model
-            print("✅ Gemini 2.0 Flash API configured successfully!")
+            self.llm_model = genai.GenerativeModel('gemini-2.5-flash-lite')  # Primary model
+            self.llm_model_flash = genai.GenerativeModel('gemini-2.5-flash-lite')  # Fallback model
+            print("✅ Gemini 2.5 Flash API configured successfully!")
         except Exception as e:
             print(f"❌ Gemini API initialization failed: {e}")
             self.llm_model = None
@@ -217,7 +217,21 @@ class GenMentorAI:
             
             # Step 3: Smart skill filtering and prioritization for the matched occupation
             cursor.execute("""
-                SELECT s.concept_uri, s.preferred_label, s.description, osr.relation_type
+                SELECT s.concept_uri, s.preferred_label, s.description, osr.relation_type,
+                       COALESCE(
+                           (SELECT CAST(SUM(vote_value) AS FLOAT) / COUNT(*)
+                            FROM votes v
+                            WHERE v.item_uri = s.concept_uri
+                              AND v.item_type = 'skill'),
+                           0
+                       ) as vote_score,
+                       COALESCE(
+                           (SELECT COUNT(*)
+                            FROM votes v
+                            WHERE v.item_uri = s.concept_uri
+                              AND v.item_type = 'skill'),
+                           0
+                       ) as vote_count
                 FROM skills s
                 JOIN occupation_skill_relations osr ON s.concept_uri = osr.skill_uri
                 WHERE osr.occupation_uri = ?
@@ -227,6 +241,7 @@ class GenMentorAI:
                         WHEN 'optional' THEN 2 
                         ELSE 3 
                     END,
+                    vote_score DESC,
                     s.relevance_score DESC
             """, (best_match_uri,))
             
@@ -248,18 +263,30 @@ class GenMentorAI:
         is_beginner = len(user_current_skills) < 3
         
         for skill_data in relevant_skills:
-            uri, label, description, relation_type = skill_data
+            # Updated to handle 6 values from SQL query
+            if len(skill_data) == 6:
+                uri, label, description, relation_type, vote_score, vote_count = skill_data
+            else:
+                # Fallback for old format
+                uri, label, description, relation_type = skill_data[:4]
+                vote_score, vote_count = 0.0, 0
+                
             if not self._is_skill_covered(label, user_skills_lower):
                 # Skip soft skills and irrelevant conceptual skills
                 if self._is_soft_or_irrelevant_skill(label):
+                    continue
+                
+                # Skip skills with heavy negative votes (community disapproves)
+                if vote_count >= 3 and vote_score < -0.3:
+                    print(f"⚠️ Skipping '{label}' due to negative community feedback (score: {vote_score:.2f})")
                     continue
                 
                 # Skip overly advanced/specialized skills for beginners
                 if is_beginner and self._is_too_advanced_for_beginners(label):
                     continue
                     
-                # Enhanced priority calculation based on goal alignment
-                priority = self._calculate_enhanced_skill_priority(label, relation_type, goal_string)
+                # Enhanced priority calculation based on goal alignment AND community feedback
+                priority = self._calculate_enhanced_skill_priority(label, relation_type, goal_string, vote_score)
                 difficulty = self._estimate_skill_difficulty(label)
                 
                 skill_gap.append({
@@ -269,7 +296,9 @@ class GenMentorAI:
                     'relation_type': relation_type,
                     'priority': priority,
                     'relevance_score': self._calculate_skill_goal_relevance(label, goal_string),
-                    'difficulty': difficulty
+                    'difficulty': difficulty,
+                    'community_score': vote_score,
+                    'community_votes': vote_count
                 })
             else:
                 recognized_skills.append(label)
@@ -916,149 +945,323 @@ class GenMentorAI:
         
         return base_priority
     
-    def _filter_skills_by_goal_relevance(self, all_skills: List[tuple], goal_string: str) -> List[tuple]:
-        """Filter and prioritize skills based on goal relevance to show the most important ones."""
+    def _get_goal_aware_skill_priorities(self, goal_string: str) -> dict:
+        """
+        Dynamically generate skill priorities based on goal keywords.
+        Uses LLM to identify relevant skills for ANY tech domain.
+        """
         goal_lower = goal_string.lower()
         
-        # High-priority skills for data science careers with broader matching
-        data_science_priority_skills = {
-            # Programming & Core Tools (Priority 1 - Essential)
-            'python': 10, 'sql': 10, 'r': 9, 'statistics': 10, 'machine learning': 10,
-            'data analysis': 10, 'statistical analysis': 9, 'programming': 9,
-            
-            # Data Science Specific (Priority 2 - Very Important)  
-            'data visualization': 8, 'data mining': 8, 'predictive modeling': 8,
-            'statistical modeling': 8, 'artificial intelligence': 8, 'deep learning': 7,
-            'data science': 9, 'quantitative analysis': 8, 'hypothesis testing': 7,
-            
-            # Tools & Platforms (Priority 3 - Important)
-            'pandas': 7, 'numpy': 7, 'scikit-learn': 7, 'matplotlib': 6, 'seaborn': 6,
-            'jupyter': 6, 'tableau': 7, 'power bi': 6, 'excel': 5,
-            
-            # Business & Domain (Priority 4 - Relevant)
-            'business intelligence': 6, 'market research': 5, 'customer analytics': 6,
-            'a/b testing': 6, 'experimental design': 5, 'research methodology': 5
+        # Try LLM-based skill identification first
+        llm_skills = self._llm_identify_relevant_skills(goal_string)
+        if llm_skills:
+            return llm_skills
+        
+        # Fallback: Generic keyword-based mapping for common tech domains
+        domain_skill_mappings = {
+            # Mobile Development
+            'android': {
+                'kotlin': 10, 'java': 10, 'android': 10, 'mobile': 9, 'gradle': 8,
+                'xml': 7, 'firebase': 8, 'sqlite': 7, 'rest api': 7, 'git': 7,
+                'object-oriented': 8, 'programming': 9, 'software development': 8,
+                'testing': 7, 'debugging': 7, 'ui': 7, 'ux': 6
+            },
+            'ios': {
+                'swift': 10, 'objective-c': 8, 'xcode': 9, 'ios': 10, 'mobile': 9,
+                'cocoa': 8, 'uikit': 8, 'core data': 7, 'git': 7, 'programming': 9
+            },
+            'mobile app': {
+                'mobile': 10, 'android': 9, 'ios': 9, 'kotlin': 9, 'swift': 9,
+                'java': 9, 'flutter': 8, 'react native': 8, 'programming': 9
+            },
+            # Web Development
+            'web developer': {
+                'javascript': 10, 'html': 10, 'css': 10, 'react': 9, 'node': 8,
+                'typescript': 8, 'git': 8, 'api': 8, 'database': 7, 'programming': 9
+            },
+            'frontend': {
+                'javascript': 10, 'html': 10, 'css': 10, 'react': 9, 'vue': 8,
+                'angular': 8, 'typescript': 8, 'ui': 9, 'ux': 8, 'responsive': 8
+            },
+            'backend': {
+                'python': 9, 'java': 9, 'node': 9, 'sql': 10, 'database': 10,
+                'api': 10, 'rest': 9, 'cloud': 8, 'docker': 8, 'programming': 9
+            },
+            'full stack': {
+                'javascript': 10, 'python': 9, 'html': 9, 'css': 9, 'sql': 9,
+                'react': 8, 'node': 8, 'database': 9, 'git': 8, 'api': 9
+            },
+            # Data & AI
+            'data scientist': {
+                'python': 10, 'machine learning': 10, 'statistics': 10, 'sql': 9,
+                'data analysis': 10, 'deep learning': 8, 'tensorflow': 8, 'pytorch': 8,
+                'pandas': 8, 'numpy': 8, 'data visualization': 8, 'r': 7
+            },
+            'machine learning': {
+                'python': 10, 'machine learning': 10, 'deep learning': 9, 'tensorflow': 9,
+                'pytorch': 9, 'neural network': 8, 'statistics': 9, 'algorithm': 9
+            },
+            'data engineer': {
+                'python': 10, 'sql': 10, 'database': 10, 'etl': 9, 'spark': 9,
+                'cloud': 9, 'data pipeline': 9, 'big data': 8, 'programming': 9
+            },
+            'data analyst': {
+                'sql': 10, 'python': 9, 'excel': 9, 'data visualization': 9,
+                'statistics': 9, 'tableau': 8, 'power bi': 8, 'data analysis': 10
+            },
+            # DevOps & Cloud
+            'devops': {
+                'docker': 10, 'kubernetes': 10, 'ci/cd': 10, 'linux': 9, 'cloud': 10,
+                'aws': 9, 'azure': 9, 'terraform': 8, 'ansible': 8, 'git': 9
+            },
+            'cloud': {
+                'aws': 10, 'azure': 10, 'gcp': 9, 'cloud': 10, 'docker': 9,
+                'kubernetes': 9, 'serverless': 8, 'iaas': 8, 'paas': 8
+            },
+            # Security
+            'cybersecurity': {
+                'security': 10, 'network': 9, 'penetration': 9, 'encryption': 9,
+                'firewall': 8, 'linux': 8, 'python': 8, 'vulnerability': 9
+            },
+            # Game Development
+            'game developer': {
+                'unity': 10, 'unreal': 9, 'c++': 10, 'c#': 9, 'game': 10,
+                '3d': 8, 'graphics': 8, 'physics': 7, 'programming': 9
+            },
+            # Embedded & IoT
+            'embedded': {
+                'c': 10, 'c++': 9, 'embedded': 10, 'microcontroller': 9, 'rtos': 8,
+                'firmware': 9, 'hardware': 8, 'linux': 8, 'assembly': 7
+            },
+            'iot': {
+                'python': 9, 'c': 9, 'embedded': 9, 'sensor': 8, 'mqtt': 8,
+                'cloud': 8, 'networking': 8, 'arduino': 7, 'raspberry': 7
+            }
         }
         
-        # Map ESCO database terms to user-friendly data science skills
+        # Find matching domain and return its skill priorities
+        for domain, skills in domain_skill_mappings.items():
+            if domain in goal_lower:
+                print(f"🎯 Goal-aware skills activated for domain: {domain}")
+                return skills
+        
+        # Default: return empty dict, no specific boosting
+        return {}
+    
+    def _llm_identify_relevant_skills(self, goal_string: str) -> dict:
+        """
+        Use LLM to identify relevant technical skills for ANY career goal.
+        Returns a dictionary of skill keywords with priority scores.
+        """
+        if not self.llm_model:
+            return None
+        
+        prompt = f"""For this career goal: "{goal_string}"
+
+List the 15 most important technical skills needed, ranked by importance (10=critical, 7=important, 5=useful).
+Format: skill_name:score (one per line, lowercase, no explanations)
+
+Example format:
+kotlin:10
+java:9
+android sdk:9
+firebase:8
+
+List ONLY technical skills, not soft skills. Be specific to the career mentioned."""
+
+        try:
+            response = self.llm_model.generate_content(prompt)
+            if response and response.text:
+                skills = {}
+                for line in response.text.strip().split('\n'):
+                    if ':' in line:
+                        parts = line.strip().split(':')
+                        if len(parts) == 2:
+                            skill = parts[0].strip().lower()
+                            try:
+                                score = int(parts[1].strip())
+                                skills[skill] = min(10, max(1, score))
+                            except ValueError:
+                                continue
+                if skills:
+                    print(f"🤖 LLM identified {len(skills)} relevant skills for goal")
+                    return skills
+        except Exception as e:
+            print(f"⚠️ LLM skill identification failed: {e}")
+        
+        return None
+
+    def _filter_skills_by_goal_relevance(self, all_skills: List[tuple], goal_string: str) -> List[tuple]:
+        """
+        Filter and prioritize skills based on goal relevance.
+        Uses goal-aware dynamic skill prioritization for ANY tech domain.
+        """
+        goal_lower = goal_string.lower()
+        
+        # Get goal-aware skill priorities (dynamic, not hardcoded)
+        goal_skill_priorities = self._get_goal_aware_skill_priorities(goal_string)
+        
+        # Generic ESCO skill mapping (applies to all domains)
         esco_skill_mapping = {
             'digital data processing': 'data analysis',
             'information structure': 'database design', 
             'visual presentation techniques': 'data visualization',
-            'documentation types': 'technical documentation',
-            'data quality assessment': 'data quality management',
-            'statistical method': 'statistics',
-            'statistical methods': 'statistics', 
-            'data mining technique': 'data mining',
-            'statistical analysis': 'statistical analysis',
             'computer programming': 'programming',
             'apply computer programming': 'programming',
             'programming language': 'programming languages',
             'software development': 'software development',
             'algorithm': 'algorithms',
             'mathematical modelling': 'mathematical modeling',
-            'mathematical models': 'mathematical modeling',
-            'research methodologies': 'research methodology',
-            'scientific research': 'research methodology',
-            'business intelligence': 'business intelligence',
             'database query language': 'sql',
-            'query language': 'sql'
+            'query language': 'sql',
+            'object-oriented modelling': 'object-oriented programming',
+            'Java (computer programming)': 'Java',
+            'Python (computer programming)': 'Python',
+            'Ruby (computer programming)': 'Ruby',
+            'Prolog (computer programming)': 'Prolog',
+            'Smalltalk (computer programming)': 'Smalltalk',
+            'Assembly (computer programming)': 'Assembly'
         }
         
         # Score and filter skills
         scored_skills = []
         for skill_data in all_skills:
-            uri, label, description, relation_type = skill_data
+            # Handle both old (4 values) and new (6 values) formats
+            if len(skill_data) == 6:
+                uri, label, description, relation_type, vote_score, vote_count = skill_data
+            else:
+                uri, label, description, relation_type = skill_data
+                vote_score, vote_count = 0.0, 0
+                
             label_lower = label.lower()
             
             # Map ESCO terms to user-friendly terms
-            mapped_label = esco_skill_mapping.get(label_lower, label)
+            mapped_label = esco_skill_mapping.get(label, label)
             mapped_label_lower = mapped_label.lower()
             
             relevance_score = 0
-            # Check for direct keyword matches using both original and mapped labels
-            for priority_skill, score in data_science_priority_skills.items():
-                if (priority_skill in label_lower or priority_skill in mapped_label_lower or 
-                    (description and priority_skill in description.lower())):
+            
+            # Check for goal-aware skill matches (primary scoring)
+            for priority_skill, score in goal_skill_priorities.items():
+                priority_skill_lower = priority_skill.lower()
+                if (priority_skill_lower in label_lower or 
+                    priority_skill_lower in mapped_label_lower or
+                    (description and priority_skill_lower in description.lower())):
                     relevance_score = max(relevance_score, score)
                     break
             
-            # Enhanced keyword matching for data science terms
+            # If no goal-specific match, check for generic programming relevance
             if relevance_score == 0:
-                high_value_keywords = ['python', 'sql', 'statistics', 'machine learning', 'data']
-                medium_value_keywords = ['analytic', 'model', 'algorithm', 'programming', 'research', 'quantitative']
+                # Extract keywords from goal for generic matching
+                goal_keywords = [w for w in goal_lower.split() 
+                               if len(w) > 3 and w not in ['want', 'become', 'developer', 'engineer']]
                 
-                if any(keyword in label_lower or keyword in mapped_label_lower for keyword in high_value_keywords):
-                    relevance_score = 8
-                elif any(keyword in label_lower or keyword in mapped_label_lower for keyword in medium_value_keywords):
-                    relevance_score = 6
+                for keyword in goal_keywords:
+                    if keyword in label_lower or keyword in mapped_label_lower:
+                        relevance_score = 7  # Good match with goal keyword
+                        break
+                
+                # Give basic score to programming-related skills
+                if relevance_score == 0:
+                    programming_terms = ['programming', 'software', 'code', 'development', 'api', 'database']
+                    if any(term in label_lower for term in programming_terms):
+                        relevance_score = 4
             
-            # Include relevant skills or essential skills, but use mapped labels for display
+            # Boost highly-voted community skills
+            if vote_score >= 0.7 and vote_count >= 3:
+                community_boost = 10
+                old_score = relevance_score
+                relevance_score += community_boost
+                print(f"🌟 Community skill '{label}' boosted: {old_score} + {community_boost} = {relevance_score}")
+
+            # Include relevant skills or essential skills
             if relevance_score > 0 or relation_type == 'essential':
                 if relation_type == 'essential':
-                    relevance_score += 2  # Boost essential skills
+                    relevance_score += 2
                 
-                # Create new skill data with mapped label for better display
                 mapped_skill_data = (uri, mapped_label, description, relation_type)
                 scored_skills.append((mapped_skill_data, relevance_score))
         
-        # Sort and limit to most relevant
+        # Sort by relevance score
         scored_skills.sort(key=lambda x: x[1], reverse=True)
+        
+        # Debug output
+        print(f"\n🔍 Total scored_skills: {len(scored_skills)}")
+        print(f"🔍 Top 10 skills with scores:")
+        for skill_data, score in scored_skills[:10]:
+            print(f"  - {skill_data[1]}: {score}")
+        
         return [skill_data for skill_data, score in scored_skills[:25]]  # Top 25 most relevant
     
-    def _calculate_enhanced_skill_priority(self, skill_label: str, relation_type: str, goal_string: str) -> int:
-        """Enhanced skill priority calculation focusing on data science career goals."""
+    def _calculate_enhanced_skill_priority(self, skill_label: str, relation_type: str, goal_string: str, vote_score: float = 0.0) -> int:
+        """Enhanced skill priority calculation with goal-aware and community feedback integration."""
         skill_lower = skill_label.lower()
+        goal_lower = goal_string.lower()
         
-        # Critical data science skills get top priority
-        critical_skills = ['python', 'sql', 'statistics', 'machine learning', 'data analysis', 'programming']
-        if any(critical in skill_lower for critical in critical_skills):
-            return 1
+        # Start with base priority
+        base_priority = 2 if relation_type == 'essential' else 3
         
-        # Very important skills
-        important_skills = ['data visualization', 'data mining', 'r', 'artificial intelligence']
-        if any(important in skill_lower for important in important_skills):
-            return 1
+        # Get goal-aware skill priorities
+        goal_skills = self._get_goal_aware_skill_priorities(goal_string)
         
-        # Essential relation type gets priority 2, optional gets 3
-        return 2 if relation_type == 'essential' else 3
+        # Check if skill matches any goal-relevant skill
+        for priority_skill, score in goal_skills.items():
+            if priority_skill.lower() in skill_lower:
+                if score >= 9:
+                    base_priority = 1  # Critical skill
+                elif score >= 7:
+                    base_priority = min(base_priority, 2)  # Important skill
+                break
+        
+        # Apply community feedback boost/penalty
+        if vote_score >= 0.5:
+            base_priority = max(1, base_priority - 1)  # Boost
+            print(f"✅ '{skill_label}' boosted by community feedback (score: {vote_score:.2f})")
+        elif vote_score <= -0.5:
+            base_priority = min(5, base_priority + 1)  # Penalty (higher number = lower priority)
+            print(f"⬇️ '{skill_label}' deprioritized by community feedback (score: {vote_score:.2f})")
+        
+        return base_priority
     
     def _calculate_skill_goal_relevance(self, skill_label: str, goal_string: str) -> float:
-        """Calculate skill relevance score for goal alignment."""
+        """Calculate skill relevance score for goal alignment - generic for any domain."""
         skill_lower = skill_label.lower()
         
-        # High relevance skills for data science
-        high_relevance = ['python', 'sql', 'statistics', 'machine learning', 'data analysis']
-        if any(skill in skill_lower for skill in high_relevance):
-            return 1.0
+        # Get goal-aware skill priorities
+        goal_skills = self._get_goal_aware_skill_priorities(goal_string)
         
-        # Medium relevance
-        medium_relevance = ['data visualization', 'r', 'programming', 'artificial intelligence']
-        if any(skill in skill_lower for skill in medium_relevance):
-            return 0.8
+        # Check if skill matches any goal-relevant skill
+        for priority_skill, score in goal_skills.items():
+            if priority_skill.lower() in skill_lower:
+                return score / 10.0  # Normalize to 0-1 range
+        
+        # Check for generic programming relevance
+        goal_lower = goal_string.lower()
+        goal_keywords = [w for w in goal_lower.split() if len(w) > 3]
+        
+        for keyword in goal_keywords:
+            if keyword in skill_lower:
+                return 0.7  # Good match with goal keyword
         
         # Default relevance
-        return 0.5
+        return 0.3
     
     def _calculate_skill_priority(self, skill_label: str, relation_type: str, goal_string: str) -> float:
-        """Calculate enhanced priority score for skills."""
+        """Calculate enhanced priority score for skills - generic for any domain."""
         base_priority = 1.0 if relation_type == 'essential' else 0.6
         
-        # Goal-specific skill priorities
-        goal_lower = goal_string.lower()
         skill_lower = skill_label.lower()
         
-        high_priority_keywords = {
-            'data science': ['python', 'machine learning', 'statistics', 'sql', 'pandas', 'numpy'],
-            'data engineer': ['sql', 'python', 'database', 'etl', 'cloud', 'spark'],
-            'web development': ['javascript', 'html', 'css', 'react', 'node.js'],
-            'cybersecurity': ['network security', 'penetration testing', 'encryption']
-        }
+        # Get goal-aware skill priorities
+        goal_skills = self._get_goal_aware_skill_priorities(goal_string)
         
-        for career, keywords in high_priority_keywords.items():
-            if career in goal_lower:
-                if any(keyword in skill_lower for keyword in keywords):
-                    base_priority = min(1.0, base_priority + 0.3)  # Boost priority
+        # Boost priority for goal-relevant skills
+        for priority_skill, score in goal_skills.items():
+            if priority_skill.lower() in skill_lower:
+                if score >= 9:
+                    base_priority = min(1.0, base_priority + 0.4)
+                elif score >= 7:
+                    base_priority = min(1.0, base_priority + 0.3)
                 break
         
         return base_priority

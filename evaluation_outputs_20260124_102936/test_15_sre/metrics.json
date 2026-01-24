@@ -1,0 +1,51 @@
+{
+  "test_id": "15",
+  "goal": "I want to become a Site Reliability Engineer.",
+  "short_name": "SRE",
+  "category": "Infrastructure",
+  "matched_occupation": "dependability engineer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/07dfff6d-a0d0-4202-a697-fe9176c15999",
+  "similarity_score": 0.8754928708076477,
+  "total_skills": 15,
+  "total_sessions": 2,
+  "skills_list": [
+    "engineering principles",
+    "engineering processes",
+    "predictive maintenance",
+    "quality standards",
+    "test procedures",
+    "cooperate with colleagues",
+    "perform failure analysis of production process",
+    "perform risk analysis",
+    "troubleshoot",
+    "adjust engineering designs",
+    "perform test run",
+    "apply numeracy skills",
+    "manage engineering project",
+    "six sigma methods ",
+    "cost management"
+  ],
+  "session_durations": [
+    20,
+    19
+  ],
+  "path_generation_time": 8.089866161346436,
+  "quiz_generation_time": 27.70568060874939,
+  "total_test_time": 63.659703731536865,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 30.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

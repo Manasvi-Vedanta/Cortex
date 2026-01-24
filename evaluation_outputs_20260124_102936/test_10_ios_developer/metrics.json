@@ -1,0 +1,52 @@
+{
+  "test_id": "10",
+  "goal": "I want to become an iOS App Developer.",
+  "short_name": "iOS Developer",
+  "category": "Mobile Development",
+  "matched_occupation": "embedded systems software developer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/57af9090-55b4-4911-b2d0-86db01c00b02",
+  "similarity_score": 0.7171382904052734,
+  "total_skills": 15,
+  "total_sessions": 3,
+  "skills_list": [
+    "Swift (computer programming)",
+    "programming",
+    "use logic programming",
+    "use object-oriented programming",
+    "tools for software configuration management",
+    "JavaScript",
+    "Python",
+    "Ruby",
+    "Xcode",
+    "digital systems",
+    "Haskell",
+    "SAS language",
+    "Common Lisp",
+    "Lisp",
+    "Visual Basic"
+  ],
+  "session_durations": [
+    20,
+    20,
+    20
+  ],
+  "path_generation_time": 8.570137739181519,
+  "quiz_generation_time": 26.329227685928345,
+  "total_test_time": 63.50320219993591,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 30.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

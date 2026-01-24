@@ -1,0 +1,52 @@
+{
+  "test_id": "20",
+  "goal": "I want to become a QA Automation Engineer.",
+  "short_name": "QA Engineer",
+  "category": "Quality",
+  "matched_occupation": "automation engineer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/bb609566-3ab6-44dd-8f48-cf0b15b96827",
+  "similarity_score": 0.904593288898468,
+  "total_skills": 15,
+  "total_sessions": 3,
+  "skills_list": [
+    "mathematics",
+    "operate open source software",
+    "use technical drawing software",
+    "manage personal professional development",
+    "production processes",
+    "engineering principles",
+    "manufacturing processes",
+    "design drawings",
+    "electrical engineering",
+    "technical drawings",
+    "sensors",
+    "automatic control system",
+    "automation technology",
+    "design automation components",
+    "physics"
+  ],
+  "session_durations": [
+    9,
+    20,
+    20
+  ],
+  "path_generation_time": 8.715778112411499,
+  "quiz_generation_time": 19.424219369888306,
+  "total_test_time": 56.425758361816406,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 30.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

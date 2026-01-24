@@ -1,0 +1,97 @@
+[
+  {
+    "skill": "machine learning",
+    "uri": "http://data.europa.eu/esco/skill/test-machine-learning",
+    "vote_type": "upvote",
+    "endpoint": "/api/feedback/vote",
+    "status": "success",
+    "response": {
+      "message": "Vote recorded",
+      "stats": {
+        "approval_rate": 100.0,
+        "average_score": 1.0,
+        "downvotes": 0,
+        "net_score": 1,
+        "total_votes": 1,
+        "upvotes": 1
+      },
+      "success": true
+    }
+  },
+  {
+    "skill": "Python (computer programming)",
+    "uri": "http://data.europa.eu/esco/skill/test-python-(computer-programming)",
+    "vote_type": "upvote",
+    "endpoint": "/api/feedback/vote",
+    "status": "success",
+    "response": {
+      "message": "Vote recorded",
+      "stats": {
+        "approval_rate": 100.0,
+        "average_score": 1.0,
+        "downvotes": 0,
+        "net_score": 1,
+        "total_votes": 1,
+        "upvotes": 1
+      },
+      "success": true
+    }
+  },
+  {
+    "skill": "statistics",
+    "uri": "http://data.europa.eu/esco/skill/test-statistics",
+    "vote_type": "upvote",
+    "endpoint": "/api/feedback/vote",
+    "status": "success",
+    "response": {
+      "message": "Vote recorded",
+      "stats": {
+        "approval_rate": 100.0,
+        "average_score": 1.0,
+        "downvotes": 0,
+        "net_score": 1,
+        "total_votes": 1,
+        "upvotes": 1
+      },
+      "success": true
+    }
+  },
+  {
+    "skill": "programming",
+    "uri": "http://data.europa.eu/esco/skill/test-programming",
+    "vote_type": "upvote",
+    "endpoint": "/api/feedback/vote",
+    "status": "success",
+    "response": {
+      "message": "Vote recorded",
+      "stats": {
+        "approval_rate": 100.0,
+        "average_score": 1.0,
+        "downvotes": 0,
+        "net_score": 1,
+        "total_votes": 1,
+        "upvotes": 1
+      },
+      "success": true
+    }
+  },
+  {
+    "skill": "develop data processing applications",
+    "uri": "http://data.europa.eu/esco/skill/test-develop-data-processing-applications",
+    "vote_type": "upvote",
+    "endpoint": "/api/feedback/vote",
+    "status": "success",
+    "response": {
+      "message": "Vote recorded",
+      "stats": {
+        "approval_rate": 100.0,
+        "average_score": 1.0,
+        "downvotes": 0,
+        "net_score": 1,
+        "total_votes": 1,
+        "upvotes": 1
+      },
+      "success": true
+    }
+  }
+]

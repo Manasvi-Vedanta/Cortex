@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:38:14.878282",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "The `<body>` element contains all the contents of an HTML document that are visible to the user, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. The `<head>` contains metadata, not visible content.",
+        "is_correct": false,
+        "question": "Which HTML tag is primarily used to define the main, visible content area of a web page?",
+        "question_id": 1,
+        "topic": "use markup languages",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The `color` property in CSS is specifically used to set the foreground color of an element's text content. `background-color` changes the background, and `font-color` and `text-style` are not standard CSS properties for this purpose.",
+        "is_correct": false,
+        "question": "In CSS, which property is used to change the text color of an element?",
+        "question_id": 2,
+        "topic": "CSS",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`let` declares a block-scoped local variable that can be reassigned. `var` is function-scoped. `const` declares a block-scoped constant, meaning its value cannot be reassigned after initialization. `variable` is not a valid keyword for declaration.",
+        "is_correct": false,
+        "question": "What is the correct way to declare a variable with block scope that can be reassigned in JavaScript?",
+        "question_id": 3,
+        "topic": "JavaScript",
+        "user_answer": "D"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "easy",
+        "explanation": "The `GET` method is designed to retrieve data from a specified resource. It should be idempotent and safe, meaning it doesn't cause side effects on the server. `POST`, `PUT`, and `DELETE` are used for creating, updating, and removing resources, respectively.",
+        "is_correct": false,
+        "question": "Which HTTP method is primarily used to request data from a specified resource without altering server state?",
+        "question_id": 4,
+        "topic": "web programming",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "JavaScript frameworks like React, Angular, and Vue are primarily designed to streamline front-end development, especially for complex UIs and SPAs. They offer component-based architectures, state management, and declarative ways to build interfaces, which are major advantages over plain JavaScript for large projects.",
+        "is_correct": true,
+        "question": "Which of the following best describes the primary advantage of using a JavaScript framework like React, Angular, or Vue for front-end development?",
+        "question_id": 5,
+        "topic": "JavaScript Framework",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The standard Git workflow involves `git add .` to stage all modified and new files, `git commit -m \"Message\"` to save these staged changes to the local repository, and `git push origin main` (or your branch name) to upload the local commits to the remote repository named 'origin' on the 'main' branch.",
+        "is_correct": false,
+        "question": "After making changes to a file in your local Git repository, which sequence of commands is typically used to stage the changes, commit them locally, and then send them to a remote repository?",
+        "question_id": 6,
+        "topic": "tools for software configuration management",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "In MongoDB, a `document` is a set of key-value pairs (BSON objects), which is the basic unit of data. It is analogous to a row or record in a relational database. `Collections` are groups of documents, analogous to tables, and MongoDB is schema-less.",
+        "is_correct": false,
+        "question": "In MongoDB, what is the fundamental unit of data storage, analogous to a row in a relational database table?",
+        "question_id": 7,
+        "topic": "MongoDB",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "`PersistentVolume` (PV) represents a piece of physical storage provisioned in the cluster, while `PersistentVolumeClaim` (PVC) is a request for storage by a user/application. Together, they provide an abstraction layer for persistent storage, allowing applications to consume storage without knowing the underlying infrastructure details.",
+        "is_correct": false,
+        "question": "A containerized web application deployed on Kubernetes requires persistent storage for its database. Which Kubernetes objects are primarily used to abstract and provision persistent storage resources for applications?",
+        "question_id": 8,
+        "topic": "Kubernetes",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Redis is an extremely fast in-memory data store, making it ideal for caching frequently accessed data (like database query results) and managing transient data such as user sessions. This reduces the load on the primary (SQL) database and significantly improves application response times under high traffic. It's not typically used as a primary transactional database, for long-term archival, or for complex analytical queries.",
+        "is_correct": false,
+        "question": "Your high-traffic web application relies heavily on frequently accessed data from a traditional SQL database, leading to performance bottlenecks. Which of the following is the most effective way to leverage Redis in this scenario?",
+        "question_id": 9,
+        "topic": "Redis",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "The industry best practice for storing passwords is to hash them using a strong, one-way cryptographic hash function (like bcrypt, scrypt, or Argon2) with a unique, randomly generated salt for each user. This prevents direct recovery of passwords and makes dictionary and rainbow table attacks ineffective. Plain text storage (even in an encrypted column), Base64 encoding (which is reversible), and symmetric encryption (where the key could be compromised) are all insecure.",
+        "is_correct": false,
+        "question": "When developing a web application backend using Python (e.g., with Flask or Django), what is the most secure and recommended method for storing user passwords in a database?",
+        "question_id": 10,
+        "topic": "Python",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: use markup languages, CSS, JavaScript",
+      "✅ Your strongest areas: JavaScript Framework"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "JavaScript Framework",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use markup languages",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "CSS",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "JavaScript",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "web programming",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "MongoDB",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Kubernetes",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Redis",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,45 @@
+{
+  "test_id": "18",
+  "goal": "I want to become a Computer Vision Engineer.",
+  "short_name": "CV Engineer",
+  "category": "AI/ML",
+  "matched_occupation": "computer vision engineer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341",
+  "similarity_score": 1.0,
+  "total_skills": 8,
+  "total_sessions": 3,
+  "skills_list": [
+    "programming",
+    "computer simulation",
+    "Python",
+    "machine learning",
+    "TensorFlow",
+    "PyTorch",
+    "MLflow",
+    "Kubeflow"
+  ],
+  "session_durations": [
+    9,
+    20,
+    20
+  ],
+  "path_generation_time": 8.433736801147461,
+  "quiz_generation_time": 20.05988383293152,
+  "total_test_time": 57.39129972457886,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 50.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

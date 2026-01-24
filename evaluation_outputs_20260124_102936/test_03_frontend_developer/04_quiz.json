@@ -1,0 +1,175 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:32:53.419541",
+      "learning_path_id": "test_03",
+      "target_occupation": "web developer",
+      "total_questions": 10,
+      "total_topics": 13
+    },
+    "questions": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The `<ul>` tag (unordered list) is used to define a bulleted list of items. `<li>` defines a list item, `<ol>` an ordered list, and `<dl>` a description list.",
+        "id": 1,
+        "options": {
+          "A": "<li>",
+          "B": "<ol>",
+          "C": "<ul>",
+          "D": "<dl>"
+        },
+        "question": "Which HTML tag is correctly used to define the root of an unordered list of items?",
+        "topic": "markup languages"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "easy",
+        "explanation": "The `color` property in CSS is used to set the foreground color of an element's text content. `background-color` changes the background, and `font-color` is not a valid CSS property.",
+        "id": 2,
+        "options": {
+          "A": "background-color",
+          "B": "font-color",
+          "C": "text-style",
+          "D": "color"
+        },
+        "question": "In CSS, which property is used to change the text color of an HTML element?",
+        "topic": "CSS / style sheet languages"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The `const` keyword declares a block-scoped variable whose value cannot be reassigned. `var` is function-scoped and can be reassigned, while `let` is block-scoped but can also be reassigned.",
+        "id": 3,
+        "options": {
+          "A": "var",
+          "B": "let",
+          "C": "const",
+          "D": "static"
+        },
+        "question": "In JavaScript, which keyword is used to declare a variable whose value cannot be reassigned after its initial declaration and is block-scoped?",
+        "topic": "JavaScript"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An IDE integrates various tools like a code editor, debugger, and build automation into a single graphical user interface, streamlining the entire software development process.",
+        "id": 4,
+        "options": {
+          "A": "To exclusively run unit tests and generate code coverage reports.",
+          "B": "To provide a centralized interface for writing, debugging, building, and deploying software.",
+          "C": "To manage server infrastructure and deploy applications to cloud platforms.",
+          "D": "To host version control systems like Git and manage repositories."
+        },
+        "question": "What is the primary function of an Integrated Development Environment (IDE) for a web developer?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "JavaScript frameworks offer structured patterns, reusable components, and state management solutions that significantly simplify the development and maintenance of complex, interactive client-side applications like SPAs.",
+        "id": 5,
+        "options": {
+          "A": "It automatically converts the SPA into a native mobile application.",
+          "B": "It provides a structured way to build reusable UI components, manage application state, and simplify complex client-side interactions.",
+          "C": "It replaces the need for a backend server by handling all data storage directly in the browser.",
+          "D": "It compiles JavaScript code into a faster, lower-level language for better performance."
+        },
+        "question": "A web development team is building a complex Single-Page Application (SPA) with numerous interactive components and dynamic data. How does a JavaScript framework (e.g., React, Angular, Vue) primarily benefit this project?",
+        "topic": "JavaScript Framework"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "TypeScript's core feature is static typing, which allows for early detection of type-related bugs, better code autocompletion, and improved readability and maintainability, especially in large codebases.",
+        "id": 6,
+        "options": {
+          "A": "TypeScript automatically minifies and compresses JavaScript code, leading to smaller bundle sizes.",
+          "B": "TypeScript introduces static typing, allowing developers to catch type-related errors during development (compile-time) rather than at runtime.",
+          "C": "TypeScript provides a built-in templating engine for more efficient rendering of UI components.",
+          "D": "TypeScript enables server-side rendering (SSR) for all front-end components by default."
+        },
+        "question": "When developing a large-scale web application, what is the most significant advantage TypeScript offers over plain JavaScript for improving code quality and maintainability?",
+        "topic": "TypeScript"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "MongoDB is a NoSQL, document-oriented database. Its schema-less design allows documents within a collection to have different fields and structures, providing flexibility for data like social media posts with evolving or varied content.",
+        "id": 7,
+        "options": {
+          "A": "Its strong transactional consistency adhering to ACID properties across distributed transactions.",
+          "B": "Its rigid relational schema which ensures all posts conform to a predefined table structure.",
+          "C": "Its document-oriented, schema-less nature, allowing posts to have varying attributes and nested data structures.",
+          "D": "Its use of SQL for complex JOIN operations across multiple collections."
+        },
+        "question": "A new social media platform needs a database to store user posts, where each post can have a flexible structure (e.g., text, images, videos, various metadata). Which feature of MongoDB makes it particularly well-suited for this use case?",
+        "topic": "MongoDB"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Flask is a lightweight micro-framework ideal for building RESTful APIs, allowing precise control over dependencies. The `requests` library is standard for making HTTP calls to other microservices, and `pandas` is excellent for data manipulation and aggregation. This combination provides the necessary tools for focused API logic without the overhead of a full-stack framework like Django (which would be overkill if only building an API endpoint) or libraries focused solely on ML training or web scraping.",
+        "id": 8,
+        "options": {
+          "A": "Django, leveraging its full-stack capabilities to also render the frontend user interface for recommendations.",
+          "B": "Flask with the `requests` library for API calls and potentially `pandas` for data aggregation, focusing purely on the API logic.",
+          "C": "NumPy and SciPy, primarily for machine learning model training without direct API serving capabilities.",
+          "D": "BeautifulSoup for web scraping product data from external competitor websites."
+        },
+        "question": "A web developer is tasked with implementing a backend service using Python for an e-commerce platform. The service needs to handle product recommendations based on user browsing history and purchase patterns, fetch data from multiple internal microservices (via REST APIs), and aggregate results before sending them to the frontend. Considering the need to analyse software specifications and integrate with various data sources, what Python framework/library combination would be most effective for building this recommendation engine API, and why?",
+        "topic": "Python / analyse software specifications / web programming"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Kubernetes is a container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. For a microservices architecture, its ability to handle automated rollouts, scaling based on demand, self-healing (restarting failed containers), and load balancing across services is crucial for managing complexity and ensuring high availability.",
+        "id": 9,
+        "options": {
+          "A": "Kubernetes provides a managed database service for each microservice, eliminating the need for database administration.",
+          "B": "Kubernetes automates the continuous integration and continuous delivery (CI/CD) pipeline from code commit to production deployment.",
+          "C": "Kubernetes offers robust container orchestration, enabling automated deployment, scaling, self-healing, and load balancing of microservices.",
+          "D": "Kubernetes optimizes the internal code of microservices, making them run faster and consume less memory."
+        },
+        "question": "A growing e-commerce application, initially deployed as a monolith, is being refactored into dozens of microservices. The development team is facing challenges with managing deployments, ensuring high availability, and scaling individual services independently across multiple servers. What is the most significant benefit of adopting Kubernetes in this scenario?",
+        "topic": "Kubernetes"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Redis is an in-memory data store known for its speed and versatile data structures. It excels at caching frequently accessed data, managing volatile session states, and building real-time features like leaderboards (using sorted sets) without heavily burdening the primary database. It's not typically used for primary long-term persistent storage or complex analytical queries, and while it has Pub/Sub capabilities, its primary role in this scenario for performance is caching and real-time data handling.",
+        "id": 10,
+        "options": {
+          "A": "Migrating all persistent game data and user profiles from the relational database to Redis for long-term storage.",
+          "B": "Using Redis as an in-memory caching layer for frequently accessed game assets, storing active user session data, and implementing real-time leaderboards with sorted sets.",
+          "C": "Employing Redis exclusively as a message broker for inter-service communication within the gaming platform's backend.",
+          "D": "Offloading all complex analytical queries from the primary database to Redis for faster reporting."
+        },
+        "question": "An online gaming platform experiences massive spikes in concurrent users during peak hours. The primary relational database struggles to keep up with real-time leaderboards, frequent session state updates, and serving cached game data, leading to latency. Which strategy best leverages Redis to alleviate these performance bottlenecks?",
+        "topic": "Redis"
+      }
+    ],
+    "topics_covered": [
+      "web programming",
+      "JavaScript",
+      "JavaScript Framework",
+      "CSS",
+      "Add TypeScript",
+      "use markup languages",
+      "integrated development environment software",
+      "analyse software specifications",
+      "Python",
+      "Kubernetes",
+      "Redis",
+      "style sheet languages",
+      "MongoDB"
+    ]
+  },
+  "success": true
+}

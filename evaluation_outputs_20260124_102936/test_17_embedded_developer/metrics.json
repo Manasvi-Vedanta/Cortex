@@ -1,0 +1,52 @@
+{
+  "test_id": "17",
+  "goal": "I want to become an Embedded Systems Developer.",
+  "short_name": "Embedded Developer",
+  "category": "Systems",
+  "matched_occupation": "embedded systems software developer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/57af9090-55b4-4911-b2d0-86db01c00b02",
+  "similarity_score": 0.9406181573867798,
+  "total_skills": 15,
+  "total_sessions": 3,
+  "skills_list": [
+    "use logic programming",
+    "use object-oriented programming",
+    "programming",
+    "JavaScript",
+    "tools for software configuration management",
+    "develop ICT device driver",
+    "create flowchart diagram",
+    "analyse software specifications",
+    "integrated development environment software",
+    "Internet of Things",
+    "debug software",
+    "embedded systems",
+    "ICT debugging tools",
+    "Common Lisp",
+    "digital systems"
+  ],
+  "session_durations": [
+    20,
+    20,
+    20
+  ],
+  "path_generation_time": 8.122844934463501,
+  "quiz_generation_time": 34.009923696517944,
+  "total_test_time": 70.50400614738464,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 40.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

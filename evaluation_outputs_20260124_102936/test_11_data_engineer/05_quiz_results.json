@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:41:28.910376",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A data warehouse is specifically designed for analytical processing and historical data storage, providing a single source of truth for business intelligence and reporting, rather than operational transaction processing or real-time event processing.",
+        "is_correct": false,
+        "question": "What is the primary purpose of a Data Warehouse in an enterprise architecture?",
+        "question_id": 1,
+        "topic": "Data Warehouse",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Unstructured data lacks a predefined data model and typically includes text documents, images, audio, and video files. Relational tables and CSV files are structured, while XML files are typically semi-structured.",
+        "is_correct": true,
+        "question": "Which of the following is an example of unstructured data?",
+        "question_id": 2,
+        "topic": "Unstructured Data",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Object storage (e.g., AWS S3, Azure Blob Storage, GCP Cloud Storage) is ideal for storing massive amounts of unstructured and semi-structured data as objects, making it a foundational component for data lakes due to its scalability, durability, and cost-effectiveness.",
+        "is_correct": false,
+        "question": "Which cloud service model is primarily concerned with storing large volumes of data objects in a highly scalable and durable manner, often used for data lakes?",
+        "question_id": 3,
+        "topic": "Data Storage, Cloud Technologies",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A data model serves as a blueprint for the database, showing how data is organized, stored, and related to each other, providing a clear understanding of the data entities and their interactions.",
+        "is_correct": true,
+        "question": "What is the fundamental purpose of creating a data model?",
+        "question_id": 4,
+        "topic": "Data Models",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ELT leverages the processing power of the target data warehouse (often cloud-based) to perform transformations after loading, allowing for raw data preservation and more flexible, iterative transformations without needing a separate staging area for transformation.",
+        "is_correct": false,
+        "question": "When building a data pipeline, a data engineer decides to use an ELT (Extract, Load, Transform) approach instead of ETL (Extract, Transform, Load). What is the primary reason for this choice?",
+        "question_id": 5,
+        "topic": "Develop Data Processing Applications, Use Data Processing Techniques",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Teradata is renowned for its shared-nothing MPP architecture, where each node has its own CPU, memory, and storage, allowing for highly scalable and parallel execution of queries by distributing data and processing workload independently across nodes.",
+        "is_correct": false,
+        "question": "What is a distinguishing characteristic of the Teradata Database architecture that enables its massive parallel processing (MPP) capabilities?",
+        "question_id": 6,
+        "topic": "Teradata Database, Use Databases",
+        "user_answer": "D"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "medium",
+        "explanation": "Time-series databases are specifically optimized for storing and querying time-stamped data, offering superior performance for IoT sensor data with high ingest rates and time-based analytical queries compared to general-purpose relational, key-value, or document databases.",
+        "is_correct": false,
+        "question": "A company needs to store rapidly growing sensor data (time-series data) from IoT devices in the cloud, requiring high write throughput and efficient range queries for specific time windows. Which cloud database type would be most suitable for this use case?",
+        "question_id": 7,
+        "topic": "Design Database in the Cloud, Cloud Technologies",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "An 'Out of Memory' error during the transform stage, especially after successful runs for a prolonged period, strongly suggests that the data being processed has either increased in volume or complexity (e.g., new columns, larger strings, more joins) beyond the current resource allocation. Reviewing recent schema changes or data characteristics and scaling up processing resources (e.g., increasing memory or compute capacity for the transformation job) are appropriate first steps.",
+        "is_correct": false,
+        "question": "A data engineer observes that a critical daily ETL job running on a cloud-based data pipeline (e.g., AWS Glue, Azure Data Factory) consistently fails during the 'Transform' stage with an 'Out of Memory' error, despite processing the same volume of data daily. Historical logs show the job ran successfully for months. What is the MOST likely root cause, and what initial action should be taken?",
+        "question_id": 8,
+        "topic": "Analyse Pipeline Database Information, Data Analytics, Cloud Technologies",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A data lake built on object storage (like S3 or Azure Blob Storage) is ideal for petabytes of raw, unstructured/semi-structured data due to its cost-effectiveness, scalability, and durability. Integrating it with serverless compute (for ad-hoc processing) and data catalog services (for metadata management) allows for flexible analytics and ML model training directly on the raw data without the overhead of managing servers or extensive pre-processing.",
+        "is_correct": false,
+        "question": "A research team needs to store petabytes of raw genomics data (large binary files and associated metadata) in a cost-effective, durable, and highly available manner. They require the ability to run ad-hoc analytics using serverless functions and machine learning models directly on this data without extensive pre-processing. Which cloud architecture pattern would be most suitable?",
+        "question_id": 9,
+        "topic": "Manage Research Data, Data Storage, Develop Data Processing Applications",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "For data warehouses designed for analytical reporting and OLAP-style queries (drill-down, roll-up, slice-and-dice), a dimensional model (Star or Snowflake schema) is highly recommended. It optimizes for query performance, simplifies business user understanding, and directly supports the types of aggregated and slice-and-dice reporting described by separating measurable facts from descriptive dimensions.",
+        "is_correct": false,
+        "question": "A company's data warehouse team is designing a new subject area for customer order history. The business users frequently request reports showing 'total sales by product category over time,' 'average order value per customer segment,' and 'customer lifetime value,' often requiring drill-down capabilities. To support these analytical queries efficiently and intuitively, which data modeling approach would be most appropriate for the new subject area?",
+        "question_id": 10,
+        "topic": "Data Models, Data Warehouse, Database Management Systems",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Data Warehouse, Data Storage, Cloud Technologies, Develop Data Processing Applications, Use Data Processing Techniques",
+      "✅ Your strongest areas: Unstructured Data, Data Models"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Unstructured Data",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Models",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Warehouse",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Storage, Cloud Technologies",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Develop Data Processing Applications, Use Data Processing Techniques",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Teradata Database, Use Databases",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Design Database in the Cloud, Cloud Technologies",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Analyse Pipeline Database Information, Data Analytics, Cloud Technologies",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Manage Research Data, Data Storage, Develop Data Processing Applications",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Models, Data Warehouse, Database Management Systems",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

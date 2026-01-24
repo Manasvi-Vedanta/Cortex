@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:50:43.710870",
+      "learning_path_id": "test_20",
+      "target_occupation": "automation engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Inductive proximity sensors generate an electromagnetic field and detect changes in that field caused by the presence of metallic objects, making them ideal for non-contact detection in automation.",
+        "id": 1,
+        "options": {
+          "A": "Thermocouple",
+          "B": "Inductive Proximity Sensor",
+          "C": "Load Cell",
+          "D": "Flow Meter"
+        },
+        "question": "Which sensor type is commonly used to detect the presence or absence of a metallic object without physical contact?",
+        "topic": "sensors"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A feedback loop continuously monitors the system's actual output, compares it with the desired setpoint, and uses the error signal to adjust the control action, ensuring the system stays on target.",
+        "id": 2,
+        "options": {
+          "A": "To power the actuators",
+          "B": "To provide a setpoint for the system",
+          "C": "To measure the system's output and compare it to the desired input",
+          "D": "To amplify the control signal"
+        },
+        "question": "What is the primary function of a feedback loop in an automatic control system?",
+        "topic": "automatic control system"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Linux is a highly popular open-source operating system favored in industrial automation for its stability, security, customizability, and cost-effectiveness, particularly in embedded and real-time control applications.",
+        "id": 3,
+        "options": {
+          "A": "Windows 10",
+          "B": "macOS",
+          "C": "Linux",
+          "D": "iOS"
+        },
+        "question": "Which of the following is an open-source operating system widely used in industrial automation for embedded systems or control applications due to its flexibility and community support?",
+        "topic": "operate open source software"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The standard graphic symbol for a double-acting cylinder in pneumatic diagrams shows a rectangular cylinder body with a piston rod extending from both ends (or implied), indicating that air pressure can extend and retract the piston.",
+        "id": 4,
+        "options": {
+          "A": "A circle with a cross",
+          "B": "A rectangle with two arrows pointing inwards",
+          "C": "Two rectangles connected by a line with a piston symbol",
+          "D": "A triangle pointing downwards"
+        },
+        "question": "In a pneumatic circuit diagram, what symbol typically represents a double-acting cylinder?",
+        "topic": "technical drawings"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Collaborative robots (cobots) are designed to work safely alongside humans, making them ideal for tasks requiring dexterity and precision in shared workspaces. A vision system enhances their ability to identify and manipulate small components.",
+        "id": 5,
+        "options": {
+          "A": "A large gantry robot",
+          "B": "A collaborative robot (cobot) with a vision system",
+          "C": "A heavy-duty hydraulic press",
+          "D": "A supervisory control and data acquisition (SCADA) system"
+        },
+        "question": "An automation engineer is tasked with improving the efficiency of an assembly line where small, delicate components are picked and placed alongside human operators. Which automation component would be most suitable for this task?",
+        "topic": "automation technology"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Ohm's Law states I = V/R, where I is current, V is voltage, and R is resistance. So, I = 24V / 48 Ohms = 0.5 Amperes.",
+        "id": 6,
+        "options": {
+          "A": "2 A",
+          "B": "0.5 A",
+          "C": "1 A",
+          "D": "1.5 A"
+        },
+        "question": "A 24V DC power supply is connected to a solenoid valve with a coil resistance of 48 ohms. According to Ohm's Law, what current will flow through the solenoid coil?",
+        "topic": "electrical engineering"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Color sensors are specifically designed to detect the chromatic properties of objects, making them the most direct and accurate choice for sorting based on color. Other sensors detect presence, distance, or material type, but not color.",
+        "id": 7,
+        "options": {
+          "A": "Ultrasonic sensor",
+          "B": "Inductive proximity sensor",
+          "C": "Color sensor",
+          "D": "Lidar sensor"
+        },
+        "question": "When designing an automated system to sort products by their distinct surface colors, which type of sensor would be the primary choice to differentiate between products?",
+        "topic": "design automation components"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Precision and repeatability in a closed-loop servo system are fundamentally dependent on the accuracy of the position feedback device (encoder resolution) and how quickly the controller can process this feedback and issue corrections (controller update rate). While torque, temperature, and size are important, they don't directly govern the system's ability to achieve fine positioning accuracy as much as feedback resolution and control speed.",
+        "id": 8,
+        "options": {
+          "A": "The maximum operating temperature of the motor",
+          "B": "The motor's continuous torque rating",
+          "C": "The resolution of the encoder feedback and the controller's update rate",
+          "D": "The physical size and weight of the motor"
+        },
+        "question": "An automation system for a high-speed packaging line requires precise and repeatable positioning of products entering a sealing station. The design specifies a servo motor-driven linear actuator. Which factor is MOST critical to consider during the selection of the servo motor and its associated control system to achieve this precision and repeatability?",
+        "topic": "engineering principles"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "The derivative term calculates the rate of change of the error. By reacting to how quickly the error is changing, it helps to dampen the system's response, reducing overshoot and anticipating future deviations, thus improving stability.",
+        "id": 9,
+        "options": {
+          "A": "To eliminate steady-state error by accumulating past errors",
+          "B": "To respond to the current error proportional to its magnitude",
+          "C": "To anticipate future error based on the rate of change of the current error",
+          "D": "To provide a constant offset to the control output"
+        },
+        "question": "In a PID (Proportional-Integral-Derivative) control loop, what is the primary purpose of the 'Derivative' (D) term?",
+        "topic": "automatic control system"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "While technical details (A, D) and project management tools (B) are important later, the most critical initial step for a significant investment is to justify the project financially and strategically. A comprehensive cost-benefit analysis, ROI calculation, and risk assessment demonstrate business acumen and provide management with the necessary data to approve the project and understand its implications, thus increasing the likelihood of successful implementation.",
+        "id": 10,
+        "options": {
+          "A": "Immediately start drafting the detailed technical specifications for the robots",
+          "B": "Research the latest personal productivity apps to manage the project",
+          "C": "Conduct a comprehensive cost-benefit analysis, Return on Investment (ROI) calculation, and risk assessment",
+          "D": "Enroll in an advanced programming course for the specific robot brand"
+        },
+        "question": "An automation engineer identifies a critical bottleneck in a legacy production line that can be resolved with a significant investment in new robotic cells. Before proposing the solution to management, what is the most important professional development step to undertake to ensure a successful pitch and implementation?",
+        "topic": "manage personal professional development"
+      }
+    ],
+    "topics_covered": [
+      "mathematics",
+      "operate open source software",
+      "use technical drawing software",
+      "manage personal professional development",
+      "production processes",
+      "engineering principles",
+      "manufacturing processes",
+      "design drawings",
+      "electrical engineering",
+      "technical drawings",
+      "sensors",
+      "automatic control system",
+      "automation technology",
+      "design automation components",
+      "physics"
+    ]
+  },
+  "success": true
+}

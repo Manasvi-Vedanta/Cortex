@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:39:16.408610",
+      "learning_path_id": "test_09",
+      "target_occupation": "mobile application developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A mobile operating system manages the device's hardware and software resources, allowing applications to run efficiently and providing a user interface for interaction.",
+        "id": 1,
+        "options": {
+          "A": "To provide a physical interface for hardware components.",
+          "B": "To manage hardware and software resources, and provide a platform for applications.",
+          "C": "To store all user data securely on the device.",
+          "D": "To exclusively run web-based applications."
+        },
+        "question": "What is the primary function of a mobile operating system like Android or iOS?",
+        "topic": "mobile operating systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Android Studio is the official IDE for Android application development, offering a comprehensive suite of tools for coding, debugging, testing, and UI design.",
+        "id": 2,
+        "options": {
+          "A": "Microsoft Word",
+          "B": "Android Studio",
+          "C": "Adobe Photoshop",
+          "D": "Google Chrome"
+        },
+        "question": "Which of the following is a widely used Integrated Development Environment (IDE) specifically designed for Android application development?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Git is a distributed version control system (VCS) essential for tracking changes in source code, reverting to previous versions, and enabling multiple developers to work on the same project simultaneously.",
+        "id": 3,
+        "options": {
+          "A": "To design user interfaces visually without writing code.",
+          "B": "To manage and track changes in source code, facilitating collaboration and version control.",
+          "C": "To execute compiled application code on a target device.",
+          "D": "To analyze network traffic and monitor API calls in real-time."
+        },
+        "question": "What is the main purpose of using Git in a software development project?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Inheritance is a fundamental OOP principle that enables code reusability and establishes a 'is-a' relationship between classes, where a subclass extends the functionality of a superclass.",
+        "id": 4,
+        "options": {
+          "A": "Encapsulation",
+          "B": "Abstraction",
+          "C": "Inheritance",
+          "D": "Polymorphism"
+        },
+        "question": "In Object-Oriented Programming (OOP), what concept allows a new class (subclass) to inherit properties and methods from an existing class (superclass)?",
+        "topic": "use object-oriented programming"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "React Native allows developers to build native mobile applications for both iOS and Android using JavaScript and React, fulfilling the requirement for a single JavaScript codebase for cross-platform development.",
+        "id": 5,
+        "options": {
+          "A": "SwiftUI",
+          "B": "Kotlin Multiplatform Mobile",
+          "C": "React Native",
+          "D": "Xamarin.iOS"
+        },
+        "question": "A developer aims to build a cross-platform mobile application using a single codebase, primarily leveraging JavaScript and a declarative UI approach. Which mobile device software framework is best suited for this requirement?",
+        "topic": "JavaScript, mobile device software frameworks"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A `NullPointerException` indicates an attempt to access a member of a null object reference. Setting a breakpoint allows you to pause execution, examine the state of variables, and identify which object is unexpectedly null before the crash occurs.",
+        "id": 6,
+        "options": {
+          "A": "Clear the app's cache and data on the device.",
+          "B": "Reinstall the Android Studio IDE to refresh its settings.",
+          "C": "Set a breakpoint at or before the problematic line and inspect variable values.",
+          "D": "Modify the device's operating system version to see if it resolves the issue."
+        },
+        "question": "When an Android application unexpectedly crashes, and the Logcat output displays a `NullPointerException` on a specific line, what is the most effective immediate debugging action using an ICT debugging tool like the IDE debugger?",
+        "topic": "debug software, ICT debugging tools, Android"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The `protected` access modifier in Java grants access to members within the same package and to any subclass, even if the subclass is in a different package. It is more restrictive than `public` but less than `private` or `default` for cross-package subclass access.",
+        "id": 7,
+        "options": {
+          "A": "`private`",
+          "B": "`public`",
+          "C": "`protected`",
+          "D": "`default` (package-private)"
+        },
+        "question": "In Java programming, which access modifier allows a class member (field or method) to be accessible only within its own class, by subclasses (inherited classes) in the same package, and by non-subclass classes within the same package?",
+        "topic": "Java, use object-oriented programming"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance, perfectly fitting the requirement for a unique, globally accessible database connection manager.",
+        "id": 8,
+        "options": {
+          "A": "Observer Pattern",
+          "B": "Singleton Pattern",
+          "C": "Factory Method Pattern",
+          "D": "Strategy Pattern"
+        },
+        "question": "Your mobile application's specifications require that there should be only one instance of a specific database connection class throughout the application's lifecycle to manage resources efficiently and prevent redundant connections. Which classic software design pattern is most appropriate to implement this requirement?",
+        "topic": "use software design patterns, analyse software specifications"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A Publish-Subscribe model allows IoT devices to publish data to a message broker, and the mobile app can subscribe to specific topics, receiving updates only when new data is available. This push-based approach is highly efficient for real-time updates, reducing unnecessary network requests and saving battery life compared to polling.",
+        "id": 9,
+        "options": {
+          "A": "Batch processing of sensor data every few hours.",
+          "B": "Synchronous HTTP GET requests every second.",
+          "C": "A Publish-Subscribe (Pub/Sub) messaging model.",
+          "D": "Storing all sensor data locally on the mobile device."
+        },
+        "question": "A smart home mobile application needs to display real-time updates from various IoT sensors (e.g., temperature, motion). To ensure timely data delivery, minimize device battery consumption, and avoid inefficient constant polling, what architectural approach should the mobile app primarily utilize to receive updates from the IoT backend?",
+        "topic": "Internet of Things, mobile operating systems, programming"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "ANRs occur when the main (UI) thread is blocked, preventing it from processing user input or drawing the UI. The most effective solution is to move all long-running tasks (e.g., heavy computations, network requests, database operations) off the main thread to background threads (using mechanisms like Coroutines, RxJava, Executors, or older AsyncTasks) to keep the UI responsive.",
+        "id": 10,
+        "options": {
+          "A": "Increase the device's screen refresh rate to handle UI updates faster.",
+          "B": "Perform all long-running operations on a background thread.",
+          "C": "Completely disable all network operations within the application.",
+          "D": "Reduce the number of layout elements on the UI to simplify rendering."
+        },
+        "question": "An Android application sporadically experiences ANR (Application Not Responding) errors when performing complex data processing or network requests, particularly on older devices. Analyzing ANR traces reveals that the main (UI) thread is being blocked for extended periods. What is the most effective strategy to mitigate these ANRs and maintain UI responsiveness?",
+        "topic": "debug software, Android, analyse software specifications"
+      }
+    ],
+    "topics_covered": [
+      "programming",
+      "use logic programming",
+      "use object-oriented programming",
+      "JavaScript",
+      "Android (mobile operating systems)",
+      "mobile operating systems",
+      "mobile device software frameworks",
+      "integrated development environment software",
+      "use software design patterns",
+      "tools for software configuration management",
+      "Internet of Things",
+      "debug software",
+      "analyse software specifications",
+      "Java",
+      "ICT debugging tools"
+    ]
+  },
+  "success": true
+}

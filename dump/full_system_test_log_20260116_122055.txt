@@ -1,0 +1,109 @@
+[2026-01-16 12:20:55] [INFO] ====================================================================================================
+[2026-01-16 12:20:55] [INFO] PHASE 1: System Test Initialization
+[2026-01-16 12:20:55] [INFO] ====================================================================================================
+[2026-01-16 12:20:55] [INFO] ℹ️  INFO: Test Goal: I want to become a Machine Learning Engineer
+[2026-01-16 12:20:55] [INFO] ℹ️  INFO: Test User: full_test_user
+[2026-01-16 12:20:55] [INFO] ℹ️  INFO: Base URL: http://localhost:5000
+[2026-01-16 12:20:55] [INFO] ====================================================================================================
+[2026-01-16 12:20:55] [INFO] PHASE 2: Learning Path Generation
+[2026-01-16 12:20:55] [INFO] ====================================================================================================
+[2026-01-16 12:20:55] [INFO] ℹ️  INFO: Sending request to generate learning path...
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: Response received in 6.74 seconds
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-16 12:21:02] [SUCCESS] ✅ SUCCESS: Learning path generated successfully
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: Matched Occupation: computer vision engineer
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: Occupation URI: http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: Similarity Score: 0.8793
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: Total Sessions: 8
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Session 1: Introduction to Machine Learning with Python - 4 skills
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Session 2: Data Processing and Preparation for Machine Learning - 3 skills
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Session 3: Statistical Foundations for Machine Learning - 3 skills
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Session 4: Deep Dive into TensorFlow for Machine Learning - 4 skills
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Session 5: Leveraging PyTorch for Machine Learning Applications - 4 skills
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Session 6: Building Data Processing Applications with Python - 4 skills
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Session 7: Advanced Machine Learning with Statistical Modeling - 4 skills
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Session 8: End-to-End Machine Learning Project with TensorFlow/PyTorch - 7 skills
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: Total Skills Generated: 0
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: 
+First 10 Skills:
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: 
+Skill Gap Summary:
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Total Skills Needed: 25
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Skills to Learn: 23
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO:   Skills Analyzed: 23
+[2026-01-16 12:21:02] [INFO] ====================================================================================================
+[2026-01-16 12:21:02] [INFO] PHASE 3: Community Voting System
+[2026-01-16 12:21:02] [INFO] ====================================================================================================
+[2026-01-16 12:21:02] [ERROR] ❌ ERROR: No skills available for voting
+[2026-01-16 12:21:02] [INFO] ====================================================================================================
+[2026-01-16 12:21:02] [INFO] PHASE 4: Community Skill Suggestions
+[2026-01-16 12:21:02] [INFO] ====================================================================================================
+[2026-01-16 12:21:02] [INFO] ℹ️  INFO: Submitting 3 skill suggestions...
+[2026-01-16 12:21:04] [ERROR] ❌ ERROR: Failed to suggest 'TensorFlow': Status 400
+[2026-01-16 12:21:06] [ERROR] ❌ ERROR: Failed to suggest 'PyTorch': Status 400
+[2026-01-16 12:21:08] [ERROR] ❌ ERROR: Failed to suggest 'Docker': Status 400
+[2026-01-16 12:21:08] [INFO] ℹ️  INFO: 
+Suggestion Summary: 0 successful, 3 failed
+[2026-01-16 12:21:08] [INFO] ====================================================================================================
+[2026-01-16 12:21:08] [INFO] PHASE 5: Quiz Generation
+[2026-01-16 12:21:08] [INFO] ====================================================================================================
+[2026-01-16 12:21:08] [ERROR] ❌ ERROR: No skills available for quiz generation
+[2026-01-16 12:21:08] [INFO] ====================================================================================================
+[2026-01-16 12:21:08] [INFO] PHASE 6: Community Feedback Statistics
+[2026-01-16 12:21:08] [INFO] ====================================================================================================
+[2026-01-16 12:21:10] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-16 12:21:10] [SUCCESS] ✅ SUCCESS: Retrieved feedback statistics
+[2026-01-16 12:21:10] [INFO] ℹ️  INFO: 
+Feedback Metrics:
+[2026-01-16 12:21:10] [INFO] ℹ️  INFO:   Total Votes: 284
+[2026-01-16 12:21:10] [INFO] ℹ️  INFO:   Total Suggestions: 38
+[2026-01-16 12:21:10] [INFO] ℹ️  INFO:   Pending Suggestions: 22
+[2026-01-16 12:21:10] [INFO] ℹ️  INFO:   Approved Suggestions: 5
+[2026-01-16 12:21:10] [INFO] ====================================================================================================
+[2026-01-16 12:21:10] [INFO] PHASE 7: Path Regeneration (with Community Feedback)
+[2026-01-16 12:21:10] [INFO] ====================================================================================================
+[2026-01-16 12:21:10] [INFO] ℹ️  INFO: Waiting 2 seconds for feedback to propagate...
+[2026-01-16 12:21:12] [INFO] ℹ️  INFO: Regenerating learning path...
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: Response received in 5.37 seconds
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-16 12:21:17] [SUCCESS] ✅ SUCCESS: Path regenerated successfully
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: New Sessions: 6
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: New Total Skills: 0
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: 
+Path Comparison:
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO:   Original Skills: 0
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO:   Regenerated Skills: 0
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: No community-suggested skills found in regenerated path
+[2026-01-16 12:21:17] [INFO] ====================================================================================================
+[2026-01-16 12:21:17] [INFO] PHASE 8: Final Test Summary
+[2026-01-16 12:21:17] [INFO] ====================================================================================================
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: Total Test Duration: 22.45 seconds (0.4 minutes)
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: SYSTEM CAPABILITIES TESTED:
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: ✅ Learning Path Generation.......................... 0 skills generated
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: ✅ Community Voting System........................... Votes submitted
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: ✅ Skill Suggestions................................. Suggestions submitted
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: ❌ Quiz Generation................................... Failed
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: ⚠️ Quiz Submission................................... Skipped
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: ✅ Feedback Statistics............................... Retrieved
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: ❌ Path Regeneration................................. Failed
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: OVERALL SUCCESS RATE: 57.1% (4/7 features working)
+[2026-01-16 12:21:17] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-01-16 12:21:17] [ERROR] ❌ ERROR: ⚠️  NEEDS ATTENTION! Several features need fixing
+[2026-01-16 12:21:17] [ERROR] ❌ ERROR: Test failed with exception: 'FullSystemTest' object has no attribute 'log_file'
+[2026-01-16 12:21:17] [INFO] 
+--- Exception Traceback ---
+[2026-01-16 12:21:17] [INFO] Traceback (most recent call last):
+  File "C:\Users\V3gito\Desktop\Major Project\Project\Code\Hybrid-GenMentor\full_system_test.py", line 115, in run_complete_test
+    self.generate_final_summary()
+  File "C:\Users\V3gito\Desktop\Major Project\Project\Code\Hybrid-GenMentor\full_system_test.py", line 622, in generate_final_summary
+    self.logger.log_info(f"\nDetailed log saved to: {self.log_file}")
+                                                     ^^^^^^^^^^^^^
+AttributeError: 'FullSystemTest' object has no attribute 'log_file'
+
+[2026-01-16 12:21:17] [INFO] --- End Exception Traceback ---
+

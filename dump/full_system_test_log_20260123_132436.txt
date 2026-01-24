@@ -1,0 +1,13 @@
+[2026-01-23 13:24:36] [INFO] ℹ️  INFO: Output directory created: test_outputs_20260123_132436
+[2026-01-23 13:24:36] [INFO] ====================================================================================================
+[2026-01-23 13:24:36] [INFO] PHASE 1: System Test Initialization
+[2026-01-23 13:24:36] [INFO] ====================================================================================================
+[2026-01-23 13:24:36] [INFO] ℹ️  INFO: Test Goal: I want to become an Android App Developer.
+[2026-01-23 13:24:36] [INFO] ℹ️  INFO: Test User: full_test_user
+[2026-01-23 13:24:36] [INFO] ℹ️  INFO: Base URL: http://localhost:5000
+[2026-01-23 13:24:36] [INFO] ====================================================================================================
+[2026-01-23 13:24:36] [INFO] PHASE 2: Learning Path Generation
+[2026-01-23 13:24:36] [INFO] ====================================================================================================
+[2026-01-23 13:24:36] [INFO] ℹ️  INFO: Sending request to generate learning path...
+[2026-01-23 13:24:40] [ERROR] ❌ ERROR: Exception during learning path generation: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/path (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1F48F9DC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2026-01-23 13:24:40] [ERROR] ❌ ERROR: Learning path generation failed. Aborting test.

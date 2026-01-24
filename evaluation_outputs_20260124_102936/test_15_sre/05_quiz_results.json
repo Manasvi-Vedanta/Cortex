@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:45:39.259041",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Dependability engineering fundamentally focuses on ensuring a system's reliability, availability, maintainability, and safety, all contributing to its ability to perform as expected when needed, thereby maximizing uptime.",
+        "is_correct": false,
+        "question": "What is the primary objective of dependability engineering?",
+        "question_id": 1,
+        "topic": "engineering principles",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Predictive maintenance leverages sensors, data, and analytics to predict when equipment might fail, allowing maintenance to be scheduled optimally to prevent failures and minimize downtime.",
+        "is_correct": false,
+        "question": "Which of the following best describes the core concept of predictive maintenance?",
+        "question_id": 2,
+        "topic": "predictive maintenance",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Six Sigma is a data-driven methodology aimed at eliminating defects, waste, and variability in processes, striving for near-perfect quality (3.4 defects per million opportunities).",
+        "is_correct": true,
+        "question": "What is the primary goal of applying Six Sigma methodologies in an engineering process?",
+        "question_id": 3,
+        "topic": "six sigma methods",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "ISO 9001 provides a framework for robust quality management systems, promoting consistent quality, process efficiency, and ultimately enhanced customer satisfaction.",
+        "is_correct": true,
+        "question": "What is the main purpose of adhering to international quality standards like ISO 9001 in a manufacturing process?",
+        "question_id": 4,
+        "topic": "quality standards",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Effective Root Cause Analysis relies on thorough data collection to understand the symptoms, context, and potential contributing factors before hypotheses about the root cause can be formed and tested.",
+        "is_correct": false,
+        "question": "During a Root Cause Analysis (RCA) for a recurring pump failure in a critical production line, which of the following is the most crucial initial step for a dependability engineer?",
+        "question_id": 5,
+        "topic": "perform failure analysis of production process",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Stress testing specifically aims to determine the robustness of a system by evaluating its behavior under extreme load, high data volumes, or concurrent user activity to identify breaking points and stability issues.",
+        "is_correct": true,
+        "question": "A new software module for a critical control system needs to be tested before deployment. Which type of test procedure would best verify its performance and stability under expected maximum operational load and potential overload conditions?",
+        "question_id": 6,
+        "topic": "test procedures",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Design flaws directly relate to the product's blueprint. The Product Design and Development team is responsible for the design and has the expertise and authority to review, modify, and implement design changes to improve reliability.",
+        "is_correct": false,
+        "question": "A dependability engineer identifies a potential design flaw in a component that could lead to significant long-term reliability issues. To effectively address this issue and implement a corrective action, with which department should they primarily collaborate and communicate first?",
+        "question_id": 7,
+        "topic": "cooperate with colleagues",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Without Upgrade: Expected cost = (0.10 failure/year * $50,000/failure) * 4 years = $20,000/year * 4 years = $200,000. \nWith Upgrade: Total cost = $80,000 (upgrade cost) + (0.02 failure/year * $50,000/failure) * 4 years = $80,000 + ($1,000/year * 4 years) = $80,000 + $4,000 = $84,000. \nComparing $200,000 to $84,000, upgrading is significantly more cost-effective.",
+        "is_correct": false,
+        "question": "A critical component has a 10% chance of failure per year, with each failure costing $50,000 in repairs and downtime. An upgrade costing $80,000 can reduce the failure probability to 2% per year. Assuming a 4-year operational lifespan for the system and ignoring the time value of money, what is the most cost-effective decision?",
+        "question_id": 8,
+        "topic": "perform risk analysis",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The core problem is external interference (lighting) affecting the sensor (camera). Option B directly addresses this by either controlling the environment (enclosure) or enhancing the sensor's resilience to the interference (advanced camera), leading to a robust, long-term solution. Other options either exacerbate the problem, introduce manual workarounds, or reduce throughput without solving the root cause.",
+        "is_correct": false,
+        "question": "A newly deployed automated inspection system for manufactured parts frequently triggers false positives, leading to good parts being rejected and slowing down the production line. Initial troubleshooting shows no hardware defects. Further analysis reveals that ambient lighting fluctuations in the factory occasionally interfere with the camera's image processing algorithm. What is the most robust long-term engineering solution?",
+        "question_id": 9,
+        "topic": "adjust engineering designs",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Solution A costs $1.0M (within budget) and results in a new MTBF of 1500 * 1.40 = 2100 hours (an increase of 600 hours). Solution B costs $0.8M (within budget) and results in a new MTBF of 1500 * 1.25 = 1875 hours (an increase of 375 hours). While Solution A offers a higher absolute MTBF, Solution B is significantly more cost-effective (price per hour of MTBF gained: $1,000,000/600 hours for A vs. $800,000/375 hours for B). Solution B offers a better return on investment and leaves more budget flexibility, making it the better choice for managing the project effectively and maximizing impact within reasonable cost.",
+        "is_correct": false,
+        "question": "As a dependability engineer leading a project to improve the Mean Time Between Failures (MTBF) of a critical server farm, your current MTBF is 1500 hours, and downtime costs $15,000 per hour. You have a project budget of $1.2M. You've identified two viable solutions:\n- Solution A: Cost $1.0M, expected to increase MTBF by 40%.\n- Solution B: Cost $0.8M, expected to increase MTBF by 25%.\nWhich solution is the best choice given the budget and the goal of maximizing MTBF improvement for the cost?",
+        "question_id": 10,
+        "topic": "manage engineering project",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: engineering principles, predictive maintenance, perform failure analysis of production process",
+      "✅ Your strongest areas: six sigma methods, quality standards"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "six sigma methods",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "quality standards",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "test procedures",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "engineering principles",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "predictive maintenance",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "perform failure analysis of production process",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "cooperate with colleagues",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "perform risk analysis",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "adjust engineering designs",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "manage engineering project",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

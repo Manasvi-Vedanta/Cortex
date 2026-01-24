@@ -15,6 +15,7 @@ class CommunityFeedbackSystem:
     def __init__(self, db_path: str = 'genmentor.db'):
         self.db_path = db_path
         self._ensure_feedback_tables()
+        self._ensure_implementation_table()
     
     def _get_db_connection(self):
         """Get database connection."""
@@ -347,6 +348,260 @@ class CommunityFeedbackSystem:
             return True
         return False
     
+    def get_suggestion_details(self, suggestion_id: int) -> Optional[Dict]:
+        """Get detailed information about a suggestion."""
+        conn = self._get_db_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            SELECT id, item_uri, item_type, user_id, suggestion_type, 
+                   suggestion_text, status, votes_for, votes_against,
+                   reviewed_by, reviewed_at, created_at
+            FROM suggestions
+            WHERE id = ?
+        """, (suggestion_id,))
+        
+        row = cursor.fetchone()
+        conn.close()
+        
+        if not row:
+            return None
+        
+        return {
+            'id': row[0],
+            'item_uri': row[1],
+            'item_type': row[2],
+            'user_id': row[3],
+            'suggestion_type': row[4],
+            'suggestion_text': row[5],
+            'status': row[6],
+            'votes_for': row[7],
+            'votes_against': row[8],
+            'reviewed_by': row[9],
+            'reviewed_at': row[10],
+            'created_at': row[11]
+        }
+    
+    def implement_suggestion(self, suggestion_id: int) -> Dict:
+        """
+        Implement an approved suggestion by updating the database.
+        
+        This method applies the changes suggested by the community:
+        - add_skill: Adds a new skill relationship
+        - remove_skill: Removes a skill relationship
+        - add_resource: Adds the suggestion as a note/resource
+        - modify: Updates the description or details
+        
+        Returns:
+            Dictionary with implementation status and details
+        """
+        suggestion = self.get_suggestion_details(suggestion_id)
+        
+        if not suggestion:
+            return {'success': False, 'error': 'Suggestion not found'}
+        
+        if suggestion['status'] != 'approved':
+            return {'success': False, 'error': 'Suggestion must be approved first'}
+        
+        suggestion_type = suggestion['suggestion_type']
+        item_uri = suggestion['item_uri']
+        suggestion_text = suggestion['suggestion_text']
+        
+        conn = self._get_db_connection()
+        cursor = conn.cursor()
+        
+        try:
+            if suggestion_type == 'add_skill':
+                # Extract skill name from suggestion text
+                skill_name = self._extract_skill_from_text(suggestion_text)
+                
+                # Create or get community skill URI
+                skill_uri = f"http://data.europa.eu/esco/skill/community-{skill_name.lower().replace(' ', '-')}"
+                
+                # Add skill to skills table if it doesn't exist
+                cursor.execute("""
+                    INSERT OR IGNORE INTO skills (concept_uri, preferred_label, description, skill_type)
+                    VALUES (?, ?, ?, ?)
+                """, (skill_uri, skill_name, f"Community-suggested skill: {suggestion_text}", 'community'))
+                
+                # Add skill relationship to occupation
+                cursor.execute("""
+                    INSERT OR IGNORE INTO occupation_skill_relations 
+                    (occupation_uri, skill_uri, relation_type)
+                    VALUES (?, ?, 'optional')
+                """, (item_uri, skill_uri))
+                
+                # Record implementation
+                cursor.execute("""
+                    INSERT OR IGNORE INTO suggestions_implemented
+                    (suggestion_id, item_uri, implementation_type, implementation_details, implemented_at)
+                    VALUES (?, ?, 'skill_suggested', ?, CURRENT_TIMESTAMP)
+                """, (suggestion_id, item_uri, suggestion_text))
+                
+                # Mark suggestion as implemented
+                cursor.execute("""
+                    UPDATE suggestions
+                    SET status = 'implemented'
+                    WHERE id = ?
+                """, (suggestion_id,))
+                
+                result = {
+                    'success': True,
+                    'action': 'skill_added',
+                    'message': f'Skill "{skill_name}" added to {item_uri}',
+                    'details': suggestion_text,
+                    'skill_uri': skill_uri
+                }
+            
+            elif suggestion_type == 'add_resource':
+                # Store resource suggestion
+                cursor.execute("""
+                    INSERT OR IGNORE INTO suggestions_implemented
+                    (suggestion_id, item_uri, implementation_type, implementation_details, implemented_at)
+                    VALUES (?, ?, 'resource_added', ?, CURRENT_TIMESTAMP)
+                """, (suggestion_id, item_uri, suggestion_text))
+                
+                cursor.execute("""
+                    UPDATE suggestions
+                    SET status = 'implemented'
+                    WHERE id = ?
+                """, (suggestion_id,))
+                
+                result = {
+                    'success': True,
+                    'action': 'resource_added',
+                    'message': f'Resource suggestion added for {item_uri}',
+                    'details': suggestion_text
+                }
+            
+            elif suggestion_type in ['modify', 'improve_description', 'reorder']:
+                # Store improvement suggestion for manual review
+                cursor.execute("""
+                    INSERT OR IGNORE INTO suggestions_implemented
+                    (suggestion_id, item_uri, implementation_type, implementation_details, implemented_at)
+                    VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP)
+                """, (suggestion_id, item_uri, suggestion_type, suggestion_text))
+                
+                cursor.execute("""
+                    UPDATE suggestions
+                    SET status = 'implemented'
+                    WHERE id = ?
+                """, (suggestion_id,))
+                
+                result = {
+                    'success': True,
+                    'action': suggestion_type,
+                    'message': f'Suggestion recorded for manual implementation',
+                    'details': suggestion_text
+                }
+            
+            else:
+                # General suggestion - just mark as noted
+                cursor.execute("""
+                    UPDATE suggestions
+                    SET status = 'implemented'
+                    WHERE id = ?
+                """, (suggestion_id,))
+                
+                result = {
+                    'success': True,
+                    'action': 'noted',
+                    'message': 'Suggestion acknowledged',
+                    'details': suggestion_text
+                }
+            
+            conn.commit()
+            conn.close()
+            
+            print(f"✅ Implemented suggestion #{suggestion_id}: {suggestion_type}")
+            return result
+            
+        except Exception as e:
+            conn.rollback()
+            conn.close()
+            return {'success': False, 'error': str(e)}
+    
+    def _ensure_implementation_table(self):
+        """Ensure the suggestions_implemented table exists."""
+        conn = self._get_db_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS suggestions_implemented (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                suggestion_id INTEGER NOT NULL,
+                item_uri TEXT NOT NULL,
+                implementation_type TEXT NOT NULL,
+                implementation_details TEXT,
+                implemented_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                FOREIGN KEY (suggestion_id) REFERENCES suggestions(id)
+            )
+        """)
+        
+        conn.commit()
+        conn.close()
+    
+    def _extract_skill_from_text(self, text: str) -> str:
+        """Extract skill name from suggestion text."""
+        import re
+        
+        # Common patterns: "Add X", "Include X", "Should add X", "X is important"
+        patterns = [
+            r'(?:add|include|suggest|need)\s+([A-Z][a-zA-Z\s\.]+?)(?:\s+(?:skill|for|to|as)|\s*$)',
+            r'([A-Z][a-zA-Z\s\.]+?)\s+(?:is|should be|must be)',
+            r'(?:skill|technology):\s*([A-Z][a-zA-Z\s\.]+)',
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                skill = match.group(1).strip()
+                # Clean up common words
+                skill = re.sub(r'\s+(skill|technology|tool|framework)s?\s*$', '', skill, flags=re.IGNORECASE)
+                return skill.title()
+        
+        # Fallback: look for capitalized words
+        words = text.split()
+        for i, word in enumerate(words):
+            if word[0].isupper() and len(word) > 2:
+                # Take up to 3 consecutive capitalized/technical words
+                skill_parts = [word]
+                for j in range(i+1, min(i+3, len(words))):
+                    if words[j][0].isupper() or words[j].lower() in ['and', 'for', 'with']:
+                        skill_parts.append(words[j])
+                    else:
+                        break
+                return ' '.join(skill_parts)
+        
+        # Ultimate fallback
+        return "Community Suggested Skill"
+    
+    def get_community_skills_for_occupation(self, occupation_uri: str) -> List[Dict]:
+        """Get community-added skills for an occupation."""
+        conn = self._get_db_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            SELECT DISTINCT s.concept_uri, s.preferred_label, s.description
+            FROM skills s
+            JOIN occupation_skill_relations osr ON s.concept_uri = osr.skill_uri
+            WHERE osr.occupation_uri = ?
+              AND s.skill_type = 'community'
+        """, (occupation_uri,))
+        
+        skills = []
+        for row in cursor.fetchall():
+            skills.append({
+                'uri': row[0],
+                'label': row[1],
+                'description': row[2],
+                'source': 'community'
+            })
+        
+        conn.close()
+        return skills
+
+    
     # ==================== CURRICULUM UPDATE SYSTEM ====================
     
     def propose_curriculum_update(self, occupation_uri: str, update_type: str,
@@ -545,6 +800,14 @@ class CommunityFeedbackSystem:
         cursor.execute("SELECT COUNT(*) FROM suggestions WHERE status = 'pending'")
         pending_suggestions = cursor.fetchone()[0]
         
+        # Approved suggestions
+        cursor.execute("SELECT COUNT(*) FROM suggestions WHERE status = 'approved'")
+        approved_suggestions = cursor.fetchone()[0]
+        
+        # Implemented suggestions
+        cursor.execute("SELECT COUNT(*) FROM suggestions WHERE status = 'implemented'")
+        implemented_suggestions = cursor.fetchone()[0]
+        
         # Active users (last 30 days)
         cursor.execute("""
             SELECT COUNT(DISTINCT user_id) 
@@ -563,6 +826,8 @@ class CommunityFeedbackSystem:
             'total_votes': total_votes,
             'total_suggestions': total_suggestions,
             'pending_suggestions': pending_suggestions,
+            'approved_suggestions': approved_suggestions,
+            'implemented_suggestions': implemented_suggestions,
             'active_users_30d': active_users,
             'total_resource_ratings': rating_data[0] or 0,
             'average_resource_rating': round(rating_data[1], 2) if rating_data[1] else 0.0

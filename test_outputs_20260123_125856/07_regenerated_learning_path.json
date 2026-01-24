@@ -1,0 +1,249 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand fundamental Python syntax and data types.",
+        "Write basic Python scripts for simple tasks.",
+        "Learn about variables, operators, and control flow in Python."
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Python (computer programming)"
+      ],
+      "title": "Introduction to Python Programming"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Grasp core JavaScript concepts like variables, data types, and operators.",
+        "Implement basic DOM manipulation.",
+        "Understand event handling in JavaScript."
+      ],
+      "prerequisites": [],
+      "session_number": 2,
+      "skills": [
+        "JavaScript"
+      ],
+      "title": "JavaScript Fundamentals for Web Development"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 12,
+      "objectives": [
+        "Understand the core concepts of object-oriented programming.",
+        "Learn to model real-world problems using classes and objects.",
+        "Explore concepts like encapsulation, inheritance, and polymorphism."
+      ],
+      "prerequisites": [],
+      "session_number": 3,
+      "skills": [
+        "object-oriented modelling"
+      ],
+      "title": "Object-Oriented Modeling Principles"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Learn the basic syntax and structure of Java.",
+        "Write and compile simple Java programs.",
+        "Understand fundamental Java concepts like classes, objects, and methods."
+      ],
+      "prerequisites": [],
+      "session_number": 4,
+      "skills": [
+        "Java (computer programming)"
+      ],
+      "title": "Introduction to Java Programming"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explore the syntax and features of the Ruby programming language.",
+        "Write simple Ruby scripts.",
+        "Understand Ruby's approach to objects and blocks."
+      ],
+      "prerequisites": [],
+      "session_number": 5,
+      "skills": [
+        "Ruby (computer programming)"
+      ],
+      "title": "Getting Started with Ruby Programming"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Understand the challenges and best practices for data migration.",
+        "Learn different approaches to migrating existing data.",
+        "Plan and execute a basic data migration task."
+      ],
+      "prerequisites": [],
+      "session_number": 6,
+      "skills": [
+        "migrate existing data"
+      ],
+      "title": "Data Migration Strategies and Techniques"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Understand the benefits of using TypeScript.",
+        "Learn TypeScript's type system and basic syntax.",
+        "Convert existing JavaScript code to TypeScript."
+      ],
+      "prerequisites": [
+        "JavaScript"
+      ],
+      "session_number": 7,
+      "skills": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "title": "Introduction to TypeScript for JavaScript Developers"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Learn the basic syntax and constructs of Perl.",
+        "Write simple scripts for text processing and system administration.",
+        "Understand Perl's regular expressions."
+      ],
+      "prerequisites": [],
+      "session_number": 8,
+      "skills": [
+        "Perl"
+      ],
+      "title": "Programming Fundamentals with Perl"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 12,
+      "objectives": [
+        "Understand the core concepts of Erlang's concurrency model.",
+        "Write basic Erlang programs for distributed systems.",
+        "Learn about processes and message passing in Erlang."
+      ],
+      "prerequisites": [],
+      "session_number": 9,
+      "skills": [
+        "Erlang"
+      ],
+      "title": "Introduction to Erlang for Concurrent Programming"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Learn the basics of the R programming language.",
+        "Perform basic statistical operations and data manipulation in R.",
+        "Create simple data visualizations using R."
+      ],
+      "prerequisites": [],
+      "session_number": 10,
+      "skills": [
+        "R"
+      ],
+      "title": "Programming with R for Statistical Analysis"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand the syntax and features of Groovy.",
+        "Write simple Groovy scripts.",
+        "Explore Groovy's integration with the Java Virtual Machine."
+      ],
+      "prerequisites": [
+        "Java (computer programming)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Groovy",
+        "Java (computer programming)"
+      ],
+      "title": "Introduction to Groovy for JVM Development"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Understand the declarative nature of Prolog.",
+        "Write simple Prolog programs using facts and rules.",
+        "Learn about backtracking and unification in Prolog."
+      ],
+      "prerequisites": [],
+      "session_number": 12,
+      "skills": [
+        "Prolog (computer programming)"
+      ],
+      "title": "Fundamentals of Prolog Programming"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 15,
+      "objectives": [
+        "Understand the fundamental concepts of assembly language.",
+        "Write simple assembly programs for a specific architecture.",
+        "Learn about registers, memory addressing, and basic instructions."
+      ],
+      "prerequisites": [],
+      "session_number": 13,
+      "skills": [
+        "Assembly (computer programming)"
+      ],
+      "title": "Introduction to Assembly Language Programming"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 12,
+      "objectives": [
+        "Explore the pure object-oriented paradigm of Smalltalk.",
+        "Write Smalltalk programs using its message-passing model.",
+        "Understand Smalltalk's development environment."
+      ],
+      "prerequisites": [],
+      "session_number": 14,
+      "skills": [
+        "Smalltalk (computer programming)"
+      ],
+      "title": "Object-Oriented Programming with Smalltalk"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand common programming paradigms.",
+        "Learn about algorithms and data structures.",
+        "Discuss general software development best practices."
+      ],
+      "prerequisites": [],
+      "session_number": 15,
+      "skills": [
+        "programming"
+      ],
+      "title": "General Programming Concepts and Best Practices"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Mobile application developers implement applications software for mobile devices, based on the designs provided, using general or specific development tools for device operating systems.",
+    "label": "mobile application developer",
+    "similarity_score": 0.8564530611038208,
+    "uri": "http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 25,
+    "skills_in_path": 15,
+    "skills_to_learn": 25,
+    "total_skills_needed": 25
+  },
+  "user_id": "full_test_user"
+}

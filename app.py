@@ -7,6 +7,7 @@ from flask import Flask, request, jsonify, render_template_string, send_file
 from flask import send_from_directory
 import os
 import json
+from datetime import datetime
 from ai_engine import GenMentorAI, add_vote_to_db, add_suggestion_to_db, analyze_feedback
 from typing import Dict, List, Any
 
@@ -36,6 +37,16 @@ try:
 except ImportError as e:
     print(f"⚠️ Enhanced features not available: {e}")
     ENHANCED_FEATURES_AVAILABLE = False
+
+# Import quiz generator
+try:
+    from quiz_generator import QuizGenerator
+    from config import GEMINI_API_KEY
+    QUIZ_AVAILABLE = True
+    print("✅ Quiz generator loaded")
+except ImportError as e:
+    print(f"⚠️ Quiz generator not available: {e}")
+    QUIZ_AVAILABLE = False
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -69,6 +80,13 @@ else:
     visualizer = None
     resource_curator = None
     print("⚠️ Running with basic features only")
+
+# Initialize quiz generator
+if QUIZ_AVAILABLE:
+    quiz_generator = QuizGenerator(GEMINI_API_KEY)
+    print("✅ Quiz generator initialized")
+else:
+    quiz_generator = None
 
 # HTML template for API documentation
 API_DOCS_TEMPLATE = """
@@ -612,6 +630,103 @@ def get_community_metrics():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/feedback/suggestions/<int:suggestion_id>/review', methods=['POST'])
+def review_suggestion(suggestion_id):
+    """Review and approve/reject a suggestion (admin endpoint)."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        data = request.get_json()
+        reviewer_id = data.get('reviewer_id', 'admin')
+        status = data.get('status')  # 'approved' or 'rejected'
+        reason = data.get('reason', '')
+        
+        if not status or status not in ['approved', 'rejected']:
+            return jsonify({'error': 'status must be "approved" or "rejected"'}), 400
+        
+        success = feedback_system.review_suggestion(suggestion_id, reviewer_id, status, reason)
+        
+        if success:
+            return jsonify({
+                'success': True,
+                'message': f'Suggestion {status}',
+                'suggestion_id': suggestion_id,
+                'status': status
+            })
+        else:
+            return jsonify({'error': 'Suggestion not found'}), 404
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/feedback/suggestions/approved', methods=['GET'])
+def get_approved_suggestions():
+    """Get all approved suggestions that need implementation."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        import sqlite3
+        conn = sqlite3.connect('genmentor.db')
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            SELECT id, item_uri, item_type, suggestion_type, suggestion_text,
+                   votes_for, votes_against, reviewed_by, reviewed_at, created_at
+            FROM suggestions
+            WHERE status = 'approved'
+            ORDER BY reviewed_at DESC
+        """)
+        
+        suggestions = []
+        for row in cursor.fetchall():
+            suggestions.append({
+                'id': row[0],
+                'item_uri': row[1],
+                'item_type': row[2],
+                'suggestion_type': row[3],
+                'suggestion_text': row[4],
+                'votes_for': row[5],
+                'votes_against': row[6],
+                'reviewed_by': row[7],
+                'reviewed_at': row[8],
+                'created_at': row[9]
+            })
+        
+        conn.close()
+        
+        return jsonify({
+            'approved_suggestions': suggestions,
+            'count': len(suggestions)
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/feedback/suggestions/<int:suggestion_id>/implement', methods=['POST'])
+def implement_suggestion(suggestion_id):
+    """Implement an approved suggestion."""
+    if not ENHANCED_FEATURES_AVAILABLE:
+        return jsonify({'error': 'Feature not available'}), 503
+    
+    try:
+        result = feedback_system.implement_suggestion(suggestion_id)
+        
+        if result.get('success'):
+            return jsonify({
+                'success': True,
+                'message': result.get('message'),
+                'action': result.get('action'),
+                'details': result.get('details'),
+                'suggestion_id': suggestion_id
+            })
+        else:
+            return jsonify({'error': result.get('error')}), 400
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 # ==================== LEARNING PATH VISUALIZATION ENDPOINTS ====================
 
 @app.route('/api/path/visualize', methods=['POST'])
@@ -957,6 +1072,128 @@ def not_found(error):
 def internal_error(error):
     """Handle 500 errors."""
     return jsonify({'error': 'Internal server error'}), 500
+
+
+# ============================================================================
+# QUIZ ENDPOINTS
+# ============================================================================
+
+@app.route('/api/quiz/generate', methods=['POST'])
+def generate_quiz():
+    """
+    Generate a quiz for a learning path.
+    
+    Request body:
+    {
+        "learning_path": {
+            "sessions": [...],
+            "target_occupation": "...",
+            ...
+        }
+    }
+    """
+    if not QUIZ_AVAILABLE:
+        return jsonify({'error': 'Quiz generator not available'}), 503
+    
+    try:
+        data = request.get_json()
+        
+        if not data or 'learning_path' not in data:
+            return jsonify({'error': 'learning_path is required in request body'}), 400
+        
+        learning_path = data['learning_path']
+        
+        # Generate quiz
+        quiz = quiz_generator.generate_quiz(learning_path)
+        
+        if 'error' in quiz:
+            return jsonify({'error': quiz['error']}), 500
+        
+        # Optionally save to file
+        if data.get('save_to_file', False):
+            filename = f"quiz_{learning_path.get('id', 'unknown')}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            quiz_generator.save_quiz_to_file(quiz, filename)
+            quiz['saved_to'] = filename
+        
+        return jsonify({
+            'success': True,
+            'quiz': quiz,
+            'message': 'Quiz generated successfully'
+        })
+    
+    except Exception as e:
+        return jsonify({'error': f'Failed to generate quiz: {str(e)}'}), 500
+
+
+@app.route('/api/quiz/submit', methods=['POST'])
+def submit_quiz():
+    """
+    Submit quiz answers and get analysis.
+    
+    Request body:
+    {
+        "quiz": {
+            "questions": [...],
+            "metadata": {...}
+        },
+        "answers": {
+            "1": "A",
+            "2": "C",
+            ...
+        }
+    }
+    """
+    if not QUIZ_AVAILABLE:
+        return jsonify({'error': 'Quiz generator not available'}), 503
+    
+    try:
+        data = request.get_json()
+        
+        if not data or 'quiz' not in data or 'answers' not in data:
+            return jsonify({'error': 'quiz and answers are required in request body'}), 400
+        
+        quiz = data['quiz']
+        user_answers = data['answers']
+        
+        # Convert answer keys to integers
+        user_answers_int = {int(k): v for k, v in user_answers.items()}
+        
+        # Analyze results
+        analysis = quiz_generator.analyze_quiz_results(quiz, user_answers_int)
+        
+        if 'error' in analysis:
+            return jsonify({'error': analysis['error']}), 500
+        
+        return jsonify({
+            'success': True,
+            'analysis': analysis,
+            'message': 'Quiz analyzed successfully'
+        })
+    
+    except Exception as e:
+        return jsonify({'error': f'Failed to analyze quiz: {str(e)}'}), 500
+
+
+@app.route('/api/quiz/load/<filename>', methods=['GET'])
+def load_quiz(filename):
+    """Load a previously saved quiz from file."""
+    if not QUIZ_AVAILABLE:
+        return jsonify({'error': 'Quiz generator not available'}), 503
+    
+    try:
+        quiz = quiz_generator.load_quiz_from_file(filename)
+        
+        if quiz is None:
+            return jsonify({'error': 'Quiz file not found or invalid'}), 404
+        
+        return jsonify({
+            'success': True,
+            'quiz': quiz
+        })
+    
+    except Exception as e:
+        return jsonify({'error': f'Failed to load quiz: {str(e)}'}), 500
+
 
 if __name__ == '__main__':
     print("Starting GenMentor API Server...")

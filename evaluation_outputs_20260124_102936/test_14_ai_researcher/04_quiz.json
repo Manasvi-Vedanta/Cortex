@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:44:31.288817",
+      "learning_path_id": "test_14",
+      "target_occupation": "computer scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A literature review helps researchers understand the current state of knowledge, identify what has already been done, recognize unanswered questions or existing gaps, and thus refine their own research focus and justification.",
+        "id": 1,
+        "options": {
+          "A": "To generate primary data for the research.",
+          "B": "To identify existing gaps in knowledge, avoid duplication, and inform the research question.",
+          "C": "To plagiarize findings from previous studies.",
+          "D": "To immediately publish preliminary results without peer assessment."
+        },
+        "question": "What is the primary purpose of conducting a thorough literature review in a scientific research project in computer science?",
+        "topic": "scientific research methodology"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Informed consent ensures that participants voluntarily agree to take part in a study after fully understanding its nature, potential implications, and their rights, including the right to withdraw at any time.",
+        "id": 2,
+        "options": {
+          "A": "Collecting user data without explicit permission, assuming users accept by using the software.",
+          "B": "Providing participants with a clear explanation of the study's purpose, risks, benefits, and their right to withdraw before they agree to participate.",
+          "C": "Anonymizing all data after it has been collected, without prior notification to participants.",
+          "D": "Only informing participants about the positive outcomes of the study, not potential risks."
+        },
+        "question": "Which of the following actions best demonstrates adherence to the principle of 'informed consent' when conducting a user study for a new software application?",
+        "topic": "apply research ethics and scientific integrity principles in research activities"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Proper documentation of data sources and preprocessing, along with version control for both data and code, is crucial for ensuring that research findings can be reproduced and the data can be understood and reused by others (or oneself in the future).",
+        "id": 3,
+        "options": {
+          "A": "Deleting raw data immediately after processing to save storage space.",
+          "B": "Storing all datasets on a single personal computer without any backups or versioning.",
+          "C": "Implementing clear documentation for data sources, preprocessing steps, and using version control for datasets and code.",
+          "D": "Sharing sensitive participant-identifiable data publicly without prior anonymization."
+        },
+        "question": "When managing research data for a machine learning project, what is a fundamental practice for ensuring reproducibility and long-term usability?",
+        "topic": "manage research data"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Peer review involves independent experts in the field critically evaluating a manuscript to assess its scientific rigor, clarity, originality, and overall suitability for publication, providing constructive feedback to improve the work.",
+        "id": 4,
+        "options": {
+          "A": "To guarantee that the paper will be accepted for publication without revisions.",
+          "B": "To ensure that the research is promoted widely to the public immediately.",
+          "C": "To evaluate the quality, validity, methodology, and significance of the submitted work by experts in the field.",
+          "D": "To allow authors to bypass ethical review processes if their paper is strong enough."
+        },
+        "question": "What is the primary role of peer review in the process of publishing academic research in computer science?",
+        "topic": "publish academic research"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The Introduction and Background section of a research proposal is where the researcher establishes the problem, reviews relevant existing work (state-of-the-art), identifies gaps, and justifies the necessity and novelty of their proposed solution.",
+        "id": 5,
+        "options": {
+          "A": "Budget and Timeline",
+          "B": "Dissemination Plan",
+          "C": "Introduction and Background (or Literature Review)",
+          "D": "Team Qualifications"
+        },
+        "question": "A computer scientist is preparing a research proposal for a grant to develop a new distributed ledger technology. Which section of the proposal should primarily articulate the unmet needs, the current state-of-the-art, and how the proposed research offers a novel solution?",
+        "topic": "write research proposals"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Contextual inquiries and ethnographic studies involve observing users in their actual work environment, allowing researchers to uncover nuanced behaviors, pain points, and 'unspoken' workflows that might not be revealed through surveys or structured usability tests.",
+        "id": 6,
+        "options": {
+          "A": "A large-scale quantitative survey with Likert scale questions.",
+          "B": "A/B testing different UI layouts with hundreds of users.",
+          "C": "Conducting contextual inquiries or ethnographic studies by observing engineers in their natural work environment.",
+          "D": "Remote usability testing with predefined tasks and metrics."
+        },
+        "question": "A team is developing a new cloud-based development environment and wants to understand how professional software engineers currently use their tools, their pain points, and undocumented workflows. Which ICT user research method would provide the deepest qualitative insights into these aspects?",
+        "topic": "execute ICT user research activities"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Open innovation encourages the flow of knowledge and resources both into and out of an organization. Sharing research findings, code, and data openly facilitates collaboration, accelerates scientific progress, and allows others to build upon the work, aligning perfectly with open innovation principles.",
+        "id": 7,
+        "options": {
+          "A": "Patent all new AI algorithms and license them exclusively to a single industry partner.",
+          "B": "Restrict access to all research data and code until successful commercialization.",
+          "C": "Publishing research findings in open-access journals and sharing source code and datasets on public repositories with permissive licenses.",
+          "D": "Conducting all research internally within the university without external collaborations."
+        },
+        "question": "A research group in a university, focused on artificial intelligence, decides to adopt principles of 'open innovation'. Which action best exemplifies this commitment?",
+        "topic": "promote open innovation in research"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Since the data is 'not normally distributed' and the protocols are tested under 'identical network conditions' (implying paired observations for each simulation run), a non-parametric test suitable for paired data, like the Wilcoxon signed-rank test, is appropriate. Bootstrap methods are also a robust option for hypothesis testing when distributional assumptions are violated. Parametric tests like the t-test assume normality, and simply comparing averages without statistical inference is insufficient.",
+        "id": 8,
+        "options": {
+          "A": "Assume normality and perform an independent samples t-test.",
+          "B": "Directly compare the average energy consumption values and declare the lower one superior.",
+          "C": "Apply a non-parametric test, such as the Wilcoxon signed-rank test, or use bootstrap methods for hypothesis testing.",
+          "D": "Discard any data points that are above the mean for each protocol and then compare the remaining averages."
+        },
+        "question": "A computer scientist conducts a quantitative study comparing the energy consumption of two different network routing protocols (Protocol A vs. Protocol B) by simulating them 50 times under identical network conditions and measuring total energy. The energy consumption data collected is not normally distributed. To rigorously compare if there's a statistically significant difference in energy consumption between the two protocols, which statistical approach is most appropriate?",
+        "topic": "conduct quantitative research"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A core tenet of scientific research is reproducibility. Omitting crucial details about methodology, datasets, and experimental setup directly hinders other researchers' ability to replicate the study, verify the findings, or extend the work. This severely undermines the scientific validity and trustworthiness of the published research.",
+        "id": 9,
+        "options": {
+          "A": "The paper is too short and lacks sufficient narrative.",
+          "B": "It makes it impossible for other researchers to reproduce the results or build upon the reported work, undermining scientific integrity.",
+          "C": "The results are likely exaggerated because the authors are hiding poor performance details.",
+          "D": "It means the research is so advanced that few can understand it, hence the omissions are justified."
+        },
+        "question": "You are evaluating a research paper claiming a breakthrough in quantum machine learning. The paper presents compelling results on a novel algorithm's accuracy but omits crucial details regarding the size and nature of the quantum datasets used, the specific quantum hardware simulator or actual hardware employed, and the computational resources required. What is the most significant consequence of these omissions for the scientific community?",
+        "topic": "evaluate research activities"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Synthesizing research to identify unresolved challenges (gaps) is a critical step in scholarly research. The most scientifically sound 'next step' for a *new research project* is to then formulate a novel solution to that identified problem and design an experiment (e.g., simulation) to test its efficacy. Option B directly addresses the identified gap with a proposed solution and a plan for empirical validation, which is the essence of performing scientific research.",
+        "id": 10,
+        "options": {
+          "A": "Write a comprehensive review paper summarizing all existing sharding solutions and their limitations without proposing new research.",
+          "B": "Propose and experimentally validate a novel cross-shard consensus protocol that aims to maintain atomicity while minimizing overhead, designing a simulation environment to test its performance.",
+          "C": "Focus on an entirely different blockchain problem, such as privacy, ignoring the identified scalability challenge.",
+          "D": "Replicate one of the existing sharding implementations to confirm its reported transaction throughput numbers."
+        },
+        "question": "After synthesizing numerous research publications on blockchain scalability, a computer scientist identifies a recurring and unresolved challenge: existing sharding mechanisms often compromise transaction atomicity across different shards, leading to complex cross-shard transaction management. No current solution fully addresses this without significant trade-offs. Based on this synthesis, what is the most scientifically sound next step for a new research project?",
+        "topic": "synthesise research publications / perform scientific research"
+      }
+    ],
+    "topics_covered": [
+      "scientific research methodology",
+      "manage research data",
+      "write research proposals",
+      "interact professionally in research and professional environments",
+      "evaluate research activities",
+      "perform scientific research",
+      "apply for research funding",
+      "conduct quantitative research",
+      "apply research ethics and scientific integrity principles in research activities",
+      "promote open innovation in research",
+      "conduct research interview",
+      "publish academic research",
+      "execute ICT user research activities",
+      "synthesise research publications",
+      "conduct scholarly research"
+    ]
+  },
+  "success": true
+}

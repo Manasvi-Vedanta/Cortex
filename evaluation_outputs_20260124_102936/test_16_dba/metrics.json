@@ -1,0 +1,52 @@
+{
+  "test_id": "16",
+  "goal": "I want to become a Database Administrator.",
+  "short_name": "DBA",
+  "category": "Data",
+  "matched_occupation": "database administrator",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/8c57af09-719c-42b3-be40-6ed4946236cc",
+  "similarity_score": 0.8963327407836914,
+  "total_skills": 15,
+  "total_sessions": 3,
+  "skills_list": [
+    "use scripting programming",
+    "define database physical structure",
+    "operate relational database management system",
+    "balance database resources",
+    "maintain database performance",
+    "maintain database security",
+    "distributed computing",
+    "database design",
+    "database development tools",
+    "database management systems",
+    "manage database",
+    "use databases",
+    "design database scheme",
+    "design database backup specifications",
+    "OpenEdge Database"
+  ],
+  "session_durations": [
+    9,
+    20,
+    20
+  ],
+  "path_generation_time": 8.029719829559326,
+  "quiz_generation_time": 21.82421040534973,
+  "total_test_time": 57.60093402862549,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 30.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

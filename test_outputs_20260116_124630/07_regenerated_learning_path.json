@@ -1,0 +1,177 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand the fundamental concepts of machine learning.",
+        "Learn how to implement basic machine learning algorithms using Python.",
+        "Explore data preprocessing techniques in Python."
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "machine learning",
+        "Python (computer programming)",
+        "statistics",
+        "programming"
+      ],
+      "title": "Introduction to Machine Learning with Python"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Develop skills in data cleaning and transformation using Python.",
+        "Learn to build data processing applications.",
+        "Understand the importance of feature engineering for machine learning models."
+      ],
+      "prerequisites": [
+        "Introduction to Machine Learning with Python"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Python (computer programming)",
+        "develop data processing applications",
+        "programming",
+        "statistics"
+      ],
+      "title": "Data Processing and Preparation for Machine Learning"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 12,
+      "objectives": [
+        "Grasp the core concepts of deep learning.",
+        "Build and train simple neural networks using TensorFlow.",
+        "Understand the role of TensorFlow in machine learning workflows."
+      ],
+      "prerequisites": [
+        "Introduction to Machine Learning with Python"
+      ],
+      "session_number": 3,
+      "skills": [
+        "machine learning",
+        "TensorFlow",
+        "Python (computer programming)",
+        "programming"
+      ],
+      "title": "Deep Learning Fundamentals with TensorFlow"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 12,
+      "objectives": [
+        "Explore advanced deep learning architectures.",
+        "Implement and train models using PyTorch.",
+        "Compare and contrast TensorFlow and PyTorch for deep learning tasks."
+      ],
+      "prerequisites": [
+        "Deep Learning Fundamentals with TensorFlow"
+      ],
+      "session_number": 4,
+      "skills": [
+        "machine learning",
+        "PyTorch",
+        "Python (computer programming)",
+        "programming"
+      ],
+      "title": "Advanced Deep Learning with PyTorch"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Reinforce understanding of key statistical concepts relevant to machine learning.",
+        "Apply statistical methods for data analysis and model evaluation.",
+        "Interpret statistical results in the context of machine learning problems."
+      ],
+      "prerequisites": [],
+      "session_number": 5,
+      "skills": [
+        "statistics",
+        "machine learning",
+        "Python (computer programming)"
+      ],
+      "title": "Statistical Foundations for Machine Learning"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Design and implement robust data processing applications.",
+        "Optimize data pipelines for efficiency and scalability.",
+        "Integrate data processing with machine learning workflows."
+      ],
+      "prerequisites": [
+        "Data Processing and Preparation for Machine Learning"
+      ],
+      "session_number": 6,
+      "skills": [
+        "develop data processing applications",
+        "Python (computer programming)",
+        "programming",
+        "machine learning"
+      ],
+      "title": "Building Production-Ready Data Processing Pipelines"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 16,
+      "objectives": [
+        "Apply machine learning algorithms to solve real-world problems.",
+        "Utilize TensorFlow for building and deploying machine learning models.",
+        "Develop practical programming skills in a project-based environment."
+      ],
+      "prerequisites": [
+        "Introduction to Machine Learning with Python",
+        "Deep Learning Fundamentals with TensorFlow"
+      ],
+      "session_number": 7,
+      "skills": [
+        "machine learning",
+        "Python (computer programming)",
+        "TensorFlow",
+        "programming",
+        "statistics"
+      ],
+      "title": "Applied Machine Learning Projects with Python and TensorFlow"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 16,
+      "objectives": [
+        "Explore advanced deep learning architectures and techniques.",
+        "Leverage statistical insights for model tuning and interpretation.",
+        "Implement complex models using PyTorch for research and development."
+      ],
+      "prerequisites": [
+        "Advanced Deep Learning with PyTorch",
+        "Statistical Foundations for Machine Learning"
+      ],
+      "session_number": 8,
+      "skills": [
+        "machine learning",
+        "PyTorch",
+        "statistics",
+        "Python (computer programming)",
+        "programming"
+      ],
+      "title": "Advanced Topics in Deep Learning with PyTorch and Statistics"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Computer vision engineers research, design, develop, and train artificial intelligence algorithms and machine learning primitives that understand the content of digital images based on a large amount of data. They apply this understanding to solve different real-world problems such as security, autonomous driving, robotic manufacturing, digital image classification, medical image processing and diagnosis, etc.",
+    "label": "computer vision engineer",
+    "similarity_score": 0.8793400526046753,
+    "uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 23,
+    "skills_in_path": 8,
+    "skills_to_learn": 23,
+    "total_skills_needed": 25
+  },
+  "user_id": "full_test_user"
+}

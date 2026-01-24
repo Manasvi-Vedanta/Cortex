@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Google Gemini API Key
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
 # Google Search API Configuration (optional)
 GOOGLE_SEARCH_API_KEY = os.getenv("GOOGLE_SEARCH_API_KEY", "")

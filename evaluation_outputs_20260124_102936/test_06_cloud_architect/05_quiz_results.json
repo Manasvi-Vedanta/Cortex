@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:36:07.701451",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "IaaS provides the fundamental building blocks of cloud computing, such as virtual machines, networks, and storage, giving users significant control over their operating systems and applications, while the cloud provider manages the underlying infrastructure.",
+        "is_correct": false,
+        "question": "Which of the following best describes Infrastructure as a Service (IaaS) in cloud computing?",
+        "question_id": 1,
+        "topic": "cloud technologies",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Cloud monitoring primarily focuses on collecting metrics and logs to gain insight into resource utilization, application performance, and overall system health, which is crucial for identifying and addressing problems proactively.",
+        "is_correct": false,
+        "question": "What is the primary purpose of cloud monitoring tools in a production environment?",
+        "question_id": 2,
+        "topic": "cloud monitoring and reporting",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Infrastructure as Code (IaC) is the practice of managing and provisioning computing infrastructure through machine-readable definition files, such as Terraform or CloudFormation templates, rather than manual configuration or physical hardware setup.",
+        "is_correct": false,
+        "question": "For a cloud engineer tasked with provisioning and managing cloud infrastructure using descriptive code files rather than manual clicks, which practice is being followed?",
+        "question_id": 3,
+        "topic": "deploy cloud resource",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Block storage provides high-performance, low-latency storage that can be attached to compute instances, making it ideal for operating systems, databases, and other applications that require frequent, granular access to data. Object storage is better for static content, and archive storage for rarely accessed data. CDNs cache content, not primary storage.",
+        "is_correct": true,
+        "question": "Which cloud storage type is generally most appropriate for applications requiring low-latency access to frequently updated data, such as operating system disks or transactional databases?",
+        "question_id": 4,
+        "topic": "manage cloud data and storage",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Functional programming, with its emphasis on pure functions, immutability, and statelessness, aligns well with the event-driven, stateless execution model of serverless functions, making them easier to reason about, test, and scale.",
+        "is_correct": true,
+        "question": "When developing serverless functions for cloud platforms (e.g., AWS Lambda, Azure Functions), which programming paradigm is often preferred due to its stateless nature, immutability, and alignment with event-driven architectures?",
+        "question_id": 5,
+        "topic": "programming, develop with cloud services",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Configuration management tools are specifically designed to automate the process of bringing systems to a desired state and keeping them there, ensuring consistency across multiple servers and environments. CI tools focus on code integration, VCS on code management, and Container Orchestration on managing containers.",
+        "is_correct": true,
+        "question": "A cloud engineer needs to ensure a consistent environment across multiple server instances in development, staging, and production. This involves installing specific software packages, configuring services, and managing file permissions. Which type of automation tool would be most effective for achieving and maintaining this desired state?",
+        "question_id": 6,
+        "topic": "automate cloud tasks",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "In incident response, the immediate priority is always to mitigate the impact and restore service functionality to minimize downtime and business disruption. Root cause analysis, post-mortems, and permanent fixes are critical but follow service restoration.",
+        "is_correct": false,
+        "question": "During a critical incident involving a degraded cloud service impacting users, what is the immediate priority for a cloud incident response team, prior to a detailed root cause analysis or permanent remediation?",
+        "question_id": 7,
+        "topic": "respond to incidents in cloud",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Option C provides the highest level of high availability (active-active multi-region), disaster recovery (identical stacks in separate regions with private inter-region connectivity), and strict network isolation (separate private subnets within separate VPCs/VNets). Global load balancing directs traffic to the nearest healthy region, and synchronous cross-region database replication ensures data consistency for RPO/RTO goals. Options A, B, and D fall short on multi-region HA/DR, network isolation, or consistency guarantees.",
+        "is_correct": false,
+        "question": "A global financial services company needs to migrate a mission-critical, multi-tier application (web, application, database) to a public cloud. Key requirements include active-active high availability across two geographically distinct regions, strict network isolation between application tiers within each region, and a robust disaster recovery strategy with near-zero RTO/RPO. Which architectural and networking design pattern best satisfies these requirements?",
+        "question_id": 8,
+        "topic": "design cloud architecture, design cloud networks",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Option C, decomposing the monolith into microservices, directly addresses scalability, resilience (independent failures), and faster feature delivery (independent deployments). This strategy naturally aligns with Conway's Law, encouraging small, autonomous teams, which is crucial for managing organizational complexity and fostering innovation. Vertical scaling (A) offers limited, temporary relief. Migrating regions (B) doesn't solve architectural issues. Rewriting from scratch (D) is extremely risky, expensive, and time-consuming, often leading to 'second system syndrome' without guaranteed improvement.",
+        "is_correct": false,
+        "question": "A legacy monolithic application running on VMs in the cloud is experiencing scalability bottlenecks, high operational costs, and slow feature delivery. The business demands faster innovation and improved resilience. The organization also wants to empower smaller, autonomous development teams. What is the most effective refactoring strategy that addresses these technical and organizational challenges?",
+        "question_id": 9,
+        "topic": "do cloud refactoring, design for organisational complexity",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Option C addresses all key requirements: 'globally distributed, strongly consistent, managed relational database service' provides the necessary scalability, high availability, and strong consistency for inventory. Integrating 'schema migration tools (e.g., Flyway, Liquibase) and version control (e.g., Git)' provides the robust development practices for managing schema changes and enabling CI/CD. Option A lacks scalability, HA, and global distribution. Option B's eventual consistency might be problematic for exact inventory counts. Option D is a cache, not a primary data store, and doesn't guarantee durability or strong consistency needed for inventory.",
+        "is_correct": false,
+        "question": "A global e-commerce platform needs to design a new inventory database in the cloud that must handle millions of concurrent writes and reads globally, ensuring strong consistency for inventory counts, high availability, and horizontal scalability. The development team also requires robust tools for managing schema migrations, version control, and continuous integration with the application codebase. Which cloud database technology and development practices would be most suitable?",
+        "question_id": 10,
+        "topic": "design database in the cloud, database development tools",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: cloud technologies, cloud monitoring and reporting, deploy cloud resource",
+      "✅ Your strongest areas: manage cloud data and storage, programming, develop with cloud services"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "manage cloud data and storage",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "programming, develop with cloud services",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "automate cloud tasks",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "cloud technologies",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "cloud monitoring and reporting",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "deploy cloud resource",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "respond to incidents in cloud",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design cloud architecture, design cloud networks",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "do cloud refactoring, design for organisational complexity",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design database in the cloud, database development tools",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

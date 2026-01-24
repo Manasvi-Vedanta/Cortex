@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-23T13:29:50.118677",
+      "learning_path_id": "test_path",
+      "target_occupation": "mobile application developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An IDE integrates various tools like a code editor, compiler, debugger, and build automation tools into a single graphical user interface, streamlining the development process for mobile applications.",
+        "id": 1,
+        "options": {
+          "A": "To host the final application on a server.",
+          "B": "To provide a comprehensive suite of tools for coding, debugging, and testing.",
+          "C": "To manage project finances and team schedules.",
+          "D": "To convert mobile apps into desktop applications."
+        },
+        "question": "What is the primary function of an Integrated Development Environment (IDE) for a mobile application developer?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Android is the mobile operating system where Java and Kotlin are the primary official languages for native application development.",
+        "id": 2,
+        "options": {
+          "A": "iOS",
+          "B": "Windows Phone",
+          "C": "Android",
+          "D": "BlackBerry OS"
+        },
+        "question": "Which mobile operating system is primarily associated with native application development using Java or Kotlin?",
+        "topic": "Android (mobile operating systems)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Polymorphism, meaning 'many forms,' allows objects of different classes to be treated as objects of a common type, enabling a single interface to represent different underlying forms.",
+        "id": 3,
+        "options": {
+          "A": "Encapsulation",
+          "B": "Inheritance",
+          "C": "Polymorphism",
+          "D": "Abstraction"
+        },
+        "question": "In Object-Oriented Programming (OOP), what is the concept where an object can take on many forms or have multiple implementations of a single interface?",
+        "topic": "use object-oriented programming"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Version control systems like Git are essential for collaborative development, allowing teams to track changes, revert to previous versions, and efficiently merge contributions from multiple developers.",
+        "id": 4,
+        "options": {
+          "A": "To automatically deploy apps to app stores.",
+          "B": "To track changes, merge code from multiple developers, and manage project history.",
+          "C": "To optimize database queries within the mobile app.",
+          "D": "To encrypt user data for security purposes."
+        },
+        "question": "What is the main purpose of using a version control system like Git in a mobile application development team?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A debugger allows developers to pause execution, inspect variable states, and step through code line by line, which is crucial for understanding why a crash occurs and identifying its exact location.",
+        "id": 5,
+        "options": {
+          "A": "Immediately delete and rewrite the problematic code section.",
+          "B": "Using a debugger to step through the code execution at the point of failure.",
+          "C": "Consult online forums without further investigation.",
+          "D": "Restarting the device and hoping the issue resolves itself."
+        },
+        "question": "A mobile app crashes intermittently on specific devices. After reproducing the crash, what is the most effective next step a developer takes to pinpoint the root cause?",
+        "topic": "debug software"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "React Native is a popular framework that enables developers to build native mobile applications for iOS and Android using JavaScript and React, leveraging existing web development skills.",
+        "id": 6,
+        "options": {
+          "A": "Xamarin",
+          "B": "Flutter",
+          "C": "React Native",
+          "D": "SwiftUI"
+        },
+        "question": "Which popular framework allows mobile developers to build cross-platform applications using JavaScript and web technologies, compiling to native UI components?",
+        "topic": "JavaScript"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A flowchart uses standardized symbols to represent the steps, decisions, and logic in a process, making it ideal for visualizing the flow of user interactions and system responses in a complex feature like registration.",
+        "id": 7,
+        "options": {
+          "A": "Gantt chart",
+          "B": "Entity-Relationship Diagram (ERD)",
+          "C": "Flowchart",
+          "D": "Class Diagram"
+        },
+        "question": "Before implementing a complex user registration process in a mobile app, a developer wants to visually map out the sequence of steps, decisions, and potential error paths. Which diagram type is most suitable for this purpose?",
+        "topic": "create flowchart diagram"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance, which is perfect for managing resources like a database connection that should be shared across the application.",
+        "id": 8,
+        "options": {
+          "A": "Factory Method",
+          "B": "Observer",
+          "C": "Singleton",
+          "D": "Adapter"
+        },
+        "question": "A mobile app requires a single instance of a critical system component (e.g., a database manager) to be accessible globally throughout the application lifecycle. Which design pattern best addresses this requirement?",
+        "topic": "use software design patterns"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Thorough analysis of specifications aims to uncover any unclear, conflicting, or absent details early on. Failure to do so can result in costly design changes and rework later in the development cycle, especially during prototyping.",
+        "id": 9,
+        "options": {
+          "A": "Determining the final user interface color scheme.",
+          "B": "Identifying ambiguities, inconsistencies, or missing requirements that could lead to rework.",
+          "C": "Immediately assigning tasks to individual developers.",
+          "D": "Predicting the exact performance metrics of the final product."
+        },
+        "question": "A development team receives a comprehensive set of user stories, mockups, and API documentation for a new mobile application feature. What is the primary challenge in effectively analyzing these specifications before beginning the prototyping phase?",
+        "topic": "analyse software specifications"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The GPU is optimized for highly parallelizable tasks (like image filters or matrix operations) due to its architecture, while the CPU is better for complex sequential logic. Understanding this distinction in digital systems is critical for selecting the right processing unit for performance-intensive operations in mobile development.",
+        "id": 10,
+        "options": {
+          "A": "Knowledge of the app's overall memory footprint.",
+          "B": "Understanding the parallel processing capabilities of the GPU versus the sequential processing of the CPU for specific tasks.",
+          "C": "Familiarity with various image file formats (e.g., JPEG, PNG).",
+          "D": "The current market share of Android devices versus iOS devices."
+        },
+        "question": "A developer is building a high-performance image processing module for an Android app. They need to choose between processing images directly on the CPU using Java or offloading certain operations to the GPU. What understanding of digital systems is crucial for making this decision to ensure optimal performance?",
+        "topic": "digital systems"
+      }
+    ],
+    "topics_covered": [
+      "programming",
+      "use logic programming",
+      "use object-oriented programming",
+      "Android (mobile operating systems)",
+      "JavaScript",
+      "tools for software configuration management",
+      "create flowchart diagram",
+      "integrated development environment software",
+      "debug software",
+      "use software design patterns",
+      "develop software prototype",
+      "use software libraries",
+      "analyse software specifications",
+      "Java",
+      "digital systems"
+    ]
+  },
+  "success": true
+}

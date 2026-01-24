@@ -1,0 +1,51 @@
+{
+  "test_id": "07",
+  "goal": "I want to become a Cybersecurity Analyst.",
+  "short_name": "Cybersecurity Analyst",
+  "category": "Security",
+  "matched_occupation": "computer scientist",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e",
+  "similarity_score": 0.7767985463142395,
+  "total_skills": 15,
+  "total_sessions": 2,
+  "skills_list": [
+    "develop professional network with researchers and scientists",
+    "develop professional network",
+    "operate open source software",
+    "manage personal professional development",
+    "scientific research methodology",
+    "use an application-specific interface",
+    "manage research data",
+    "write research proposals",
+    "interact professionally in research and professional environments",
+    "define technology strategy",
+    "disseminate results to the scientific community",
+    "speak different languages",
+    "data science",
+    "execute analytical mathematical calculations",
+    "apply statistical analysis techniques"
+  ],
+  "session_durations": [
+    20,
+    20
+  ],
+  "path_generation_time": 8.74480414390564,
+  "quiz_generation_time": 27.14529252052307,
+  "total_test_time": 64.14724040031433,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 40.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

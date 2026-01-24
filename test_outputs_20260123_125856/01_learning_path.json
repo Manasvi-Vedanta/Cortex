@@ -1,0 +1,247 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand basic Python syntax and data types.",
+        "Write simple Python scripts.",
+        "Learn about variables, operators, and control flow."
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Python (computer programming)"
+      ],
+      "title": "Introduction to Python for Beginners"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Learn the basics of JavaScript syntax.",
+        "Manipulate the Document Object Model (DOM).",
+        "Implement event handling in web pages."
+      ],
+      "prerequisites": [],
+      "session_number": 2,
+      "skills": [
+        "JavaScript"
+      ],
+      "title": "JavaScript Fundamentals for Web Development"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 12,
+      "objectives": [
+        "Understand fundamental programming paradigms.",
+        "Learn about algorithms and data structures.",
+        "Explore different approaches to problem-solving through code."
+      ],
+      "prerequisites": [],
+      "session_number": 3,
+      "skills": [
+        "programming"
+      ],
+      "title": "Core Programming Concepts"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 6,
+      "objectives": [
+        "Understand the challenges of data migration.",
+        "Learn common data migration patterns.",
+        "Explore tools and best practices for migrating existing data."
+      ],
+      "prerequisites": [],
+      "session_number": 4,
+      "skills": [
+        "migrate existing data"
+      ],
+      "title": "Data Migration Strategies and Techniques"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Understand the core concepts of Erlang.",
+        "Learn about processes and message passing.",
+        "Build simple concurrent applications in Erlang."
+      ],
+      "prerequisites": [],
+      "session_number": 5,
+      "skills": [
+        "Erlang"
+      ],
+      "title": "Introduction to Erlang for Concurrent Systems"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Learn Ruby syntax and object-oriented features.",
+        "Develop web applications using Ruby frameworks.",
+        "Write efficient Ruby scripts."
+      ],
+      "prerequisites": [],
+      "session_number": 6,
+      "skills": [
+        "Ruby (computer programming)"
+      ],
+      "title": "Ruby Programming for Web and Scripting"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 12,
+      "objectives": [
+        "Understand Java syntax and core libraries.",
+        "Develop object-oriented applications in Java.",
+        "Learn about Java's platform independence."
+      ],
+      "prerequisites": [],
+      "session_number": 7,
+      "skills": [
+        "Java (computer programming)"
+      ],
+      "title": "Java Programming Fundamentals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand the principles of logic programming.",
+        "Write Prolog programs to solve problems.",
+        "Explore backtracking and unification."
+      ],
+      "prerequisites": [],
+      "session_number": 8,
+      "skills": [
+        "Prolog (computer programming)"
+      ],
+      "title": "Introduction to Prolog for Logic Programming"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 9,
+      "objectives": [
+        "Learn Perl syntax and regular expressions.",
+        "Write scripts for file manipulation and text processing.",
+        "Understand Perl's strengths in system administration tasks."
+      ],
+      "prerequisites": [],
+      "session_number": 9,
+      "skills": [
+        "Perl"
+      ],
+      "title": "Perl Scripting for Text Processing and System Administration"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Explore the pure object-oriented nature of Smalltalk.",
+        "Learn Smalltalk syntax and message passing.",
+        "Understand the Smalltalk environment and development process."
+      ],
+      "prerequisites": [],
+      "session_number": 10,
+      "skills": [
+        "Smalltalk (computer programming)"
+      ],
+      "title": "Smalltalk: An Object-Oriented Programming Language"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 15,
+      "objectives": [
+        "Understand the fundamentals of assembly language.",
+        "Learn basic assembly instructions and addressing modes.",
+        "Write simple programs in assembly."
+      ],
+      "prerequisites": [],
+      "session_number": 11,
+      "skills": [
+        "Assembly (computer programming)"
+      ],
+      "title": "Assembly Language Programming Basics"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 10,
+      "objectives": [
+        "Learn the basics of the R programming language.",
+        "Perform statistical analysis and data visualization in R.",
+        "Understand R data structures and functions."
+      ],
+      "prerequisites": [],
+      "session_number": 12,
+      "skills": [
+        "R"
+      ],
+      "title": "Data Analysis with R"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 7,
+      "objectives": [
+        "Learn Groovy syntax and its advantages over Java.",
+        "Write concise and powerful scripts in Groovy.",
+        "Understand Groovy's integration with the Java ecosystem."
+      ],
+      "prerequisites": [
+        "Java (computer programming)"
+      ],
+      "session_number": 13,
+      "skills": [
+        "Groovy"
+      ],
+      "title": "Groovy Scripting for Java Developers"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand the core principles of object-oriented design.",
+        "Learn to create object-oriented models.",
+        "Apply object-oriented concepts to software design."
+      ],
+      "prerequisites": [],
+      "session_number": 14,
+      "skills": [
+        "object-oriented modelling"
+      ],
+      "title": "Object-Oriented Modeling Principles"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 9,
+      "objectives": [
+        "Learn the fundamentals of TypeScript.",
+        "Understand static typing and its benefits.",
+        "Write robust and maintainable JavaScript applications with TypeScript."
+      ],
+      "prerequisites": [
+        "JavaScript"
+      ],
+      "session_number": 15,
+      "skills": [
+        "TypeScript"
+      ],
+      "title": "TypeScript for Modern Web Development"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Mobile application developers implement applications software for mobile devices, based on the designs provided, using general or specific development tools for device operating systems.",
+    "label": "mobile application developer",
+    "similarity_score": 0.8564530611038208,
+    "uri": "http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 25,
+    "skills_in_path": 15,
+    "skills_to_learn": 25,
+    "total_skills_needed": 25
+  },
+  "user_id": "full_test_user"
+}

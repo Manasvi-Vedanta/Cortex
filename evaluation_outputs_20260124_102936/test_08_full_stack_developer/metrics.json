@@ -1,0 +1,50 @@
+{
+  "test_id": "08",
+  "goal": "I want to become a Full Stack Developer.",
+  "short_name": "Full Stack Developer",
+  "category": "Web Development",
+  "matched_occupation": "web developer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+  "similarity_score": 0.7676358819007874,
+  "total_skills": 13,
+  "total_sessions": 3,
+  "skills_list": [
+    "web programming",
+    "JavaScript",
+    "JavaScript Framework",
+    "Python",
+    "CSS",
+    "use markup languages",
+    "tools for software configuration management",
+    "use e-services",
+    "Kubernetes",
+    "Redis",
+    "develop digital content",
+    "style sheet languages",
+    "MongoDB"
+  ],
+  "session_durations": [
+    9,
+    20,
+    20
+  ],
+  "path_generation_time": 7.89030647277832,
+  "quiz_generation_time": 23.017587661743164,
+  "total_test_time": 58.63412642478943,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 10.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

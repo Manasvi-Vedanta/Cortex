@@ -1,0 +1,53 @@
+{
+  "test_id": "02",
+  "goal": "I want to become a DevOps Engineer.",
+  "short_name": "DevOps Engineer",
+  "category": "Infrastructure",
+  "matched_occupation": "cloud DevOps engineer ",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/cc867bee-ab5c-427f-9244-f7a204d9574b",
+  "similarity_score": 0.9783631563186646,
+  "total_skills": 15,
+  "total_sessions": 4,
+  "skills_list": [
+    "cloud monitoring and reporting",
+    "design cloud architecture",
+    "do cloud refactoring",
+    "design cloud networks",
+    "deploy cloud resource",
+    "develop with cloud services",
+    "manage cloud data and storage",
+    "JavaScript",
+    "design for organisational complexity",
+    "software frameworks",
+    "integrated development environment software",
+    "design database in the cloud",
+    "cloud technologies",
+    "automate cloud tasks",
+    "DevOps"
+  ],
+  "session_durations": [
+    20,
+    7,
+    14,
+    9
+  ],
+  "path_generation_time": 11.070165872573853,
+  "quiz_generation_time": 23.428000688552856,
+  "total_test_time": 62.683823108673096,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 20.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

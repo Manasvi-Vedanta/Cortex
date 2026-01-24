@@ -1,0 +1,202 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:50:45.779165",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Inductive proximity sensors generate an electromagnetic field and detect changes in that field caused by the presence of metallic objects, making them ideal for non-contact detection in automation.",
+        "is_correct": false,
+        "question": "Which sensor type is commonly used to detect the presence or absence of a metallic object without physical contact?",
+        "question_id": 1,
+        "topic": "sensors",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A feedback loop continuously monitors the system's actual output, compares it with the desired setpoint, and uses the error signal to adjust the control action, ensuring the system stays on target.",
+        "is_correct": true,
+        "question": "What is the primary function of a feedback loop in an automatic control system?",
+        "question_id": 2,
+        "topic": "automatic control system",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Linux is a highly popular open-source operating system favored in industrial automation for its stability, security, customizability, and cost-effectiveness, particularly in embedded and real-time control applications.",
+        "is_correct": true,
+        "question": "Which of the following is an open-source operating system widely used in industrial automation for embedded systems or control applications due to its flexibility and community support?",
+        "question_id": 3,
+        "topic": "operate open source software",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The standard graphic symbol for a double-acting cylinder in pneumatic diagrams shows a rectangular cylinder body with a piston rod extending from both ends (or implied), indicating that air pressure can extend and retract the piston.",
+        "is_correct": false,
+        "question": "In a pneumatic circuit diagram, what symbol typically represents a double-acting cylinder?",
+        "question_id": 4,
+        "topic": "technical drawings",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Collaborative robots (cobots) are designed to work safely alongside humans, making them ideal for tasks requiring dexterity and precision in shared workspaces. A vision system enhances their ability to identify and manipulate small components.",
+        "is_correct": true,
+        "question": "An automation engineer is tasked with improving the efficiency of an assembly line where small, delicate components are picked and placed alongside human operators. Which automation component would be most suitable for this task?",
+        "question_id": 5,
+        "topic": "automation technology",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Ohm's Law states I = V/R, where I is current, V is voltage, and R is resistance. So, I = 24V / 48 Ohms = 0.5 Amperes.",
+        "is_correct": false,
+        "question": "A 24V DC power supply is connected to a solenoid valve with a coil resistance of 48 ohms. According to Ohm's Law, what current will flow through the solenoid coil?",
+        "question_id": 6,
+        "topic": "electrical engineering",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Color sensors are specifically designed to detect the chromatic properties of objects, making them the most direct and accurate choice for sorting based on color. Other sensors detect presence, distance, or material type, but not color.",
+        "is_correct": false,
+        "question": "When designing an automated system to sort products by their distinct surface colors, which type of sensor would be the primary choice to differentiate between products?",
+        "question_id": 7,
+        "topic": "design automation components",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Precision and repeatability in a closed-loop servo system are fundamentally dependent on the accuracy of the position feedback device (encoder resolution) and how quickly the controller can process this feedback and issue corrections (controller update rate). While torque, temperature, and size are important, they don't directly govern the system's ability to achieve fine positioning accuracy as much as feedback resolution and control speed.",
+        "is_correct": false,
+        "question": "An automation system for a high-speed packaging line requires precise and repeatable positioning of products entering a sealing station. The design specifies a servo motor-driven linear actuator. Which factor is MOST critical to consider during the selection of the servo motor and its associated control system to achieve this precision and repeatability?",
+        "question_id": 8,
+        "topic": "engineering principles",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "The derivative term calculates the rate of change of the error. By reacting to how quickly the error is changing, it helps to dampen the system's response, reducing overshoot and anticipating future deviations, thus improving stability.",
+        "is_correct": false,
+        "question": "In a PID (Proportional-Integral-Derivative) control loop, what is the primary purpose of the 'Derivative' (D) term?",
+        "question_id": 9,
+        "topic": "automatic control system",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "While technical details (A, D) and project management tools (B) are important later, the most critical initial step for a significant investment is to justify the project financially and strategically. A comprehensive cost-benefit analysis, ROI calculation, and risk assessment demonstrate business acumen and provide management with the necessary data to approve the project and understand its implications, thus increasing the likelihood of successful implementation.",
+        "is_correct": false,
+        "question": "An automation engineer identifies a critical bottleneck in a legacy production line that can be resolved with a significant investment in new robotic cells. Before proposing the solution to management, what is the most important professional development step to undertake to ensure a successful pitch and implementation?",
+        "question_id": 10,
+        "topic": "manage personal professional development",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "automatic control system",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: sensors, technical drawings, electrical engineering",
+      "✅ Your strongest areas: operate open source software, automation technology",
+      "📖 Topics needing more practice: automatic control system"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "operate open source software",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "automation technology",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "sensors",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "technical drawings",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "electrical engineering",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design automation components",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "engineering principles",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "manage personal professional development",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

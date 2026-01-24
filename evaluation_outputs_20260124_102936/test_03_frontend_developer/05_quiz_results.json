@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:32:55.483414",
+    "detailed_results": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The `<ul>` tag (unordered list) is used to define a bulleted list of items. `<li>` defines a list item, `<ol>` an ordered list, and `<dl>` a description list.",
+        "is_correct": false,
+        "question": "Which HTML tag is correctly used to define the root of an unordered list of items?",
+        "question_id": 1,
+        "topic": "markup languages",
+        "user_answer": "D"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "easy",
+        "explanation": "The `color` property in CSS is used to set the foreground color of an element's text content. `background-color` changes the background, and `font-color` is not a valid CSS property.",
+        "is_correct": false,
+        "question": "In CSS, which property is used to change the text color of an HTML element?",
+        "question_id": 2,
+        "topic": "CSS / style sheet languages",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The `const` keyword declares a block-scoped variable whose value cannot be reassigned. `var` is function-scoped and can be reassigned, while `let` is block-scoped but can also be reassigned.",
+        "is_correct": false,
+        "question": "In JavaScript, which keyword is used to declare a variable whose value cannot be reassigned after its initial declaration and is block-scoped?",
+        "question_id": 3,
+        "topic": "JavaScript",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An IDE integrates various tools like a code editor, debugger, and build automation into a single graphical user interface, streamlining the entire software development process.",
+        "is_correct": true,
+        "question": "What is the primary function of an Integrated Development Environment (IDE) for a web developer?",
+        "question_id": 4,
+        "topic": "integrated development environment software",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "JavaScript frameworks offer structured patterns, reusable components, and state management solutions that significantly simplify the development and maintenance of complex, interactive client-side applications like SPAs.",
+        "is_correct": true,
+        "question": "A web development team is building a complex Single-Page Application (SPA) with numerous interactive components and dynamic data. How does a JavaScript framework (e.g., React, Angular, Vue) primarily benefit this project?",
+        "question_id": 5,
+        "topic": "JavaScript Framework",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "TypeScript's core feature is static typing, which allows for early detection of type-related bugs, better code autocompletion, and improved readability and maintainability, especially in large codebases.",
+        "is_correct": false,
+        "question": "When developing a large-scale web application, what is the most significant advantage TypeScript offers over plain JavaScript for improving code quality and maintainability?",
+        "question_id": 6,
+        "topic": "TypeScript",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "MongoDB is a NoSQL, document-oriented database. Its schema-less design allows documents within a collection to have different fields and structures, providing flexibility for data like social media posts with evolving or varied content.",
+        "is_correct": false,
+        "question": "A new social media platform needs a database to store user posts, where each post can have a flexible structure (e.g., text, images, videos, various metadata). Which feature of MongoDB makes it particularly well-suited for this use case?",
+        "question_id": 7,
+        "topic": "MongoDB",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Flask is a lightweight micro-framework ideal for building RESTful APIs, allowing precise control over dependencies. The `requests` library is standard for making HTTP calls to other microservices, and `pandas` is excellent for data manipulation and aggregation. This combination provides the necessary tools for focused API logic without the overhead of a full-stack framework like Django (which would be overkill if only building an API endpoint) or libraries focused solely on ML training or web scraping.",
+        "is_correct": false,
+        "question": "A web developer is tasked with implementing a backend service using Python for an e-commerce platform. The service needs to handle product recommendations based on user browsing history and purchase patterns, fetch data from multiple internal microservices (via REST APIs), and aggregate results before sending them to the frontend. Considering the need to analyse software specifications and integrate with various data sources, what Python framework/library combination would be most effective for building this recommendation engine API, and why?",
+        "question_id": 8,
+        "topic": "Python / analyse software specifications / web programming",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Kubernetes is a container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. For a microservices architecture, its ability to handle automated rollouts, scaling based on demand, self-healing (restarting failed containers), and load balancing across services is crucial for managing complexity and ensuring high availability.",
+        "is_correct": false,
+        "question": "A growing e-commerce application, initially deployed as a monolith, is being refactored into dozens of microservices. The development team is facing challenges with managing deployments, ensuring high availability, and scaling individual services independently across multiple servers. What is the most significant benefit of adopting Kubernetes in this scenario?",
+        "question_id": 9,
+        "topic": "Kubernetes",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Redis is an in-memory data store known for its speed and versatile data structures. It excels at caching frequently accessed data, managing volatile session states, and building real-time features like leaderboards (using sorted sets) without heavily burdening the primary database. It's not typically used for primary long-term persistent storage or complex analytical queries, and while it has Pub/Sub capabilities, its primary role in this scenario for performance is caching and real-time data handling.",
+        "is_correct": false,
+        "question": "An online gaming platform experiences massive spikes in concurrent users during peak hours. The primary relational database struggles to keep up with real-time leaderboards, frequent session state updates, and serving cached game data, leading to latency. Which strategy best leverages Redis to alleviate these performance bottlenecks?",
+        "question_id": 10,
+        "topic": "Redis",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: markup languages, CSS / style sheet languages, JavaScript",
+      "✅ Your strongest areas: integrated development environment software, JavaScript Framework"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "integrated development environment software",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "JavaScript Framework",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "markup languages",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "CSS / style sheet languages",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "JavaScript",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "TypeScript",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "MongoDB",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python / analyse software specifications / web programming",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Kubernetes",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Redis",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

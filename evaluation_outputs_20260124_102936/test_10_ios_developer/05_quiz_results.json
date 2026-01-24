@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:40:23.655585",
+    "detailed_results": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Microcontrollers are integrated circuits designed to control specific functions in embedded systems, housing a CPU, memory, and peripherals to execute program instructions and perform calculations.",
+        "is_correct": false,
+        "question": "Which of the following components is primarily responsible for executing program instructions and performing calculations in a simple embedded system?",
+        "question_id": 1,
+        "topic": "digital systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "SCM tools like Git are essential for version control, allowing teams to track changes, collaborate effectively, and revert to previous states of their codebase, which is crucial for complex embedded projects.",
+        "is_correct": false,
+        "question": "What is the primary purpose of a Software Configuration Management (SCM) tool like Git in a development team working on embedded software?",
+        "question_id": 2,
+        "topic": "tools for software configuration management",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Inheritance is a fundamental OOP concept where one class (subclass) acquires the fields and methods of another class (superclass), promoting code reuse and establishing a hierarchical relationship.",
+        "is_correct": true,
+        "question": "In Object-Oriented Programming (OOP), what concept allows a new class to acquire properties and behaviors from an existing class?",
+        "question_id": 3,
+        "topic": "use object-oriented programming",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Python uses dynamic typing and does not require explicit type declaration for variables; `count = 50` is sufficient to declare and assign an integer value.",
+        "is_correct": true,
+        "question": "Which of the following is a correct way to declare an integer variable named 'count' and assign the value 50 in Python?",
+        "question_id": 4,
+        "topic": "Python",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Swift is the primary language for native iOS app development, and Xcode is the official integrated development environment (IDE) provided by Apple for this purpose. This is a common pattern for embedded systems interacting with mobile front-ends.",
+        "is_correct": false,
+        "question": "An embedded medical device communicates over Bluetooth Low Energy (BLE) with a companion application on an iPhone. Which language and IDE combination would be most appropriate for developing the iPhone application?",
+        "question_id": 5,
+        "topic": "Swift (computer programming) / Xcode",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Python and JavaScript (specifically Node.js for server-side execution) have vast ecosystems and are popular choices for scripting and application logic on Linux-based IoT devices due to their versatility, community support, and suitability for network-enabled tasks.",
+        "is_correct": true,
+        "question": "For an IoT gateway device running a lightweight Linux distribution, which two scripting languages are commonly used for tasks like local data processing, API interactions, and control logic, often favored for their extensive libraries and ease of deployment in such environments?",
+        "question_id": 6,
+        "topic": "Python / JavaScript",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Lisp's homoiconicity (where code is represented as data structures) and powerful macro system allow for advanced metaprogramming and the creation of highly expressive domain-specific languages, which are key differentiators from many other programming paradigms.",
+        "is_correct": false,
+        "question": "Compared to low-level languages like C, what is a distinctive characteristic of Lisp languages (including Common Lisp) often considered beneficial for tasks involving symbolic computation or creating highly adaptable domain-specific languages (DSLs)?",
+        "question_id": 7,
+        "topic": "Lisp / Common Lisp",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Haskell's mathematical foundation, strong type system, and functional purity lend themselves well to formal verification and proving correctness, which is invaluable for mission-critical and safety-critical systems, especially in higher-level embedded layers where some runtime abstraction is acceptable.",
+        "is_correct": false,
+        "question": "While generally not dominant in bare-metal embedded development due to runtime overhead and garbage collection, Haskell's strong static typing and functional purity can be advantageous in which specific embedded system scenario?",
+        "question_id": 8,
+        "topic": "Haskell / digital systems / programming",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Logic programming relies on a search and inference process which can lead to non-deterministic execution paths and substantial runtime overhead. This makes it unsuitable for the strict timing requirements and resource constraints of bare-metal, hard real-time embedded systems where predictable, fast execution is paramount.",
+        "is_correct": false,
+        "question": "A critical embedded system requires deterministic, fast execution with direct hardware access for a hard real-time task (e.g., motor control). Why is a language based on logic programming (e.g., Prolog) generally a poor choice for implementing the core control loop of such a system?",
+        "question_id": 9,
+        "topic": "use logic programming / digital systems / programming",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "While C++ can be highly optimized, its object-oriented features like virtual functions (requiring v-tables), RTTI, exceptions, and automatic dynamic memory allocations (if not strictly controlled) can introduce significant runtime overhead, larger code size, and less predictable execution. These factors are detrimental in resource-constrained, power-sensitive, and hard real-time embedded systems. A disciplined C or a highly constrained C++ subset is often preferred for bare-metal designs.",
+        "is_correct": false,
+        "question": "For a deeply embedded system managing a battery-powered wireless sensor network, developers are debating between using C with a structured, functional approach or C++ with a full object-oriented design. Given strict power constraints, a need for minimal memory footprint, and predictable execution, which design choice generally poses a higher risk for introducing overhead and why?",
+        "question_id": 10,
+        "topic": "digital systems / programming / use object-oriented programming",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: digital systems, tools for software configuration management, Swift (computer programming) / Xcode",
+      "✅ Your strongest areas: use object-oriented programming, Python"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "use object-oriented programming",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Python / JavaScript",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "digital systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Swift (computer programming) / Xcode",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Lisp / Common Lisp",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Haskell / digital systems / programming",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use logic programming / digital systems / programming",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "digital systems / programming / use object-oriented programming",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}
