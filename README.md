@@ -1,82 +1,116 @@
-# 🎓 GenMentor - AI-Powered Career Guidance System
+# 🧠 Cortex - AI-Powered Career Learning Path Generator
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.0%2B-green.svg)](https://flask.palletsprojects.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--5.2-412991.svg)](https://openai.com/)
+[![Gemini](https://img.shields.io/badge/Google-Gemini%202.5-4285F4.svg)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production-success.svg)](https://github.com/Manasvi-Vedanta/Hybrid-GenMentor)
 
-> An intelligent career guidance platform that uses advanced NLP and AI to generate personalized learning paths based on your career goals and current skills.
+> An intelligent career guidance platform combining **Retrieval-Augmented Generation (RAG)**, **ESCO taxonomy**, and **dual LLM support (GPT-5.2 / Gemini)** to generate personalized, skill-based learning paths.
 
 ---
 
 ## 🌟 Features
 
 ### Core Capabilities
-- 🎯 **Smart Career Matching**: Match user goals to 3,039+ occupations using semantic understanding
+- 🎯 **Smart Career Matching**: Match user goals to 3,039+ ESCO occupations using FAISS-based semantic search
 - 📚 **Personalized Learning Paths**: Generate structured learning plans with 13,939+ skills
-- 🧠 **Multiple Similarity Metrics**: 7 different algorithms for robust career matching
-- 🤖 **AI-Powered Content**: Intelligent content generation using Google Gemini 2.5 Pro
+- 🧠 **RAG Architecture**: Retrieval-Augmented Generation for factually grounded content
+- 🤖 **Dual LLM Support**: Switchable between OpenAI GPT-5.2 and Google Gemini 2.5
+- 📝 **AI Quiz Generation**: Auto-generate 10-question assessments with difficulty distribution
 - 📊 **Skill Gap Analysis**: Identify exactly what skills you need to learn
-- 🔄 **Dependency-Based Scheduling**: Learn skills in the optimal order
-- 💬 **User Feedback System**: Vote and suggest improvements to learning paths
-- 📈 **Performance Tracking**: Comprehensive testing and validation
+- 🔄 **Dependency-Based Scheduling**: Learn skills in optimal prerequisite order
+- 💬 **Community Feedback**: Vote, suggest, and rate learning resources
+- 📈 **Performance Analytics**: Comprehensive testing with detailed metrics
 
 ### Advanced Features
-- **Semantic Embeddings**: 768-dimensional vectors using all-mpnet-base-v2
+- **Semantic Embeddings**: 768-dimensional vectors using `all-mpnet-base-v2` Sentence Transformer
+- **FAISS Indexing**: Fast approximate nearest neighbor search for occupation matching
 - **Graph-Based Scheduling**: NetworkX for skill dependency resolution
-- **Multi-Strategy Matching**: Exact, partial, and semantic keyword matching
-- **Dynamic Boost Factors**: Domain-specific, keyword density, and career transition boosting
-- **LLM Integration**: Real-time session creation with Gemini 2.5 Pro
-- **RESTful API**: Clean JSON endpoints for easy integration
+- **Multi-Strategy Matching**: Exact, partial, and semantic keyword matching with boost factors
+- **Quiz Analysis Engine**: Strengths/weaknesses identification with personalized recommendations
+- **RESTful API**: Clean JSON endpoints for frontend integration
 
 ---
 
 ## 📊 System Performance
 
-Based on comprehensive testing (15 test cases):
+### Comprehensive Evaluation Results (20 Test Cases)
 
-| Metric | Value |
-|--------|-------|
-| **Success Rate** | 93.3% (14/15 passed) |
-| **Average Similarity Score** | 76.0% |
-| **Average Response Time** | 22.91 seconds |
-| **Timeout Rate** | 0% |
-| **Semantic Similarity (Cosine)** | 76.0% average |
-| **Weighted Average (7 metrics)** | 51.0% average |
+| Metric | GPT-5.2 | Gemini 2.5 |
+|--------|---------|------------|
+| **Success Rate** | 100% (20/20) | 100% (20/20) |
+| **Average Similarity Score** | 87.53% | 87.53% |
+| **Mean Skills per Path** | 32.8 | 14.0 |
+| **Path Generation Time** | 30.5s | 9.1s |
+| **Quiz Generation Time** | 29.2s | 24.4s |
+| **Total Evaluation Time** | 37 min | 21 min |
+
+### Feature Success Rates
+
+| Feature | Success |
+|---------|---------|
+| Learning Path Generation | 100% |
+| Quiz Generation (10 MCQs) | 100% |
+| Community Voting | 100% |
+| Skill Suggestions | 100% |
+| Path Regeneration | 100% |
+
+### Category Performance (Similarity Scores)
+
+| Category | Avg Similarity | Avg Skills |
+|----------|----------------|------------|
+| AI/ML | 94.09% | 26.3 |
+| Infrastructure | 93.04% | 38.0 |
+| Data Engineering | 91.17% | 28.5 |
+| Emerging Tech | 96.77% | 29.0 |
+| Systems | 94.06% | 40.0 |
 
 ---
 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                        User Request                          │
-└──────────────────────┬──────────────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────────────┐
-│                     Flask API Server                         │
-│  • /api/health  • /api/path  • /api/content  • /api/vote   │
-└──────────────────────┬──────────────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────────────┐
-│                      AI Engine Core                          │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  1. Goal Embedding (768-dim vectors)                 │  │
-│  │  2. Occupation Matching (3,039 careers)              │  │
-│  │  3. Similarity Calculation (7 algorithms)            │  │
-│  │  4. Skill Gap Analysis (13,939 skills)               │  │
-│  │  5. Dependency Graph (NetworkX)                      │  │
-│  │  6. LLM Session Creation (Gemini 2.5 Pro)            │  │
-│  └──────────────────────────────────────────────────────┘  │
-└──────────────────────┬──────────────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────────────┐
-│                  SQLite Database (ESCO)                      │
-│  • 3,039 Occupations  • 13,939 Skills  • 134,895 Relations │
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              User Request                                    │
+│                    "I want to become a Machine Learning Engineer"           │
+└───────────────────────────────────┬─────────────────────────────────────────┘
+                                    │
+                                    ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           Flask API Server                                   │
+│  /api/path  │  /api/quiz/generate  │  /api/vote  │  /api/suggestions        │
+└───────────────────────────────────┬─────────────────────────────────────────┘
+                                    │
+                    ┌───────────────┴───────────────┐
+                    ▼                               ▼
+┌───────────────────────────────┐   ┌───────────────────────────────┐
+│      RAG RETRIEVAL (R)        │   │       LLM GENERATION (G)      │
+│  ┌─────────────────────────┐  │   │  ┌─────────────────────────┐  │
+│  │ Sentence Transformer    │  │   │  │    GPT-5.2 / Gemini     │  │
+│  │ (all-mpnet-base-v2)     │  │   │  │    Temperature: 0.2-0.4 │  │
+│  │ 768-dim embeddings      │  │   │  │    Max Tokens: 2048-3000│  │
+│  └───────────┬─────────────┘  │   │  └───────────┬─────────────┘  │
+│              ▼                │   │              │                │
+│  ┌─────────────────────────┐  │   │              │                │
+│  │    FAISS Index Search   │  │   │              ▼                │
+│  │    occupation_faiss.idx │──┼───┼──► Augmented Prompt           │
+│  └───────────┬─────────────┘  │   │              │                │
+│              ▼                │   │              ▼                │
+│  ┌─────────────────────────┐  │   │  ┌─────────────────────────┐  │
+│  │   ESCO Skills Retrieval │  │   │  │  Structured Learning    │  │
+│  │   13,939+ skills        │  │   │  │  Path with Sessions     │  │
+│  └─────────────────────────┘  │   │  └─────────────────────────┘  │
+└───────────────────────────────┘   └───────────────────────────────┘
+                    │                               │
+                    └───────────────┬───────────────┘
+                                    ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           SQLite Database                                    │
+│   • 3,039 ESCO Occupations    • 13,939 Skills    • Skill Hierarchies       │
+│   • Community Votes           • User Suggestions  • Learning Resources      │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -114,9 +148,27 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. **Verify installation**
+4. **Configure LLM Provider**
+
+Edit `config.py` to set your preferred LLM:
+
+```python
+# For OpenAI GPT-5.2 (default)
+OPENAI_API_KEY = "your-openai-key"
+OPENAI_MODEL = "gpt-5.2-2025-12-11"
+
+# For Google Gemini
+GEMINI_API_KEY = "your-gemini-key"
+```
+
+Switch providers by commenting/uncommenting sections marked `--- GEMINI ---` or `--- OPENAI ---` in:
+- `ai_engine.py`
+- `quiz_generator.py`
+- `app.py`
+
+5. **Verify installation**
 ```bash
-python -c "import flask, sentence_transformers, google.generativeai; print('✅ All dependencies installed!')"
+python -c "import flask, sentence_transformers, openai; print('✅ All dependencies installed!')"
 ```
 
 ### Running the System
@@ -130,10 +182,10 @@ You should see:
 ```
 Loading sentence transformer model: all-mpnet-base-v2...
 ✅ Loaded all-mpnet-base-v2 (dimension: 768)
-✅ Gemini 2.5 Pro API configured successfully!
-✅ Advanced similarity metrics initialized
+✅ FAISS index initialized
+✅ Quiz generator initialized with OpenAI
 Loaded 3039 occupation embeddings
- * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000 (threaded)
 ```
 
 2. **Test the API**
@@ -173,14 +225,86 @@ GET /api/health
 ```json
 {
     "status": "healthy",
-    "message": "GenMentor API is running",
+    "message": "Cortex API is running",
     "model": "all-mpnet-base-v2",
     "embedding_dimension": 768,
-    "llm_available": true
+    "llm_available": true,
+    "llm_provider": "openai"
 }
 ```
 
-### 2. Generate Learning Path
+### 2. Generate Quiz
+Auto-generate a 10-question assessment for a learning path.
+
+```http
+POST /api/quiz/generate
+```
+
+**Request Body:**
+```json
+{
+    "learning_path": {
+        "sessions": [...],
+        "target_occupation": "Machine Learning Engineer"
+    }
+}
+```
+
+**Response:**
+```json
+{
+    "success": true,
+    "quiz": {
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is the primary purpose of feature scaling in ML?",
+                "options": {"A": "...", "B": "...", "C": "...", "D": "..."},
+                "correct_answer": "B",
+                "difficulty": "easy",
+                "topic": "Machine Learning",
+                "explanation": "..."
+            }
+        ],
+        "metadata": {
+            "total_questions": 10,
+            "difficulty_distribution": {"easy": 4, "medium": 3, "hard": 3}
+        }
+    }
+}
+```
+
+### 3. Submit Quiz Answers
+Submit answers and get performance analysis.
+
+```http
+POST /api/quiz/submit
+```
+
+**Request:**
+```json
+{
+    "quiz": {...},
+    "answers": {"1": "A", "2": "C", "3": "B", ...}
+}
+```
+
+**Response:**
+```json
+{
+    "analysis": {
+        "score": {"percentage": 70.0, "grade": "B"},
+        "strengths": [{"topic": "Python", "accuracy": 100.0}],
+        "weaknesses": [{"topic": "Deep Learning", "accuracy": 33.3}],
+        "recommendations": [
+            "🎯 Priority topics to review: Deep Learning",
+            "✅ Your strongest areas: Python, Statistics"
+        ]
+    }
+}
+```
+
+### 4. Generate Learning Path
 Get a personalized learning path based on career goals.
 
 ```http
@@ -237,28 +361,44 @@ For complete API documentation, visit `http://localhost:5000` when the server is
 
 ## 🧪 Testing
 
-### Run Comprehensive Test Suite
+### Run Full System Test (7 Features)
 
 ```bash
-python comprehensive_test_suite.py
+python full_system_test.py
 ```
 
-This will run:
-- **10 main test cases** (various career goals)
-- **5 edge cases** (empty skills, vague goals, special characters)
-- **5 performance tests** (response time benchmarking)
+**Expected Output:**
+```
+✅ Learning Path Generation    PASSED (27.46s)
+✅ Community Voting            PASSED (0.52s)
+✅ Skill Suggestions           PASSED (0.31s)
+✅ Quiz Generation             PASSED (28.42s)
+✅ Quiz Submission             PASSED (0.08s)
+✅ Feedback Statistics         PASSED (0.12s)
+✅ Path Regeneration           PASSED (26.49s)
+
+🎉 Test Success Rate: 100% (7/7)
+📊 Total Duration: 106.49 seconds
+```
+
+### Run Comprehensive Evaluation (20 Test Cases)
+
+```bash
+python comprehensive_evaluation_test.py
+```
 
 **Expected Output:**
 ```
 ======================================================================
- TEST SUITE SUMMARY
+ EVALUATION SUMMARY
 ======================================================================
-✅ Passed: 14
-❌ Failed: 0
-⚠️  Warnings: 1
-📊 Success Rate: 93.3%
-🎯 Avg Similarity: 76.0%
-⏱️  Avg Response Time: 22.91s
+✅ Passed: 20/20 (100%)
+📊 Avg Similarity: 87.53%
+🎯 Avg Skills/Path: 32.8
+⏱️  Total Time: 37.0 minutes
+📝 Quiz Questions: 200 generated
+
+Results saved to: evaluation_outputs_YYYYMMDD_HHMMSS/
 ```
 
 ---
@@ -277,15 +417,31 @@ This will run:
 
 ### API Keys
 
-The system requires a Google Gemini API key. You can:
+The system supports **dual LLM providers**. Configure in `config.py`:
 
-1. **Use the default key** (already configured in `config.py`)
-2. **Set your own key** as an environment variable:
-   ```powershell
-   $env:GOOGLE_API_KEY = "your-api-key-here"
-   ```
+| Provider | Environment Variable | Model |
+|----------|---------------------|-------|
+| OpenAI | `OPENAI_API_KEY` | gpt-5.2-2025-12-11 |
+| Google | `GOOGLE_API_KEY` | gemini-2.5-flash |
 
-### Model Configuration
+```powershell
+# Set OpenAI API key (recommended)
+$env:OPENAI_API_KEY = "sk-your-key-here"
+
+# Or set Gemini API key
+$env:GOOGLE_API_KEY = "your-gemini-key"
+```
+
+### LLM Parameters
+
+| Parameter | OpenAI GPT-5.2 | Gemini 2.5 Flash |
+|-----------|----------------|------------------|
+| Temperature | 0.2-0.4 | 0.2-0.4 |
+| Max Tokens | 500-3000 | 500-3000 |
+| Top P | 1.0 | 0.95 |
+| Response Format | JSON | JSON |
+
+### Embedding Model Configuration
 
 Switch sentence transformer models in `ai_engine.py`:
 
@@ -316,26 +472,27 @@ The system uses **7 different similarity algorithms**:
 ## 🗂️ Project Structure
 
 ```
-Hybrid-GenMentor/
+Cortex/
 ├── 📄 Core Application
-│   ├── app.py                      # Flask API server (449 lines)
-│   ├── ai_engine.py                # AI logic (1,713 lines)
-│   ├── similarity_metrics.py       # 7 algorithms (262 lines)
-│   └── config.py                   # Configuration
+│   ├── app.py                      # Flask API server
+│   ├── ai_engine.py                # AI logic + FAISS RAG (1,700+ lines)
+│   ├── quiz_generator.py           # LLM-powered quiz generation
+│   ├── similarity_metrics.py       # 7 similarity algorithms
+│   └── config.py                   # LLM provider configuration
 │
 ├── 🗄️ Database & Data
-│   ├── genmentor.db                # SQLite (151,895 records)
-│   ├── occupation_embeddings_all-mpnet-base-v2.pkl
-│   └── *.csv                       # ESCO data files
+│   ├── genmentor.db                # SQLite (99MB, 3,039 occupations)
+│   ├── occupation_faiss.index      # FAISS vector index
+│   └── *.csv                       # ESCO taxonomy data
 │
 ├── 🧪 Testing
-│   ├── comprehensive_test_suite.py # Test suite (589 lines)
-│   └── test_results_*.json         # Test outputs
+│   ├── full_system_test.py         # 7-feature test suite
+│   ├── comprehensive_evaluation_test.py  # 20-case evaluation
+│   └── evaluation_outputs_*/       # Test results
 │
 └── 📚 Documentation
     ├── README.md                   # This file
-    ├── COMPLETE_SYSTEM_EXPLANATION.md
-    └── *.md                        # Other docs
+    └── COMPLETE_SYSTEM_EXPLANATION.md
 ```
 
 ---
@@ -349,13 +506,17 @@ Hybrid-GenMentor/
 pip install -r requirements.txt
 ```
 
-**"Gemini API error"**:
-- Check API key in `config.py`
-- Verify internet connection
+**"OpenAI API error" / "Gemini API error"**:
+- Verify API key in `config.py` or environment variables
+- Check internet connection
+- Ensure API quota is not exceeded
+
+**"max_tokens" deprecation (OpenAI)**:
+- Use `max_completion_tokens` instead of `max_tokens` for OpenAI SDK v1.0+
 
 **Slow responses**:
-- Normal: 15-25 seconds
-- Reduce skill limit in `app.py` for faster responses
+- Normal: 15-30 seconds (includes LLM inference time)
+- Skill priority caching reduces repeated calls
 
 For more help, see [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md)
 
@@ -395,9 +556,11 @@ MIT License - see [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **ESCO** for skills taxonomy
-- **Sentence Transformers** team
-- **Google** for Gemini 2.5 Pro API
+- **ESCO** for comprehensive skills taxonomy (13,939 skills, 3,039 occupations)
+- **Sentence Transformers** team for `all-mpnet-base-v2`
+- **OpenAI** for GPT-5.2 API
+- **Google** for Gemini 2.5 Flash API
+- **FAISS** by Meta for fast vector similarity search
 - **Flask** community
 
 ---
