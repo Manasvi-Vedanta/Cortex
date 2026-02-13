@@ -1,0 +1,292 @@
+{
+  "cleaned_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 25,
+      "objectives": [],
+      "prerequisites": [],
+      "resources": [],
+      "session_number": 1,
+      "skills": [
+        "python",
+        "variables",
+        "data types",
+        "control flow"
+      ],
+      "title": "Python Fundamentals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 30,
+      "objectives": [],
+      "prerequisites": [
+        "Python Fundamentals"
+      ],
+      "resources": [],
+      "session_number": 2,
+      "skills": [
+        "classes",
+        "inheritance",
+        "polymorphism",
+        "encapsulation"
+      ],
+      "title": "Object-Oriented Programming"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 40,
+      "objectives": [],
+      "prerequisites": [
+        "Object-Oriented Programming"
+      ],
+      "resources": [],
+      "session_number": 3,
+      "skills": [
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "data analysis"
+      ],
+      "title": "Data Science with Python"
+    }
+  ],
+  "dependency_graph": {
+    "edges": [
+      {
+        "from": "session_1",
+        "label": "requires",
+        "to": "session_2"
+      },
+      {
+        "from": "session_2",
+        "label": "requires",
+        "to": "session_3"
+      }
+    ],
+    "levels": [
+      {
+        "level": 0,
+        "sessions": [
+          "session_1"
+        ]
+      },
+      {
+        "level": 1,
+        "sessions": [
+          "session_2"
+        ]
+      },
+      {
+        "level": 2,
+        "sessions": [
+          "session_3"
+        ]
+      }
+    ],
+    "max_level": 2,
+    "metrics": {
+      "complexity_score": 0.6666666666666666,
+      "independent_sessions": 1,
+      "total_dependencies": 2,
+      "total_sessions": 3
+    },
+    "nodes": [
+      {
+        "color": "#4CAF50",
+        "difficulty": "beginner",
+        "duration_hours": 25,
+        "id": "session_1",
+        "label": "Python Fundamentals",
+        "session_number": 1,
+        "skills_count": 4
+      },
+      {
+        "color": "#FF9800",
+        "difficulty": "intermediate",
+        "duration_hours": 30,
+        "id": "session_2",
+        "label": "Object-Oriented Programming",
+        "session_number": 2,
+        "skills_count": 4
+      },
+      {
+        "color": "#F44336",
+        "difficulty": "advanced",
+        "duration_hours": 40,
+        "id": "session_3",
+        "label": "Data Science with Python",
+        "session_number": 3,
+        "skills_count": 4
+      }
+    ]
+  },
+  "gantt_data": {
+    "estimated_completion_date": "2025-11-12T08:57:03.580819",
+    "start_date": "2025-10-31T11:57:03.580819",
+    "tasks": [
+      {
+        "dependencies": [],
+        "difficulty": "beginner",
+        "duration_days": 3.1,
+        "duration_hours": 25,
+        "end": "2025-11-03T14:57:03.580819",
+        "id": "session_1",
+        "name": "Python Fundamentals",
+        "progress": 0,
+        "skills_count": 4,
+        "start": "2025-10-31T11:57:03.580819"
+      },
+      {
+        "dependencies": [
+          "Python Fundamentals"
+        ],
+        "difficulty": "intermediate",
+        "duration_days": 3.8,
+        "duration_hours": 30,
+        "end": "2025-11-07T08:57:03.580819",
+        "id": "session_2",
+        "name": "Object-Oriented Programming",
+        "progress": 0,
+        "skills_count": 4,
+        "start": "2025-11-03T14:57:03.580819"
+      },
+      {
+        "dependencies": [
+          "Object-Oriented Programming"
+        ],
+        "difficulty": "advanced",
+        "duration_days": 5.0,
+        "duration_hours": 40,
+        "end": "2025-11-12T08:57:03.580819",
+        "id": "session_3",
+        "name": "Data Science with Python",
+        "progress": 0,
+        "skills_count": 4,
+        "start": "2025-11-07T08:57:03.580819"
+      }
+    ],
+    "title": "Learning Path Timeline",
+    "total_duration_days": 11,
+    "total_duration_hours": 95
+  },
+  "skills_timeline": {
+    "sessions": [
+      {
+        "end_hour": 25,
+        "session_number": 1,
+        "skills": [
+          "python",
+          "variables",
+          "data types",
+          "control flow"
+        ],
+        "start_hour": 0,
+        "title": "Python Fundamentals"
+      },
+      {
+        "end_hour": 55,
+        "session_number": 2,
+        "skills": [
+          "classes",
+          "inheritance",
+          "polymorphism",
+          "encapsulation"
+        ],
+        "start_hour": 25,
+        "title": "Object-Oriented Programming"
+      },
+      {
+        "end_hour": 95,
+        "session_number": 3,
+        "skills": [
+          "pandas",
+          "numpy",
+          "matplotlib",
+          "data analysis"
+        ],
+        "start_hour": 55,
+        "title": "Data Science with Python"
+      }
+    ],
+    "skills": [
+      {
+        "learned_at_hour": 0,
+        "learned_in_session": 1,
+        "session_title": "Python Fundamentals",
+        "skill_name": "python"
+      },
+      {
+        "learned_at_hour": 0,
+        "learned_in_session": 1,
+        "session_title": "Python Fundamentals",
+        "skill_name": "variables"
+      },
+      {
+        "learned_at_hour": 0,
+        "learned_in_session": 1,
+        "session_title": "Python Fundamentals",
+        "skill_name": "data types"
+      },
+      {
+        "learned_at_hour": 0,
+        "learned_in_session": 1,
+        "session_title": "Python Fundamentals",
+        "skill_name": "control flow"
+      },
+      {
+        "learned_at_hour": 25,
+        "learned_in_session": 2,
+        "session_title": "Object-Oriented Programming",
+        "skill_name": "classes"
+      },
+      {
+        "learned_at_hour": 25,
+        "learned_in_session": 2,
+        "session_title": "Object-Oriented Programming",
+        "skill_name": "inheritance"
+      },
+      {
+        "learned_at_hour": 25,
+        "learned_in_session": 2,
+        "session_title": "Object-Oriented Programming",
+        "skill_name": "polymorphism"
+      },
+      {
+        "learned_at_hour": 25,
+        "learned_in_session": 2,
+        "session_title": "Object-Oriented Programming",
+        "skill_name": "encapsulation"
+      },
+      {
+        "learned_at_hour": 55,
+        "learned_in_session": 3,
+        "session_title": "Data Science with Python",
+        "skill_name": "pandas"
+      },
+      {
+        "learned_at_hour": 55,
+        "learned_in_session": 3,
+        "session_title": "Data Science with Python",
+        "skill_name": "numpy"
+      },
+      {
+        "learned_at_hour": 55,
+        "learned_in_session": 3,
+        "session_title": "Data Science with Python",
+        "skill_name": "matplotlib"
+      },
+      {
+        "learned_at_hour": 55,
+        "learned_in_session": 3,
+        "session_title": "Data Science with Python",
+        "skill_name": "data analysis"
+      }
+    ],
+    "total_hours": 95
+  },
+  "validation": {
+    "issues": [],
+    "total_sessions": 3,
+    "valid": true
+  }
+}

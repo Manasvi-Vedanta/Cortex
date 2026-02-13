@@ -1,0 +1,52 @@
+{
+  "test_id": "04",
+  "goal": "I want to become a Backend Developer.",
+  "short_name": "Backend Developer",
+  "category": "Web Development",
+  "matched_occupation": "user interface developer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/866c7813-2c03-47d7-9bdc-192cfbace57c",
+  "similarity_score": 0.7806129455566406,
+  "total_skills": 15,
+  "total_sessions": 3,
+  "skills_list": [
+    "programming",
+    "web programming",
+    "use logic programming",
+    "use object-oriented programming",
+    "NoSQL",
+    "JavaScript",
+    "Python",
+    "use query languages",
+    "Erlang",
+    "Ruby",
+    "Java",
+    "Haskell",
+    "SAS language",
+    "Common Lisp",
+    "Lisp"
+  ],
+  "session_durations": [
+    20,
+    20,
+    20
+  ],
+  "path_generation_time": 8.610589742660522,
+  "quiz_generation_time": 29.352288007736206,
+  "total_test_time": 66.77201080322266,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 40.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

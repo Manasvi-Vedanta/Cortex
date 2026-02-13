@@ -1,0 +1,46 @@
+{
+  "test_suite": "GenMentor Enhanced Test Suite",
+  "timestamp": "2025-11-28T09:33:10.101613",
+  "summary": {
+    "total_tests": 25,
+    "successful_tests": 25,
+    "failed_tests": 0,
+    "success_rate": 100.0
+  },
+  "performance_metrics": {
+    "skill_gap_analysis": {
+      "avg": 23.77,
+      "min": 1.13,
+      "max": 55.77,
+      "std": 14.68
+    },
+    "learning_path_generation": {
+      "avg": 6.48,
+      "min": 4.12,
+      "max": 10.64,
+      "std": 1.49
+    },
+    "total_processing": {
+      "avg": 32.18,
+      "min": 9.33,
+      "max": 64.21,
+      "std": 14.91
+    }
+  },
+  "similarity_scores": {
+    "average": 85.75,
+    "median": 84.9,
+    "min": 69.87,
+    "max": 99.09,
+    "std": 8.84,
+    "distribution": {
+      "excellent (>90%)": 10,
+      "good (70-90%)": 13,
+      "fair (50-70%)": 2,
+      "poor (<50%)": 0
+    }
+  },
+  "relevance_analysis": {
+    "average_score": 95.04,
+    "median_score": 95.0,
+    "min_score": 

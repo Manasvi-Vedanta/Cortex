@@ -1,0 +1,276 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Install and configure Android Studio for Android development",
+        "Create and run a basic Kotlin Android project",
+        "Understand the role of the Android Sdk and Gradle in building and running apps"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Android Studio",
+        "Android Sdk",
+        "Kotlin",
+        "Gradle (Android Build System)",
+        "integrated development environment software",
+        "programming"
+      ],
+      "title": "Android Development Environment Setup and First Kotlin App"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use debugging tools to inspect app state during runtime",
+        "Identify and fix common runtime issues in a Kotlin Android app",
+        "Practice iterative testing and verification while developing"
+      ],
+      "prerequisites": [
+        "Android Studio",
+        "Kotlin",
+        "Android Sdk",
+        "Gradle (Android Build System)"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Android Studio",
+        "debug software",
+        "Kotlin",
+        "programming",
+        "integrated development environment software"
+      ],
+      "title": "Debugging Fundamentals in Android Studio"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build UI screens using Jetpack Compose",
+        "Structure UI code for readability and reuse",
+        "Run and validate UI changes through the development workflow"
+      ],
+      "prerequisites": [
+        "Kotlin",
+        "Android Studio",
+        "Android Sdk"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Jetpack Compose",
+        "Kotlin",
+        "Android Studio",
+        "Android Sdk",
+        "programming"
+      ],
+      "title": "UI Development with Jetpack Compose"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Manage UI state using Viewmodel",
+        "Handle screen lifecycle changes safely",
+        "Connect UI built with Jetpack Compose to Viewmodel-driven state"
+      ],
+      "prerequisites": [
+        "Jetpack Compose",
+        "Kotlin"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "Jetpack Compose",
+        "Kotlin",
+        "programming"
+      ],
+      "title": "App Architecture with Android Jetpack: Lifecycle and Viewmodel"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Coroutines to perform background work safely",
+        "Integrate Coroutines with Viewmodel-based state management",
+        "Avoid UI blocking while performing long-running operations"
+      ],
+      "prerequisites": [
+        "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "Kotlin"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Coroutines",
+        "Kotlin",
+        "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "programming"
+      ],
+      "title": "Asynchronous Programming with Coroutines"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Perform Json/Http requests to a REST endpoint",
+        "Parse and use API responses in the app",
+        "Combine Coroutines with network calls to keep the UI responsive"
+      ],
+      "prerequisites": [
+        "Coroutines",
+        "Kotlin"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Rest Apis (Json/Http)",
+        "Coroutines",
+        "Kotlin",
+        "Android Sdk",
+        "programming"
+      ],
+      "title": "Networking with Rest Apis (Json/Http)"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design a local persistence layer using Room concepts",
+        "Store and retrieve app data locally",
+        "Connect persisted data to UI state updates"
+      ],
+      "prerequisites": [
+        "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "Kotlin"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Sqlite/Room Persistence",
+        "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "Kotlin",
+        "programming"
+      ],
+      "title": "Local Data Storage with Sqlite/Room Persistence"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement multi-screen navigation",
+        "Pass data between screens while preserving state",
+        "Validate navigation behavior through debugging"
+      ],
+      "prerequisites": [
+        "Jetpack Compose",
+        "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "Jetpack Compose",
+        "Android Studio",
+        "debug software",
+        "programming"
+      ],
+      "title": "Navigation and Screen Flow with Android Jetpack"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply Dependency Injection to manage object creation and lifecycles",
+        "Integrate Dependency Injection with Viewmodel and persistence usage",
+        "Improve modularity and testability through structured dependencies"
+      ],
+      "prerequisites": [
+        "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "Kotlin"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Dependency Injection (Hilt/Dagger)",
+        "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "Kotlin",
+        "programming"
+      ],
+      "title": "Dependency Injection with Hilt/Dagger"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Configure build variants and dependencies using Gradle",
+        "Understand how Gradle interacts with the Android Sdk and Android Studio",
+        "Troubleshoot common build and dependency issues"
+      ],
+      "prerequisites": [
+        "Android Studio",
+        "Android Sdk",
+        "Kotlin"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Gradle (Android Build System)",
+        "Android Sdk",
+        "Android Studio",
+        "programming",
+        "integrated development environment software"
+      ],
+      "title": "Build Configuration and Project Structure with Gradle"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply a repeatable workflow for managing changes in an Android project",
+        "Coordinate project updates alongside Gradle configuration changes",
+        "Maintain a stable development process across iterations"
+      ],
+      "prerequisites": [
+        "Android Studio",
+        "Gradle (Android Build System)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "tools for software configuration management",
+        "Gradle (Android Build System)",
+        "Android Studio",
+        "programming"
+      ],
+      "title": "Software Configuration Management Workflow for Android Projects"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Relate digital systems fundamentals to device behavior and performance constraints",
+        "Reason about how underlying system behavior can influence app responsiveness",
+        "Use debugging observations to connect software behavior to system-level effects"
+      ],
+      "prerequisites": [
+        "programming"
+      ],
+      "session_number": 12,
+      "skills": [
+        "digital systems",
+        "debug software",
+        "programming"
+      ],
+      "title": "Digital Systems Concepts for Mobile Developers"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Mobile application developers implement applications software for mobile devices, based on the designs provided, using general or specific development tools for device operating systems.",
+    "label": "mobile application developer",
+    "similarity_score": 0.8564530611038208,
+    "uri": "http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 34,
+    "skills_in_path": 12,
+    "skills_to_learn": 34,
+    "total_skills_needed": 35
+  },
+  "user_id": "eval_user_09"
+}

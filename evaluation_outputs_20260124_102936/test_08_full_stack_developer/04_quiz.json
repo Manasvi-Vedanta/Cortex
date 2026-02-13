@@ -1,0 +1,175 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:38:12.850393",
+      "learning_path_id": "test_08",
+      "target_occupation": "web developer",
+      "total_questions": 10,
+      "total_topics": 13
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "The `<body>` element contains all the contents of an HTML document that are visible to the user, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. The `<head>` contains metadata, not visible content.",
+        "id": 1,
+        "options": {
+          "A": "<head>",
+          "B": "<body>",
+          "C": "<footer>",
+          "D": "<section>"
+        },
+        "question": "Which HTML tag is primarily used to define the main, visible content area of a web page?",
+        "topic": "use markup languages"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The `color` property in CSS is specifically used to set the foreground color of an element's text content. `background-color` changes the background, and `font-color` and `text-style` are not standard CSS properties for this purpose.",
+        "id": 2,
+        "options": {
+          "A": "background-color",
+          "B": "font-color",
+          "C": "color",
+          "D": "text-style"
+        },
+        "question": "In CSS, which property is used to change the text color of an element?",
+        "topic": "CSS"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`let` declares a block-scoped local variable that can be reassigned. `var` is function-scoped. `const` declares a block-scoped constant, meaning its value cannot be reassigned after initialization. `variable` is not a valid keyword for declaration.",
+        "id": 3,
+        "options": {
+          "A": "var myVar = 10;",
+          "B": "let myVar = 10;",
+          "C": "const myVar = 10;",
+          "D": "variable myVar = 10;"
+        },
+        "question": "What is the correct way to declare a variable with block scope that can be reassigned in JavaScript?",
+        "topic": "JavaScript"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "easy",
+        "explanation": "The `GET` method is designed to retrieve data from a specified resource. It should be idempotent and safe, meaning it doesn't cause side effects on the server. `POST`, `PUT`, and `DELETE` are used for creating, updating, and removing resources, respectively.",
+        "id": 4,
+        "options": {
+          "A": "POST",
+          "B": "PUT",
+          "C": "DELETE",
+          "D": "GET"
+        },
+        "question": "Which HTTP method is primarily used to request data from a specified resource without altering server state?",
+        "topic": "web programming"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "JavaScript frameworks like React, Angular, and Vue are primarily designed to streamline front-end development, especially for complex UIs and SPAs. They offer component-based architectures, state management, and declarative ways to build interfaces, which are major advantages over plain JavaScript for large projects.",
+        "id": 5,
+        "options": {
+          "A": "They compile JavaScript code into machine language for faster execution.",
+          "B": "They provide robust server-side routing and database ORM capabilities.",
+          "C": "They simplify the development of complex, interactive user interfaces (UIs) and single-page applications (SPAs) through component-based architectures.",
+          "D": "They eliminate the need for HTML and CSS by generating all UI elements programmatically."
+        },
+        "question": "Which of the following best describes the primary advantage of using a JavaScript framework like React, Angular, or Vue for front-end development?",
+        "topic": "JavaScript Framework"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The standard Git workflow involves `git add .` to stage all modified and new files, `git commit -m \"Message\"` to save these staged changes to the local repository, and `git push origin main` (or your branch name) to upload the local commits to the remote repository named 'origin' on the 'main' branch.",
+        "id": 6,
+        "options": {
+          "A": "git pull && git commit -m \"Message\"",
+          "B": "git push && git merge origin/main",
+          "C": "git add . && git commit -m \"Message\" && git push origin main",
+          "D": "git save && git upload"
+        },
+        "question": "After making changes to a file in your local Git repository, which sequence of commands is typically used to stage the changes, commit them locally, and then send them to a remote repository?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "In MongoDB, a `document` is a set of key-value pairs (BSON objects), which is the basic unit of data. It is analogous to a row or record in a relational database. `Collections` are groups of documents, analogous to tables, and MongoDB is schema-less.",
+        "id": 7,
+        "options": {
+          "A": "Table",
+          "B": "Document",
+          "C": "Collection",
+          "D": "Schema"
+        },
+        "question": "In MongoDB, what is the fundamental unit of data storage, analogous to a row in a relational database table?",
+        "topic": "MongoDB"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "`PersistentVolume` (PV) represents a piece of physical storage provisioned in the cluster, while `PersistentVolumeClaim` (PVC) is a request for storage by a user/application. Together, they provide an abstraction layer for persistent storage, allowing applications to consume storage without knowing the underlying infrastructure details.",
+        "id": 8,
+        "options": {
+          "A": "Deployment and Service",
+          "B": "Ingress and ConfigMap",
+          "C": "PersistentVolumeClaim and PersistentVolume",
+          "D": "Namespace and Secret"
+        },
+        "question": "A containerized web application deployed on Kubernetes requires persistent storage for its database. Which Kubernetes objects are primarily used to abstract and provision persistent storage resources for applications?",
+        "topic": "Kubernetes"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Redis is an extremely fast in-memory data store, making it ideal for caching frequently accessed data (like database query results) and managing transient data such as user sessions. This reduces the load on the primary (SQL) database and significantly improves application response times under high traffic. It's not typically used as a primary transactional database, for long-term archival, or for complex analytical queries.",
+        "id": 9,
+        "options": {
+          "A": "Replace the SQL database entirely with Redis for all primary data storage.",
+          "B": "Use Redis for long-term archival storage of infrequently accessed historical data.",
+          "C": "Implement Redis as an in-memory caching layer for frequently read database queries and user session data.",
+          "D": "Utilize Redis for executing complex analytical queries across very large, unstructured datasets."
+        },
+        "question": "Your high-traffic web application relies heavily on frequently accessed data from a traditional SQL database, leading to performance bottlenecks. Which of the following is the most effective way to leverage Redis in this scenario?",
+        "topic": "Redis"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "The industry best practice for storing passwords is to hash them using a strong, one-way cryptographic hash function (like bcrypt, scrypt, or Argon2) with a unique, randomly generated salt for each user. This prevents direct recovery of passwords and makes dictionary and rainbow table attacks ineffective. Plain text storage (even in an encrypted column), Base64 encoding (which is reversible), and symmetric encryption (where the key could be compromised) are all insecure.",
+        "id": 10,
+        "options": {
+          "A": "Storing passwords as plain text in an encrypted database column.",
+          "B": "Encoding passwords using Base64 before storing them.",
+          "C": "Hashing passwords using a cryptographically secure, one-way function (e.g., bcrypt, Argon2) with a unique random salt for each user.",
+          "D": "Encrypting passwords with a symmetric key and storing the key securely on the server."
+        },
+        "question": "When developing a web application backend using Python (e.g., with Flask or Django), what is the most secure and recommended method for storing user passwords in a database?",
+        "topic": "Python"
+      }
+    ],
+    "topics_covered": [
+      "web programming",
+      "JavaScript",
+      "JavaScript Framework",
+      "Python",
+      "CSS",
+      "use markup languages",
+      "tools for software configuration management",
+      "use e-services",
+      "Kubernetes",
+      "Redis",
+      "develop digital content",
+      "style sheet languages",
+      "MongoDB"
+    ]
+  },
+  "success": true
+}

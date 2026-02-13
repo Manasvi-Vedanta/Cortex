@@ -1,0 +1,241 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build core intuition and working knowledge of vectors, matrices, derivatives, and probability needed for modern Machine Learning",
+        "Apply key concepts from linear algebra, calculus, probability, and statistics to common learning problems"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Mathematics (Linear Algebra, Calculus, Probability, Statistics)"
+      ],
+      "title": "Mathematical Foundations for Machine Learning"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Python to implement core Machine Learning computations and experiments",
+        "Structure code to support iterative experimentation and reproducible results"
+      ],
+      "prerequisites": [
+        "Mathematics (Linear Algebra, Calculus, Probability, Statistics)"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Python",
+        "Machine Learning"
+      ],
+      "title": "Python for Machine Learning Workflows"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand gradient-based optimization and how it drives model training",
+        "Recognize when convex optimization assumptions apply and how they affect solutions"
+      ],
+      "prerequisites": [
+        "Mathematics (Linear Algebra, Calculus, Probability, Statistics)",
+        "Python"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Optimization (Gradient-Based Methods, Convex Optimization)",
+        "Machine Learning"
+      ],
+      "title": "Optimization Essentials for Learning Algorithms"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Train baseline Machine Learning models and reason about bias/variance and generalization",
+        "Design experiments to compare approaches under controlled conditions"
+      ],
+      "prerequisites": [
+        "Python",
+        "Mathematics (Linear Algebra, Calculus, Probability, Statistics)",
+        "Optimization (Gradient-Based Methods, Convex Optimization)"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Machine Learning",
+        "Research Methodology & Experimental Design"
+      ],
+      "title": "Core Machine Learning: Models, Training, and Generalization"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select appropriate evaluation protocols and metrics for reliable comparison",
+        "Build benchmarking routines to detect overfitting, leakage, and unstable results"
+      ],
+      "prerequisites": [
+        "Machine Learning",
+        "Research Methodology & Experimental Design"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Model Evaluation & Benchmarking",
+        "Machine Learning"
+      ],
+      "title": "Model Evaluation & Benchmarking in Practice"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement and train neural networks using Pytorch",
+        "Connect optimization behavior to Deep Learning training dynamics"
+      ],
+      "prerequisites": [
+        "Python",
+        "Machine Learning",
+        "Mathematics (Linear Algebra, Calculus, Probability, Statistics)"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Deep Learning",
+        "Pytorch",
+        "Optimization (Gradient-Based Methods, Convex Optimization)"
+      ],
+      "title": "Deep Learning Fundamentals with Pytorch"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build and evaluate Deep Learning approaches for Natural Language Processing tasks",
+        "Design benchmarking experiments for Natural Language Processing models"
+      ],
+      "prerequisites": [
+        "Deep Learning",
+        "Pytorch",
+        "Machine Learning"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Natural Language Processing",
+        "Deep Learning",
+        "Model Evaluation & Benchmarking"
+      ],
+      "title": "Natural Language Processing with Deep Learning"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Train and evaluate Deep Learning models for Computer Vision tasks",
+        "Compare model variants using consistent evaluation and benchmarking practices"
+      ],
+      "prerequisites": [
+        "Deep Learning",
+        "Pytorch",
+        "Machine Learning"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Computer Vision",
+        "Deep Learning",
+        "Model Evaluation & Benchmarking"
+      ],
+      "title": "Computer Vision with Deep Learning"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand core Reinforcement Learning problem formulations and training loops",
+        "Design experiments to evaluate Reinforcement Learning agents under controlled settings"
+      ],
+      "prerequisites": [
+        "Machine Learning",
+        "Deep Learning",
+        "Optimization (Gradient-Based Methods, Convex Optimization)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Reinforcement Learning",
+        "Research Methodology & Experimental Design",
+        "Model Evaluation & Benchmarking"
+      ],
+      "title": "Reinforcement Learning: Foundations and Experiments"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Scale Deep Learning training using Distributed Training & High-Performance Computing (Gpu/Cuda) concepts",
+        "Identify bottlenecks and design benchmarking to validate scaling behavior"
+      ],
+      "prerequisites": [
+        "Deep Learning",
+        "Pytorch",
+        "Python"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Distributed Training & High-Performance Computing (Gpu/Cuda)",
+        "Deep Learning",
+        "Model Evaluation & Benchmarking"
+      ],
+      "title": "Distributed Training & High-Performance Computing (Gpu/Cuda) for Deep Learning"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply scientific research methodology to plan, document, and justify empirical studies",
+        "Manage research data to support traceability, reuse, and reliable analysis"
+      ],
+      "prerequisites": [
+        "Research Methodology & Experimental Design"
+      ],
+      "session_number": 11,
+      "skills": [
+        "scientific research methodology",
+        "manage research data"
+      ],
+      "title": "Scientific Research Methodology and Research Data Management"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write research proposals with clear problem statements, methods, evaluation plans, and risk mitigation",
+        "Align proposed experiments with appropriate benchmarking and data management plans"
+      ],
+      "prerequisites": [
+        "scientific research methodology",
+        "manage research data",
+        "Machine Learning"
+      ],
+      "session_number": 12,
+      "skills": [
+        "write research proposals",
+        "Research Methodology & Experimental Design",
+        "Model Evaluation & Benchmarking"
+      ],
+      "title": "Write Research Proposals for Machine Learning and Deep Learning Projects"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Computer scientists conduct research in computer and information science, directed toward greater knowledge and understanding of fundamental aspects of ICT phenomena. They write research reports and proposals. Computer scientists also invent and design new approaches to computing technology, find innovative uses for existing technology and studies and solve complex problems in computing.",
+    "label": "computer scientist",
+    "similarity_score": 0.8482394814491272,
+    "uri": "http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 36,
+    "skills_in_path": 12,
+    "skills_to_learn": 36,
+    "total_skills_needed": 37
+  },
+  "user_id": "eval_user_14"
+}

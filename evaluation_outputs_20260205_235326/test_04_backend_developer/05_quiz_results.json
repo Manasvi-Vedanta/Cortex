@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-05T23:59:23.563060",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <name> creates a new branch and checks it out immediately.",
+        "is_correct": false,
+        "question": "In Git, which command creates a new branch named \"feature/login\" and switches to it in one step?",
+        "question_id": 1,
+        "topic": "Git And Version Control",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is designed for safe retrieval of resources and should not change server state.",
+        "is_correct": false,
+        "question": "Which HTTP method is typically used to retrieve a resource without modifying server state?",
+        "question_id": 2,
+        "topic": "Http/Https Fundamentals",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "ls -l shows long format; -a includes hidden files; combined as ls -la.",
+        "is_correct": false,
+        "question": "In Linux, which command lists files (including hidden ones) in the current directory in long format?",
+        "question_id": 3,
+        "topic": "Linux And Command Line",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Back/forward behavior is LIFO, which is naturally modeled with stacks.",
+        "is_correct": false,
+        "question": "Which data structure is best suited for implementing browser back/forward navigation history?",
+        "question_id": 4,
+        "topic": "Data Structures And Algorithms",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "PATCH is intended for partial updates of a resource, while PUT typically replaces the full resource representation.",
+        "is_correct": false,
+        "question": "You are building a REST API endpoint to update only a user's displayName. Which approach best matches REST semantics?",
+        "question_id": 5,
+        "topic": "Restful Api Design",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "PostgreSQL/MySQL use ORDER BY ... DESC with LIMIT for top-N queries.",
+        "is_correct": false,
+        "question": "In SQL, which query correctly returns the 10 most recently created UI components from a table named components?",
+        "question_id": 6,
+        "topic": "Sql (Postgresql/Mysql)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "3NF reduces transitive dependencies by moving customer_name to a customers table keyed by customer_id.",
+        "is_correct": true,
+        "question": "You have tables: orders(order_id, customer_id, customer_name). customer_name depends only on customer_id and is duplicated across many orders. Which change best moves the design toward 3NF?",
+        "question_id": 7,
+        "topic": "Database Design And Normalization",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "HttpOnly cookies are not readable by JavaScript, reducing XSS token theft risk; Secure and SameSite further harden transport and CSRF posture.",
+        "is_correct": true,
+        "question": "A single-page app stores a JWT access token in localStorage and sends it on every request. A security review flags high risk of token theft. Which change most directly reduces exposure to XSS-based token exfiltration while keeping a cookie-based session?",
+        "question_id": 8,
+        "topic": "Authentication And Authorization (Oauth2/Jwt)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Write-through or explicit invalidation on writes ensures the cache reflects updates and avoids stale reads.",
+        "is_correct": false,
+        "question": "Your UI calls GET /api/profile frequently. You add Redis caching to reduce database load. Profile updates happen via PUT /api/profile. Which caching strategy best prevents serving stale data after an update?",
+        "question_id": 9,
+        "topic": "Caching (Redis/Memcached)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Queue-based async processing decouples request/response from long-running work; returning 202 with a job ID supports UI progress tracking and reliability.",
+        "is_correct": false,
+        "question": "A UI triggers an image-processing job. The API should respond quickly and processing may take minutes. Which design best fits using a message queue (RabbitMQ/Kafka) to keep the UI responsive and the system reliable?",
+        "question_id": 10,
+        "topic": "Message Queues And Event Streaming (Kafka/Rabbitmq)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Git And Version Control, Http/Https Fundamentals, Linux And Command Line",
+      "✅ Your strongest areas: Database Design And Normalization, Authentication And Authorization (Oauth2/Jwt)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Database Design And Normalization",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Authentication And Authorization (Oauth2/Jwt)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Git And Version Control",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Http/Https Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux And Command Line",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Structures And Algorithms",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Restful Api Design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql (Postgresql/Mysql)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Caching (Redis/Memcached)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Message Queues And Event Streaming (Kafka/Rabbitmq)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:18:51.412405",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The dot product returns a scalar equal to ||a||·||b||·cos(theta), capturing alignment/similarity and projection.",
+        "is_correct": true,
+        "question": "In linear algebra, what does the dot product of two vectors primarily compute?",
+        "question_id": 1,
+        "topic": "Mathematics (Linear Algebra, Calculus, Probability, Statistics)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Lists can be modified in place (append, assignment), while tuples cannot be changed after creation.",
+        "is_correct": false,
+        "question": "In Python, what is the main difference between a list and a tuple?",
+        "question_id": 2,
+        "topic": "Python",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "F1-score balances precision and recall, making it more informative than accuracy under class imbalance.",
+        "is_correct": false,
+        "question": "Which metric is most appropriate for evaluating a binary classifier on a highly imbalanced dataset when you care about performance on the minority class?",
+        "question_id": 3,
+        "topic": "Model Evaluation & Benchmarking",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Without non-linear activations, stacked layers collapse into an equivalent linear transformation.",
+        "is_correct": false,
+        "question": "In deep learning, what is the primary purpose of an activation function like ReLU?",
+        "question_id": 4,
+        "topic": "Deep Learning",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Gradient descent minimizes the loss by stepping in the negative gradient direction: w ← w − η∇L(w).",
+        "is_correct": false,
+        "question": "You are training logistic regression with gradient descent. Which update rule is correct for parameters w with learning rate η and gradient ∇L(w)?",
+        "question_id": 5,
+        "topic": "Optimization (Gradient-Based Methods, Convex Optimization)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "model.eval() sets inference behavior for certain layers, and torch.no_grad() disables autograd tracking to save memory/compute.",
+        "is_correct": false,
+        "question": "In PyTorch, which snippet correctly prevents gradient tracking during evaluation/inference?",
+        "question_id": 6,
+        "topic": "Pytorch",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Nested CV separates hyperparameter selection from performance estimation, reducing optimistic bias from test leakage.",
+        "is_correct": false,
+        "question": "You want to estimate a model’s generalization performance while tuning hyperparameters without leaking test information. Which approach is best?",
+        "question_id": 7,
+        "topic": "Research Methodology & Experimental Design",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Gradient checkpointing trades extra compute for lower memory by not storing all activations and recomputing them during backward pass.",
+        "is_correct": false,
+        "question": "You are fine-tuning a large Transformer for NLP with limited GPU memory. Which change most directly reduces activation memory during backprop while keeping the same model architecture?",
+        "question_id": 8,
+        "topic": "Natural Language Processing",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The deadly triad (function approximation + bootstrapping + off-policy learning) can lead to divergence due to moving targets and distribution shift.",
+        "is_correct": false,
+        "question": "In reinforcement learning, why can off-policy Q-learning diverge when combined with function approximation and bootstrapping (e.g., neural networks)?",
+        "question_id": 9,
+        "topic": "Reinforcement Learning",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Mixed precision reduces gradient tensor size (and often enables faster kernels), decreasing all-reduce communication time and improving scaling.",
+        "is_correct": false,
+        "question": "You are running distributed data-parallel training across 8 GPUs and observe poor scaling. Profiling shows long stalls during gradient synchronization. Which change most directly targets this bottleneck?",
+        "question_id": 10,
+        "topic": "Distributed Training & High-Performance Computing (Gpu/Cuda)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Python, Model Evaluation & Benchmarking, Deep Learning",
+      "✅ Your strongest areas: Mathematics (Linear Algebra, Calculus, Probability, Statistics)"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Mathematics (Linear Algebra, Calculus, Probability, Statistics)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Model Evaluation & Benchmarking",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Deep Learning",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Optimization (Gradient-Based Methods, Convex Optimization)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Pytorch",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Research Methodology & Experimental Design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Natural Language Processing",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Reinforcement Learning",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Training & High-Performance Computing (Gpu/Cuda)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

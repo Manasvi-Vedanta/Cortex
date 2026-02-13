@@ -1,0 +1,51 @@
+{
+  "test_id": "19",
+  "goal": "I want to become a Technical Lead.",
+  "short_name": "Tech Lead",
+  "category": "Leadership",
+  "matched_occupation": "technical sales representative",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/c956be07-53a3-4b01-b8f8-f0c5a428eaa8",
+  "similarity_score": 0.8233104944229126,
+  "total_skills": 15,
+  "total_sessions": 2,
+  "skills_list": [
+    "use customer relationship management software",
+    "characteristics of products",
+    "sales promotion techniques",
+    "product comprehension",
+    "characteristics of services",
+    "guarantee customer satisfaction",
+    "communicate with customers",
+    "implement marketing strategies",
+    "ensure compliance with legal requirements",
+    "answer requests for quotation",
+    "maintain relationship with customers",
+    "implement customer follow-up",
+    "prospect new customers",
+    "apply technical communication skills",
+    "manage schedule of tasks"
+  ],
+  "session_durations": [
+    20,
+    19
+  ],
+  "path_generation_time": 8.484642267227173,
+  "quiz_generation_time": 17.779895067214966,
+  "total_test_time": 54.887104511260986,
+  "quiz_questions_count": 0,
+  "quiz_difficulty_distribution": {
+    "easy": 0,
+    "medium": 0,
+    "hard": 0
+  },
+  "quiz_score_percentage": 0.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

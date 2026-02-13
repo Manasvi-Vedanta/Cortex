@@ -1,0 +1,1952 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Complete Learning Journey | GenMentor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .stat-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 1em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .timeline-container {
+            padding: 60px 40px;
+        }
+        
+        .session {
+            margin-bottom: 60px;
+            position: relative;
+            padding-left: 60px;
+            border-left: 4px solid #e0e0e0;
+        }
+        
+        .session::before {
+            content: '';
+            position: absolute;
+            left: -15px;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #4CAF50;
+            border: 4px solid white;
+            box-shadow: 0 0 0 4px #e0e0e0;
+        }
+        
+        .session.intermediate::before {
+            background: #FF9800;
+        }
+        
+        .session.advanced::before {
+            background: #F44336;
+        }
+        
+        .session-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px 15px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .session-title {
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+        
+        .session-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 20px;
+            background: rgba(255,255,255,0.2);
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .session-content {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-top: none;
+            border-radius: 0 0 15px 15px;
+            padding: 30px;
+        }
+        
+        .session-meta {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .meta-item i {
+            color: #667eea;
+            font-size: 1.2em;
+        }
+        
+        .objectives {
+            margin-bottom: 30px;
+        }
+        
+        .objectives h3 {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .objectives ul {
+            list-style: none;
+        }
+        
+        .objectives li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .objectives li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .skill-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s;
+        }
+        
+        .skill-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .skill-name {
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .resources {
+            margin-top: 15px;
+        }
+        
+        .resources-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .resource-item {
+            background: white;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.2s;
+        }
+        
+        .resource-item:hover {
+            background: #667eea;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .resource-icon {
+            font-size: 1.2em;
+            min-width: 30px;
+            text-align: center;
+        }
+        
+        .resource-link {
+            text-decoration: none;
+            color: inherit;
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .resource-info {
+            flex: 1;
+        }
+        
+        .resource-title {
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        
+        .resource-meta {
+            font-size: 0.85em;
+            opacity: 0.7;
+        }
+        
+        .quality-badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            background: #4CAF50;
+            color: white;
+        }
+        
+        .quality-badge.high {
+            background: #4CAF50;
+        }
+        
+        .quality-badge.medium {
+            background: #FF9800;
+        }
+        
+        .quality-badge.low {
+            background: #f44336;
+        }
+        
+        .progress-bar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            z-index: 1000;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            width: 0%;
+            transition: width 0.3s;
+        }
+        
+        .download-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 30px;
+            border-radius: 50px;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(102, 126, 234, 0.5);
+        }
+        
+        @media print {
+            .download-btn, .progress-bar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Your Complete Learning Journey</h1>
+            <p style="font-size: 1.4em; font-weight: 600; margin: 20px 0;">"I want to become a mobile app developer for iOS and Android"</p>
+            <p style="font-size: 1.1em; opacity: 0.9;">
+                <i class="fas fa-briefcase"></i> Target Role: mobile application developer
+            </p>
+            <p style="font-size: 0.95em; opacity: 0.85; margin-top: 15px; max-width: 800px; margin-left: auto; margin-right: auto;">Mobile application developers implement applications software for mobile devices, based on the designs provided, using general or specific development tools for device operating systems.</p>
+            <p style="font-size: 0.9em; opacity: 0.8; margin-top: 15px;"><i class="fas fa-check-circle"></i> Current Skills: Programming basics, UI design</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">📚</div>
+                <div class="stat-value">10</div>
+                <div class="stat-label">Learning Sessions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🎯</div>
+                <div class="stat-value">34</div>
+                <div class="stat-label">Skills to Master</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⏰</div>
+                <div class="stat-value">58h</div>
+                <div class="stat-label">Total Study Time</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📅</div>
+                <div class="stat-value">19</div>
+                <div class="stat-label">Days (3h/day)</div>
+            </div>
+        </div>
+        
+        <div class="timeline-container">
+            <h2 style="text-align: center; margin-bottom: 50px; font-size: 2.5em; color: #667eea;">
+                <i class="fas fa-road"></i> Your Learning Path
+            </h2>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 1</span>
+                        <div class="session-title">Introduction to Python Programming</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>8 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>5 skills</strong> to learn</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the basic syntax of Python.</li>
+                            <li>Learn about data types and variables.</li>
+                            <li>Write simple Python programs using control flow (if/else, loops).</li>
+                            <li>Understand functions and modules.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Basic Python syntax</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">Python.org • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">YouTube • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">Coursera • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">YouTube • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">Udemy • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data type manipulation</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">TypeScript • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">Coursera • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">YouTube • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">YouTube • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Control flow</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Control flow" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Function definition and usage</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Function definition and usage" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Module import and usage</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Module import and usage" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 2</span>
+                        <div class="session-title">Working with Integrated Development Environments (IDEs)</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>4 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>5 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the benefits of using an IDE.</li>
+                            <li>Learn to install and configure a popular Python IDE (e.g., VS Code, PyCharm).</li>
+                            <li>Use IDE features for code editing, debugging, and testing.</li>
+                            <li>Understand version control integration within the IDE.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 IDE installation and configuration</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.python.org/3/tutorial/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Official Python Tutorial</div>
+                                                <div class="resource-meta">Python.org • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Full Course - freeCodeCamp</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/python" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python for Everybody Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Complete Python Bootcamp</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Code editing features (auto-completion, syntax highlighting)</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.python.org/3/tutorial/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Official Python Tutorial</div>
+                                                <div class="resource-meta">Python.org • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Full Course - freeCodeCamp</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/python" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python for Everybody Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Complete Python Bootcamp</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Debugging techniques within the IDE</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=sB_5fqiysi4" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Software Testing Tutorial</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Testing within the IDE</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=sB_5fqiysi4" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Software Testing Tutorial</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Version control integration (Git)</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://git-scm.com/book/en/v2" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Pro Git Book</div>
+                                                <div class="resource-meta">Git • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://roadmap.sh/git-github" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Git and GitHub Course</div>
+                                                <div class="resource-meta">roadmap.sh • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=RGOj5yH7evk" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Git and GitHub for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 3</span>
+                        <div class="session-title">Mobile Operating Systems: An Overview</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>4 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>1 skills</strong> to learn</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the architecture of mobile operating systems (Android, iOS).</li>
+                            <li>Learn about the key components of a mobile OS (kernel, middleware, applications).</li>
+                            <li>Understand the security considerations for mobile OS.</li>
+                            <li>Explore the different development environments for mobile apps.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Mobile security awareness</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Mobile security awareness" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 4</span>
+                        <div class="session-title">Introduction to Software Configuration Management (SCM) with Git</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>6 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the principles of SCM.</li>
+                            <li>Learn to use Git for version control.</li>
+                            <li>Understand branching and merging strategies.</li>
+                            <li>Collaborate on code using Git and platforms like GitHub/GitLab.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Git commands (clone, add, commit, push, pull)</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://git-scm.com/book/en/v2" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Pro Git Book</div>
+                                                <div class="resource-meta">Git • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://roadmap.sh/git-github" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Git and GitHub Course</div>
+                                                <div class="resource-meta">roadmap.sh • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=RGOj5yH7evk" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Git and GitHub for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Branching and merging</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Branching and merging" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Conflict resolution</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Conflict resolution" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 5</span>
+                        <div class="session-title">Internet of Things (IoT) Fundamentals</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>4 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>1 skills</strong> to learn</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the basic concepts of IoT.</li>
+                            <li>Learn about IoT architectures and protocols.</li>
+                            <li>Explore common IoT devices and sensors.</li>
+                            <li>Understand the security challenges in IoT.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 IoT security awareness</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "IoT security awareness" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 6</span>
+                        <div class="session-title">Data Migration Strategies and Planning</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>4 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>4 skills</strong> to learn</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the different data migration strategies (big bang, trickle).</li>
+                            <li>Learn to assess data quality and identify migration challenges.</li>
+                            <li>Develop a data migration plan.</li>
+                            <li>Understand data validation and reconciliation techniques.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data migration strategy selection</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data quality assessment</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data migration planning</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">Coursera • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="#" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Resource</div>
+                                                <div class="resource-meta">YouTube • Resource</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data validation and reconciliation</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 7</span>
+                        <div class="session-title">Using Application-Specific Interfaces (APIs)</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>6 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the concept of APIs and their role in software development.</li>
+                            <li>Learn to use RESTful APIs to interact with external services.</li>
+                            <li>Understand API authentication and authorization.</li>
+                            <li>Handle API responses and errors.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 RESTful API interaction</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=GZvSYJDk-us" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">APIs for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="https://learning.postman.com/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Postman Learning Center</div>
+                                                <div class="resource-meta">Postman • Practice</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 API authentication and authorization</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=GZvSYJDk-us" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">APIs for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="https://learning.postman.com/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Postman Learning Center</div>
+                                                <div class="resource-meta">Postman • Practice</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 API response handling</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=GZvSYJDk-us" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">APIs for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="https://learning.postman.com/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Postman Learning Center</div>
+                                                <div class="resource-meta">Postman • Practice</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 8</span>
+                        <div class="session-title">Developing Automated Data Migration Methods with Python</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>8 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>5 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>2</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Learn to use Python libraries for data extraction, transformation, and loading (ETL).</li>
+                            <li>Develop scripts to automate data migration tasks.</li>
+                            <li>Implement error handling and logging in migration scripts.</li>
+                            <li>Optimize migration performance.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Python ETL libraries (e.g., pandas, SQLAlchemy)</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.python.org/3/tutorial/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Official Python Tutorial</div>
+                                                <div class="resource-meta">Python.org • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Full Course - freeCodeCamp</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/python" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python for Everybody Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Complete Python Bootcamp</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data transformation techniques</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Automated scripting</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.python.org/3/tutorial/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Official Python Tutorial</div>
+                                                <div class="resource-meta">Python.org • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Full Course - freeCodeCamp</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/python" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python for Everybody Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Complete Python Bootcamp</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Error handling and logging</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Error handling and logging" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Performance optimization</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Performance optimization" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 9</span>
+                        <div class="session-title">Software Debugging Techniques</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>6 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>4 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand common software bugs and errors.</li>
+                            <li>Learn to use debugging tools and techniques.</li>
+                            <li>Develop strategies for identifying and fixing bugs.</li>
+                            <li>Understand logging and error reporting.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Debugging tools usage (e.g., pdb in Python)</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.python.org/3/tutorial/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Official Python Tutorial</div>
+                                                <div class="resource-meta">Python.org • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Full Course - freeCodeCamp</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/python" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python for Everybody Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Complete Python Bootcamp</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Debugging techniques (breakpoints, stepping)</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=sB_5fqiysi4" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Software Testing Tutorial</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Bug identification and fixing</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.python.org/3/tutorial/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Official Python Tutorial</div>
+                                                <div class="resource-meta">Python.org • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Full Course - freeCodeCamp</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/python" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python for Everybody Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Complete Python Bootcamp</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Logging and error reporting</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Logging and error reporting" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session advanced">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 10</span>
+                        <div class="session-title">Software Design Patterns</div>
+                    </div>
+                    <div class="session-badge">advanced</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>8 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>2</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the concept of design patterns.</li>
+                            <li>Learn about common creational, structural, and behavioral design patterns.</li>
+                            <li>Apply design patterns to solve common software design problems.</li>
+                            <li>Understand the benefits of using design patterns.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Design pattern identification</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.python.org/3/tutorial/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Official Python Tutorial</div>
+                                                <div class="resource-meta">Python.org • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Full Course - freeCodeCamp</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/python" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python for Everybody Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Complete Python Bootcamp</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Implementation of design patterns</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Implementation of design patterns" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Application of design patterns to solve problems</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Application of design patterns to solve problems" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <a href="#" class="download-btn" onclick="window.print(); return false;">
+        <i class="fas fa-download"></i>
+        Save as PDF
+    </a>
+    
+    <script>
+        // Scroll progress indicator
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressFill').style.width = scrolled + '%';
+        });
+        
+        // Add click handlers for resource items
+        document.querySelectorAll('.resource-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                if (!e.target.closest('a')) {
+                    const link = this.querySelector('a');
+                    if (link) {
+                        window.open(link.href, '_blank');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

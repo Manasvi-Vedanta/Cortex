@@ -1,0 +1,217 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core concepts and components of database management systems",
+        "Perform essential tasks to operate relational database management system",
+        "Identify common administrative responsibilities across major RDBMS platforms"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "database management systems",
+        "operate relational database management system"
+      ],
+      "title": "Foundations of Database Management Systems and RDBMS Operations"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Plan and execute database installation and configuration steps",
+        "Validate baseline configuration for reliability and maintainability",
+        "Compare configuration considerations for MySQL, PostgreSQL, and SQL Server"
+      ],
+      "prerequisites": [
+        "database management systems",
+        "operate relational database management system"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Database Installation And Configuration",
+        "MySQL",
+        "PostgreSQL",
+        "SQL Server"
+      ],
+      "title": "Database Installation and Configuration Across Platforms"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design relational schemas aligned to application requirements",
+        "Define tables, relationships, and constraints to support data integrity",
+        "Evaluate schema tradeoffs for performance and maintainability"
+      ],
+      "prerequisites": [
+        "database management systems"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Data Modeling And Schema Design"
+      ],
+      "title": "Data Modeling and Schema Design"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain transaction boundaries and isolation behavior",
+        "Identify and mitigate common concurrency anomalies",
+        "Apply concurrency control concepts to operational troubleshooting"
+      ],
+      "prerequisites": [
+        "operate relational database management system",
+        "Data Modeling And Schema Design"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Transaction Management And Concurrency Control"
+      ],
+      "title": "Transaction Management and Concurrency Control"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select appropriate indexing strategies for common access patterns",
+        "Diagnose inefficient queries and improve execution behavior",
+        "Validate performance impact of indexing changes"
+      ],
+      "prerequisites": [
+        "Data Modeling And Schema Design",
+        "Transaction Management And Concurrency Control"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Indexing And Query Optimization"
+      ],
+      "title": "Indexing and Query Optimization"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Establish performance baselines and identify bottlenecks",
+        "Tune database settings and workload patterns for improved throughput and latency",
+        "Prioritize tuning actions based on measurable impact"
+      ],
+      "prerequisites": [
+        "Indexing And Query Optimization",
+        "operate relational database management system"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Database Performance Tuning"
+      ],
+      "title": "Database Performance Tuning"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Define key health and performance indicators for databases",
+        "Set up monitoring and alerting strategies to detect issues early",
+        "Use monitoring signals to guide troubleshooting and tuning"
+      ],
+      "prerequisites": [
+        "Database Performance Tuning",
+        "operate relational database management system"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Database Monitoring And Alerting"
+      ],
+      "title": "Database Monitoring and Alerting"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement access control aligned to least-privilege principles",
+        "Manage authentication and authorization for database users and roles",
+        "Assess and reduce common security risks in database environments"
+      ],
+      "prerequisites": [
+        "Database Installation And Configuration",
+        "operate relational database management system"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Database Security And Access Control"
+      ],
+      "title": "Database Security and Access Control"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design backup strategies to meet recovery objectives",
+        "Execute restore and recovery workflows and validate outcomes",
+        "Document and test recovery procedures for operational readiness"
+      ],
+      "prerequisites": [
+        "Database Installation And Configuration",
+        "Database Monitoring And Alerting"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Backup And Recovery"
+      ],
+      "title": "Backup and Recovery Planning and Execution"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain replication and clustering concepts and common architectures",
+        "Select replication and clustering approaches based on workload needs",
+        "Identify operational considerations and failure modes in replicated systems"
+      ],
+      "prerequisites": [
+        "Backup And Recovery",
+        "Transaction Management And Concurrency Control"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Replication And Clustering"
+      ],
+      "title": "Replication and Clustering for Scale and Resilience"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design HADR strategies aligned to availability and recovery requirements",
+        "Plan failover and failback procedures and validate readiness",
+        "Integrate monitoring, backups, and replication into an HADR runbook"
+      ],
+      "prerequisites": [
+        "Replication And Clustering",
+        "Backup And Recovery",
+        "Database Monitoring And Alerting"
+      ],
+      "session_number": 11,
+      "skills": [
+        "High Availability And Disaster Recovery (Hadr)"
+      ],
+      "title": "High Availability and Disaster Recovery (HADR) Design and Operations"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Database administrators test, implement and administer computer databases. They use their expertise in database management systems to plan, coordinate and implement security measures to safeguard computer databases. They also use scripts and configuration files to tailor a database to users' needs.",
+    "label": "database administrator",
+    "similarity_score": 0.8963327407836914,
+    "uri": "http://data.europa.eu/esco/occupation/8c57af09-719c-42b3-be40-6ed4946236cc"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 35,
+    "skills_in_path": 11,
+    "skills_to_learn": 35,
+    "total_skills_needed": 35
+  },
+  "user_id": "eval_user_16"
+}

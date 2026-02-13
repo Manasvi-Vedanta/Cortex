@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:40:21.598740",
+      "learning_path_id": "test_10",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Microcontrollers are integrated circuits designed to control specific functions in embedded systems, housing a CPU, memory, and peripherals to execute program instructions and perform calculations.",
+        "id": 1,
+        "options": {
+          "A": "Resistor",
+          "B": "Capacitor",
+          "C": "Microcontroller",
+          "D": "LED"
+        },
+        "question": "Which of the following components is primarily responsible for executing program instructions and performing calculations in a simple embedded system?",
+        "topic": "digital systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "SCM tools like Git are essential for version control, allowing teams to track changes, collaborate effectively, and revert to previous states of their codebase, which is crucial for complex embedded projects.",
+        "id": 2,
+        "options": {
+          "A": "To compile code faster",
+          "B": "To manage and track changes to source code, enabling collaboration and version history",
+          "C": "To design graphical user interfaces for embedded devices",
+          "D": "To simulate hardware circuits before deployment"
+        },
+        "question": "What is the primary purpose of a Software Configuration Management (SCM) tool like Git in a development team working on embedded software?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Inheritance is a fundamental OOP concept where one class (subclass) acquires the fields and methods of another class (superclass), promoting code reuse and establishing a hierarchical relationship.",
+        "id": 3,
+        "options": {
+          "A": "Polymorphism",
+          "B": "Encapsulation",
+          "C": "Inheritance",
+          "D": "Abstraction"
+        },
+        "question": "In Object-Oriented Programming (OOP), what concept allows a new class to acquire properties and behaviors from an existing class?",
+        "topic": "use object-oriented programming"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Python uses dynamic typing and does not require explicit type declaration for variables; `count = 50` is sufficient to declare and assign an integer value.",
+        "id": 4,
+        "options": {
+          "A": "int count = 50;",
+          "B": "var count: int = 50;",
+          "C": "count = 50",
+          "D": "let count = 50;"
+        },
+        "question": "Which of the following is a correct way to declare an integer variable named 'count' and assign the value 50 in Python?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Swift is the primary language for native iOS app development, and Xcode is the official integrated development environment (IDE) provided by Apple for this purpose. This is a common pattern for embedded systems interacting with mobile front-ends.",
+        "id": 5,
+        "options": {
+          "A": "Python with PyCharm",
+          "B": "JavaScript with VS Code",
+          "C": "Swift with Xcode",
+          "D": "C++ with Visual Studio"
+        },
+        "question": "An embedded medical device communicates over Bluetooth Low Energy (BLE) with a companion application on an iPhone. Which language and IDE combination would be most appropriate for developing the iPhone application?",
+        "topic": "Swift (computer programming) / Xcode"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Python and JavaScript (specifically Node.js for server-side execution) have vast ecosystems and are popular choices for scripting and application logic on Linux-based IoT devices due to their versatility, community support, and suitability for network-enabled tasks.",
+        "id": 6,
+        "options": {
+          "A": "Visual Basic and SAS language",
+          "B": "Python and JavaScript (Node.js)",
+          "C": "Haskell and Common Lisp",
+          "D": "Ruby and Swift"
+        },
+        "question": "For an IoT gateway device running a lightweight Linux distribution, which two scripting languages are commonly used for tasks like local data processing, API interactions, and control logic, often favored for their extensive libraries and ease of deployment in such environments?",
+        "topic": "Python / JavaScript"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Lisp's homoiconicity (where code is represented as data structures) and powerful macro system allow for advanced metaprogramming and the creation of highly expressive domain-specific languages, which are key differentiators from many other programming paradigms.",
+        "id": 7,
+        "options": {
+          "A": "Strict static typing and manual memory management for bare-metal control",
+          "B": "Extensive use of macros and homoiconicity (code as data)",
+          "C": "Primary design for hard real-time operating systems with guaranteed execution times",
+          "D": "Emphasis on imperative programming and direct hardware register manipulation"
+        },
+        "question": "Compared to low-level languages like C, what is a distinctive characteristic of Lisp languages (including Common Lisp) often considered beneficial for tasks involving symbolic computation or creating highly adaptable domain-specific languages (DSLs)?",
+        "topic": "Lisp / Common Lisp"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Haskell's mathematical foundation, strong type system, and functional purity lend themselves well to formal verification and proving correctness, which is invaluable for mission-critical and safety-critical systems, especially in higher-level embedded layers where some runtime abstraction is acceptable.",
+        "id": 8,
+        "options": {
+          "A": "Developing high-performance graphics drivers for custom GPUs with strict timing.",
+          "B": "Implementing hard real-time control loops with microsecond precision on resource-constrained microcontrollers.",
+          "C": "Creating formally verifiable, highly reliable control logic for safety-critical systems running on a higher-level embedded Linux platform.",
+          "D": "Optimizing assembly code generated for memory-constrained 8-bit microcontrollers."
+        },
+        "question": "While generally not dominant in bare-metal embedded development due to runtime overhead and garbage collection, Haskell's strong static typing and functional purity can be advantageous in which specific embedded system scenario?",
+        "topic": "Haskell / digital systems / programming"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Logic programming relies on a search and inference process which can lead to non-deterministic execution paths and substantial runtime overhead. This makes it unsuitable for the strict timing requirements and resource constraints of bare-metal, hard real-time embedded systems where predictable, fast execution is paramount.",
+        "id": 9,
+        "options": {
+          "A": "Logic programming languages are inherently single-threaded, preventing concurrent hardware operations.",
+          "B": "Their declarative nature and reliance on inference engines introduce unpredictable execution times and significant runtime overhead unsuitable for bare-metal, hard real-time constraints.",
+          "C": "They lack built-in support for integer arithmetic, making numerical computations impossible for control.",
+          "D": "Logic programming paradigms are fundamentally unable to define conditional statements or iterative loops required for control."
+        },
+        "question": "A critical embedded system requires deterministic, fast execution with direct hardware access for a hard real-time task (e.g., motor control). Why is a language based on logic programming (e.g., Prolog) generally a poor choice for implementing the core control loop of such a system?",
+        "topic": "use logic programming / digital systems / programming"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "While C++ can be highly optimized, its object-oriented features like virtual functions (requiring v-tables), RTTI, exceptions, and automatic dynamic memory allocations (if not strictly controlled) can introduce significant runtime overhead, larger code size, and less predictable execution. These factors are detrimental in resource-constrained, power-sensitive, and hard real-time embedded systems. A disciplined C or a highly constrained C++ subset is often preferred for bare-metal designs.",
+        "id": 10,
+        "options": {
+          "A": "The C functional approach, because it requires more manual memory management, leading to fragmentation and crashes.",
+          "B": "The C++ object-oriented design, due to potential overhead from virtual functions, Run-Time Type Information (RTTI), exceptions, and complex constructors/destructors if not carefully managed.",
+          "C": "Both approaches carry equal risk, as performance and footprint depend entirely on the individual programmer's skill and compiler optimizations.",
+          "D": "Neither, as modern compilers optimize away all overhead in both paradigms for typical embedded systems."
+        },
+        "question": "For a deeply embedded system managing a battery-powered wireless sensor network, developers are debating between using C with a structured, functional approach or C++ with a full object-oriented design. Given strict power constraints, a need for minimal memory footprint, and predictable execution, which design choice generally poses a higher risk for introducing overhead and why?",
+        "topic": "digital systems / programming / use object-oriented programming"
+      }
+    ],
+    "topics_covered": [
+      "Swift (computer programming)",
+      "programming",
+      "use logic programming",
+      "use object-oriented programming",
+      "tools for software configuration management",
+      "JavaScript",
+      "Python",
+      "Ruby",
+      "Xcode",
+      "digital systems",
+      "Haskell",
+      "SAS language",
+      "Common Lisp",
+      "Lisp",
+      "Visual Basic"
+    ]
+  },
+  "success": true
+}

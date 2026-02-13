@@ -1,0 +1,245 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify core blockchain components and how they interact",
+        "Explain blockchain architecture at a high level",
+        "Describe blockchain openness and its implications for applications"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "blockchain components",
+        "blockchain architecture",
+        "blockchain openness"
+      ],
+      "title": "Blockchain Foundations: Components, Architecture, and Openness"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe what constitutes a blockchain application",
+        "Map common blockchain application areas to typical requirements",
+        "Differentiate application goals that benefit from blockchain openness"
+      ],
+      "prerequisites": [
+        "blockchain components",
+        "blockchain architecture",
+        "blockchain openness"
+      ],
+      "session_number": 2,
+      "skills": [
+        "blockchain applications",
+        "blockchain application areas ",
+        "blockchain openness"
+      ],
+      "title": "Blockchain Applications and Application Areas"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain public-key cryptography concepts used in blockchain systems",
+        "Describe how signatures support authentication and authorization",
+        "Summarize zk basics and where they may appear in blockchain applications"
+      ],
+      "prerequisites": [
+        "blockchain components",
+        "blockchain architecture"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Cryptography (Public-Key, Signatures, Zk Basics)"
+      ],
+      "title": "Cryptography Basics for Blockchain: Public-Key, Signatures, Zk Basics"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain how the Evm executes smart contract code",
+        "Describe state, storage, memory, and call semantics at a conceptual level",
+        "Relate Evm execution to gas usage and transaction outcomes"
+      ],
+      "prerequisites": [
+        "blockchain components",
+        "Cryptography (Public-Key, Signatures, Zk Basics)"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Ethereum Virtual Machine (Evm)"
+      ],
+      "title": "Ethereum Execution Model: Ethereum Virtual Machine (Evm)"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write basic Solidity contracts with functions, state variables, and events",
+        "Apply common Solidity patterns for access control and state updates",
+        "Connect Solidity constructs to Evm execution behavior"
+      ],
+      "prerequisites": [
+        "Ethereum Virtual Machine (Evm)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Solidity",
+        "Ethereum Virtual Machine (Evm)"
+      ],
+      "title": "Solidity Fundamentals: Writing Smart Contracts"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain the purpose and core interfaces of Erc-20, Erc-721, and Erc-1155",
+        "Implement minimal compliant contracts in Solidity",
+        "Compare tradeoffs and appropriate use cases across token standards"
+      ],
+      "prerequisites": [
+        "Solidity"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Token Standards (Erc-20, Erc-721, Erc-1155)",
+        "Solidity"
+      ],
+      "title": "Token Standards: Erc-20, Erc-721, Erc-1155"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Set up a Node.Js-based project structure for blockchain development",
+        "Manage scripts and configuration commonly used in contract workflows",
+        "Prepare a Node.Js environment for interacting with deployed contracts"
+      ],
+      "prerequisites": [],
+      "session_number": 7,
+      "skills": [
+        "Node.Js"
+      ],
+      "title": "Node.Js for Blockchain Development Workflows"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Connect to a blockchain node and read on-chain data",
+        "Send transactions and handle receipts and errors",
+        "Interact with token contracts using standard interfaces"
+      ],
+      "prerequisites": [
+        "Node.Js",
+        "Solidity"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Web3.Js/Ethers.Js",
+        "Node.Js",
+        "Token Standards (Erc-20, Erc-721, Erc-1155)"
+      ],
+      "title": "DApp Interaction: Web3.Js/Ethers.Js"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create automated test suites for Solidity contracts",
+        "Test token standard behaviors and edge cases",
+        "Use local execution to validate expected state transitions"
+      ],
+      "prerequisites": [
+        "Solidity",
+        "Node.Js"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Smart Contract Testing Frameworks (Foundry/Hardhat/Truffle)",
+        "Solidity",
+        "Token Standards (Erc-20, Erc-721, Erc-1155)"
+      ],
+      "title": "Smart Contract Testing Frameworks: Foundry/Hardhat/Truffle"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify common smart contract vulnerability classes",
+        "Apply secure design and coding practices in Solidity",
+        "Review contracts for security issues using structured checklists"
+      ],
+      "prerequisites": [
+        "Solidity",
+        "Smart Contract Testing Frameworks (Foundry/Hardhat/Truffle)"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Smart Contract Security",
+        "Solidity",
+        "Ethereum Virtual Machine (Evm)"
+      ],
+      "title": "Smart Contract Security: Threats, Vulnerabilities, and Mitigations"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply security principles to end-to-end blockchain applications",
+        "Analyze trust boundaries across on-chain and off-chain components",
+        "Design safer transaction flows and key usage patterns"
+      ],
+      "prerequisites": [
+        "Web3.Js/Ethers.Js",
+        "Smart Contract Security"
+      ],
+      "session_number": 11,
+      "skills": [
+        "blockchain applications security principles",
+        "Cryptography (Public-Key, Signatures, Zk Basics)",
+        "Web3.Js/Ethers.Js"
+      ],
+      "title": "Blockchain Applications Security Principles"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain how gas costs arise from Evm operations and storage patterns",
+        "Refactor Solidity code to reduce gas usage while preserving behavior",
+        "Validate gas improvements through testing workflows"
+      ],
+      "prerequisites": [
+        "Solidity",
+        "Ethereum Virtual Machine (Evm)",
+        "Smart Contract Testing Frameworks (Foundry/Hardhat/Truffle)"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Gas Optimization",
+        "Solidity",
+        "Ethereum Virtual Machine (Evm)",
+        "Smart Contract Testing Frameworks (Foundry/Hardhat/Truffle)"
+      ],
+      "title": "Gas Optimization: Efficient Smart Contract Design"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Blockchain developers implement or program blockchain-based software systems based on specifications and designs by using programming languages, tools, and blockchain platforms.",
+    "label": "blockchain developer",
+    "similarity_score": 0.9676629900932312,
+    "uri": "http://data.europa.eu/esco/occupation/24135b84-cbdd-4d42-9ed2-02fd982d15b2"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 33,
+    "skills_in_path": 12,
+    "skills_to_learn": 33,
+    "total_skills_needed": 33
+  },
+  "user_id": "eval_user_12"
+}

@@ -1,0 +1,595 @@
+[2026-01-23 12:54:27] [INFO] ℹ️  INFO: Output directory created: test_outputs_20260123_125427
+[2026-01-23 12:54:27] [INFO] ====================================================================================================
+[2026-01-23 12:54:27] [INFO] PHASE 1: System Test Initialization
+[2026-01-23 12:54:27] [INFO] ====================================================================================================
+[2026-01-23 12:54:27] [INFO] ℹ️  INFO: Test Goal: I want to become a Machine Learning Engineer
+[2026-01-23 12:54:27] [INFO] ℹ️  INFO: Test User: full_test_user
+[2026-01-23 12:54:27] [INFO] ℹ️  INFO: Base URL: http://localhost:5000
+[2026-01-23 12:54:27] [INFO] ====================================================================================================
+[2026-01-23 12:54:27] [INFO] PHASE 2: Learning Path Generation
+[2026-01-23 12:54:27] [INFO] ====================================================================================================
+[2026-01-23 12:54:27] [INFO] ℹ️  INFO: Sending request to generate learning path...
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: Response received in 7.41 seconds
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-23 12:54:35] [SUCCESS] ✅ SUCCESS: Learning path generated successfully
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: Matched Occupation: computer vision engineer
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: Occupation URI: http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: Similarity Score: 0.8793
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: COMPLETE LEARNING PATH DETAILS
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: Total Sessions: 8
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: SESSION 1: Introduction to Machine Learning with Python
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills Count: 3
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     1. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     2. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     3. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: SESSION 2: Data Processing and Preparation for Machine Learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills Count: 3
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     1. develop data processing applications
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     2. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     3. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: SESSION 3: Statistical Foundations for Machine Learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills Count: 2
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     1. statistics
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     2. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: SESSION 4: Deep Dive into TensorFlow for Machine Learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills Count: 4
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     1. TensorFlow
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     2. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     3. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     4. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: SESSION 5: Leveraging PyTorch for Machine Learning Projects
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills Count: 4
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     1. PyTorch
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     2. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     3. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     4. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: SESSION 6: Advanced Data Processing Applications
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills Count: 4
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     1. develop data processing applications
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     2. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     3. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     4. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: SESSION 7: Statistical Modeling and Inference
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills Count: 3
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     1. statistics
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     2. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     3. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: SESSION 8: Building and Deploying Machine Learning Models with TensorFlow and PyTorch
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills Count: 5
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     1. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     2. TensorFlow
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     3. PyTorch
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     4. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:     5. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: TOTAL SKILLS GENERATED: 28
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+Complete Skills List:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:    1. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:    2. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:    3. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:    4. develop data processing applications
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:    5. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:    6. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:    7. statistics
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:    8. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:    9. TensorFlow
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   10. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   11. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   12. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   13. PyTorch
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   14. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   15. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   16. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   17. develop data processing applications
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   18. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   19. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   20. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   21. statistics
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   22. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   23. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   24. machine learning
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   25. TensorFlow
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   26. PyTorch
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   27. Python (computer programming)
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   28. programming
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: Skill Gap Summary:
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Total Skills Needed: 25
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills to Learn: 23
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO:   Skills Analyzed: 23
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 📁 Learning Path saved to: test_outputs_20260123_125427\01_learning_path.json
+[2026-01-23 12:54:35] [INFO] ====================================================================================================
+[2026-01-23 12:54:35] [INFO] PHASE 3: Community Voting System
+[2026-01-23 12:54:35] [INFO] ====================================================================================================
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: COMMUNITY VOTING DETAILS
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 12:54:35] [INFO] ℹ️  INFO: Voting on 5 skills...
+[2026-01-23 12:54:37] [SUCCESS] ✅ SUCCESS: Upvoted: machine learning
+[2026-01-23 12:54:37] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-machine-learning
+[2026-01-23 12:54:39] [SUCCESS] ✅ SUCCESS: Upvoted: Python (computer programming)
+[2026-01-23 12:54:39] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-python-(computer-programming)
+[2026-01-23 12:54:41] [SUCCESS] ✅ SUCCESS: Upvoted: programming
+[2026-01-23 12:54:41] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-programming
+[2026-01-23 12:54:43] [SUCCESS] ✅ SUCCESS: Upvoted: develop data processing applications
+[2026-01-23 12:54:43] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-develop-data-processing-applications
+[2026-01-23 12:54:45] [SUCCESS] ✅ SUCCESS: Upvoted: Python (computer programming)
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-python-(computer-programming)
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO: Voting Summary: 5 successful, 0 failed
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO: 📁 Community Voting saved to: test_outputs_20260123_125427\02_community_voting.json
+[2026-01-23 12:54:45] [INFO] ====================================================================================================
+[2026-01-23 12:54:45] [INFO] PHASE 4: Community Skill Suggestions
+[2026-01-23 12:54:45] [INFO] ====================================================================================================
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO: SKILL SUGGESTIONS DETAILS
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO: Submitting 3 skill suggestions...
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO: Suggesting: TensorFlow
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/ml-tensorflow
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-01-23 12:54:45] [INFO] ℹ️  INFO:   Description: Essential deep learning framework for ML engineers
+[2026-01-23 12:54:47] [SUCCESS] ✅ SUCCESS: Suggested: TensorFlow
+[2026-01-23 12:54:47] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:54:47] [INFO] ℹ️  INFO: Suggesting: PyTorch
+[2026-01-23 12:54:47] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/ml-pytorch
+[2026-01-23 12:54:47] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-01-23 12:54:47] [INFO] ℹ️  INFO:   Description: Popular deep learning framework with dynamic computation graphs
+[2026-01-23 12:54:49] [SUCCESS] ✅ SUCCESS: Suggested: PyTorch
+[2026-01-23 12:54:49] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:54:49] [INFO] ℹ️  INFO: Suggesting: Docker
+[2026-01-23 12:54:49] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/devops-docker
+[2026-01-23 12:54:49] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-01-23 12:54:49] [INFO] ℹ️  INFO:   Description: Containerization for ML model deployment
+[2026-01-23 12:54:51] [SUCCESS] ✅ SUCCESS: Suggested: Docker
+[2026-01-23 12:54:51] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:54:51] [INFO] ℹ️  INFO: Suggestion Summary: 3 successful, 0 failed
+[2026-01-23 12:54:51] [INFO] ℹ️  INFO: 📁 Skill Suggestions saved to: test_outputs_20260123_125427\03_skill_suggestions.json
+[2026-01-23 12:54:51] [INFO] ====================================================================================================
+[2026-01-23 12:54:51] [INFO] PHASE 5: Quiz Generation
+[2026-01-23 12:54:51] [INFO] ====================================================================================================
+[2026-01-23 12:54:51] [INFO] ℹ️  INFO: Generating quiz from learning path...
+[2026-01-23 12:54:51] [INFO] ℹ️  INFO: Learning path has 8 sessions
+[2026-01-23 12:54:51] [INFO] ℹ️  INFO:   1. Introduction to Machine Learning with Python
+[2026-01-23 12:54:51] [INFO] ℹ️  INFO:   2. Data Processing and Preparation for Machine Learning
+[2026-01-23 12:54:51] [INFO] ℹ️  INFO:   3. Statistical Foundations for Machine Learning
+[2026-01-23 12:54:51] [INFO] ℹ️  INFO:   ... and 5 more sessions
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: Quiz generation completed in 36.45 seconds
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-23 12:55:28] [SUCCESS] ✅ SUCCESS: Quiz generated with 10 questions
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: COMPLETE QUIZ DETAILS
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+Quiz Structure:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Total Questions: 10
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Easy: 4
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Medium: 3
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Hard: 3
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Topics Covered: 9
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ALL QUIZ QUESTIONS AND ANSWERS:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 1 [EASY] - Topic: Python (computer programming)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   What is the primary purpose of a virtual environment in Python development?
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. To speed up code execution. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. To isolate project dependencies and avoid conflicts. ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. To compile Python code to machine language. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. To manage global Python installations for the operating system. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: Virtual environments allow developers to create isolated Python environments for different projects, ensuring that each project has its own set of dependencies and avoiding conflicts between packages of different versions required by different projects.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 2 [EASY] - Topic: machine learning
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Which of the following best describes supervised learning in machine learning?
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. Training a model without labeled data to find inherent structures. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. Training a model with input-output pairs where the correct output (label) is provided. ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. Training a model by allowing it to interact with an environment and receive rewards or penalties. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. Grouping similar data points together based on their features. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: Supervised learning involves training a model on a dataset that contains both input features and corresponding correct output labels. The model learns to map inputs to outputs based on these labeled examples.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 3 [EASY] - Topic: programming
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   In the context of computer programming, what is the fundamental role of an 'algorithm'?
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. It defines the visual appearance of an application's user interface. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. It specifies a set of well-defined, unambiguous instructions to solve a problem or perform a computation. ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. It refers to the hardware components used for data storage. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. It is a graphical tool for visualizing data patterns. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: An algorithm is a step-by-step procedure or formula for solving a problem, especially by a computer. It's a precise set of instructions to achieve a specific outcome.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 4 [EASY] - Topic: statistics
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Which of the following statistical measures represents the arithmetic average value of all numbers in a dataset?
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. Median 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. Mode 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. Mean ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. Variance 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: C
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: The mean is calculated by summing all values in a dataset and then dividing by the number of values, representing the average. The median is the middle value, and the mode is the most frequent value. Variance measures the spread of data.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 5 [MEDIUM] - Topic: develop data processing applications
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Before feeding images into a Convolutional Neural Network (CNN) for training, what is a common and crucial preprocessing step to standardize pixel intensity values, often scaling them to a range like 0 to 1 or -1 to 1?
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. Edge Detection 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. Normalization ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. Histogram Equalization 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. Image Blurring 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: Normalization scales pixel values to a common range (e.g., 0-1) which helps in faster convergence of the neural network during training and prevents certain features from dominating due to their larger scales. Edge detection, histogram equalization, and blurring are other image processing techniques but not primarily for standardizing input scale for CNNs.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 6 [MEDIUM] - Topic: TensorFlow, PyTorch
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   A key difference often highlighted between PyTorch and older versions of TensorFlow (before eager execution became default) is that PyTorch is known for its:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. Static computation graphs, which are defined before execution. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. Dynamic computation graphs (eager execution), which are built on-the-fly during execution. ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. Exclusive use of CPUs for model training. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. Inability to work with pre-trained models. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: PyTorch's dynamic computation graphs (eager execution) allow for more flexibility and easier debugging, as the graph is built as operations are performed. TensorFlow 1.x predominantly used static graphs, requiring the graph to be defined entirely before execution. TensorFlow 2.x, however, adopted eager execution as its default.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 7 [MEDIUM] - Topic: machine learning
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   When evaluating a binary classification model designed to detect a rare medical condition, why might 'Precision' and 'Recall' be more informative evaluation metrics than 'Accuracy'?
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. Accuracy is computationally more expensive to calculate for rare events. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. Precision and Recall provide a clearer picture of the model's performance on the minority class in imbalanced datasets. ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. Precision and Recall are only applicable to regression problems. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. Accuracy is only relevant for models with perfect separation between classes. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: In imbalanced datasets, a high accuracy can be misleading if the model simply predicts the majority class most of the time. Precision measures the proportion of true positive predictions among all positive predictions, while Recall (or sensitivity) measures the proportion of true positives among all actual positives. These metrics are crucial for understanding how well a model identifies the rare class without generating too many false alarms.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 8 [HARD] - Topic: machine learning, programming, develop data processing applications
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   You are developing an autonomous driving system that requires real-time identification of pedestrians to ensure safety. Which combination of deep learning architecture characteristic and performance metric would be most critical to prioritize for minimizing false negatives (i.e., failing to detect an actual pedestrian)?
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. A Recurrent Neural Network (RNN) with high F1-score. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. An Object Detection model (e.g., YOLO, Faster R-CNN) designed for speed and high Recall. ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. A Supervised Support Vector Machine (SVM) with high Precision. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. A Generative Adversarial Network (GAN) with high Accuracy. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: Autonomous driving requires real-time object detection. Object detection models like YOLO or Faster R-CNN are designed for this. Minimizing false negatives (missing a pedestrian) means we need high Recall, ensuring that most actual pedestrians are detected, even if it means some false positives (detecting non-pedestrians as pedestrians). RNNs are for sequential data, SVMs are generally not state-of-the-art for real-time object detection, and GANs are for data generation.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 9 [HARD] - Topic: PyTorch, programming
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   A computer vision engineer is debugging a custom neural network layer implemented in PyTorch. They observe that the `grad` attribute for some tensors in the custom layer remains `None` after calling `loss.backward()`, indicating no gradient propagation. Which of the following is the MOST likely cause?
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. The learning rate is set too high, causing gradients to explode. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. The `torch.no_grad()` context manager was inadvertently used around the custom layer's operations during the forward pass. ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. The model is suffering from severe overfitting due to an overly complex architecture. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. The dataset has too few training samples, leading to underfitting. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: The `torch.no_grad()` context manager explicitly disables gradient calculation, which is useful for inference or when you don't need to track gradients (e.g., during validation). If used erroneously during the forward pass of a custom layer in training, it would prevent gradients from being computed and propagated during backpropagation, leading to `None` in the `grad` attribute. Other options relate to training dynamics or model performance, but not directly to the absence of gradient computation itself.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUESTION 10 [HARD] - Topic: machine learning, statistics
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   You are training a deep Convolutional Neural Network on a relatively small, highly specific medical imaging dataset for cancer detection. After multiple training epochs, the model achieves 99% accuracy on the training set but only 65% accuracy on a separate validation set composed of unseen images. What is the most appropriate next step to improve the model's generalization performance?
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     A. Increase the model's complexity by adding more convolutional layers and neurons. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     B. Reduce the size of the training dataset further to make it more focused. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     C. Implement regularization techniques (e.g., dropout, L2 regularization) or augment the training dataset. ✓ CORRECT
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:     D. Significantly increase the learning rate to escape local minima. 
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+  Correct Answer: C
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Explanation: The described scenario (high training accuracy, low validation accuracy) is a classic case of overfitting. The model has memorized the training data but fails to generalize to new data. Increasing model complexity would worsen overfitting. Reducing the training data is counterproductive. Increasing the learning rate could make training unstable. Regularization techniques (like dropout or L2) reduce model complexity and prevent memorization, while data augmentation artificially increases the effective size of the training dataset, both helping to improve generalization.
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 📁 Quiz Questions saved to: test_outputs_20260123_125427\04_quiz_questions.json
+[2026-01-23 12:55:28] [INFO] ====================================================================================================
+[2026-01-23 12:55:28] [INFO] PHASE 6: Quiz Answer Submission
+[2026-01-23 12:55:28] [INFO] ====================================================================================================
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: QUIZ SUBMISSION DETAILS
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: Simulating quiz answers for 10 questions (70% accuracy)...
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO: 
+Submitted Answers:
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q1: B (✓ Correct, correct: B)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q2: B (✓ Correct, correct: B)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q3: B (✓ Correct, correct: B)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q4: C (✓ Correct, correct: C)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q5: B (✓ Correct, correct: B)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q6: B (✓ Correct, correct: B)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q7: B (✓ Correct, correct: B)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q8: A (✗ Wrong, correct: B)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q9: A (✗ Wrong, correct: B)
+[2026-01-23 12:55:28] [INFO] ℹ️  INFO:   Q10: A (✗ Wrong, correct: C)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: 
+Status Code: 200
+[2026-01-23 12:55:30] [SUCCESS] ✅ SUCCESS: Quiz submitted and analyzed successfully
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: QUIZ RESULTS ANALYSIS:
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   Score: 4/10
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   Percentage: 40.0%
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   Grade: F
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   Performance Level: Requires Significant Review
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: 
+  Difficulty Breakdown:
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     Easy: 2/4 (50.0%)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     Medium: 2/3 (66.7%)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     Hard: 0/3 (0.0%)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: 
+  Strengths (Topics with high accuracy):
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     ✓ Python (computer programming): 100.0% (1/1)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     ✓ develop data processing applications: 100.0% (1/1)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     ✓ TensorFlow, PyTorch: 100.0% (1/1)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: 
+  Needs Improvement:
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     → machine learning: 50.0% (1/2)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: 
+  Weaknesses (Topics needing focus):
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     ✗ programming: 0.0% (0/1)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     ✗ statistics: 0.0% (0/1)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     ✗ machine learning, programming, develop data processing applications: 0.0% (0/1)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     ✗ PyTorch, programming: 0.0% (0/1)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     ✗ machine learning, statistics: 0.0% (0/1)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: 
+  Recommendations:
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     1. 📚 Consider reviewing the learning path materials more thoroughly.
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     2. ⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     3. 🎯 Priority topics to review: programming, statistics, machine learning, programming, develop data processing applications
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     4. ✅ Your strongest areas: Python (computer programming), develop data processing applications
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:     5. 📖 Topics needing more practice: machine learning
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: DETAILED QUESTION-BY-QUESTION RESULTS:
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✓ Q1: Your answer: B, Correct: B (Topic: Python (computer programming))
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✓ Q2: Your answer: B, Correct: B (Topic: machine learning)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✗ Q3: Your answer: C, Correct: B (Topic: programming)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✗ Q4: Your answer: B, Correct: C (Topic: statistics)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✓ Q5: Your answer: B, Correct: B (Topic: develop data processing applications)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✓ Q6: Your answer: B, Correct: B (Topic: TensorFlow, PyTorch)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✗ Q7: Your answer: A, Correct: B (Topic: machine learning)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✗ Q8: Your answer: A, Correct: B (Topic: machine learning, programming, develop data processing applications)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✗ Q9: Your answer: A, Correct: B (Topic: PyTorch, programming)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO:   ✗ Q10: Your answer: , Correct: C (Topic: machine learning, statistics)
+[2026-01-23 12:55:30] [INFO] ℹ️  INFO: 📁 Quiz Results saved to: test_outputs_20260123_125427\05_quiz_results.json
+[2026-01-23 12:55:30] [INFO] ====================================================================================================
+[2026-01-23 12:55:30] [INFO] PHASE 7: Community Feedback Statistics
+[2026-01-23 12:55:30] [INFO] ====================================================================================================
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-23 12:55:32] [SUCCESS] ✅ SUCCESS: Retrieved feedback statistics
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO: COMPLETE FEEDBACK STATISTICS
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO: 
+Overall Metrics:
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO:   Total Votes: 289
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO:   Total Suggestions: 53
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO:   Pending Suggestions: 37
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO:   Approved Suggestions: 5
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO:   Rejected Suggestions: 0
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO: 📁 Feedback Statistics saved to: test_outputs_20260123_125427\06_feedback_statistics.json
+[2026-01-23 12:55:32] [INFO] ====================================================================================================
+[2026-01-23 12:55:32] [INFO] PHASE 8: Path Regeneration (with Community Feedback)
+[2026-01-23 12:55:32] [INFO] ====================================================================================================
+[2026-01-23 12:55:32] [INFO] ℹ️  INFO: Waiting 2 seconds for feedback to propagate...
+[2026-01-23 12:55:34] [INFO] ℹ️  INFO: Regenerating learning path...
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: Response received in 6.11 seconds
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-23 12:55:40] [SUCCESS] ✅ SUCCESS: Path regenerated successfully
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: COMPLETE REGENERATED LEARNING PATH
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+Matched Occupation: computer vision engineer
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: Similarity Score: 0.8793
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: Total Sessions: 6
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: Total Skills: 24
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: SESSION 1: Introduction to Machine Learning with Python
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Skills (4):
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     1. machine learning
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     2. Python (computer programming)
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     3. statistics
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     4. programming
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: SESSION 2: Data Processing and Preparation for Machine Learning
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Skills (4):
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     1. develop data processing applications
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     2. Python (computer programming)
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     3. programming
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     4. statistics
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: SESSION 3: Deep Learning Fundamentals with TensorFlow
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Skills (4):
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     1. machine learning
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     2. TensorFlow
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     3. Python (computer programming)
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     4. programming
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: SESSION 4: Advanced Deep Learning with PyTorch
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Skills (4):
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     1. machine learning
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     2. PyTorch
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     3. Python (computer programming)
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     4. programming
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: SESSION 5: Statistical Foundations for Machine Learning
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Skills (4):
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     1. statistics
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     2. machine learning
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     3. Python (computer programming)
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     4. programming
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: SESSION 6: Building Data Processing Pipelines with Python
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Skills (4):
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     1. develop data processing applications
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     2. Python (computer programming)
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     3. programming
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:     4. statistics
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+============================================================
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: PATH COMPARISON (Original vs Regenerated):
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ============================================================
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Original Sessions: 8
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Regenerated Sessions: 6
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Original Skills: 28
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   Regenerated Skills: 24
+[2026-01-23 12:55:40] [SUCCESS] ✅ SUCCESS: Found 2 community-influenced skills:
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   ✓ TensorFlow
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO:   ✓ PyTorch
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 📁 Regenerated Learning Path saved to: test_outputs_20260123_125427\07_regenerated_learning_path.json
+[2026-01-23 12:55:40] [INFO] ====================================================================================================
+[2026-01-23 12:55:40] [INFO] PHASE 9: Final Test Summary
+[2026-01-23 12:55:40] [INFO] ====================================================================================================
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: Total Test Duration: 72.98 seconds (1.2 minutes)
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: SYSTEM CAPABILITIES TESTED:
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ✅ Learning Path Generation.......................... 28 skills generated
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ✅ Community Voting System........................... 5 votes submitted
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ✅ Skill Suggestions................................. 3 suggestions submitted
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ✅ Quiz Generation................................... 10 questions
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ✅ Quiz Submission................................... Score: 40.0%
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ✅ Feedback Statistics............................... 289 total votes
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ✅ Path Regeneration................................. 24 skills
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: OVERALL SUCCESS RATE: 100.0% (7/7 features working)
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-01-23 12:55:40] [SUCCESS] ✅ SUCCESS: 🎉 EXCELLENT! System is fully functional!
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 📁 Final Summary saved to: test_outputs_20260123_125427\08_final_summary.json
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: 
+Detailed log saved to: full_system_test_log_20260123_125427.txt
+[2026-01-23 12:55:40] [INFO] ℹ️  INFO: Output files saved to: test_outputs_20260123_125427/

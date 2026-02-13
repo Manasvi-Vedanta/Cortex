@@ -1,0 +1,597 @@
+{
+  "learning_path": {
+    "sessions": [
+      {
+        "difficulty_level": "beginner",
+        "estimated_duration_hours": 8,
+        "objectives": [
+          "Understand basic Python syntax and data structures.",
+          "Learn how to use Python for simple web server creation.",
+          "Explore fundamental web programming concepts with Python."
+        ],
+        "prerequisites": [],
+        "session_number": 1,
+        "skills": [
+          "Python (computer programming)",
+          "web programming"
+        ],
+        "title": "Introduction to Python for Web Development"
+      },
+      {
+        "difficulty_level": "intermediate",
+        "estimated_duration_hours": 12,
+        "objectives": [
+          "Understand the fundamentals of container orchestration with Kubernetes.",
+          "Learn how to deploy and manage applications in Kubernetes.",
+          "Integrate Redis as a caching layer for improved application performance."
+        ],
+        "prerequisites": [
+          "Basic understanding of distributed systems."
+        ],
+        "session_number": 2,
+        "skills": [
+          "Kubernetes",
+          "Redis"
+        ],
+        "title": "Building Scalable Applications with Kubernetes and Redis"
+      },
+      {
+        "difficulty_level": "intermediate",
+        "estimated_duration_hours": 10,
+        "objectives": [
+          "Grasp the core concepts of Erlang's actor model.",
+          "Write concurrent and fault-tolerant applications in Erlang.",
+          "Understand message passing mechanisms in Erlang."
+        ],
+        "prerequisites": [
+          "Familiarity with functional programming concepts."
+        ],
+        "session_number": 3,
+        "skills": [
+          "Erlang"
+        ],
+        "title": "Concurrent Programming with Erlang"
+      },
+      {
+        "difficulty_level": "intermediate",
+        "estimated_duration_hours": 16,
+        "objectives": [
+          "Learn the Model-View-Controller (MVC) architecture in Ruby on Rails.",
+          "Build dynamic web applications using Ruby and Rails.",
+          "Understand database integration and routing in Rails."
+        ],
+        "prerequisites": [
+          "Basic understanding of web development principles."
+        ],
+        "session_number": 4,
+        "skills": [
+          "Ruby (computer programming)",
+          "web programming"
+        ],
+        "title": "Web Development with Ruby on Rails"
+      },
+      {
+        "difficulty_level": "intermediate",
+        "estimated_duration_hours": 20,
+        "objectives": [
+          "Understand object-oriented programming principles in Java.",
+          "Develop robust and scalable enterprise applications using Java.",
+          "Explore common Java libraries and frameworks."
+        ],
+        "prerequisites": [
+          "Basic programming concepts."
+        ],
+        "session_number": 5,
+        "skills": [
+          "Java (computer programming)"
+        ],
+        "title": "Enterprise Application Development with Java"
+      },
+      {
+        "difficulty_level": "intermediate",
+        "estimated_duration_hours": 10,
+        "objectives": [
+          "Understand the fundamentals of logic programming.",
+          "Write programs using Prolog's declarative syntax.",
+          "Solve problems using pattern matching and backtracking."
+        ],
+        "prerequisites": [
+          "Familiarity with logical reasoning."
+        ],
+        "session_number": 6,
+        "skills": [
+          "Prolog (computer programming)"
+        ],
+        "title": "Logic Programming with Prolog"
+      },
+      {
+        "difficulty_level": "beginner",
+        "estimated_duration_hours": 8,
+        "objectives": [
+          "Learn Perl's syntax for text processing and system administration.",
+          "Write scripts for automation tasks.",
+          "Understand regular expressions in Perl."
+        ],
+        "prerequisites": [],
+        "session_number": 7,
+        "skills": [
+          "Perl"
+        ],
+        "title": "Scripting and Automation with Perl"
+      },
+      {
+        "difficulty_level": "intermediate",
+        "estimated_duration_hours": 12,
+        "objectives": [
+          "Explore the pure object-oriented paradigm of Smalltalk.",
+          "Understand message passing and object interaction.",
+          "Develop applications in the Smalltalk environment."
+        ],
+        "prerequisites": [
+          "Understanding of object-oriented concepts."
+        ],
+        "session_number": 8,
+        "skills": [
+          "Smalltalk (computer programming)"
+        ],
+        "title": "Object-Oriented Programming in Smalltalk"
+      },
+      {
+        "difficulty_level": "advanced",
+        "estimated_duration_hours": 16,
+        "objectives": [
+          "Understand the basics of computer architecture and instruction sets.",
+          "Write simple programs in Assembly language.",
+          "Learn how programs interact with hardware at a low level."
+        ],
+        "prerequisites": [
+          "Strong understanding of computer science fundamentals."
+        ],
+        "session_number": 9,
+        "skills": [
+          "Assembly (computer programming)"
+        ],
+        "title": "Low-Level Programming with Assembly"
+      },
+      {
+        "difficulty_level": "beginner",
+        "estimated_duration_hours": 8,
+        "objectives": [
+          "Understand the principles of NoSQL databases.",
+          "Learn how to design and implement data models in MongoDB.",
+          "Perform basic CRUD operations using MongoDB."
+        ],
+        "prerequisites": [
+          "Basic understanding of databases."
+        ],
+        "session_number": 10,
+        "skills": [
+          "MongoDB"
+        ],
+        "title": "NoSQL Data Modeling with MongoDB"
+      },
+      {
+        "difficulty_level": "intermediate",
+        "estimated_duration_hours": 16,
+        "objectives": [
+          "Build complex web applications using Python frameworks.",
+          "Integrate MongoDB for flexible data storage.",
+          "Implement advanced web programming patterns."
+        ],
+        "prerequisites": [
+          "Completion of 'Introduction to Python for Web Development'."
+        ],
+        "session_number": 11,
+        "skills": [
+          "Python (computer programming)",
+          "web programming",
+          "MongoDB"
+        ],
+        "title": "Advanced Web Development with Python and MongoDB"
+      },
+      {
+        "difficulty_level": "advanced",
+        "estimated_duration_hours": 14,
+        "objectives": [
+          "Design and deploy microservices using Erlang.",
+          "Orchestrate Erlang microservices with Kubernetes.",
+          "Understand fault tolerance and scalability in distributed systems."
+        ],
+        "prerequisites": [
+          "Experience with microservice architecture.",
+          "Familiarity with Erlang and Kubernetes."
+        ],
+        "session_number": 12,
+        "skills": [
+          "Kubernetes",
+          "Erlang"
+        ],
+        "title": "Scalable Microservices with Kubernetes and Erlang"
+      }
+    ],
+    "target_occupation": "web developer",
+    "id": "path_20260107_140639"
+  },
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-07T14:07:05.643538",
+      "learning_path_id": "path_20260107_140639",
+      "target_occupation": "web developer",
+      "total_questions": 10,
+      "total_topics": 12
+    },
+    "questions": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "GET requests are used to retrieve resources from a specified URI. They are designed to be idempotent and safe, meaning they shouldn't alter server state.",
+        "id": 1,
+        "options": {
+          "A": "POST",
+          "B": "PUT",
+          "C": "GET",
+          "D": "DELETE"
+        },
+        "question": "Which HTTP method is typically used to retrieve data from a server without causing any side effects?",
+        "topic": "web programming"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Lists are mutable, meaning their elements can be changed, added, or removed after creation. Tuples, strings, and integers are immutable data types in Python.",
+        "id": 2,
+        "options": {
+          "A": "tuple",
+          "B": "string",
+          "C": "list",
+          "D": "int"
+        },
+        "question": "In Python, which of the following data types is mutable?",
+        "topic": "Python (computer programming)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "MongoDB is a leading NoSQL database that stores data in BSON (Binary JSON) documents, offering a flexible schema and horizontal scalability, ideal for modern web applications.",
+        "id": 3,
+        "options": {
+          "A": "Relational Database (SQL)",
+          "B": "Graph Database",
+          "C": "Document Database (NoSQL)",
+          "D": "Key-Value Store"
+        },
+        "question": "MongoDB is primarily classified as which type of database, known for storing data in flexible, JSON-like documents?",
+        "topic": "MongoDB"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Redis excels as an in-memory data store, making it incredibly fast for operations like caching database query results, application data, and storing ephemeral data like user sessions.",
+        "id": 4,
+        "options": {
+          "A": "Long-term archival storage of historical data",
+          "B": "Complex analytical processing of large datasets",
+          "C": "Caching frequently accessed data and managing user sessions",
+          "D": "Full-text search indexing of document content"
+        },
+        "question": "Which common web development use case is Redis frequently employed for, leveraging its in-memory data structure store capabilities?",
+        "topic": "Redis"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized workloads, ensuring high availability and efficient resource utilization for web applications.",
+        "id": 5,
+        "options": {
+          "A": "It simplifies front-end user interface design and development.",
+          "B": "It provides built-in tools for source code version control.",
+          "C": "It orchestrates containerized applications for automated deployment, scaling, and management.",
+          "D": "It is a framework specifically for building RESTful APIs."
+        },
+        "question": "What is the primary benefit of using Kubernetes in a modern web application deployment pipeline?",
+        "topic": "Kubernetes"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Ruby on Rails (often shortened to Rails) is a server-side web application framework written in Ruby. It's famous for its 'convention over configuration' paradigm, which allows developers to build applications quickly without extensive setup.",
+        "id": 6,
+        "options": {
+          "A": "Django",
+          "B": "Express.js",
+          "C": "Ruby on Rails",
+          "D": "Laravel"
+        },
+        "question": "Which popular web framework, known for its 'convention over configuration' principle and rapid development capabilities, is built using the Ruby programming language?",
+        "topic": "Ruby (computer programming)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "The Spring Framework is the most popular and comprehensive application development framework for Java, offering a vast ecosystem of tools and libraries for building scalable and maintainable enterprise web applications, including Spring Boot for rapid development.",
+        "id": 7,
+        "options": {
+          "A": "Flask",
+          "B": "Spring Framework",
+          "C": ".NET Core",
+          "D": "Phoenix"
+        },
+        "question": "For developing robust, enterprise-grade web applications in Java, which widely used framework provides comprehensive features for dependency injection, aspect-oriented programming, and transaction management?",
+        "topic": "Java (computer programming)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Erlang's actor model treats everything as an 'actor' (a lightweight process) that maintains its own state and communicates purely via message passing. This isolation prevents common concurrency issues like race conditions and deadlocks associated with shared memory in traditional thread-based models, making it ideal for scalable and fault-tolerant distributed systems like high-traffic web backends.",
+        "id": 8,
+        "options": {
+          "A": "It enforces strict sequential execution, making debugging simpler for complex workflows.",
+          "B": "It eliminates the need for any form of database interaction, simplifying data persistence.",
+          "C": "It uses lightweight, isolated processes that communicate via asynchronous message passing, reducing shared state issues and improving fault tolerance.",
+          "D": "It requires specialized hardware with multiple CPU cores for any performance gains to be realized."
+        },
+        "question": "Erlang is renowned for its capabilities in building highly concurrent, distributed, and fault-tolerant systems. How does its actor-model concurrency primarily benefit high-scale web backend services compared to traditional thread-based models?",
+        "topic": "Erlang"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "WebAssembly (Wasm) is a binary instruction format for a stack-based virtual machine designed to be a portable compilation target for high-level languages. It enables web applications to execute computationally intensive parts of code (e.g., games, image/video editing, scientific simulations) at speeds approaching native performance, which is similar to the efficiency gained by writing directly in Assembly for specific hardware operations.",
+        "id": 9,
+        "options": {
+          "A": "It allows direct manipulation of the browser's Document Object Model (DOM) using simplified low-level syntax.",
+          "B": "It enables server-side rendering of web pages without the need for JavaScript engines.",
+          "C": "It provides near-native execution speed for computationally intensive tasks by acting as a compilation target for languages like C/C++/Rust, leveraging efficient CPU operations.",
+          "D": "It automatically optimizes existing JavaScript code at runtime, making it faster without developer intervention."
+        },
+        "question": "While Assembly language itself is rarely used for direct web development, its underlying low-level principles are critical for understanding how performance-intensive web applications leverage technologies like WebAssembly (Wasm). What primary advantage does WebAssembly offer to web developers concerning performance, relating to compiled languages?",
+        "topic": "Assembly (computer programming)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Prolog excels at symbolic reasoning, pattern matching, and rule-based systems due to its declarative nature. While unsuitable for typical web server or UI development, its strengths make it valuable for specialized backend components that require logical inference, such as expert systems, intelligent recommendation engines, or complex business rule validation in a web application's backend.",
+        "id": 10,
+        "options": {
+          "A": "Building real-time interactive user interfaces with complex animations.",
+          "B": "Developing highly efficient and scalable database connection pooling mechanisms.",
+          "C": "Implementing complex business rules engines, expert systems, or knowledge representation components for decision-making.",
+          "D": "Managing distributed microservices communication patterns via message queues."
+        },
+        "question": "Prolog is a declarative logic programming language. In which niche web development scenario might its strengths be particularly valuable, even if not for general-purpose web server development?",
+        "topic": "Prolog (computer programming)"
+      }
+    ],
+    "topics_covered": [
+      "Python (computer programming)",
+      "web programming",
+      "Kubernetes",
+      "Redis",
+      "Erlang",
+      "Ruby (computer programming)",
+      "Java (computer programming)",
+      "Prolog (computer programming)",
+      "Perl",
+      "Smalltalk (computer programming)",
+      "Assembly (computer programming)",
+      "MongoDB"
+    ]
+  },
+  "user_answers": {
+    "1": "C",
+    "2": "C",
+    "3": "A",
+    "4": "C",
+    "5": "C",
+    "6": "A",
+    "7": "B",
+    "8": "C",
+    "9": "A",
+    "10": "C"
+  },
+  "analysis": {
+    "analyzed_at": "2026-01-07T14:07:07.740903",
+    "detailed_results": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "GET requests are used to retrieve resources from a specified URI. They are designed to be idempotent and safe, meaning they shouldn't alter server state.",
+        "is_correct": true,
+        "question": "Which HTTP method is typically used to retrieve data from a server without causing any side effects?",
+        "question_id": 1,
+        "topic": "web programming",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Lists are mutable, meaning their elements can be changed, added, or removed after creation. Tuples, strings, and integers are immutable data types in Python.",
+        "is_correct": true,
+        "question": "In Python, which of the following data types is mutable?",
+        "question_id": 2,
+        "topic": "Python (computer programming)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "MongoDB is a leading NoSQL database that stores data in BSON (Binary JSON) documents, offering a flexible schema and horizontal scalability, ideal for modern web applications.",
+        "is_correct": false,
+        "question": "MongoDB is primarily classified as which type of database, known for storing data in flexible, JSON-like documents?",
+        "question_id": 3,
+        "topic": "MongoDB",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Redis excels as an in-memory data store, making it incredibly fast for operations like caching database query results, application data, and storing ephemeral data like user sessions.",
+        "is_correct": true,
+        "question": "Which common web development use case is Redis frequently employed for, leveraging its in-memory data structure store capabilities?",
+        "question_id": 4,
+        "topic": "Redis",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized workloads, ensuring high availability and efficient resource utilization for web applications.",
+        "is_correct": true,
+        "question": "What is the primary benefit of using Kubernetes in a modern web application deployment pipeline?",
+        "question_id": 5,
+        "topic": "Kubernetes",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Ruby on Rails (often shortened to Rails) is a server-side web application framework written in Ruby. It's famous for its 'convention over configuration' paradigm, which allows developers to build applications quickly without extensive setup.",
+        "is_correct": false,
+        "question": "Which popular web framework, known for its 'convention over configuration' principle and rapid development capabilities, is built using the Ruby programming language?",
+        "question_id": 6,
+        "topic": "Ruby (computer programming)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "The Spring Framework is the most popular and comprehensive application development framework for Java, offering a vast ecosystem of tools and libraries for building scalable and maintainable enterprise web applications, including Spring Boot for rapid development.",
+        "is_correct": true,
+        "question": "For developing robust, enterprise-grade web applications in Java, which widely used framework provides comprehensive features for dependency injection, aspect-oriented programming, and transaction management?",
+        "question_id": 7,
+        "topic": "Java (computer programming)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Erlang's actor model treats everything as an 'actor' (a lightweight process) that maintains its own state and communicates purely via message passing. This isolation prevents common concurrency issues like race conditions and deadlocks associated with shared memory in traditional thread-based models, making it ideal for scalable and fault-tolerant distributed systems like high-traffic web backends.",
+        "is_correct": true,
+        "question": "Erlang is renowned for its capabilities in building highly concurrent, distributed, and fault-tolerant systems. How does its actor-model concurrency primarily benefit high-scale web backend services compared to traditional thread-based models?",
+        "question_id": 8,
+        "topic": "Erlang",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "WebAssembly (Wasm) is a binary instruction format for a stack-based virtual machine designed to be a portable compilation target for high-level languages. It enables web applications to execute computationally intensive parts of code (e.g., games, image/video editing, scientific simulations) at speeds approaching native performance, which is similar to the efficiency gained by writing directly in Assembly for specific hardware operations.",
+        "is_correct": false,
+        "question": "While Assembly language itself is rarely used for direct web development, its underlying low-level principles are critical for understanding how performance-intensive web applications leverage technologies like WebAssembly (Wasm). What primary advantage does WebAssembly offer to web developers concerning performance, relating to compiled languages?",
+        "question_id": 9,
+        "topic": "Assembly (computer programming)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Prolog excels at symbolic reasoning, pattern matching, and rule-based systems due to its declarative nature. While unsuitable for typical web server or UI development, its strengths make it valuable for specialized backend components that require logical inference, such as expert systems, intelligent recommendation engines, or complex business rule validation in a web application's backend.",
+        "is_correct": true,
+        "question": "Prolog is a declarative logic programming language. In which niche web development scenario might its strengths be particularly valuable, even if not for general-purpose web server development?",
+        "question_id": 10,
+        "topic": "Prolog (computer programming)",
+        "user_answer": "C"
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 3,
+        "percentage": 75.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Good",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: MongoDB, Ruby (computer programming), Assembly (computer programming)",
+      "✅ Your strongest areas: web programming, Python (computer programming)"
+    ],
+    "score": {
+      "correct": 7,
+      "grade": "B",
+      "incorrect": 3,
+      "percentage": 70.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "web programming",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Python (computer programming)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Redis",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kubernetes",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Java (computer programming)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Erlang",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Prolog (computer programming)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "MongoDB",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ruby (computer programming)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Assembly (computer programming)",
+        "total": 1
+      }
+    ]
+  }
+}

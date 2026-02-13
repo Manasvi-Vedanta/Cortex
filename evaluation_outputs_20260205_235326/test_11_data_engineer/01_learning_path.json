@@ -1,0 +1,257 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core concepts of database management systems",
+        "Write Sql queries to retrieve, filter, and aggregate data",
+        "Apply Sql joins to combine data across tables"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "database management systems",
+        "Sql"
+      ],
+      "title": "Foundations of database management systems and Sql"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design a logical data model for analytics use cases",
+        "Translate a logical model into a data warehouse-friendly structure",
+        "Identify modeling choices that improve data analytics performance"
+      ],
+      "prerequisites": [
+        "database management systems",
+        "Sql"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Data Modeling",
+        "data analytics",
+        "data warehouse"
+      ],
+      "title": "Data Modeling for analytics and data warehouse design"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Python to load, transform, and validate datasets",
+        "Implement reusable functions for data analysis tasks",
+        "Prepare analysis-ready outputs for downstream data analytics"
+      ],
+      "prerequisites": [
+        "Sql"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Python",
+        "data analysis",
+        "data analytics"
+      ],
+      "title": "Python for data analysis workflows"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Differentiate ETL vs ELT patterns and select an approach",
+        "Build a basic Etl/Elt Pipeline Development flow from source to target",
+        "Add validation steps to improve pipeline reliability"
+      ],
+      "prerequisites": [
+        "Sql",
+        "Python",
+        "Data Modeling"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Etl/Elt Pipeline Development",
+        "data storage",
+        "data warehouse"
+      ],
+      "title": "Etl/Elt Pipeline Development for reliable data movement"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model pipeline dependencies and execution order",
+        "Implement scheduling and retries using Workflow Orchestration (Airflow/Dagster)",
+        "Monitor pipeline runs and handle failures"
+      ],
+      "prerequisites": [
+        "Etl/Elt Pipeline Development",
+        "Python"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Workflow Orchestration (Airflow/Dagster)",
+        "Etl/Elt Pipeline Development"
+      ],
+      "title": "Workflow Orchestration (Airflow/Dagster) for scheduled pipelines"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core concepts of Data Warehousing (Snowflake/Redshift/Bigquery)",
+        "Implement loading patterns aligned with ELT",
+        "Optimize query patterns for data analytics workloads"
+      ],
+      "prerequisites": [
+        "Sql",
+        "Data Modeling",
+        "Etl/Elt Pipeline Development"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Data Warehousing (Snowflake/Redshift/Bigquery)",
+        "Data Warehousing (Snowflake/Redshift/Bigquery)",
+        "Sql"
+      ],
+      "title": "Data Warehousing (Snowflake/Redshift/Bigquery) fundamentals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Map common data storage options to analytics needs",
+        "Design a basic cloud-based architecture for a data warehouse",
+        "Identify operational considerations for running analytics workloads in the cloud"
+      ],
+      "prerequisites": [
+        "data warehouse",
+        "Data Warehousing (Snowflake/Redshift/Bigquery)"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Cloud Platforms (Aws/Azure/Gcp)",
+        "data storage",
+        "data analytics"
+      ],
+      "title": "Cloud Platforms (Aws/Azure/Gcp) for data storage and analytics"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain key concepts behind distributed execution and fault tolerance",
+        "Relate distributed systems tradeoffs to data pipeline design",
+        "Identify when distributed processing is required for data analytics"
+      ],
+      "prerequisites": [
+        "Etl/Elt Pipeline Development"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Distributed Systems Fundamentals",
+        "data analytics"
+      ],
+      "title": "Distributed Systems Fundamentals for scalable data processing"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Apache Spark to transform large datasets",
+        "Implement batch processing patterns aligned with data warehousing",
+        "Validate outputs for downstream data analytics consumption"
+      ],
+      "prerequisites": [
+        "Python",
+        "Distributed Systems Fundamentals"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Apache Spark",
+        "Distributed Systems Fundamentals",
+        "data analysis"
+      ],
+      "title": "Apache Spark for batch data processing"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core concepts of streaming data and event flows",
+        "Design a basic streaming pipeline using Stream Processing (Kafka/Flink)",
+        "Integrate streaming outputs into data storage for analytics"
+      ],
+      "prerequisites": [
+        "Distributed Systems Fundamentals",
+        "Etl/Elt Pipeline Development"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Stream Processing (Kafka/Flink)",
+        "data storage",
+        "data analytics"
+      ],
+      "title": "Stream Processing (Kafka/Flink) for real-time data analytics"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Combine Data Modeling and Etl/Elt Pipeline Development into an end-to-end flow",
+        "Load curated datasets into a data warehouse for data analytics",
+        "Validate analytics outputs using Sql"
+      ],
+      "prerequisites": [
+        "Data Warehousing (Snowflake/Redshift/Bigquery)",
+        "Workflow Orchestration (Airflow/Dagster)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Data Modeling",
+        "Etl/Elt Pipeline Development",
+        "data warehouse",
+        "data analytics",
+        "Sql"
+      ],
+      "title": "End-to-end data warehouse pipeline: modeling, loading, and analytics"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply Workflow Orchestration (Airflow/Dagster) patterns for production pipelines",
+        "Design reliability practices for batch and streaming workloads",
+        "Align data storage and data warehousing choices with data analytics requirements"
+      ],
+      "prerequisites": [
+        "Apache Spark",
+        "Stream Processing (Kafka/Flink)",
+        "Cloud Platforms (Aws/Azure/Gcp)"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Workflow Orchestration (Airflow/Dagster)",
+        "Distributed Systems Fundamentals",
+        "data storage",
+        "Data Warehousing (Snowflake/Redshift/Bigquery)",
+        "data analytics"
+      ],
+      "title": "Operationalizing analytics: orchestration and reliability at scale"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Data engineers develop the architecture needed to process, manage, and store large amounts of data which will be used by data scientists for analysis. They design the infrastructure and maintain data pipelines and warehouses to leverage data for strategic advantage.",
+    "label": "data engineer",
+    "similarity_score": 0.927115261554718,
+    "uri": "http://data.europa.eu/esco/occupation/2079755f-d809-49e6-8037-4de6180e54c0"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 35,
+    "skills_in_path": 12,
+    "skills_to_learn": 35,
+    "total_skills_needed": 35
+  },
+  "user_id": "eval_user_11"
+}

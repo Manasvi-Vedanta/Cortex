@@ -1,0 +1,36 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:49:44.921378",
+      "learning_path_id": "test_19",
+      "target_occupation": "technical sales representative",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [],
+    "topics_covered": [
+      "use customer relationship management software",
+      "characteristics of products",
+      "sales promotion techniques",
+      "product comprehension",
+      "characteristics of services",
+      "guarantee customer satisfaction",
+      "communicate with customers",
+      "implement marketing strategies",
+      "ensure compliance with legal requirements",
+      "answer requests for quotation",
+      "maintain relationship with customers",
+      "implement customer follow-up",
+      "prospect new customers",
+      "apply technical communication skills",
+      "manage schedule of tasks"
+    ]
+  },
+  "success": true
+}

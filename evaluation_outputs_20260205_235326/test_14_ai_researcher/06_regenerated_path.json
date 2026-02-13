@@ -1,0 +1,242 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Refresh core concepts in vectors, matrices, derivatives, and probability needed for ML",
+        "Explain the basic supervised learning setup and common problem types",
+        "Connect mathematical intuition to simple learning algorithms"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Mathematics (Linear Algebra, Calculus, Probability)",
+        "Machine Learning Fundamentals"
+      ],
+      "title": "Foundations: Math and Machine Learning Fundamentals"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write clean Python code for data handling and experimentation",
+        "Implement simple ML workflows end-to-end in Python",
+        "Structure code to support reproducible experiments"
+      ],
+      "prerequisites": [
+        "Mathematics (Linear Algebra, Calculus, Probability)",
+        "Machine Learning Fundamentals"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Python",
+        "Machine Learning Fundamentals"
+      ],
+      "title": "Python for ML Workflows"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Prepare raw datasets for modeling through cleaning and transformation",
+        "Design and validate features aligned with modeling goals",
+        "Prevent common data leakage pitfalls during preprocessing"
+      ],
+      "prerequisites": [
+        "Python",
+        "Machine Learning Fundamentals"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Data Preprocessing & Feature Engineering",
+        "Python"
+      ],
+      "title": "Data Preprocessing and Feature Engineering"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Interpret model parameters and uncertainty using statistical reasoning",
+        "Apply inference concepts to compare models and draw conclusions",
+        "Relate statistical modeling assumptions to practical ML outcomes"
+      ],
+      "prerequisites": [
+        "Mathematics (Linear Algebra, Calculus, Probability)",
+        "Machine Learning Fundamentals"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Statistical Modeling & Inference",
+        "Mathematics (Linear Algebra, Calculus, Probability)"
+      ],
+      "title": "Statistical Modeling and Inference for ML"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain objective functions and optimization goals in ML",
+        "Compare optimization behaviors and failure modes in practice",
+        "Connect optimization choices to training stability and performance"
+      ],
+      "prerequisites": [
+        "Mathematics (Linear Algebra, Calculus, Probability)",
+        "Machine Learning Fundamentals"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Optimization Methods",
+        "Machine Learning Fundamentals"
+      ],
+      "title": "Optimization Methods in Learning"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe neural network components and how they learn representations",
+        "Identify common deep learning training issues and how to diagnose them",
+        "Relate architecture and optimization choices to generalization"
+      ],
+      "prerequisites": [
+        "Machine Learning Fundamentals",
+        "Optimization Methods"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Deep Learning",
+        "Optimization Methods"
+      ],
+      "title": "Deep Learning Concepts and Training Dynamics"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build and train neural networks using Pytorch",
+        "Implement training loops and track learning behavior",
+        "Organize experiments for repeatable model development"
+      ],
+      "prerequisites": [
+        "Python",
+        "Deep Learning"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Pytorch",
+        "Deep Learning",
+        "Python"
+      ],
+      "title": "Implementing Deep Learning with Pytorch"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design evaluation protocols aligned with modeling objectives",
+        "Compare models fairly using consistent benchmarking practices",
+        "Interpret results and identify sources of variance and bias"
+      ],
+      "prerequisites": [
+        "Statistical Modeling & Inference",
+        "Machine Learning Fundamentals"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Model Evaluation & Benchmarking",
+        "Statistical Modeling & Inference"
+      ],
+      "title": "Model Evaluation and Benchmarking"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain attention mechanisms and transformer building blocks",
+        "Connect transformer design choices to performance and scaling behavior",
+        "Plan experiments to evaluate transformer variants"
+      ],
+      "prerequisites": [
+        "Deep Learning",
+        "Optimization Methods"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Transformers & Attention Models",
+        "Deep Learning"
+      ],
+      "title": "Transformers and Attention Models"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Formulate research questions and hypotheses for ML studies",
+        "Design controlled experiments and ablation studies",
+        "Define success criteria and analysis plans before running experiments"
+      ],
+      "prerequisites": [
+        "Model Evaluation & Benchmarking"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Research Methods & Experimental Design",
+        "scientific research methodology"
+      ],
+      "title": "Research Methods and Experimental Design for ML"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Organize datasets, splits, and experiment artifacts for traceability",
+        "Define documentation practices that support reproducibility",
+        "Establish conventions for storing and retrieving research outputs"
+      ],
+      "prerequisites": [
+        "Research Methods & Experimental Design"
+      ],
+      "session_number": 11,
+      "skills": [
+        "manage research data",
+        "Research Methods & Experimental Design"
+      ],
+      "title": "Managing Research Data for Reproducible ML"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Draft a coherent research proposal with clear aims and methodology",
+        "Align proposed experiments with evaluation and benchmarking plans",
+        "Practice professional communication in research and professional environments"
+      ],
+      "prerequisites": [
+        "Research Methods & Experimental Design",
+        "scientific research methodology"
+      ],
+      "session_number": 12,
+      "skills": [
+        "write research proposals",
+        "interact professionally in research and professional environments"
+      ],
+      "title": "Writing Research Proposals and Professional Research Communication"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Computer scientists conduct research in computer and information science, directed toward greater knowledge and understanding of fundamental aspects of ICT phenomena. They write research reports and proposals. Computer scientists also invent and design new approaches to computing technology, find innovative uses for existing technology and studies and solve complex problems in computing.",
+    "label": "computer scientist",
+    "similarity_score": 0.8482394814491272,
+    "uri": "http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 35,
+    "skills_in_path": 12,
+    "skills_to_learn": 35,
+    "total_skills_needed": 36
+  },
+  "user_id": "eval_user_14"
+}

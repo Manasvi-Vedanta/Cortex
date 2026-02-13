@@ -1,0 +1,176 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:06:34.288610",
+      "learning_path_id": "test_08",
+      "target_occupation": "web developer",
+      "total_questions": 10,
+      "total_topics": 14
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "<h1> represents the highest-level heading and is used for primary headings in a document or section.",
+        "id": 1,
+        "options": {
+          "A": "<h1>",
+          "B": "<p>",
+          "C": "<div>",
+          "D": "<span>"
+        },
+        "question": "Which HTML element is most appropriate for the main heading of a page section?",
+        "topic": "Html"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Padding adds internal spacing between the content box and the element’s border.",
+        "id": 2,
+        "options": {
+          "A": "margin",
+          "B": "padding",
+          "C": "border-spacing",
+          "D": "gap"
+        },
+        "question": "Which CSS property is used to create space inside an element, between its content and border?",
+        "topic": "CSS"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is designed for safe, read-only retrieval of resources.",
+        "id": 3,
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PUT",
+          "D": "DELETE"
+        },
+        "question": "Which HTTP method is typically used to retrieve a resource without changing server state?",
+        "topic": "Http"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Due to a long-standing JavaScript quirk, typeof null returns \"object\".",
+        "id": 4,
+        "options": {
+          "A": "null",
+          "B": "undefined",
+          "C": "object",
+          "D": "number"
+        },
+        "question": "In JavaScript, what is the result of typeof null?",
+        "topic": "JavaScript"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "PATCH is intended for partial updates, while PUT typically replaces the full resource representation.",
+        "id": 5,
+        "options": {
+          "A": "PUT /users/:id",
+          "B": "PATCH /users/:id",
+          "C": "POST /users/:id",
+          "D": "GET /users/:id"
+        },
+        "question": "You want to create a REST endpoint to partially update a user's profile (e.g., only the displayName). Which method best fits?",
+        "topic": "Rest Apis"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A LEFT JOIN keeps all customers and counts matching orders; customers with no orders produce NULL order rows that COUNT(o.id) treats as 0.",
+        "id": 6,
+        "options": {
+          "A": "SELECT c.id, COUNT(o.id) FROM customers c INNER JOIN orders o ON o.customer_id = c.id GROUP BY c.id;",
+          "B": "SELECT c.id, COUNT(o.id) FROM customers c LEFT JOIN orders o ON o.customer_id = c.id GROUP BY c.id;",
+          "C": "SELECT c.id, SUM(o.id) FROM customers c LEFT JOIN orders o ON o.customer_id = c.id;",
+          "D": "SELECT c.id, COUNT(*) FROM orders o RIGHT JOIN customers c ON o.customer_id = c.id WHERE o.id IS NOT NULL GROUP BY c.id;"
+        },
+        "question": "Which SQL query correctly returns the number of orders per customer, including customers with zero orders?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "express.json() parses JSON payloads and populates req.body.",
+        "id": 7,
+        "options": {
+          "A": "express.json()",
+          "B": "express.static()",
+          "C": "express.router()",
+          "D": "express.render()"
+        },
+        "question": "In Node.js with Express, which middleware is commonly used to parse incoming JSON request bodies?",
+        "topic": "Node.Js"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "XSS can read localStorage and exfiltrate tokens, enabling session hijacking; JWTs are not meant to be decrypted for passwords, and signature verification still applies.",
+        "id": 8,
+        "options": {
+          "A": "The attacker can read the JWT from localStorage and impersonate the user until the token expires.",
+          "B": "The attacker can decrypt the JWT and recover the user's password.",
+          "C": "The attacker can bypass TLS and intercept all network traffic.",
+          "D": "The attacker can force the server to accept any JWT without verifying its signature."
+        },
+        "question": "A JWT is stored in localStorage and sent in an Authorization header. An attacker finds an XSS vulnerability on your site. What is the most likely impact?",
+        "topic": "Authentication And Authorization (Jwt, Oauth2)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "3NF reduces redundancy by separating entities (Customers) and using foreign keys (customer_id) so customer attributes depend on the customer key, not on order_id.",
+        "id": 9,
+        "options": {
+          "A": "Add an index on customer_email to speed up queries.",
+          "B": "Split customer fields into a Customers table and reference it from Orders via customer_id.",
+          "C": "Store customer_name and customer_email as a JSON column inside Orders.",
+          "D": "Duplicate shipping_address into a second column to keep history."
+        },
+        "question": "You have a table Orders(order_id, customer_name, customer_email, shipping_address, order_date). Many orders share the same customer data. Which change best moves the design toward 3NF?",
+        "topic": "Database Design And Normalization"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "React onClick expects a function receiving a mouse event; wrapping lets you call onSelect with the required numeric id while keeping correct types.",
+        "id": 10,
+        "options": {
+          "A": "Change the prop type to onSelect: (e: React.MouseEvent<HTMLButtonElement>) => void.",
+          "B": "Wrap the call so the click handler matches React’s expected signature: <button onClick={() => onSelect(id)}>Select</button>.",
+          "C": "Cast onSelect to any: <button onClick={onSelect as any}>Select</button>.",
+          "D": "Disable TypeScript checking for this file using // @ts-nocheck."
+        },
+        "question": "In a React + TypeScript app, you have a component prop typed as onSelect: (id: number) => void. You pass it to a button: <button onClick={onSelect}>Select</button>. What is the best fix?",
+        "topic": "TypeScript"
+      }
+    ],
+    "topics_covered": [
+      "Html",
+      "CSS",
+      "develop digital content",
+      "JavaScript",
+      "Http",
+      "Rest Apis",
+      "Sql",
+      "Database Design And Normalization",
+      "Node.Js",
+      "Authentication And Authorization (Jwt, Oauth2)",
+      "React",
+      "JavaScript Framework",
+      "Add TypeScript",
+      "TypeScript"
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:10:41.227407",
+      "learning_path_id": "test_10",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Xcode uses schemes to define build/run settings, and the Run action builds and launches the target on a simulator or device.",
+        "id": 1,
+        "options": {
+          "A": "Scheme and Run (▶) action",
+          "B": "Interface Builder constraints",
+          "C": "Organizer archives only",
+          "D": "Asset Catalog compilation"
+        },
+        "question": "In Xcode, which feature is primarily used to build and run an app on a connected device or simulator?",
+        "topic": "Xcode"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "An IDE integrates common development tools (editor, compiler/build system, debugger, etc.) into one workflow.",
+        "id": 2,
+        "options": {
+          "A": "Provide a single application that combines editing, building, and debugging tools",
+          "B": "Replace the operating system for development",
+          "C": "Guarantee bug-free code through automatic verification",
+          "D": "Only manage source control branches"
+        },
+        "question": "What is the main purpose of an integrated development environment (IDE)?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "UIViewController is the standard controller class for managing a screen’s view hierarchy and lifecycle in UIKit.",
+        "id": 3,
+        "options": {
+          "A": "UIViewController",
+          "B": "UIApplicationDelegate",
+          "C": "UIResponder",
+          "D": "CALayer"
+        },
+        "question": "In UIKit, which class is most commonly used as the base for a screen's controller logic?",
+        "topic": "Ios Sdk (Uikit)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Flip-flops are sequential elements that store state (typically 1 bit) and update on clock edges.",
+        "id": 4,
+        "options": {
+          "A": "A way to store 1 bit of state synchronized to a clock",
+          "B": "A combinational logic function with no memory",
+          "C": "An analog-to-digital conversion stage",
+          "D": "A power regulation mechanism"
+        },
+        "question": "In digital systems, what does a flip-flop primarily provide?",
+        "topic": "digital systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "UI updates must occur on the main thread; in Swift this is done via MainActor or DispatchQueue.main.async.",
+        "id": 5,
+        "options": {
+          "A": "Update the label directly from the background thread for best performance",
+          "B": "Dispatch the UI update to the main thread (e.g., MainActor or DispatchQueue.main)",
+          "C": "Disable ARC so the UI can be updated safely",
+          "D": "Use a global variable to bypass thread rules"
+        },
+        "question": "You are writing Swift code that updates a UI label after receiving sensor data from a background task. What is the correct approach?",
+        "topic": "Concurrency (Gcd/Async-Await)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "SwiftUI updates views automatically when state changes via @State, @ObservedObject/@StateObject, and @Published properties.",
+        "id": 6,
+        "options": {
+          "A": "Use a constant let value and rebuild manually",
+          "B": "Use @State or an ObservableObject with @Published and bind the view to it",
+          "C": "Use only static functions to render the view",
+          "D": "Store the value only in UserDefaults and read it once"
+        },
+        "question": "In SwiftUI, which mechanism is most appropriate to keep a view updated when a model value changes over time (e.g., a live sensor reading)?",
+        "topic": "Swiftui"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Codable with JSONDecoder provides type-safe, maintainable JSON parsing and integrates well with Swift models.",
+        "id": 7,
+        "options": {
+          "A": "Use JSONSerialization and cast dictionaries everywhere",
+          "B": "Use Codable models with JSONDecoder",
+          "C": "Parse JSON using regular expressions",
+          "D": "Store the raw JSON string and avoid parsing"
+        },
+        "question": "When consuming a RESTful API that returns JSON, what is the most idiomatic way in Swift to parse the response into strongly typed models?",
+        "topic": "Restful Apis & Json"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "High-frequency polling wastes CPU/radio time; push-based or long-polling with backoff reduces overhead while maintaining timely updates.",
+        "id": 8,
+        "options": {
+          "A": "Increase polling frequency to 50 ms to reduce latency",
+          "B": "Switch to a push-based approach (e.g., WebSocket/MQTT) or use long-polling with backoff",
+          "C": "Disable TLS to reduce CPU usage",
+          "D": "Move networking to the main thread to simplify scheduling"
+        },
+        "question": "An app uses URLSession to poll an embedded device every 200 ms. After a few minutes, the app becomes sluggish and battery drain increases. Which change best addresses this while keeping responsiveness?",
+        "topic": "Urlsession & Networking"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The Leaks instrument (often used alongside Allocations) helps detect leaked memory and trace allocation backtraces.",
+        "id": 9,
+        "options": {
+          "A": "Time Profiler",
+          "B": "Leaks (or Allocations with leak detection)",
+          "C": "Network",
+          "D": "Core Animation"
+        },
+        "question": "You suspect a memory leak in an iOS app that communicates with an embedded device. Which Instruments tool is most appropriate to confirm leaked allocations and identify their origin?",
+        "topic": "Debugging & Instruments (Profiling)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Continuations are the standard way to adapt callback-based APIs to async/await while preserving error handling and structured concurrency.",
+        "id": 10,
+        "options": {
+          "A": "Rewrite the entire library in Swift before using it",
+          "B": "Wrap the callback API using withCheckedThrowingContinuation (or withCheckedContinuation) and expose an async function",
+          "C": "Call the Objective-C API only from the main thread to avoid concurrency issues",
+          "D": "Use global variables to store callback results and poll until they change"
+        },
+        "question": "You are integrating a legacy Objective-C library that exposes a callback-based API into a modern Swift async/await codebase. What is the best approach to bridge it safely and cleanly?",
+        "topic": "Objective-C"
+      }
+    ],
+    "topics_covered": [
+      "Xcode",
+      "integrated development environment software",
+      "Ios Sdk (Uikit)",
+      "Swift (computer programming)",
+      "programming",
+      "debug software",
+      "Swiftui",
+      "Restful Apis & Json",
+      "Urlsession & Networking",
+      "Debugging & Instruments (Profiling)",
+      "Concurrency (Gcd/Async-Await)",
+      "Core Data",
+      "Objective-C",
+      "tools for software configuration management",
+      "digital systems"
+    ]
+  },
+  "success": true
+}

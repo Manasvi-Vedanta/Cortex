@@ -1,0 +1,233 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Define core concepts and scope of embedded systems and digital systems",
+        "Set up an integrated development environment software for embedded development",
+        "Establish basic programming workflow and project structure",
+        "Apply tools for software configuration management to manage source and changes"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "embedded systems",
+        "digital systems",
+        "programming",
+        "integrated development environment software",
+        "tools for software configuration management"
+      ],
+      "title": "Embedded Systems Foundations and Development Workflow"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain key Microcontroller Architecture (Arm Cortex-M) concepts relevant to firmware design",
+        "Connect and validate basic digital I/O using Hardware Interfacing & Digital Electronics",
+        "Implement simple embedded C++ (Embedded) modules aligned with hardware behavior"
+      ],
+      "prerequisites": [
+        "embedded systems",
+        "digital systems",
+        "programming",
+        "integrated development environment software"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "Hardware Interfacing & Digital Electronics",
+        "C++ (Embedded)"
+      ],
+      "title": "Arm Cortex-M Microcontroller Architecture and Hardware Interfacing"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design interrupt-driven control flow for responsive embedded behavior",
+        "Configure and use timers for periodic scheduling and measurement",
+        "Use DMA to move data efficiently while minimizing CPU load"
+      ],
+      "prerequisites": [
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "Hardware Interfacing & Digital Electronics",
+        "C++ (Embedded)"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Interrupts, Timers & Dma",
+        "Interrupts, Timers & Dma",
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "C++ (Embedded)"
+      ],
+      "title": "Interrupt-Driven Firmware: Interrupts, Timers, and DMA"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain memory regions and constraints typical in embedded targets",
+        "Apply Memory Management & Linker Scripts to control placement and footprint",
+        "Diagnose common memory-related issues in embedded builds"
+      ],
+      "prerequisites": [
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "programming",
+        "integrated development environment software"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Memory Management & Linker Scripts",
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "C++ (Embedded)"
+      ],
+      "title": "Memory Layout, Memory Management, and Linker Scripts"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select an appropriate serial bus based on system constraints and requirements",
+        "Implement and validate peripheral communication using standard interfaces",
+        "Integrate bus communication into an embedded application structure"
+      ],
+      "prerequisites": [
+        "Hardware Interfacing & Digital Electronics",
+        "Interrupts",
+        "Timers & Dma"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Device Drivers (Spi/I2C/Uart/Can)",
+        "Hardware Interfacing & Digital Electronics",
+        "Interrupts, Timers & Dma",
+        "Interrupts, Timers & Dma",
+        "C++ (Embedded)"
+      ],
+      "title": "Device Communication: SPI, I2C, UART, and CAN"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Structure an application into concurrent tasks with clear responsibilities",
+        "Apply RTOS timing and event mechanisms to meet real-time needs",
+        "Integrate interrupt and driver interactions within an RTOS-based design"
+      ],
+      "prerequisites": [
+        "Interrupts",
+        "Timers & Dma",
+        "Device Drivers (Spi/I2C/Uart/Can)"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Rtos (Freertos/Zephyr)",
+        "Interrupts, Timers & Dma",
+        "Interrupts, Timers & Dma",
+        "Device Drivers (Spi/I2C/Uart/Can)",
+        "C++ (Embedded)"
+      ],
+      "title": "Real-Time Scheduling with FreeRTOS/Zephyr"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain Embedded Linux architecture and how it differs from bare-metal and RTOS approaches",
+        "Set up a basic Embedded Linux development workflow in an integrated development environment software",
+        "Integrate application components with system services and interfaces"
+      ],
+      "prerequisites": [
+        "embedded systems",
+        "programming",
+        "tools for software configuration management"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Embedded Linux",
+        "integrated development environment software",
+        "tools for software configuration management",
+        "programming"
+      ],
+      "title": "Embedded Linux Fundamentals and System Integration"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Map peripheral communication needs to appropriate driver interfaces",
+        "Implement and validate peripheral access paths for SPI/I2C/UART/CAN in an Embedded Linux context",
+        "Troubleshoot driver-level integration issues using a structured workflow"
+      ],
+      "prerequisites": [
+        "Embedded Linux",
+        "Device Drivers (Spi/I2C/Uart/Can)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Embedded Linux",
+        "Device Drivers (Spi/I2C/Uart/Can)",
+        "Hardware Interfacing & Digital Electronics",
+        "programming"
+      ],
+      "title": "Embedded Linux Device Drivers and Peripheral Access"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply automatic programming to generate or transform embedded code artifacts",
+        "Integrate automatically produced outputs into an existing embedded project structure",
+        "Validate correctness and maintainability of automatically produced code in the build workflow"
+      ],
+      "prerequisites": [
+        "programming",
+        "tools for software configuration management"
+      ],
+      "session_number": 9,
+      "skills": [
+        "use automatic programming",
+        "embedded systems",
+        "programming",
+        "tools for software configuration management"
+      ],
+      "title": "Automatic Programming for Embedded Development Acceleration"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use logic programming to express system rules, constraints, or expected behaviors",
+        "Apply logic programming outputs to support embedded systems design decisions",
+        "Create a repeatable workflow that connects logic programming artifacts to programming tasks"
+      ],
+      "prerequisites": [
+        "embedded systems",
+        "programming"
+      ],
+      "session_number": 10,
+      "skills": [
+        "use logic programming",
+        "embedded systems",
+        "programming"
+      ],
+      "title": "Logic Programming for Specification and Verification in Embedded Contexts"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Embedded systems software developers program, implement, document and maintain software to be run on an embedded system.",
+    "label": "embedded systems software developer",
+    "similarity_score": 0.9406181573867798,
+    "uri": "http://data.europa.eu/esco/occupation/57af9090-55b4-4911-b2d0-86db01c00b02"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 32,
+    "skills_in_path": 10,
+    "skills_to_learn": 32,
+    "total_skills_needed": 33
+  },
+  "user_id": "eval_user_17"
+}

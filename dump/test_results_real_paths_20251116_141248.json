@@ -1,0 +1,38 @@
+{
+  "timestamp": "20251116_141248",
+  "total_tests": 5,
+  "successful": 0,
+  "failed": 5,
+  "test_results": [
+    {
+      "scenario": "Web Developer",
+      "status": "failed",
+      "error": "no such table: occupations"
+    },
+    {
+      "scenario": "Data Scientist",
+      "status": "failed",
+      "error": "no such table: occupations"
+    },
+    {
+      "scenario": "AI Engineer",
+      "status": "failed",
+      "error": "no such table: occupations"
+    },
+    {
+      "scenario": "DevOps Engineer",
+      "status": "failed",
+      "error": "no such table: occupations"
+    },
+    {
+      "scenario": "Mobile Developer",
+      "status": "failed",
+      "error": "no such table: occupations"
+    }
+  ],
+  "performance_summary": {
+    "avg_total_time": 0.0,
+    "avg_resources": 0.0,
+    "avg_hours": 0.0
+  }
+}

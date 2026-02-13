@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:08:30.939579",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Android Studio is the official IDE for Android development, providing editing, building, running, and debugging tools.",
+        "is_correct": true,
+        "question": "What is Android Studio primarily used for in mobile app development?",
+        "question_id": 1,
+        "topic": "Android Studio",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Android SDK includes libraries (APIs) and tools (like adb, build tools) required to build, run, and test Android apps.",
+        "is_correct": false,
+        "question": "What does the Android SDK provide to developers?",
+        "question_id": 2,
+        "topic": "Android Sdk",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Kotlin uses 'val' for read-only references and 'var' for mutable references.",
+        "is_correct": false,
+        "question": "In Kotlin, which keyword declares a read-only (immutable) variable reference?",
+        "question_id": 3,
+        "topic": "Kotlin",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is a widely used version control system, a core tool for software configuration management.",
+        "is_correct": false,
+        "question": "Which tool is most directly associated with software configuration management for tracking code changes and collaboration?",
+        "question_id": 4,
+        "topic": "tools for software configuration management",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "applicationId and minSdk are configured in the module (app) Gradle file inside android { defaultConfig { ... } }.",
+        "is_correct": false,
+        "question": "In Gradle for Android, where do you typically set the app's applicationId and minSdk version?",
+        "question_id": 5,
+        "topic": "Gradle (Android Build System)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "@Composable marks functions that participate in Compose's UI rendering and recomposition system.",
+        "is_correct": false,
+        "question": "In Jetpack Compose, what is the primary purpose of the @Composable annotation?",
+        "question_id": 6,
+        "topic": "Jetpack Compose",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Coroutines with suspend functions (commonly with Retrofit) allow non-blocking network calls, typically dispatched on Dispatchers.IO.",
+        "is_correct": true,
+        "question": "You need to fetch data from a REST API without blocking the UI thread. Which approach is most appropriate in a modern Android app using Kotlin?",
+        "question_id": 7,
+        "topic": "Coroutines",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "ViewModel is lifecycle-aware and survives configuration changes, making it the correct place to keep UI state and data streams.",
+        "is_correct": false,
+        "question": "A Compose screen collects a Flow from a ViewModel. After rotating the device, the UI restarts and the data reloads unnecessarily. Which Jetpack component and pattern best helps retain UI-related state across configuration changes?",
+        "question_id": 8,
+        "topic": "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Room requires version bumps and migrations for schema changes; adding a non-null column typically needs a default/backfill to keep existing rows valid.",
+        "is_correct": true,
+        "question": "You are using Room for local persistence. You add a new non-null column to an existing table in production. What is the most robust way to prevent crashes on upgrade while preserving user data?",
+        "question_id": 9,
+        "topic": "Sqlite/Room Persistence",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "SingletonComponent with @Singleton ensures one instance for the app process, which is the standard approach for app-wide repositories.",
+        "is_correct": false,
+        "question": "In an Android app using Hilt, you want a single instance of a repository shared across the entire app process. Which setup is correct?",
+        "question_id": 10,
+        "topic": "Dependency Injection (Hilt/Dagger)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Android Sdk, Kotlin, tools for software configuration management",
+      "✅ Your strongest areas: Android Studio, Coroutines"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Android Studio",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Coroutines",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Sqlite/Room Persistence",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Android Sdk",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Kotlin",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Gradle (Android Build System)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Jetpack Compose",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Dependency Injection (Hilt/Dagger)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

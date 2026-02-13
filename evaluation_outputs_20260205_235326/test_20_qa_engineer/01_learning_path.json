@@ -1,0 +1,247 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify stable elements in the DOM for automation",
+        "Create robust XPath and CSS selector strategies",
+        "Reduce locator flakiness through consistent locator conventions"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Locators & Web Fundamentals (Html/Css/Dom/Xpath/Css Selectors)"
+      ],
+      "title": "Web Fundamentals for Reliable Automation: DOM, HTML/CSS, and Locators"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write maintainable automation code structures",
+        "Use functions, data structures, and error handling for test code",
+        "Apply consistent coding practices for automation projects"
+      ],
+      "prerequisites": [
+        "Locators & Web Fundamentals (Html/Css/Dom/Xpath/Css Selectors)"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Programming (Java/Python/Javascript)"
+      ],
+      "title": "Programming Foundations for Test Automation"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create and execute test suites using a unit test framework",
+        "Organize tests with setup/teardown and assertions",
+        "Run tests locally with repeatable commands"
+      ],
+      "prerequisites": [
+        "Programming (Java/Python/Javascript)"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Test Runners & Unit Test Frameworks (Junit/Testng/Pytest/Jest)"
+      ],
+      "title": "Unit Test Frameworks and Test Runners Setup"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Initialize an automation project with dependencies",
+        "Manage versions and resolve dependency conflicts",
+        "Standardize project execution via build scripts"
+      ],
+      "prerequisites": [
+        "Test Runners & Unit Test Frameworks (Junit/Testng/Pytest/Jest)"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Build & Dependency Tools (Maven/Gradle/Npm)"
+      ],
+      "title": "Build and Dependency Management for Automation Projects"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Automate core user flows using a test automation framework",
+        "Handle waits, navigation, and common UI interactions",
+        "Stabilize tests by reducing timing and locator issues"
+      ],
+      "prerequisites": [
+        "Locators & Web Fundamentals (Html/Css/Dom/Xpath/Css Selectors)",
+        "Programming (Java/Python/Javascript)",
+        "Test Runners & Unit Test Frameworks (Junit/Testng/Pytest/Jest)",
+        "Build & Dependency Tools (Maven/Gradle/Npm)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Test Automation Frameworks (Selenium/Cypress/Playwright)"
+      ],
+      "title": "UI Test Automation with Selenium/Cypress/Playwright"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement Page Object Model to improve maintainability",
+        "Apply data-driven approaches to expand coverage efficiently",
+        "Refactor tests to reduce duplication and improve readability"
+      ],
+      "prerequisites": [
+        "Test Automation Frameworks (Selenium/Cypress/Playwright)",
+        "Programming (Java/Python/Javascript)"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Test Design & Automation Patterns (Page Object Model, Data-Driven)"
+      ],
+      "title": "Test Design and Automation Patterns: POM and Data-Driven"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design and automate REST and SOAP test cases",
+        "Validate status codes, payloads, and schemas",
+        "Integrate API tests into automated test suites"
+      ],
+      "prerequisites": [
+        "Programming (Java/Python/Javascript)",
+        "Test Runners & Unit Test Frameworks (Junit/Testng/Pytest/Jest)"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Api Testing (Rest/Soap)"
+      ],
+      "title": "API Testing: REST and SOAP Automation"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use branching and merging to manage automation changes",
+        "Resolve conflicts and maintain a clean commit history",
+        "Apply consistent repository structure for automation projects"
+      ],
+      "prerequisites": [
+        "Programming (Java/Python/Javascript)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Version Control (Git)"
+      ],
+      "title": "Version Control for Automation: Git Workflows"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create pipelines to run automated tests on each change",
+        "Publish test results and enforce quality gates",
+        "Parameterize pipelines for different environments"
+      ],
+      "prerequisites": [
+        "Version Control (Git)",
+        "Build & Dependency Tools (Maven/Gradle/Npm)",
+        "Test Runners & Unit Test Frameworks (Junit/Testng/Pytest/Jest)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Ci/Cd Pipelines (Jenkins/Github Actions/Gitlab Ci)"
+      ],
+      "title": "CI/CD for Automated Testing with Jenkins/GitHub Actions/GitLab CI"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select appropriate automation technology for given testing needs",
+        "Design reusable automation components for scalability",
+        "Define component boundaries to improve maintainability"
+      ],
+      "prerequisites": [
+        "Test Design & Automation Patterns (Page Object Model, Data-Driven)",
+        "Test Automation Frameworks (Selenium/Cypress/Playwright)"
+      ],
+      "session_number": 10,
+      "skills": [
+        "automation technology",
+        "design automation components"
+      ],
+      "title": "Automation Technology and Component Design"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Install, configure, and run open source software used in automation",
+        "Troubleshoot common runtime and configuration issues",
+        "Maintain repeatable local environments for automation execution"
+      ],
+      "prerequisites": [
+        "Build & Dependency Tools (Maven/Gradle/Npm)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "operate open source software"
+      ],
+      "title": "Operating Open Source Software in Automation Toolchains"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Align automation work with production processes and release cycles",
+        "Plan and track personal professional development goals",
+        "Apply process discipline to sustain automation quality over time"
+      ],
+      "prerequisites": [
+        "Ci/Cd Pipelines (Jenkins/Github Actions/Gitlab Ci)"
+      ],
+      "session_number": 12,
+      "skills": [
+        "production processes",
+        "manage personal professional development"
+      ],
+      "title": "Production Processes and Professional Development for Automation Delivery"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create technical diagrams to document automation architecture",
+        "Maintain consistent diagram standards for team communication",
+        "Update diagrams to reflect changes in automation components"
+      ],
+      "prerequisites": [
+        "design automation components"
+      ],
+      "session_number": 13,
+      "skills": [
+        "use technical drawing software"
+      ],
+      "title": "Technical Drawing Software for Automation Documentation"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Automation engineers research, design, and develop applications and systems for the automation of the production process. They implement technology and reduce, whenever applicable, human input to reach the full potential of industrial robotics. Automation engineers oversee the process and ensure all systems run safely and smoothly.",
+    "label": "automation engineer",
+    "similarity_score": 0.904593288898468,
+    "uri": "http://data.europa.eu/esco/occupation/bb609566-3ab6-44dd-8f48-cf0b15b96827"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 34,
+    "skills_in_path": 13,
+    "skills_to_learn": 34,
+    "total_skills_needed": 34
+  },
+  "user_id": "eval_user_20"
+}

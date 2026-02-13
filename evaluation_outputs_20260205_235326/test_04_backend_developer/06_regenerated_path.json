@@ -1,0 +1,226 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Set up an efficient development workflow using an integrated development environment software",
+        "Write and run basic programs and iterate using debugging and refactoring features"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "programming",
+        "integrated development environment software"
+      ],
+      "title": "Programming Foundations and IDE Workflow"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create and manage repositories with a clean commit history",
+        "Use branching and merging to collaborate and manage changes safely"
+      ],
+      "prerequisites": [
+        "programming",
+        "integrated development environment software"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Git"
+      ],
+      "title": "Git Fundamentals for Version Control"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement core data structures and analyze time/space complexity",
+        "Apply algorithmic techniques to solve common programming problems"
+      ],
+      "prerequisites": [
+        "programming"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Data Structures And Algorithms",
+        "programming"
+      ],
+      "title": "Data Structures And Algorithms Essentials"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write SELECT queries with filtering, sorting, joins, and aggregation",
+        "Modify data safely using INSERT/UPDATE/DELETE and transactions"
+      ],
+      "prerequisites": [
+        "programming"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Sql (Postgresql/Mysql)"
+      ],
+      "title": "SQL Basics with PostgreSQL/MySQL"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model entities and relationships and translate them into relational tables",
+        "Normalize schemas to reduce redundancy and improve integrity"
+      ],
+      "prerequisites": [
+        "Sql (Postgresql/Mysql)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Database Design And Normalization",
+        "Sql (Postgresql/Mysql)"
+      ],
+      "title": "Database Design And Normalization"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain request/response structure, methods, headers, status codes, and content negotiation",
+        "Understand HTTPS goals and how it changes transport and security properties"
+      ],
+      "prerequisites": [
+        "programming"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Http/Https Fundamentals",
+        "web programming"
+      ],
+      "title": "HTTP/HTTPS Fundamentals for Web Systems"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design resource-oriented endpoints with consistent naming and semantics",
+        "Define pagination, filtering, error formats, and versioning strategies"
+      ],
+      "prerequisites": [
+        "Http/Https Fundamentals",
+        "Sql (Postgresql/Mysql)"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Restful Api Design",
+        "Http/Https Fundamentals",
+        "web programming"
+      ],
+      "title": "RESTful API Design"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement token-based authentication flows and validate tokens correctly",
+        "Design authorization rules and enforce them consistently across endpoints"
+      ],
+      "prerequisites": [
+        "Restful Api Design",
+        "Http/Https Fundamentals"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Authentication And Authorization (Oauth2/Jwt)",
+        "Restful Api Design",
+        "Http/Https Fundamentals"
+      ],
+      "title": "Authentication And Authorization (Oauth2/Jwt)"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Choose appropriate caching strategies for reads, writes, and computed results",
+        "Handle cache invalidation, TTLs, and consistency trade-offs"
+      ],
+      "prerequisites": [
+        "Sql (Postgresql/Mysql)",
+        "Restful Api Design"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Caching (Redis/Memcached)",
+        "Sql (Postgresql/Mysql)",
+        "Restful Api Design"
+      ],
+      "title": "Caching with Redis/Memcached"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify concurrency hazards and apply safe patterns for shared state",
+        "Design concurrent workloads for responsiveness and throughput"
+      ],
+      "prerequisites": [
+        "programming",
+        "Data Structures And Algorithms"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Concurrency And Multithreading",
+        "programming"
+      ],
+      "title": "Concurrency And Multithreading in Application Development"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply use software design patterns to structure code for maintainability",
+        "Select appropriate software UI design patterns for common interaction flows"
+      ],
+      "prerequisites": [
+        "programming",
+        "web programming"
+      ],
+      "session_number": 11,
+      "skills": [
+        "use software design patterns",
+        "web programming",
+        "software UI design patterns"
+      ],
+      "title": "Use Software Design Patterns in Web Programming"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create and export UI assets using graphics editor software",
+        "Integrate visual assets into a consistent interface using software UI design patterns"
+      ],
+      "prerequisites": [],
+      "session_number": 12,
+      "skills": [
+        "graphics editor software",
+        "software UI design patterns"
+      ],
+      "title": "UI Asset Creation and Graphics Workflow"
+    }
+  ],
+  "matched_occupation": {
+    "description": "User interface developers implement, code, document and maintain the interface of a software system by using front-end development technologies.",
+    "label": "user interface developer",
+    "similarity_score": 0.7806129455566406,
+    "uri": "http://data.europa.eu/esco/occupation/866c7813-2c03-47d7-9bdc-192cfbace57c"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 34,
+    "skills_in_path": 12,
+    "skills_to_learn": 34,
+    "total_skills_needed": 34
+  },
+  "user_id": "eval_user_04"
+}

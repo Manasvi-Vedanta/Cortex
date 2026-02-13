@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:04:59.557288",
+      "learning_path_id": "test_07",
+      "target_occupation": "computer scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The Internet layer (IP) handles logical addressing and routing packets across networks.",
+        "id": 1,
+        "options": {
+          "A": "Application layer",
+          "B": "Transport layer",
+          "C": "Internet layer",
+          "D": "Link layer"
+        },
+        "question": "Which TCP/IP layer is responsible for routing packets between networks?",
+        "topic": "Tcp/Ip And Networking Fundamentals"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Firewalls enforce policy by allowing or blocking network traffic based on defined rules (e.g., IPs, ports, protocols).",
+        "id": 2,
+        "options": {
+          "A": "Encrypt all files on disk",
+          "B": "Filter traffic based on rules to allow or block connections",
+          "C": "Automatically patch operating systems",
+          "D": "Replace the need for authentication"
+        },
+        "question": "What is the primary purpose of a firewall in network security?",
+        "topic": "Network Security"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Timestamps allow analysts to sequence and correlate events across multiple sources during investigations.",
+        "id": 3,
+        "options": {
+          "A": "Compress log files more efficiently",
+          "B": "Correlate events in time order across systems",
+          "C": "Prevent logs from being modified",
+          "D": "Automatically classify malware families"
+        },
+        "question": "In log analysis, what does a timestamp primarily enable you to do?",
+        "topic": "Log Analysis"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Research methodology emphasizes hypothesis-driven inquiry, systematic data collection, and evaluation to support or refute claims.",
+        "id": 4,
+        "options": {
+          "A": "A process of forming hypotheses, collecting evidence, and evaluating results to draw conclusions",
+          "B": "A method for memorizing facts quickly",
+          "C": "A technique for writing code without testing",
+          "D": "A way to avoid peer review"
+        },
+        "question": "Which statement best describes scientific research methodology?",
+        "topic": "scientific research methodology"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Correlation links related events across sources (e.g., suspicious login followed by privilege escalation) to detect attack chains.",
+        "id": 5,
+        "options": {
+          "A": "Data deduplication",
+          "B": "Event correlation using rules or analytics",
+          "C": "Disk encryption",
+          "D": "CPU overclocking"
+        },
+        "question": "A SIEM ingests logs from endpoints, servers, and firewalls. Which capability most directly helps detect multi-step attacks spanning multiple systems?",
+        "topic": "Security Monitoring (Siem)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "GPOs centrally enforce configurations (e.g., password policy, audit settings) across users and computers in a domain.",
+        "id": 6,
+        "options": {
+          "A": "Group Policy Object (GPO)",
+          "B": "Local user account",
+          "C": "NTFS alternate data stream",
+          "D": "Windows Registry hive backup"
+        },
+        "question": "In Windows Active Directory, which object is primarily used to apply security settings and configurations to many computers or users at once?",
+        "topic": "Windows Security And Active Directory"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Open-source services are typically configured via text-based config files; validating syntax and reloading applies changes safely.",
+        "id": 7,
+        "options": {
+          "A": "Edit the server configuration file and validate the syntax before reloading the service",
+          "B": "Delete the binary and reinstall the OS",
+          "C": "Disable logging to improve performance",
+          "D": "Hardcode changes directly into the kernel"
+        },
+        "question": "You are operating an open-source web server (e.g., Nginx/Apache) and need to change its behavior. Which action is generally the most appropriate first step?",
+        "topic": "operate open source software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "EDR containment limits lateral movement and data exfiltration while keeping the system running for triage and evidence acquisition.",
+        "id": 8,
+        "options": {
+          "A": "Power off the machine by unplugging it immediately",
+          "B": "Isolate the endpoint from the network via EDR containment and begin evidence collection",
+          "C": "Delete all PowerShell binaries from the system",
+          "D": "Ignore it because Office often launches PowerShell"
+        },
+        "question": "An EDR alert shows: 'powershell.exe spawned by winword.exe' followed by a network connection to an unfamiliar domain and creation of a scheduled task. What is the best immediate incident response action to reduce impact while preserving evidence?",
+        "topic": "Incident Response"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "When patches are unavailable, applying mitigations and compensating controls while tracking remediation timelines is standard risk management.",
+        "id": 9,
+        "options": {
+          "A": "Ignore the finding until a patch is released",
+          "B": "Apply the configuration mitigation, add compensating controls, and track for patch availability with a defined SLA",
+          "C": "Immediately uninstall the affected service without notifying stakeholders",
+          "D": "Disable all security monitoring to reduce false positives"
+        },
+        "question": "A vulnerability scanner reports a critical CVE on a production Linux server. The package manager shows the vendor patch is not yet available, but a configuration workaround exists. What is the best risk-based approach?",
+        "topic": "Vulnerability Management"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Behavioral baselining (per user/source) helps distinguish normal patterns from suspicious spikes, reducing false positives in detection rules.",
+        "id": 10,
+        "options": {
+          "A": "Trigger on any single failed login attempt",
+          "B": "Use a static threshold only (e.g., >5 failures) with no context",
+          "C": "Baseline per user or per source over time and alert on deviations (anomaly/behavioral thresholding)",
+          "D": "Disable authentication logs to avoid noise"
+        },
+        "question": "You are building a threat detection rule using an application-specific query interface (e.g., KQL/SPL). You want to reduce false positives for 'multiple failed logins' by accounting for normal user behavior. Which approach is most effective?",
+        "topic": "Threat Detection And Analysis"
+      }
+    ],
+    "topics_covered": [
+      "Tcp/Ip And Networking Fundamentals",
+      "Network Security",
+      "Log Analysis",
+      "Security Monitoring (Siem)",
+      "Threat Detection And Analysis",
+      "Endpoint Security (Edr/Av)",
+      "Windows Security And Active Directory",
+      "Linux Security",
+      "Vulnerability Management",
+      "Incident Response",
+      "operate open source software",
+      "use an application-specific interface",
+      "scientific research methodology",
+      "data science",
+      "manage personal professional development"
+    ]
+  },
+  "success": true
+}

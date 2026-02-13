@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:20:48.423624",
+      "learning_path_id": "test_15",
+      "target_occupation": "dependability engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`top` provides an interactive, real-time view of processes and system resource usage.",
+        "id": 1,
+        "options": {
+          "A": "top",
+          "B": "tar",
+          "C": "chmod",
+          "D": "grep"
+        },
+        "question": "In Linux, which command is primarily used to view real-time system and process resource usage (CPU, memory) interactively?",
+        "topic": "Linux Systems Administration"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Labels are key-value pairs attached to metrics that enable slicing, filtering, and aggregation (e.g., by instance, job, region).",
+        "id": 2,
+        "options": {
+          "A": "To add dimensions (metadata) to a metric for filtering and aggregation",
+          "B": "To encrypt metrics in transit",
+          "C": "To store logs alongside metrics",
+          "D": "To define the scrape interval for a target"
+        },
+        "question": "In Prometheus, what is a 'label' primarily used for?",
+        "topic": "Monitoring And Observability (Prometheus/Grafana)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Terraform codifies infrastructure in declarative configuration, supports version control, and uses plan/apply to manage changes safely.",
+        "id": 3,
+        "options": {
+          "A": "Defining infrastructure in version-controlled files and applying changes via a plan/apply workflow",
+          "B": "Manually configuring servers over SSH and documenting steps in a wiki",
+          "C": "Using a GUI to click-create cloud resources without tracking changes",
+          "D": "Storing application logs in an index for search and analytics"
+        },
+        "question": "Which statement best describes Infrastructure as Code (IaC) with Terraform?",
+        "topic": "Infrastructure As Code (Terraform)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "DMAIC is the core Six Sigma improvement cycle: Define, Measure, Analyze, Improve, Control.",
+        "id": 4,
+        "options": {
+          "A": "Define, Measure, Analyze, Improve, Control",
+          "B": "Design, Monitor, Audit, Implement, Calibrate",
+          "C": "Develop, Model, Automate, Integrate, Compile",
+          "D": "Detect, Mitigate, Assess, Isolate, Correct"
+        },
+        "question": "In Six Sigma, what does 'DMAIC' stand for?",
+        "topic": "six sigma methods"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Symptom/SLO-based alerting reduces noise and focuses on user impact, while low-level thresholds often create non-actionable pages.",
+        "id": 5,
+        "options": {
+          "A": "Alert on symptoms (SLO/error budget burn) rather than every low-level metric threshold",
+          "B": "Disable paging and rely only on daily reports",
+          "C": "Page on every CPU spike above 50% for 1 minute",
+          "D": "Send all alerts to email only"
+        },
+        "question": "You need to reduce alert noise in an on-call rotation. Which change is most effective while preserving incident detection?",
+        "topic": "Incident Response And On-Call Operations"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "A Deployment manages ReplicaSets and supports rolling updates/rollbacks while maintaining desired Pod replicas.",
+        "id": 6,
+        "options": {
+          "A": "Manage a ReplicaSet to provide declarative updates and ensure the desired number of Pods are running",
+          "B": "Expose Pods externally by allocating a cloud load balancer",
+          "C": "Store sensitive values encrypted at rest for Pods",
+          "D": "Schedule Pods onto nodes based on taints and tolerations only"
+        },
+        "question": "In Kubernetes, what is the primary purpose of a Deployment?",
+        "topic": "Kubernetes"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Logstash is commonly used to ingest, parse, enrich, and transform logs before sending them to Elasticsearch/OpenSearch for indexing.",
+        "id": 7,
+        "options": {
+          "A": "Logstash",
+          "B": "Kibana",
+          "C": "Elasticsearch/OpenSearch",
+          "D": "Grafana"
+        },
+        "question": "In the ELK/OpenSearch stack, which component is responsible for parsing and transforming logs before indexing (commonly via pipelines)?",
+        "topic": "Logging And Log Management (Elk/Opensearch)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "The evidence points to an upstream dependency issue; the right action is dependency-focused investigation and mitigation patterns (timeouts, backoff, circuit breaking) plus incident communication.",
+        "id": 8,
+        "options": {
+          "A": "Correlate traces/metrics by dependency, confirm upstream saturation or errors, and apply mitigation (timeouts, retries with backoff, circuit breaker) while communicating status",
+          "B": "Immediately scale the service to 10x replicas without further investigation",
+          "C": "Disable all alerts to reduce noise during the incident",
+          "D": "Rotate TLS certificates because 504s always indicate certificate issues"
+        },
+        "question": "A production service shows elevated latency. Prometheus indicates p95 latency increased, but CPU and memory are normal. Logs show many 504s from an upstream dependency. What is the most appropriate next step for a dependability engineer?",
+        "topic": "Monitoring And Observability (Prometheus/Grafana)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "State can contain sensitive data and must support locking and controlled access; remote backends provide durability, concurrency control, and security.",
+        "id": 9,
+        "options": {
+          "A": "Use a remote backend (e.g., S3 + DynamoDB lock, GCS, Azure Blob) with state locking and restricted access; do not store state in Git",
+          "B": "Store state in Git but base64-encode it to prevent leaks",
+          "C": "Store state on a single engineer’s laptop to avoid merge conflicts",
+          "D": "Disable state entirely and rely on `terraform apply` to rediscover resources each run"
+        },
+        "question": "You manage infrastructure with Terraform and a CI/CD pipeline. A teammate proposes storing the Terraform state file in the same Git repository as the code to 'keep it simple'. What is the best practice response?",
+        "topic": "Infrastructure As Code (Terraform)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "With rare failures and high cost of misses, precision-recall and threshold tuning to favor recall are more informative than accuracy on imbalanced data.",
+        "id": 10,
+        "options": {
+          "A": "Use precision-recall metrics (e.g., recall, PR-AUC) and tune the decision threshold to prioritize recall while managing alert volume",
+          "B": "Use accuracy as the primary metric because it is easiest to interpret",
+          "C": "Use mean squared error only, regardless of class imbalance",
+          "D": "Randomly oversample the majority (non-failure) class to balance the dataset"
+        },
+        "question": "You are building a predictive maintenance model for a fleet of industrial pumps. Failures are rare, and missing a failure is far more costly than a false alarm. Which evaluation approach is most appropriate?",
+        "topic": "predictive maintenance"
+      }
+    ],
+    "topics_covered": [
+      "Linux Systems Administration",
+      "engineering principles",
+      "engineering processes",
+      "Scripting (Python)",
+      "Monitoring And Observability (Prometheus/Grafana)",
+      "Logging And Log Management (Elk/Opensearch)",
+      "Incident Response And On-Call Operations",
+      "Cloud Platforms (Aws/Gcp/Azure)",
+      "cost management",
+      "Infrastructure As Code (Terraform)",
+      "Configuration Management (Ansible/Chef/Puppet)",
+      "Ci/Cd Pipelines (Jenkins/Github Actions)",
+      "Kubernetes",
+      "six sigma methods ",
+      "predictive maintenance"
+    ]
+  },
+  "success": true
+}

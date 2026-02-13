@@ -1,0 +1,126 @@
+{
+  "gantt_timeline": {
+    "estimated_completion_date": "2025-11-06T11:58:11.732545",
+    "start_date": "2025-10-31T11:58:11.732545",
+    "tasks": [
+      {
+        "dependencies": [],
+        "difficulty": "beginner",
+        "duration_days": 1,
+        "duration_hours": 7,
+        "end": "2025-11-01T11:58:11.732545",
+        "id": "session_1",
+        "name": "Foundation Skills",
+        "progress": 0,
+        "skills_count": 1,
+        "start": "2025-10-31T11:58:11.732545"
+      },
+      {
+        "dependencies": [],
+        "difficulty": "beginner",
+        "duration_days": 2.5,
+        "duration_hours": 20,
+        "end": "2025-11-03T23:58:11.732545",
+        "id": "session_2",
+        "name": "Programming & Query Languages",
+        "progress": 0,
+        "skills_count": 19,
+        "start": "2025-11-01T11:58:11.732545"
+      },
+      {
+        "dependencies": [],
+        "difficulty": "intermediate",
+        "duration_days": 2.5,
+        "duration_hours": 20,
+        "end": "2025-11-06T11:58:11.732545",
+        "id": "session_3",
+        "name": "Additional Skills",
+        "progress": 0,
+        "skills_count": 4,
+        "start": "2025-11-03T23:58:11.732545"
+      }
+    ],
+    "title": "Learning Path Timeline",
+    "total_duration_days": 6,
+    "total_duration_hours": 47
+  },
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 7,
+      "objectives": [
+        "Build mathematical and statistical foundation",
+        "Understand core concepts"
+      ],
+      "prerequisites": [],
+      "resources": [],
+      "session_number": 1,
+      "skills": [
+        "web programming"
+      ],
+      "title": "Foundation Skills"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 20,
+      "objectives": [
+        "Master essential programming languages",
+        "Learn database querying"
+      ],
+      "prerequisites": [],
+      "resources": [],
+      "session_number": 2,
+      "skills": [
+        "domain name service",
+        "World Wide Web Consortium standards",
+        "integrated development environment software",
+        "web based collaborative platforms",
+        "tools for software configuration management",
+        "content development processes",
+        "web services",
+        "use an application-specific interface",
+        "use markup languages",
+        "use e-services",
+        "debug software",
+        "use software design patterns",
+        "translate requirements into visual design",
+        "collect customer feedback on applications",
+        "develop software prototype",
+        "interpret technical texts",
+        "use software libraries",
+        "create flowchart diagram",
+        "implement front-end website design"
+      ],
+      "title": "Programming & Query Languages"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 20,
+      "objectives": [
+        "Complete remaining skill requirements"
+      ],
+      "prerequisites": [],
+      "resources": [],
+      "session_number": 3,
+      "skills": [
+        "ICT debugging tools",
+        "style sheet languages",
+        "Joomla",
+        "develop digital content"
+      ],
+      "title": "Additional Skills"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Web developers develop, implement and document web-accessible software based on the designs provided. They align the client's web presence with its business strategy, troubleshoot software problems and issues and look for ways to improve the application.",
+    "label": "web developer",
+    "similarity_score": 0.6437757611274719,
+    "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d"
+  },
+  "recognized_skills": [
+    "programming"
+  ],
+  "skills_to_learn": 24,
+  "total_sessions": 3,
+  "total_skills_needed": 25
+}

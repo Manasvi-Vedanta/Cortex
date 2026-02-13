@@ -1,0 +1,422 @@
+{
+  "scenario": "DevOps Engineer",
+  "status": "success",
+  "goal": "I want to become a DevOps engineer with cloud expertise",
+  "current_skills": [
+    "Linux administration",
+    "Basic networking"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/cc867bee-ab5c-427f-9244-f7a204d9574b",
+    "label": "cloud DevOps engineer ",
+    "description": "Cloud DevOps engineers implement and manage continuous software delivery systems and methodologies. This includes managing and configuring code repositories, build services, automated testing, and deployment mechanisms. For cloud-based workloads, a Cloud DevOps Engineer define and deploy infrastructure as code, automating test and development environments. They can define and configure automated disaster recovery solutions that meet business objectives.",
+    "similarity_score": 1.0
+  },
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "System Programming Fundamentals",
+      "skills": [
+        "ICT system programming"
+      ],
+      "skill_details": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/b105ec9b-0857-41d6-8d07-a83e58b73d90",
+          "label": "ICT system programming",
+          "description": "The methods and tools required to develop system software, specifications of system architectures and interfacing techniques between network and system modules and components.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        }
+      ],
+      "duration": "7 hours",
+      "estimated_duration_hours": 7,
+      "difficulty_level": "beginner",
+      "objectives": [
+        "Build mathematical and statistical foundation",
+        "Understand core concepts"
+      ],
+      "comprehensive_guides": {
+        "ICT system programming": "# 📚 Comprehensive Guide: ICT system programming\n\n## 🎯 Overview\nThe methods and tools required to develop system software, specifications of system architectures and interfacing techniques between network and system modules and components.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply ICT system programming in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why ICT system programming matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How ICT system programming enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "learning_resources": {
+        "online_courses": [],
+        "tutorials": [],
+        "documentation": [],
+        "practice_platforms": [],
+        "communities": []
+      }
+    },
+    {
+      "session_number": 2,
+      "title": "Cloud Security And Compliance, Software Frameworks & More (9 Skills)",
+      "skills": [
+        "cloud security and compliance",
+        "software frameworks",
+        "JavaScript",
+        "system backup best practice",
+        "computer engineering",
+        "cloud monitoring and reporting",
+        "integrated development environment software",
+        "Jenkins (tools for software configuration management)",
+        "plan migration to cloud"
+      ],
+      "skill_details": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/1c2978b8-bb0d-4249-9c23-877571a4dffa",
+          "label": "cloud security and compliance",
+          "description": "Cloud security and compliance concepts, including shared responsibility model, cloud access management capabilities, and resources for security support.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/24c200e5-be20-4370-a137-ab53797f3a17",
+          "label": "software frameworks",
+          "description": "The software development environments or tools used to improve the efficiency of new software development by providing specific features that support and guide the development.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7",
+          "label": "JavaScript",
+          "description": "The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in JavaScript.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/47ca0da1-cae5-4395-ae6b-fd97b9ff48d3",
+          "label": "system backup best practice",
+          "description": "The procedures related to preparing for recovery or continuation of technology infrastructure vital to an organisation.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/89f6560b-2194-45c9-9ece-d33049a73eef",
+          "label": "computer engineering",
+          "description": "Engineering discipline that combines computer science with electrical engineering to develop computer hardware and software. Computer engineering occupies itself with electronics, software design, and the integration of hardware and software.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/8efa6a7a-6556-4cb8-908d-59d3b5c58d2f",
+          "label": "cloud monitoring and reporting",
+          "description": "The metrics and alarms utilizing cloud monitoring services, in particular performance and availability metrics. ",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/925463a7-d51f-4d5b-9f79-4d28cf30acde",
+          "label": "integrated development environment software",
+          "description": "The suite of software development tools for writing programs, such as compiler, debugger, code editor, code highlights, packaged in a unified user interface, such as Visual Studio or Eclipse.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/f47a1998-0beb-43be-9f46-380aa4d183da",
+          "label": "Jenkins (tools for software configuration management)",
+          "description": "The tool Jenkins is a software program to perform configuration identification, control, status accounting and audit of software during its development and maintenance.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/0a52bed5-fd29-45fb-aba6-e32bccfda1c1",
+          "label": "plan migration to cloud",
+          "description": "Select existing workloads and processes for potential migration to the cloud and choose migration tools. Determine a new cloud architecture for an existing solution, plan a strategy for migrating existing workloads to the cloud.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        }
+      ],
+      "duration": "20 hours",
+      "estimated_duration_hours": 20,
+      "difficulty_level": "beginner",
+      "objectives": [
+        "Master essential programming languages",
+        "Learn database querying"
+      ],
+      "comprehensive_guides": {
+        "cloud security and compliance": "# 📚 Comprehensive Guide: cloud security and compliance\n\n## 🎯 Overview\nCloud security and compliance concepts, including shared responsibility model, cloud access management capabilities, and resources for security support.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply cloud security and compliance in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why cloud security and compliance matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How cloud security and compliance enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "software frameworks": "# 📚 Comprehensive Guide: software frameworks\n\n## 🎯 Overview\nThe software development environments or tools used to improve the efficiency of new software development by providing specific features that support and guide the development.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply software frameworks in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why software frameworks matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How software frameworks enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "JavaScript": "# 📚 Comprehensive Guide: JavaScript\n\n## 🎯 Overview\nThe techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in JavaScript.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply JavaScript in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why JavaScript matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How JavaScript enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "system backup best practice": "# 📚 Comprehensive Guide: system backup best practice\n\n## 🎯 Overview\nThe procedures related to preparing for recovery or continuation of technology infrastructure vital to an organisation.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply system backup best practice in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why system backup best practice matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How system backup best practice enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "computer engineering": "# 📚 Comprehensive Guide: computer engineering\n\n## 🎯 Overview\nEngineering discipline that combines computer science with electrical engineering to develop computer hardware and software. Computer engineering occupies itself with electronics, software design, and the integration of hardware and software.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply computer engineering in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why computer engineering matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How computer engineering enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "cloud monitoring and reporting": "# 📚 Comprehensive Guide: cloud monitoring and reporting\n\n## 🎯 Overview\nThe metrics and alarms utilizing cloud monitoring services, in particular performance and availability metrics. \n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply cloud monitoring and reporting in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why cloud monitoring and reporting matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How cloud monitoring and reporting enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "integrated development environment software": "# 📚 Comprehensive Guide: integrated development environment software\n\n## 🎯 Overview\nThe suite of software development tools for writing programs, such as compiler, debugger, code editor, code highlights, packaged in a unified user interface, such as Visual Studio or Eclipse.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply integrated development environment software in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why integrated development environment software matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How integrated development environment software enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Jenkins (tools for software configuration management)": "# 📚 Comprehensive Guide: Jenkins (tools for software configuration management)\n\n## 🎯 Overview\nThe tool Jenkins is a software program to perform configuration identification, control, status accounting and audit of software during its development and maintenance.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Jenkins (tools for software configuration management) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Jenkins (tools for software configuration management) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Jenkins (tools for software configuration management) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "plan migration to cloud": "# 📚 Comprehensive Guide: plan migration to cloud\n\n## 🎯 Overview\nSelect existing workloads and processes for potential migration to the cloud and choose migration tools. Determine a new cloud architecture for an existing solution, plan a strategy for migrating existing workloads to the cloud.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply plan migration to cloud in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why plan migration to cloud matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How plan migration to cloud enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "learning_resources": {
+        "online_courses": [],
+        "tutorials": [],
+        "documentation": [],
+        "practice_platforms": [],
+        "communities": []
+      }
+    }
+  ],
+  "resources": {
+    "ICT system programming": [],
+    "cloud monitoring and reporting": [],
+    "JavaScript": [
+      {
+        "title": "MDN JavaScript Guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+        "type": "documentation",
+        "provider": "MDN",
+        "description": "Comprehensive JavaScript documentation by Mozilla",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "freeCodeCamp (432,233 stars)",
+        "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 432233
+      },
+      {
+        "title": "project-based-learning (249,981 stars)",
+        "url": "https://github.com/practical-tutorials/project-based-learning",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Curated list of project-based tutorials",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 249981
+      },
+      {
+        "title": "react (240,619 stars)",
+        "url": "https://github.com/facebook/react",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "The library for web and native user interfaces.",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 240619
+      },
+      {
+        "title": "vue (209,681 stars)",
+        "url": "https://github.com/vuejs/vue",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 209681
+      },
+      {
+        "title": "javascript-algorithms (194,096 stars)",
+        "url": "https://github.com/trekhleb/javascript-algorithms",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 194096
+      },
+      {
+        "title": "JavaScript Algorithms and Data Structures",
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+        "type": "course",
+        "provider": "freeCodeCamp",
+        "description": "Complete JavaScript course with certification",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "JavaScript Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete JavaScript tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "computer engineering": [
+      {
+        "title": "system-bus-radio (6,635 stars)",
+        "url": "https://github.com/fulldecent/system-bus-radio",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Transmits AM radio on computers without radio transmitting hardware.",
+        "is_free": true,
+        "quality_score": 0.1327,
+        "stars": 6635
+      },
+      {
+        "title": "transformerlab-app (4,524 stars)",
+        "url": "https://github.com/transformerlab/transformerlab-app",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Open Source Application for Advanced LLM + Diffusion Engineering: interact, train, fine-tune, and evaluate large language models on your own computer.",
+        "is_free": true,
+        "quality_score": 0.09048,
+        "stars": 4524
+      },
+      {
+        "title": "yt-channels-DS-AI-ML-CS (1,377 stars)",
+        "url": "https://github.com/benthecoder/yt-channels-DS-AI-ML-CS",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.",
+        "is_free": true,
+        "quality_score": 0.02754,
+        "stars": 1377
+      }
+    ],
+    "system backup best practice": [],
+    "plan migration to cloud": [],
+    "software frameworks": [
+      {
+        "title": "awesome-python (269,526 stars)",
+        "url": "https://github.com/vinta/awesome-python",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 269526
+      },
+      {
+        "title": "awesome-go (157,601 stars)",
+        "url": "https://github.com/avelino/awesome-go",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "A curated list of awesome Go frameworks, libraries and software",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 157601
+      },
+      {
+        "title": "awesome-machine-learning (70,604 stars)",
+        "url": "https://github.com/josephmisiti/awesome-machine-learning",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 70604
+      },
+      {
+        "title": "ghidra (62,081 stars)",
+        "url": "https://github.com/NationalSecurityAgency/ghidra",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Ghidra is a software reverse engineering (SRE) framework",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 62081
+      },
+      {
+        "title": "MetaGPT (59,506 stars)",
+        "url": "https://github.com/FoundationAgents/MetaGPT",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 59506
+      }
+    ],
+    "cloud security and compliance": [
+      {
+        "title": "wazuh (13,954 stars)",
+        "url": "https://github.com/wazuh/wazuh",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
+        "is_free": true,
+        "quality_score": 0.27908,
+        "stars": 13954
+      },
+      {
+        "title": "prowler (12,320 stars)",
+        "url": "https://github.com/prowler-cloud/prowler",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Prowler is the Open Cloud Security for AWS, Azure, GCP, Kubernetes, M365 and more. As agent-less, it helps for continuous monitoring, security assessments & audits, incident response, compliance, hardening and forensics readiness. Includes CIS, NIST 800, NIST CSF, CISA, FedRAMP, PCI-DSS, GDPR, HIPAA, FFIEC, SOC2, ENS and more",
+        "is_free": true,
+        "quality_score": 0.2464,
+        "stars": 12320
+      },
+      {
+        "title": "cloud-custodian (5,842 stars)",
+        "url": "https://github.com/cloud-custodian/cloud-custodian",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources",
+        "is_free": true,
+        "quality_score": 0.11684,
+        "stars": 5842
+      },
+      {
+        "title": "terrascan (5,194 stars)",
+        "url": "https://github.com/tenable/terrascan",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.",
+        "is_free": true,
+        "quality_score": 0.10388,
+        "stars": 5194
+      },
+      {
+        "title": "cloudformation-guard (1,361 stars)",
+        "url": "https://github.com/aws-cloudformation/cloudformation-guard",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Guard offers a policy-as-code domain-specific language (DSL) to write rules and validate JSON- and YAML-formatted data such as CloudFormation Templates, K8s configurations, and Terraform JSON plans/configurations against those rules. Take this survey to provide feedback about cfn-guard: https://amazonmr.au1.qualtrics.com/jfe/form/SV_bpyzpfoYGGuuUl0",
+        "is_free": true,
+        "quality_score": 0.02722,
+        "stars": 1361
+      }
+    ],
+    "integrated development environment software": [],
+    "Jenkins (tools for software configuration management)": []
+  },
+  "statistics": {
+    "total_hours": 27,
+    "total_skills": 10,
+    "duration_days": 9,
+    "total_sessions": 2,
+    "total_resources": 21
+  },
+  "performance": {
+    "skill_gap_time": 16.9194438457489,
+    "schedule_time": 22.07215189933777,
+    "resources_time": 0.6386568546295166,
+    "total_time": 39.635058879852295
+  }
+}

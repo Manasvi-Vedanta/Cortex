@@ -1,0 +1,694 @@
+[2026-02-05 23:48:47] [INFO] ℹ️  INFO: Output directory created: test_outputs_20260205_234847
+[2026-02-05 23:48:47] [INFO] ====================================================================================================
+[2026-02-05 23:48:47] [INFO] PHASE 1: System Test Initialization
+[2026-02-05 23:48:47] [INFO] ====================================================================================================
+[2026-02-05 23:48:47] [INFO] ℹ️  INFO: Test Goal: I want to become an Android App Developer.
+[2026-02-05 23:48:47] [INFO] ℹ️  INFO: Test User: full_test_user
+[2026-02-05 23:48:47] [INFO] ℹ️  INFO: Base URL: http://localhost:5000
+[2026-02-05 23:48:47] [INFO] ====================================================================================================
+[2026-02-05 23:48:47] [INFO] PHASE 2: Learning Path Generation
+[2026-02-05 23:48:47] [INFO] ====================================================================================================
+[2026-02-05 23:48:47] [INFO] ℹ️  INFO: Sending request to generate learning path...
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: Response received in 27.46 seconds
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: Status Code: 200
+[2026-02-05 23:49:14] [SUCCESS] ✅ SUCCESS: Learning path generated successfully
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: Matched Occupation: mobile application developer
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: Occupation URI: http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: Similarity Score: 0.8565
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: COMPLETE LEARNING PATH DETAILS
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: Total Sessions: 8
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: SESSION 1: Android Development Environment Setup and First Kotlin App
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills Count: 6
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     1. Android Studio
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     2. Android Sdk
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     3. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     4. integrated development environment software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     5. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     6. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: SESSION 2: Jetpack Compose UI Fundamentals
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills Count: 5
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     1. Jetpack Compose
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     2. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     3. Android Studio
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     4. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     5. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: SESSION 3: Android Jetpack Architecture Components with MVVM
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills Count: 5
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     1. Android Jetpack (Architecture Components)
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     2. Mvvm Architecture
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     3. Jetpack Compose
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     4. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     5. use software design patterns
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: SESSION 4: Asynchronous Programming with Coroutines
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills Count: 5
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     1. Coroutines
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     2. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     3. Mvvm Architecture
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     4. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     5. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: SESSION 5: Consuming REST APIs with Retrofit/Okhttp
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills Count: 5
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     1. Rest Apis (Retrofit/Okhttp)
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     2. Coroutines
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     3. Mvvm Architecture
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     4. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     5. Android Sdk
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: SESSION 6: Design Patterns and Prototype Development
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills Count: 6
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     1. use software design patterns
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     2. develop software prototype
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     3. Jetpack Compose
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     4. Android Jetpack (Architecture Components)
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     5. Mvvm Architecture
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     6. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: SESSION 7: Configuration Management and Development Workflow
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills Count: 5
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     1. tools for software configuration management
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     2. integrated development environment software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     3. Android Studio
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     4. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     5. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: SESSION 8: Digital Systems Concepts for Mobile Developers
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills Count: 3
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     1. digital systems
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     2. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:     3. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: TOTAL SKILLS GENERATED: 40
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+Complete Skills List:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:    1. Android Studio
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:    2. Android Sdk
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:    3. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:    4. integrated development environment software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:    5. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:    6. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:    7. Jetpack Compose
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:    8. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:    9. Android Studio
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   10. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   11. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   12. Android Jetpack (Architecture Components)
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   13. Mvvm Architecture
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   14. Jetpack Compose
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   15. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   16. use software design patterns
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   17. Coroutines
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   18. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   19. Mvvm Architecture
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   20. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   21. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   22. Rest Apis (Retrofit/Okhttp)
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   23. Coroutines
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   24. Mvvm Architecture
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   25. Kotlin
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   26. Android Sdk
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   27. use software design patterns
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   28. develop software prototype
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   29. Jetpack Compose
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   30. Android Jetpack (Architecture Components)
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   31. Mvvm Architecture
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   32. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   33. tools for software configuration management
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   34. integrated development environment software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   35. Android Studio
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   36. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   37. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   38. digital systems
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   39. programming
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   40. debug software
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: Skill Gap Summary:
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Total Skills Needed: 33
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills to Learn: 32
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO:   Skills Analyzed: 32
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 📁 Learning Path saved to: test_outputs_20260205_234847\01_learning_path.json
+[2026-02-05 23:49:14] [INFO] ====================================================================================================
+[2026-02-05 23:49:14] [INFO] PHASE 3: Community Voting System
+[2026-02-05 23:49:14] [INFO] ====================================================================================================
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: COMMUNITY VOTING DETAILS
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:49:14] [INFO] ℹ️  INFO: Voting on 5 skills...
+[2026-02-05 23:49:16] [SUCCESS] ✅ SUCCESS: Upvoted: Android Studio
+[2026-02-05 23:49:16] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-android-studio
+[2026-02-05 23:49:18] [SUCCESS] ✅ SUCCESS: Upvoted: Android Sdk
+[2026-02-05 23:49:18] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-android-sdk
+[2026-02-05 23:49:21] [SUCCESS] ✅ SUCCESS: Upvoted: Kotlin
+[2026-02-05 23:49:21] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-kotlin
+[2026-02-05 23:49:23] [SUCCESS] ✅ SUCCESS: Upvoted: integrated development environment software
+[2026-02-05 23:49:23] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-integrated-development-environment-software
+[2026-02-05 23:49:25] [SUCCESS] ✅ SUCCESS: Upvoted: debug software
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-debug-software
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO: Voting Summary: 5 successful, 0 failed
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO: 📁 Community Voting saved to: test_outputs_20260205_234847\02_community_voting.json
+[2026-02-05 23:49:25] [INFO] ====================================================================================================
+[2026-02-05 23:49:25] [INFO] PHASE 4: Community Skill Suggestions
+[2026-02-05 23:49:25] [INFO] ====================================================================================================
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO: SKILL SUGGESTIONS DETAILS
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO: Submitting 3 skill suggestions...
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO: Suggesting: Kotlin
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/android-kotlin
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-02-05 23:49:25] [INFO] ℹ️  INFO:   Description: Primary modern programming language for Android development
+[2026-02-05 23:49:27] [SUCCESS] ✅ SUCCESS: Suggested: Kotlin
+[2026-02-05 23:49:27] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:49:27] [INFO] ℹ️  INFO: Suggesting: Jetpack Compose
+[2026-02-05 23:49:27] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/android-jetpack-compose
+[2026-02-05 23:49:27] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-02-05 23:49:27] [INFO] ℹ️  INFO:   Description: Modern declarative UI toolkit for building native Android interfaces
+[2026-02-05 23:49:29] [SUCCESS] ✅ SUCCESS: Suggested: Jetpack Compose
+[2026-02-05 23:49:29] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:49:29] [INFO] ℹ️  INFO: Suggesting: Firebase
+[2026-02-05 23:49:29] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/mobile-firebase
+[2026-02-05 23:49:29] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-02-05 23:49:29] [INFO] ℹ️  INFO:   Description: Backend-as-a-Service platform for mobile app development
+[2026-02-05 23:49:31] [SUCCESS] ✅ SUCCESS: Suggested: Firebase
+[2026-02-05 23:49:31] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:49:31] [INFO] ℹ️  INFO: Suggestion Summary: 3 successful, 0 failed
+[2026-02-05 23:49:31] [INFO] ℹ️  INFO: 📁 Skill Suggestions saved to: test_outputs_20260205_234847\03_skill_suggestions.json
+[2026-02-05 23:49:31] [INFO] ====================================================================================================
+[2026-02-05 23:49:31] [INFO] PHASE 5: Quiz Generation
+[2026-02-05 23:49:31] [INFO] ====================================================================================================
+[2026-02-05 23:49:31] [INFO] ℹ️  INFO: Generating quiz from learning path...
+[2026-02-05 23:49:31] [INFO] ℹ️  INFO: Learning path has 8 sessions
+[2026-02-05 23:49:31] [INFO] ℹ️  INFO:   1. Android Development Environment Setup and First Kotlin App
+[2026-02-05 23:49:31] [INFO] ℹ️  INFO:   2. Jetpack Compose UI Fundamentals
+[2026-02-05 23:49:31] [INFO] ℹ️  INFO:   3. Android Jetpack Architecture Components with MVVM
+[2026-02-05 23:49:31] [INFO] ℹ️  INFO:   ... and 5 more sessions
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: Quiz generation completed in 28.42 seconds
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: Status Code: 200
+[2026-02-05 23:50:00] [SUCCESS] ✅ SUCCESS: Quiz generated with 10 questions
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: COMPLETE QUIZ DETAILS
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+Quiz Structure:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Total Questions: 10
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Easy: 4
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Medium: 3
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Hard: 3
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Topics Covered: 10
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ALL QUIZ QUESTIONS AND ANSWERS:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 1 [EASY] - Topic: Android Studio
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   What is Android Studio primarily used for in mobile app development?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. Designing and building Android apps in an IDE ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. Hosting Android apps in the cloud 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. Replacing the Android operating system 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. Encrypting user data on a device 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: Android Studio is the official IDE for Android development, providing code editing, build tools integration, emulators, and debugging.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 2 [EASY] - Topic: Android Sdk
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Which component is part of the Android SDK and is required to compile an Android app?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. Android platform tools and build tools ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. A third-party UI theme library 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. A device manufacturer bootloader 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. A cloud database instance 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: The Android SDK includes platform APIs, build tools, and platform tools (like adb) needed to build and package apps.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 3 [EASY] - Topic: Kotlin
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   In Kotlin, which keyword declares a read-only variable (cannot be reassigned)?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. val ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. var 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. const fun 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. lateinit 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: Kotlin uses 'val' for read-only references and 'var' for mutable references.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 4 [EASY] - Topic: debug software
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   What is the main purpose of debug software in an IDE?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. To step through code, inspect variables, and find defects ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. To automatically generate UI designs from sketches 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. To publish apps to the Play Store 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. To replace unit tests entirely 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: Debuggers help developers pause execution, set breakpoints, inspect state, and diagnose issues.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 5 [MEDIUM] - Topic: Jetpack Compose
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   In Jetpack Compose, what is the primary role of a @Composable function?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. To describe UI by emitting a UI tree based on state ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. To compile Kotlin code into native C++ 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. To define database schemas for Room 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. To perform network requests on the main thread 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: @Composable functions declare UI; Compose recomposes them when observed state changes.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 6 [MEDIUM] - Topic: Mvvm Architecture
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   In MVVM on Android, which layer should contain UI state and expose it to the UI (Activity/Fragment/Compose)?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. ViewModel ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. Repository 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. Database (Room) 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. OkHttp Interceptor 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: The ViewModel holds and manages UI-related data/state and survives configuration changes, exposing state to the View.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 7 [MEDIUM] - Topic: Rest Apis (Retrofit/Okhttp)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   You need to call a REST API using Retrofit and parse JSON into Kotlin objects. Which combination is most appropriate?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. Retrofit + OkHttp + a converter (e.g., Moshi/Gson) ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. Room + LiveData + ViewBinding 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. Jetpack Compose + Navigation + DataStore only 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. Gradle + ProGuard + ADB only 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: Retrofit uses OkHttp for HTTP calls and a converter (like Moshi/Gson) to map JSON to Kotlin data classes.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 8 [HARD] - Topic: Coroutines
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   A Compose screen triggers a network request when a button is clicked. The request must be cancellable when the user leaves the screen. Where should you launch the coroutine to best match lifecycle and cancellation needs?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. In the ViewModel using viewModelScope ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. In a global scope (GlobalScope.launch) so it always finishes 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. On the main thread without coroutines 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. Inside an OkHttp interceptor 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: Launching in viewModelScope ties the work to the ViewModel lifecycle, enabling structured concurrency and automatic cancellation when the ViewModel is cleared.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 9 [HARD] - Topic: Android Jetpack (Architecture Components)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Your app must work offline and sync when connectivity returns. Which Android Jetpack Architecture Components-based approach best supports this requirement?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. Repository pattern with Room as a local source of truth and a sync layer (e.g., WorkManager) to update from network ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. Store all data only in memory inside the Activity to avoid disk I/O 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. Make every screen fetch directly from Retrofit and disable caching 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. Use only SharedPreferences for all relational data and run sync on the main thread 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: A repository mediates between Room and network; Room provides offline persistence, and WorkManager can schedule reliable background sync.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUESTION 10 [HARD] - Topic: tools for software configuration management
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   A team is building a software prototype and wants reliable collaboration, history, and the ability to revert changes. Which tool is most appropriate for software configuration management?
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     A. Git (with a remote like GitHub/GitLab) ✓ CORRECT
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     B. Android Emulator 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     C. Logcat 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:     D. Figma 
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Explanation: Git is a version control system used for configuration management: branching, merging, history tracking, and rollback.
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 📁 Quiz Questions saved to: test_outputs_20260205_234847\04_quiz_questions.json
+[2026-02-05 23:50:00] [INFO] ====================================================================================================
+[2026-02-05 23:50:00] [INFO] PHASE 6: Quiz Answer Submission
+[2026-02-05 23:50:00] [INFO] ====================================================================================================
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: QUIZ SUBMISSION DETAILS
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: Simulating quiz answers for 10 questions (70% accuracy)...
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO: 
+Submitted Answers:
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q1: A (✓ Correct, correct: A)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q2: A (✓ Correct, correct: A)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q3: A (✓ Correct, correct: A)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q4: A (✓ Correct, correct: A)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q5: A (✓ Correct, correct: A)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q6: A (✓ Correct, correct: A)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q7: A (✓ Correct, correct: A)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q8: B (✗ Wrong, correct: A)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q9: B (✗ Wrong, correct: A)
+[2026-02-05 23:50:00] [INFO] ℹ️  INFO:   Q10: B (✗ Wrong, correct: A)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: 
+Status Code: 200
+[2026-02-05 23:50:02] [SUCCESS] ✅ SUCCESS: Quiz submitted and analyzed successfully
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: QUIZ RESULTS ANALYSIS:
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   Score: 6/10
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   Percentage: 60.0%
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   Grade: C+
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   Performance Level: Satisfactory
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: 
+  Difficulty Breakdown:
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     Easy: 4/4 (100.0%)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     Medium: 2/3 (66.7%)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     Hard: 0/3 (0.0%)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: 
+  Strengths (Topics with high accuracy):
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✓ Android Studio: 100.0% (1/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✓ Android Sdk: 100.0% (1/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✓ Kotlin: 100.0% (1/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✓ debug software: 100.0% (1/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✓ Jetpack Compose: 100.0% (1/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✓ Mvvm Architecture: 100.0% (1/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: 
+  Weaknesses (Topics needing focus):
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✗ Rest Apis (Retrofit/Okhttp): 0.0% (0/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✗ Coroutines: 0.0% (0/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✗ Android Jetpack (Architecture Components): 0.0% (0/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     ✗ tools for software configuration management: 0.0% (0/1)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: 
+  Recommendations:
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     1. 👍 Good job! You understand most concepts but have room for improvement.
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     2. 🎯 Priority topics to review: Rest Apis (Retrofit/Okhttp), Coroutines, Android Jetpack (Architecture Components)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:     3. ✅ Your strongest areas: Android Studio, Android Sdk
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: DETAILED QUESTION-BY-QUESTION RESULTS:
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✓ Q1: Your answer: A, Correct: A (Topic: Android Studio)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✓ Q2: Your answer: A, Correct: A (Topic: Android Sdk)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✓ Q3: Your answer: A, Correct: A (Topic: Kotlin)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✓ Q4: Your answer: A, Correct: A (Topic: debug software)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✓ Q5: Your answer: A, Correct: A (Topic: Jetpack Compose)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✓ Q6: Your answer: A, Correct: A (Topic: Mvvm Architecture)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✗ Q7: Your answer: B, Correct: A (Topic: Rest Apis (Retrofit/Okhttp))
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✗ Q8: Your answer: B, Correct: A (Topic: Coroutines)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✗ Q9: Your answer: B, Correct: A (Topic: Android Jetpack (Architecture Components))
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO:   ✗ Q10: Your answer: , Correct: A (Topic: tools for software configuration management)
+[2026-02-05 23:50:02] [INFO] ℹ️  INFO: 📁 Quiz Results saved to: test_outputs_20260205_234847\05_quiz_results.json
+[2026-02-05 23:50:02] [INFO] ====================================================================================================
+[2026-02-05 23:50:02] [INFO] PHASE 7: Community Feedback Statistics
+[2026-02-05 23:50:02] [INFO] ====================================================================================================
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO: Status Code: 200
+[2026-02-05 23:50:04] [SUCCESS] ✅ SUCCESS: Retrieved feedback statistics
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO: COMPLETE FEEDBACK STATISTICS
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO: 
+Overall Metrics:
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO:   Total Votes: 404
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO:   Total Suggestions: 152
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO:   Pending Suggestions: 136
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO:   Approved Suggestions: 5
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO:   Rejected Suggestions: 0
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO: 📁 Feedback Statistics saved to: test_outputs_20260205_234847\06_feedback_statistics.json
+[2026-02-05 23:50:04] [INFO] ====================================================================================================
+[2026-02-05 23:50:04] [INFO] PHASE 8: Path Regeneration (with Community Feedback)
+[2026-02-05 23:50:04] [INFO] ====================================================================================================
+[2026-02-05 23:50:04] [INFO] ℹ️  INFO: Waiting 2 seconds for feedback to propagate...
+[2026-02-05 23:50:06] [INFO] ℹ️  INFO: Regenerating learning path...
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: Response received in 26.49 seconds
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: Status Code: 200
+[2026-02-05 23:50:33] [SUCCESS] ✅ SUCCESS: Path regenerated successfully
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: COMPLETE REGENERATED LEARNING PATH
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+Matched Occupation: mobile application developer
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: Similarity Score: 0.8565
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: Total Sessions: 12
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: Total Skills: 48
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 1: Android Development Environment Setup and First Kotlin App
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (5):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. Android Studio
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. integrated development environment software
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Kotlin
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     4. Android Sdk
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     5. debug software
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 2: Kotlin Programming Foundations for Android
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (4):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. programming
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. Kotlin
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Android Studio
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     4. integrated development environment software
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 3: Jetpack Compose UI Basics with Material Design
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (4):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. Jetpack Compose
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. Material Design
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Android Studio
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     4. Android Sdk
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 4: Android Jetpack Lifecycle and ViewModel Fundamentals
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (3):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. Jetpack Compose
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Kotlin
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 5: Coroutines for Asynchronous Work in Android
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (4):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. Coroutines
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. Kotlin
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     4. debug software
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 6: REST APIs (JSON/HTTP) Integration in an Android App
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (5):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. Rest Apis (Json/Http)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. Coroutines
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Jetpack Compose
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     4. Kotlin
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     5. Android Sdk
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 7: Local Persistence with Sqlite/Room Database
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (4):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. Sqlite/Room Database
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Coroutines
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     4. Kotlin
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 8: Navigation with Android Jetpack and Compose
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (3):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. Jetpack Compose
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Kotlin
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 9: Dependency Injection with Hilt/Dagger in Android
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (3):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. Dependency Injection (Hilt/Dagger)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Kotlin
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 10: Debugging and Configuration Management for Android Projects
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (5):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. debug software
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. tools for software configuration management
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Android Studio
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     4. integrated development environment software
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     5. programming
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 11: Android SDK Components and App Architecture Review
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (5):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. Android Sdk
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. Jetpack Compose
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     4. Material Design
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     5. Kotlin
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SESSION 12: Digital Systems Concepts for Mobile Developers
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Skills (3):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     1. digital systems
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     2. debug software
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     3. programming
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+============================================================
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: PATH COMPARISON (Original vs Regenerated):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ============================================================
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Original Sessions: 8
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Regenerated Sessions: 12
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Original Skills: 40
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:   Regenerated Skills: 48
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+  NEW Skills Added (5):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     + Dependency Injection (Hilt/Dagger)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     + Material Design
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     + Rest Apis (Json/Http)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     + Sqlite/Room Database
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     + Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+  Skills Removed (5):
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     - use software design patterns
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     - develop software prototype
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     - Rest Apis (Retrofit/Okhttp)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     - Mvvm Architecture
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO:     - Android Jetpack (Architecture Components)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: No community-suggested skills found in regenerated path
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 📁 Regenerated Learning Path saved to: test_outputs_20260205_234847\07_regenerated_learning_path.json
+[2026-02-05 23:50:33] [INFO] ====================================================================================================
+[2026-02-05 23:50:33] [INFO] PHASE 9: Final Test Summary
+[2026-02-05 23:50:33] [INFO] ====================================================================================================
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: Total Test Duration: 106.49 seconds (1.8 minutes)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: SYSTEM CAPABILITIES TESTED:
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ✅ Learning Path Generation.......................... 40 skills generated
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ✅ Community Voting System........................... 5 votes submitted
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ✅ Skill Suggestions................................. 3 suggestions submitted
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ✅ Quiz Generation................................... 10 questions
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ✅ Quiz Submission................................... Score: 60.0%
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ✅ Feedback Statistics............................... 5 votes submitted (session)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ✅ Path Regeneration................................. 48 skills
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: OVERALL SUCCESS RATE: 100.0% (7/7 features working)
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-02-05 23:50:33] [SUCCESS] ✅ SUCCESS: 🎉 EXCELLENT! System is fully functional!
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 📁 Final Summary saved to: test_outputs_20260205_234847\08_final_summary.json
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: 
+Detailed log saved to: full_system_test_log_20260205_234847.txt
+[2026-02-05 23:50:33] [INFO] ℹ️  INFO: Output files saved to: test_outputs_20260205_234847/

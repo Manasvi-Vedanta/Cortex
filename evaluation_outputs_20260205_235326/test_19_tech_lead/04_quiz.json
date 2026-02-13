@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:28:04.083667",
+      "learning_path_id": "test_19",
+      "target_occupation": "technical sales representative",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Horizontal scaling (scale out) increases capacity by adding more machines/instances behind a load balancer rather than upgrading a single machine.",
+        "id": 1,
+        "options": {
+          "A": "Adding more CPU/RAM to a single server",
+          "B": "Adding more servers/instances to share the load",
+          "C": "Reducing the number of services to simplify deployment",
+          "D": "Moving from SQL to NoSQL to improve performance"
+        },
+        "question": "In system design discussions, what does 'horizontal scaling' mean?",
+        "topic": "System Design"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "GET is the standard REST method for reading/retrieving resources and should be safe and idempotent.",
+        "id": 2,
+        "options": {
+          "A": "POST",
+          "B": "PUT",
+          "C": "GET",
+          "D": "PATCH"
+        },
+        "question": "Which HTTP method is typically used to retrieve a resource in a REST API without modifying it?",
+        "topic": "Api Design (Rest/Graphql)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "SQL databases are designed for structured data with relationships, constraints, and efficient joins.",
+        "id": 3,
+        "options": {
+          "A": "Relational SQL database",
+          "B": "Key-value store only",
+          "C": "Time-series database only",
+          "D": "In-memory cache only"
+        },
+        "question": "Which database type is generally best suited for enforcing complex relationships and joins (e.g., orders, customers, invoices)?",
+        "topic": "Database Design (Sql/Nosql)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A lead is typically an unqualified or early-stage prospect that may later become an opportunity after qualification.",
+        "id": 4,
+        "options": {
+          "A": "A finalized contract with a customer",
+          "B": "A potential customer or contact not yet qualified",
+          "C": "A support ticket opened by an existing customer",
+          "D": "A marketing email template"
+        },
+        "question": "In a CRM, what is a 'lead' most commonly?",
+        "topic": "use customer relationship management software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A balanced test pyramid reduces risk and cost: unit tests are fast, integration tests validate boundaries, and a limited E2E suite protects key workflows.",
+        "id": 5,
+        "options": {
+          "A": "Rely only on manual QA before each release",
+          "B": "Use a mix of unit tests for logic, integration tests for service boundaries, and a small set of end-to-end tests for critical user flows",
+          "C": "Run only end-to-end tests because they cover everything",
+          "D": "Skip tests and monitor production logs to catch issues"
+        },
+        "question": "A prospect asks, 'How do you ensure changes don’t break existing functionality?' Which answer best describes a practical automated testing strategy?",
+        "topic": "Automated Testing (Unit/Integration/E2E)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Canary/blue-green plus automated rollback and feature flags limit blast radius and enable quick recovery if issues are detected.",
+        "id": 6,
+        "options": {
+          "A": "Deploying manually from a developer laptop",
+          "B": "Using feature flags and automated rollback/blue-green or canary deployments",
+          "C": "Running builds only once per week to reduce change frequency",
+          "D": "Allowing production hotfixes without review to speed up delivery"
+        },
+        "question": "A customer wants faster, safer releases. Which CI/CD pipeline practice most directly reduces the risk of deploying a bad build?",
+        "topic": "Ci/Cd Pipelines"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Tracing shows request paths across services; metrics quantify behavior; structured logs add context—together they enable root-cause analysis for latency.",
+        "id": 7,
+        "options": {
+          "A": "Only application logs",
+          "B": "Only infrastructure metrics (CPU/memory)",
+          "C": "Distributed tracing correlated with metrics and structured logs",
+          "D": "Only database slow query logs"
+        },
+        "question": "A buyer asks for 'end-to-end visibility' when diagnosing latency across microservices. Which observability combination best supports this?",
+        "topic": "Observability (Logging/Metrics/Tracing)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Credential stuffing is mitigated with rate limits, strong authentication controls (including MFA), and detection/monitoring; HTTPS and secure password storage are mandatory.",
+        "id": 8,
+        "options": {
+          "A": "Rely on obscuring endpoints and not documenting them",
+          "B": "Implement rate limiting, MFA/step-up auth where appropriate, and monitor for anomalous login patterns",
+          "C": "Use HTTP instead of HTTPS to reduce overhead",
+          "D": "Store passwords in plaintext so they can be recovered if forgotten"
+        },
+        "question": "A customer requires that a public API cannot be abused by credential stuffing and must protect user accounts. Which approach is the best recommendation?",
+        "topic": "Security Engineering (Appsec)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Multi-region architectures with replication and automated failover maintain availability when a region fails, at the cost of added complexity and potential consistency trade-offs.",
+        "id": 9,
+        "options": {
+          "A": "Single-region deployment with vertical scaling",
+          "B": "Multi-region active-active or active-passive with automated failover and data replication",
+          "C": "One large database server with nightly backups",
+          "D": "Deploying only to on-premises servers to avoid cloud outages"
+        },
+        "question": "A prospect is designing a globally distributed system and asks how to keep the service available during a regional cloud outage. What architecture best addresses this requirement?",
+        "topic": "Distributed Systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A trace/correlation ID and precise time window enable targeted investigation across logs/metrics/traces and help correlate incidents with deployments or configuration changes.",
+        "id": 10,
+        "options": {
+          "A": "Ask them to restart all services immediately and see if it goes away",
+          "B": "Ask for a recent trace ID or correlation ID plus the time window, affected endpoint, and any deployment changes, then review error rate/latency metrics",
+          "C": "Ask them to email the entire database to reproduce the issue locally",
+          "D": "Tell them to increase server size because performance issues are always capacity-related"
+        },
+        "question": "During a technical sales call, the customer reports intermittent 500 errors and slow responses. You have limited time and need to guide next steps. What is the most effective troubleshooting request to make first?",
+        "topic": "Debugging And Troubleshooting"
+      }
+    ],
+    "topics_covered": [
+      "System Design",
+      "Software Architecture",
+      "apply technical communication skills",
+      "Api Design (Rest/Graphql)",
+      "Database Design (Sql/Nosql)",
+      "Automated Testing (Unit/Integration/E2E)",
+      "Ci/Cd Pipelines",
+      "Code Review",
+      "Debugging And Troubleshooting",
+      "Observability (Logging/Metrics/Tracing)",
+      "Security Engineering (Appsec)",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Distributed Systems",
+      "Scalability And Performance Engineering",
+      "use customer relationship management software"
+    ]
+  },
+  "success": true
+}

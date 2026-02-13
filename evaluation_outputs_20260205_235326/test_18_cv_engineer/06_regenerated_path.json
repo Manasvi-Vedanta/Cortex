@@ -1,0 +1,209 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Set up and use Python to structure simple image-processing and model-training scripts",
+        "Practice core Python patterns used in computer vision pipelines (data loading, loops, functions)"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Python"
+      ],
+      "title": "Python Foundations for Vision Workflows"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Work with vectors, matrices, and transformations as used in image representations and neural network computations",
+        "Connect matrix operations to common vision tasks and model layers"
+      ],
+      "prerequisites": [
+        "Python"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Linear Algebra"
+      ],
+      "title": "Linear Algebra Essentials for Images and Neural Networks"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Probability And Statistics concepts to reason about data distributions, noise, and evaluation",
+        "Interpret basic metrics and uncertainty in model outputs"
+      ],
+      "prerequisites": [
+        "Python",
+        "Linear Algebra"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Probability And Statistics"
+      ],
+      "title": "Probability And Statistics for Vision and Learning"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand how images are represented and manipulated computationally",
+        "Apply fundamental operations (filtering, edges, morphology) to prepare data for learning"
+      ],
+      "prerequisites": [
+        "Python",
+        "Linear Algebra"
+      ],
+      "session_number": 4,
+      "skills": [
+        "digital image processing"
+      ],
+      "title": "digital image processing Core Concepts"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement common image processing tasks using Opencv",
+        "Build a small end-to-end preprocessing pipeline suitable for downstream learning"
+      ],
+      "prerequisites": [
+        "Python",
+        "digital image processing"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Opencv"
+      ],
+      "title": "Opencv for Practical Image Processing Pipelines"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain key Computer Vision Fundamentals concepts (image formation, features, geometry basics)",
+        "Relate classical vision ideas to modern deep learning approaches"
+      ],
+      "prerequisites": [
+        "Python",
+        "digital image processing",
+        "Probability And Statistics"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Computer Vision Fundamentals"
+      ],
+      "title": "Computer Vision Fundamentals: From Pixels to Features"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand the core building blocks of deep learning (layers, activations, losses)",
+        "Connect optimization and generalization concepts to vision datasets"
+      ],
+      "prerequisites": [
+        "Python",
+        "Linear Algebra",
+        "Probability And Statistics",
+        "Computer Vision Fundamentals"
+      ],
+      "session_number": 7,
+      "skills": [
+        "deep learning"
+      ],
+      "title": "deep learning Fundamentals for Vision"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use PyTorch tensors and automatic differentiation to build simple models",
+        "Implement a clean training/evaluation loop and manage data flow"
+      ],
+      "prerequisites": [
+        "Python",
+        "deep learning",
+        "Linear Algebra"
+      ],
+      "session_number": 8,
+      "skills": [
+        "PyTorch"
+      ],
+      "title": "PyTorch Basics: Tensors, Autograd, and Training Loops"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain and implement core Convolutional Neural Networks (Cnns) components (convolutions, pooling, normalization)",
+        "Train a CNN for image classification and analyze learning behavior"
+      ],
+      "prerequisites": [
+        "PyTorch",
+        "deep learning",
+        "digital image processing"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Convolutional Neural Networks (Cnns)"
+      ],
+      "title": "Convolutional Neural Networks (Cnns) for Image Understanding"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply Model Training And Optimization techniques (learning rates, regularization, scheduling) to improve performance",
+        "Diagnose underfitting/overfitting and stabilize training"
+      ],
+      "prerequisites": [
+        "PyTorch",
+        "deep learning",
+        "Probability And Statistics"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Model Training And Optimization"
+      ],
+      "title": "Model Training And Optimization for Vision Models"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand the problem formulations for Object Detection And Segmentation and common evaluation ideas",
+        "Implement a basic training/inference workflow for detection or segmentation in PyTorch"
+      ],
+      "prerequisites": [
+        "Convolutional Neural Networks (Cnns)",
+        "PyTorch",
+        "Model Training And Optimization",
+        "Computer Vision Fundamentals"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Object Detection And Segmentation"
+      ],
+      "title": "Object Detection And Segmentation: Concepts and Architectures"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Computer vision engineers research, design, develop, and train artificial intelligence algorithms and machine learning primitives that understand the content of digital images based on a large amount of data. They apply this understanding to solve different real-world problems such as security, autonomous driving, robotic manufacturing, digital image classification, medical image processing and diagnosis, etc.",
+    "label": "computer vision engineer",
+    "similarity_score": 1.0,
+    "uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 32,
+    "skills_in_path": 11,
+    "skills_to_learn": 32,
+    "total_skills_needed": 32
+  },
+  "user_id": "eval_user_18"
+}

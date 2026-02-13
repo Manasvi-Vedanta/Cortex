@@ -1,0 +1,1140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Complete Learning Journey | GenMentor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .stat-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 1em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .timeline-container {
+            padding: 60px 40px;
+        }
+        
+        .session {
+            margin-bottom: 60px;
+            position: relative;
+            padding-left: 60px;
+            border-left: 4px solid #e0e0e0;
+        }
+        
+        .session::before {
+            content: '';
+            position: absolute;
+            left: -15px;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #4CAF50;
+            border: 4px solid white;
+            box-shadow: 0 0 0 4px #e0e0e0;
+        }
+        
+        .session.intermediate::before {
+            background: #FF9800;
+        }
+        
+        .session.advanced::before {
+            background: #F44336;
+        }
+        
+        .session-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px 15px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .session-title {
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+        
+        .session-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 20px;
+            background: rgba(255,255,255,0.2);
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .session-content {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-top: none;
+            border-radius: 0 0 15px 15px;
+            padding: 30px;
+        }
+        
+        .session-meta {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .meta-item i {
+            color: #667eea;
+            font-size: 1.2em;
+        }
+        
+        .objectives {
+            margin-bottom: 30px;
+        }
+        
+        .objectives h3 {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .objectives ul {
+            list-style: none;
+        }
+        
+        .objectives li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .objectives li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .skill-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s;
+        }
+        
+        .skill-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .skill-name {
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .resources {
+            margin-top: 15px;
+        }
+        
+        .resources-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .resource-item {
+            background: white;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.2s;
+        }
+        
+        .resource-item:hover {
+            background: #667eea;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .resource-icon {
+            font-size: 1.2em;
+            min-width: 30px;
+            text-align: center;
+        }
+        
+        .resource-link {
+            text-decoration: none;
+            color: inherit;
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .resource-info {
+            flex: 1;
+        }
+        
+        .resource-title {
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        
+        .resource-meta {
+            font-size: 0.85em;
+            opacity: 0.7;
+        }
+        
+        .quality-badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            background: #4CAF50;
+            color: white;
+        }
+        
+        .quality-badge.high {
+            background: #4CAF50;
+        }
+        
+        .quality-badge.medium {
+            background: #FF9800;
+        }
+        
+        .quality-badge.low {
+            background: #f44336;
+        }
+        
+        .progress-bar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            z-index: 1000;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            width: 0%;
+            transition: width 0.3s;
+        }
+        
+        .download-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 30px;
+            border-radius: 50px;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(102, 126, 234, 0.5);
+        }
+        
+        @media print {
+            .download-btn, .progress-bar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Your Complete Learning Journey</h1>
+            <p style="font-size: 1.4em; font-weight: 600; margin: 20px 0;">"I want to become a full-stack web developer"</p>
+            <p style="font-size: 1.1em; opacity: 0.9;">
+                <i class="fas fa-briefcase"></i> Target Role: web developer
+            </p>
+            <p style="font-size: 0.95em; opacity: 0.85; margin-top: 15px; max-width: 800px; margin-left: auto; margin-right: auto;">Web developers develop, implement and document web-accessible software based on the designs provided. They align the client's web presence with its business strategy, troubleshoot software problems and issues and look for ways to improve the application.</p>
+            
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">📚</div>
+                <div class="stat-value">2</div>
+                <div class="stat-label">Learning Sessions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🎯</div>
+                <div class="stat-value">10</div>
+                <div class="stat-label">Skills to Master</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⏰</div>
+                <div class="stat-value">34h</div>
+                <div class="stat-label">Total Study Time</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📅</div>
+                <div class="stat-value">11</div>
+                <div class="stat-label">Days (3h/day)</div>
+            </div>
+        </div>
+        
+        <div class="timeline-container">
+            <h2 style="text-align: center; margin-bottom: 50px; font-size: 2.5em; color: #667eea;">
+                <i class="fas fa-road"></i> Your Learning Path
+            </h2>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 1</span>
+                        <div class="session-title">Foundation Skills</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>14 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>2 skills</strong> to learn</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Build mathematical and statistical foundation</li>
+                            <li>Understand core concepts</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 programming</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/codecrafters-io/build-your-own-x" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">build-your-own-x</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/freeCodeCamp/freeCodeCamp" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">freeCodeCamp</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/EbookFoundation/free-programming-books" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">free-programming-books</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/donnemartin/system-design-primer" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">system-design-primer</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/getify/You-Dont-Know-JS" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">You-Dont-Know-JS</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 web programming</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/donnemartin/system-design-primer" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">system-design-primer</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/beego/beego" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">beego</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/chai2010/advanced-go-programming-book" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">advanced-go-programming-book</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/joewalnes/websocketd" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">websocketd</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/geektutu/7days-golang" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">7days-golang</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 2</span>
+                        <div class="session-title">Programming & Query Languages</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>20 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>8 skills</strong> to learn</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Master essential programming languages</li>
+                            <li>Learn database querying</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 domain name service</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/results?search_query=domain+name+service+tutorial" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">domain name service Tutorial - YouTube</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📄</div>
+                                        <a href="https://medium.com/search?q=domain name service" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">domain name service - Medium Articles</div>
+                                                <div class="resource-meta">Medium • Article</div>
+                                            </div>
+                                            <span class="quality-badge medium">Good</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/timothymiller/cloudflare-ddns" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">cloudflare-ddns</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/google/nomulus" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">nomulus</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/K0p1-Git/cloudflare-ddns-updater" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">cloudflare-ddns-updater</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 World Wide Web Consortium standards</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/results?search_query=World+Wide+Web+Consortium+standards+tutorial" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">World Wide Web Consortium standards Tutorial - You...</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📄</div>
+                                        <a href="https://medium.com/search?q=World Wide Web Consortium standards" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">World Wide Web Consortium standards - Medium Artic...</div>
+                                                <div class="resource-meta">Medium • Article</div>
+                                            </div>
+                                            <span class="quality-badge medium">Good</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/Sfedfcv/redesigned-pancake" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">redesigned-pancake</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/jettbrains/-L-" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">-L-</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/MESAInternational/B2MML-BatchML" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">B2MML-BatchML</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 integrated development environment software</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/results?search_query=integrated+development+environment+software+tutorial" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">integrated development environment software Tutori...</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📄</div>
+                                        <a href="https://medium.com/search?q=integrated development environment software" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">integrated development environment software - Medi...</div>
+                                                <div class="resource-meta">Medium • Article</div>
+                                            </div>
+                                            <span class="quality-badge medium">Good</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">FTC-Skystone-Dark-Angels-Romania-2020</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/Sfedfcv/redesigned-pancake" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">redesigned-pancake</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/sanusanth/Python-Basic-programs" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python-Basic-programs</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 web based collaborative platforms</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/results?search_query=web+based+collaborative+platforms+tutorial" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">web based collaborative platforms Tutorial - YouTu...</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📄</div>
+                                        <a href="https://medium.com/search?q=web based collaborative platforms" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">web based collaborative platforms - Medium Article...</div>
+                                                <div class="resource-meta">Medium • Article</div>
+                                            </div>
+                                            <span class="quality-badge medium">Good</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/FriendUPCloud/friendup" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">friendup</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/Sfedfcv/redesigned-pancake" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">redesigned-pancake</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/Code-A2Z/code-a2z" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">code-a2z</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 tools for software configuration management</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/results?search_query=tools+for+software+configuration+management+tutorial" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">tools for software configuration management Tutori...</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📄</div>
+                                        <a href="https://medium.com/search?q=tools for software configuration management" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">tools for software configuration management - Medi...</div>
+                                                <div class="resource-meta">Medium • Article</div>
+                                            </div>
+                                            <span class="quality-badge medium">Good</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">FTC-Skystone-Dark-Angels-Romania-2020</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/Sfedfcv/redesigned-pancake" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">redesigned-pancake</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/jettbrains/-L-" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">-L-</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 content development processes</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/results?search_query=content+development+processes+tutorial" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">content development processes Tutorial - YouTube</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📄</div>
+                                        <a href="https://medium.com/search?q=content development processes" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">content development processes - Medium Articles</div>
+                                                <div class="resource-meta">Medium • Article</div>
+                                            </div>
+                                            <span class="quality-badge medium">Good</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/chutianshu1981/AwesomeUnityTutorial" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">AwesomeUnityTutorial</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">FTC-Skystone-Dark-Angels-Romania-2020</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/drshahizan/learn-php" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">learn-php</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 web services</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/awesome-selfhosted/awesome-selfhosted" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">awesome-selfhosted</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/open-guides/og-aws" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">og-aws</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/Seldaek/monolog" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">monolog</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/ory/hydra" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">hydra</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/aws/aws-cli" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">aws-cli</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 use an application-specific interface</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/results?search_query=use+an+application-specific+interface+tutorial" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">use an application-specific interface Tutorial - Y...</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📄</div>
+                                        <a href="https://medium.com/search?q=use an application-specific interface" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">use an application-specific interface - Medium Art...</div>
+                                                <div class="resource-meta">Medium • Article</div>
+                                            </div>
+                                            <span class="quality-badge medium">Good</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/stg-tud/popart" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">popart</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">💻</div>
+                                        <a href="https://github.com/ypacheco/Mining-for-Framework-Instantiation-Pattern-Interplays" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Mining-for-Framework-Instantiation-Pattern-Interpl...</div>
+                                                <div class="resource-meta">GitHub • Repository</div>
+                                            </div>
+                                            <span class="quality-badge low">OK</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <a href="#" class="download-btn" onclick="window.print(); return false;">
+        <i class="fas fa-download"></i>
+        Save as PDF
+    </a>
+    
+    <script>
+        // Scroll progress indicator
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressFill').style.width = scrolled + '%';
+        });
+        
+        // Add click handlers for resource items
+        document.querySelectorAll('.resource-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                if (!e.target.closest('a')) {
+                    const link = this.querySelector('a');
+                    if (link) {
+                        window.open(link.href, '_blank');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

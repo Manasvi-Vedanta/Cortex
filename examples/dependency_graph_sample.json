@@ -1,0 +1,70 @@
+{
+  "edges": [
+    {
+      "from": "session_1",
+      "label": "requires",
+      "to": "session_2"
+    },
+    {
+      "from": "session_2",
+      "label": "requires",
+      "to": "session_3"
+    }
+  ],
+  "levels": [
+    {
+      "level": 0,
+      "sessions": [
+        "session_1"
+      ]
+    },
+    {
+      "level": 1,
+      "sessions": [
+        "session_2"
+      ]
+    },
+    {
+      "level": 2,
+      "sessions": [
+        "session_3"
+      ]
+    }
+  ],
+  "max_level": 2,
+  "metrics": {
+    "complexity_score": 0.6666666666666666,
+    "independent_sessions": 1,
+    "total_dependencies": 2,
+    "total_sessions": 3
+  },
+  "nodes": [
+    {
+      "color": "#4CAF50",
+      "difficulty": "beginner",
+      "duration_hours": 25,
+      "id": "session_1",
+      "label": "Python Fundamentals",
+      "session_number": 1,
+      "skills_count": 4
+    },
+    {
+      "color": "#FF9800",
+      "difficulty": "intermediate",
+      "duration_hours": 30,
+      "id": "session_2",
+      "label": "Object-Oriented Programming",
+      "session_number": 2,
+      "skills_count": 4
+    },
+    {
+      "color": "#F44336",
+      "difficulty": "advanced",
+      "duration_hours": 40,
+      "id": "session_3",
+      "label": "Data Science with Python",
+      "session_number": 3,
+      "skills_count": 4
+    }
+  ]
+}

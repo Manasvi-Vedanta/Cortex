@@ -1,0 +1,194 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:03:05.635610",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Amazon S3 is AWS's object storage service designed for storing and retrieving any amount of data as objects.",
+        "is_correct": false,
+        "question": "Which AWS service is primarily used for object storage?",
+        "question_id": 1,
+        "topic": "Data Storage & Databases (Sql/Nosql/Object Storage)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Azure RBAC assigns roles to users/groups/service principals to define permissions on resources (who can do what).",
+        "is_correct": true,
+        "question": "In Azure, what is the primary purpose of RBAC (Role-Based Access Control)?",
+        "question_id": 2,
+        "topic": "Security & Iam (Rbac, Policies, Kms, Secrets)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Docker packages applications and dependencies into containers, enabling consistent execution across environments.",
+        "is_correct": true,
+        "question": "What does Docker primarily provide?",
+        "question_id": 3,
+        "topic": "Containers (Docker)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "IaC uses declarative or imperative code (e.g., Terraform/CloudFormation/Bicep) to provision and manage infrastructure reproducibly.",
+        "is_correct": true,
+        "question": "Which statement best describes Infrastructure as Code (IaC)?",
+        "question_id": 4,
+        "topic": "Infrastructure As Code (Terraform/Cloudformation/Bicep)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "PR-triggered workflows validate changes, while deployments can be gated using GitHub Environments with required reviewers/approvals on main.",
+        "is_correct": true,
+        "question": "You need a CI/CD pipeline that runs tests on every pull request and deploys to production only after approval. Which approach best fits GitHub Actions?",
+        "question_id": 5,
+        "topic": "Devops & Ci/Cd Pipelines (Github Actions/Jenkins/Azure Devops)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A ClusterIP Service provides stable discovery and load balancing to a set of pods selected by labels, even as pods scale or restart.",
+        "is_correct": true,
+        "question": "In Kubernetes, what is the main purpose of a Service (type ClusterIP) in front of a Deployment?",
+        "question_id": 6,
+        "topic": "Kubernetes (Eks/Aks/Gke)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "When a partition occurs, a distributed system must generally trade off between consistency and availability (CAP).",
+        "is_correct": false,
+        "question": "You are designing a globally distributed system and must tolerate network partitions. Under the CAP theorem, which trade-off is typically required during a partition?",
+        "question_id": 7,
+        "topic": "Distributed Systems (Scalability, Consistency, Fault Tolerance)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "SCPs can restrict allowed actions across accounts, and AWS Config rules can detect/flag noncompliance; together they enforce encryption and block public access at scale.",
+        "is_correct": false,
+        "question": "A company wants to enforce that all new AWS S3 buckets must have server-side encryption enabled and must not be publicly accessible. Which solution best enforces this at scale?",
+        "question_id": 8,
+        "topic": "Security & Iam (Rbac, Policies, Kms, Secrets)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "terraform import associates an existing real-world resource with a Terraform resource address in state, enabling management without recreation.",
+        "is_correct": false,
+        "question": "Your Terraform apply fails because a resource already exists in the cloud (created manually) and Terraform tries to create it again. What is the best next step to bring it under Terraform management without recreating it?",
+        "question_id": 9,
+        "topic": "Infrastructure As Code (Terraform/Cloudformation/Bicep)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Correlating traces, Kubernetes metrics, and cloud infrastructure metrics provides fast root-cause isolation across layers during incident response.",
+        "is_correct": false,
+        "question": "An API running on EKS experiences intermittent latency spikes. You need to respond to the incident by quickly identifying whether the bottleneck is at the application, Kubernetes, or cloud infrastructure layer. Which approach is most effective?",
+        "question_id": 10,
+        "topic": "Monitoring & Observability (Cloudwatch/Azure Monitor/Prometheus/Grafana)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 3,
+        "percentage": 75.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Security & Iam (Rbac, Policies, Kms, Secrets)",
+        "total": 2
+      },
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Infrastructure As Code (Terraform/Cloudformation/Bicep)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Needs Improvement",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "🎯 Priority topics to review: Data Storage & Databases (Sql/Nosql/Object Storage), Distributed Systems (Scalability, Consistency, Fault Tolerance), Monitoring & Observability (Cloudwatch/Azure Monitor/Prometheus/Grafana)",
+      "✅ Your strongest areas: Containers (Docker), Devops & Ci/Cd Pipelines (Github Actions/Jenkins/Azure Devops)",
+      "📖 Topics needing more practice: Security & Iam (Rbac, Policies, Kms, Secrets), Infrastructure As Code (Terraform/Cloudformation/Bicep)"
+    ],
+    "score": {
+      "correct": 5,
+      "grade": "C-",
+      "incorrect": 5,
+      "percentage": 50.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Containers (Docker)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Devops & Ci/Cd Pipelines (Github Actions/Jenkins/Azure Devops)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kubernetes (Eks/Aks/Gke)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Storage & Databases (Sql/Nosql/Object Storage)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Systems (Scalability, Consistency, Fault Tolerance)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Monitoring & Observability (Cloudwatch/Azure Monitor/Prometheus/Grafana)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

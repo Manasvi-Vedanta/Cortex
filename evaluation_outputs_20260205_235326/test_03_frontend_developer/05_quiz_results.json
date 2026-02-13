@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-05T23:57:46.741679",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A variable holds data (e.g., numbers, strings, objects) so it can be referenced and changed during program execution.",
+        "is_correct": false,
+        "question": "In programming, what is a variable primarily used for?",
+        "question_id": 1,
+        "topic": "programming",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "The <main> element represents the dominant content of the <body> and should be unique per page.",
+        "is_correct": true,
+        "question": "Which HTML5 element is the most appropriate for the main content of a page (excluding headers, footers, and sidebars)?",
+        "question_id": 2,
+        "topic": "Html5",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Padding adds internal spacing between the content box and the border; margin adds external spacing outside the border.",
+        "is_correct": false,
+        "question": "In CSS3, which property is used to create space inside an element between its content and border?",
+        "question_id": 3,
+        "topic": "Css3",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "aria-label supplies an accessible name directly, helping screen readers identify the purpose of the control.",
+        "is_correct": true,
+        "question": "Which ARIA attribute is commonly used to provide an accessible name for an element when a visible label is not available?",
+        "question_id": 4,
+        "topic": "Accessibility (Wcag/Aria)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Media queries allow you to apply different CSS rules based on viewport size, enabling responsive column changes.",
+        "is_correct": false,
+        "question": "You want a layout to switch from two columns to one column on small screens. Which CSS approach best supports Responsive Web Design?",
+        "question_id": 5,
+        "topic": "Responsive Web Design",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Event Listener Breakpoints can pause JavaScript execution when specific events (like click) are triggered, aiding debugging.",
+        "is_correct": false,
+        "question": "In Chrome/Edge DevTools, which feature helps you identify why a click handler is not firing by pausing execution when the event occurs?",
+        "question_id": 6,
+        "topic": "Browser Devtools",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Using the functional updater (prev => prev + 1) ensures correctness when state updates are batched or asynchronous.",
+        "is_correct": false,
+        "question": "In React, what is the correct way to update state based on the previous state value?",
+        "question_id": 7,
+        "topic": "React",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "\"allowJs\": true lets TypeScript include and type-check .js files, enabling incremental adoption alongside .ts files.",
+        "is_correct": true,
+        "question": "You are adding TypeScript to an existing JavaScript project and want to allow gradual migration while still type-checking. Which tsconfig.json setting best supports this?",
+        "question_id": 8,
+        "topic": "Add TypeScript",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Code splitting reduces initial JS payload and main-thread work, improving metrics like LCP/INP by deferring non-critical code.",
+        "is_correct": true,
+        "question": "A page loads slowly on mobile. DevTools shows a large JavaScript bundle and long main-thread tasks. Which change is most likely to improve real-world performance without changing features?",
+        "question_id": 9,
+        "topic": "Web Performance Optimization",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Git is a distributed version control system used to track changes, collaborate via branches/merges, and manage releases.",
+        "is_correct": false,
+        "question": "Your team needs to manage versions, review changes, and resolve merge conflicts for a web app. Which tool is most appropriate for software configuration management?",
+        "question_id": 10,
+        "topic": "tools for software configuration management",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: programming, Css3, Responsive Web Design",
+      "✅ Your strongest areas: Html5, Accessibility (Wcag/Aria)"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Html5",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Accessibility (Wcag/Aria)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Add TypeScript",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Web Performance Optimization",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "programming",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Css3",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Responsive Web Design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Browser Devtools",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "React",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

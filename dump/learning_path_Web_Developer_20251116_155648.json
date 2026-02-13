@@ -1,0 +1,1005 @@
+{
+  "scenario": "Web Developer",
+  "status": "success",
+  "goal": "I want to become a full-stack web developer",
+  "current_skills": [],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+    "label": "web developer",
+    "description": "Web developers develop, implement and document web-accessible software based on the designs provided. They align the client's web presence with its business strategy, troubleshoot software problems and issues and look for ways to improve the application.",
+    "similarity_score": 0.7869765162467957
+  },
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "Introduction to Programming with Python",
+      "objectives": [
+        "Understand basic programming concepts like variables, data types, and operators.",
+        "Learn to write simple programs using Python syntax.",
+        "Understand control flow statements (if/else, loops).",
+        "Learn to define and use functions."
+      ],
+      "skills": [
+        "Python programming",
+        "Problem-solving",
+        "Algorithmic thinking"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 2,
+      "title": "Web Programming Fundamentals: HTML, CSS, and JavaScript",
+      "objectives": [
+        "Understand the structure of a web page using HTML.",
+        "Learn to style web pages using CSS.",
+        "Learn to add interactivity to web pages using JavaScript.",
+        "Understand the client-side web development process."
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web development"
+      ],
+      "estimated_duration_hours": 12,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 3,
+      "title": "Introduction to Integrated Development Environments (IDEs)",
+      "objectives": [
+        "Understand the purpose and benefits of using an IDE.",
+        "Learn to navigate and use a specific IDE (e.g., VS Code, IntelliJ IDEA).",
+        "Learn to debug code within the IDE.",
+        "Understand code completion and refactoring features."
+      ],
+      "skills": [
+        "IDE usage (VS Code, IntelliJ IDEA, etc.)",
+        "Debugging",
+        "Code editing",
+        "Project management within an IDE"
+      ],
+      "estimated_duration_hours": 4,
+      "difficulty_level": "beginner",
+      "prerequisites": [
+        "Basic programming knowledge"
+      ]
+    },
+    {
+      "session_number": 4,
+      "title": "Web-Based Collaborative Platforms: Git and GitHub",
+      "objectives": [
+        "Understand the concepts of version control.",
+        "Learn to use Git for tracking changes to code.",
+        "Learn to collaborate on code using GitHub.",
+        "Understand branching, merging, and pull requests."
+      ],
+      "skills": [
+        "Git",
+        "GitHub",
+        "Version control",
+        "Collaboration"
+      ],
+      "estimated_duration_hours": 6,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Basic programming knowledge",
+        "Familiarity with the command line"
+      ]
+    },
+    {
+      "session_number": 5,
+      "title": "Tools for Software Configuration Management: Docker",
+      "objectives": [
+        "Understand the concept of containerization.",
+        "Learn to create and manage Docker containers.",
+        "Understand Dockerfiles and Docker Compose.",
+        "Learn to deploy applications using Docker."
+      ],
+      "skills": [
+        "Docker",
+        "Containerization",
+        "Software configuration management",
+        "Deployment"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Basic programming knowledge",
+        "Familiarity with the command line"
+      ]
+    },
+    {
+      "session_number": 6,
+      "title": "Content Development Processes: Markdown and Static Site Generators",
+      "objectives": [
+        "Learn to write content using Markdown.",
+        "Understand the benefits of static site generators.",
+        "Learn to use a static site generator (e.g., Jekyll, Hugo).",
+        "Understand how to deploy a static website."
+      ],
+      "skills": [
+        "Markdown",
+        "Static site generators (Jekyll, Hugo)",
+        "Content creation",
+        "Website deployment"
+      ],
+      "estimated_duration_hours": 6,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 7,
+      "title": "Introduction to Web Services: REST APIs",
+      "objectives": [
+        "Understand the concept of web services.",
+        "Learn about RESTful APIs.",
+        "Learn to make API requests using tools like Postman or curl.",
+        "Understand API documentation and best practices."
+      ],
+      "skills": [
+        "REST APIs",
+        "API testing (Postman, curl)",
+        "Web services",
+        "HTTP protocol"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Basic programming knowledge",
+        "Understanding of HTTP protocol"
+      ]
+    },
+    {
+      "session_number": 8,
+      "title": "Using Application-Specific Interfaces: Example - Database Interaction with Python",
+      "objectives": [
+        "Understand how to connect to a database from a Python application.",
+        "Learn to perform CRUD (Create, Read, Update, Delete) operations on a database.",
+        "Understand SQL queries.",
+        "Learn to handle database errors."
+      ],
+      "skills": [
+        "Database interaction (SQL)",
+        "Python programming",
+        "Application-specific interface usage",
+        "Database management"
+      ],
+      "estimated_duration_hours": 10,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Python programming",
+        "Basic SQL knowledge"
+      ]
+    },
+    {
+      "session_number": 9,
+      "title": "Using Markup Languages: XML and JSON",
+      "objectives": [
+        "Understand the purpose of markup languages.",
+        "Learn to write and parse XML documents.",
+        "Learn to write and parse JSON documents.",
+        "Understand the differences between XML and JSON."
+      ],
+      "skills": [
+        "XML",
+        "JSON",
+        "Data serialization",
+        "Data parsing"
+      ],
+      "estimated_duration_hours": 6,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 10,
+      "title": "Using E-Services: Integrating with Payment Gateways",
+      "objectives": [
+        "Understand the concept of e-services.",
+        "Learn about different payment gateways (e.g., Stripe, PayPal).",
+        "Learn to integrate with a payment gateway using its API.",
+        "Understand security considerations for e-commerce."
+      ],
+      "skills": [
+        "E-commerce",
+        "Payment gateway integration (Stripe, PayPal)",
+        "API usage",
+        "Security"
+      ],
+      "estimated_duration_hours": 12,
+      "difficulty_level": "advanced",
+      "prerequisites": [
+        "Web programming knowledge",
+        "API knowledge",
+        "Security awareness"
+      ]
+    }
+  ],
+  "resources": {
+    "Collaboration": [],
+    "Docker": [
+      {
+        "title": "Docker Documentation",
+        "url": "https://docs.docker.com/",
+        "type": "documentation",
+        "provider": "Docker",
+        "description": "Official Docker documentation",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Docker Roadmap",
+        "url": "https://roadmap.sh/docker",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Docker learning path",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Docker Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Docker course (3 hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "Git": [
+      {
+        "title": "Pro Git Book",
+        "url": "https://git-scm.com/book/en/v2",
+        "type": "documentation",
+        "provider": "Git",
+        "description": "Official Git documentation and book",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Git and GitHub Course",
+        "url": "https://roadmap.sh/git-github",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Git and GitHub guide",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Git and GitHub for Beginners",
+        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Git tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "Deployment": [],
+    "Markdown": [],
+    "Version control": [
+      {
+        "title": "Pro Git Book",
+        "url": "https://git-scm.com/book/en/v2",
+        "type": "documentation",
+        "provider": "Git",
+        "description": "Official Git documentation and book",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Git and GitHub Course",
+        "url": "https://roadmap.sh/git-github",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Git and GitHub guide",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Git and GitHub for Beginners",
+        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Git tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "Web services": [
+      {
+        "resource_url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "resource_title": "APIs for Beginners",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.91,
+        "created_at": "2025-11-16 10:01:11"
+      },
+      {
+        "resource_url": "https://learning.postman.com/",
+        "resource_title": "Postman Learning Center",
+        "resource_type": "practice",
+        "provider": "Postman",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.88,
+        "created_at": "2025-11-16 10:01:11"
+      }
+    ],
+    "Payment gateway integration (Stripe, PayPal)": [],
+    "E-commerce": [],
+    "XML": [],
+    "Data parsing": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "JavaScript": [
+      {
+        "resource_url": "https://docs.oracle.com/en/java/",
+        "resource_title": "Java Documentation",
+        "resource_type": "documentation",
+        "provider": "Oracle",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 1.0,
+        "created_at": "2025-11-16 10:03:43"
+      },
+      {
+        "resource_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+        "resource_title": "freeCodeCamp (432,233 stars)",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+        "difficulty_level": "",
+        "quality_score": 1.0,
+        "created_at": "2025-11-16 10:03:43"
+      },
+      {
+        "resource_url": "https://github.com/practical-tutorials/project-based-learning",
+        "resource_title": "project-based-learning (249,981 stars)",
+        "resource_type": "repository",
+        "provider": "GitHub",
+        "description": "Curated list of project-based tutorials",
+        "difficulty_level": "",
+        "quality_score": 1.0,
+        "created_at": "2025-11-16 10:03:43"
+      },
+      {
+        "resource_url": "https://www.udemy.com/course/java-the-complete-java-developer-course/",
+        "resource_title": "Java Programming Masterclass",
+        "resource_type": "course",
+        "provider": "Udemy",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.92,
+        "created_at": "2025-11-16 10:03:43"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "resource_title": "Java Tutorial for Beginners",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.9,
+        "created_at": "2025-11-16 10:03:43"
+      }
+    ],
+    "IDE usage (VS Code, IntelliJ IDEA, etc.)": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "JSON": [],
+    "Software configuration management": [
+      {
+        "title": "Pro Git Book",
+        "url": "https://git-scm.com/book/en/v2",
+        "type": "documentation",
+        "provider": "Git",
+        "description": "Official Git documentation and book",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Git and GitHub Course",
+        "url": "https://roadmap.sh/git-github",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Git and GitHub guide",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Git and GitHub for Beginners",
+        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Git tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "REST APIs": [
+      {
+        "title": "APIs for Beginners",
+        "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "Postman Learning Center",
+        "url": "https://learning.postman.com/",
+        "type": "practice",
+        "provider": "Postman",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "Database interaction (SQL)": [
+      {
+        "title": "Database Design",
+        "url": "https://www.coursera.org/learn/database-design",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Database Design Course",
+        "url": "https://www.youtube.com/watch?v=ztHopE5Wnpc",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.87
+      }
+    ],
+    "Content creation": [],
+    "Database management": [
+      {
+        "title": "Database Design",
+        "url": "https://www.coursera.org/learn/database-design",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Database Design Course",
+        "url": "https://www.youtube.com/watch?v=ztHopE5Wnpc",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.87
+      }
+    ],
+    "GitHub": [
+      {
+        "title": "Pro Git Book",
+        "url": "https://git-scm.com/book/en/v2",
+        "type": "documentation",
+        "provider": "Git",
+        "description": "Official Git documentation and book",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Git and GitHub Course",
+        "url": "https://roadmap.sh/git-github",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Git and GitHub guide",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Git and GitHub for Beginners",
+        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Git tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "Problem-solving": [],
+    "Algorithmic thinking": [
+      {
+        "title": "Algorithms Specialization",
+        "url": "https://www.coursera.org/specializations/algorithms",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.97
+      },
+      {
+        "title": "LeetCode",
+        "url": "https://leetcode.com/",
+        "type": "practice",
+        "provider": "LeetCode",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Algorithms Course",
+        "url": "https://www.youtube.com/watch?v=8hly31xKli0",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.9
+      }
+    ],
+    "Website deployment": [],
+    "CSS": [
+      {
+        "title": "MDN CSS Guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "type": "documentation",
+        "provider": "MDN",
+        "description": "Complete CSS documentation and guides",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "CSS Tutorial - Zero to Hero",
+        "url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete CSS course (11 hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "Containerization": [
+      {
+        "title": "Docker Documentation",
+        "url": "https://docs.docker.com/",
+        "type": "documentation",
+        "provider": "Docker",
+        "description": "Official Docker documentation",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Docker Roadmap",
+        "url": "https://roadmap.sh/docker",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Docker learning path",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Docker Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Docker course (3 hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "HTTP protocol": [],
+    "Application-specific interface usage": [
+      {
+        "title": "APIs for Beginners",
+        "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "Postman Learning Center",
+        "url": "https://learning.postman.com/",
+        "type": "practice",
+        "provider": "Postman",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "Python programming": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "HTML": [
+      {
+        "title": "MDN HTML Guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "documentation",
+        "provider": "MDN",
+        "description": "Complete HTML documentation and guides",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Responsive Web Design",
+        "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+        "type": "course",
+        "provider": "freeCodeCamp",
+        "description": "Complete HTML/CSS course with certification",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "HTML Full Course - Build a Website Tutorial",
+        "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete HTML tutorial (2 hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "Project management within an IDE": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Data serialization": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "API usage": [
+      {
+        "title": "APIs for Beginners",
+        "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "Postman Learning Center",
+        "url": "https://learning.postman.com/",
+        "type": "practice",
+        "provider": "Postman",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "Security": [
+      {
+        "title": "Cybersecurity Specialization",
+        "url": "https://www.coursera.org/specializations/cyber-security",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.93
+      },
+      {
+        "title": "Cybersecurity Full Course",
+        "url": "https://www.youtube.com/watch?v=U_P23SqJaDc",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.86
+      }
+    ],
+    "Debugging": [
+      {
+        "title": "Software Testing Tutorial",
+        "url": "https://www.youtube.com/watch?v=sB_5fqiysi4",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Web development": [
+      {
+        "title": "MDN JavaScript Guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+        "type": "documentation",
+        "provider": "MDN",
+        "description": "Comprehensive JavaScript documentation by Mozilla",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "JavaScript Algorithms and Data Structures",
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+        "type": "course",
+        "provider": "freeCodeCamp",
+        "description": "Complete JavaScript course with certification",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "JavaScript Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete JavaScript tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "API testing (Postman, curl)": [
+      {
+        "title": "Software Testing Tutorial",
+        "url": "https://www.youtube.com/watch?v=sB_5fqiysi4",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Code editing": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Static site generators (Jekyll, Hugo)": []
+  },
+  "statistics": {
+    "total_hours": 80,
+    "total_skills": 39,
+    "duration_days": 26,
+    "total_sessions": 10,
+    "total_resources": 78
+  },
+  "performance": {
+    "skill_gap_time": 9.66813063621521,
+    "schedule_time": 9.389071941375732,
+    "resources_time": 0.6177055835723877,
+    "total_time": 19.686875820159912
+  }
+}

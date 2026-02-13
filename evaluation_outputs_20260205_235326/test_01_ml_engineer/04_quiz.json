@@ -1,0 +1,170 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-05T23:54:27.617081",
+      "learning_path_id": "test_01",
+      "target_occupation": "computer vision engineer",
+      "total_questions": 10,
+      "total_topics": 8
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Images are naturally represented as dense numeric tensors; NumPy ndarrays efficiently store and operate on HxWxC arrays.",
+        "id": 1,
+        "options": {
+          "A": "NumPy ndarray",
+          "B": "Python set",
+          "C": "Python tuple of tuples",
+          "D": "Python dict"
+        },
+        "question": "In Python, which data structure is most appropriate to store an image as a height x width x channels array for computer vision processing?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters rows prior to grouping/aggregation; HAVING filters after aggregation.",
+        "id": 2,
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "ORDER BY",
+          "D": "LIMIT"
+        },
+        "question": "Which SQL clause is used to filter rows before aggregation (e.g., before a GROUP BY) when selecting training metadata for a vision dataset?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Normalizing/scaling pixel intensities helps standardize brightness/contrast variations and stabilizes training.",
+        "id": 3,
+        "options": {
+          "A": "Per-channel normalization (mean/std) or scaling pixel values",
+          "B": "Shuffling the dataset",
+          "C": "Increasing batch size",
+          "D": "Early stopping"
+        },
+        "question": "Which preprocessing step is most directly used to reduce sensitivity to lighting changes in images?",
+        "topic": "Data Preprocessing And Feature Engineering"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "F1-score balances precision and recall, making it more robust than accuracy when classes are imbalanced.",
+        "id": 4,
+        "options": {
+          "A": "F1-score",
+          "B": "Mean Squared Error (MSE)",
+          "C": "R-squared",
+          "D": "Explained variance"
+        },
+        "question": "For a binary image classification problem with strong class imbalance, which metric is generally more informative than accuracy?",
+        "topic": "Model Evaluation And Metrics"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Pooling reduces spatial dimensions, lowers computation, and can improve robustness to small translations.",
+        "id": 5,
+        "options": {
+          "A": "Downsample feature maps to reduce spatial resolution and add some translation invariance",
+          "B": "Increase the number of channels to expand model capacity",
+          "C": "Compute gradients for backpropagation",
+          "D": "Convert RGB images to grayscale"
+        },
+        "question": "In a CNN, what is the primary purpose of a pooling layer (e.g., max pooling) in many vision architectures?",
+        "topic": "Deep Learning"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Passing training=False (or using model.predict) runs layers like Dropout/BatchNorm in inference behavior.",
+        "id": 6,
+        "options": {
+          "A": "Use model(x, training=False) or model.predict(x)",
+          "B": "Call tf.GradientTape() around the forward pass",
+          "C": "Set model.trainable = False and always call model(x, training=True)",
+          "D": "Compile the model with a different optimizer"
+        },
+        "question": "In TensorFlow/Keras, which approach correctly ensures the model runs in inference mode (e.g., disables dropout) when generating predictions?",
+        "topic": "TensorFlow"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "torch.no_grad() disables autograd tracking, which is standard for evaluation/inference.",
+        "id": 7,
+        "options": {
+          "A": "with torch.no_grad(): outputs = model(inputs)",
+          "B": "model.zero_grad(); outputs = model(inputs)",
+          "C": "loss.backward(); outputs = model(inputs)",
+          "D": "optimizer.step(); outputs = model(inputs)"
+        },
+        "question": "In PyTorch, which snippet correctly prevents gradient tracking during evaluation to reduce memory usage?",
+        "topic": "PyTorch"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "mAP summarizes precision-recall tradeoffs across confidence thresholds (and often IoU thresholds), handling images with no objects via standard PR computation.",
+        "id": 8,
+        "options": {
+          "A": "Compute mean Average Precision (mAP) using precision-recall curves over multiple IoU thresholds",
+          "B": "Report only training loss at the final epoch",
+          "C": "Use accuracy on whether any box was predicted in an image",
+          "D": "Use MSE between predicted and true box coordinates without matching"
+        },
+        "question": "You are evaluating an object detector on a dataset where some images have no instances of a target class. Which evaluation approach best reflects real-world performance across confidence thresholds?",
+        "topic": "Model Evaluation And Metrics"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Canary monitoring with guardrails should trigger rollback and alerting when key metrics regress beyond thresholds.",
+        "id": 9,
+        "options": {
+          "A": "Automatically roll back to the previous model version and alert, based on a predefined performance regression threshold",
+          "B": "Promote the model to 100% traffic because tests passed",
+          "C": "Disable monitoring to avoid noisy alerts",
+          "D": "Increase the learning rate and redeploy immediately"
+        },
+        "question": "You are deploying a vision model with CI/CD. A new model version passes unit tests but causes a 3% drop in production F1 on a canary slice. What is the most appropriate automated action in a robust MLOps pipeline?",
+        "topic": "Mlops (Ci/Cd, Model Deployment, Monitoring)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Tiled inference with overlap reduces boundary effects and better aligns inference with crop-based training, improving segmentation quality on large images.",
+        "id": 10,
+        "options": {
+          "A": "Use sliding-window/tiling inference with overlap and blending (or test-time augmentation) to match training distribution and reduce edge artifacts",
+          "B": "Remove all normalization layers from the network",
+          "C": "Switch the loss to MSE without changing inference",
+          "D": "Convert the model to FP64 to improve numerical precision"
+        },
+        "question": "A segmentation model trained with random crops performs poorly on full-resolution images at inference due to border artifacts and scale mismatch. Which solution is most appropriate for production inference?",
+        "topic": "Deep Learning"
+      }
+    ],
+    "topics_covered": [
+      "Python",
+      "Sql",
+      "Data Preprocessing And Feature Engineering",
+      "Model Evaluation And Metrics",
+      "Deep Learning",
+      "TensorFlow",
+      "PyTorch",
+      "Mlops (Ci/Cd, Model Deployment, Monitoring)"
+    ]
+  },
+  "success": true
+}

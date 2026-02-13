@@ -1,0 +1,53 @@
+{
+  "test_id": "11",
+  "goal": "I want to become a Data Engineer.",
+  "short_name": "Data Engineer",
+  "category": "Data",
+  "matched_occupation": "data engineer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/2079755f-d809-49e6-8037-4de6180e54c0",
+  "similarity_score": 0.927115261554718,
+  "total_skills": 15,
+  "total_sessions": 4,
+  "skills_list": [
+    "Teradata Database",
+    "analyse pipeline database information",
+    "manage research data",
+    "data storage",
+    "develop data processing applications",
+    "data warehouse",
+    "unstructured data",
+    "use data processing techniques",
+    "database management systems",
+    "use databases",
+    "design database in the cloud",
+    "data analysis",
+    "cloud technologies",
+    "data analytics",
+    "data models"
+  ],
+  "session_durations": [
+    20,
+    20,
+    7,
+    19
+  ],
+  "path_generation_time": 8.800738096237183,
+  "quiz_generation_time": 25.93491530418396,
+  "total_test_time": 63.56198191642761,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 20.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

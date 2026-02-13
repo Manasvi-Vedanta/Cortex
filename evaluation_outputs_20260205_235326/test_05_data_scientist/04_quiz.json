@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:01:02.956534",
+      "learning_path_id": "test_05",
+      "target_occupation": "data scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Data science focuses on using data (analysis, modeling, experimentation) to generate insights and support decision-making.",
+        "id": 1,
+        "options": {
+          "A": "To build and maintain network infrastructure",
+          "B": "To extract insights and make data-driven decisions using data",
+          "C": "To design user interfaces for web applications",
+          "D": "To replace all business processes with automation"
+        },
+        "question": "Which statement best describes the goal of data science in an organization?",
+        "topic": "data science"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A p-value is computed under the assumption that the null hypothesis is true and measures how surprising the observed data would be.",
+        "id": 2,
+        "options": {
+          "A": "The probability that the null hypothesis is true",
+          "B": "The probability of observing results at least as extreme as the data, assuming the null hypothesis is true",
+          "C": "The probability that the alternative hypothesis is false",
+          "D": "The proportion of variance explained by the model"
+        },
+        "question": "In statistics, what does a p-value represent in hypothesis testing?",
+        "topic": "statistics"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "NumPy arrays enable efficient vectorized operations and are implemented in optimized C, typically making them faster than Python lists for numeric workloads.",
+        "id": 3,
+        "options": {
+          "A": "NumPy arrays can store mixed data types more easily",
+          "B": "NumPy arrays support faster vectorized operations and use contiguous memory",
+          "C": "NumPy arrays automatically handle missing values without preprocessing",
+          "D": "NumPy arrays are immutable, preventing accidental changes"
+        },
+        "question": "In NumPy, what is the primary advantage of using a NumPy array over a Python list for numerical computation?",
+        "topic": "Numpy"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "HAVING filters groups after aggregation, while WHERE filters rows before grouping/aggregation.",
+        "id": 4,
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "ORDER BY",
+          "D": "LIMIT"
+        },
+        "question": "Which SQL clause is used to filter rows after aggregation (e.g., after GROUP BY)?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "For a simple baseline, imputing numeric features with mean/median is common; median is often preferred if the distribution is skewed or has outliers.",
+        "id": 5,
+        "options": {
+          "A": "Drop the entire DataFrame",
+          "B": "Fill missing values with the column mean or median",
+          "C": "Convert the column to strings and fill with 'unknown'",
+          "D": "Replace missing values with random numbers between 0 and 1"
+        },
+        "question": "You have a Pandas DataFrame df with a column 'age' that contains missing values. Which approach is generally most appropriate to impute missing ages when you want a simple baseline and 'age' is numeric?",
+        "topic": "Data Cleaning And Preprocessing"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A scatter plot is designed to show the relationship/correlation pattern between two continuous variables.",
+        "id": 6,
+        "options": {
+          "A": "Pie chart",
+          "B": "Scatter plot",
+          "C": "Stacked bar chart",
+          "D": "Choropleth map"
+        },
+        "question": "Which visualization is most appropriate to assess the relationship between two continuous variables (e.g., height vs. weight)?",
+        "topic": "data visualization"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Pipelines ensure transformations (e.g., scaling, encoding) are learned from training data only within each CV split, reducing leakage and making workflows reproducible.",
+        "id": 7,
+        "options": {
+          "A": "It guarantees the model will have higher accuracy",
+          "B": "It prevents data leakage by ensuring preprocessing is fit only on training folds during cross-validation",
+          "C": "It automatically selects the best algorithm for the dataset",
+          "D": "It removes the need for a train/test split"
+        },
+        "question": "In scikit-learn, why is it recommended to use a Pipeline when preprocessing data and training a model?",
+        "topic": "Scikit-Learn"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Using transactions after the label/prediction cutoff leaks future information into training, inflating performance and failing in production.",
+        "id": 8,
+        "options": {
+          "A": "It introduces multicollinearity with other spend features",
+          "B": "It causes class imbalance in the target variable",
+          "C": "It creates target leakage because it uses information from the future relative to the prediction time",
+          "D": "It reduces model interpretability because it is continuous"
+        },
+        "question": "You are building a churn model and one feature is 'total_spend_last_30_days'. You compute it using all transactions in the dataset, including those that occur after the churn label date for some customers. What is the primary issue with this feature?",
+        "topic": "Feature Engineering"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "For rare positives, Precision-Recall metrics focus on performance for the positive class and are often more sensitive than accuracy; cross-validation provides a more reliable estimate.",
+        "id": 9,
+        "options": {
+          "A": "Accuracy on the training set only",
+          "B": "ROC-AUC only, because it always reflects business value",
+          "C": "Precision-Recall curve (or Average Precision) evaluated via cross-validation",
+          "D": "Mean Squared Error on predicted probabilities"
+        },
+        "question": "You have a highly imbalanced binary classification problem (1% positive class). Which evaluation approach is generally most informative for model selection?",
+        "topic": "Model Evaluation And Validation"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Exactly-once semantics are commonly approximated with idempotent writes (upsert/merge keyed by event_id) plus watermarks/handling for late-arriving events.",
+        "id": 10,
+        "options": {
+          "A": "Append-only loads with no primary keys to maximize throughput",
+          "B": "Idempotent upserts/merge using a stable event_id and watermarking for late data",
+          "C": "Randomly sampling events to reduce duplicates",
+          "D": "Using only dashboards (no storage) to avoid duplication"
+        },
+        "question": "A data engineering pipeline ingests event data from multiple services into a warehouse. You need to ensure each event is processed exactly once despite retries and late-arriving data. Which design choice best supports this requirement?",
+        "topic": "data engineering"
+      }
+    ],
+    "topics_covered": [
+      "data science",
+      "statistics",
+      "Python",
+      "Numpy",
+      "Pandas",
+      "Sql",
+      "data engineering",
+      "Data Cleaning And Preprocessing",
+      "data visualization",
+      "data visualisation software",
+      "data mining",
+      "Machine Learning",
+      "Scikit-Learn",
+      "Feature Engineering",
+      "Model Evaluation And Validation"
+    ]
+  },
+  "success": true
+}

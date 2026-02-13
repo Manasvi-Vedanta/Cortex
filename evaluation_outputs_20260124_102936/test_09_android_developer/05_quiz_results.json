@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:39:18.449629",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A mobile operating system manages the device's hardware and software resources, allowing applications to run efficiently and providing a user interface for interaction.",
+        "is_correct": true,
+        "question": "What is the primary function of a mobile operating system like Android or iOS?",
+        "question_id": 1,
+        "topic": "mobile operating systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Android Studio is the official IDE for Android application development, offering a comprehensive suite of tools for coding, debugging, testing, and UI design.",
+        "is_correct": true,
+        "question": "Which of the following is a widely used Integrated Development Environment (IDE) specifically designed for Android application development?",
+        "question_id": 2,
+        "topic": "integrated development environment software",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Git is a distributed version control system (VCS) essential for tracking changes in source code, reverting to previous versions, and enabling multiple developers to work on the same project simultaneously.",
+        "is_correct": false,
+        "question": "What is the main purpose of using Git in a software development project?",
+        "question_id": 3,
+        "topic": "tools for software configuration management",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Inheritance is a fundamental OOP principle that enables code reusability and establishes a 'is-a' relationship between classes, where a subclass extends the functionality of a superclass.",
+        "is_correct": true,
+        "question": "In Object-Oriented Programming (OOP), what concept allows a new class (subclass) to inherit properties and methods from an existing class (superclass)?",
+        "question_id": 4,
+        "topic": "use object-oriented programming",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "React Native allows developers to build native mobile applications for both iOS and Android using JavaScript and React, fulfilling the requirement for a single JavaScript codebase for cross-platform development.",
+        "is_correct": true,
+        "question": "A developer aims to build a cross-platform mobile application using a single codebase, primarily leveraging JavaScript and a declarative UI approach. Which mobile device software framework is best suited for this requirement?",
+        "question_id": 5,
+        "topic": "JavaScript, mobile device software frameworks",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A `NullPointerException` indicates an attempt to access a member of a null object reference. Setting a breakpoint allows you to pause execution, examine the state of variables, and identify which object is unexpectedly null before the crash occurs.",
+        "is_correct": true,
+        "question": "When an Android application unexpectedly crashes, and the Logcat output displays a `NullPointerException` on a specific line, what is the most effective immediate debugging action using an ICT debugging tool like the IDE debugger?",
+        "question_id": 6,
+        "topic": "debug software, ICT debugging tools, Android",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The `protected` access modifier in Java grants access to members within the same package and to any subclass, even if the subclass is in a different package. It is more restrictive than `public` but less than `private` or `default` for cross-package subclass access.",
+        "is_correct": false,
+        "question": "In Java programming, which access modifier allows a class member (field or method) to be accessible only within its own class, by subclasses (inherited classes) in the same package, and by non-subclass classes within the same package?",
+        "question_id": 7,
+        "topic": "Java, use object-oriented programming",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance, perfectly fitting the requirement for a unique, globally accessible database connection manager.",
+        "is_correct": false,
+        "question": "Your mobile application's specifications require that there should be only one instance of a specific database connection class throughout the application's lifecycle to manage resources efficiently and prevent redundant connections. Which classic software design pattern is most appropriate to implement this requirement?",
+        "question_id": 8,
+        "topic": "use software design patterns, analyse software specifications",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A Publish-Subscribe model allows IoT devices to publish data to a message broker, and the mobile app can subscribe to specific topics, receiving updates only when new data is available. This push-based approach is highly efficient for real-time updates, reducing unnecessary network requests and saving battery life compared to polling.",
+        "is_correct": false,
+        "question": "A smart home mobile application needs to display real-time updates from various IoT sensors (e.g., temperature, motion). To ensure timely data delivery, minimize device battery consumption, and avoid inefficient constant polling, what architectural approach should the mobile app primarily utilize to receive updates from the IoT backend?",
+        "question_id": 9,
+        "topic": "Internet of Things, mobile operating systems, programming",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "ANRs occur when the main (UI) thread is blocked, preventing it from processing user input or drawing the UI. The most effective solution is to move all long-running tasks (e.g., heavy computations, network requests, database operations) off the main thread to background threads (using mechanisms like Coroutines, RxJava, Executors, or older AsyncTasks) to keep the UI responsive.",
+        "is_correct": false,
+        "question": "An Android application sporadically experiences ANR (Application Not Responding) errors when performing complex data processing or network requests, particularly on older devices. Analyzing ANR traces reveals that the main (UI) thread is being blocked for extended periods. What is the most effective strategy to mitigate these ANRs and maintain UI responsiveness?",
+        "question_id": 10,
+        "topic": "debug software, Android, analyse software specifications",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 3,
+        "percentage": 75.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Needs Improvement",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "🎯 Priority topics to review: tools for software configuration management, Java, use object-oriented programming, use software design patterns, analyse software specifications",
+      "✅ Your strongest areas: mobile operating systems, integrated development environment software"
+    ],
+    "score": {
+      "correct": 5,
+      "grade": "C-",
+      "incorrect": 5,
+      "percentage": 50.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "mobile operating systems",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "integrated development environment software",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "use object-oriented programming",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "JavaScript, mobile device software frameworks",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "debug software, ICT debugging tools, Android",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Java, use object-oriented programming",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use software design patterns, analyse software specifications",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Internet of Things, mobile operating systems, programming",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "debug software, Android, analyse software specifications",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,247 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Administer users, permissions, services, and networking on Linux systems",
+        "Apply core engineering principles to improve system reliability and maintainability",
+        "Standardize routine operational tasks using engineering processes"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Linux Systems Administration",
+        "engineering principles",
+        "engineering processes"
+      ],
+      "title": "Linux Systems Administration Foundations for Reliable Operations"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write Python scripts to automate common operational workflows",
+        "Implement repeatable checks and simple remediation routines to reduce manual effort",
+        "Apply engineering principles to produce readable, testable automation"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration Foundations for Reliable Operations"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Scripting (Python)",
+        "engineering principles"
+      ],
+      "title": "Scripting (Python) for Operational Automation"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Define key service health indicators and visualize them in Grafana",
+        "Configure Prometheus scraping and basic alerting aligned to operational goals",
+        "Use engineering processes to document dashboards and alert intent"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration Foundations for Reliable Operations"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Monitoring And Observability (Prometheus/Grafana)",
+        "engineering processes",
+        "engineering principles"
+      ],
+      "title": "Monitoring And Observability (Prometheus/Grafana) Essentials"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Ingest, search, and analyze logs to support rapid diagnosis",
+        "Create log views that align with incident investigation workflows",
+        "Apply engineering processes to standardize log fields and retention expectations"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration Foundations for Reliable Operations"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Logging And Log Management (Elk/Opensearch)",
+        "engineering processes"
+      ],
+      "title": "Logging And Log Management (Elk/Opensearch) for Troubleshooting"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Run structured incident response from detection through mitigation and recovery",
+        "Use monitoring and logging signals to guide triage and escalation decisions",
+        "Apply engineering processes for post-incident follow-up and continuous improvement"
+      ],
+      "prerequisites": [
+        "Monitoring And Observability (Prometheus/Grafana) Essentials",
+        "Logging And Log Management (Elk/Opensearch) for Troubleshooting"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Incident Response And On-Call Operations",
+        "Monitoring And Observability (Prometheus/Grafana)",
+        "Logging And Log Management (Elk/Opensearch)",
+        "engineering processes"
+      ],
+      "title": "Incident Response And On-Call Operations: Triage to Resolution"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Operate core cloud resources with an emphasis on reliability and repeatability",
+        "Apply cost management practices to control spend and reduce waste",
+        "Use engineering principles to make tradeoffs between reliability, performance, and cost"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration Foundations for Reliable Operations"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Cloud Platforms (Aws/Gcp/Azure)",
+        "cost management",
+        "engineering principles"
+      ],
+      "title": "Cloud Platforms (Aws/Gcp/Azure) Operations and Governance Basics"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model infrastructure changes using Terraform workflows",
+        "Reduce configuration drift by managing infrastructure declaratively",
+        "Apply engineering processes for review, rollout, and rollback of infrastructure changes"
+      ],
+      "prerequisites": [
+        "Cloud Platforms (Aws/Gcp/Azure) Operations and Governance Basics"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Infrastructure As Code (Terraform)",
+        "engineering processes"
+      ],
+      "title": "Infrastructure As Code (Terraform) for Repeatable Environments"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Automate system configuration to ensure consistency across environments",
+        "Implement idempotent configuration changes and controlled rollouts",
+        "Use engineering processes to manage configuration baselines and change tracking"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration Foundations for Reliable Operations"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Configuration Management (Ansible/Chef/Puppet)",
+        "engineering processes",
+        "Linux Systems Administration"
+      ],
+      "title": "Configuration Management (Ansible/Chef/Puppet) for Standardized Systems"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design CI/CD pipelines that enforce repeatable build and deployment steps",
+        "Integrate quality gates aligned with engineering principles and engineering processes",
+        "Reduce deployment risk through controlled promotion and rollback patterns"
+      ],
+      "prerequisites": [
+        "Scripting (Python) for Operational Automation"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Ci/Cd Pipelines (Jenkins/Github Actions)",
+        "engineering principles",
+        "engineering processes"
+      ],
+      "title": "Ci/Cd Pipelines (Jenkins/Github Actions) for Reliable Delivery"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Operate Kubernetes workloads and understand core cluster components",
+        "Use monitoring and logging to observe Kubernetes services and troubleshoot issues",
+        "Apply engineering principles to design resilient deployment patterns"
+      ],
+      "prerequisites": [
+        "Monitoring And Observability (Prometheus/Grafana) Essentials",
+        "Logging And Log Management (Elk/Opensearch) for Troubleshooting"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Kubernetes",
+        "Monitoring And Observability (Prometheus/Grafana)",
+        "Logging And Log Management (Elk/Opensearch)",
+        "engineering principles"
+      ],
+      "title": "Kubernetes Fundamentals for Platform Operations"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply six sigma methods to identify and reduce operational variation",
+        "Define measurable outcomes and track improvements using engineering processes",
+        "Prioritize improvements based on impact, effort, and cost management considerations"
+      ],
+      "prerequisites": [
+        "Incident Response And On-Call Operations: Triage to Resolution"
+      ],
+      "session_number": 11,
+      "skills": [
+        "six sigma methods ",
+        "engineering processes",
+        "cost management"
+      ],
+      "title": "Operational Excellence with six sigma methods"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design predictive maintenance signals from time-series trends and alert patterns",
+        "Use engineering principles to define thresholds, baselines, and maintenance triggers",
+        "Integrate predictive maintenance routines into incident response and on-call operations"
+      ],
+      "prerequisites": [
+        "Monitoring And Observability (Prometheus/Grafana) Essentials",
+        "Incident Response And On-Call Operations: Triage to Resolution"
+      ],
+      "session_number": 12,
+      "skills": [
+        "predictive maintenance",
+        "Monitoring And Observability (Prometheus/Grafana)",
+        "engineering principles",
+        "Incident Response And On-Call Operations"
+      ],
+      "title": "Predictive maintenance using Monitoring And Observability (Prometheus/Grafana)"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Dependability engineers ensure the reliability, availability and maintainability (RAM) of a production process or a system. They focus on improving the capability to function without interruption and operate when needed, and on increasing the easiness of repairing, replacing or upgrading the product. ",
+    "label": "dependability engineer",
+    "similarity_score": 0.8754928708076477,
+    "uri": "http://data.europa.eu/esco/occupation/07dfff6d-a0d0-4202-a697-fe9176c15999"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 31,
+    "skills_in_path": 12,
+    "skills_to_learn": 31,
+    "total_skills_needed": 32
+  },
+  "user_id": "eval_user_15"
+}

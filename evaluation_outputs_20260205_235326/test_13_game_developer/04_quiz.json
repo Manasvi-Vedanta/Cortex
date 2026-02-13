@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:17:00.394024",
+      "learning_path_id": "test_13",
+      "target_occupation": "gambling games designer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "RTP is the expected long-run payout percentage to players (e.g., 96%), derived from the game’s probability model.",
+        "id": 1,
+        "options": {
+          "A": "The average percentage of wagered money paid back to players over the long run",
+          "B": "The maximum jackpot size the game can award",
+          "C": "The percentage of spins that result in any win",
+          "D": "The house edge expressed as a fixed dollar amount per spin"
+        },
+        "question": "In a slot machine, what does RTP (Return to Player) represent?",
+        "topic": "games rules"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b both creates the branch and checks it out in one step.",
+        "id": 2,
+        "options": {
+          "A": "git branch feature/bonus-round",
+          "B": "git checkout -b feature/bonus-round",
+          "C": "git merge feature/bonus-round",
+          "D": "git pull feature/bonus-round"
+        },
+        "question": "Which Git command creates a new branch named feature/bonus-round and switches to it?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "FixedUpdate runs at a fixed timestep and is the recommended place to apply physics forces and read physics state.",
+        "id": 3,
+        "options": {
+          "A": "Update()",
+          "B": "LateUpdate()",
+          "C": "FixedUpdate()",
+          "D": "OnGUI()"
+        },
+        "question": "In Unity, which method is primarily intended for physics updates (e.g., applying forces to a Rigidbody)?",
+        "topic": "Game Engine Proficiency (Unity/Unreal)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Hash maps (dictionaries) provide fast average-case key-based access, ideal for payout tables keyed by symbol or combination.",
+        "id": 4,
+        "options": {
+          "A": "Array",
+          "B": "Stack",
+          "C": "Hash map / Dictionary",
+          "D": "Binary tree (unbalanced)"
+        },
+        "question": "Which data structure provides average O(1) lookup by key and is commonly used to map symbol IDs to payout values?",
+        "topic": "Data Structures And Algorithms"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A good rule is precise, deterministic, and verifiable; exceeding 21 causing an immediate loss is clear and testable.",
+        "id": 5,
+        "options": {
+          "A": "Players should usually get a chance to improve their hand.",
+          "B": "If a player’s hand total exceeds 21, the player immediately loses the round.",
+          "C": "The dealer may draw more cards when it feels appropriate.",
+          "D": "Payouts are generous for strong hands."
+        },
+        "question": "You are writing rules for a new card-based gambling game. Which rule statement is the most unambiguous and testable?",
+        "topic": "formulate game rules"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "In ECS, behavior belongs in Systems; Systems operate over entities that have the needed data components.",
+        "id": 6,
+        "options": {
+          "A": "Inside each Entity, as methods on the entity object",
+          "B": "Inside Components, as complex methods that mutate other components directly",
+          "C": "Inside a System that processes entities with the required components (e.g., ReelResult + Paytable)",
+          "D": "Only in the rendering layer so it stays in sync with visuals"
+        },
+        "question": "In an ECS (Entity Component System) architecture for a slot game, where should the payout calculation logic most appropriately live?",
+        "topic": "Game Architecture Patterns (Ecs, Component Systems)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Quaternions are stable for interpolation and accumulation of 3D rotations and avoid gimbal lock issues common with Euler angles.",
+        "id": 7,
+        "options": {
+          "A": "Euler angles (pitch/yaw/roll) accumulated each frame",
+          "B": "Quaternions",
+          "C": "A 2D vector (x, y)",
+          "D": "A scalar angle with no axis information"
+        },
+        "question": "You need to rotate a 3D roulette wheel smoothly over time without gimbal lock. Which representation is generally best suited for accumulating rotations?",
+        "topic": "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Deterministic replay requires controlled randomness (seeded PRNG), fixed-step simulation, and logging of all external inputs so results match exactly.",
+        "id": 8,
+        "options": {
+          "A": "Use the engine’s default RNG and call it wherever needed, relying on frame timing",
+          "B": "Use a deterministic PRNG with explicit seeding and drive simulation with a fixed-step update, logging all nondeterministic inputs",
+          "C": "Use true random numbers from the OS each time to ensure fairness",
+          "D": "Randomize outcomes on the client and only send final results to the server"
+        },
+        "question": "A regulator requires that your RNG-based game be reproducible for audits: given a recorded seed and a sequence of player inputs, the game must replay identically across machines. Which approach best supports this requirement?",
+        "topic": "Debugging And Profiling (Performance Optimization)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A commit-reveal scheme prevents post-bet manipulation and allows players to verify outcomes using the revealed seed and prior commitment.",
+        "id": 9,
+        "options": {
+          "A": "Server generates the roll and sends it to the client; client trusts the server",
+          "B": "Client generates the roll locally and sends it to the server for acceptance",
+          "C": "Server commits to a secret (e.g., hash of server seed) before the bet, then reveals the seed after; outcome is derived from server seed + client seed + nonce",
+          "D": "Server uses a faster RNG so outcomes are harder to predict"
+        },
+        "question": "You are implementing a provably fair online dice game with a client-server model. Which design best prevents the server from changing the outcome after seeing the player’s bet while still allowing verification?",
+        "topic": "Multiplayer Networking (Client-Server, Replication)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Payline checking inherently scales with paylines and reels; precomputing index patterns and using cache-friendly loops reduces overhead and improves real-world performance.",
+        "id": 10,
+        "options": {
+          "A": "Increase the number of paylines so wins are more frequent",
+          "B": "Precompute each payline’s reel index pattern and evaluate using tight loops over cached indices (still O(K·N) but with lower constant factors)",
+          "C": "Replace the evaluation with a recursive algorithm that explores all symbol combinations (exponential)",
+          "D": "Render paylines in a higher resolution to improve accuracy"
+        },
+        "question": "A slot game’s payline evaluation is a performance hotspot. You have N reels and you must check K paylines each spin. Which change most directly reduces time complexity of evaluation without changing outcomes?",
+        "topic": "Data Structures And Algorithms"
+      }
+    ],
+    "topics_covered": [
+      "games rules",
+      "formulate game rules",
+      "demonstrate games",
+      "create gambling games concepts",
+      "Game Programming (C++/C#)",
+      "Data Structures And Algorithms",
+      "Game Engine Proficiency (Unity/Unreal)",
+      "Game Architecture Patterns (Ecs, Component Systems)",
+      "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)",
+      "Game Physics (Collision, Rigidbody Dynamics)",
+      "Real-Time Rendering (Graphics Pipeline, Shaders)",
+      "Debugging And Profiling (Performance Optimization)",
+      "Version Control (Git)",
+      "Scripting And Tooling (Python/Lua/Editor Tools)",
+      "Multiplayer Networking (Client-Server, Replication)"
+    ]
+  },
+  "success": true
+}

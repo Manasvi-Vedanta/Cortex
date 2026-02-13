@@ -1,0 +1,42 @@
+{
+  "item_type": "skill",
+  "period_days": 30,
+  "trending_items": [
+    {
+      "average_score": 1.0,
+      "item_uri": "http://data.europa.eu/esco/skill/python",
+      "net_score": 2,
+      "vote_count": 2
+    },
+    {
+      "average_score": 1.0,
+      "item_uri": "http://data.europa.eu/esco/skill/example-python",
+      "net_score": 1,
+      "vote_count": 1
+    },
+    {
+      "average_score": 1.0,
+      "item_uri": "http://data.europa.eu/esco/skill/javascript",
+      "net_score": 1,
+      "vote_count": 1
+    },
+    {
+      "average_score": 1.0,
+      "item_uri": "http://data.europa.eu/esco/skill/test-python",
+      "net_score": 1,
+      "vote_count": 1
+    },
+    {
+      "average_score": 1.0,
+      "item_uri": "http://data.europa.eu/esco/skill/test-python-programming",
+      "net_score": 1,
+      "vote_count": 1
+    },
+    {
+      "average_score": -1.0,
+      "item_uri": "http://data.europa.eu/esco/skill/sql",
+      "net_score": -1,
+      "vote_count": 1
+    }
+  ]
+}

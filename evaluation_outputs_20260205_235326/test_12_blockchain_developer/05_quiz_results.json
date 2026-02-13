@@ -1,0 +1,201 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:14:56.297445",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Consensus is the process/protocol that lets distributed nodes agree on which blocks/transactions are valid and in what order, producing a single canonical chain state.",
+        "is_correct": true,
+        "question": "In a typical blockchain, what is the primary role of a consensus mechanism?",
+        "question_id": 1,
+        "topic": "blockchain components",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Permissionless chains are open to anyone to read and to participate (e.g., run a node/validator/miner) as long as they follow the protocol.",
+        "is_correct": true,
+        "question": "Which statement best describes a public (permissionless) blockchain's openness?",
+        "question_id": 2,
+        "topic": "blockchain openness",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Signatures prove control of a private key (authorization) and ensure the signed message wasn't altered (integrity). They do not encrypt the data.",
+        "is_correct": true,
+        "question": "What does a digital signature primarily provide in blockchain transactions?",
+        "question_id": 3,
+        "topic": "Cryptography (Public-Key, Signatures, Zk Basics)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "ERC-721 defines NFTs with unique token IDs and ownership tracking per token.",
+        "is_correct": false,
+        "question": "Which token standard is designed for non-fungible tokens (NFTs) where each token ID is unique?",
+        "question_id": 4,
+        "topic": "Token Standards (Erc-20, Erc-721, Erc-1155)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "DELEGATECALL runs the target contract's code but uses the caller's storage and keeps msg.sender/msg.value, enabling proxy patterns.",
+        "is_correct": false,
+        "question": "In the EVM, what does a contract call that uses DELEGATECALL do?",
+        "question_id": 5,
+        "topic": "Ethereum Virtual Machine (Evm)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Reentrancy is mitigated by updating state before external calls (Checks-Effects-Interactions) and/or using a reentrancy guard modifier.",
+        "is_correct": false,
+        "question": "In Solidity, which pattern best prevents reentrancy in a function that sends ETH to an external address?",
+        "question_id": 6,
+        "topic": "Smart Contract Security",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "State-changing transactions must be signed by a private key (Wallet/signer) and then sent via a provider/RPC endpoint.",
+        "is_correct": false,
+        "question": "You are writing a Node.js script with ethers.js to send a transaction. Which step is required to broadcast a state-changing transaction?",
+        "question_id": 7,
+        "topic": "Web3.Js/Ethers.Js",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "In proxy patterns, the proxy holds storage. If the implementation's variable layout changes incompatibly, reads/writes map to wrong slots, corrupting state.",
+        "is_correct": false,
+        "question": "A dApp uses an upgradeable proxy (DELEGATECALL). After an upgrade, users report balances are corrupted. Which root cause is most likely?",
+        "question_id": 8,
+        "topic": "blockchain architecture",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Gas is heavily impacted by storage reads/writes. Caching length, reading storage into memory when appropriate, and using unchecked arithmetic (when safe) reduces overhead.",
+        "is_correct": false,
+        "question": "A Solidity function loops over a dynamic array in storage to compute a sum and is frequently called by other contracts. Which change is most likely to reduce gas usage while preserving correctness?",
+        "question_id": 9,
+        "topic": "Gas Optimization",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Merkle proofs allow efficient membership verification against an on-chain root without publishing the entire list, aligning with privacy/minimization goals (a common ZK-adjacent primitive).",
+        "is_correct": false,
+        "question": "You want to prove in a smart contract that a user is in an allowlist without revealing the full list on-chain. Which approach best matches this goal?",
+        "question_id": 10,
+        "topic": "Cryptography (Public-Key, Signatures, Zk Basics)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 3,
+        "percentage": 75.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Cryptography (Public-Key, Signatures, Zk Basics)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Token Standards (Erc-20, Erc-721, Erc-1155), Ethereum Virtual Machine (Evm), Smart Contract Security",
+      "✅ Your strongest areas: blockchain components, blockchain openness",
+      "📖 Topics needing more practice: Cryptography (Public-Key, Signatures, Zk Basics)"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "blockchain components",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "blockchain openness",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Token Standards (Erc-20, Erc-721, Erc-1155)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ethereum Virtual Machine (Evm)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Smart Contract Security",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Web3.Js/Ethers.Js",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "blockchain architecture",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Gas Optimization",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

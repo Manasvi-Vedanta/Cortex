@@ -1,0 +1,255 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Define core concepts and constraints in embedded systems",
+        "Relate digital systems fundamentals to embedded system design decisions",
+        "Set up a basic workflow using integrated development environment software for embedded projects"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "embedded systems",
+        "digital systems",
+        "integrated development environment software"
+      ],
+      "title": "Embedded Systems Foundations and Digital Systems Overview"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Establish a repeatable development workflow for embedded programming",
+        "Apply tools for software configuration management to manage embedded code changes",
+        "Organize projects and builds within integrated development environment software"
+      ],
+      "prerequisites": [
+        "embedded systems",
+        "integrated development environment software"
+      ],
+      "session_number": 2,
+      "skills": [
+        "programming",
+        "tools for software configuration management",
+        "integrated development environment software"
+      ],
+      "title": "Programming Workflow and Configuration Management for Embedded Projects"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain key architectural elements of Microcontroller Architecture (Arm Cortex-M) relevant to firmware development",
+        "Map architectural features to typical embedded systems use-cases",
+        "Create and run a minimal project in integrated development environment software targeting Microcontroller Architecture (Arm Cortex-M)"
+      ],
+      "prerequisites": [
+        "programming",
+        "digital systems"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "embedded systems",
+        "integrated development environment software"
+      ],
+      "title": "Arm Cortex-M Microcontroller Architecture Essentials"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Differentiate stack and heap usage patterns in embedded systems",
+        "Use linker scripts to control memory layout for Microcontroller Architecture (Arm Cortex-M) targets",
+        "Diagnose common memory-related failures in embedded programming"
+      ],
+      "prerequisites": [
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "programming"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Memory Management (Stack/Heap/Linker Scripts)",
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "programming"
+      ],
+      "title": "Memory Management on Embedded Targets: Stack, Heap, and Linker Scripts"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement interrupt-driven control flow in embedded systems",
+        "Configure and use timers for periodic and time-critical tasks",
+        "Analyze latency and timing behavior using Microcontroller Architecture (Arm Cortex-M) concepts"
+      ],
+      "prerequisites": [
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "Memory Management (Stack/Heap/Linker Scripts)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Interrupts And Timers",
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "embedded systems"
+      ],
+      "title": "Interrupts and Timers on Microcontrollers"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Control digital I/O using Hardware Interfacing (Gpio/Adc/Pwm)",
+        "Acquire analog measurements using Hardware Interfacing (Gpio/Adc/Pwm)",
+        "Generate PWM signals for actuator-style control in embedded systems"
+      ],
+      "prerequisites": [
+        "Microcontroller Architecture (Arm Cortex-M)",
+        "Interrupts And Timers"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Hardware Interfacing (Gpio/Adc/Pwm)",
+        "embedded systems",
+        "programming"
+      ],
+      "title": "Hardware Interfacing with GPIO, ADC, and PWM"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement basic communication flows using Device Drivers (Spi/I2C/Uart/Can)",
+        "Integrate peripheral communication with interrupt-driven designs",
+        "Validate data exchange patterns in embedded systems applications"
+      ],
+      "prerequisites": [
+        "Hardware Interfacing (Gpio/Adc/Pwm)",
+        "Microcontroller Architecture (Arm Cortex-M)"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Device Drivers (Spi/I2C/Uart/Can)",
+        "Interrupts And Timers",
+        "embedded systems"
+      ],
+      "title": "Device Drivers for SPI, I2C, UART, and CAN"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply C++ (Embedded) constructs appropriate for constrained embedded systems",
+        "Manage object lifetimes with awareness of Memory Management (Stack/Heap/Linker Scripts)",
+        "Structure embedded programming modules for maintainability"
+      ],
+      "prerequisites": [
+        "programming",
+        "Memory Management (Stack/Heap/Linker Scripts)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "C++ (Embedded)",
+        "Memory Management (Stack/Heap/Linker Scripts)",
+        "embedded systems"
+      ],
+      "title": "C++ for Embedded Development"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain scheduling and task concepts in Rtos (Freertos)",
+        "Design task interactions using interrupts and timers appropriately",
+        "Integrate device I/O using Device Drivers (Spi/I2C/Uart/Can) within an RTOS-based embedded system"
+      ],
+      "prerequisites": [
+        "Interrupts And Timers",
+        "Memory Management (Stack/Heap/Linker Scripts)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Rtos (Freertos)",
+        "Interrupts And Timers",
+        "Device Drivers (Spi/I2C/Uart/Can)"
+      ],
+      "title": "Real-Time Design with FreeRTOS"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe the role of Embedded Linux in embedded systems",
+        "Set up a basic Embedded Linux development workflow using integrated development environment software",
+        "Compare design tradeoffs between Microcontroller Architecture (Arm Cortex-M) firmware and Embedded Linux approaches"
+      ],
+      "prerequisites": [
+        "programming",
+        "tools for software configuration management"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Embedded Linux",
+        "embedded systems",
+        "integrated development environment software"
+      ],
+      "title": "Embedded Linux Fundamentals and System Bring-Up"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use automatic programming to generate or automate portions of embedded programming workflows",
+        "Integrate automatic programming outputs into tools for software configuration management",
+        "Validate generated artifacts within integrated development environment software"
+      ],
+      "prerequisites": [
+        "programming",
+        "tools for software configuration management"
+      ],
+      "session_number": 11,
+      "skills": [
+        "use automatic programming",
+        "tools for software configuration management",
+        "integrated development environment software"
+      ],
+      "title": "Automatic Programming for Embedded Workflows"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply use logic programming to express rules and constraints relevant to embedded systems behavior",
+        "Use logic programming to reason about state transitions and event handling involving Interrupts And Timers",
+        "Integrate logic-based checks into an embedded programming workflow"
+      ],
+      "prerequisites": [
+        "programming",
+        "Interrupts And Timers"
+      ],
+      "session_number": 12,
+      "skills": [
+        "use logic programming",
+        "Interrupts And Timers",
+        "embedded systems"
+      ],
+      "title": "Logic Programming for Embedded Reasoning and Verification Tasks"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Embedded systems software developers program, implement, document and maintain software to be run on an embedded system.",
+    "label": "embedded systems software developer",
+    "similarity_score": 0.9406181573867798,
+    "uri": "http://data.europa.eu/esco/occupation/57af9090-55b4-4911-b2d0-86db01c00b02"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 32,
+    "skills_in_path": 12,
+    "skills_to_learn": 32,
+    "total_skills_needed": 33
+  },
+  "user_id": "eval_user_17"
+}

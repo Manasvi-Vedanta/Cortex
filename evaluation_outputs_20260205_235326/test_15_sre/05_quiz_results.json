@@ -1,0 +1,194 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:20:50.515821",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`top` provides an interactive, real-time view of processes and system resource usage.",
+        "is_correct": true,
+        "question": "In Linux, which command is primarily used to view real-time system and process resource usage (CPU, memory) interactively?",
+        "question_id": 1,
+        "topic": "Linux Systems Administration",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Labels are key-value pairs attached to metrics that enable slicing, filtering, and aggregation (e.g., by instance, job, region).",
+        "is_correct": true,
+        "question": "In Prometheus, what is a 'label' primarily used for?",
+        "question_id": 2,
+        "topic": "Monitoring And Observability (Prometheus/Grafana)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Terraform codifies infrastructure in declarative configuration, supports version control, and uses plan/apply to manage changes safely.",
+        "is_correct": true,
+        "question": "Which statement best describes Infrastructure as Code (IaC) with Terraform?",
+        "question_id": 3,
+        "topic": "Infrastructure As Code (Terraform)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "DMAIC is the core Six Sigma improvement cycle: Define, Measure, Analyze, Improve, Control.",
+        "is_correct": true,
+        "question": "In Six Sigma, what does 'DMAIC' stand for?",
+        "question_id": 4,
+        "topic": "six sigma methods",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Symptom/SLO-based alerting reduces noise and focuses on user impact, while low-level thresholds often create non-actionable pages.",
+        "is_correct": true,
+        "question": "You need to reduce alert noise in an on-call rotation. Which change is most effective while preserving incident detection?",
+        "question_id": 5,
+        "topic": "Incident Response And On-Call Operations",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "A Deployment manages ReplicaSets and supports rolling updates/rollbacks while maintaining desired Pod replicas.",
+        "is_correct": true,
+        "question": "In Kubernetes, what is the primary purpose of a Deployment?",
+        "question_id": 6,
+        "topic": "Kubernetes",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Logstash is commonly used to ingest, parse, enrich, and transform logs before sending them to Elasticsearch/OpenSearch for indexing.",
+        "is_correct": false,
+        "question": "In the ELK/OpenSearch stack, which component is responsible for parsing and transforming logs before indexing (commonly via pipelines)?",
+        "question_id": 7,
+        "topic": "Logging And Log Management (Elk/Opensearch)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "The evidence points to an upstream dependency issue; the right action is dependency-focused investigation and mitigation patterns (timeouts, backoff, circuit breaking) plus incident communication.",
+        "is_correct": false,
+        "question": "A production service shows elevated latency. Prometheus indicates p95 latency increased, but CPU and memory are normal. Logs show many 504s from an upstream dependency. What is the most appropriate next step for a dependability engineer?",
+        "question_id": 8,
+        "topic": "Monitoring And Observability (Prometheus/Grafana)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "State can contain sensitive data and must support locking and controlled access; remote backends provide durability, concurrency control, and security.",
+        "is_correct": false,
+        "question": "You manage infrastructure with Terraform and a CI/CD pipeline. A teammate proposes storing the Terraform state file in the same Git repository as the code to 'keep it simple'. What is the best practice response?",
+        "question_id": 9,
+        "topic": "Infrastructure As Code (Terraform)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "With rare failures and high cost of misses, precision-recall and threshold tuning to favor recall are more informative than accuracy on imbalanced data.",
+        "is_correct": false,
+        "question": "You are building a predictive maintenance model for a fleet of industrial pumps. Failures are rare, and missing a failure is far more costly than a false alarm. Which evaluation approach is most appropriate?",
+        "question_id": 10,
+        "topic": "predictive maintenance",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Monitoring And Observability (Prometheus/Grafana)",
+        "total": 2
+      },
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Infrastructure As Code (Terraform)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Logging And Log Management (Elk/Opensearch), predictive maintenance",
+      "✅ Your strongest areas: Linux Systems Administration, six sigma methods",
+      "📖 Topics needing more practice: Monitoring And Observability (Prometheus/Grafana), Infrastructure As Code (Terraform)"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Linux Systems Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "six sigma methods",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Incident Response And On-Call Operations",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kubernetes",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Logging And Log Management (Elk/Opensearch)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "predictive maintenance",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

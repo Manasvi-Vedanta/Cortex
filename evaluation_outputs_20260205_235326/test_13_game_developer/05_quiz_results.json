@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:17:02.477876",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "RTP is the expected long-run payout percentage to players (e.g., 96%), derived from the game’s probability model.",
+        "is_correct": false,
+        "question": "In a slot machine, what does RTP (Return to Player) represent?",
+        "question_id": 1,
+        "topic": "games rules",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b both creates the branch and checks it out in one step.",
+        "is_correct": false,
+        "question": "Which Git command creates a new branch named feature/bonus-round and switches to it?",
+        "question_id": 2,
+        "topic": "Version Control (Git)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "FixedUpdate runs at a fixed timestep and is the recommended place to apply physics forces and read physics state.",
+        "is_correct": true,
+        "question": "In Unity, which method is primarily intended for physics updates (e.g., applying forces to a Rigidbody)?",
+        "question_id": 3,
+        "topic": "Game Engine Proficiency (Unity/Unreal)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Hash maps (dictionaries) provide fast average-case key-based access, ideal for payout tables keyed by symbol or combination.",
+        "is_correct": false,
+        "question": "Which data structure provides average O(1) lookup by key and is commonly used to map symbol IDs to payout values?",
+        "question_id": 4,
+        "topic": "Data Structures And Algorithms",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A good rule is precise, deterministic, and verifiable; exceeding 21 causing an immediate loss is clear and testable.",
+        "is_correct": false,
+        "question": "You are writing rules for a new card-based gambling game. Which rule statement is the most unambiguous and testable?",
+        "question_id": 5,
+        "topic": "formulate game rules",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "In ECS, behavior belongs in Systems; Systems operate over entities that have the needed data components.",
+        "is_correct": false,
+        "question": "In an ECS (Entity Component System) architecture for a slot game, where should the payout calculation logic most appropriately live?",
+        "question_id": 6,
+        "topic": "Game Architecture Patterns (Ecs, Component Systems)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Quaternions are stable for interpolation and accumulation of 3D rotations and avoid gimbal lock issues common with Euler angles.",
+        "is_correct": false,
+        "question": "You need to rotate a 3D roulette wheel smoothly over time without gimbal lock. Which representation is generally best suited for accumulating rotations?",
+        "question_id": 7,
+        "topic": "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Deterministic replay requires controlled randomness (seeded PRNG), fixed-step simulation, and logging of all external inputs so results match exactly.",
+        "is_correct": false,
+        "question": "A regulator requires that your RNG-based game be reproducible for audits: given a recorded seed and a sequence of player inputs, the game must replay identically across machines. Which approach best supports this requirement?",
+        "question_id": 8,
+        "topic": "Debugging And Profiling (Performance Optimization)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A commit-reveal scheme prevents post-bet manipulation and allows players to verify outcomes using the revealed seed and prior commitment.",
+        "is_correct": false,
+        "question": "You are implementing a provably fair online dice game with a client-server model. Which design best prevents the server from changing the outcome after seeing the player’s bet while still allowing verification?",
+        "question_id": 9,
+        "topic": "Multiplayer Networking (Client-Server, Replication)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Payline checking inherently scales with paylines and reels; precomputing index patterns and using cache-friendly loops reduces overhead and improves real-world performance.",
+        "is_correct": false,
+        "question": "A slot game’s payline evaluation is a performance hotspot. You have N reels and you must check K paylines each spin. Which change most directly reduces time complexity of evaluation without changing outcomes?",
+        "question_id": 10,
+        "topic": "Data Structures And Algorithms",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: games rules, Version Control (Git), Data Structures And Algorithms",
+      "✅ Your strongest areas: Game Engine Proficiency (Unity/Unreal)"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Game Engine Proficiency (Unity/Unreal)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "games rules",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Version Control (Git)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Structures And Algorithms",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "formulate game rules",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Game Architecture Patterns (Ecs, Component Systems)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Debugging And Profiling (Performance Optimization)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Multiplayer Networking (Client-Server, Replication)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

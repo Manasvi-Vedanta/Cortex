@@ -1,0 +1,349 @@
+{
+  "timestamp": "2025-11-27 19:51:43",
+  "test_cases": 20,
+  "functional_results": [
+    {
+      "test_id": "TC001",
+      "name": "Marketing to Data Science",
+      "status": "PASS",
+      "elapsed_time": 28.947917222976685,
+      "matched_occupation": "data analyst",
+      "similarity_score": 0.7891113758087158,
+      "total_skills": 18,
+      "technical_skills": 18,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_transition"
+    },
+    {
+      "test_id": "TC007",
+      "name": "Finance to Data Engineering",
+      "status": "PASS",
+      "elapsed_time": 26.79160714149475,
+      "matched_occupation": "data engineer",
+      "similarity_score": 0.7415564656257629,
+      "total_skills": 21,
+      "technical_skills": 21,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_transition"
+    },
+    {
+      "test_id": "TC002",
+      "name": "Software Engineer to ML Engineer",
+      "status": "PASS",
+      "elapsed_time": 18.689842224121094,
+      "matched_occupation": "computer vision engineer",
+      "similarity_score": 0.8776780366897583,
+      "total_skills": 20,
+      "technical_skills": 20,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_advancement"
+    },
+    {
+      "test_id": "TC004",
+      "name": "Data Analyst to Business Intelligence",
+      "status": "PASS",
+      "elapsed_time": 31.72021770477295,
+      "matched_occupation": "business intelligence manager",
+      "similarity_score": 1.0,
+      "total_skills": 23,
+      "technical_skills": 23,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_advancement"
+    },
+    {
+      "test_id": "TC010",
+      "name": "AI Research Scientist",
+      "status": "PASS",
+      "elapsed_time": 32.762012243270874,
+      "matched_occupation": "computer scientist",
+      "similarity_score": 0.8490119576454163,
+      "total_skills": 23,
+      "technical_skills": 23,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_advancement"
+    },
+    {
+      "test_id": "TC003",
+      "name": "Beginner Web Developer",
+      "status": "PASS",
+      "elapsed_time": 24.438358068466187,
+      "matched_occupation": "web developer",
+      "similarity_score": 0.84682697057724,
+      "total_skills": 20,
+      "technical_skills": 20,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "beginner_tech"
+    },
+    {
+      "test_id": "TC006",
+      "name": "Cybersecurity Analyst",
+      "status": "PASS",
+      "elapsed_time": 20.335811853408813,
+      "matched_occupation": "securities analyst",
+      "similarity_score": 0.7405665516853333,
+      "total_skills": 24,
+      "technical_skills": 24,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "beginner_tech"
+    },
+    {
+      "test_id": "TC011",
+      "name": "Mobile App Developer",
+      "status": "PASS",
+      "elapsed_time": 21.55395817756653,
+      "matched_occupation": "mobile application developer",
+      "similarity_score": 0.9111173152923584,
+      "total_skills": 21,
+      "technical_skills": 21,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "beginner_tech"
+    },
+    {
+      "test_id": "TC005",
+      "name": "Cloud Architect AWS",
+      "status": "PASS",
+      "elapsed_time": 15.502954244613647,
+      "matched_occupation": "cloud architect",
+      "similarity_score": 0.9639788269996643,
+      "total_skills": 17,
+      "technical_skills": 17,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_specialization"
+    },
+    {
+      "test_id": "TC009",
+      "name": "DevOps Engineer",
+      "status": "PASS",
+      "elapsed_time": 17.98203945159912,
+      "matched_occupation": "cloud DevOps engineer ",
+      "similarity_score": 0.913364052772522,
+      "total_skills": 25,
+      "technical_skills": 25,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_specialization"
+    },
+    {
+      "test_id": "TC012",
+      "name": "Blockchain Developer",
+      "status": "PASS",
+      "elapsed_time": 21.558515787124634,
+      "matched_occupation": "blockchain developer",
+      "similarity_score": 0.9414669275283813,
+      "total_skills": 24,
+      "technical_skills": 24,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_specialization"
+    },
+    {
+      "test_id": "TC013",
+      "name": "Game Developer",
+      "status": "PASS",
+      "elapsed_time": 17.1877863407135,
+      "matched_occupation": "gambling games designer",
+      "similarity_score": 0.7908424139022827,
+      "total_skills": 19,
+      "technical_skills": 19,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_specialization"
+    },
+    {
+      "test_id": "TC014",
+      "name": "Database Administrator",
+      "status": "PASS",
+      "elapsed_time": 25.380247116088867,
+      "matched_occupation": "database administrator",
+      "similarity_score": 0.9555975794792175,
+      "total_skills": 15,
+      "technical_skills": 15,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_specialization"
+    },
+    {
+      "test_id": "TC015",
+      "name": "Network Engineer",
+      "status": "PASS",
+      "elapsed_time": 19.68460178375244,
+      "matched_occupation": "ICT network engineer",
+      "similarity_score": 0.961789071559906,
+      "total_skills": 23,
+      "technical_skills": 23,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "tech_specialization"
+    },
+    {
+      "test_id": "TC008",
+      "name": "Product Manager Tech",
+      "status": "PASS",
+      "elapsed_time": 31.182005167007446,
+      "matched_occupation": "product manager",
+      "similarity_score": 0.8855007886886597,
+      "total_skills": 25,
+      "technical_skills": 25,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "management"
+    },
+    {
+      "test_id": "TC016",
+      "name": "Minimal Skills Input",
+      "status": "PASS",
+      "elapsed_time": 2.403946876525879,
+      "matched_occupation": "software developer",
+      "similarity_score": 0.7671672105789185,
+      "total_skills": 24,
+      "technical_skills": 24,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "edge_case"
+    },
+    {
+      "test_id": "TC017",
+      "name": "Vague Goal",
+      "status": "WARN",
+      "elapsed_time": 27.063549041748047,
+      "matched_occupation": "electronics engineer",
+      "similarity_score": 0.7794756889343262,
+      "total_skills": 25,
+      "technical_skills": 25,
+      "keyword_match": false,
+      "sufficient_skills": true,
+      "category": "edge_case"
+    },
+    {
+      "test_id": "TC018",
+      "name": "Many Current Skills",
+      "status": "PASS",
+      "elapsed_time": 43.209903717041016,
+      "matched_occupation": "data scientist",
+      "similarity_score": 0.9428954720497131,
+      "total_skills": 17,
+      "technical_skills": 17,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "edge_case"
+    },
+    {
+      "test_id": "TC019",
+      "name": "Long Detailed Goal",
+      "status": "PASS",
+      "elapsed_time": 40.60135006904602,
+      "matched_occupation": "data scientist",
+      "similarity_score": 0.952324628829956,
+      "total_skills": 20,
+      "technical_skills": 20,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "edge_case"
+    },
+    {
+      "test_id": "TC020",
+      "name": "Short Goal",
+      "status": "PASS",
+      "elapsed_time": 13.210142612457275,
+      "matched_occupation": " artificial intelligence engineer ",
+      "similarity_score": 1.0,
+      "total_skills": 19,
+      "technical_skills": 19,
+      "keyword_match": true,
+      "sufficient_skills": true,
+      "category": "edge_case"
+    }
+  ],
+  "benchmark_results": {
+    "occupation_matching": {
+      "avg_speedup": 6.835669800011165,
+      "details": [
+        {
+          "with_faiss": {
+            "avg_time": 0.009619045257568359,
+            "min_time": 0.0,
+            "max_time": 0.031920671463012695,
+            "std_time": 0.012789959594113295
+          },
+          "without_faiss": {
+            "avg_time": 0.04249362945556641,
+            "min_time": 0.03178143501281738,
+            "max_time": 0.0528409481048584,
+            "std_time": 0.008767754340871826
+          },
+          "speedup": 4.417655631896732
+        },
+        {
+          "with_faiss": {
+            "avg_time": 0.006358814239501953,
+            "min_time": 0.0,
+            "max_time": 0.016036510467529297,
+            "std_time": 0.007788424686311544
+          },
+          "without_faiss": {
+            "avg_time": 0.0482825756072998,
+            "min_time": 0.047327518463134766,
+            "max_time": 0.0510861873626709,
+            "std_time": 0.001426267666147312
+          },
+          "speedup": 7.593015582584699
+        },
+        {
+          "with_faiss": {
+            "avg_time": 0.00631561279296875,
+            "min_time": 0.0,
+            "max_time": 0.0157926082611084,
+            "std_time": 0.00731291993818456
+          },
+          "without_faiss": {
+            "avg_time": 0.053659582138061525,
+            "min_time": 0.04318571090698242,
+            "max_time": 0.06921577453613281,
+            "std_time": 0.009017558349277591
+          },
+          "speedup": 8.496338185552066
+        }
+      ]
+    },
+    "database_operations": {
+      "with_pool": {
+        "avg_time": 0.0007992744445800781,
+        "min_time": 0.0,
+        "max_time": 0.015985488891601562,
+        "std_time": 0.0034839565320791614
+      },
+      "without_pool": {
+        "avg_time": 0.0031775236129760742,
+        "min_time": 0.0,
+        "max_time": 0.01611495018005371,
+        "std_time": 0.006355413410194674
+      },
+      "speedup": 3.9755100823290777
+    },
+    "skill_gap_analysis": {
+      "avg_time": 25.178414901097614,
+      "min_time": 22.506138801574707,
+      "max_time": 30.14440393447876
+    },
+    "learning_path_scheduling": {
+      "avg_time": 6.598814328511556,
+      "min_time": 4.472829103469849,
+      "max_time": 8.191797733306885
+    }
+  },
+  "summary": {
+    "total_tests": 20,
+    "passed": 19,
+    "warned": 1,
+    "failed": 0
+  }
+}

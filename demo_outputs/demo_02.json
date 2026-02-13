@@ -1,0 +1,25 @@
+{
+  "id": "demo_02",
+  "title": "Software Engineer to Machine Learning Engineer",
+  "description": "Technical specialization within software engineering",
+  "category": "Career Advancement",
+  "goal": "I am a software engineer who wants to specialize in machine learning and AI",
+  "current_skills": [
+    "Python",
+    "Java",
+    "Git",
+    "Algorithms",
+    "Data Structures",
+    "REST APIs"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341",
+    "label": "computer vision engineer",
+    "description": "Computer vision engineers research, design, develop, and train artificial intelligence algorithms and machine learning primitives that understand the content of digital images based on a large amount of data. They apply this understanding to solve different real-world problems such as security, autonomous driving, robotic manufacturing, digital image classification, medical image processing and diagnosis, etc.",
+    "similarity_score": 0.8686205744743347
+  },
+  "total_hours": 41,
+  "total_sessions": 8,
+  "total_resources": 46,
+  "generated_at": "2025-11-28T08:06:42.243478"
+}

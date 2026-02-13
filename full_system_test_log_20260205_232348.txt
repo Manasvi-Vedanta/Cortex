@@ -1,0 +1,493 @@
+[2026-02-05 23:23:48] [INFO] ℹ️  INFO: Output directory created: test_outputs_20260205_232348
+[2026-02-05 23:23:48] [INFO] ====================================================================================================
+[2026-02-05 23:23:48] [INFO] PHASE 1: System Test Initialization
+[2026-02-05 23:23:48] [INFO] ====================================================================================================
+[2026-02-05 23:23:48] [INFO] ℹ️  INFO: Test Goal: I want to become an Android App Developer.
+[2026-02-05 23:23:48] [INFO] ℹ️  INFO: Test User: full_test_user
+[2026-02-05 23:23:48] [INFO] ℹ️  INFO: Base URL: http://localhost:5000
+[2026-02-05 23:23:48] [INFO] ====================================================================================================
+[2026-02-05 23:23:48] [INFO] PHASE 2: Learning Path Generation
+[2026-02-05 23:23:48] [INFO] ====================================================================================================
+[2026-02-05 23:23:48] [INFO] ℹ️  INFO: Sending request to generate learning path...
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: Response received in 39.63 seconds
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: Status Code: 200
+[2026-02-05 23:24:28] [SUCCESS] ✅ SUCCESS: Learning path generated successfully
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: Matched Occupation: mobile application developer
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: Occupation URI: http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: Similarity Score: 0.8565
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: COMPLETE LEARNING PATH DETAILS
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: Total Sessions: 3
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: SESSION 1: Programming & Use Logic Programming
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Duration: 14 hours
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Skills Count: 2
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     1. programming
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     2. use logic programming
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: SESSION 2: Android Sdk, Android (mobile Operating Systems) & More (10 Skills)
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Duration: 20 hours
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Skills Count: 10
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     1. Android Sdk
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     2. Android (mobile operating systems)
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     3. JavaScript
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     4. mobile operating systems
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     5. mobile device software frameworks
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     6. Gradle
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     7. Firebase
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     8. Room Database
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     9. Retrofit
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     10. Coroutines
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: SESSION 3: Kotlin, Jetpack Compose & More
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Duration: 20 hours
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Skills Count: 3
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     1. Kotlin
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     2. Jetpack Compose
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:     3. Java
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: TOTAL SKILLS GENERATED: 15
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+Complete Skills List:
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:    1. programming
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:    2. use logic programming
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:    3. Android Sdk
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:    4. Android (mobile operating systems)
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:    5. JavaScript
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:    6. mobile operating systems
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:    7. mobile device software frameworks
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:    8. Gradle
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:    9. Firebase
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   10. Room Database
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   11. Retrofit
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   12. Coroutines
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   13. Kotlin
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   14. Jetpack Compose
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   15. Java
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: Skill Gap Summary:
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Total Skills Needed: 36
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Skills to Learn: 36
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO:   Skills Analyzed: 36
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 📁 Learning Path saved to: test_outputs_20260205_232348\01_learning_path.json
+[2026-02-05 23:24:28] [INFO] ====================================================================================================
+[2026-02-05 23:24:28] [INFO] PHASE 3: Community Voting System
+[2026-02-05 23:24:28] [INFO] ====================================================================================================
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: COMMUNITY VOTING DETAILS
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:24:28] [INFO] ℹ️  INFO: Voting on 5 skills...
+[2026-02-05 23:24:30] [SUCCESS] ✅ SUCCESS: Upvoted: programming
+[2026-02-05 23:24:30] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97
+[2026-02-05 23:24:32] [SUCCESS] ✅ SUCCESS: Upvoted: use logic programming
+[2026-02-05 23:24:32] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/2c4e11ef-da18-4e19-816b-e6bc19e12424
+[2026-02-05 23:24:34] [SUCCESS] ✅ SUCCESS: Upvoted: Android Sdk
+[2026-02-05 23:24:34] [INFO] ℹ️  INFO:     URI: modern://skill/android-sdk
+[2026-02-05 23:24:37] [SUCCESS] ✅ SUCCESS: Upvoted: Android (mobile operating systems)
+[2026-02-05 23:24:37] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/d8829a1d-dbde-435b-b921-29d6462f35c9
+[2026-02-05 23:24:39] [SUCCESS] ✅ SUCCESS: Upvoted: JavaScript
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO: Voting Summary: 5 successful, 0 failed
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO: 📁 Community Voting saved to: test_outputs_20260205_232348\02_community_voting.json
+[2026-02-05 23:24:39] [INFO] ====================================================================================================
+[2026-02-05 23:24:39] [INFO] PHASE 4: Community Skill Suggestions
+[2026-02-05 23:24:39] [INFO] ====================================================================================================
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO: SKILL SUGGESTIONS DETAILS
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO: Submitting 3 skill suggestions...
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO: Suggesting: Kotlin
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/android-kotlin
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-02-05 23:24:39] [INFO] ℹ️  INFO:   Description: Primary modern programming language for Android development
+[2026-02-05 23:24:41] [SUCCESS] ✅ SUCCESS: Suggested: Kotlin
+[2026-02-05 23:24:41] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:24:41] [INFO] ℹ️  INFO: Suggesting: Jetpack Compose
+[2026-02-05 23:24:41] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/android-jetpack-compose
+[2026-02-05 23:24:41] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-02-05 23:24:41] [INFO] ℹ️  INFO:   Description: Modern declarative UI toolkit for building native Android interfaces
+[2026-02-05 23:24:43] [SUCCESS] ✅ SUCCESS: Suggested: Jetpack Compose
+[2026-02-05 23:24:43] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:24:43] [INFO] ℹ️  INFO: Suggesting: Firebase
+[2026-02-05 23:24:43] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/mobile-firebase
+[2026-02-05 23:24:43] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-02-05 23:24:43] [INFO] ℹ️  INFO:   Description: Backend-as-a-Service platform for mobile app development
+[2026-02-05 23:24:45] [SUCCESS] ✅ SUCCESS: Suggested: Firebase
+[2026-02-05 23:24:45] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:24:45] [INFO] ℹ️  INFO: Suggestion Summary: 3 successful, 0 failed
+[2026-02-05 23:24:45] [INFO] ℹ️  INFO: 📁 Skill Suggestions saved to: test_outputs_20260205_232348\03_skill_suggestions.json
+[2026-02-05 23:24:45] [INFO] ====================================================================================================
+[2026-02-05 23:24:45] [INFO] PHASE 5: Quiz Generation
+[2026-02-05 23:24:45] [INFO] ====================================================================================================
+[2026-02-05 23:24:45] [INFO] ℹ️  INFO: Generating quiz from learning path...
+[2026-02-05 23:24:45] [INFO] ℹ️  INFO: Learning path has 3 sessions
+[2026-02-05 23:24:45] [INFO] ℹ️  INFO:   1. Programming & Use Logic Programming
+[2026-02-05 23:24:45] [INFO] ℹ️  INFO:   2. Android Sdk, Android (mobile Operating Systems) & More (10 Skills)
+[2026-02-05 23:24:45] [INFO] ℹ️  INFO:   3. Kotlin, Jetpack Compose & More
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: Quiz generation completed in 25.24 seconds
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: Status Code: 200
+[2026-02-05 23:25:10] [SUCCESS] ✅ SUCCESS: Quiz generated with 10 questions
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: COMPLETE QUIZ DETAILS
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+Quiz Structure:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Total Questions: 10
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Easy: 4
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Medium: 3
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Hard: 3
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Topics Covered: 9
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ALL QUIZ QUESTIONS AND ANSWERS:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 1 [EASY] - Topic: Android Sdk
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   In Android development, what is the Android SDK primarily used for?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. Providing tools, APIs, and libraries to build, test, and debug Android apps ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. Hosting your app backend and database automatically 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. Designing iOS user interfaces 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. Replacing the Android operating system on a device 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: The Android SDK includes platform APIs, build tools, emulator, and debugging tools needed to develop Android applications.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 2 [EASY] - Topic: Kotlin
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Which language is the officially recommended primary language for modern Android app development?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. Kotlin ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. PHP 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. Ruby 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. Swift 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: Google recommends Kotlin as the primary language for Android development due to its safety features and interoperability with Java.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 3 [EASY] - Topic: Gradle
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   What is Gradle most commonly used for in Android projects?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. Build automation and dependency management ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. Rendering UI components at runtime 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. Encrypting local database files by default 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. Replacing Git for version control 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: Gradle configures builds, manages dependencies, and defines build variants/flavors for Android apps.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 4 [EASY] - Topic: programming
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   In programming, what does an "if" statement primarily implement?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. Conditional branching based on a boolean expression ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. A loop that always runs a fixed number of times 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. A way to declare a class 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. A method for network communication 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: An if statement evaluates a condition and executes different code paths depending on whether it is true or false.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 5 [MEDIUM] - Topic: Retrofit
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   In Retrofit, which annotation is typically used to perform an HTTP GET request?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. @GET ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. @POSTFORM 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. @FETCH 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. @READ 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: Retrofit uses method annotations like @GET, @POST, @PUT, and @DELETE to define HTTP operations.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 6 [MEDIUM] - Topic: Coroutines
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   In Kotlin coroutines, which builder is commonly used to start a coroutine tied to a lifecycle-aware scope (e.g., in ViewModel) without blocking the thread?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. launch ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. runBlocking 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. Thread.sleep 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. synchronized 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: launch starts a new coroutine without blocking the current thread and is commonly used with lifecycle-aware scopes like viewModelScope.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 7 [MEDIUM] - Topic: Room Database
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   In Room Database, what is the primary purpose of a DAO (Data Access Object)?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. Define methods for database operations (queries/inserts/updates) and map them to SQL ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. Render database tables as UI components 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. Automatically sync local data to Firebase without code 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. Replace the need for entities by storing raw JSON 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: A DAO declares the database operations; Room generates the implementation to execute SQL safely and efficiently.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 8 [HARD] - Topic: Coroutines
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   You need offline-first behavior: show cached data immediately from Room, then refresh from a Retrofit API and update the UI. Which approach best fits a modern Android architecture with coroutines?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. Expose a Flow from Room, collect it in the UI, and in parallel refresh via Retrofit in a coroutine that writes results back to Room ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. Call Retrofit on the main thread first, then write to Room only if the UI is still visible 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. Store API responses only in memory to avoid disk I/O, and never persist to Room 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. Disable caching and always fetch from the network to ensure consistency 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: Room can emit updates via Flow; refreshing in a background coroutine and writing to Room updates the Flow, enabling immediate cached display and automatic UI updates.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 9 [HARD] - Topic: Jetpack Compose
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   In Jetpack Compose, a list item recomposes frequently and triggers an expensive calculation each time. What is the best Compose-specific fix to avoid repeating the calculation unnecessarily?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. Wrap the calculation result in remember (or remember(key)) so it is cached across recompositions ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. Move the calculation into onCreate() of an Activity 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. Use findViewById to cache the result 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. Disable recomposition for the entire screen 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: remember caches values across recompositions (optionally keyed), preventing expensive work from re-running unless inputs change.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUESTION 10 [HARD] - Topic: mobile device software frameworks
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   A team is building a cross-platform mobile app using JavaScript and wants a framework that uses native UI components via a bridge. Which mobile device software framework best matches this description?
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Options:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     A. React Native ✓ CORRECT
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     B. Room 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     C. Gradle 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:     D. Android SDK 
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+  Correct Answer: A
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Explanation: React Native uses JavaScript to drive apps that render native UI components through a framework bridge/runtime.
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 📁 Quiz Questions saved to: test_outputs_20260205_232348\04_quiz_questions.json
+[2026-02-05 23:25:10] [INFO] ====================================================================================================
+[2026-02-05 23:25:10] [INFO] PHASE 6: Quiz Answer Submission
+[2026-02-05 23:25:10] [INFO] ====================================================================================================
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: QUIZ SUBMISSION DETAILS
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: Simulating quiz answers for 10 questions (70% accuracy)...
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO: 
+Submitted Answers:
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q1: A (✓ Correct, correct: A)
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q2: A (✓ Correct, correct: A)
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q3: A (✓ Correct, correct: A)
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q4: A (✓ Correct, correct: A)
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q5: A (✓ Correct, correct: A)
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q6: A (✓ Correct, correct: A)
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q7: A (✓ Correct, correct: A)
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q8: B (✗ Wrong, correct: A)
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q9: B (✗ Wrong, correct: A)
+[2026-02-05 23:25:10] [INFO] ℹ️  INFO:   Q10: B (✗ Wrong, correct: A)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: 
+Status Code: 200
+[2026-02-05 23:25:12] [SUCCESS] ✅ SUCCESS: Quiz submitted and analyzed successfully
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: QUIZ RESULTS ANALYSIS:
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   Score: 6/10
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   Percentage: 60.0%
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   Grade: C+
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   Performance Level: Satisfactory
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: 
+  Difficulty Breakdown:
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     Easy: 4/4 (100.0%)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     Medium: 2/3 (66.7%)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     Hard: 0/3 (0.0%)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: 
+  Strengths (Topics with high accuracy):
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     ✓ Android Sdk: 100.0% (1/1)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     ✓ Kotlin: 100.0% (1/1)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     ✓ Gradle: 100.0% (1/1)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     ✓ programming: 100.0% (1/1)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     ✓ Retrofit: 100.0% (1/1)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: 
+  Needs Improvement:
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     → Coroutines: 50.0% (1/2)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: 
+  Weaknesses (Topics needing focus):
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     ✗ Room Database: 0.0% (0/1)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     ✗ Jetpack Compose: 0.0% (0/1)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     ✗ mobile device software frameworks: 0.0% (0/1)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: 
+  Recommendations:
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     1. 👍 Good job! You understand most concepts but have room for improvement.
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     2. 🎯 Priority topics to review: Room Database, Jetpack Compose, mobile device software frameworks
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     3. ✅ Your strongest areas: Android Sdk, Kotlin
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:     4. 📖 Topics needing more practice: Coroutines
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: DETAILED QUESTION-BY-QUESTION RESULTS:
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✓ Q1: Your answer: A, Correct: A (Topic: Android Sdk)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✓ Q2: Your answer: A, Correct: A (Topic: Kotlin)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✓ Q3: Your answer: A, Correct: A (Topic: Gradle)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✓ Q4: Your answer: A, Correct: A (Topic: programming)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✓ Q5: Your answer: A, Correct: A (Topic: Retrofit)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✓ Q6: Your answer: A, Correct: A (Topic: Coroutines)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✗ Q7: Your answer: B, Correct: A (Topic: Room Database)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✗ Q8: Your answer: B, Correct: A (Topic: Coroutines)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✗ Q9: Your answer: B, Correct: A (Topic: Jetpack Compose)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO:   ✗ Q10: Your answer: , Correct: A (Topic: mobile device software frameworks)
+[2026-02-05 23:25:12] [INFO] ℹ️  INFO: 📁 Quiz Results saved to: test_outputs_20260205_232348\05_quiz_results.json
+[2026-02-05 23:25:12] [INFO] ====================================================================================================
+[2026-02-05 23:25:12] [INFO] PHASE 7: Community Feedback Statistics
+[2026-02-05 23:25:12] [INFO] ====================================================================================================
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO: Status Code: 200
+[2026-02-05 23:25:14] [SUCCESS] ✅ SUCCESS: Retrieved feedback statistics
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO: COMPLETE FEEDBACK STATISTICS
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO: 
+Overall Metrics:
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO:   Total Votes: 399
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO:   Total Suggestions: 149
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO:   Pending Suggestions: 133
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO:   Approved Suggestions: 5
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO:   Rejected Suggestions: 0
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO: 📁 Feedback Statistics saved to: test_outputs_20260205_232348\06_feedback_statistics.json
+[2026-02-05 23:25:14] [INFO] ====================================================================================================
+[2026-02-05 23:25:14] [INFO] PHASE 8: Path Regeneration (with Community Feedback)
+[2026-02-05 23:25:14] [INFO] ====================================================================================================
+[2026-02-05 23:25:14] [INFO] ℹ️  INFO: Waiting 2 seconds for feedback to propagate...
+[2026-02-05 23:25:16] [INFO] ℹ️  INFO: Regenerating learning path...
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: Response received in 32.30 seconds
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: Status Code: 200
+[2026-02-05 23:25:49] [SUCCESS] ✅ SUCCESS: Path regenerated successfully
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: COMPLETE REGENERATED LEARNING PATH
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ================================================================================
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+Matched Occupation: mobile application developer
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: Similarity Score: 0.8565
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: Total Sessions: 3
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: Total Skills: 15
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: SESSION 1: Programming & Use Logic Programming
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Duration: 14 hours
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Skills (2):
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     1. programming
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     2. use logic programming
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: SESSION 2: Android Sdk, Android (mobile Operating Systems) & More (10 Skills)
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Duration: 20 hours
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Skills (10):
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     1. Android Sdk
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     2. Android (mobile operating systems)
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     3. JavaScript
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     4. mobile operating systems
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     5. mobile device software frameworks
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     6. Gradle
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     7. Firebase
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     8. Room Database
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     9. Retrofit
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     10. Coroutines
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: SESSION 3: Kotlin, Jetpack Compose & More
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Description: N/A
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Duration: 20 hours
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Skills (3):
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     1. Kotlin
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     2. Jetpack Compose
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:     3. Java
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+============================================================
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: PATH COMPARISON (Original vs Regenerated):
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ============================================================
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Original Sessions: 3
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Regenerated Sessions: 3
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Original Skills: 15
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   Regenerated Skills: 15
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: No community-suggested skills found in regenerated path
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+Skills with High Vote Scores (1):
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO:   • JavaScript: Vote Score 9
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 📁 Regenerated Learning Path saved to: test_outputs_20260205_232348\07_regenerated_learning_path.json
+[2026-02-05 23:25:49] [INFO] ====================================================================================================
+[2026-02-05 23:25:49] [INFO] PHASE 9: Final Test Summary
+[2026-02-05 23:25:49] [INFO] ====================================================================================================
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: Total Test Duration: 120.21 seconds (2.0 minutes)
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: SYSTEM CAPABILITIES TESTED:
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ✅ Learning Path Generation.......................... 15 skills generated
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ✅ Community Voting System........................... 5 votes submitted
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ✅ Skill Suggestions................................. 3 suggestions submitted
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ✅ Quiz Generation................................... 10 questions
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ✅ Quiz Submission................................... Score: 60.0%
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ✅ Feedback Statistics............................... 5 votes submitted (session)
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ✅ Path Regeneration................................. 15 skills
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: OVERALL SUCCESS RATE: 100.0% (7/7 features working)
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-02-05 23:25:49] [SUCCESS] ✅ SUCCESS: 🎉 EXCELLENT! System is fully functional!
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 📁 Final Summary saved to: test_outputs_20260205_232348\08_final_summary.json
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: 
+Detailed log saved to: full_system_test_log_20260205_232348.txt
+[2026-02-05 23:25:49] [INFO] ℹ️  INFO: Output files saved to: test_outputs_20260205_232348/

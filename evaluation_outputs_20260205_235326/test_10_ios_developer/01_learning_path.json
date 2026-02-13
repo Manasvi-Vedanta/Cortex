@@ -1,0 +1,282 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Set up an iOS development workspace and create a runnable project",
+        "Navigate the IDE and understand the build/run cycle",
+        "Use basic debugging tools to inspect runtime behavior"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Xcode",
+        "integrated development environment software",
+        "Ios Sdk (Uikit)",
+        "Swift (computer programming)",
+        "programming",
+        "debug software"
+      ],
+      "title": "iOS Development Setup and First Build"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write and organize Swift code used in iOS apps",
+        "Practice core programming constructs through small exercises",
+        "Build and run iterative changes in the IDE"
+      ],
+      "prerequisites": [
+        "Xcode",
+        "integrated development environment software",
+        "programming"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Swift (computer programming)",
+        "programming",
+        "Xcode",
+        "integrated development environment software"
+      ],
+      "title": "Swift Fundamentals for iOS"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create screens and basic UI using the iOS SDK",
+        "Connect UI to Swift code and handle user interactions",
+        "Run and validate UI behavior through debugging"
+      ],
+      "prerequisites": [
+        "Swift (computer programming)",
+        "Xcode"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Ios Sdk (Uikit)",
+        "Swift (computer programming)",
+        "Xcode",
+        "debug software"
+      ],
+      "title": "UIKit UI Construction and Navigation"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build simple views and compose UI using SwiftUI",
+        "Manage basic state updates and view refresh behavior",
+        "Compare workflow differences between SwiftUI and UIKit in the IDE"
+      ],
+      "prerequisites": [
+        "Swift (computer programming)",
+        "Xcode"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Swiftui",
+        "Swift (computer programming)",
+        "Xcode",
+        "integrated development environment software"
+      ],
+      "title": "SwiftUI Essentials"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand RESTful request/response patterns and JSON payloads",
+        "Implement a simple network call and parse JSON results",
+        "Handle common networking errors during development"
+      ],
+      "prerequisites": [
+        "Swift (computer programming)",
+        "programming"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Restful Apis & Json",
+        "Urlsession & Networking",
+        "Swift (computer programming)",
+        "Debugging & Instruments (Profiling)",
+        "debug software"
+      ],
+      "title": "Networking Basics with REST and JSON"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use concurrency to keep UI responsive during background work",
+        "Apply GCD and async/await patterns appropriately",
+        "Diagnose concurrency-related issues with debugging tools"
+      ],
+      "prerequisites": [
+        "Swift (computer programming)",
+        "Urlsession & Networking"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Concurrency (Gcd/Async-Await)",
+        "Swift (computer programming)",
+        "Debugging & Instruments (Profiling)",
+        "debug software"
+      ],
+      "title": "Concurrency for Responsive Apps"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model and store app data locally using Core Data",
+        "Perform basic create/read/update operations",
+        "Debug persistence issues and validate stored data"
+      ],
+      "prerequisites": [
+        "Swift (computer programming)",
+        "Xcode"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Core Data",
+        "Swift (computer programming)",
+        "Xcode",
+        "Debugging & Instruments (Profiling)",
+        "debug software"
+      ],
+      "title": "Local Persistence with Core Data"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Profile runtime performance and identify bottlenecks",
+        "Investigate memory and CPU issues using instruments",
+        "Apply debugging workflows to confirm improvements"
+      ],
+      "prerequisites": [
+        "Xcode",
+        "debug software"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Debugging & Instruments (Profiling)",
+        "debug software",
+        "Xcode",
+        "integrated development environment software"
+      ],
+      "title": "Profiling and Performance Investigation"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Read and understand Objective-C code in an iOS codebase",
+        "Integrate Objective-C components into a Swift project",
+        "Debug mixed-language issues during build and runtime"
+      ],
+      "prerequisites": [
+        "Swift (computer programming)",
+        "Ios Sdk (Uikit)",
+        "Xcode"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Objective-C",
+        "Swift (computer programming)",
+        "Ios Sdk (Uikit)",
+        "Xcode",
+        "debug software"
+      ],
+      "title": "Objective-C Interoperability in iOS Projects"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply configuration management practices to an iOS project",
+        "Organize changes to support collaboration and repeatable builds",
+        "Use the IDE effectively within a managed workflow"
+      ],
+      "prerequisites": [
+        "Xcode",
+        "programming"
+      ],
+      "session_number": 10,
+      "skills": [
+        "tools for software configuration management",
+        "Xcode",
+        "integrated development environment software",
+        "programming"
+      ],
+      "title": "Configuration Management and Team Workflow"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Relate digital systems concepts to software execution and performance",
+        "Connect basic system behavior to debugging observations",
+        "Use foundational understanding to reason about runtime issues"
+      ],
+      "prerequisites": [
+        "programming"
+      ],
+      "session_number": 11,
+      "skills": [
+        "digital systems",
+        "Debugging & Instruments (Profiling)",
+        "programming"
+      ],
+      "title": "Digital Systems Foundations for App Developers"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build an end-to-end feature that fetches JSON, displays UI, and persists data",
+        "Apply concurrency to coordinate networking and storage safely",
+        "Use debugging and profiling to validate correctness and performance"
+      ],
+      "prerequisites": [
+        "Ios Sdk (Uikit)",
+        "Swiftui",
+        "Urlsession & Networking",
+        "Core Data",
+        "Concurrency (Gcd/Async-Await)",
+        "Debugging & Instruments (Profiling)"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Swift (computer programming)",
+        "Ios Sdk (Uikit)",
+        "Swiftui",
+        "Restful Apis & Json",
+        "Urlsession & Networking",
+        "Core Data",
+        "Concurrency (Gcd/Async-Await)",
+        "Debugging & Instruments (Profiling)",
+        "Xcode",
+        "debug software"
+      ],
+      "title": "Capstone Integration: UI + Networking + Persistence"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Embedded systems software developers program, implement, document and maintain software to be run on an embedded system.",
+    "label": "embedded systems software developer",
+    "similarity_score": 0.7171382904052734,
+    "uri": "http://data.europa.eu/esco/occupation/57af9090-55b4-4911-b2d0-86db01c00b02"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 31,
+    "skills_in_path": 12,
+    "skills_to_learn": 31,
+    "total_skills_needed": 32
+  },
+  "user_id": "eval_user_10"
+}

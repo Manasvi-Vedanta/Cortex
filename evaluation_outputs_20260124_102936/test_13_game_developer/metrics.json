@@ -1,0 +1,51 @@
+{
+  "test_id": "13",
+  "goal": "I want to become a Game Developer.",
+  "short_name": "Game Developer",
+  "category": "Creative Tech",
+  "matched_occupation": "gambling games designer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/11830794-108c-48fe-a282-2cd7a2945344",
+  "similarity_score": 0.7914754748344421,
+  "total_skills": 15,
+  "total_sessions": 2,
+  "skills_list": [
+    "games rules",
+    "create gambling games concepts",
+    "demonstrate games",
+    "formulate game rules",
+    "design the digital interface of gambling, betting and lottery games",
+    "adapt developed game to the market",
+    "design graphics",
+    "legal standards in gambling",
+    "graphic design",
+    "ensure legal gaming",
+    "design the physical outlook of games",
+    "publicity code",
+    "follow ethical code of conduct of gambling",
+    "apply publicity code",
+    "aesthetics"
+  ],
+  "session_durations": [
+    20,
+    20
+  ],
+  "path_generation_time": 7.349612474441528,
+  "quiz_generation_time": 23.100159406661987,
+  "total_test_time": 57.71630120277405,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 0.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

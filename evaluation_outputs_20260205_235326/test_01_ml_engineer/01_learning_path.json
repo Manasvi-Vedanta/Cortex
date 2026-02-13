@@ -1,0 +1,164 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write clean Python code for data and model pipelines",
+        "Use Python to structure reusable functions for preprocessing and evaluation",
+        "Prepare Python environments and scripts for repeatable experimentation"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Python"
+      ],
+      "title": "Python Foundations for ML Workflows"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Query and filter data needed for model training",
+        "Join multiple tables to create training datasets",
+        "Validate dataset sizes and basic integrity using SQL queries"
+      ],
+      "prerequisites": [
+        "Python"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Sql"
+      ],
+      "title": "SQL for Data Extraction and ML Dataset Building"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Handle missing values, outliers, and inconsistent formats",
+        "Encode categorical variables and scale/normalize numeric features",
+        "Create train/validation/test splits and prevent data leakage"
+      ],
+      "prerequisites": [
+        "Python",
+        "Sql"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Data Preprocessing And Feature Engineering"
+      ],
+      "title": "Data Preprocessing and Feature Engineering Essentials"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select appropriate metrics for classification and regression",
+        "Compute and interpret confusion-matrix-derived metrics",
+        "Design evaluation protocols and compare models consistently"
+      ],
+      "prerequisites": [
+        "Python",
+        "Data Preprocessing And Feature Engineering"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Model Evaluation And Metrics"
+      ],
+      "title": "Model Evaluation and Metrics for Reliable Comparison"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core deep learning concepts (layers, activations, loss, optimization)",
+        "Understand overfitting/underfitting and regularization strategies",
+        "Plan experiments and interpret training/validation curves"
+      ],
+      "prerequisites": [
+        "Python",
+        "Model Evaluation And Metrics"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Deep Learning"
+      ],
+      "title": "Deep Learning Fundamentals and Training Dynamics"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement neural network models and training loops in TensorFlow",
+        "Configure losses, optimizers, and callbacks for training control",
+        "Evaluate trained models using consistent metrics and validation splits"
+      ],
+      "prerequisites": [
+        "Deep Learning",
+        "Data Preprocessing And Feature Engineering",
+        "Model Evaluation And Metrics",
+        "Python"
+      ],
+      "session_number": 6,
+      "skills": [
+        "TensorFlow"
+      ],
+      "title": "TensorFlow: Building and Training Neural Networks"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build neural networks and training loops in PyTorch",
+        "Use datasets and dataloaders to feed training and validation data",
+        "Evaluate and compare model variants using consistent metrics"
+      ],
+      "prerequisites": [
+        "Deep Learning",
+        "Data Preprocessing And Feature Engineering",
+        "Model Evaluation And Metrics",
+        "Python"
+      ],
+      "session_number": 7,
+      "skills": [
+        "PyTorch"
+      ],
+      "title": "PyTorch: Model Development and Experimentation"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design CI/CD steps for training, testing, and releasing models",
+        "Deploy models and manage versioning and rollbacks",
+        "Set up monitoring for data drift, performance, and operational health"
+      ],
+      "prerequisites": [
+        "Python",
+        "Model Evaluation And Metrics",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Mlops (Ci/Cd, Model Deployment, Monitoring)"
+      ],
+      "title": "MLOps: CI/CD, Deployment, and Monitoring for ML Systems"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Computer vision engineers research, design, develop, and train artificial intelligence algorithms and machine learning primitives that understand the content of digital images based on a large amount of data. They apply this understanding to solve different real-world problems such as security, autonomous driving, robotic manufacturing, digital image classification, medical image processing and diagnosis, etc.",
+    "label": "computer vision engineer",
+    "similarity_score": 0.9153484106063843,
+    "uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 31,
+    "skills_in_path": 8,
+    "skills_to_learn": 31,
+    "total_skills_needed": 32
+  },
+  "user_id": "eval_user_01"
+}

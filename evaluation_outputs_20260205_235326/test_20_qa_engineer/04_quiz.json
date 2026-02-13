@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:29:50.469270",
+      "learning_path_id": "test_20",
+      "target_occupation": "automation engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "The HTML 'id' attribute is intended to be unique within the DOM, making it a reliable locator for test automation.",
+        "id": 1,
+        "options": {
+          "A": "class",
+          "B": "id",
+          "C": "style",
+          "D": "name"
+        },
+        "question": "In HTML, which attribute should be unique on a page and is commonly used as a stable locator for automation?",
+        "topic": "Locators & Web Fundamentals (Html/Css/Dom/Xpath/Css Selectors)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in one step.",
+        "id": 2,
+        "options": {
+          "A": "git branch feature/login",
+          "B": "git checkout feature/login",
+          "C": "git checkout -b feature/login",
+          "D": "git switch feature/login --create"
+        },
+        "question": "Which Git command creates a new local branch named 'feature/login' and switches to it?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Maven uses pom.xml (Project Object Model) to declare dependencies, plugins, and build settings.",
+        "id": 3,
+        "options": {
+          "A": "build.gradle",
+          "B": "pom.xml",
+          "C": "package.json",
+          "D": "requirements.txt"
+        },
+        "question": "In Maven, which file typically defines project dependencies and build configuration?",
+        "topic": "Build & Dependency Tools (Maven/Gradle/Npm)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is used to read/retrieve resources and should be safe and idempotent.",
+        "id": 4,
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PUT",
+          "D": "DELETE"
+        },
+        "question": "Which HTTP method is most appropriate to retrieve a resource without modifying server state?",
+        "topic": "Api Testing (Rest/Soap)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A dedicated attribute like data-testid is typically stable and intended for automation; :contains is not standard CSS.",
+        "id": 5,
+        "options": {
+          "A": ".card button:nth-child(1)",
+          "B": "div.card > button",
+          "C": "button[data-testid='save']",
+          "D": "button:contains('Save')"
+        },
+        "question": "Given the HTML: <div class='card'><button data-testid='save'>Save</button></div>, which CSS selector targets the Save button most robustly for automation?",
+        "topic": "Locators & Web Fundamentals (Html/Css/Dom/Xpath/Css Selectors)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "pytest parametrization runs a test function multiple times with different argument values, enabling data-driven testing.",
+        "id": 6,
+        "options": {
+          "A": "Markers",
+          "B": "Fixtures",
+          "C": "Parametrization (@pytest.mark.parametrize)",
+          "D": "Monkeypatch"
+        },
+        "question": "In pytest, which feature is commonly used to run the same test logic with multiple input datasets?",
+        "topic": "Test Runners & Unit Test Frameworks (Junit/Testng/Pytest/Jest)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "POM centralizes selectors and UI actions to reduce duplication and improve maintainability when the UI changes.",
+        "id": 7,
+        "options": {
+          "A": "Store test data in external files (CSV/JSON)",
+          "B": "Encapsulate page locators and page interactions behind methods",
+          "C": "Execute tests in parallel across browsers",
+          "D": "Generate HTML reports for the test run"
+        },
+        "question": "In the Page Object Model (POM), what is the primary responsibility of a Page Object class?",
+        "topic": "Test Design & Automation Patterns (Page Object Model, Data-Driven)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Condition-based explicit waits and isolating state address timing and concurrency issues directly; sleeps and retries often hide problems and slow pipelines.",
+        "id": 8,
+        "options": {
+          "A": "Add fixed sleeps (e.g., 10 seconds) before every click",
+          "B": "Replace UI tests with API tests only",
+          "C": "Use explicit waits for specific conditions (e.g., visible + enabled) and avoid shared test state",
+          "D": "Rerun failed tests up to 5 times and ignore failures if they pass on retry"
+        },
+        "question": "A CI pipeline runs UI tests in parallel and intermittently fails with errors like 'element not clickable' and 'timeout waiting for selector'. Which change is most likely to reduce flakiness without masking real defects?",
+        "topic": "Ci/Cd Pipelines (Jenkins/Github Actions/Gitlab Ci)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Modular design with stable interfaces and configuration improves maintainability; pinning versions and documenting licenses supports reliable builds and compliant use of open-source software.",
+        "id": 9,
+        "options": {
+          "A": "Hard-code device addresses and timing values directly in the control logic for simplicity",
+          "B": "Create modular components with clear interfaces, configuration-driven parameters, and version-pinned dependencies with documented licenses",
+          "C": "Copy-paste open-source code into the project to avoid dependency management",
+          "D": "Allow each developer to choose their own library versions to speed up development"
+        },
+        "question": "You are designing reusable automation components for a production line cell (sensors + actuators). Which approach best supports maintainability and safe operation when integrating open-source libraries?",
+        "topic": "design automation components"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A tolerance of ±0.1 mm means the acceptable range is 50.0 mm minus 0.1 and plus 0.1, i.e., 49.9–50.1 mm.",
+        "id": 10,
+        "options": {
+          "A": "The distance must be exactly 50.0 mm with no deviation",
+          "B": "Any distance between 49.9 mm and 50.1 mm is acceptable",
+          "C": "Any distance between 49.0 mm and 51.0 mm is acceptable",
+          "D": "The tolerance applies only to the hole diameter, not the spacing"
+        },
+        "question": "A technical drawing for an automated fixture shows a hole pattern with a center-to-center distance of 50 ± 0.1 mm. When using technical drawing software to prepare a manufacturing-ready model, what is the correct interpretation?",
+        "topic": "use technical drawing software"
+      }
+    ],
+    "topics_covered": [
+      "Locators & Web Fundamentals (Html/Css/Dom/Xpath/Css Selectors)",
+      "Programming (Java/Python/Javascript)",
+      "Test Runners & Unit Test Frameworks (Junit/Testng/Pytest/Jest)",
+      "Build & Dependency Tools (Maven/Gradle/Npm)",
+      "Test Automation Frameworks (Selenium/Cypress/Playwright)",
+      "Test Design & Automation Patterns (Page Object Model, Data-Driven)",
+      "Api Testing (Rest/Soap)",
+      "Version Control (Git)",
+      "Ci/Cd Pipelines (Jenkins/Github Actions/Gitlab Ci)",
+      "automation technology",
+      "design automation components",
+      "operate open source software",
+      "production processes",
+      "manage personal professional development",
+      "use technical drawing software"
+    ]
+  },
+  "success": true
+}

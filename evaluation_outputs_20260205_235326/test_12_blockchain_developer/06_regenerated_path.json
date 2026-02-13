@@ -1,0 +1,237 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify core blockchain components and how they interact",
+        "Explain blockchain architecture at a high level",
+        "Describe blockchain openness and its implications for applications"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "blockchain components",
+        "blockchain architecture",
+        "blockchain openness"
+      ],
+      "title": "Blockchain Foundations: Components, Architecture, and Openness"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Define what blockchain applications are and how they differ from traditional applications",
+        "Map common blockchain application areas to suitable design choices",
+        "Evaluate when blockchain is appropriate for a given problem"
+      ],
+      "prerequisites": [
+        "blockchain components",
+        "blockchain architecture",
+        "blockchain openness"
+      ],
+      "session_number": 2,
+      "skills": [
+        "blockchain applications",
+        "blockchain application areas "
+      ],
+      "title": "Blockchain Applications and Application Areas"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain hashing, signatures, and Merkle trees in blockchain contexts",
+        "Connect cryptographic primitives to integrity and authenticity guarantees",
+        "Recognize common cryptographic misuse patterns in blockchain applications"
+      ],
+      "prerequisites": [
+        "blockchain components",
+        "blockchain architecture"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Cryptography (Hashing, Signatures, Merkle Trees)"
+      ],
+      "title": "Cryptography Essentials for Blockchains"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe how the Ethereum Virtual Machine executes smart contracts",
+        "Explain state, transactions, and gas at a conceptual level",
+        "Relate EVM behavior to smart contract design constraints"
+      ],
+      "prerequisites": [
+        "blockchain architecture",
+        "Cryptography (Hashing, Signatures, Merkle Trees)"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Ethereum Virtual Machine (Evm)"
+      ],
+      "title": "Ethereum Execution Model: EVM Fundamentals"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write basic Solidity contracts with functions and state variables",
+        "Use common Solidity patterns safely at an introductory level",
+        "Understand compilation targets in relation to the EVM"
+      ],
+      "prerequisites": [
+        "Ethereum Virtual Machine (Evm)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Solidity",
+        "Ethereum Virtual Machine (Evm)"
+      ],
+      "title": "Solidity Fundamentals for Smart Contract Development"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Set up and use a smart contract development framework workflow",
+        "Compile, test, and deploy contracts in a local development environment",
+        "Structure projects for maintainability and repeatable builds"
+      ],
+      "prerequisites": [
+        "Solidity"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Smart Contract Development Frameworks (Hardhat/Truffle/Foundry)",
+        "Solidity"
+      ],
+      "title": "Smart Contract Development Tooling"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Node.js to run scripts that support blockchain development workflows",
+        "Organize a simple Node.js project for interacting with blockchain systems",
+        "Handle configuration and environment setup for development tasks"
+      ],
+      "prerequisites": [],
+      "session_number": 7,
+      "skills": [
+        "Node.Js"
+      ],
+      "title": "Node.js Foundations for Blockchain Development"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Connect to an Ethereum-compatible network from an application",
+        "Read contract state and send transactions from a client script",
+        "Handle common interaction patterns and errors"
+      ],
+      "prerequisites": [
+        "Node.Js",
+        "Solidity"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Web3.Js/Ethers.Js",
+        "Node.Js"
+      ],
+      "title": "Interacting with Smart Contracts Using Web3 Libraries"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Differentiate ERC-20, ERC-721, and ERC-1155 use cases",
+        "Implement or integrate token-standard interfaces in Solidity",
+        "Understand standard-driven behaviors relevant to applications"
+      ],
+      "prerequisites": [
+        "Solidity",
+        "Ethereum Virtual Machine (Evm)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Token Standards (Erc-20/Erc-721/Erc-1155)",
+        "Solidity"
+      ],
+      "title": "Token Standards: ERC-20, ERC-721, and ERC-1155"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply blockchain applications security principles to common designs",
+        "Identify threat models specific to blockchain applications",
+        "Prioritize mitigations based on impact and likelihood"
+      ],
+      "prerequisites": [
+        "blockchain applications",
+        "Cryptography (Hashing, Signatures, Merkle Trees)"
+      ],
+      "session_number": 10,
+      "skills": [
+        "blockchain applications security principles",
+        "blockchain applications"
+      ],
+      "title": "Blockchain Application Security Principles"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Recognize common smart contract vulnerability classes",
+        "Apply secure design and coding practices in Solidity",
+        "Validate fixes through targeted testing and review"
+      ],
+      "prerequisites": [
+        "Solidity",
+        "blockchain applications security principles"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Smart Contract Security",
+        "Solidity",
+        "Ethereum Virtual Machine (Evm)"
+      ],
+      "title": "Smart Contract Security: Vulnerabilities and Defenses"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain the Solana program model at a high level for development",
+        "Build a basic Solana program using Anchor",
+        "Understand how account constraints influence program design"
+      ],
+      "prerequisites": [
+        "Cryptography (Hashing, Signatures, Merkle Trees)",
+        "blockchain architecture"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Solana/Rust Smart Contracts (Anchor)"
+      ],
+      "title": "Solana Smart Contracts with Anchor (Rust)"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Blockchain developers implement or program blockchain-based software systems based on specifications and designs by using programming languages, tools, and blockchain platforms.",
+    "label": "blockchain developer",
+    "similarity_score": 0.9676629900932312,
+    "uri": "http://data.europa.eu/esco/occupation/24135b84-cbdd-4d42-9ed2-02fd982d15b2"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 33,
+    "skills_in_path": 12,
+    "skills_to_learn": 33,
+    "total_skills_needed": 33
+  },
+  "user_id": "eval_user_12"
+}

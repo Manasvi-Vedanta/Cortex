@@ -1,0 +1,409 @@
+{
+  "scenario": "AI Engineer",
+  "status": "success",
+  "goal": "I want to become an AI engineer specializing in deep learning",
+  "current_skills": [
+    "Python",
+    "Machine learning basics"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+    "label": " artificial intelligence engineer ",
+    "description": "Artificial intelligence engineer apply methods of artificial intelligence in engineering, robotics and computer science to design programs which simulate intelligence including thinking models, cognitive and knowledge-based systems, problem solving, and decision making. They also integrate structured knowledge into computer systems (ontologies, knowledge bases) in order to solve complex problems normally requiring a high level of human expertise or artificial intelligence methods.",
+    "similarity_score": 1.0
+  },
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "Computer Simulation, Algorithms & More (9 Skills)",
+      "skills": [
+        "computer simulation",
+        "algorithms",
+        "artificial neural networks",
+        "information extraction",
+        "task algorithmisation",
+        "information categorisation",
+        "unstructured data",
+        "principles of artificial intelligence",
+        "creatively use digital technologies"
+      ],
+      "skill_details": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/0823ccef-813f-4f22-afef-ac0d68615e8f",
+          "label": "computer simulation",
+          "description": "A programme run on a computer that represents dynamic responses of a system to explore a mathematical model behaviour, using a model of a real system, composed of mathematical equations.  ",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "intermediate",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38",
+          "label": "algorithms",
+          "description": "The self-contained step-by-step sets of operations that carry out calculations, data processing and automated reasoning, usually to solve problems.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "advanced",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5608d5a0-6d5e-43b7-be37-616501729bb4",
+          "label": "artificial neural networks",
+          "description": "A network of artificial neurons composed for solving artificial intelligence problems. These computing systems are inspired by the biological neural networks that constitute brains. Understanding of its general model and its  elements. Knowledge of its use possibilities for automation. ",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "advanced",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec",
+          "label": "information extraction",
+          "description": "The techniques and methods used for eliciting and extracting information from unstructured or semi-structured digital documents and sources.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "intermediate",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+          "label": "task algorithmisation",
+          "description": "The techniques to convert unstructured descriptions of a process into step-by-step sequence of actions of a finite number of steps.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "advanced",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6",
+          "label": "information categorisation",
+          "description": "The process of classifying the information into categories and showing relationships between the data for some clearly defined purposes.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "intermediate",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666",
+          "label": "unstructured data",
+          "description": "The information that is not arranged in a pre-defined manner or does not have a pre-defined data model and is difficult to understand and find patterns in without using techniques such as data mining.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "intermediate",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
+          "label": "principles of artificial intelligence",
+          "description": "The artificial intelligence theories, applied principles, architectures and systems, such as intelligent agents, multi-agent systems, expert systems, rule-based systems, neural networks, ontologies and cognition theories.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "intermediate",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/1a4cc54f-1e53-442b-a6d2-1682dc8ef8f9",
+          "label": "creatively use digital technologies",
+          "description": "Use digital tools and technologies to create knowledge and to innovate processes and products. Engage individually and collectively in cognitive processing to understand and resolve conceptual problems and problem situations in digital environments.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "beginner",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        }
+      ],
+      "duration": "20 hours",
+      "estimated_duration_hours": 20,
+      "difficulty_level": "beginner",
+      "objectives": [
+        "Master essential programming languages",
+        "Learn database querying"
+      ],
+      "comprehensive_guides": {
+        "computer simulation": "# 📚 Comprehensive Guide: computer simulation\n\n## 🎯 Overview\nA programme run on a computer that represents dynamic responses of a system to explore a mathematical model behaviour, using a model of a real system, composed of mathematical equations.  \n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply computer simulation in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why computer simulation matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How computer simulation enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "algorithms": "# 📚 Comprehensive Guide: algorithms\n\n## 🎯 Overview\nThe self-contained step-by-step sets of operations that carry out calculations, data processing and automated reasoning, usually to solve problems.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply algorithms in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why algorithms matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How algorithms enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "artificial neural networks": "# 📚 Comprehensive Guide: artificial neural networks\n\n## 🎯 Overview\nA network of artificial neurons composed for solving artificial intelligence problems. These computing systems are inspired by the biological neural networks that constitute brains. Understanding of its general model and its  elements. Knowledge of its use possibilities for automation. \n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply artificial neural networks in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why artificial neural networks matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How artificial neural networks enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "information extraction": "# 📚 Comprehensive Guide: information extraction\n\n## 🎯 Overview\nThe techniques and methods used for eliciting and extracting information from unstructured or semi-structured digital documents and sources.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply information extraction in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why information extraction matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How information extraction enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "task algorithmisation": "# 📚 Comprehensive Guide: task algorithmisation\n\n## 🎯 Overview\nThe techniques to convert unstructured descriptions of a process into step-by-step sequence of actions of a finite number of steps.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply task algorithmisation in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why task algorithmisation matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How task algorithmisation enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "information categorisation": "# 📚 Comprehensive Guide: information categorisation\n\n## 🎯 Overview\nThe process of classifying the information into categories and showing relationships between the data for some clearly defined purposes.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply information categorisation in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why information categorisation matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How information categorisation enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "unstructured data": "# 📚 Comprehensive Guide: unstructured data\n\n## 🎯 Overview\nThe information that is not arranged in a pre-defined manner or does not have a pre-defined data model and is difficult to understand and find patterns in without using techniques such as data mining.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply unstructured data in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why unstructured data matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How unstructured data enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "principles of artificial intelligence": "# 📚 Comprehensive Guide: principles of artificial intelligence\n\n## 🎯 Overview\nThe artificial intelligence theories, applied principles, architectures and systems, such as intelligent agents, multi-agent systems, expert systems, rule-based systems, neural networks, ontologies and cognition theories.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply principles of artificial intelligence in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why principles of artificial intelligence matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How principles of artificial intelligence enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "creatively use digital technologies": "# 📚 Comprehensive Guide: creatively use digital technologies\n\n## 🎯 Overview\nUse digital tools and technologies to create knowledge and to innovate processes and products. Engage individually and collectively in cognitive processing to understand and resolve conceptual problems and problem situations in digital environments.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply creatively use digital technologies in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why creatively use digital technologies matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How creatively use digital technologies enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "learning_resources": {
+        "online_courses": [
+          "IBM Data Science Specialization",
+          "Microsoft Power BI Course",
+          "Google Data Analytics Certificate"
+        ],
+        "tutorials": [
+          "Matplotlib Tutorials",
+          "NumPy Quickstart",
+          "Pandas Documentation Tutorials"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "NumPy Documentation",
+          "Pandas Documentation"
+        ],
+        "practice_platforms": [
+          "Kaggle Learn",
+          "DataCamp Practice",
+          "Analytics Vidhya"
+        ],
+        "communities": [
+          "KDnuggets Community",
+          "r/analytics",
+          "Data Science Central"
+        ]
+      }
+    },
+    {
+      "session_number": 2,
+      "title": "Data Visualization Fundamentals",
+      "skills": [
+        "data visualization"
+      ],
+      "skill_details": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213",
+          "label": "data visualization",
+          "description": "The visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "difficulty": "intermediate",
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        }
+      ],
+      "duration": "7 hours",
+      "estimated_duration_hours": 7,
+      "difficulty_level": "intermediate",
+      "objectives": [
+        "Create compelling visual narratives",
+        "Master visualization tools"
+      ],
+      "comprehensive_guides": {
+        "data visualization": "# 📚 Comprehensive Guide: data visualization\n\n## 🎯 Overview\nThe visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data visualization in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data visualization matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data visualization enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "learning_resources": {
+        "online_courses": [
+          "IBM Data Science Specialization",
+          "Microsoft Power BI Course",
+          "Google Data Analytics Certificate"
+        ],
+        "tutorials": [
+          "Matplotlib Tutorials",
+          "NumPy Quickstart",
+          "Pandas Documentation Tutorials"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "NumPy Documentation",
+          "Pandas Documentation"
+        ],
+        "practice_platforms": [
+          "Kaggle Learn",
+          "DataCamp Practice",
+          "Analytics Vidhya"
+        ],
+        "communities": [
+          "KDnuggets Community",
+          "r/analytics",
+          "Data Science Central"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "information categorisation": [],
+    "unstructured data": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      },
+      {
+        "title": "unstructured (13,210 stars)",
+        "url": "https://github.com/Unstructured-IO/unstructured",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.",
+        "is_free": true,
+        "quality_score": 0.2642,
+        "stars": 13210
+      }
+    ],
+    "information extraction": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "data visualization": [
+      {
+        "title": "Pandas Documentation",
+        "url": "https://pandas.pydata.org/docs/",
+        "type": "documentation",
+        "provider": "Pandas",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Pandas Tutorial",
+        "url": "https://www.youtube.com/watch?v=vmEHCJofslg",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.9
+      }
+    ],
+    "algorithms": [
+      {
+        "title": "Algorithms Specialization",
+        "url": "https://www.coursera.org/specializations/algorithms",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.97
+      },
+      {
+        "title": "LeetCode",
+        "url": "https://leetcode.com/",
+        "type": "practice",
+        "provider": "LeetCode",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Algorithms Course",
+        "url": "https://www.youtube.com/watch?v=8hly31xKli0",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.9
+      }
+    ],
+    "principles of artificial intelligence": [],
+    "computer simulation": [],
+    "task algorithmisation": [
+      {
+        "title": "Algorithms Specialization",
+        "url": "https://www.coursera.org/specializations/algorithms",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.97
+      },
+      {
+        "title": "LeetCode",
+        "url": "https://leetcode.com/",
+        "type": "practice",
+        "provider": "LeetCode",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Algorithms Course",
+        "url": "https://www.youtube.com/watch?v=8hly31xKli0",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.9
+      }
+    ],
+    "creatively use digital technologies": [
+      {
+        "title": "Pro Git Book",
+        "url": "https://git-scm.com/book/en/v2",
+        "type": "documentation",
+        "provider": "Git",
+        "description": "Official Git documentation and book",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Git and GitHub Course",
+        "url": "https://roadmap.sh/git-github",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Git and GitHub guide",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Git and GitHub for Beginners",
+        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Git tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "artificial neural networks": [
+      {
+        "title": "Computer Networking Course",
+        "url": "https://www.youtube.com/watch?v=qiQR5rTSshw",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.9
+      }
+    ]
+  },
+  "statistics": {
+    "total_hours": 27,
+    "total_skills": 10,
+    "duration_days": 9,
+    "total_sessions": 2,
+    "total_resources": 17
+  },
+  "performance": {
+    "skill_gap_time": 15.289708137512207,
+    "schedule_time": 27.331769943237305,
+    "resources_time": 0.4981682300567627,
+    "total_time": 43.123369216918945
+  }
+}

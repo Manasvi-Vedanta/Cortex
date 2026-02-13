@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-05T23:25:12.713008",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Android SDK includes platform APIs, build tools, emulator, and debugging tools needed to develop Android applications.",
+        "is_correct": true,
+        "question": "In Android development, what is the Android SDK primarily used for?",
+        "question_id": 1,
+        "topic": "Android Sdk",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Google recommends Kotlin as the primary language for Android development due to its safety features and interoperability with Java.",
+        "is_correct": true,
+        "question": "Which language is the officially recommended primary language for modern Android app development?",
+        "question_id": 2,
+        "topic": "Kotlin",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Gradle configures builds, manages dependencies, and defines build variants/flavors for Android apps.",
+        "is_correct": true,
+        "question": "What is Gradle most commonly used for in Android projects?",
+        "question_id": 3,
+        "topic": "Gradle",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "An if statement evaluates a condition and executes different code paths depending on whether it is true or false.",
+        "is_correct": true,
+        "question": "In programming, what does an \"if\" statement primarily implement?",
+        "question_id": 4,
+        "topic": "programming",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Retrofit uses method annotations like @GET, @POST, @PUT, and @DELETE to define HTTP operations.",
+        "is_correct": true,
+        "question": "In Retrofit, which annotation is typically used to perform an HTTP GET request?",
+        "question_id": 5,
+        "topic": "Retrofit",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "launch starts a new coroutine without blocking the current thread and is commonly used with lifecycle-aware scopes like viewModelScope.",
+        "is_correct": true,
+        "question": "In Kotlin coroutines, which builder is commonly used to start a coroutine tied to a lifecycle-aware scope (e.g., in ViewModel) without blocking the thread?",
+        "question_id": 6,
+        "topic": "Coroutines",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "A DAO declares the database operations; Room generates the implementation to execute SQL safely and efficiently.",
+        "is_correct": false,
+        "question": "In Room Database, what is the primary purpose of a DAO (Data Access Object)?",
+        "question_id": 7,
+        "topic": "Room Database",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Room can emit updates via Flow; refreshing in a background coroutine and writing to Room updates the Flow, enabling immediate cached display and automatic UI updates.",
+        "is_correct": false,
+        "question": "You need offline-first behavior: show cached data immediately from Room, then refresh from a Retrofit API and update the UI. Which approach best fits a modern Android architecture with coroutines?",
+        "question_id": 8,
+        "topic": "Coroutines",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "remember caches values across recompositions (optionally keyed), preventing expensive work from re-running unless inputs change.",
+        "is_correct": false,
+        "question": "In Jetpack Compose, a list item recomposes frequently and triggers an expensive calculation each time. What is the best Compose-specific fix to avoid repeating the calculation unnecessarily?",
+        "question_id": 9,
+        "topic": "Jetpack Compose",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "React Native uses JavaScript to drive apps that render native UI components through a framework bridge/runtime.",
+        "is_correct": false,
+        "question": "A team is building a cross-platform mobile app using JavaScript and wants a framework that uses native UI components via a bridge. Which mobile device software framework best matches this description?",
+        "question_id": 10,
+        "topic": "mobile device software frameworks",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Coroutines",
+        "total": 2
+      }
+    ],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Room Database, Jetpack Compose, mobile device software frameworks",
+      "✅ Your strongest areas: Android Sdk, Kotlin",
+      "📖 Topics needing more practice: Coroutines"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Android Sdk",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kotlin",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Gradle",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "programming",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Retrofit",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Room Database",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Jetpack Compose",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "mobile device software frameworks",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

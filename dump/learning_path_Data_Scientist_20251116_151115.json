@@ -1,0 +1,414 @@
+{
+  "scenario": "Data Scientist",
+  "status": "success",
+  "goal": "I want to become a data scientist with machine learning expertise",
+  "current_skills": [
+    "Python programming",
+    "Statistics"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30",
+    "label": "data scientist",
+    "description": "Data scientists find and interpret rich data sources, manage large amounts of data, merge data sources, ensure consistency of data-sets, and create visualisations to aid in understanding data. They build mathematical models using data, present and communicate data insights and findings to specialists and scientists in their team and if required, to a non-expert audience, and recommend ways to apply the data.",
+    "similarity_score": 1.0
+  },
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "Data Visualisation Software, Information Extraction & More (9 Skills)",
+      "skills": [
+        "data visualisation software",
+        "information extraction",
+        "scientific literature",
+        "information categorisation",
+        "resource description framework query language",
+        "query languages",
+        "online analytical processing",
+        "empirical analysis",
+        "draft scientific or academic papers and technical documentation"
+      ],
+      "skill_details": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+          "label": "data visualisation software",
+          "description": "A computer tool or application that creates a graphical and visual representation of data, allowing a better understanding and interpretation of complex data through visual elements such as maps, charts, infographics or graphs.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec",
+          "label": "information extraction",
+          "description": "The techniques and methods used for eliciting and extracting information from unstructured or semi-structured digital documents and sources.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/74e49482-75e8-4637-bdb1-fff868d02f7a",
+          "label": "scientific literature",
+          "description": "The medium of informing the scientific community, including academic researchers, about the results of scientific research. It constitutes a permanent and cumulative collection of all the findings of scientific research in various fields and at any point in time.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6",
+          "label": "information categorisation",
+          "description": "The process of classifying the information into categories and showing relationships between the data for some clearly defined purposes.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/99207709-d076-4cce-ba38-e90d3bb28806",
+          "label": "resource description framework query language",
+          "description": "The query languages such as SPARQL which are used to retrieve and manipulate data stored in Resource Description Framework format (RDF).",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9cf681c7-89ec-470c-b651-7fe03786f586",
+          "label": "query languages",
+          "description": "The field of standardised computer languages for retrieval of information from a database and of documents containing the needed information.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b0a3bb25-a02f-43ed-ab1f-994fa66a424a",
+          "label": "online analytical processing",
+          "description": "The online tools which analyse, aggregate and present multi-dimensional data enabling users to interactively and selectively extract and view data from specific points of view.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/f6ac6241-adb2-4ce2-b35f-09832cbb11ea",
+          "label": "empirical analysis",
+          "description": "The evidence-based method that is used to analyse and interpret information with the aim of drawing conclusions about a specific issue.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/00b9a3aa-7070-4bb5-8020-f228a97cf42f",
+          "label": "draft scientific or academic papers and technical documentation",
+          "description": "Draft and edit scientific, academic or technical texts on different subjects.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        }
+      ],
+      "duration": "20 hours",
+      "estimated_duration_hours": 20,
+      "difficulty_level": "beginner",
+      "objectives": [
+        "Master essential programming languages",
+        "Learn database querying"
+      ],
+      "comprehensive_guides": {
+        "data visualisation software": "# 📚 Comprehensive Guide: data visualisation software\n\n## 🎯 Overview\nA computer tool or application that creates a graphical and visual representation of data, allowing a better understanding and interpretation of complex data through visual elements such as maps, charts, infographics or graphs.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data visualisation software in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data visualisation software matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data visualisation software enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "information extraction": "# 📚 Comprehensive Guide: information extraction\n\n## 🎯 Overview\nThe techniques and methods used for eliciting and extracting information from unstructured or semi-structured digital documents and sources.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply information extraction in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why information extraction matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How information extraction enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "scientific literature": "# 📚 Comprehensive Guide: scientific literature\n\n## 🎯 Overview\nThe medium of informing the scientific community, including academic researchers, about the results of scientific research. It constitutes a permanent and cumulative collection of all the findings of scientific research in various fields and at any point in time.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply scientific literature in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why scientific literature matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How scientific literature enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "information categorisation": "# 📚 Comprehensive Guide: information categorisation\n\n## 🎯 Overview\nThe process of classifying the information into categories and showing relationships between the data for some clearly defined purposes.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply information categorisation in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why information categorisation matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How information categorisation enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "resource description framework query language": "# 📚 Comprehensive Guide: resource description framework query language\n\n## 🎯 Overview\nThe query languages such as SPARQL which are used to retrieve and manipulate data stored in Resource Description Framework format (RDF).\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply resource description framework query language in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why resource description framework query language matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How resource description framework query language enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "query languages": "# 📚 Comprehensive Guide: query languages\n\n## 🎯 Overview\nThe field of standardised computer languages for retrieval of information from a database and of documents containing the needed information.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply query languages in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why query languages matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How query languages enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "online analytical processing": "# 📚 Comprehensive Guide: online analytical processing\n\n## 🎯 Overview\nThe online tools which analyse, aggregate and present multi-dimensional data enabling users to interactively and selectively extract and view data from specific points of view.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply online analytical processing in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why online analytical processing matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How online analytical processing enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "empirical analysis": "# 📚 Comprehensive Guide: empirical analysis\n\n## 🎯 Overview\nThe evidence-based method that is used to analyse and interpret information with the aim of drawing conclusions about a specific issue.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply empirical analysis in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why empirical analysis matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How empirical analysis enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "draft scientific or academic papers and technical documentation": "# 📚 Comprehensive Guide: draft scientific or academic papers and technical documentation\n\n## 🎯 Overview\nDraft and edit scientific, academic or technical texts on different subjects.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply draft scientific or academic papers and technical documentation in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why draft scientific or academic papers and technical documentation matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How draft scientific or academic papers and technical documentation enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "learning_resources": {
+        "online_courses": [
+          "Google Data Analytics Certificate",
+          "IBM Data Science Specialization",
+          "Microsoft Power BI Course"
+        ],
+        "tutorials": [
+          "NumPy Quickstart",
+          "Matplotlib Tutorials",
+          "Pandas Documentation Tutorials"
+        ],
+        "documentation": [
+          "NumPy Documentation",
+          "Pandas Documentation",
+          "Matplotlib Documentation"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "communities": [
+          "Data Science Central",
+          "r/analytics",
+          "KDnuggets Community"
+        ]
+      }
+    },
+    {
+      "session_number": 2,
+      "title": "Data Visualization Fundamentals",
+      "skills": [
+        "data visualization"
+      ],
+      "skill_details": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213",
+          "label": "data visualization",
+          "description": "The visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.",
+          "relation_type": "essential",
+          "priority": 1,
+          "relevance_score": 0.8,
+          "vote_score": 0,
+          "explanation": "Essential skill for this occupation"
+        }
+      ],
+      "duration": "7 hours",
+      "estimated_duration_hours": 7,
+      "difficulty_level": "intermediate",
+      "objectives": [
+        "Create compelling visual narratives",
+        "Master visualization tools"
+      ],
+      "comprehensive_guides": {
+        "data visualization": "# 📚 Comprehensive Guide: data visualization\n\n## 🎯 Overview\nThe visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data visualization in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data visualization matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data visualization enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "learning_resources": {
+        "online_courses": [
+          "Google Data Analytics Certificate",
+          "IBM Data Science Specialization",
+          "Microsoft Power BI Course"
+        ],
+        "tutorials": [
+          "NumPy Quickstart",
+          "Matplotlib Tutorials",
+          "Pandas Documentation Tutorials"
+        ],
+        "documentation": [
+          "NumPy Documentation",
+          "Pandas Documentation",
+          "Matplotlib Documentation"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "communities": [
+          "Data Science Central",
+          "r/analytics",
+          "KDnuggets Community"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "information extraction": [
+      {
+        "title": "Assemblies-of-putative-SARS-CoV2-spike-encoding-mRNA-sequences-for-vaccines-BNT-162b2-and-mRNA-1273 (3,360 stars)",
+        "url": "https://github.com/NAalytics/Assemblies-of-putative-SARS-CoV2-spike-encoding-mRNA-sequences-for-vaccines-BNT-162b2-and-mRNA-1273",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "RNA vaccines have become a key tool in moving forward through the challenges raised both in the current pandemic and in numerous other public health and medical challenges.  With the rollout of vaccines for COVID-19, these synthetic mRNAs have become broadly distributed RNA species in numerous human populations.  Despite their ubiquity, sequences are not always available for such RNAs.  Standard methods facilitate such sequencing.  In this note, we provide experimental sequence information for the RNA components of the initial Moderna (https://pubmed.ncbi.nlm.nih.gov/32756549/) and Pfizer/BioNTech (https://pubmed.ncbi.nlm.nih.gov/33301246/) COVID-19 vaccines, allowing a working assembly of the former and a confirmation of previously reported sequence information for the latter RNA.  Sharing of sequence information for broadly used therapeutics has the benefit of allowing any researchers or clinicians using sequencing approaches to rapidly identify such sequences as therapeutic-derived rather than host or infectious in origin.   For this work, RNAs were obtained as discards from the small portions of vaccine doses that remained in vials after immunization; such portions would have been required to be otherwise discarded and were analyzed under FDA authorization for research use.  To obtain the small amounts of RNA needed for characterization, vaccine remnants were phenol-chloroform extracted using TRIzol Reagent (Invitrogen), with intactness assessed by Agilent 2100 Bioanalyzer before and after extraction.    Although our analysis mainly focused on RNAs obtained as soon as possible following discard, we also analyzed samples which had been refrigerated (~4 ℃) for up to 42 days with and without the addition of EDTA.  Interestingly a substantial fraction of the RNA remained intact in these preparations.  We note that the formulation of the vaccines includes numerous key chemical components which are quite possibly unstable under these conditions-- so these data certainly do not suggest that the vaccine as a biological agent is stable.  But it is of interest that chemical stability of RNA itself is not sufficient to preclude eventual development of vaccines with a much less involved cold-chain storage and transportation.   For further analysis, the initial RNAs were fragmented by heating to 94℃, primed with a random hexamer-tailed adaptor, amplified through a template-switch protocol (Takara SMARTerer Stranded RNA-seq kit), and sequenced using a MiSeq instrument (Illumina) with paired end 78-per end sequencing.  As a reference material in specific assays, we included RNA of known concentration and sequence (from bacteriophage MS2).  From these data, we obtained partial information on strandedness and a set of segments that could be used for assembly.  This was particularly useful for the Moderna vaccine, for which the original vaccine RNA sequence was not available at the time our study was carried out.  Contigs encoding full-length spikes were assembled from the Moderna and Pfizer datasets.  The Pfizer/BioNTech data [Figure 1] verified the reported sequence for that vaccine (https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/), while the Moderna sequence [Figure 2] could not be checked against a published reference.   RNA preparations lacking dsRNA are desirable in generating vaccine formulations as these will minimize an otherwise dramatic biological (and nonspecific) response that vertebrates have to double stranded character in RNA (https://www.nature.com/articles/nrd.2017.243).  In the sequence data that we analyzed, we found that the vast majority of reads were from the expected sense strand.  In addition, the minority of antisense reads appeared different from sense reads in lacking the characteristic extensions expected from the template switching protocol.  Examining only the reads with an evident template switch (as an indicator for strand-of-origin), we observed that both vaccines overwhelmingly yielded sense reads (>99.99%).  Independent sequencing assays and other experimental measurements are ongoing and will be needed to determine whether this template-switched sense read fraction in the SmarterSeq protocol indeed represents the actual dsRNA content in the original material.  This work provides an initial assessment of two RNAs that are now a part of the human ecosystem and that are likely to appear in numerous other high throughput RNA-seq studies in which a fraction of the individuals may have previously been vaccinated.  ProtoAcknowledgements: Thanks to our colleagues for help and suggestions (Nimit Jain, Emily Greenwald, Lamia Wahba, William Wang, Amisha Kumar, Sameer Sundrani, David Lipman, Bijoyita Roy).  Figure 1: Spike-encoding contig assembled from BioNTech/Pfizer BNT-162b2 vaccine.  Although the full coding region is included, the nature of the methodology used for sequencing and assembly is such that the assembled contig could lack some sequence from the ends of the RNA.  Within the assembled sequence, this hypothetical sequence shows a perfect match to the corresponding sequence from documents available online derived from manufacturer communications with the World Health Organization [as reported by https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/].  The 5’ end for the assembly matches the start site noted in these documents, while the read-based assembly lacks an interrupted polyA tail (A30(GCATATGACT)A70) that is expected to be present in the mRNA. ",
+        "is_free": true,
+        "quality_score": 0.0672,
+        "stars": 3360
+      },
+      {
+        "title": "MITIE (2,958 stars)",
+        "url": "https://github.com/mit-nlp/MITIE",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "MITIE: library and tools for information extraction",
+        "is_free": true,
+        "quality_score": 0.05916,
+        "stars": 2958
+      },
+      {
+        "title": "transformers_tasks (2,394 stars)",
+        "url": "https://github.com/HarderThenHarder/transformers_tasks",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "⭐️ NLP Algorithms with transformers lib. Supporting Text-Classification, Text-Generation, Information-Extraction, Text-Matching, RLHF, SFT etc.",
+        "is_free": true,
+        "quality_score": 0.04788,
+        "stars": 2394
+      },
+      {
+        "title": "Information-Extraction-Chinese (2,265 stars)",
+        "url": "https://github.com/crownpku/Information-Extraction-Chinese",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT 中文实体识别与关系提取",
+        "is_free": true,
+        "quality_score": 0.0453,
+        "stars": 2265
+      },
+      {
+        "title": "DeepIE (1,945 stars)",
+        "url": "https://github.com/loujie0822/DeepIE",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "DeepIE: Deep Learning for Information Extraction",
+        "is_free": true,
+        "quality_score": 0.0389,
+        "stars": 1945
+      }
+    ],
+    "scientific literature": [],
+    "data visualization": [
+      {
+        "title": "d3 (111,802 stars)",
+        "url": "https://github.com/d3/d3",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 111802
+      },
+      {
+        "title": "grafana (70,845 stars)",
+        "url": "https://github.com/grafana/grafana",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 70845
+      },
+      {
+        "title": "superset (68,988 stars)",
+        "url": "https://github.com/apache/superset",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 68988
+      },
+      {
+        "title": "echarts (65,028 stars)",
+        "url": "https://github.com/apache/echarts",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+        "is_free": true,
+        "quality_score": 1.0,
+        "stars": 65028
+      },
+      {
+        "title": "metabase (44,595 stars)",
+        "url": "https://github.com/metabase/metabase",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+        "is_free": true,
+        "quality_score": 0.8919,
+        "stars": 44595
+      }
+    ],
+    "empirical analysis": [],
+    "query languages": [
+      {
+        "title": "graphql-spec (14,705 stars)",
+        "url": "https://github.com/graphql/graphql-spec",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "GraphQL is a query language and execution engine tied to any backend service.",
+        "is_free": true,
+        "quality_score": 0.2941,
+        "stars": 14705
+      },
+      {
+        "title": "arangodb (13,992 stars)",
+        "url": "https://github.com/arangodb/arangodb",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",
+        "is_free": true,
+        "quality_score": 0.27984,
+        "stars": 13992
+      },
+      {
+        "title": "WrenAI (12,977 stars)",
+        "url": "https://github.com/Canner/WrenAI",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "⚡️ GenBI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds.",
+        "is_free": true,
+        "quality_score": 0.25954,
+        "stars": 12977
+      },
+      {
+        "title": "fq (10,294 stars)",
+        "url": "https://github.com/wader/fq",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "jq for binary formats - tool, language and decoders for working with binary and text formats",
+        "is_free": true,
+        "quality_score": 0.20588,
+        "stars": 10294
+      },
+      {
+        "title": "obsidian-dataview (8,315 stars)",
+        "url": "https://github.com/blacksmithgu/obsidian-dataview",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "A data index and query language over Markdown files, for https://obsidian.md/.",
+        "is_free": true,
+        "quality_score": 0.1663,
+        "stars": 8315
+      }
+    ],
+    "data visualisation software": [],
+    "resource description framework query language": [],
+    "online analytical processing": [
+      {
+        "title": "mondrian (1,162 stars)",
+        "url": "https://github.com/pentaho/mondrian",
+        "type": "repository",
+        "provider": "GitHub",
+        "description": "Mondrian is an Online Analytical Processing (OLAP) server that enables business users to analyze large quantities of data in real-time.",
+        "is_free": true,
+        "quality_score": 0.02324,
+        "stars": 1162
+      }
+    ],
+    "information categorisation": [],
+    "draft scientific or academic papers and technical documentation": []
+  },
+  "statistics": {
+    "total_hours": 27,
+    "total_skills": 10,
+    "duration_days": 9,
+    "total_sessions": 2,
+    "total_resources": 16
+  },
+  "performance": {
+    "skill_gap_time": 20.77351212501526,
+    "schedule_time": 43.58412575721741,
+    "resources_time": 0.5465378761291504,
+    "total_time": 64.90629005432129
+  }
+}

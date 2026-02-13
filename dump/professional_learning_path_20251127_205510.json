@@ -1,0 +1,526 @@
+{
+  "goal": "I want to become a data scientist",
+  "current_skills": [
+    "Marketing",
+    "Excel",
+    "Basic Statistics"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30",
+    "label": "data scientist",
+    "description": "Data scientists find and interpret rich data sources, manage large amounts of data, merge data sources, ensure consistency of data-sets, and create visualisations to aid in understanding data. They build mathematical models using data, present and communicate data insights and findings to specialists and scientists in their team and if required, to a non-expert audience, and recommend ways to apply the data.",
+    "similarity_score": 0.966967761516571
+  },
+  "total_hours": 41,
+  "sessions": [
+    {
+      "session_number": 1,
+      "title": "Introduction to Data Visualisation and Information Extraction",
+      "duration": 4,
+      "difficulty": "beginner",
+      "objectives": [
+        "Understand the basics of data visualisation principles.",
+        "Learn how to extract information from scientific literature.",
+        "Gain hands-on experience with a data visualisation software."
+      ],
+      "skills": [
+        {
+          "name": "Data Visualisation Software",
+          "uri": "data visualisation software",
+          "resources": [
+            {
+              "title": "Data Science Specialization",
+              "url": "https://www.coursera.org/specializations/jhu-data-science",
+              "type": "course",
+              "provider": "Coursera",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.96,
+              "stars": 0
+            },
+            {
+              "title": "Data Science Full Course",
+              "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+              "type": "video",
+              "provider": "YouTube",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.89,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "name": "Information Extraction",
+          "uri": "information extraction",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.coursera.org/specializations/jhu-data-science",
+              "type": "resource",
+              "provider": "Coursera",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.96,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.89,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session_number": 2,
+      "title": "Data Categorisation and Normalisation for Analysis",
+      "duration": 3,
+      "difficulty": "beginner",
+      "objectives": [
+        "Learn techniques for information categorisation.",
+        "Understand the importance of data normalisation.",
+        "Apply normalisation techniques to a sample dataset."
+      ],
+      "skills": [
+        {
+          "name": "Normalise Data",
+          "uri": "normalise data",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.coursera.org/specializations/jhu-data-science",
+              "type": "resource",
+              "provider": "Coursera",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.96,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.89,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session_number": 3,
+      "title": "Introduction to Query Languages and Resource Description Framework Query Language",
+      "duration": 4,
+      "difficulty": "intermediate",
+      "objectives": [
+        "Understand the fundamentals of query languages.",
+        "Learn the basics of Resource Description Framework Query Language (SPARQL).",
+        "Write simple queries to retrieve information."
+      ],
+      "skills": [
+        {
+          "name": "Query Languages",
+          "uri": "query languages",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.postgresql.org/docs/",
+              "type": "resource",
+              "provider": "PostgreSQL",
+              "description": "Official PostgreSQL documentation",
+              "is_free": true,
+              "quality_score": 1.0,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "Complete SQL course (4 hours)",
+              "is_free": true,
+              "quality_score": 0.98,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://roadmap.sh/courses/sql",
+              "type": "resource",
+              "provider": "roadmap.sh",
+              "description": "Comprehensive SQL course from beginner to advanced",
+              "is_free": true,
+              "quality_score": 0.95,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://sqlbolt.com/",
+              "type": "resource",
+              "provider": "SQLBolt",
+              "description": "Interactive SQL exercises",
+              "is_free": true,
+              "quality_score": 0.9,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "name": "Resource Description Framework Query Language",
+          "uri": "resource description framework query language",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.postgresql.org/docs/",
+              "type": "resource",
+              "provider": "PostgreSQL",
+              "description": "Official PostgreSQL documentation",
+              "is_free": true,
+              "quality_score": 1.0,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "Complete SQL course (4 hours)",
+              "is_free": true,
+              "quality_score": 0.98,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://roadmap.sh/courses/sql",
+              "type": "resource",
+              "provider": "roadmap.sh",
+              "description": "Comprehensive SQL course from beginner to advanced",
+              "is_free": true,
+              "quality_score": 0.95,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://sqlbolt.com/",
+              "type": "resource",
+              "provider": "SQLBolt",
+              "description": "Interactive SQL exercises",
+              "is_free": true,
+              "quality_score": 0.9,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session_number": 4,
+      "title": "Data Processing Techniques and Online Analytical Processing (OLAP)",
+      "duration": 4,
+      "difficulty": "intermediate",
+      "objectives": [
+        "Learn various data processing techniques.",
+        "Understand the principles of Online Analytical Processing (OLAP).",
+        "Apply data processing techniques to prepare data for OLAP."
+      ],
+      "skills": [
+        {
+          "name": "Use Data Processing Techniques",
+          "uri": "use data processing techniques",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.coursera.org/specializations/jhu-data-science",
+              "type": "resource",
+              "provider": "Coursera",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.96,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.89,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "name": "Online Analytical Processing",
+          "uri": "online analytical processing",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.coursera.org/specializations/jhu-data-science",
+              "type": "resource",
+              "provider": "Coursera",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.96,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.89,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session_number": 5,
+      "title": "Managing Research Data and Empirical Analysis",
+      "duration": 4,
+      "difficulty": "intermediate",
+      "objectives": [
+        "Learn best practices for managing research data.",
+        "Understand the principles of empirical analysis.",
+        "Apply empirical analysis techniques to a dataset."
+      ],
+      "skills": [
+        {
+          "name": "Manage Research Data",
+          "uri": "manage research data",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.coursera.org/specializations/jhu-data-science",
+              "type": "resource",
+              "provider": "Coursera",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.96,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.89,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session_number": 7,
+      "title": "Advanced Data Visualisation and Querying for Research",
+      "duration": 6,
+      "difficulty": "advanced",
+      "objectives": [
+        "Create advanced data visualisations to communicate research findings.",
+        "Use query languages to extract specific information from large datasets.",
+        "Combine data visualisation and querying techniques to answer research questions."
+      ],
+      "skills": [
+        {
+          "name": "Data Visualisation Software",
+          "uri": "data visualisation software",
+          "resources": [
+            {
+              "title": "Data Science Specialization",
+              "url": "https://www.coursera.org/specializations/jhu-data-science",
+              "type": "course",
+              "provider": "Coursera",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.96,
+              "stars": 0
+            },
+            {
+              "title": "Data Science Full Course",
+              "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+              "type": "video",
+              "provider": "YouTube",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.89,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "name": "Query Languages",
+          "uri": "query languages",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.postgresql.org/docs/",
+              "type": "resource",
+              "provider": "PostgreSQL",
+              "description": "Official PostgreSQL documentation",
+              "is_free": true,
+              "quality_score": 1.0,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "Complete SQL course (4 hours)",
+              "is_free": true,
+              "quality_score": 0.98,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://roadmap.sh/courses/sql",
+              "type": "resource",
+              "provider": "roadmap.sh",
+              "description": "Comprehensive SQL course from beginner to advanced",
+              "is_free": true,
+              "quality_score": 0.95,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://sqlbolt.com/",
+              "type": "resource",
+              "provider": "SQLBolt",
+              "description": "Interactive SQL exercises",
+              "is_free": true,
+              "quality_score": 0.9,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session_number": 8,
+      "title": "Integrating Skills: From Literature Review to Publication",
+      "duration": 12,
+      "difficulty": "advanced",
+      "objectives": [
+        "Integrate all learned skills to conduct a mini-research project.",
+        "Extract information from scientific literature, analyse data, and draft a scientific paper.",
+        "Manage research data effectively throughout the project."
+      ],
+      "skills": [
+        {
+          "name": "Information Extraction",
+          "uri": "information extraction",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.coursera.org/specializations/jhu-data-science",
+              "type": "resource",
+              "provider": "Coursera",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.96,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.89,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "name": "Data Visualisation Software",
+          "uri": "data visualisation software",
+          "resources": [
+            {
+              "title": "Data Science Specialization",
+              "url": "https://www.coursera.org/specializations/jhu-data-science",
+              "type": "course",
+              "provider": "Coursera",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.96,
+              "stars": 0
+            },
+            {
+              "title": "Data Science Full Course",
+              "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+              "type": "video",
+              "provider": "YouTube",
+              "description": "",
+              "is_free": true,
+              "quality_score": 0.89,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "name": "Query Languages",
+          "uri": "query languages",
+          "resources": [
+            {
+              "title": "Resource",
+              "url": "https://www.postgresql.org/docs/",
+              "type": "resource",
+              "provider": "PostgreSQL",
+              "description": "Official PostgreSQL documentation",
+              "is_free": true,
+              "quality_score": 1.0,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+              "type": "resource",
+              "provider": "YouTube",
+              "description": "Complete SQL course (4 hours)",
+              "is_free": true,
+              "quality_score": 0.98,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://roadmap.sh/courses/sql",
+              "type": "resource",
+              "provider": "roadmap.sh",
+              "description": "Comprehensive SQL course from beginner to advanced",
+              "is_free": true,
+              "quality_score": 0.95,
+              "stars": 0
+            },
+            {
+              "title": "Resource",
+              "url": "https://sqlbolt.com/",
+              "type": "resource",
+              "provider": "SQLBolt",
+              "description": "Interactive SQL exercises",
+              "is_free": true,
+              "quality_score": 0.9,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

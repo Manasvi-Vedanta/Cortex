@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:08:28.875098",
+      "learning_path_id": "test_09",
+      "target_occupation": "mobile application developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Android Studio is the official IDE for Android development, providing editing, building, running, and debugging tools.",
+        "id": 1,
+        "options": {
+          "A": "Designing and building Android apps using an IDE with tools like code editor, emulator, and profilers",
+          "B": "Hosting Android apps in the cloud for deployment",
+          "C": "Replacing the Android operating system on a device",
+          "D": "Encrypting application data at rest"
+        },
+        "question": "What is Android Studio primarily used for in mobile app development?",
+        "topic": "Android Studio"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Android SDK includes libraries (APIs) and tools (like adb, build tools) required to build, run, and test Android apps.",
+        "id": 2,
+        "options": {
+          "A": "A set of APIs, platform tools, and build tools needed to develop and test Android apps",
+          "B": "A database server for storing user data remotely",
+          "C": "A UI framework that only supports iOS",
+          "D": "A version control system for managing source code"
+        },
+        "question": "What does the Android SDK provide to developers?",
+        "topic": "Android Sdk"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Kotlin uses 'val' for read-only references and 'var' for mutable references.",
+        "id": 3,
+        "options": {
+          "A": "var",
+          "B": "val",
+          "C": "let",
+          "D": "constfun"
+        },
+        "question": "In Kotlin, which keyword declares a read-only (immutable) variable reference?",
+        "topic": "Kotlin"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is a widely used version control system, a core tool for software configuration management.",
+        "id": 4,
+        "options": {
+          "A": "Git",
+          "B": "SQLite",
+          "C": "Logcat",
+          "D": "Jetpack Compose"
+        },
+        "question": "Which tool is most directly associated with software configuration management for tracking code changes and collaboration?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "applicationId and minSdk are configured in the module (app) Gradle file inside android { defaultConfig { ... } }.",
+        "id": 5,
+        "options": {
+          "A": "AndroidManifest.xml only",
+          "B": "The module-level build.gradle(.kts) file under the android { defaultConfig { ... } } block",
+          "C": "settings.gradle(.kts) under pluginManagement",
+          "D": "gradle.properties under org.gradle.jvmargs"
+        },
+        "question": "In Gradle for Android, where do you typically set the app's applicationId and minSdk version?",
+        "topic": "Gradle (Android Build System)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "@Composable marks functions that participate in Compose's UI rendering and recomposition system.",
+        "id": 6,
+        "options": {
+          "A": "It marks a function as a UI-building function that can emit Compose UI elements",
+          "B": "It forces a function to run on a background thread",
+          "C": "It converts JSON into Kotlin data classes automatically",
+          "D": "It enables SQL queries to be validated at compile time"
+        },
+        "question": "In Jetpack Compose, what is the primary purpose of the @Composable annotation?",
+        "topic": "Jetpack Compose"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Coroutines with suspend functions (commonly with Retrofit) allow non-blocking network calls, typically dispatched on Dispatchers.IO.",
+        "id": 7,
+        "options": {
+          "A": "Run the network call on the main thread and catch exceptions",
+          "B": "Use Kotlin coroutines and call the API from a suspend function (e.g., via Retrofit) on an IO dispatcher",
+          "C": "Use Thread.sleep() to wait for the response",
+          "D": "Store the URL in SharedPreferences and let Android fetch it automatically"
+        },
+        "question": "You need to fetch data from a REST API without blocking the UI thread. Which approach is most appropriate in a modern Android app using Kotlin?",
+        "topic": "Coroutines"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "ViewModel is lifecycle-aware and survives configuration changes, making it the correct place to keep UI state and data streams.",
+        "id": 8,
+        "options": {
+          "A": "Use a ViewModel to hold state and expose it via StateFlow/LiveData; collect it in the UI",
+          "B": "Store all UI state in local variables inside the Composable",
+          "C": "Put the state in an Activity companion object",
+          "D": "Write the state to a file on every recomposition"
+        },
+        "question": "A Compose screen collects a Flow from a ViewModel. After rotating the device, the UI restarts and the data reloads unnecessarily. Which Jetpack component and pattern best helps retain UI-related state across configuration changes?",
+        "topic": "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Room requires version bumps and migrations for schema changes; adding a non-null column typically needs a default/backfill to keep existing rows valid.",
+        "id": 9,
+        "options": {
+          "A": "Increase the database version and provide a proper Room migration that adds the column with a default value (or backfills data)",
+          "B": "Delete the app's database file on startup",
+          "C": "Disable Room schema validation",
+          "D": "Keep the version the same so Room won't notice the change"
+        },
+        "question": "You are using Room for local persistence. You add a new non-null column to an existing table in production. What is the most robust way to prevent crashes on upgrade while preserving user data?",
+        "topic": "Sqlite/Room Persistence"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "SingletonComponent with @Singleton ensures one instance for the app process, which is the standard approach for app-wide repositories.",
+        "id": 10,
+        "options": {
+          "A": "Annotate the repository with @ActivityScoped and inject it into Activities only",
+          "B": "Provide/bind the repository in a Hilt module installed in SingletonComponent and annotate it with @Singleton",
+          "C": "Create the repository with 'new' inside every Composable to ensure freshness",
+          "D": "Use a static global variable without Hilt to avoid dependency graphs"
+        },
+        "question": "In an Android app using Hilt, you want a single instance of a repository shared across the entire app process. Which setup is correct?",
+        "topic": "Dependency Injection (Hilt/Dagger)"
+      }
+    ],
+    "topics_covered": [
+      "Android Studio",
+      "Android Sdk",
+      "Kotlin",
+      "Gradle (Android Build System)",
+      "integrated development environment software",
+      "programming",
+      "debug software",
+      "Jetpack Compose",
+      "Android Jetpack (Lifecycle/Viewmodel/Room/Navigation)",
+      "Coroutines",
+      "Rest Apis (Json/Http)",
+      "Sqlite/Room Persistence",
+      "Dependency Injection (Hilt/Dagger)",
+      "tools for software configuration management",
+      "digital systems"
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,51 @@
+{
+  "count": 5,
+  "resources": [
+    {
+      "description": "Video tutorials for python programming",
+      "is_free": true,
+      "provider": "YouTube",
+      "relevance_score": 0.8,
+      "title": "python programming Tutorial - YouTube",
+      "type": "video",
+      "url": "https://www.youtube.com/results?search_query=python+programming+tutorial"
+    },
+    {
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "is_free": true,
+      "provider": "GitHub",
+      "relevance_score": 0.7,
+      "title": "system-design-primer",
+      "type": "repository",
+      "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    {
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version in translation",
+      "is_free": true,
+      "provider": "GitHub",
+      "relevance_score": 0.7,
+      "title": "hello-algo",
+      "type": "repository",
+      "url": "https://github.com/krahets/hello-algo"
+    },
+    {
+      "description": "Articles and guides about python programming",
+      "is_free": true,
+      "provider": "Medium",
+      "relevance_score": 0.6,
+      "title": "python programming Articles - Medium",
+      "type": "article",
+      "url": "https://medium.com/search?q=python+programming"
+    },
+    {
+      "description": "Official documentation for python programming",
+      "is_free": true,
+      "provider": "Official",
+      "relevance_score": 0.9,
+      "title": "python programming Official Documentation",
+      "type": "documentation",
+      "url": "https://docs.pythonprogramming.org"
+    }
+  ],
+  "skill": "python programming"
+}

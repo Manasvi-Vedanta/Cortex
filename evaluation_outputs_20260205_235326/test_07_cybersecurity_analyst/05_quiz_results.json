@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:05:01.629966",
+    "detailed_results": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The Internet layer (IP) handles logical addressing and routing packets across networks.",
+        "is_correct": false,
+        "question": "Which TCP/IP layer is responsible for routing packets between networks?",
+        "question_id": 1,
+        "topic": "Tcp/Ip And Networking Fundamentals",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Firewalls enforce policy by allowing or blocking network traffic based on defined rules (e.g., IPs, ports, protocols).",
+        "is_correct": true,
+        "question": "What is the primary purpose of a firewall in network security?",
+        "question_id": 2,
+        "topic": "Network Security",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Timestamps allow analysts to sequence and correlate events across multiple sources during investigations.",
+        "is_correct": false,
+        "question": "In log analysis, what does a timestamp primarily enable you to do?",
+        "question_id": 3,
+        "topic": "Log Analysis",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Research methodology emphasizes hypothesis-driven inquiry, systematic data collection, and evaluation to support or refute claims.",
+        "is_correct": false,
+        "question": "Which statement best describes scientific research methodology?",
+        "question_id": 4,
+        "topic": "scientific research methodology",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Correlation links related events across sources (e.g., suspicious login followed by privilege escalation) to detect attack chains.",
+        "is_correct": false,
+        "question": "A SIEM ingests logs from endpoints, servers, and firewalls. Which capability most directly helps detect multi-step attacks spanning multiple systems?",
+        "question_id": 5,
+        "topic": "Security Monitoring (Siem)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "GPOs centrally enforce configurations (e.g., password policy, audit settings) across users and computers in a domain.",
+        "is_correct": true,
+        "question": "In Windows Active Directory, which object is primarily used to apply security settings and configurations to many computers or users at once?",
+        "question_id": 6,
+        "topic": "Windows Security And Active Directory",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Open-source services are typically configured via text-based config files; validating syntax and reloading applies changes safely.",
+        "is_correct": true,
+        "question": "You are operating an open-source web server (e.g., Nginx/Apache) and need to change its behavior. Which action is generally the most appropriate first step?",
+        "question_id": 7,
+        "topic": "operate open source software",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "EDR containment limits lateral movement and data exfiltration while keeping the system running for triage and evidence acquisition.",
+        "is_correct": false,
+        "question": "An EDR alert shows: 'powershell.exe spawned by winword.exe' followed by a network connection to an unfamiliar domain and creation of a scheduled task. What is the best immediate incident response action to reduce impact while preserving evidence?",
+        "question_id": 8,
+        "topic": "Incident Response",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "When patches are unavailable, applying mitigations and compensating controls while tracking remediation timelines is standard risk management.",
+        "is_correct": false,
+        "question": "A vulnerability scanner reports a critical CVE on a production Linux server. The package manager shows the vendor patch is not yet available, but a configuration workaround exists. What is the best risk-based approach?",
+        "question_id": 9,
+        "topic": "Vulnerability Management",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Behavioral baselining (per user/source) helps distinguish normal patterns from suspicious spikes, reducing false positives in detection rules.",
+        "is_correct": false,
+        "question": "You are building a threat detection rule using an application-specific query interface (e.g., KQL/SPL). You want to reduce false positives for 'multiple failed logins' by accounting for normal user behavior. Which approach is most effective?",
+        "question_id": 10,
+        "topic": "Threat Detection And Analysis",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: Tcp/Ip And Networking Fundamentals, Log Analysis, scientific research methodology",
+      "✅ Your strongest areas: Network Security, Windows Security And Active Directory"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Network Security",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Windows Security And Active Directory",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "operate open source software",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Tcp/Ip And Networking Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Log Analysis",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "scientific research methodology",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Security Monitoring (Siem)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Incident Response",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Vulnerability Management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Threat Detection And Analysis",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

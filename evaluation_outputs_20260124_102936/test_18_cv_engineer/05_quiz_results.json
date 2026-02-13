@@ -1,0 +1,194 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:48:49.688355",
+    "detailed_results": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "NumPy arrays are the standard for representing images and performing numerical computations efficiently in Python, forming the backbone for most deep learning frameworks when handling data.",
+        "is_correct": false,
+        "question": "Which Python library is primarily used for numerical operations and is fundamental for handling image data as multi-dimensional arrays in computer vision?",
+        "question_id": 1,
+        "topic": "Python",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Supervised learning algorithms learn to map input data (like images) to desired output labels (like categories or bounding box coordinates) based on a pre-labeled dataset.",
+        "is_correct": false,
+        "question": "In supervised learning for computer vision, what does a model primarily learn from?",
+        "question_id": 2,
+        "topic": "Machine Learning",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Tensors are multi-dimensional arrays that are the core data structure for numerical computation and data representation in deep learning frameworks like TensorFlow and PyTorch.",
+        "is_correct": true,
+        "question": "What is the fundamental data structure used in both TensorFlow and PyTorch to represent all data, including images, model weights, and gradients?",
+        "question_id": 3,
+        "topic": "TensorFlow / PyTorch",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Loops are fundamental programming constructs for iterating over collections of data, such as pixels in an image, to apply transformations, perform calculations, or access individual elements.",
+        "is_correct": true,
+        "question": "Which programming construct is most suitable for iterating through pixels of an image or elements of a batch of images for processing?",
+        "question_id": 4,
+        "topic": "Programming",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Convolutional layers apply filters to small receptive fields of an input image, enabling the detection and extraction of hierarchical local features such as edges, corners, and more complex patterns, which are crucial for image understanding.",
+        "is_correct": true,
+        "question": "In a Convolutional Neural Network (CNN) used for image classification, what is the primary role of a convolutional layer?",
+        "question_id": 5,
+        "topic": "TensorFlow / PyTorch",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "MLflow Tracking is the component that allows you to log and query experiments, including parameters, metrics, code versions, and output files (like models), providing a centralized repository for experiment metadata.",
+        "is_correct": false,
+        "question": "A computer vision engineer wants to track multiple experiments, log parameters, metrics, and models for an image segmentation task. Which MLflow component is designed specifically for this purpose?",
+        "question_id": 6,
+        "topic": "MLflow",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Computer simulation is invaluable for autonomous driving CV by creating synthetic datasets with varied conditions (weather, lighting), rare events (accidents), and perfect annotations, which are costly, dangerous, or impossible to obtain purely from real-world data.",
+        "is_correct": false,
+        "question": "How can computer simulation specifically benefit a computer vision project focused on autonomous driving?",
+        "question_id": 7,
+        "topic": "Computer Simulation",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "PyTorch's eager execution and dynamic computation graphs (which rebuild on the fly for each forward pass) make it highly flexible and easier for debugging and implementing complex, custom research models, aligning well with a Pythonic development workflow. While TensorFlow 2.x also supports eager execution, PyTorch pioneered this approach for deep learning frameworks.",
+        "is_correct": true,
+        "question": "A CV engineer needs to implement a highly customized research model with dynamic graph execution, extensive debugging capabilities, and eager execution by default. Which deep learning framework would generally be preferred for this scenario, and why?",
+        "question_id": 8,
+        "topic": "PyTorch",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Kubeflow Pipelines provide an end-to-end orchestration platform for machine learning workflows, allowing users to define, deploy, and manage multi-step ML pipelines on Kubernetes, encompassing data preparation, distributed training, hyperparameter tuning, and model deployment.",
+        "is_correct": true,
+        "question": "For a large-scale computer vision project involving distributed training of models, hyperparameter tuning, and seamless deployment on a Kubernetes cluster, which Kubeflow component is crucial for orchestrating the entire workflow?",
+        "question_id": 9,
+        "topic": "Kubeflow",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "This scenario describes data drift or domain shift, where the distribution of the deployed data differs from the training data. Addressing this requires strategies that enhance the model's generalization capabilities to new environments, such as robust data augmentation, fine-tuning with transfer learning on representative target domain data, or collecting more diverse data that covers the new conditions.",
+        "is_correct": false,
+        "question": "A deep learning model trained for object detection in security camera footage performs well on the training and validation sets but struggles significantly when deployed to a new environment with different lighting conditions and camera angles. What is the most likely underlying issue, and what is the primary strategy to address it?",
+        "question_id": 10,
+        "topic": "Machine Learning",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Needs Improvement",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Python, Machine Learning, MLflow",
+      "✅ Your strongest areas: TensorFlow / PyTorch, Programming"
+    ],
+    "score": {
+      "correct": 5,
+      "grade": "C-",
+      "incorrect": 5,
+      "percentage": 50.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 2,
+        "topic": "TensorFlow / PyTorch",
+        "total": 2
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Programming",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "PyTorch",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kubeflow",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Machine Learning",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "MLflow",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Computer Simulation",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

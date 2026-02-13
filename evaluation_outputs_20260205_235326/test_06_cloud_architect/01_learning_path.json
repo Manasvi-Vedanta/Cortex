@@ -1,0 +1,241 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify core building blocks across major cloud platforms",
+        "Map common workloads to appropriate core services",
+        "Explain how cloud technologies enable elasticity and managed operations"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Aws/Azure/Gcp Core Services",
+        "cloud technologies"
+      ],
+      "title": "Cloud Foundations: Core Services and Cloud Technologies"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design cloud architecture for a simple web application",
+        "Apply common cloud architecture patterns to meet availability and cost goals",
+        "Document architecture decisions and tradeoffs"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services",
+        "cloud technologies"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Cloud Architecture & Design Patterns",
+        "design cloud architecture"
+      ],
+      "title": "Architecture Basics: Design Cloud Architecture with Patterns"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement least-privilege access using RBAC and policies",
+        "Protect sensitive data using KMS and secrets management",
+        "Validate access boundaries for common cloud resources"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Security & Iam (Rbac, Policies, Kms, Secrets)"
+      ],
+      "title": "Security Foundations: IAM, Policies, and Secrets"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Provision a baseline environment using Infrastructure as Code",
+        "Manage configuration changes safely through versioned templates",
+        "Apply consistent naming, tagging, and environment separation"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services",
+        "Security & Iam (Rbac, Policies, Kms, Secrets)"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Infrastructure As Code (Terraform/Cloudformation/Bicep)"
+      ],
+      "title": "Infrastructure as Code: Repeatable Environments"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select between SQL, NoSQL, and object storage for given requirements",
+        "Design data storage for durability, performance, and cost",
+        "Plan backups and recovery approaches aligned to workload needs"
+      ],
+      "prerequisites": [
+        "Cloud Architecture & Design Patterns",
+        "Aws/Azure/Gcp Core Services"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Data Storage & Databases (Sql/Nosql/Object Storage)"
+      ],
+      "title": "Data Layer: Choosing and Operating Storage and Databases"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Containerize an application using Docker",
+        "Define runtime configuration and image versioning practices",
+        "Assess container security and operational considerations"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Containers (Docker)"
+      ],
+      "title": "Containers: Packaging Applications with Docker"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Deploy containerized workloads to a managed Kubernetes service",
+        "Configure scaling and basic service exposure patterns",
+        "Apply cluster-level access controls and workload isolation"
+      ],
+      "prerequisites": [
+        "Containers (Docker)",
+        "Aws/Azure/Gcp Core Services"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Kubernetes (Eks/Aks/Gke)",
+        "Security & Iam (Rbac, Policies, Kms, Secrets)"
+      ],
+      "title": "Kubernetes: Running Workloads on Managed Clusters"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create a CI/CD pipeline that builds and deploys an application",
+        "Integrate Infrastructure as Code into deployment workflows",
+        "Implement gated releases and environment promotion"
+      ],
+      "prerequisites": [
+        "Containers (Docker)",
+        "Kubernetes (Eks/Aks/Gke)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Devops & Ci/Cd Pipelines (Github Actions/Jenkins/Azure Devops)",
+        "Infrastructure As Code (Terraform/Cloudformation/Bicep)"
+      ],
+      "title": "CI/CD: Automated Build and Deployment Pipelines"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Instrument and collect key metrics and logs for cloud workloads",
+        "Build dashboards and alerts for service health and SLO tracking",
+        "Establish actionable alerting to reduce noise"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services",
+        "Devops & Ci/Cd Pipelines (Github Actions/Jenkins/Azure Devops)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Monitoring & Observability (Cloudwatch/Azure Monitor/Prometheus/Grafana)",
+        "cloud monitoring and reporting"
+      ],
+      "title": "Observability: Metrics, Logs, Dashboards, and Alerts"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain scalability, consistency, and fault tolerance tradeoffs",
+        "Design failure-aware architectures and graceful degradation approaches",
+        "Evaluate system behavior under partial failures and load spikes"
+      ],
+      "prerequisites": [
+        "Cloud Architecture & Design Patterns",
+        "Data Storage & Databases (Sql/Nosql/Object Storage)"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Distributed Systems (Scalability, Consistency, Fault Tolerance)",
+        "Cloud Architecture & Design Patterns"
+      ],
+      "title": "Distributed Systems: Designing for Scale and Resilience"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Assess an existing workload and identify refactoring opportunities",
+        "Plan a refactoring approach that reduces operational overhead",
+        "Validate refactoring outcomes against reliability and performance goals"
+      ],
+      "prerequisites": [
+        "Distributed Systems (Scalability, Consistency, Fault Tolerance)",
+        "Devops & Ci/Cd Pipelines (Github Actions/Jenkins/Azure Devops)",
+        "Infrastructure As Code (Terraform/Cloudformation/Bicep)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "do cloud refactoring",
+        "Cloud Architecture & Design Patterns",
+        "Aws/Azure/Gcp Core Services"
+      ],
+      "title": "Cloud Refactoring: Modernizing for Managed Services and Containers"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Respond to incidents in cloud using monitoring signals and runbooks",
+        "Perform triage to isolate blast radius and restore service",
+        "Produce incident reports using cloud monitoring and reporting outputs"
+      ],
+      "prerequisites": [
+        "Monitoring & Observability (Cloudwatch/Azure Monitor/Prometheus/Grafana)",
+        "Security & Iam (Rbac, Policies, Kms, Secrets)",
+        "Distributed Systems (Scalability, Consistency, Fault Tolerance)"
+      ],
+      "session_number": 12,
+      "skills": [
+        "respond to incidents in cloud",
+        "Monitoring & Observability (Cloudwatch/Azure Monitor/Prometheus/Grafana)",
+        "cloud monitoring and reporting"
+      ],
+      "title": "Incident Response: Detect, Triage, and Recover in Cloud"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Cloud engineers are responsible for the design, planning, management and maintenance of cloud-based systems. They develop and implement cloud-applications, handle the migration of existing on-premise applications to the cloud, and debug cloud stacks.",
+    "label": "cloud engineer",
+    "similarity_score": 0.9372993111610413,
+    "uri": "http://data.europa.eu/esco/occupation/349ee6f6-c295-4c38-9b98-48765b55280e"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 32,
+    "skills_in_path": 12,
+    "skills_to_learn": 32,
+    "total_skills_needed": 36
+  },
+  "user_id": "eval_user_06"
+}

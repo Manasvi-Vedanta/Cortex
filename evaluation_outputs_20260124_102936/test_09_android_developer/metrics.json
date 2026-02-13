@@ -1,0 +1,52 @@
+{
+  "test_id": "09",
+  "goal": "I want to become an Android App Developer.",
+  "short_name": "Android Developer",
+  "category": "Mobile Development",
+  "matched_occupation": "mobile application developer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c",
+  "similarity_score": 0.8564530611038208,
+  "total_skills": 15,
+  "total_sessions": 3,
+  "skills_list": [
+    "programming",
+    "use logic programming",
+    "use object-oriented programming",
+    "JavaScript",
+    "Android (mobile operating systems)",
+    "mobile operating systems",
+    "mobile device software frameworks",
+    "integrated development environment software",
+    "use software design patterns",
+    "tools for software configuration management",
+    "Internet of Things",
+    "debug software",
+    "analyse software specifications",
+    "Java",
+    "ICT debugging tools"
+  ],
+  "session_durations": [
+    20,
+    20,
+    16
+  ],
+  "path_generation_time": 8.322185039520264,
+  "quiz_generation_time": 25.619992971420288,
+  "total_test_time": 62.132132053375244,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 50.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

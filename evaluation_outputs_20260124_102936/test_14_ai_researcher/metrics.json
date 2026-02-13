@@ -1,0 +1,50 @@
+{
+  "test_id": "14",
+  "goal": "I want to become an AI Research Scientist.",
+  "short_name": "AI Researcher",
+  "category": "AI/ML",
+  "matched_occupation": "computer scientist",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e",
+  "similarity_score": 0.8482394814491272,
+  "total_skills": 15,
+  "total_sessions": 1,
+  "skills_list": [
+    "scientific research methodology",
+    "manage research data",
+    "write research proposals",
+    "interact professionally in research and professional environments",
+    "evaluate research activities",
+    "perform scientific research",
+    "apply for research funding",
+    "conduct quantitative research",
+    "apply research ethics and scientific integrity principles in research activities",
+    "promote open innovation in research",
+    "conduct research interview",
+    "publish academic research",
+    "execute ICT user research activities",
+    "synthesise research publications",
+    "conduct scholarly research"
+  ],
+  "session_durations": [
+    20
+  ],
+  "path_generation_time": 8.786869525909424,
+  "quiz_generation_time": 26.650161743164062,
+  "total_test_time": 63.60198903083801,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 50.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

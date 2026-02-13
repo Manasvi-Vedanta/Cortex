@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:28:06.148616",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Horizontal scaling (scale out) increases capacity by adding more machines/instances behind a load balancer rather than upgrading a single machine.",
+        "is_correct": false,
+        "question": "In system design discussions, what does 'horizontal scaling' mean?",
+        "question_id": 1,
+        "topic": "System Design",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "GET is the standard REST method for reading/retrieving resources and should be safe and idempotent.",
+        "is_correct": false,
+        "question": "Which HTTP method is typically used to retrieve a resource in a REST API without modifying it?",
+        "question_id": 2,
+        "topic": "Api Design (Rest/Graphql)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "SQL databases are designed for structured data with relationships, constraints, and efficient joins.",
+        "is_correct": false,
+        "question": "Which database type is generally best suited for enforcing complex relationships and joins (e.g., orders, customers, invoices)?",
+        "question_id": 3,
+        "topic": "Database Design (Sql/Nosql)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A lead is typically an unqualified or early-stage prospect that may later become an opportunity after qualification.",
+        "is_correct": true,
+        "question": "In a CRM, what is a 'lead' most commonly?",
+        "question_id": 4,
+        "topic": "use customer relationship management software",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A balanced test pyramid reduces risk and cost: unit tests are fast, integration tests validate boundaries, and a limited E2E suite protects key workflows.",
+        "is_correct": true,
+        "question": "A prospect asks, 'How do you ensure changes don’t break existing functionality?' Which answer best describes a practical automated testing strategy?",
+        "question_id": 5,
+        "topic": "Automated Testing (Unit/Integration/E2E)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Canary/blue-green plus automated rollback and feature flags limit blast radius and enable quick recovery if issues are detected.",
+        "is_correct": false,
+        "question": "A customer wants faster, safer releases. Which CI/CD pipeline practice most directly reduces the risk of deploying a bad build?",
+        "question_id": 6,
+        "topic": "Ci/Cd Pipelines",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Tracing shows request paths across services; metrics quantify behavior; structured logs add context—together they enable root-cause analysis for latency.",
+        "is_correct": false,
+        "question": "A buyer asks for 'end-to-end visibility' when diagnosing latency across microservices. Which observability combination best supports this?",
+        "question_id": 7,
+        "topic": "Observability (Logging/Metrics/Tracing)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Credential stuffing is mitigated with rate limits, strong authentication controls (including MFA), and detection/monitoring; HTTPS and secure password storage are mandatory.",
+        "is_correct": false,
+        "question": "A customer requires that a public API cannot be abused by credential stuffing and must protect user accounts. Which approach is the best recommendation?",
+        "question_id": 8,
+        "topic": "Security Engineering (Appsec)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Multi-region architectures with replication and automated failover maintain availability when a region fails, at the cost of added complexity and potential consistency trade-offs.",
+        "is_correct": false,
+        "question": "A prospect is designing a globally distributed system and asks how to keep the service available during a regional cloud outage. What architecture best addresses this requirement?",
+        "question_id": 9,
+        "topic": "Distributed Systems",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A trace/correlation ID and precise time window enable targeted investigation across logs/metrics/traces and help correlate incidents with deployments or configuration changes.",
+        "is_correct": false,
+        "question": "During a technical sales call, the customer reports intermittent 500 errors and slow responses. You have limited time and need to guide next steps. What is the most effective troubleshooting request to make first?",
+        "question_id": 10,
+        "topic": "Debugging And Troubleshooting",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: System Design, Api Design (Rest/Graphql), Database Design (Sql/Nosql)",
+      "✅ Your strongest areas: use customer relationship management software, Automated Testing (Unit/Integration/E2E)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "use customer relationship management software",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Automated Testing (Unit/Integration/E2E)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "System Design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Api Design (Rest/Graphql)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Database Design (Sql/Nosql)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ci/Cd Pipelines",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Observability (Logging/Metrics/Tracing)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Security Engineering (Appsec)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Debugging And Troubleshooting",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

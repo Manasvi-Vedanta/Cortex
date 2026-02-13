@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:12:51.097525",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Indexes create data structures (e.g., B-trees) that allow faster lookups and range scans, reducing the amount of data the DB must scan.",
+        "is_correct": true,
+        "question": "In a relational DBMS, what is the primary purpose of an index?",
+        "question_id": 1,
+        "topic": "database management systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "WHERE filters rows before aggregation; HAVING filters groups after aggregation has been computed.",
+        "is_correct": true,
+        "question": "Which SQL clause is used to filter rows after aggregation (e.g., after a GROUP BY)?",
+        "question_id": 2,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Fact tables capture measurable events (facts) and link to dimension tables via foreign keys.",
+        "is_correct": false,
+        "question": "In dimensional modeling, what best describes a fact table?",
+        "question_id": 3,
+        "topic": "Data Modeling",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A set stores unique elements and provides average O(1) membership checks via hashing.",
+        "is_correct": false,
+        "question": "Which Python data structure is best suited for storing unique values and performing fast membership checks?",
+        "question_id": 4,
+        "topic": "Python",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "MERGE (or equivalent upsert syntax) matches source to target keys to update existing rows and insert non-matching rows.",
+        "is_correct": false,
+        "question": "You need to load data from a staging table into a target table, updating existing rows and inserting new ones in a single statement. Which SQL pattern is most appropriate?",
+        "question_id": 5,
+        "topic": "Etl/Elt Pipeline Development",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Modern warehouses commonly separate storage from compute so you can scale compute clusters independently while data remains in centralized storage.",
+        "is_correct": false,
+        "question": "In a cloud data warehouse, which storage/compute design is most associated with enabling independent scaling of compute without copying data?",
+        "question_id": 6,
+        "topic": "Data Warehousing (Snowflake/Redshift/Bigquery)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Operators define what a task does (e.g., run a SQL query, execute Python, submit a Spark job) within a DAG.",
+        "is_correct": false,
+        "question": "In Apache Airflow, what is the primary role of an Operator?",
+        "question_id": 7,
+        "topic": "Workflow Orchestration (Airflow/Dagster)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Broadcasting the small dimension table avoids shuffling the large fact dataset by sending the small table to all executors for local joins.",
+        "is_correct": true,
+        "question": "A Spark job joins a 5 TB fact dataset with a 50 MB dimension table. The join is slow due to shuffle. What is the best optimization to reduce shuffle and speed up the join?",
+        "question_id": 8,
+        "topic": "Apache Spark",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Exactly-once requires coordinated processing: transactional/idempotent production plus atomic offset commits tied to the sink write (or a transactional sink) to prevent duplicates on retries.",
+        "is_correct": true,
+        "question": "You are designing a Kafka-based pipeline where events must be processed exactly once into a warehouse table. Which approach best supports end-to-end exactly-once semantics?",
+        "question_id": 9,
+        "topic": "Stream Processing (Kafka/Flink)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A two-phase commit pattern (write-then-commit) prevents consumers from observing partial results; atomic rename/commit or transactional table formats provide a consistent view.",
+        "is_correct": false,
+        "question": "A distributed ETL service writes files to object storage (e.g., S3/ADLS/GCS). Downstream jobs sometimes read partially written files and fail. Which design change most reliably prevents readers from seeing incomplete outputs?",
+        "question_id": 10,
+        "topic": "Distributed Systems Fundamentals",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Data Modeling, Python, Etl/Elt Pipeline Development",
+      "✅ Your strongest areas: database management systems, Sql"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "database management systems",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Apache Spark",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Stream Processing (Kafka/Flink)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Modeling",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Etl/Elt Pipeline Development",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Warehousing (Snowflake/Redshift/Bigquery)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Workflow Orchestration (Airflow/Dagster)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Systems Fundamentals",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

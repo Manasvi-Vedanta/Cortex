@@ -1,0 +1,54 @@
+{
+  "test_goal": "I want to become an Android App Developer.",
+  "test_user": "full_test_user",
+  "test_duration_seconds": 120.205964,
+  "success_rate": 100.0,
+  "features_tested": 7,
+  "features_passed": 7,
+  "results": [
+    {
+      "status": "✅",
+      "feature": "Learning Path Generation",
+      "detail": "15 skills generated"
+    },
+    {
+      "status": "✅",
+      "feature": "Community Voting System",
+      "detail": "5 votes submitted"
+    },
+    {
+      "status": "✅",
+      "feature": "Skill Suggestions",
+      "detail": "3 suggestions submitted"
+    },
+    {
+      "status": "✅",
+      "feature": "Quiz Generation",
+      "detail": "10 questions"
+    },
+    {
+      "status": "✅",
+      "feature": "Quiz Submission",
+      "detail": "Score: 60.0%"
+    },
+    {
+      "status": "✅",
+      "feature": "Feedback Statistics",
+      "detail": "5 votes submitted (session)"
+    },
+    {
+      "status": "✅",
+      "feature": "Path Regeneration",
+      "detail": "15 skills"
+    }
+  ],
+  "output_files": [
+    "01_learning_path.json",
+    "02_community_voting.json",
+    "03_skill_suggestions.json",
+    "04_quiz_questions.json",
+    "05_quiz_results.json",
+    "06_feedback_statistics.json",
+    "07_regenerated_learning_path.json"
+  ]
+}

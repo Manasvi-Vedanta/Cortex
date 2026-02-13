@@ -1,0 +1,250 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Define a game concept and translate it into a complete, testable rule set",
+        "Formulate win/lose conditions, scoring, turn structure, and edge cases",
+        "Demonstrate the rules with example playthroughs and state transitions"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "games rules",
+        "formulate game rules",
+        "demonstrate games"
+      ],
+      "title": "Core Game Rules: From Idea to Formal Rule Set"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create gambling games concepts with clear player actions and outcomes",
+        "Design payout tables and risk/reward loops aligned with the rules",
+        "Demonstrate games via sample rounds and validate rule completeness"
+      ],
+      "prerequisites": [
+        "games rules",
+        "formulate game rules"
+      ],
+      "session_number": 2,
+      "skills": [
+        "create gambling games concepts",
+        "games rules",
+        "formulate game rules",
+        "demonstrate games"
+      ],
+      "title": "Gambling Game Concepts: Probability-Driven Rule Design"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement game rules as code using a clear game loop and state machine",
+        "Represent game state, actions, and outcomes with maintainable structures",
+        "Demonstrate games by running scripted scenarios that exercise edge cases"
+      ],
+      "prerequisites": [
+        "games rules",
+        "formulate game rules"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Game Programming (C++/C#)",
+        "Data Structures And Algorithms",
+        "games rules",
+        "formulate game rules",
+        "demonstrate games"
+      ],
+      "title": "Implementing Rules in Code: Game Loop and State"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create a playable prototype in Unity/Unreal that executes the rule set",
+        "Connect input to rule actions and display outcomes for rapid iteration",
+        "Demonstrate games by running a full loop from start to end state"
+      ],
+      "prerequisites": [
+        "Game Programming (C++/C#)"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Game Engine Proficiency (Unity/Unreal)",
+        "Game Programming (C++/C#)",
+        "demonstrate games"
+      ],
+      "title": "Engine Setup and Prototyping: Unity/Unreal Rule Prototype"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Refactor rule logic into systems and components for scalability",
+        "Separate data from behavior to simplify iteration and testing",
+        "Model game entities and rule interactions using component composition"
+      ],
+      "prerequisites": [
+        "Game Programming (C++/C#)",
+        "Data Structures And Algorithms"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Game Architecture Patterns (Ecs, Component Systems)",
+        "Data Structures And Algorithms",
+        "games rules"
+      ],
+      "title": "Game Architecture Patterns: ECS and Component Systems for Rules"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use vectors and matrices to represent positions, directions, and transforms",
+        "Apply quaternions for stable rotations and orientation updates",
+        "Integrate math operations into gameplay logic and movement rules"
+      ],
+      "prerequisites": [
+        "Game Programming (C++/C#)"
+      ],
+      "session_number": 6,
+      "skills": [
+        "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)",
+        "Game Programming (C++/C#)"
+      ],
+      "title": "3D Math Foundations for Gameplay and Simulation"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement collision-driven interactions aligned with game rules",
+        "Configure and control rigidbody dynamics for predictable outcomes",
+        "Validate physics edge cases and ensure rules remain consistent under simulation"
+      ],
+      "prerequisites": [
+        "Game Engine Proficiency (Unity/Unreal)",
+        "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Game Physics (Collision, Rigidbody Dynamics)",
+        "Game Engine Proficiency (Unity/Unreal)",
+        "games rules"
+      ],
+      "title": "Game Physics: Collision and Rigidbody Dynamics in Gameplay"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use the graphics pipeline to present clear game state and outcomes",
+        "Create simple shaders to communicate win/lose states and interactions",
+        "Optimize visual feedback loops to support fast player understanding"
+      ],
+      "prerequisites": [
+        "Game Engine Proficiency (Unity/Unreal)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Real-Time Rendering (Graphics Pipeline, Shaders)",
+        "Game Engine Proficiency (Unity/Unreal)"
+      ],
+      "title": "Real-Time Rendering: Shaders and the Graphics Pipeline for Feedback"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Profile CPU/GPU hotspots and identify performance bottlenecks",
+        "Apply targeted optimizations without changing game rules",
+        "Create a repeatable debugging workflow for gameplay and simulation issues"
+      ],
+      "prerequisites": [
+        "Game Engine Proficiency (Unity/Unreal)",
+        "Game Programming (C++/C#)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Debugging And Profiling (Performance Optimization)",
+        "Game Engine Proficiency (Unity/Unreal)",
+        "Game Programming (C++/C#)"
+      ],
+      "title": "Debugging and Profiling: Performance Optimization for Prototypes"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Track rule and code changes with a clean commit history",
+        "Use branching to experiment with alternative rule sets safely",
+        "Resolve conflicts and maintain a stable mainline for demonstrations"
+      ],
+      "prerequisites": [],
+      "session_number": 10,
+      "skills": [
+        "Version Control (Git)"
+      ],
+      "title": "Version Control with Git: Iteration and Rule Changes"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build simple editor tools to tune rules and parameters quickly",
+        "Automate repetitive setup and testing tasks for demonstrations",
+        "Enable rapid iteration on gambling games concepts and payout tuning"
+      ],
+      "prerequisites": [
+        "Game Engine Proficiency (Unity/Unreal)",
+        "games rules"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Scripting And Tooling (Python/Lua/Editor Tools)",
+        "games rules",
+        "create gambling games concepts"
+      ],
+      "title": "Scripting and Tooling: Editor Tools for Rule Tuning"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement authoritative client-server rule execution",
+        "Replicate game state changes reliably and consistently",
+        "Demonstrate games in multiplayer with synchronized outcomes and edge-case handling"
+      ],
+      "prerequisites": [
+        "Game Programming (C++/C#)",
+        "games rules",
+        "formulate game rules"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Multiplayer Networking (Client-Server, Replication)",
+        "Game Programming (C++/C#)",
+        "games rules",
+        "demonstrate games"
+      ],
+      "title": "Multiplayer Networking: Client-Server Rules and Replication"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Gambling games designers design innovative gambling, betting and lottery games. They determine the design, gaming rules or structure of a game. Gambling games designers may also demonstrate the game to individuals.",
+    "label": "gambling games designer",
+    "similarity_score": 0.7914754748344421,
+    "uri": "http://data.europa.eu/esco/occupation/11830794-108c-48fe-a282-2cd7a2945344"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 26,
+    "skills_in_path": 12,
+    "skills_to_learn": 26,
+    "total_skills_needed": 26
+  },
+  "user_id": "eval_user_13"
+}

@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:14:54.226402",
+      "learning_path_id": "test_12",
+      "target_occupation": "blockchain developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Consensus is the process/protocol that lets distributed nodes agree on which blocks/transactions are valid and in what order, producing a single canonical chain state.",
+        "id": 1,
+        "options": {
+          "A": "To compress blocks to reduce storage costs",
+          "B": "To ensure all nodes agree on the same valid chain state",
+          "C": "To encrypt all transactions end-to-end",
+          "D": "To generate private keys for users"
+        },
+        "question": "In a typical blockchain, what is the primary role of a consensus mechanism?",
+        "topic": "blockchain components"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Permissionless chains are open to anyone to read and to participate (e.g., run a node/validator/miner) as long as they follow the protocol.",
+        "id": 2,
+        "options": {
+          "A": "Only approved organizations can read data, but anyone can write transactions",
+          "B": "Anyone can read the ledger and participate in validation according to protocol rules",
+          "C": "Only the chain operator can deploy smart contracts",
+          "D": "Transactions are private by default and hidden from all nodes"
+        },
+        "question": "Which statement best describes a public (permissionless) blockchain's openness?",
+        "topic": "blockchain openness"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Signatures prove control of a private key (authorization) and ensure the signed message wasn't altered (integrity). They do not encrypt the data.",
+        "id": 3,
+        "options": {
+          "A": "Confidentiality of transaction contents",
+          "B": "Proof that the sender authorized the transaction and integrity of the signed data",
+          "C": "Guaranteed low transaction fees",
+          "D": "Automatic reversal of fraudulent transactions"
+        },
+        "question": "What does a digital signature primarily provide in blockchain transactions?",
+        "topic": "Cryptography (Public-Key, Signatures, Zk Basics)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "ERC-721 defines NFTs with unique token IDs and ownership tracking per token.",
+        "id": 4,
+        "options": {
+          "A": "ERC-20",
+          "B": "ERC-721",
+          "C": "ERC-1155",
+          "D": "EIP-1559"
+        },
+        "question": "Which token standard is designed for non-fungible tokens (NFTs) where each token ID is unique?",
+        "topic": "Token Standards (Erc-20, Erc-721, Erc-1155)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "DELEGATECALL runs the target contract's code but uses the caller's storage and keeps msg.sender/msg.value, enabling proxy patterns.",
+        "id": 5,
+        "options": {
+          "A": "Executes the callee's code in the caller's context, preserving msg.sender and storage of the caller",
+          "B": "Executes the callee's code in the callee's context, changing msg.sender to the callee",
+          "C": "Copies the caller's storage into the callee before execution",
+          "D": "Prevents state changes and allows only read-only execution"
+        },
+        "question": "In the EVM, what does a contract call that uses DELEGATECALL do?",
+        "topic": "Ethereum Virtual Machine (Evm)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Reentrancy is mitigated by updating state before external calls (Checks-Effects-Interactions) and/or using a reentrancy guard modifier.",
+        "id": 6,
+        "options": {
+          "A": "Use tx.origin for authorization checks",
+          "B": "Use block.timestamp to limit calls to once per block",
+          "C": "Apply Checks-Effects-Interactions (or a reentrancy guard) before external calls",
+          "D": "Use abi.encodePacked to build calldata"
+        },
+        "question": "In Solidity, which pattern best prevents reentrancy in a function that sends ETH to an external address?",
+        "topic": "Smart Contract Security"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "State-changing transactions must be signed by a private key (Wallet/signer) and then sent via a provider/RPC endpoint.",
+        "id": 7,
+        "options": {
+          "A": "Create a provider only; signing is optional because nodes sign automatically",
+          "B": "Use a Wallet (signer) connected to a provider to sign and send the transaction",
+          "C": "Call eth_call with the transaction data to broadcast it",
+          "D": "Encode the transaction with JSON.stringify and POST it to any RPC endpoint"
+        },
+        "question": "You are writing a Node.js script with ethers.js to send a transaction. Which step is required to broadcast a state-changing transaction?",
+        "topic": "Web3.Js/Ethers.Js"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "In proxy patterns, the proxy holds storage. If the implementation's variable layout changes incompatibly, reads/writes map to wrong slots, corrupting state.",
+        "id": 8,
+        "options": {
+          "A": "The new implementation changed event names, which overwrote storage",
+          "B": "The proxy address changed, so old balances were deleted automatically",
+          "C": "Storage layout incompatibility between old and new implementations (e.g., variable order/types changed)",
+          "D": "The chain reorganized, which permanently randomizes contract storage"
+        },
+        "question": "A dApp uses an upgradeable proxy (DELEGATECALL). After an upgrade, users report balances are corrupted. Which root cause is most likely?",
+        "topic": "blockchain architecture"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Gas is heavily impacted by storage reads/writes. Caching length, reading storage into memory when appropriate, and using unchecked arithmetic (when safe) reduces overhead.",
+        "id": 9,
+        "options": {
+          "A": "Replace require() with assert() to save gas",
+          "B": "Cache the array length and use unchecked increments where safe; minimize repeated storage reads",
+          "C": "Emit an event for each loop iteration to reduce computation cost",
+          "D": "Use blockhash() inside the loop to avoid storage access"
+        },
+        "question": "A Solidity function loops over a dynamic array in storage to compute a sum and is frequently called by other contracts. Which change is most likely to reduce gas usage while preserving correctness?",
+        "topic": "Gas Optimization"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Merkle proofs allow efficient membership verification against an on-chain root without publishing the entire list, aligning with privacy/minimization goals (a common ZK-adjacent primitive).",
+        "id": 10,
+        "options": {
+          "A": "Store the entire allowlist on-chain and hash it each time a user claims",
+          "B": "Use a Merkle root on-chain and verify a Merkle proof provided by the user",
+          "C": "Encrypt the allowlist with the contract's address as the key and store it on-chain",
+          "D": "Rely on the node's local database to check membership off-chain without any on-chain verification"
+        },
+        "question": "You want to prove in a smart contract that a user is in an allowlist without revealing the full list on-chain. Which approach best matches this goal?",
+        "topic": "Cryptography (Public-Key, Signatures, Zk Basics)"
+      }
+    ],
+    "topics_covered": [
+      "blockchain components",
+      "blockchain architecture",
+      "blockchain openness",
+      "blockchain applications",
+      "blockchain application areas ",
+      "Cryptography (Public-Key, Signatures, Zk Basics)",
+      "Ethereum Virtual Machine (Evm)",
+      "Solidity",
+      "Token Standards (Erc-20, Erc-721, Erc-1155)",
+      "Node.Js",
+      "Web3.Js/Ethers.Js",
+      "Smart Contract Testing Frameworks (Foundry/Hardhat/Truffle)",
+      "Smart Contract Security",
+      "blockchain applications security principles",
+      "Gas Optimization"
+    ]
+  },
+  "success": true
+}

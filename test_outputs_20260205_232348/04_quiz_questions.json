@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-05T23:25:10.572780",
+      "learning_path_id": "test_path",
+      "target_occupation": "mobile application developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Android SDK includes platform APIs, build tools, emulator, and debugging tools needed to develop Android applications.",
+        "id": 1,
+        "options": {
+          "A": "Providing tools, APIs, and libraries to build, test, and debug Android apps",
+          "B": "Hosting your app backend and database automatically",
+          "C": "Designing iOS user interfaces",
+          "D": "Replacing the Android operating system on a device"
+        },
+        "question": "In Android development, what is the Android SDK primarily used for?",
+        "topic": "Android Sdk"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Google recommends Kotlin as the primary language for Android development due to its safety features and interoperability with Java.",
+        "id": 2,
+        "options": {
+          "A": "Kotlin",
+          "B": "PHP",
+          "C": "Ruby",
+          "D": "Swift"
+        },
+        "question": "Which language is the officially recommended primary language for modern Android app development?",
+        "topic": "Kotlin"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Gradle configures builds, manages dependencies, and defines build variants/flavors for Android apps.",
+        "id": 3,
+        "options": {
+          "A": "Build automation and dependency management",
+          "B": "Rendering UI components at runtime",
+          "C": "Encrypting local database files by default",
+          "D": "Replacing Git for version control"
+        },
+        "question": "What is Gradle most commonly used for in Android projects?",
+        "topic": "Gradle"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "An if statement evaluates a condition and executes different code paths depending on whether it is true or false.",
+        "id": 4,
+        "options": {
+          "A": "Conditional branching based on a boolean expression",
+          "B": "A loop that always runs a fixed number of times",
+          "C": "A way to declare a class",
+          "D": "A method for network communication"
+        },
+        "question": "In programming, what does an \"if\" statement primarily implement?",
+        "topic": "programming"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Retrofit uses method annotations like @GET, @POST, @PUT, and @DELETE to define HTTP operations.",
+        "id": 5,
+        "options": {
+          "A": "@GET",
+          "B": "@POSTFORM",
+          "C": "@FETCH",
+          "D": "@READ"
+        },
+        "question": "In Retrofit, which annotation is typically used to perform an HTTP GET request?",
+        "topic": "Retrofit"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "launch starts a new coroutine without blocking the current thread and is commonly used with lifecycle-aware scopes like viewModelScope.",
+        "id": 6,
+        "options": {
+          "A": "launch",
+          "B": "runBlocking",
+          "C": "Thread.sleep",
+          "D": "synchronized"
+        },
+        "question": "In Kotlin coroutines, which builder is commonly used to start a coroutine tied to a lifecycle-aware scope (e.g., in ViewModel) without blocking the thread?",
+        "topic": "Coroutines"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "A DAO declares the database operations; Room generates the implementation to execute SQL safely and efficiently.",
+        "id": 7,
+        "options": {
+          "A": "Define methods for database operations (queries/inserts/updates) and map them to SQL",
+          "B": "Render database tables as UI components",
+          "C": "Automatically sync local data to Firebase without code",
+          "D": "Replace the need for entities by storing raw JSON"
+        },
+        "question": "In Room Database, what is the primary purpose of a DAO (Data Access Object)?",
+        "topic": "Room Database"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Room can emit updates via Flow; refreshing in a background coroutine and writing to Room updates the Flow, enabling immediate cached display and automatic UI updates.",
+        "id": 8,
+        "options": {
+          "A": "Expose a Flow from Room, collect it in the UI, and in parallel refresh via Retrofit in a coroutine that writes results back to Room",
+          "B": "Call Retrofit on the main thread first, then write to Room only if the UI is still visible",
+          "C": "Store API responses only in memory to avoid disk I/O, and never persist to Room",
+          "D": "Disable caching and always fetch from the network to ensure consistency"
+        },
+        "question": "You need offline-first behavior: show cached data immediately from Room, then refresh from a Retrofit API and update the UI. Which approach best fits a modern Android architecture with coroutines?",
+        "topic": "Coroutines"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "remember caches values across recompositions (optionally keyed), preventing expensive work from re-running unless inputs change.",
+        "id": 9,
+        "options": {
+          "A": "Wrap the calculation result in remember (or remember(key)) so it is cached across recompositions",
+          "B": "Move the calculation into onCreate() of an Activity",
+          "C": "Use findViewById to cache the result",
+          "D": "Disable recomposition for the entire screen"
+        },
+        "question": "In Jetpack Compose, a list item recomposes frequently and triggers an expensive calculation each time. What is the best Compose-specific fix to avoid repeating the calculation unnecessarily?",
+        "topic": "Jetpack Compose"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "React Native uses JavaScript to drive apps that render native UI components through a framework bridge/runtime.",
+        "id": 10,
+        "options": {
+          "A": "React Native",
+          "B": "Room",
+          "C": "Gradle",
+          "D": "Android SDK"
+        },
+        "question": "A team is building a cross-platform mobile app using JavaScript and wants a framework that uses native UI components via a bridge. Which mobile device software framework best matches this description?",
+        "topic": "mobile device software frameworks"
+      }
+    ],
+    "topics_covered": [
+      "programming",
+      "use logic programming",
+      "Android Sdk",
+      "Android (mobile operating systems)",
+      "JavaScript",
+      "mobile operating systems",
+      "mobile device software frameworks",
+      "Gradle",
+      "Firebase",
+      "Room Database",
+      "Retrofit",
+      "Coroutines",
+      "Kotlin",
+      "Jetpack Compose",
+      "Java"
+    ]
+  },
+  "success": true
+}

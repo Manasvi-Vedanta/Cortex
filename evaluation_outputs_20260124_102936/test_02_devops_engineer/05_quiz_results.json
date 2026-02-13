@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:31:50.549103",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Continuous Integration (CI) is a DevOps practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run. Its primary goal is to detect integration issues early.",
+        "is_correct": true,
+        "question": "What is the primary goal of Continuous Integration (CI) in a DevOps pipeline?",
+        "question_id": 1,
+        "topic": "DevOps",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "CPU Utilization is a fundamental infrastructure metric used to assess the performance and resource consumption of virtual machines or containers hosting an application in the cloud. It directly impacts application responsiveness and capacity planning.",
+        "is_correct": true,
+        "question": "Which of the following is a common metric used for monitoring the performance and resource utilization of a cloud server instance?",
+        "question_id": 2,
+        "topic": "cloud monitoring and reporting",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Terraform is a popular open-source Infrastructure as Code (IaC) tool that allows users to define and provision data center infrastructure using a declarative configuration language, supporting multiple cloud providers.",
+        "is_correct": false,
+        "question": "Which tool is commonly used for defining and provisioning cloud infrastructure as code (IaC) in a declarative manner across various cloud providers?",
+        "question_id": 3,
+        "topic": "deploy cloud resource",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Archive storage services are specifically designed for long-term data retention with very low per-GB costs, but typically have higher retrieval times and costs compared to frequently accessed storage types.",
+        "is_correct": false,
+        "question": "Which cloud storage service type is best suited for highly durable, low-cost archival storage that is infrequently accessed and has flexible retrieval times?",
+        "question_id": 4,
+        "topic": "manage cloud data and storage",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Serverless functions and container orchestration platforms like Kubernetes are ideal for stateless applications requiring rapid scaling, elasticity, and efficient resource utilization, aligning well with modern cloud-native architectures and cost optimization.",
+        "is_correct": false,
+        "question": "A company needs to host a stateless web application that can scale rapidly up and down based on fluctuating traffic demands. Which architectural component is most suitable for handling the application's compute layer in a cost-effective and elastic manner?",
+        "question_id": 5,
+        "topic": "design cloud architecture",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Continuous Deployment automates the entire process from code commit to production deployment, including building, testing, and deploying through environments like staging before reaching production without manual intervention if all automated tests pass, reflecting true automation.",
+        "is_correct": false,
+        "question": "You are tasked with setting up a CI/CD pipeline to automatically build, test, and deploy a containerized application to a Kubernetes cluster. Which of the following sequence of steps best represents the 'Continuous Deployment' part of this pipeline?",
+        "question_id": 6,
+        "topic": "automate cloud tasks",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Security Groups and Network ACLs are fundamental cloud networking security components that act as virtual firewalls to control inbound and outbound traffic at the instance and subnet levels, respectively. They are crucial for ensuring secure communication between application tiers within a VPC and isolating the private subnet from public access.",
+        "is_correct": false,
+        "question": "A DevOps team is deploying a multi-tier application within a Virtual Private Cloud (VPC). The frontend web servers reside in a public subnet, and the backend database servers reside in a private subnet. To ensure secure communication, what is the *primary* networking security component that controls traffic between these two subnets, allowing the web servers to connect to the database while restricting unwanted inbound access from the internet?",
+        "question_id": 7,
+        "topic": "design cloud networks",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Refactoring a monolithic application into microservices is not just a technical endeavor; it fundamentally changes how teams work, communicate, and manage ownership. It requires new skills (e.g., distributed systems, containerization), new deployment strategies, and often leads to resistance from teams accustomed to the monolith's operational model, creating significant organizational complexity.",
+        "is_correct": false,
+        "question": "A legacy monolithic application, critical to the business, is experiencing scalability and maintenance issues. The DevOps team proposes refactoring it into microservices. What is the *most significant* organizational challenge this refactoring project is likely to introduce, beyond technical hurdles?",
+        "question_id": 8,
+        "topic": "design for organisational complexity",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Amazon Cognito Identity Pools provide a secure and scalable way for client-side applications (like single-page applications) to obtain temporary, limited-privilege AWS credentials by exchanging user identity (authenticated or unauthenticated) for an IAM role. This avoids embedding sensitive, long-lived credentials directly in the client-side code, which is a major security risk.",
+        "is_correct": false,
+        "question": "A JavaScript-based serverless frontend application (e.g., using React/Vue deployed on S3/CloudFront) needs to securely interact with a private API Gateway endpoint that requires AWS IAM authentication. Which of the following approaches is the most secure and idiomatic for the frontend to obtain temporary credentials to sign requests without exposing long-lived secrets?",
+        "question_id": 9,
+        "topic": "develop with cloud services",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "For global distribution, high throughput (millions of TPS), low latency, and the ability to tolerate eventual consistency, a NoSQL database with native global replication capabilities (like AWS DynamoDB Global Tables or Azure Cosmos DB) is ideal. Relational databases struggle with this scale of global write distribution and extreme throughput requirements for OLTP workloads.",
+        "is_correct": false,
+        "question": "A global e-commerce platform needs a highly available and globally distributed database solution that can handle millions of transactions per second with low-latency reads and writes, and can tolerate eventual consistency. Which cloud database type is best suited for this specific scenario?",
+        "question_id": 10,
+        "topic": "design database in the cloud",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: deploy cloud resource, manage cloud data and storage, design cloud architecture",
+      "✅ Your strongest areas: DevOps, cloud monitoring and reporting"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "DevOps",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "cloud monitoring and reporting",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "deploy cloud resource",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "manage cloud data and storage",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design cloud architecture",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "automate cloud tasks",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design cloud networks",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design for organisational complexity",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "develop with cloud services",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design database in the cloud",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

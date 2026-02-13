@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:26:08.557156",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A list preserves order and allows duplicates, which matches typical pixel arrays or flattened pixel sequences.",
+        "is_correct": true,
+        "question": "In Python, which data structure is most appropriate for storing an ordered collection of pixel intensity values that may contain duplicates?",
+        "question_id": 1,
+        "topic": "Python",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Grayscale conversion maps RGB values to one luminance/intensity channel, reducing channel count and simplifying processing.",
+        "is_correct": true,
+        "question": "In digital image processing, what does converting an RGB image to grayscale primarily do?",
+        "question_id": 2,
+        "topic": "digital image processing",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The dot product relates to the cosine of the angle between vectors and their magnitudes, commonly used as a similarity measure.",
+        "is_correct": true,
+        "question": "In linear algebra, what does the dot product of two vectors primarily measure?",
+        "question_id": 3,
+        "topic": "Linear Algebra",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "cv2.imread() is the standard OpenCV API call to load an image file into a NumPy array.",
+        "is_correct": true,
+        "question": "In OpenCV, which function is commonly used to read an image from disk?",
+        "question_id": 4,
+        "topic": "Opencv",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Horizontal flips often preserve semantics for many object classes (e.g., cars, animals), improving generalization without changing labels.",
+        "is_correct": true,
+        "question": "You are training a CNN for image classification and want to reduce overfitting using data augmentation. Which augmentation is most likely to preserve the class label for common object categories?",
+        "question_id": 5,
+        "topic": "Data Preprocessing And Augmentation",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Convolutions use local receptive fields and weight sharing, capturing spatial patterns efficiently with far fewer parameters than dense layers.",
+        "is_correct": true,
+        "question": "In a CNN, what is the primary purpose of using a convolutional layer instead of a fully connected layer early in the network?",
+        "question_id": 6,
+        "topic": "Convolutional Neural Networks (Cnns)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "torch.no_grad() prevents autograd from storing intermediate tensors for backprop, which is standard during inference/evaluation.",
+        "is_correct": false,
+        "question": "In PyTorch, which snippet correctly disables gradient tracking during model evaluation to reduce memory usage?",
+        "question_id": 7,
+        "topic": "PyTorch",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "IoU focuses on overlap between predicted and true foreground regions and is robust to class imbalance where accuracy can be misleading.",
+        "is_correct": false,
+        "question": "You are evaluating a binary segmentation model on a dataset where the foreground occupies ~1% of pixels. Accuracy is 99% but masks look poor. Which metric is most appropriate to reflect segmentation quality under severe class imbalance?",
+        "question_id": 8,
+        "topic": "Model Training And Evaluation",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Multiple anchors increase the chance that an anchor closely matches a ground-truth box, enabling better classification and box regression across diverse object geometries.",
+        "is_correct": false,
+        "question": "In object detection, why do anchor-based detectors (e.g., Faster R-CNN/RetinaNet) use multiple anchors per location with different scales and aspect ratios?",
+        "question_id": 9,
+        "topic": "Object Detection And Segmentation",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "This pattern indicates overfitting; early stopping and regularization/augmentation are standard, practical interventions to improve generalization.",
+        "is_correct": false,
+        "question": "You are training a deep learning model for computer vision and observe training loss decreasing while validation loss increases after several epochs. Which action is the most direct and appropriate first response?",
+        "question_id": 10,
+        "topic": "deep learning",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: PyTorch, Model Training And Evaluation, Object Detection And Segmentation",
+      "✅ Your strongest areas: Python, digital image processing"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "digital image processing",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Linear Algebra",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Opencv",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Preprocessing And Augmentation",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Convolutional Neural Networks (Cnns)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "PyTorch",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Model Training And Evaluation",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Object Detection And Segmentation",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "deep learning",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

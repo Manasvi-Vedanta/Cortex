@@ -1,0 +1,176 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:34:59.290612",
+      "learning_path_id": "test_05",
+      "target_occupation": "data scientist",
+      "total_questions": 10,
+      "total_topics": 14
+    },
+    "questions": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Measures of central tendency describe the center point of a dataset. Mode, Mean, and Median are common measures of central tendency, while Standard Deviation, Variance, and Range are measures of dispersion.",
+        "id": 1,
+        "options": {
+          "A": "Standard Deviation",
+          "B": "Variance",
+          "C": "Mode",
+          "D": "Range"
+        },
+        "question": "Which of the following is a measure of central tendency?",
+        "topic": "statistics"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The WHERE clause is specifically used to filter records that meet a certain condition from the result set of a SELECT, UPDATE, or DELETE statement.",
+        "id": 2,
+        "options": {
+          "A": "SELECT",
+          "B": "INSERT",
+          "C": "WHERE",
+          "D": "UPDATE"
+        },
+        "question": "Which SQL clause is used to filter rows based on a specified condition?",
+        "topic": "query languages"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Bar charts are highly effective for comparing numerical values or quantities across different, distinct categories.",
+        "id": 3,
+        "options": {
+          "A": "To show trends over time",
+          "B": "To display proportions of a whole",
+          "C": "To compare quantities across discrete categories",
+          "D": "To illustrate relationships between two continuous variables"
+        },
+        "question": "What is the primary purpose of a bar chart in data visualization?",
+        "topic": "data visualization"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Data mining is the process of discovering patterns, anomalies, and correlations within large datasets to predict outcomes, identify trends, and gain actionable insights.",
+        "id": 4,
+        "options": {
+          "A": "To simply store large datasets efficiently",
+          "B": "To discover patterns, insights, and knowledge from large datasets",
+          "C": "To design relational database schemas",
+          "D": "To create interactive dashboards for reporting"
+        },
+        "question": "What is the main goal of data mining?",
+        "topic": "data mining"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Dockerfile is a text file that contains all the commands a user could call on the command line to assemble an image. It's essentially a blueprint for building a Docker image.",
+        "id": 5,
+        "options": {
+          "A": "To define the network configurations for running containers",
+          "B": "To specify instructions for building a Docker image",
+          "C": "To store environment variables for runtime operations",
+          "D": "To manage persistent storage volumes for containers"
+        },
+        "question": "In Docker, what is the primary function of a `Dockerfile`?",
+        "topic": "Docker"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "ETL stands for Extract, Transform, Load. It's a fundamental data integration process in data engineering for consolidating data from disparate sources into a central repository for analysis and reporting.",
+        "id": 6,
+        "options": {
+          "A": "It provides real-time analytics directly from source systems.",
+          "B": "It focuses on machine learning model training and deployment.",
+          "C": "It extracts data from various sources, transforms it, and loads it into a destination data warehouse or data lake.",
+          "D": "It is solely responsible for creating advanced data visualizations."
+        },
+        "question": "Which of the following best describes the role of an ETL pipeline in data engineering?",
+        "topic": "data engineering"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "When an algorithm produces systematically different outcomes for different groups, particularly those based on sensitive attributes like demographics, it indicates algorithmic bias, which is a major ethical concern in data science.",
+        "id": 7,
+        "options": {
+          "A": "Data security vulnerability",
+          "B": "Algorithmic bias",
+          "C": "Lack of data privacy",
+          "D": "Inefficient data storage"
+        },
+        "question": "A data scientist discovers that their predictive model for loan approvals shows a significantly lower approval rate for applicants from a specific demographic group, even after controlling for traditional financial risk factors. What is the most appropriate ethical concern to raise?",
+        "topic": "data ethics"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "This scenario involves comparing the proportions of two independent categorical variables (website design A vs. B) and their categorical outcomes (purchased vs. not purchased). The Chi-squared test for independence is ideal for determining if there is a statistically significant association between two categorical variables.",
+        "id": 8,
+        "options": {
+          "A": "Paired t-test",
+          "B": "ANOVA",
+          "C": "Chi-squared test for independence",
+          "D": "Pearson correlation coefficient"
+        },
+        "question": "A company wants to test if a new website design leads to a significant increase in conversion rates (e.g., product purchases). They split their users into two independent groups: one sees the old design (control) and one sees the new design (treatment). After a month, they compare the proportion of users who made a purchase in each group. Which statistical test is most appropriate to determine if there's a significant difference?",
+        "topic": "research design"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Unstructured text data like emails requires Natural Language Processing (NLP) techniques to extract meaningful information and features. Text clustering algorithms can then group similar pieces of text together to identify common themes without requiring predefined categories, making it ideal for automatic categorization of feedback.",
+        "id": 9,
+        "options": {
+          "A": "SQL queries and traditional relational database indexing",
+          "B": "ETL pipelines and basic statistical summaries",
+          "C": "Natural Language Processing (NLP) for information extraction and text clustering for categorization",
+          "D": "High-performance computing for numerical optimization and time-series analysis"
+        },
+        "question": "A financial institution wants to automatically process thousands of unstructured customer feedback emails to identify common themes (e.g., 'complaint about fees,' 'praise for service,' 'technical issue'). Which combination of techniques would be most effective for this task?",
+        "topic": "information extraction"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "For data with highly variable and evolving schemas, such as product attributes in an e-commerce context, a document-oriented NoSQL model (like MongoDB) is often preferred. It allows for flexible schema-on-read, where each document can have a different structure, accommodating new attributes without requiring schema migrations or extensive downtime, which is challenging for rigid relational models.",
+        "id": 10,
+        "options": {
+          "A": "Strictly normalized relational model (3NF)",
+          "B": "Star schema with heavily denormalized fact tables",
+          "C": "Document-oriented NoSQL model",
+          "D": "Hierarchical data model"
+        },
+        "question": "A global e-commerce platform needs a data model for its analytics database that can efficiently store highly variable product attributes (e.g., a shirt has size/color, a laptop has RAM/CPU/storage) and handle rapid schema evolution without extensive downtime. Which data modeling approach is generally preferred?",
+        "topic": "data models"
+      }
+    ],
+    "topics_covered": [
+      "statistics",
+      "Docker",
+      "research design",
+      "perform data mining",
+      "data engineering",
+      "data visualisation software",
+      "information extraction",
+      "information categorisation",
+      "query languages",
+      "data visualization",
+      "data mining",
+      "data science",
+      "data ethics",
+      "data models"
+    ]
+  },
+  "success": true
+}

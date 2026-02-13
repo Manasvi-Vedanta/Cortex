@@ -1,0 +1,52 @@
+{
+  "test_id": "05",
+  "goal": "I want to become a Data Scientist.",
+  "short_name": "Data Scientist",
+  "category": "AI/ML",
+  "matched_occupation": "data scientist",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30",
+  "similarity_score": 1.0,
+  "total_skills": 14,
+  "total_sessions": 4,
+  "skills_list": [
+    "statistics",
+    "Docker",
+    "research design",
+    "perform data mining",
+    "data engineering",
+    "data visualisation software",
+    "information extraction",
+    "information categorisation",
+    "query languages",
+    "data visualization",
+    "data mining",
+    "data science",
+    "data ethics",
+    "data models"
+  ],
+  "session_durations": [
+    7,
+    20,
+    9,
+    20
+  ],
+  "path_generation_time": 7.6236114501953125,
+  "quiz_generation_time": 18.988579988479614,
+  "total_test_time": 54.41541242599487,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 30.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

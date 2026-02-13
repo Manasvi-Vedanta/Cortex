@@ -1,0 +1,683 @@
+[2026-01-23 13:18:28] [INFO] ℹ️  INFO: Output directory created: test_outputs_20260123_131828
+[2026-01-23 13:18:28] [INFO] ====================================================================================================
+[2026-01-23 13:18:28] [INFO] PHASE 1: System Test Initialization
+[2026-01-23 13:18:28] [INFO] ====================================================================================================
+[2026-01-23 13:18:28] [INFO] ℹ️  INFO: Test Goal: I want to become an Android App Developer.
+[2026-01-23 13:18:28] [INFO] ℹ️  INFO: Test User: full_test_user
+[2026-01-23 13:18:28] [INFO] ℹ️  INFO: Base URL: http://localhost:5000
+[2026-01-23 13:18:28] [INFO] ====================================================================================================
+[2026-01-23 13:18:28] [INFO] PHASE 2: Learning Path Generation
+[2026-01-23 13:18:28] [INFO] ====================================================================================================
+[2026-01-23 13:18:28] [INFO] ℹ️  INFO: Sending request to generate learning path...
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: Response received in 9.55 seconds
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-23 13:18:38] [SUCCESS] ✅ SUCCESS: Learning path generated successfully
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: Matched Occupation: mobile application developer
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: Occupation URI: http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: Similarity Score: 0.9643
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: COMPLETE LEARNING PATH DETAILS
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: Total Sessions: 15
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 1: Introduction to Python Programming
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. Python (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 2: Web Development Fundamentals with JavaScript
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. JavaScript
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 3: Core Programming Concepts
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. programming
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 4: Data Migration Strategies and Techniques
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. migrate existing data
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 5: Introduction to Erlang for Concurrent Systems
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. Erlang
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 6: Ruby Programming for Web Development
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. Ruby (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 7: Java Programming Fundamentals
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. Java (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 8: Logic Programming with Prolog
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. Prolog (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 9: Scripting with Perl
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. Perl
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 10: Introduction to Smalltalk Programming
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. Smalltalk (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 11: Low-Level Programming with Assembly
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. Assembly (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 12: Data Analysis with R
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. R
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 13: Groovy Scripting for JVM
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. Groovy
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 14: Object-Oriented Modeling Principles
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. object-oriented modelling
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: SESSION 15: Modern Web Development with TypeScript
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Count: 1
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+  Skills in this session:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:     1. TypeScript
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: TOTAL SKILLS GENERATED: 15
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+Complete Skills List:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:    1. Python (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:    2. JavaScript
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:    3. programming
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:    4. migrate existing data
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:    5. Erlang
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:    6. Ruby (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:    7. Java (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:    8. Prolog (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:    9. Perl
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   10. Smalltalk (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   11. Assembly (computer programming)
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   12. R
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   13. Groovy
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   14. object-oriented modelling
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   15. TypeScript
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: Skill Gap Summary:
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Total Skills Needed: 25
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills to Learn: 25
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO:   Skills Analyzed: 25
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 📁 Learning Path saved to: test_outputs_20260123_131828\01_learning_path.json
+[2026-01-23 13:18:38] [INFO] ====================================================================================================
+[2026-01-23 13:18:38] [INFO] PHASE 3: Community Voting System
+[2026-01-23 13:18:38] [INFO] ====================================================================================================
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: COMMUNITY VOTING DETAILS
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 13:18:38] [INFO] ℹ️  INFO: Voting on 5 skills...
+[2026-01-23 13:18:40] [SUCCESS] ✅ SUCCESS: Upvoted: Python (computer programming)
+[2026-01-23 13:18:40] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-python-(computer-programming)
+[2026-01-23 13:18:42] [SUCCESS] ✅ SUCCESS: Upvoted: JavaScript
+[2026-01-23 13:18:42] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-javascript
+[2026-01-23 13:18:44] [SUCCESS] ✅ SUCCESS: Upvoted: programming
+[2026-01-23 13:18:44] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-programming
+[2026-01-23 13:18:46] [SUCCESS] ✅ SUCCESS: Upvoted: migrate existing data
+[2026-01-23 13:18:46] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-migrate-existing-data
+[2026-01-23 13:18:48] [SUCCESS] ✅ SUCCESS: Upvoted: Erlang
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO:     URI: http://data.europa.eu/esco/skill/test-erlang
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO: Voting Summary: 5 successful, 0 failed
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO: 📁 Community Voting saved to: test_outputs_20260123_131828\02_community_voting.json
+[2026-01-23 13:18:48] [INFO] ====================================================================================================
+[2026-01-23 13:18:48] [INFO] PHASE 4: Community Skill Suggestions
+[2026-01-23 13:18:48] [INFO] ====================================================================================================
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO: SKILL SUGGESTIONS DETAILS
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO: Submitting 3 skill suggestions...
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO: Suggesting: Kotlin
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/android-kotlin
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-01-23 13:18:48] [INFO] ℹ️  INFO:   Description: Primary modern programming language for Android development
+[2026-01-23 13:18:50] [SUCCESS] ✅ SUCCESS: Suggested: Kotlin
+[2026-01-23 13:18:50] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:18:50] [INFO] ℹ️  INFO: Suggesting: Jetpack Compose
+[2026-01-23 13:18:50] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/android-jetpack-compose
+[2026-01-23 13:18:50] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-01-23 13:18:50] [INFO] ℹ️  INFO:   Description: Modern declarative UI toolkit for building native Android interfaces
+[2026-01-23 13:18:52] [SUCCESS] ✅ SUCCESS: Suggested: Jetpack Compose
+[2026-01-23 13:18:52] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:18:52] [INFO] ℹ️  INFO: Suggesting: Firebase
+[2026-01-23 13:18:52] [INFO] ℹ️  INFO:   URI: http://data.europa.eu/esco/skill/mobile-firebase
+[2026-01-23 13:18:52] [INFO] ℹ️  INFO:   Type: add_skill
+[2026-01-23 13:18:52] [INFO] ℹ️  INFO:   Description: Backend-as-a-Service platform for mobile app development
+[2026-01-23 13:18:54] [SUCCESS] ✅ SUCCESS: Suggested: Firebase
+[2026-01-23 13:18:54] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:18:54] [INFO] ℹ️  INFO: Suggestion Summary: 3 successful, 0 failed
+[2026-01-23 13:18:54] [INFO] ℹ️  INFO: 📁 Skill Suggestions saved to: test_outputs_20260123_131828\03_skill_suggestions.json
+[2026-01-23 13:18:54] [INFO] ====================================================================================================
+[2026-01-23 13:18:54] [INFO] PHASE 5: Quiz Generation
+[2026-01-23 13:18:54] [INFO] ====================================================================================================
+[2026-01-23 13:18:54] [INFO] ℹ️  INFO: Generating quiz from learning path...
+[2026-01-23 13:18:54] [INFO] ℹ️  INFO: Learning path has 15 sessions
+[2026-01-23 13:18:54] [INFO] ℹ️  INFO:   1. Introduction to Python Programming
+[2026-01-23 13:18:54] [INFO] ℹ️  INFO:   2. Web Development Fundamentals with JavaScript
+[2026-01-23 13:18:54] [INFO] ℹ️  INFO:   3. Core Programming Concepts
+[2026-01-23 13:18:54] [INFO] ℹ️  INFO:   ... and 12 more sessions
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: Quiz generation completed in 26.12 seconds
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-23 13:19:20] [SUCCESS] ✅ SUCCESS: Quiz generated with 10 questions
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: COMPLETE QUIZ DETAILS
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+Quiz Structure:
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Total Questions: 10
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Easy: 4
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Medium: 3
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Hard: 3
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Topics Covered: 10
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: ALL QUIZ QUESTIONS AND ANSWERS:
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: QUESTION 1 [EASY] - Topic: Python (computer programming)
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Which of the following Python code snippets would correctly print the string 'Hello, Mobile!' to the console?
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     A. console.log('Hello, Mobile!') 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     B. print('Hello, Mobile!') ✓ CORRECT
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     C. System.out.println('Hello, Mobile!') 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     D. puts 'Hello, Mobile!' 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Explanation: The 'print()' function is the standard way to output text to the console in Python. The other options are for JavaScript (A), Java (C), and Ruby (D).
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: QUESTION 2 [EASY] - Topic: JavaScript
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   What is the primary role of JavaScript in modern mobile application development, especially for cross-platform frameworks like React Native or Ionic?
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     A. To perform low-level hardware optimizations for graphics rendering. 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     B. To handle server-side database operations and API authentication. 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     C. To enable interactive user interfaces, logic, and dynamic content on the client side. ✓ CORRECT
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     D. To compile native machine code for the device's CPU. 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+  Correct Answer: C
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Explanation: JavaScript is extensively used in cross-platform mobile development (e.g., React Native, Ionic) to build the interactive client-side user interface and implement application logic, making it dynamic and responsive. While it can be used on the server (Node.js), its primary role for client-side mobile apps is UI and logic.
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: QUESTION 3 [EASY] - Topic: object-oriented modelling
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   In Object-Oriented Modelling, which concept refers to the bundling of data and methods that operate on the data within a single unit, hiding the internal details from the outside world?
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     A. Inheritance 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     B. Polymorphism 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     C. Encapsulation ✓ CORRECT
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     D. Abstraction 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+  Correct Answer: C
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Explanation: Encapsulation is the principle of bundling data and methods within a single unit (an object) and restricting direct access to some of an object's components, promoting data integrity and modularity.
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: QUESTION 4 [EASY] - Topic: Java (computer programming)
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Which programming language has historically been the foundational and primary language for developing native Android applications?
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     A. Swift 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     B. JavaScript 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     C. Java ✓ CORRECT
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:     D. C# 
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+  Correct Answer: C
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO:   Explanation: Java has historically been the foundational language for native Android development. While Kotlin is now the preferred language by Google, Java remains widely used and fundamental. Swift is for iOS, JavaScript for cross-platform, and C# for Xamarin.
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: QUESTION 5 [MEDIUM] - Topic: TypeScript
+[2026-01-23 13:19:20] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   For a large-scale mobile application project built with a JavaScript-based framework (e.g., React Native), what is the main advantage of using TypeScript over plain JavaScript?
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     A. It compiles directly to native machine code for faster execution. 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     B. It introduces static typing, which helps catch errors during development and improves code readability and maintainability. ✓ CORRECT
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     C. It significantly reduces the final bundle size of the application. 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     D. It allows for direct interaction with low-level device hardware APIs without bridges. 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Explanation: TypeScript adds static typing to JavaScript, enabling developers to define data types. This helps prevent type-related errors during development, provides better tooling support (autocompletion, refactoring), and makes large codebases more maintainable and understandable.
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: QUESTION 6 [MEDIUM] - Topic: migrate existing data
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   A mobile application is being developed to replace a legacy system. When 'migrating existing data' from the old system to a new database backend for the mobile app, which approach is typically recommended to minimize downtime and ensure data consistency during the transition?
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     A. A 'big bang' migration, where all data is moved at once during a single, extended outage. 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     B. Performing a 'lift and shift' of the entire legacy database without any schema changes. 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     C. An 'incremental migration' or 'strangler pattern', moving data in phases while both systems run concurrently. ✓ CORRECT
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     D. Manually re-entering all historical data into the new system. 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Correct Answer: C
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Explanation: An incremental migration (often referred to as the strangler pattern) allows for data to be moved in stages. Both the old and new systems can operate concurrently, minimizing downtime and allowing for gradual transition and validation. Big bang migrations are risky, lift-and-shift might not address schema needs, and manual re-entry is error-prone and impractical for large datasets.
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: QUESTION 7 [MEDIUM] - Topic: Ruby (computer programming)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   A mobile application requires a robust RESTful API backend to serve data to its clients. Which popular web framework, primarily written in Ruby, is often chosen for rapidly developing such backends?
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     A. Django 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     B. Spring Boot 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     C. Ruby on Rails ✓ CORRECT
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     D. Express.js 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Correct Answer: C
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Explanation: Ruby on Rails is a highly popular and productive framework for building web applications and RESTful APIs, well-suited for serving mobile clients, known for its 'convention over configuration' paradigm. Django is Python, Spring Boot is Java, Express.js is Node.js (JavaScript).
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: QUESTION 8 [HARD] - Topic: Groovy
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   A mobile developer is working on an Android project and needs to customize the build logic, add custom tasks, and manage dependencies more dynamically than standard XML configurations allow. Which JVM-based language is commonly used within Gradle build scripts for this purpose?
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     A. Python 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     B. Groovy ✓ CORRECT
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     C. Scala 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     D. C# 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Correct Answer: B
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Explanation: Groovy is a dynamic language for the Java Virtual Machine (JVM) and is extensively used in Android's Gradle build system to define build logic, tasks, and dependency management due to its concise syntax and powerful features. While Kotlin DSL is gaining popularity, Groovy has been the traditional scripting language for Gradle on Android.
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: QUESTION 9 [HARD] - Topic: Erlang
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   A new mobile application requires a backend system capable of handling millions of concurrent connections for real-time chat and IoT device communication, prioritizing fault tolerance and soft real-time characteristics. Which of the following programming languages is specifically designed for building highly concurrent, distributed, and fault-tolerant systems and would be a strong candidate for this specialized backend?
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     A. R 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     B. Perl 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     C. Prolog 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     D. Erlang ✓ CORRECT
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Correct Answer: D
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Explanation: Erlang was specifically designed by Ericsson for building highly concurrent, fault-tolerant, and distributed systems, making it exceptionally well-suited for applications like real-time chat, messaging, and IoT where high availability and handling numerous simultaneous connections are critical. The other languages are not primarily designed for this specific use case (R for statistics, Perl for scripting/text processing, Prolog for logic programming).
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: QUESTION 10 [HARD] - Topic: Assembly (computer programming)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   A mobile game developer needs to implement a computationally intensive algorithm for a specific physics simulation that requires direct memory access and fine-grained control over CPU operations to achieve maximum performance on resource-constrained devices. Which language from the list would be considered for writing this performance-critical module, potentially as a native extension?
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Options:
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     A. Smalltalk 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     B. Ruby 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     C. Assembly ✓ CORRECT
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:     D. JavaScript 
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+  Correct Answer: C
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Explanation: Assembly language provides the most direct control over hardware and CPU operations, allowing for extreme optimization critical for performance-intensive tasks like complex physics simulations or graphics rendering on resource-constrained mobile devices. It would typically be used for small, critical sections of code invoked from a higher-level language, often through native development kits (NDKs).
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 📁 Quiz Questions saved to: test_outputs_20260123_131828\04_quiz_questions.json
+[2026-01-23 13:19:21] [INFO] ====================================================================================================
+[2026-01-23 13:19:21] [INFO] PHASE 6: Quiz Answer Submission
+[2026-01-23 13:19:21] [INFO] ====================================================================================================
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: QUIZ SUBMISSION DETAILS
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: Simulating quiz answers for 10 questions (70% accuracy)...
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO: 
+Submitted Answers:
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q1: B (✓ Correct, correct: B)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q2: C (✓ Correct, correct: C)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q3: C (✓ Correct, correct: C)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q4: C (✓ Correct, correct: C)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q5: B (✓ Correct, correct: B)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q6: C (✓ Correct, correct: C)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q7: C (✓ Correct, correct: C)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q8: A (✗ Wrong, correct: B)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q9: A (✗ Wrong, correct: D)
+[2026-01-23 13:19:21] [INFO] ℹ️  INFO:   Q10: A (✗ Wrong, correct: C)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: 
+Status Code: 200
+[2026-01-23 13:19:23] [SUCCESS] ✅ SUCCESS: Quiz submitted and analyzed successfully
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: QUIZ RESULTS ANALYSIS:
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   Score: 3/10
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   Percentage: 30.0%
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   Grade: F
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   Performance Level: Requires Significant Review
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: 
+  Difficulty Breakdown:
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     Easy: 2/4 (50.0%)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     Medium: 1/3 (33.3%)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     Hard: 0/3 (0.0%)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: 
+  Strengths (Topics with high accuracy):
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✓ JavaScript: 100.0% (1/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✓ object-oriented modelling: 100.0% (1/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✓ migrate existing data: 100.0% (1/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: 
+  Weaknesses (Topics needing focus):
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✗ Python (computer programming): 0.0% (0/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✗ Java (computer programming): 0.0% (0/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✗ TypeScript: 0.0% (0/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✗ Ruby (computer programming): 0.0% (0/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✗ Groovy: 0.0% (0/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✗ Erlang: 0.0% (0/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     ✗ Assembly (computer programming): 0.0% (0/1)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: 
+  Recommendations:
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     1. 📚 Consider reviewing the learning path materials more thoroughly.
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     2. ⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     3. 💡 Practice applying concepts to different scenarios to improve your understanding.
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     4. 🎯 Priority topics to review: Python (computer programming), Java (computer programming), TypeScript
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:     5. ✅ Your strongest areas: JavaScript, object-oriented modelling
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: 
+────────────────────────────────────────
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: DETAILED QUESTION-BY-QUESTION RESULTS:
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: ────────────────────────────────────────
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✗ Q1: Your answer: C, Correct: B (Topic: Python (computer programming))
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✓ Q2: Your answer: C, Correct: C (Topic: JavaScript)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✓ Q3: Your answer: C, Correct: C (Topic: object-oriented modelling)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✗ Q4: Your answer: B, Correct: C (Topic: Java (computer programming))
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✗ Q5: Your answer: C, Correct: B (Topic: TypeScript)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✓ Q6: Your answer: C, Correct: C (Topic: migrate existing data)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✗ Q7: Your answer: A, Correct: C (Topic: Ruby (computer programming))
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✗ Q8: Your answer: A, Correct: B (Topic: Groovy)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✗ Q9: Your answer: A, Correct: D (Topic: Erlang)
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO:   ✗ Q10: Your answer: , Correct: C (Topic: Assembly (computer programming))
+[2026-01-23 13:19:23] [INFO] ℹ️  INFO: 📁 Quiz Results saved to: test_outputs_20260123_131828\05_quiz_results.json
+[2026-01-23 13:19:23] [INFO] ====================================================================================================
+[2026-01-23 13:19:23] [INFO] PHASE 7: Community Feedback Statistics
+[2026-01-23 13:19:23] [INFO] ====================================================================================================
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-23 13:19:25] [SUCCESS] ✅ SUCCESS: Retrieved feedback statistics
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO: COMPLETE FEEDBACK STATISTICS
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO: 
+Overall Metrics:
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO:   Total Votes: 292
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO:   Total Suggestions: 59
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO:   Pending Suggestions: 43
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO:   Approved Suggestions: 5
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO:   Rejected Suggestions: 0
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO: 📁 Feedback Statistics saved to: test_outputs_20260123_131828\06_feedback_statistics.json
+[2026-01-23 13:19:25] [INFO] ====================================================================================================
+[2026-01-23 13:19:25] [INFO] PHASE 8: Path Regeneration (with Community Feedback)
+[2026-01-23 13:19:25] [INFO] ====================================================================================================
+[2026-01-23 13:19:25] [INFO] ℹ️  INFO: Waiting 2 seconds for feedback to propagate...
+[2026-01-23 13:19:27] [INFO] ℹ️  INFO: Regenerating learning path...
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: Response received in 8.39 seconds
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-23 13:19:35] [SUCCESS] ✅ SUCCESS: Path regenerated successfully
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+================================================================================
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: COMPLETE REGENERATED LEARNING PATH
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ================================================================================
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+Matched Occupation: mobile application developer
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: Similarity Score: 0.9227
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: Total Sessions: 15
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: Total Skills: 15
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 1: Introduction to Python Programming
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. Python (computer programming)
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 2: JavaScript Fundamentals for Web Development
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. JavaScript
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 3: Object-Oriented Modeling Principles
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. object-oriented modelling
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 4: Introduction to Java Programming
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. Java (computer programming)
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 5: Getting Started with Ruby Programming
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. Ruby (computer programming)
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 6: Introduction to TypeScript
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. TypeScript
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 7: Data Migration Strategies and Techniques
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. migrate existing data
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 8: Programming Fundamentals
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. programming
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 9: Introduction to R for Data Analysis
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. R
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 10: Exploring Groovy for JVM Development
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. Groovy
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 11: Introduction to Prolog for Logic Programming
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. Prolog (computer programming)
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 12: Perl Scripting for Text Processing
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. Perl
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 13: Introduction to Smalltalk Programming
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. Smalltalk (computer programming)
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 14: Fundamentals of Assembly Language Programming
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. Assembly (computer programming)
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SESSION 15: Introduction to Erlang for Concurrent Systems
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ────────────────────────────────────────────────────────────
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Description: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Duration: N/A
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Skills (1):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:     1. Erlang
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+============================================================
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: PATH COMPARISON (Original vs Regenerated):
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ============================================================
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Original Sessions: 15
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Regenerated Sessions: 15
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Original Skills: 15
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO:   Regenerated Skills: 15
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: No community-suggested skills found in regenerated path
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 📁 Regenerated Learning Path saved to: test_outputs_20260123_131828\07_regenerated_learning_path.json
+[2026-01-23 13:19:35] [INFO] ====================================================================================================
+[2026-01-23 13:19:35] [INFO] PHASE 9: Final Test Summary
+[2026-01-23 13:19:35] [INFO] ====================================================================================================
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: Total Test Duration: 67.07 seconds (1.1 minutes)
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: SYSTEM CAPABILITIES TESTED:
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ✅ Learning Path Generation.......................... 15 skills generated
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ✅ Community Voting System........................... 5 votes submitted
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ✅ Skill Suggestions................................. 3 suggestions submitted
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ✅ Quiz Generation................................... 10 questions
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ✅ Quiz Submission................................... Score: 30.0%
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ✅ Feedback Statistics............................... 292 total votes
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ✅ Path Regeneration................................. 15 skills
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: OVERALL SUCCESS RATE: 100.0% (7/7 features working)
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-01-23 13:19:35] [SUCCESS] ✅ SUCCESS: 🎉 EXCELLENT! System is fully functional!
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 📁 Final Summary saved to: test_outputs_20260123_131828\08_final_summary.json
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: 
+Detailed log saved to: full_system_test_log_20260123_131828.txt
+[2026-01-23 13:19:35] [INFO] ℹ️  INFO: Output files saved to: test_outputs_20260123_131828/

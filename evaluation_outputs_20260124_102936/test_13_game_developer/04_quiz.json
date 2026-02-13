@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:43:26.598769",
+      "learning_path_id": "test_13",
+      "target_occupation": "gambling games designer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "id": 1,
+        "options": {
+          "A": "To ensure the game is highly entertaining and addictive.",
+          "B": "To guarantee the game generates maximum profit for the operator.",
+          "C": "To ensure the game operates within regulatory compliance, promotes fair play, and protects players from harm.",
+          "D": "To design the most visually appealing and complex game interface.",
+          "explanation": "Legal standards are paramount for ensuring fairness, player protection, and the legality of the gambling operation, not solely for entertainment or profit."
+        },
+        "question": "What is the primary purpose of adhering to 'Legal Standards in Gambling' for a game designer?",
+        "topic": "legal standards in gambling"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "id": 2,
+        "options": {
+          "A": "The marketing strategies used to promote the game to a wider audience.",
+          "B": "The set of instructions and conditions that dictate how a game is played, how outcomes are determined, and how winnings are paid.",
+          "C": "The artistic style and visual elements applied to the game's interface.",
+          "D": "The backend server infrastructure and algorithms supporting the game's operation.",
+          "explanation": "Game rules are the fundamental mechanics that define gameplay, outcomes, and payouts, forming the core logic of any gambling game."
+        },
+        "question": "Which of the following best defines 'games rules' in the context of gambling game design?",
+        "topic": "games rules"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "id": 3,
+        "options": {
+          "A": "Calculating the game's return to player (RTP) percentage.",
+          "B": "Determining the core mathematical model for probability and payouts.",
+          "C": "Creating visual elements such as symbols, backgrounds, user interface components, and animations.",
+          "D": "Writing the programming code that processes player bets and game logic.",
+          "explanation": "Graphic design specifically involves the creation of all visual assets and the aesthetic presentation of the game."
+        },
+        "question": "What is a fundamental aspect of 'graphic design' when creating a digital gambling game?",
+        "topic": "graphic design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "id": 4,
+        "options": {
+          "A": "Use vibrant color palettes and exciting sound effects.",
+          "B": "Encourage excessive or problematic gambling behavior, particularly among vulnerable populations.",
+          "C": "Feature complex game rules that require players to learn new mechanics.",
+          "D": "Require frequent software updates or patches after launch.",
+          "explanation": "Ethical conduct in gambling primarily focuses on responsible gaming, preventing harm, and avoiding exploitative practices."
+        },
+        "question": "A key ethical consideration for a gambling game designer, aligning with 'follow ethical code of conduct of gambling', is to avoid practices that:",
+        "topic": "follow ethical code of conduct of gambling"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "id": 5,
+        "options": {
+          "A": "Hiding the paytable and help sections to encourage player exploration.",
+          "B": "Using highly complex and multi-layered navigation menus to provide depth.",
+          "C": "Ensuring clear, intuitive placement of buttons for betting, spinning, and accessing vital information like the paytable.",
+          "D": "Incorporating as many animations and sound effects as possible, regardless of potential load times or player distraction.",
+          "explanation": "An intuitive and clear interface is crucial for player engagement and usability, allowing players to easily understand and control their gameplay without frustration."
+        },
+        "question": "When designing the digital interface for an online slot machine, which principle is most critical for ensuring player engagement and usability, covering 'design the digital interface of gambling, betting and lottery games'?",
+        "topic": "design the digital interface of gambling, betting and lottery games"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "id": 6,
+        "options": {
+          "A": "Completely scrap the game and immediately start development on a new concept.",
+          "B": "Analyze market-specific player preferences, cultural nuances, regulatory differences, and competitive offerings.",
+          "C": "Increase the game's maximum payout significantly to attract more players.",
+          "D": "Only change the game's background music and sound effects.",
+          "explanation": "Market adaptation requires a thorough understanding of the target market's specific characteristics, preferences, and regulatory environment before implementing changes."
+        },
+        "question": "A newly developed online casino game is underperforming in a specific regional market. What is the most likely initial step a designer would take to 'adapt developed game to the market'?",
+        "topic": "adapt developed game to the market"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "id": 7,
+        "options": {
+          "A": "The ad is guaranteed to go viral on social media platforms.",
+          "B": "The imagery is visually appealing to the widest possible demographic.",
+          "C": "The advertisement complies with regulations regarding responsible gambling promotion and avoids misleading claims or targeting vulnerable groups.",
+          "D": "The advertising campaign budget is efficiently spent on the most impactful visuals.",
+          "explanation": "Publicity codes in gambling are regulatory guidelines designed to ensure responsible advertising, prevent misleading claims, and protect consumers, especially vulnerable individuals."
+        },
+        "question": "Before launching a new lottery game, a marketing team asks a designer about specific imagery that can be used in advertisements. The designer refers to the 'publicity code' to ensure:",
+        "topic": "apply publicity code"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "id": 8,
+        "options": {
+          "A": "Design the game concept purely for maximum aesthetic appeal, then retroactively check for legal issues after development.",
+          "B": "Develop a core game mechanic, then hire separate teams for legal review and graphic design without much cross-functional input.",
+          "C": "Brainstorm unique gameplay mechanics, simultaneously consulting with legal experts on permissible features and visual designers on how to make new elements aesthetically pleasing and intuitive within regulatory frameworks.",
+          "D": "Copy existing popular poker games and slightly modify their graphics to save time and ensure compliance by imitation.",
+          "explanation": "The most effective approach integrates concept, legality, and aesthetics concurrently through cross-functional collaboration from the initial stages, preventing costly reworks and ensuring a compliant, appealing, and innovative product."
+        },
+        "question": "You are conceptualizing a new online poker variant. To ensure its success and compliance, you must balance innovative gameplay, player appeal, and regulatory adherence. Which approach best integrates 'create gambling games concepts,' 'ensure legal gaming,' and 'aesthetics' from the outset?",
+        "topic": "create gambling games concepts, ensure legal gaming, aesthetics"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "id": 9,
+        "options": {
+          "A": "Demonstrate the game to potential players first to gather feedback, then formalize rules, and finally consult legal experts.",
+          "B": "Formulate clear, mathematically sound rules, verify their compliance with relevant gambling legal standards, and then prepare a demonstration that accurately reflects these compliant rules.",
+          "C": "Focus solely on creating an engaging demonstration, assuming the rules can be adjusted later and legal aspects are minor details.",
+          "D": "Formulate rules based on maximum profit potential, then demonstrate, and only address legal standards if the game faces a challenge.",
+          "explanation": "It is critical to establish clear, legally compliant rules first. A demonstration should accurately reflect these validated rules to avoid showcasing a non-compliant or unfair game, which could have serious consequences."
+        },
+        "question": "A game designer has developed a unique payout structure for a new virtual roulette game. Before demonstrating it to stakeholders, what is the most critical sequence of actions to take regarding 'formulate game rules,' 'demonstrate games,' and 'legal standards in gambling'?",
+        "topic": "formulate game rules, demonstrate games, legal standards in gambling"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "id": 10,
+        "options": {
+          "A": "Use a generic cabinet design and Western-themed graphics, expecting all international markets to appreciate universal aesthetics.",
+          "B": "Prioritize a visually striking, unique cabinet shape, then use placeholder graphics until the game is tested in the market.",
+          "C": "Research popular themes, color schemes, and cultural symbols prevalent in Macau, then integrate these into both the physical cabinet design (e.g., ergonomics, button layout, form factor) and the digital graphic design (e.g., symbols, animations, interface), while ensuring local regulatory compliance.",
+          "D": "Focus on making the machine as large and loud as possible to attract attention, with minimal concern for the internal graphic design or specific market fit.",
+          "explanation": "A comprehensive strategy involves deep market research to inform both the physical and digital design elements, ensuring cultural relevance, ergonomic suitability, aesthetic appeal, and regulatory compliance for the specific target market like Macau."
+        },
+        "question": "You are tasked with designing a new physical slot machine for casinos in Macau. Considering 'design the physical outlook of games,' 'graphic design,' and 'adapt developed game to the market,' what is the most comprehensive strategy?",
+        "topic": "design the physical outlook of games, graphic design, adapt developed game to the market"
+      }
+    ],
+    "topics_covered": [
+      "games rules",
+      "create gambling games concepts",
+      "demonstrate games",
+      "formulate game rules",
+      "design the digital interface of gambling, betting and lottery games",
+      "adapt developed game to the market",
+      "design graphics",
+      "legal standards in gambling",
+      "graphic design",
+      "ensure legal gaming",
+      "design the physical outlook of games",
+      "publicity code",
+      "follow ethical code of conduct of gambling",
+      "apply publicity code",
+      "aesthetics"
+    ]
+  },
+  "success": true
+}

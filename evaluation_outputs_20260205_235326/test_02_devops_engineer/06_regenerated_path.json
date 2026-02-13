@@ -1,0 +1,264 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core DevOps principles and how they map to modern delivery workflows",
+        "Identify how version control, automation, and infrastructure practices fit together in a DevOps lifecycle"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "DevOps"
+      ],
+      "title": "DevOps Foundations and Workflow Overview"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create and manage repositories using common Git workflows",
+        "Use branching, merging, and pull/merge request practices to support team collaboration"
+      ],
+      "prerequisites": [
+        "DevOps"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Version Control (Git)"
+      ],
+      "title": "Version Control Fundamentals with Git"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Navigate Linux systems and manage users, permissions, and services",
+        "Troubleshoot common system issues using standard Linux tools and logs"
+      ],
+      "prerequisites": [
+        "DevOps"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Linux Administration"
+      ],
+      "title": "Linux Administration Essentials for DevOps"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write Bash scripts to automate repeatable operational tasks",
+        "Use variables, conditionals, loops, and exit codes to build reliable scripts"
+      ],
+      "prerequisites": [
+        "Linux Administration"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Scripting (Bash)"
+      ],
+      "title": "Bash Scripting for Automation"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build Docker images and run containers with appropriate networking and storage options",
+        "Apply best practices for image layering, tagging, and container lifecycle management"
+      ],
+      "prerequisites": [
+        "Linux Administration",
+        "Version Control (Git)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Containers (Docker)"
+      ],
+      "title": "Containers with Docker: Build, Run, and Ship"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design a CI/CD pipeline with stages, artifacts, and environment promotion",
+        "Implement pipeline triggers and approvals using common CI/CD patterns"
+      ],
+      "prerequisites": [
+        "Version Control (Git)",
+        "Scripting (Bash)"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+      ],
+      "title": "CI/CD Pipelines: Automating Build, Test, and Deploy"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Compare core services and shared concepts across major cloud platforms",
+        "Operate common cloud resources with an emphasis on reliability and cost awareness"
+      ],
+      "prerequisites": [
+        "Linux Administration"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Cloud Platforms (Aws/Azure/Gcp)"
+      ],
+      "title": "Cloud Platforms Core Concepts and Operations"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Author Terraform configurations to provision and update infrastructure safely",
+        "Use state management and modular patterns to support reusable infrastructure"
+      ],
+      "prerequisites": [
+        "Cloud Platforms (Aws/Azure/Gcp)",
+        "Version Control (Git)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Infrastructure As Code (Terraform)"
+      ],
+      "title": "Infrastructure as Code with Terraform"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create Ansible inventories and playbooks to enforce desired system configuration",
+        "Apply idempotent automation patterns for repeatable server provisioning"
+      ],
+      "prerequisites": [
+        "Linux Administration",
+        "Scripting (Bash)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Configuration Management (Ansible)"
+      ],
+      "title": "Configuration Management with Ansible"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Deploy containerized applications to Kubernetes using core workload primitives",
+        "Understand scheduling, services, and basic operational troubleshooting"
+      ],
+      "prerequisites": [
+        "Containers (Docker)"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Container Orchestration (Kubernetes)"
+      ],
+      "title": "Kubernetes Fundamentals: Deploying and Operating Workloads"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Instrument and collect metrics to monitor system and application health",
+        "Create dashboards and alerts that support actionable incident response"
+      ],
+      "prerequisites": [
+        "Container Orchestration (Kubernetes)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Monitoring And Alerting (Prometheus/Grafana)"
+      ],
+      "title": "Monitoring and Alerting with Prometheus and Grafana"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Centralize logs and build queries to investigate incidents and performance issues",
+        "Design log pipelines and retention strategies aligned with operational needs"
+      ],
+      "prerequisites": [
+        "Linux Administration",
+        "Container Orchestration (Kubernetes)"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Logging And Observability (Elk/Efk/Opensearch)"
+      ],
+      "title": "Logging and Observability with ELK/EFK/OpenSearch"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Manage secrets lifecycle including storage, access, rotation, and auditing",
+        "Integrate secrets retrieval into automation and deployment workflows"
+      ],
+      "prerequisites": [
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+        "Cloud Platforms (Aws/Azure/Gcp)"
+      ],
+      "session_number": 13,
+      "skills": [
+        "Secrets Management (Vault/Kms)"
+      ],
+      "title": "Secrets Management with Vault and KMS Concepts"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply IAM principles and least-privilege access patterns across environments",
+        "Integrate vulnerability scanning into delivery workflows and remediation cycles"
+      ],
+      "prerequisites": [
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+        "Cloud Platforms (Aws/Azure/Gcp)",
+        "Container Orchestration (Kubernetes)"
+      ],
+      "session_number": 14,
+      "skills": [
+        "Security Hardening And Devsecops (Iam/Vulnerability Scanning)"
+      ],
+      "title": "Security Hardening and DevSecOps Practices"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write JavaScript scripts to automate common DevOps tasks and integrations",
+        "Structure small utilities for maintainability and safe execution in pipelines"
+      ],
+      "prerequisites": [
+        "Version Control (Git)"
+      ],
+      "session_number": 15,
+      "skills": [
+        "JavaScript"
+      ],
+      "title": "JavaScript for DevOps Automation and Tooling"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Cloud DevOps engineers implement and manage continuous software delivery systems and methodologies. This includes managing and configuring code repositories, build services, automated testing, and deployment mechanisms. For cloud-based workloads, a Cloud DevOps Engineer define and deploy infrastructure as code, automating test and development environments. They can define and configure automated disaster recovery solutions that meet business objectives.",
+    "label": "cloud DevOps engineer ",
+    "similarity_score": 0.9783631563186646,
+    "uri": "http://data.europa.eu/esco/occupation/cc867bee-ab5c-427f-9244-f7a204d9574b"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 34,
+    "skills_in_path": 15,
+    "skills_to_learn": 34,
+    "total_skills_needed": 39
+  },
+  "user_id": "eval_user_02"
+}

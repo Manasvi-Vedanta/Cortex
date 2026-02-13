@@ -1,0 +1,266 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core concepts in data science and how statistics supports data-driven decision-making",
+        "Identify common data types and summarize datasets using statistical measures",
+        "Apply basic statistical reasoning to interpret results and avoid common pitfalls"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "data science",
+        "statistics"
+      ],
+      "title": "Foundations of Data Science and Statistics"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Python to load, inspect, and manipulate datasets",
+        "Write clear, reusable Python code for data tasks",
+        "Prepare data for downstream analysis"
+      ],
+      "prerequisites": [
+        "data science",
+        "statistics"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Python"
+      ],
+      "title": "Working with Data in Python"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Clean and transform raw data into analysis-ready tables",
+        "Handle missing values, duplicates, and inconsistent formats",
+        "Create reliable data preparation workflows"
+      ],
+      "prerequisites": [
+        "Python"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Data Wrangling (Pandas)"
+      ],
+      "title": "Data Wrangling with Pandas"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Retrieve and filter data using Sql queries",
+        "Join tables to build analysis datasets",
+        "Aggregate data to produce summary tables for reporting"
+      ],
+      "prerequisites": [
+        "data science"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Sql"
+      ],
+      "title": "Querying Data with Sql"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe how data models structure information for analysis",
+        "Interpret relationships between entities and tables",
+        "Use data models to support consistent querying and reporting"
+      ],
+      "prerequisites": [
+        "Sql"
+      ],
+      "session_number": 5,
+      "skills": [
+        "data models"
+      ],
+      "title": "Data Models for Analytics"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain the role of data engineering in delivering trustworthy datasets",
+        "Design a simple flow from raw data to curated data for analysis",
+        "Identify quality checks that prevent downstream issues"
+      ],
+      "prerequisites": [
+        "Data Wrangling (Pandas)",
+        "Sql",
+        "data models"
+      ],
+      "session_number": 6,
+      "skills": [
+        "data engineering"
+      ],
+      "title": "Data Engineering Basics for Reliable Pipelines"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Choose appropriate chart types for different analytical questions",
+        "Create clear visual encodings that reduce misinterpretation",
+        "Communicate insights effectively using data visualization"
+      ],
+      "prerequisites": [
+        "statistics",
+        "data science"
+      ],
+      "session_number": 7,
+      "skills": [
+        "data visualization"
+      ],
+      "title": "Data Visualization Principles"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build a basic report using data visualisation software",
+        "Design consistent layouts and filters for exploration",
+        "Validate that visuals match underlying data summaries"
+      ],
+      "prerequisites": [
+        "data visualization",
+        "Sql"
+      ],
+      "session_number": 8,
+      "skills": [
+        "data visualisation software"
+      ],
+      "title": "Using Data Visualisation Software for Reporting"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain the goals and common approaches of data mining",
+        "Identify patterns and relationships worth investigating",
+        "Prepare datasets for pattern discovery workflows"
+      ],
+      "prerequisites": [
+        "Data Wrangling (Pandas)",
+        "statistics"
+      ],
+      "session_number": 9,
+      "skills": [
+        "data mining"
+      ],
+      "title": "Data Mining for Pattern Discovery"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe key Machine Learning problem types and workflows",
+        "Train baseline models and interpret high-level behavior",
+        "Recognize common sources of error and overfitting"
+      ],
+      "prerequisites": [
+        "Python",
+        "statistics",
+        "data mining"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Machine Learning"
+      ],
+      "title": "Machine Learning Fundamentals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create and transform features to improve model performance",
+        "Prevent leakage by separating feature creation from target information",
+        "Document feature choices for reproducibility"
+      ],
+      "prerequisites": [
+        "Machine Learning",
+        "Data Wrangling (Pandas)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Feature Engineering"
+      ],
+      "title": "Feature Engineering for Better Models"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select evaluation approaches appropriate to the problem",
+        "Compare models using consistent validation procedures",
+        "Interpret results to decide whether a model is ready for use"
+      ],
+      "prerequisites": [
+        "Machine Learning",
+        "statistics"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Model Evaluation & Validation"
+      ],
+      "title": "Model Evaluation & Validation"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify ethical risks in data collection, analysis, and modeling",
+        "Apply data ethics principles to reduce harm and bias",
+        "Document decisions and tradeoffs for accountability"
+      ],
+      "prerequisites": [
+        "data science"
+      ],
+      "session_number": 13,
+      "skills": [
+        "data ethics"
+      ],
+      "title": "Data Ethics in Practice"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Organize datasets and metadata to support reuse and auditing",
+        "Define conventions for versioning and documentation",
+        "Establish practices that improve reproducibility across analyses"
+      ],
+      "prerequisites": [
+        "data engineering",
+        "data ethics"
+      ],
+      "session_number": 14,
+      "skills": [
+        "manage research data"
+      ],
+      "title": "Manage Research Data for Reproducibility"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Data scientists find and interpret rich data sources, manage large amounts of data, merge data sources, ensure consistency of data-sets, and create visualisations to aid in understanding data. They build mathematical models using data, present and communicate data insights and findings to specialists and scientists in their team and if required, to a non-expert audience, and recommend ways to apply the data.",
+    "label": "data scientist",
+    "similarity_score": 1.0,
+    "uri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 30,
+    "skills_in_path": 14,
+    "skills_to_learn": 30,
+    "total_skills_needed": 31
+  },
+  "user_id": "eval_user_05"
+}

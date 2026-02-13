@@ -1,0 +1,194 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-05T23:54:29.684473",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Images are naturally represented as dense numeric tensors; NumPy ndarrays efficiently store and operate on HxWxC arrays.",
+        "is_correct": true,
+        "question": "In Python, which data structure is most appropriate to store an image as a height x width x channels array for computer vision processing?",
+        "question_id": 1,
+        "topic": "Python",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters rows prior to grouping/aggregation; HAVING filters after aggregation.",
+        "is_correct": true,
+        "question": "Which SQL clause is used to filter rows before aggregation (e.g., before a GROUP BY) when selecting training metadata for a vision dataset?",
+        "question_id": 2,
+        "topic": "Sql",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Normalizing/scaling pixel intensities helps standardize brightness/contrast variations and stabilizes training.",
+        "is_correct": true,
+        "question": "Which preprocessing step is most directly used to reduce sensitivity to lighting changes in images?",
+        "question_id": 3,
+        "topic": "Data Preprocessing And Feature Engineering",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "F1-score balances precision and recall, making it more robust than accuracy when classes are imbalanced.",
+        "is_correct": true,
+        "question": "For a binary image classification problem with strong class imbalance, which metric is generally more informative than accuracy?",
+        "question_id": 4,
+        "topic": "Model Evaluation And Metrics",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Pooling reduces spatial dimensions, lowers computation, and can improve robustness to small translations.",
+        "is_correct": true,
+        "question": "In a CNN, what is the primary purpose of a pooling layer (e.g., max pooling) in many vision architectures?",
+        "question_id": 5,
+        "topic": "Deep Learning",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Passing training=False (or using model.predict) runs layers like Dropout/BatchNorm in inference behavior.",
+        "is_correct": true,
+        "question": "In TensorFlow/Keras, which approach correctly ensures the model runs in inference mode (e.g., disables dropout) when generating predictions?",
+        "question_id": 6,
+        "topic": "TensorFlow",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "torch.no_grad() disables autograd tracking, which is standard for evaluation/inference.",
+        "is_correct": false,
+        "question": "In PyTorch, which snippet correctly prevents gradient tracking during evaluation to reduce memory usage?",
+        "question_id": 7,
+        "topic": "PyTorch",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "mAP summarizes precision-recall tradeoffs across confidence thresholds (and often IoU thresholds), handling images with no objects via standard PR computation.",
+        "is_correct": false,
+        "question": "You are evaluating an object detector on a dataset where some images have no instances of a target class. Which evaluation approach best reflects real-world performance across confidence thresholds?",
+        "question_id": 8,
+        "topic": "Model Evaluation And Metrics",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Canary monitoring with guardrails should trigger rollback and alerting when key metrics regress beyond thresholds.",
+        "is_correct": false,
+        "question": "You are deploying a vision model with CI/CD. A new model version passes unit tests but causes a 3% drop in production F1 on a canary slice. What is the most appropriate automated action in a robust MLOps pipeline?",
+        "question_id": 9,
+        "topic": "Mlops (Ci/Cd, Model Deployment, Monitoring)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Tiled inference with overlap reduces boundary effects and better aligns inference with crop-based training, improving segmentation quality on large images.",
+        "is_correct": false,
+        "question": "A segmentation model trained with random crops performs poorly on full-resolution images at inference due to border artifacts and scale mismatch. Which solution is most appropriate for production inference?",
+        "question_id": 10,
+        "topic": "Deep Learning",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Model Evaluation And Metrics",
+        "total": 2
+      },
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Deep Learning",
+        "total": 2
+      }
+    ],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: PyTorch, Mlops (Ci/Cd, Model Deployment, Monitoring)",
+      "✅ Your strongest areas: Python, Sql",
+      "📖 Topics needing more practice: Model Evaluation And Metrics, Deep Learning"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Preprocessing And Feature Engineering",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "TensorFlow",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "PyTorch",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Mlops (Ci/Cd, Model Deployment, Monitoring)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,43 @@
+{
+  "test_id": "01",
+  "goal": "I want to become a Machine Learning Engineer.",
+  "short_name": "ML Engineer",
+  "category": "AI/ML",
+  "matched_occupation": "computer vision engineer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341",
+  "similarity_score": 0.9153484106063843,
+  "total_skills": 7,
+  "total_sessions": 2,
+  "skills_list": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "machine learning",
+    "data science",
+    "digital twin technology",
+    "MLflow"
+  ],
+  "session_durations": [
+    20,
+    20
+  ],
+  "path_generation_time": 20.74075675010681,
+  "quiz_generation_time": 24.345088958740234,
+  "total_test_time": 78.51496291160583,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 50.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

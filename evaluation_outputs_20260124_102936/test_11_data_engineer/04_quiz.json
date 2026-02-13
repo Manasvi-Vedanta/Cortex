@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-01-24T10:41:26.850244",
+      "learning_path_id": "test_11",
+      "target_occupation": "data engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A data warehouse is specifically designed for analytical processing and historical data storage, providing a single source of truth for business intelligence and reporting, rather than operational transaction processing or real-time event processing.",
+        "id": 1,
+        "options": {
+          "A": "To store operational transaction data for daily business operations.",
+          "B": "To serve as a consolidated, historical repository for analytical reporting.",
+          "C": "To process real-time events for immediate decision-making.",
+          "D": "To manage unstructured data from social media feeds."
+        },
+        "question": "What is the primary purpose of a Data Warehouse in an enterprise architecture?",
+        "topic": "Data Warehouse"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Unstructured data lacks a predefined data model and typically includes text documents, images, audio, and video files. Relational tables and CSV files are structured, while XML files are typically semi-structured.",
+        "id": 2,
+        "options": {
+          "A": "A table of customer names and addresses in a relational database.",
+          "B": "A CSV file containing sales records with defined columns.",
+          "C": "A JPEG image file or an audio recording.",
+          "D": "XML configuration files for an application."
+        },
+        "question": "Which of the following is an example of unstructured data?",
+        "topic": "Unstructured Data"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Object storage (e.g., AWS S3, Azure Blob Storage, GCP Cloud Storage) is ideal for storing massive amounts of unstructured and semi-structured data as objects, making it a foundational component for data lakes due to its scalability, durability, and cost-effectiveness.",
+        "id": 3,
+        "options": {
+          "A": "Relational Database Service (RDS)",
+          "B": "Block Storage",
+          "C": "Object Storage",
+          "D": "Content Delivery Network (CDN)"
+        },
+        "question": "Which cloud service model is primarily concerned with storing large volumes of data objects in a highly scalable and durable manner, often used for data lakes?",
+        "topic": "Data Storage, Cloud Technologies"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A data model serves as a blueprint for the database, showing how data is organized, stored, and related to each other, providing a clear understanding of the data entities and their interactions.",
+        "id": 4,
+        "options": {
+          "A": "To optimize SQL query performance.",
+          "B": "To provide a conceptual representation of data and its relationships.",
+          "C": "To automate data backup and recovery processes.",
+          "D": "To secure sensitive information within a database."
+        },
+        "question": "What is the fundamental purpose of creating a data model?",
+        "topic": "Data Models"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ELT leverages the processing power of the target data warehouse (often cloud-based) to perform transformations after loading, allowing for raw data preservation and more flexible, iterative transformations without needing a separate staging area for transformation.",
+        "id": 5,
+        "options": {
+          "A": "ELT is always faster for small datasets due to simpler transformation logic.",
+          "B": "ELT is preferred when the target system (e.g., a cloud data warehouse) has strong processing capabilities and the raw data needs to be preserved.",
+          "C": "ELT minimizes data storage costs by transforming data before loading.",
+          "D": "ELT is specifically designed for real-time streaming data applications."
+        },
+        "question": "When building a data pipeline, a data engineer decides to use an ELT (Extract, Load, Transform) approach instead of ETL (Extract, Transform, Load). What is the primary reason for this choice?",
+        "topic": "Develop Data Processing Applications, Use Data Processing Techniques"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Teradata is renowned for its shared-nothing MPP architecture, where each node has its own CPU, memory, and storage, allowing for highly scalable and parallel execution of queries by distributing data and processing workload independently across nodes.",
+        "id": 6,
+        "options": {
+          "A": "It relies on a single, extremely powerful server to handle all queries sequentially.",
+          "B": "It uses a shared-disk architecture where all nodes access the same storage.",
+          "C": "It employs a shared-nothing architecture, distributing data and processing across independent nodes.",
+          "D": "It primarily functions as an in-memory database for real-time analytics."
+        },
+        "question": "What is a distinguishing characteristic of the Teradata Database architecture that enables its massive parallel processing (MPP) capabilities?",
+        "topic": "Teradata Database, Use Databases"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "medium",
+        "explanation": "Time-series databases are specifically optimized for storing and querying time-stamped data, offering superior performance for IoT sensor data with high ingest rates and time-based analytical queries compared to general-purpose relational, key-value, or document databases.",
+        "id": 7,
+        "options": {
+          "A": "Traditional Relational Database (e.g., PostgreSQL on RDS)",
+          "B": "Key-Value Store (e.g., DynamoDB)",
+          "C": "Document Database (e.g., MongoDB Atlas)",
+          "D": "Time-Series Database (e.g., Amazon Timestream, InfluxDB Cloud)"
+        },
+        "question": "A company needs to store rapidly growing sensor data (time-series data) from IoT devices in the cloud, requiring high write throughput and efficient range queries for specific time windows. Which cloud database type would be most suitable for this use case?",
+        "topic": "Design Database in the Cloud, Cloud Technologies"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "An 'Out of Memory' error during the transform stage, especially after successful runs for a prolonged period, strongly suggests that the data being processed has either increased in volume or complexity (e.g., new columns, larger strings, more joins) beyond the current resource allocation. Reviewing recent schema changes or data characteristics and scaling up processing resources (e.g., increasing memory or compute capacity for the transformation job) are appropriate first steps.",
+        "id": 8,
+        "options": {
+          "A": "The source database connection string is incorrect; verify and update the connection.",
+          "B": "An upstream data schema change has introduced significantly larger or more complex data structures, exceeding the allocated memory; review recent schema changes and scale up processing resources.",
+          "C": "The target data warehouse is offline; check the data warehouse status and connectivity.",
+          "D": "A network bottleneck is preventing data transfer; implement retry mechanisms in the pipeline."
+        },
+        "question": "A data engineer observes that a critical daily ETL job running on a cloud-based data pipeline (e.g., AWS Glue, Azure Data Factory) consistently fails during the 'Transform' stage with an 'Out of Memory' error, despite processing the same volume of data daily. Historical logs show the job ran successfully for months. What is the MOST likely root cause, and what initial action should be taken?",
+        "topic": "Analyse Pipeline Database Information, Data Analytics, Cloud Technologies"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A data lake built on object storage (like S3 or Azure Blob Storage) is ideal for petabytes of raw, unstructured/semi-structured data due to its cost-effectiveness, scalability, and durability. Integrating it with serverless compute (for ad-hoc processing) and data catalog services (for metadata management) allows for flexible analytics and ML model training directly on the raw data without the overhead of managing servers or extensive pre-processing.",
+        "id": 9,
+        "options": {
+          "A": "Store data in a relational database and build microservices for analysis.",
+          "B": "Use block storage attached to a fleet of EC2 instances and manage a Hadoop cluster.",
+          "C": "Implement a data lake using object storage, integrated with serverless compute (e.g., AWS Lambda, Azure Functions) and data catalog services.",
+          "D": "Migrate all data to an in-memory database for real-time access."
+        },
+        "question": "A research team needs to store petabytes of raw genomics data (large binary files and associated metadata) in a cost-effective, durable, and highly available manner. They require the ability to run ad-hoc analytics using serverless functions and machine learning models directly on this data without extensive pre-processing. Which cloud architecture pattern would be most suitable?",
+        "topic": "Manage Research Data, Data Storage, Develop Data Processing Applications"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "For data warehouses designed for analytical reporting and OLAP-style queries (drill-down, roll-up, slice-and-dice), a dimensional model (Star or Snowflake schema) is highly recommended. It optimizes for query performance, simplifies business user understanding, and directly supports the types of aggregated and slice-and-dice reporting described by separating measurable facts from descriptive dimensions.",
+        "id": 10,
+        "options": {
+          "A": "3rd Normal Form (3NF) relational model to minimize data redundancy.",
+          "B": "Entity-Relationship (ER) model for detailed operational data.",
+          "C": "Dimensional model (Star or Snowflake Schema) with facts and dimensions.",
+          "D": "Graph database model to represent complex customer relationships."
+        },
+        "question": "A company's data warehouse team is designing a new subject area for customer order history. The business users frequently request reports showing 'total sales by product category over time,' 'average order value per customer segment,' and 'customer lifetime value,' often requiring drill-down capabilities. To support these analytical queries efficiently and intuitively, which data modeling approach would be most appropriate for the new subject area?",
+        "topic": "Data Models, Data Warehouse, Database Management Systems"
+      }
+    ],
+    "topics_covered": [
+      "Teradata Database",
+      "analyse pipeline database information",
+      "manage research data",
+      "data storage",
+      "develop data processing applications",
+      "data warehouse",
+      "unstructured data",
+      "use data processing techniques",
+      "database management systems",
+      "use databases",
+      "design database in the cloud",
+      "data analysis",
+      "cloud technologies",
+      "data analytics",
+      "data models"
+    ]
+  },
+  "success": true
+}

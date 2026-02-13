@@ -1,0 +1,24 @@
+{
+  "id": "demo_10",
+  "title": "DevOps Engineer Journey",
+  "description": "Modern DevOps role preparation",
+  "category": "Tech Specialization",
+  "goal": "I want to become a DevOps engineer working with CI/CD and infrastructure automation",
+  "current_skills": [
+    "Linux",
+    "Git",
+    "Python",
+    "Bash Scripting",
+    "Docker"
+  ],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/cc867bee-ab5c-427f-9244-f7a204d9574b",
+    "label": "cloud DevOps engineer ",
+    "description": "Cloud DevOps engineers implement and manage continuous software delivery systems and methodologies. This includes managing and configuring code repositories, build services, automated testing, and deployment mechanisms. For cloud-based workloads, a Cloud DevOps Engineer define and deploy infrastructure as code, automating test and development environments. They can define and configure automated disaster recovery solutions that meet business objectives.",
+    "similarity_score": 1.0
+  },
+  "total_hours": 88,
+  "total_sessions": 12,
+  "total_resources": 46,
+  "generated_at": "2025-11-28T08:12:17.537812"
+}

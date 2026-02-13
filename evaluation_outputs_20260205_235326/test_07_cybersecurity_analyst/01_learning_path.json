@@ -1,0 +1,276 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core TCP/IP concepts (IP addressing, ports, protocols) and how they relate to security monitoring and investigations",
+        "Interpret basic network flows to distinguish normal vs suspicious behavior",
+        "Apply networking fundamentals to support later log analysis and threat detection tasks"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Tcp/Ip And Networking Fundamentals"
+      ],
+      "title": "TCP/IP and Networking Foundations for Security Work"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe key network security concepts and where controls are applied in typical environments",
+        "Relate network security controls to observable telemetry used in monitoring and investigations",
+        "Identify common network-based attack patterns at a conceptual level"
+      ],
+      "prerequisites": [
+        "Tcp/Ip And Networking Fundamentals"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Network Security"
+      ],
+      "title": "Network Security Fundamentals and Common Control Points"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain what logs are, why they matter, and common log fields used in investigations",
+        "Perform basic log triage to identify anomalies and relevant events",
+        "Correlate simple events across multiple log sources to build a timeline"
+      ],
+      "prerequisites": [
+        "Tcp/Ip And Networking Fundamentals"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Log Analysis"
+      ],
+      "title": "Log Analysis Essentials"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe how a SIEM supports security monitoring workflows",
+        "Run basic searches/queries to retrieve relevant events for an alert",
+        "Triage alerts by validating evidence and documenting findings"
+      ],
+      "prerequisites": [
+        "Log Analysis",
+        "Network Security"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Security Monitoring (Siem)"
+      ],
+      "title": "Security Monitoring with SIEM: Ingestion, Queries, and Alert Triage"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Differentiate between indicators, behaviors, and hypotheses in threat detection",
+        "Analyze event patterns to assess likelihood and potential impact",
+        "Document an analysis narrative that supports next investigative steps"
+      ],
+      "prerequisites": [
+        "Security Monitoring (Siem)",
+        "Log Analysis"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Threat Detection And Analysis"
+      ],
+      "title": "Threat Detection and Analysis: From Signals to Hypotheses"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain common endpoint telemetry types and how they support investigations",
+        "Interpret endpoint alerts and validate them with supporting evidence",
+        "Select appropriate endpoint containment or remediation actions based on findings"
+      ],
+      "prerequisites": [
+        "Threat Detection And Analysis",
+        "Security Monitoring (Siem)"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Endpoint Security (Edr/Av)"
+      ],
+      "title": "Endpoint Security (EDR/AV): Telemetry, Detections, and Response Actions"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core Windows and Active Directory security concepts relevant to monitoring and investigations",
+        "Identify high-value Windows/AD audit events and how they appear in logs",
+        "Analyze common identity-related attack patterns using Windows/AD telemetry"
+      ],
+      "prerequisites": [
+        "Log Analysis",
+        "Network Security"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Windows Security And Active Directory"
+      ],
+      "title": "Windows Security and Active Directory: Identity, Authentication, and Audit Signals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain key Linux security concepts relevant to operational monitoring",
+        "Identify common Linux log sources and interpret security-relevant events",
+        "Analyze suspicious activity patterns on Linux systems using available telemetry"
+      ],
+      "prerequisites": [
+        "Log Analysis",
+        "Tcp/Ip And Networking Fundamentals"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Linux Security"
+      ],
+      "title": "Linux Security: Accounts, Services, and Audit Evidence"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain the vulnerability management lifecycle and stakeholder needs",
+        "Prioritize vulnerabilities using risk context and operational constraints",
+        "Translate vulnerability findings into actionable remediation tracking"
+      ],
+      "prerequisites": [
+        "Network Security",
+        "Windows Security And Active Directory",
+        "Linux Security"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Vulnerability Management"
+      ],
+      "title": "Vulnerability Management: Prioritization and Operational Workflow"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Execute a structured incident response workflow from initial report to closure",
+        "Build an incident timeline using evidence from monitoring and endpoint sources",
+        "Define containment and eradication steps aligned to observed attacker behavior"
+      ],
+      "prerequisites": [
+        "Threat Detection And Analysis",
+        "Security Monitoring (Siem)",
+        "Endpoint Security (Edr/Av)",
+        "Log Analysis"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Incident Response"
+      ],
+      "title": "Incident Response: Triage, Containment, Eradication, and Recovery"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Install, configure, and run open source software in a controlled environment",
+        "Validate correct operation through basic checks and output inspection",
+        "Apply safe operational practices when using open source tools in workflows"
+      ],
+      "prerequisites": [],
+      "session_number": 11,
+      "skills": [
+        "operate open source software"
+      ],
+      "title": "Operating Open Source Software for Security Operations"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Navigate an application-specific interface to complete routine operational tasks",
+        "Use interface features to retrieve, filter, and review relevant information",
+        "Document repeatable steps for consistent execution of tasks in the interface"
+      ],
+      "prerequisites": [],
+      "session_number": 12,
+      "skills": [
+        "use an application-specific interface"
+      ],
+      "title": "Using an Application-Specific Interface for Security Workflows"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Formulate clear questions and hypotheses based on observed security signals",
+        "Design a simple methodology to test hypotheses using available evidence",
+        "Communicate findings with appropriate limitations and reproducibility"
+      ],
+      "prerequisites": [
+        "Threat Detection And Analysis"
+      ],
+      "session_number": 13,
+      "skills": [
+        "scientific research methodology"
+      ],
+      "title": "Scientific Research Methodology for Security Investigations"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain how data science supports detection, analysis, and prioritization tasks",
+        "Perform basic exploratory analysis to identify patterns and outliers in security-relevant data",
+        "Translate analytical results into operationally useful conclusions"
+      ],
+      "prerequisites": [
+        "Log Analysis",
+        "scientific research methodology"
+      ],
+      "session_number": 14,
+      "skills": [
+        "data science"
+      ],
+      "title": "Data Science for Security Analytics"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Assess current capability against role expectations and identify gaps",
+        "Create a structured development plan with measurable milestones",
+        "Track progress and adjust the plan based on outcomes and feedback"
+      ],
+      "prerequisites": [],
+      "session_number": 15,
+      "skills": [
+        "manage personal professional development"
+      ],
+      "title": "Managing Personal Professional Development for Security Roles"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Computer scientists conduct research in computer and information science, directed toward greater knowledge and understanding of fundamental aspects of ICT phenomena. They write research reports and proposals. Computer scientists also invent and design new approaches to computing technology, find innovative uses for existing technology and studies and solve complex problems in computing.",
+    "label": "computer scientist",
+    "similarity_score": 0.7767985463142395,
+    "uri": "http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 33,
+    "skills_in_path": 15,
+    "skills_to_learn": 33,
+    "total_skills_needed": 35
+  },
+  "user_id": "eval_user_07"
+}

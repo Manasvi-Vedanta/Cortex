@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-30T00:08:21.592463",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Android SDK provides all the necessary components like libraries, debugger, emulator, and APIs to develop applications for the Android platform.",
+        "is_correct": false,
+        "question": "What is the primary purpose of the Android SDK (Software Development Kit) in mobile application development?",
+        "question_id": 1,
+        "topic": "Android Sdk",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`var` is used for mutable variables, while `val` is used for read-only (immutable) variables in Kotlin.",
+        "is_correct": false,
+        "question": "In Kotlin, which keyword is used to declare a mutable variable, meaning its value can be changed after initialization?",
+        "question_id": 2,
+        "topic": "Kotlin",
+        "user_answer": "D"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "easy",
+        "explanation": "iOS, Android, and watchOS are all mobile or wearable operating systems. macOS is Apple's desktop operating system.",
+        "is_correct": false,
+        "question": "Which of the following is NOT primarily a mobile operating system?",
+        "question_id": 3,
+        "topic": "mobile operating systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`final` is the keyword used in Java to declare a constant variable or to indicate that a method cannot be overridden or a class cannot be subclassed. `const` exists in C++ but not as a keyword for variable declaration in Java.",
+        "is_correct": true,
+        "question": "In Java, which keyword is used to declare a variable whose value cannot be changed once assigned (a constant reference or immutable primitive)?",
+        "question_id": 4,
+        "topic": "Java",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Retrofit uses annotated interfaces to declare how HTTP requests will be made, mapping Java/Kotlin methods to specific HTTP verbs (GET, POST, PUT, DELETE) and defining endpoint paths.",
+        "is_correct": false,
+        "question": "When using Retrofit for making network requests in an Android application, what is the primary role of an interface annotated with `@GET`, `@POST`, etc.?",
+        "question_id": 5,
+        "topic": "Retrofit",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "`LazyColumn` (and `LazyRow`) are the Compose equivalents of `RecyclerView`, designed to efficiently render large numbers of items by only composing and laying out the items currently visible on screen.",
+        "is_correct": false,
+        "question": "In Jetpack Compose, which composable is specifically designed for efficiently displaying a long, scrolling list of items, only rendering the visible ones?",
+        "question_id": 6,
+        "topic": "Jetpack Compose",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Gradle is the primary build system used by Android Studio, responsible for automating tasks like compiling source code, linking libraries, creating the APK/AAB, and managing project dependencies.",
+        "is_correct": false,
+        "question": "What is the main function of Gradle in the context of Android application development?",
+        "question_id": 7,
+        "topic": "Gradle",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "`launch` is used when you don't need a result back from the coroutine; it returns a `Job` for managing its lifecycle. `async` is used when the coroutine needs to compute a value that will be awaited later; it returns a `Deferred<T>`, which is a cancellable future that provides the result.",
+        "is_correct": false,
+        "question": "In Kotlin Coroutines, what is the key conceptual difference between using `launch` and `async` to start a coroutine?",
+        "question_id": 8,
+        "topic": "Coroutines",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "hard",
+        "explanation": "The `RoomDatabase` class is the main database holder and acts as the primary access point for your app's persisted data. It typically contains abstract methods that return DAOs, which then provide methods for interacting with the database tables (Entities).",
+        "is_correct": false,
+        "question": "In Android's Room Persistence Library, which component is typically an abstract class annotated with `@Database` and serves as the main access point to the underlying SQLite database?",
+        "question_id": 9,
+        "topic": "Room Database",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Cloud Firestore is a flexible, scalable NoSQL cloud database for mobile, web, and server development that keeps your data in sync across client apps in real-time. Firebase Authentication provides backend services for easy-to-use, secure authentication. Firebase Cloud Functions can extend the backend with custom logic when needed.",
+        "is_correct": false,
+        "question": "A mobile application requires a scalable, serverless backend to store user data, enable real-time synchronization across devices, and manage user authentication. Which combination of Firebase services would best meet these requirements?",
+        "question_id": 10,
+        "topic": "Firebase",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Android Sdk, Kotlin, mobile operating systems",
+      "✅ Your strongest areas: Java"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Java",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Android Sdk",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Kotlin",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "mobile operating systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Retrofit",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Jetpack Compose",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Gradle",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Coroutines",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Room Database",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Firebase",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

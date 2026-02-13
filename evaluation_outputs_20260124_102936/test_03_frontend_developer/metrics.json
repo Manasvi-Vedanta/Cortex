@@ -1,0 +1,50 @@
+{
+  "test_id": "03",
+  "goal": "I want to become a Frontend Developer.",
+  "short_name": "Frontend Developer",
+  "category": "Web Development",
+  "matched_occupation": "web developer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+  "similarity_score": 0.8014558553695679,
+  "total_skills": 13,
+  "total_sessions": 3,
+  "skills_list": [
+    "web programming",
+    "JavaScript",
+    "JavaScript Framework",
+    "CSS",
+    "Add TypeScript",
+    "use markup languages",
+    "integrated development environment software",
+    "analyse software specifications",
+    "Python",
+    "Kubernetes",
+    "Redis",
+    "style sheet languages",
+    "MongoDB"
+  ],
+  "session_durations": [
+    9,
+    20,
+    20
+  ],
+  "path_generation_time": 8.065897703170776,
+  "quiz_generation_time": 26.654693603515625,
+  "total_test_time": 63.348010301589966,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 20.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

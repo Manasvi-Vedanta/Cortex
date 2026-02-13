@@ -1,0 +1,251 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Set up a productive development workflow using the command line",
+        "Practice core programming constructs through small exercises",
+        "Use Git to track changes and collaborate safely"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "programming",
+        "Linux And Command Line",
+        "Git And Version Control"
+      ],
+      "title": "Programming Foundations and Command-Line Workflow"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement and analyze common data structures",
+        "Apply algorithmic techniques to solve programming tasks",
+        "Reason about time and space complexity in solutions"
+      ],
+      "prerequisites": [
+        "programming"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Data Structures And Algorithms",
+        "programming"
+      ],
+      "title": "Data Structures and Algorithms for Practical Problem Solving"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain the request/response lifecycle and core HTTP methods",
+        "Use HTTP status codes and headers appropriately",
+        "Build simple web endpoints and clients to exercise HTTP behavior"
+      ],
+      "prerequisites": [
+        "programming",
+        "Linux And Command Line"
+      ],
+      "session_number": 3,
+      "skills": [
+        "web programming",
+        "Http/Https Fundamentals",
+        "programming"
+      ],
+      "title": "Web Programming Basics and HTTP/HTTPS Fundamentals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design resource-oriented endpoints with consistent naming and semantics",
+        "Define request/response payloads and error formats",
+        "Implement CRUD endpoints and validate behavior with real HTTP calls"
+      ],
+      "prerequisites": [
+        "web programming",
+        "Http/Https Fundamentals"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Restful Api Design",
+        "web programming",
+        "Http/Https Fundamentals",
+        "programming"
+      ],
+      "title": "RESTful API Design and Implementation"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model entities and relationships for a real application domain",
+        "Normalize schemas to reduce redundancy and anomalies",
+        "Translate a conceptual model into relational tables and constraints"
+      ],
+      "prerequisites": [],
+      "session_number": 5,
+      "skills": [
+        "Database Design And Normalization"
+      ],
+      "title": "Database Design and Normalization"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write SELECT/INSERT/UPDATE/DELETE queries for common use cases",
+        "Use joins, aggregations, and indexes effectively",
+        "Integrate SQL queries into application flows and troubleshoot performance basics"
+      ],
+      "prerequisites": [
+        "Database Design And Normalization"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Sql (Postgresql/Mysql)",
+        "programming"
+      ],
+      "title": "SQL with PostgreSQL/MySQL for Application Data Access"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Differentiate authentication vs authorization and common threat models",
+        "Implement token-based authentication using JWT",
+        "Apply authorization rules to protect REST endpoints"
+      ],
+      "prerequisites": [
+        "Restful Api Design",
+        "Http/Https Fundamentals"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Authentication And Authorization (Oauth2/Jwt)",
+        "Restful Api Design",
+        "web programming",
+        "Http/Https Fundamentals"
+      ],
+      "title": "Authentication and Authorization with OAuth2/JWT"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write unit tests for core business logic and edge cases",
+        "Create integration tests for APIs and database interactions",
+        "Use Git workflows to keep tests reliable during changes"
+      ],
+      "prerequisites": [
+        "Restful Api Design",
+        "Sql (Postgresql/Mysql)",
+        "Git And Version Control"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Testing (Unit/Integration)",
+        "programming",
+        "Git And Version Control",
+        "Restful Api Design",
+        "Sql (Postgresql/Mysql)"
+      ],
+      "title": "Testing: Unit and Integration Strategies"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify caching opportunities and choose appropriate cache patterns",
+        "Implement cache reads/writes and handle invalidation scenarios",
+        "Measure and reason about latency improvements and consistency tradeoffs"
+      ],
+      "prerequisites": [
+        "web programming",
+        "Sql (Postgresql/Mysql)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Caching (Redis/Memcached)",
+        "web programming",
+        "programming"
+      ],
+      "title": "Caching with Redis/Memcached for Performance and Scalability"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain asynchronous messaging vs synchronous request/response",
+        "Design producers/consumers and message contracts for reliability",
+        "Implement background processing and handle retries and failures"
+      ],
+      "prerequisites": [
+        "web programming"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Message Queues And Event Streaming (Kafka/Rabbitmq)",
+        "web programming",
+        "programming"
+      ],
+      "title": "Message Queues and Event Streaming with Kafka/RabbitMQ"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Containerize an application and its dependencies",
+        "Use Docker to run databases, caches, and services consistently",
+        "Troubleshoot common container networking and configuration issues"
+      ],
+      "prerequisites": [
+        "Linux And Command Line",
+        "web programming"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Containerization (Docker)",
+        "Linux And Command Line",
+        "web programming"
+      ],
+      "title": "Containerization with Docker for Local Development and Deployment"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply common UI design patterns to improve usability and consistency",
+        "Structure UI components and flows to match API capabilities",
+        "Align UI behavior with authentication and error-handling patterns"
+      ],
+      "prerequisites": [
+        "web programming",
+        "Restful Api Design"
+      ],
+      "session_number": 12,
+      "skills": [
+        "software UI design patterns",
+        "web programming",
+        "Restful Api Design",
+        "Authentication And Authorization (Oauth2/Jwt)"
+      ],
+      "title": "Software UI Design Patterns for Web Applications"
+    }
+  ],
+  "matched_occupation": {
+    "description": "User interface developers implement, code, document and maintain the interface of a software system by using front-end development technologies.",
+    "label": "user interface developer",
+    "similarity_score": 0.7806129455566406,
+    "uri": "http://data.europa.eu/esco/occupation/866c7813-2c03-47d7-9bdc-192cfbace57c"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 37,
+    "skills_in_path": 12,
+    "skills_to_learn": 37,
+    "total_skills_needed": 37
+  },
+  "user_id": "eval_user_04"
+}

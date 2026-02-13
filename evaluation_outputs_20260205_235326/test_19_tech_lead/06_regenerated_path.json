@@ -1,0 +1,238 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core system design tradeoffs and constraints",
+        "Identify architectural patterns and when to apply them",
+        "Draft a high-level architecture for a sample product"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "System Design",
+        "Software Architecture"
+      ],
+      "title": "Foundations of System Design and Software Architecture"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design REST and GraphQL APIs with clear contracts",
+        "Define versioning and compatibility strategies",
+        "Align API design with system architecture decisions"
+      ],
+      "prerequisites": [
+        "System Design",
+        "Software Architecture"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Api Design (Rest/Graphql)",
+        "Software Architecture"
+      ],
+      "title": "API Design for Scalable Services"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model data for common access patterns",
+        "Choose between SQL and NoSQL based on requirements",
+        "Design schemas and indexes to support performance goals"
+      ],
+      "prerequisites": [
+        "System Design"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Database Design (Sql/Nosql)",
+        "System Design"
+      ],
+      "title": "Database Design: SQL/NoSQL Modeling and Tradeoffs"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe common distributed systems failure modes",
+        "Apply consistency and availability tradeoffs to designs",
+        "Design service interactions for reliability"
+      ],
+      "prerequisites": [
+        "System Design",
+        "Software Architecture"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Distributed Systems",
+        "System Design"
+      ],
+      "title": "Distributed Systems Essentials"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Map architectural components to managed cloud services",
+        "Design for scalability and resilience in the cloud",
+        "Evaluate cost and operational tradeoffs of cloud choices"
+      ],
+      "prerequisites": [
+        "System Design",
+        "Software Architecture"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Cloud Platforms (Aws/Azure/Gcp)",
+        "Software Architecture",
+        "System Design"
+      ],
+      "title": "Cloud Platforms: Deploying Architecture on AWS/Azure/GCP"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design a CI/CD pipeline that supports safe releases",
+        "Integrate automated checks into the delivery workflow",
+        "Define rollback and promotion strategies"
+      ],
+      "prerequisites": [
+        "Cloud Platforms (Aws/Azure/Gcp)"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Ci/Cd Pipelines",
+        "Automated Testing (Unit/Integration/E2E)"
+      ],
+      "title": "CI/CD Pipelines for Reliable Delivery"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create a balanced test pyramid for a service",
+        "Define test boundaries and reliable fixtures",
+        "Use tests to prevent regressions during change"
+      ],
+      "prerequisites": [
+        "Api Design (Rest/Graphql)"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Automated Testing (Unit/Integration/E2E)",
+        "Api Design (Rest/Graphql)"
+      ],
+      "title": "Automated Testing Strategy: Unit, Integration, and E2E"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Perform structured code reviews focused on correctness and risk",
+        "Debug common production and pre-production issues systematically",
+        "Identify root causes and propose targeted fixes"
+      ],
+      "prerequisites": [
+        "Software Architecture"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Code Review",
+        "Debugging"
+      ],
+      "title": "Code Review and Debugging for Quality and Maintainability"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design observability signals aligned to service objectives",
+        "Use logs, metrics, and traces to diagnose incidents",
+        "Define dashboards and alerts that reduce noise"
+      ],
+      "prerequisites": [
+        "Distributed Systems",
+        "Cloud Platforms (Aws/Azure/Gcp)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Observability (Logging/Metrics/Tracing)",
+        "Distributed Systems"
+      ],
+      "title": "Observability: Logging, Metrics, and Tracing"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify performance bottlenecks using evidence from observability",
+        "Optimize APIs and data access paths for latency and throughput",
+        "Validate improvements with repeatable measurements"
+      ],
+      "prerequisites": [
+        "Observability (Logging/Metrics/Tracing)",
+        "Database Design (Sql/Nosql)"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Performance Optimization",
+        "Observability (Logging/Metrics/Tracing)",
+        "Database Design (Sql/Nosql)"
+      ],
+      "title": "Performance Optimization Across the Stack"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design authentication and authorization flows for services",
+        "Apply secure coding practices to reduce common vulnerabilities",
+        "Review designs for security risks and mitigations"
+      ],
+      "prerequisites": [
+        "Api Design (Rest/Graphql)",
+        "System Design"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Security Engineering (Authn/Authz, Secure Coding)",
+        "Api Design (Rest/Graphql)"
+      ],
+      "title": "Security Engineering: Authn/Authz and Secure Coding"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Communicate technical decisions and tradeoffs clearly to stakeholders",
+        "Translate customer needs into actionable technical requirements",
+        "Track customer interactions and outcomes using CRM workflows"
+      ],
+      "prerequisites": [],
+      "session_number": 12,
+      "skills": [
+        "apply technical communication skills",
+        "use customer relationship management software"
+      ],
+      "title": "Technical Communication and Customer Workflow with CRM"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Technical sales representatives act for a business to sell its merchandise while providing technical insight for customers.",
+    "label": "technical sales representative",
+    "similarity_score": 0.8233104944229126,
+    "uri": "http://data.europa.eu/esco/occupation/c956be07-53a3-4b01-b8f8-f0c5a428eaa8"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 38,
+    "skills_in_path": 12,
+    "skills_to_learn": 38,
+    "total_skills_needed": 38
+  },
+  "user_id": "eval_user_19"
+}

@@ -1,0 +1,2140 @@
+{
+  "scenario": "Web Developer Test",
+  "status": "success",
+  "goal": "I want to become a web developer",
+  "current_skills": [],
+  "matched_occupation": {
+    "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+    "label": "web developer",
+    "description": "Web developers develop, implement and document web-accessible software based on the designs provided. They align the client's web presence with its business strategy, troubleshoot software problems and issues and look for ways to improve the application.",
+    "similarity_score": 0.8176625967025757
+  },
+  "learning_path": [
+    {
+      "session_number": 1,
+      "title": "Introduction to Programming Fundamentals",
+      "objectives": [
+        "Understand basic programming concepts like variables, data types, operators, and control flow.",
+        "Learn to write simple programs using a chosen programming language (e.g., Python, JavaScript).",
+        "Develop problem-solving skills through coding exercises.",
+        "Understand the concept of algorithms and their representation."
+      ],
+      "skills": [
+        "Basic programming logic",
+        "Syntax of a chosen programming language",
+        "Problem decomposition",
+        "Algorithmic thinking"
+      ],
+      "estimated_duration_hours": 16,
+      "difficulty_level": "beginner",
+      "prerequisites": []
+    },
+    {
+      "session_number": 2,
+      "title": "Web Programming Basics: HTML, CSS, and JavaScript",
+      "objectives": [
+        "Learn the fundamentals of HTML for structuring web content.",
+        "Understand CSS for styling web pages and creating layouts.",
+        "Learn basic JavaScript for adding interactivity to websites.",
+        "Understand the DOM (Document Object Model) and how JavaScript interacts with it."
+      ],
+      "skills": [
+        "HTML structure and semantics",
+        "CSS styling and layout",
+        "Basic JavaScript programming",
+        "DOM manipulation"
+      ],
+      "estimated_duration_hours": 24,
+      "difficulty_level": "beginner",
+      "prerequisites": [
+        "Introduction to Programming Fundamentals"
+      ]
+    },
+    {
+      "session_number": 3,
+      "title": "Mastering Integrated Development Environments (IDEs)",
+      "objectives": [
+        "Learn to use an IDE (e.g., VS Code, IntelliJ IDEA, Eclipse) effectively.",
+        "Understand IDE features like code completion, debugging, and refactoring.",
+        "Configure IDE settings for optimal development workflow.",
+        "Learn to use IDE extensions and plugins to enhance functionality."
+      ],
+      "skills": [
+        "IDE navigation and configuration",
+        "Code debugging techniques",
+        "Code refactoring",
+        "Using IDE extensions"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Introduction to Programming Fundamentals"
+      ]
+    },
+    {
+      "session_number": 4,
+      "title": "Collaborative Web Development Platforms (Git & GitHub)",
+      "objectives": [
+        "Understand the principles of version control using Git.",
+        "Learn to use GitHub for collaborative software development.",
+        "Master branching, merging, and pull requests.",
+        "Understand conflict resolution in Git."
+      ],
+      "skills": [
+        "Git commands (commit, push, pull, branch, merge)",
+        "GitHub workflow",
+        "Version control best practices",
+        "Conflict resolution"
+      ],
+      "estimated_duration_hours": 12,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Introduction to Programming Fundamentals"
+      ]
+    },
+    {
+      "session_number": 5,
+      "title": "Software Configuration Management (SCM) Tools",
+      "objectives": [
+        "Understand the importance of SCM.",
+        "Learn to use a specific SCM tool (e.g., Git, SVN, Mercurial) in detail.",
+        "Understand branching strategies and release management.",
+        "Learn about continuous integration and continuous deployment (CI/CD)."
+      ],
+      "skills": [
+        "SCM tool proficiency",
+        "Branching and merging strategies",
+        "Release management",
+        "CI/CD concepts"
+      ],
+      "estimated_duration_hours": 16,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Collaborative Web Development Platforms (Git & GitHub)"
+      ]
+    },
+    {
+      "session_number": 6,
+      "title": "Web Services: REST APIs",
+      "objectives": [
+        "Understand the principles of RESTful web services.",
+        "Learn to design and implement REST APIs.",
+        "Understand HTTP methods (GET, POST, PUT, DELETE).",
+        "Learn to consume REST APIs using a programming language (e.g., JavaScript, Python)."
+      ],
+      "skills": [
+        "REST API design",
+        "HTTP protocol",
+        "API consumption",
+        "JSON data format"
+      ],
+      "estimated_duration_hours": 20,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Web Programming Basics: HTML, CSS, and JavaScript",
+        "Introduction to Programming Fundamentals"
+      ]
+    },
+    {
+      "session_number": 7,
+      "title": "Using Application-Specific Interfaces (APIs)",
+      "objectives": [
+        "Learn how to use a specific application's API (e.g., Google Maps API, Twitter API).",
+        "Understand API documentation and authentication.",
+        "Learn to integrate API functionality into your applications.",
+        "Understand rate limiting and error handling."
+      ],
+      "skills": [
+        "API integration",
+        "API documentation interpretation",
+        "Authentication methods (e.g., OAuth)",
+        "Error handling"
+      ],
+      "estimated_duration_hours": 16,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Web Services: REST APIs",
+        "Introduction to Programming Fundamentals"
+      ]
+    },
+    {
+      "session_number": 8,
+      "title": "Markup Languages: XML and JSON",
+      "objectives": [
+        "Understand the purpose and structure of XML and JSON.",
+        "Learn to create and parse XML and JSON documents.",
+        "Understand the differences between XML and JSON.",
+        "Learn to use XML and JSON for data exchange."
+      ],
+      "skills": [
+        "XML syntax and structure",
+        "JSON syntax and structure",
+        "XML and JSON parsing",
+        "Data serialization and deserialization"
+      ],
+      "estimated_duration_hours": 8,
+      "difficulty_level": "beginner",
+      "prerequisites": [
+        "Introduction to Programming Fundamentals"
+      ]
+    },
+    {
+      "session_number": 9,
+      "title": "Using E-Services (e.g., Payment Gateways, Cloud Storage)",
+      "objectives": [
+        "Understand the concept of e-services and their integration into applications.",
+        "Learn to use a specific e-service (e.g., Stripe, AWS S3).",
+        "Understand security considerations when using e-services.",
+        "Learn about API keys and authentication."
+      ],
+      "skills": [
+        "E-service integration",
+        "API key management",
+        "Security best practices",
+        "Payment gateway integration (if applicable)"
+      ],
+      "estimated_duration_hours": 12,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Web Services: REST APIs"
+      ]
+    },
+    {
+      "session_number": 10,
+      "title": "Software Debugging Techniques",
+      "objectives": [
+        "Learn effective debugging strategies.",
+        "Master debugging tools in your IDE.",
+        "Learn to identify and fix common programming errors.",
+        "Understand logging and error handling techniques."
+      ],
+      "skills": [
+        "Debugging tools proficiency",
+        "Error analysis",
+        "Code tracing",
+        "Logging and error handling"
+      ],
+      "estimated_duration_hours": 16,
+      "difficulty_level": "intermediate",
+      "prerequisites": [
+        "Introduction to Programming Fundamentals",
+        "Mastering Integrated Development Environments (IDEs)"
+      ]
+    }
+  ],
+  "resources": {
+    "XML syntax and structure": [
+      {
+        "title": "Data Structures Full Course",
+        "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "HackerRank Data Structures",
+        "url": "https://www.hackerrank.com/domains/data-structures",
+        "type": "practice",
+        "provider": "HackerRank",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "CI/CD concepts": [
+      {
+        "title": "DevOps Specialization",
+        "url": "https://www.coursera.org/specializations/devops",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "DevOps Tutorial",
+        "url": "https://www.youtube.com/watch?v=Xrgk023l4lI",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "HTML structure and semantics": [
+      {
+        "resource_url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "resource_title": "MDN HTML Guide",
+        "resource_type": "documentation",
+        "provider": "MDN",
+        "description": "Complete HTML documentation and guides",
+        "difficulty_level": "",
+        "quality_score": 1.0,
+        "created_at": "2025-11-16 11:26:37"
+      },
+      {
+        "resource_url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+        "resource_title": "Responsive Web Design",
+        "resource_type": "course",
+        "provider": "freeCodeCamp",
+        "description": "Complete HTML/CSS course with certification",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 11:26:37"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+        "resource_title": "HTML Full Course - Build a Website Tutorial",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Complete HTML tutorial (2 hours)",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 11:26:37"
+      }
+    ],
+    "Conflict resolution": [],
+    "JSON syntax and structure": [
+      {
+        "title": "Data Structures Full Course",
+        "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "HackerRank Data Structures",
+        "url": "https://www.hackerrank.com/domains/data-structures",
+        "type": "practice",
+        "provider": "HackerRank",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "DOM manipulation": [],
+    "Authentication methods (e.g., OAuth)": [
+      {
+        "title": "OAuth 2.0 Simplified",
+        "url": "https://www.oauth.com/",
+        "type": "documentation",
+        "provider": "OAuth",
+        "is_free": true,
+        "quality_score": 0.94
+      }
+    ],
+    "Error handling": [],
+    "XML and JSON parsing": [],
+    "GitHub workflow": [
+      {
+        "title": "Pro Git Book",
+        "url": "https://git-scm.com/book/en/v2",
+        "type": "documentation",
+        "provider": "Git",
+        "description": "Official Git documentation and book",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Git and GitHub Course",
+        "url": "https://roadmap.sh/git-github",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Git and GitHub guide",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Git and GitHub for Beginners",
+        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Git tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "Code debugging techniques": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Version control best practices": [
+      {
+        "title": "Pro Git Book",
+        "url": "https://git-scm.com/book/en/v2",
+        "type": "documentation",
+        "provider": "Git",
+        "description": "Official Git documentation and book",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Git and GitHub Course",
+        "url": "https://roadmap.sh/git-github",
+        "type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Git and GitHub guide",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Git and GitHub for Beginners",
+        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Git tutorial (1 hour)",
+        "is_free": true,
+        "quality_score": 0.95
+      }
+    ],
+    "Code refactoring": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Using IDE extensions": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "E-service integration": [],
+    "Payment gateway integration (if applicable)": [],
+    "REST API design": [
+      {
+        "title": "APIs for Beginners",
+        "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "Postman Learning Center",
+        "url": "https://learning.postman.com/",
+        "type": "practice",
+        "provider": "Postman",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "SCM tool proficiency": [],
+    "Debugging tools proficiency": [
+      {
+        "title": "Software Testing Tutorial",
+        "url": "https://www.youtube.com/watch?v=sB_5fqiysi4",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Code tracing": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Branching and merging strategies": [],
+    "Basic JavaScript programming": [
+      {
+        "resource_url": "https://docs.python.org/3/tutorial/",
+        "resource_title": "Official Python Tutorial",
+        "resource_type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "difficulty_level": "",
+        "quality_score": 1.0,
+        "created_at": "2025-11-16 10:42:36"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "resource_title": "Python Full Course - freeCodeCamp",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "difficulty_level": "",
+        "quality_score": 0.98,
+        "created_at": "2025-11-16 10:42:36"
+      },
+      {
+        "resource_url": "https://www.coursera.org/specializations/python",
+        "resource_title": "Python for Everybody Specialization",
+        "resource_type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 10:42:36"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "resource_title": "Python Tutorial for Beginners",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Complete Python tutorial (6+ hours)",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 10:42:36"
+      },
+      {
+        "resource_url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "resource_title": "Complete Python Bootcamp",
+        "resource_type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "difficulty_level": "",
+        "quality_score": 0.9,
+        "created_at": "2025-11-16 10:42:36"
+      },
+      {
+        "resource_url": "https://www.w3schools.com/python/python_exercises.asp",
+        "resource_title": "Python Exercises - W3Schools",
+        "resource_type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "difficulty_level": "",
+        "quality_score": 0.85,
+        "created_at": "2025-11-16 10:42:36"
+      }
+    ],
+    "Syntax of a chosen programming language": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "CSS styling and layout": [
+      {
+        "resource_url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "resource_title": "MDN CSS Guide",
+        "resource_type": "documentation",
+        "provider": "MDN",
+        "description": "Complete CSS documentation and guides",
+        "difficulty_level": "",
+        "quality_score": 1.0,
+        "created_at": "2025-11-16 11:26:37"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+        "resource_title": "CSS Tutorial - Zero to Hero",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Complete CSS course (11 hours)",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 11:26:37"
+      }
+    ],
+    "IDE navigation and configuration": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "API key management": [
+      {
+        "title": "APIs for Beginners",
+        "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "Postman Learning Center",
+        "url": "https://learning.postman.com/",
+        "type": "practice",
+        "provider": "Postman",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "Problem decomposition": [],
+    "Error analysis": [],
+    "Data serialization and deserialization": [
+      {
+        "resource_url": "https://www.coursera.org/specializations/jhu-data-science",
+        "resource_title": "Data Science Specialization",
+        "resource_type": "course",
+        "provider": "Coursera",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.96,
+        "created_at": "2025-11-16 11:26:37"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "resource_title": "Data Science Full Course",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.89,
+        "created_at": "2025-11-16 11:26:37"
+      }
+    ],
+    "Git commands (commit, push, pull, branch, merge)": [
+      {
+        "resource_url": "https://git-scm.com/book/en/v2",
+        "resource_title": "Pro Git Book",
+        "resource_type": "documentation",
+        "provider": "Git",
+        "description": "Official Git documentation and book",
+        "difficulty_level": "",
+        "quality_score": 1.0,
+        "created_at": "2025-11-16 11:26:37"
+      },
+      {
+        "resource_url": "https://roadmap.sh/git-github",
+        "resource_title": "Git and GitHub Course",
+        "resource_type": "course",
+        "provider": "roadmap.sh",
+        "description": "Complete Git and GitHub guide",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 11:26:37"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "resource_title": "Git and GitHub for Beginners",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "Complete Git tutorial (1 hour)",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 11:26:37"
+      }
+    ],
+    "API integration": [
+      {
+        "resource_url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "resource_title": "APIs for Beginners",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.91,
+        "created_at": "2025-11-16 11:26:37"
+      },
+      {
+        "resource_url": "https://learning.postman.com/",
+        "resource_title": "Postman Learning Center",
+        "resource_type": "practice",
+        "provider": "Postman",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.88,
+        "created_at": "2025-11-16 11:26:37"
+      }
+    ],
+    "API consumption": [
+      {
+        "title": "APIs for Beginners",
+        "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "Postman Learning Center",
+        "url": "https://learning.postman.com/",
+        "type": "practice",
+        "provider": "Postman",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "Algorithmic thinking": [
+      {
+        "resource_url": "https://www.coursera.org/specializations/algorithms",
+        "resource_title": "Algorithms Specialization",
+        "resource_type": "course",
+        "provider": "Coursera",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.97,
+        "created_at": "2025-11-16 10:26:47"
+      },
+      {
+        "resource_url": "https://leetcode.com/",
+        "resource_title": "LeetCode",
+        "resource_type": "practice",
+        "provider": "LeetCode",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.95,
+        "created_at": "2025-11-16 10:26:47"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=8hly31xKli0",
+        "resource_title": "Algorithms Course",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.9,
+        "created_at": "2025-11-16 10:26:47"
+      }
+    ],
+    "JSON data format": [
+      {
+        "title": "Data Science Specialization",
+        "url": "https://www.coursera.org/specializations/jhu-data-science",
+        "type": "course",
+        "provider": "Coursera",
+        "is_free": true,
+        "quality_score": 0.96
+      },
+      {
+        "title": "Data Science Full Course",
+        "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.89
+      }
+    ],
+    "Security best practices": [
+      {
+        "resource_url": "https://www.coursera.org/specializations/cyber-security",
+        "resource_title": "Cybersecurity Specialization",
+        "resource_type": "course",
+        "provider": "Coursera",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.93,
+        "created_at": "2025-11-16 11:26:37"
+      },
+      {
+        "resource_url": "https://www.youtube.com/watch?v=U_P23SqJaDc",
+        "resource_title": "Cybersecurity Full Course",
+        "resource_type": "video",
+        "provider": "YouTube",
+        "description": "",
+        "difficulty_level": "",
+        "quality_score": 0.86,
+        "created_at": "2025-11-16 11:26:37"
+      }
+    ],
+    "Logging and error handling": [],
+    "HTTP protocol": [],
+    "API documentation interpretation": [
+      {
+        "title": "APIs for Beginners",
+        "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "type": "video",
+        "provider": "YouTube",
+        "is_free": true,
+        "quality_score": 0.91
+      },
+      {
+        "title": "Postman Learning Center",
+        "url": "https://learning.postman.com/",
+        "type": "practice",
+        "provider": "Postman",
+        "is_free": true,
+        "quality_score": 0.88
+      }
+    ],
+    "Basic programming logic": [
+      {
+        "title": "Official Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation",
+        "provider": "Python.org",
+        "description": "Official Python documentation and tutorial",
+        "is_free": true,
+        "quality_score": 1.0
+      },
+      {
+        "title": "Python Full Course - freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "freeCodeCamp.org",
+        "description": "Complete Python course for beginners (4.5 hours)",
+        "is_free": true,
+        "quality_score": 0.98
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "url": "https://www.coursera.org/specializations/python",
+        "type": "course",
+        "provider": "Coursera",
+        "description": "University of Michigan's comprehensive Python course",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Python Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video",
+        "provider": "YouTube",
+        "channel": "Programming with Mosh",
+        "description": "Complete Python tutorial (6+ hours)",
+        "is_free": true,
+        "quality_score": 0.95
+      },
+      {
+        "title": "Complete Python Bootcamp",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "type": "course",
+        "provider": "Udemy",
+        "description": "From zero to hero in Python",
+        "is_free": false,
+        "quality_score": 0.9
+      },
+      {
+        "title": "Python Exercises - W3Schools",
+        "url": "https://www.w3schools.com/python/python_exercises.asp",
+        "type": "practice",
+        "provider": "W3Schools",
+        "description": "Interactive Python exercises",
+        "is_free": true,
+        "quality_score": 0.85
+      }
+    ],
+    "Release management": []
+  },
+  "skill_resources": [
+    {
+      "skill_name": "XML syntax and structure",
+      "resources": [
+        {
+          "title": "Data Structures Full Course",
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+          "type": "video",
+          "provider": "YouTube",
+          "is_free": true,
+          "quality_score": 0.91
+        },
+        {
+          "title": "HackerRank Data Structures",
+          "url": "https://www.hackerrank.com/domains/data-structures",
+          "type": "practice",
+          "provider": "HackerRank",
+          "is_free": true,
+          "quality_score": 0.88
+        }
+      ]
+    },
+    {
+      "skill_name": "CI/CD concepts",
+      "resources": [
+        {
+          "title": "DevOps Specialization",
+          "url": "https://www.coursera.org/specializations/devops",
+          "type": "course",
+          "provider": "Coursera",
+          "is_free": true,
+          "quality_score": 0.91
+        },
+        {
+          "title": "DevOps Tutorial",
+          "url": "https://www.youtube.com/watch?v=Xrgk023l4lI",
+          "type": "video",
+          "provider": "YouTube",
+          "is_free": true,
+          "quality_score": 0.88
+        }
+      ]
+    },
+    {
+      "skill_name": "HTML structure and semantics",
+      "resources": [
+        {
+          "resource_url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "resource_title": "MDN HTML Guide",
+          "resource_type": "documentation",
+          "provider": "MDN",
+          "description": "Complete HTML documentation and guides",
+          "difficulty_level": "",
+          "quality_score": 1.0,
+          "created_at": "2025-11-16 11:26:37"
+        },
+        {
+          "resource_url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+          "resource_title": "Responsive Web Design",
+          "resource_type": "course",
+          "provider": "freeCodeCamp",
+          "description": "Complete HTML/CSS course with certification",
+          "difficulty_level": "",
+          "quality_score": 0.95,
+          "created_at": "2025-11-16 11:26:37"
+        },
+        {
+          "resource_url": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+          "resource_title": "HTML Full Course - Build a Website Tutorial",
+          "resource_type": "video",
+          "provider": "YouTube",
+          "description": "Complete HTML tutorial (2 hours)",
+          "difficulty_level": "",
+          "quality_score": 0.95,
+          "created_at": "2025-11-16 11:26:37"
+        }
+      ]
+    },
+    {
+      "skill_name": "Conflict resolution",
+      "resources": []
+    },
+    {
+      "skill_name": "JSON syntax and structure",
+      "resources": [
+        {
+          "title": "Data Structures Full Course",
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+          "type": "video",
+          "provider": "YouTube",
+          "is_free": true,
+          "quality_score": 0.91
+        },
+        {
+          "title": "HackerRank Data Structures",
+          "url": "https://www.hackerrank.com/domains/data-structures",
+          "type": "practice",
+          "provider": "HackerRank",
+          "is_free": true,
+          "quality_score": 0.88
+        }
+      ]
+    },
+    {
+      "skill_name": "DOM manipulation",
+      "resources": []
+    },
+    {
+      "skill_name": "Authentication methods (e.g., OAuth)",
+      "resources": [
+        {
+          "title": "OAuth 2.0 Simplified",
+          "url": "https://www.oauth.com/",
+          "type": "documentation",
+          "provider": "OAuth",
+          "is_free": true,
+          "quality_score": 0.94
+        }
+      ]
+    },
+    {
+      "skill_name": "Error handling",
+      "resources": []
+    },
+    {
+      "skill_name": "XML and JSON parsing",
+      "resources": []
+    },
+    {
+      "skill_name": "GitHub workflow",
+      "resources": [
+        {
+          "title": "Pro Git Book",
+          "url": "https://git-scm.com/book/en/v2",
+          "type": "documentation",
+          "provider": "Git",
+          "description": "Official Git documentation and book",
+          "is_free": true,
+          "quality_score": 1.0
+        },
+        {
+          "title": "Git and GitHub Course",
+          "url": "https://roadmap.sh/git-github",
+          "type": "course",
+          "provider": "roadmap.sh",
+          "description": "Complete Git and GitHub guide",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Git and GitHub for Beginners",
+          "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "freeCodeCamp.org",
+          "description": "Complete Git tutorial (1 hour)",
+          "is_free": true,
+          "quality_score": 0.95
+        }
+      ]
+    },
+    {
+      "skill_name": "Code debugging techniques",
+      "resources": [
+        {
+          "title": "Official Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "type": "documentation",
+          "provider": "Python.org",
+          "description": "Official Python documentation and tutorial",
+          "is_free": true,
+          "quality_score": 1.0
+        },
+        {
+          "title": "Python Full Course - freeCodeCamp",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "freeCodeCamp.org",
+          "description": "Complete Python course for beginners (4.5 hours)",
+          "is_free": true,
+          "quality_score": 0.98
+        },
+        {
+          "title": "Python for Everybody Specialization",
+          "url": "https://www.coursera.org/specializations/python",
+          "type": "course",
+          "provider": "Coursera",
+          "description": "University of Michigan's comprehensive Python course",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Python Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "Programming with Mosh",
+          "description": "Complete Python tutorial (6+ hours)",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Complete Python Bootcamp",
+          "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+          "type": "course",
+          "provider": "Udemy",
+          "description": "From zero to hero in Python",
+          "is_free": false,
+          "quality_score": 0.9
+        },
+        {
+          "title": "Python Exercises - W3Schools",
+          "url": "https://www.w3schools.com/python/python_exercises.asp",
+          "type": "practice",
+          "provider": "W3Schools",
+          "description": "Interactive Python exercises",
+          "is_free": true,
+          "quality_score": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "Version control best practices",
+      "resources": [
+        {
+          "title": "Pro Git Book",
+          "url": "https://git-scm.com/book/en/v2",
+          "type": "documentation",
+          "provider": "Git",
+          "description": "Official Git documentation and book",
+          "is_free": true,
+          "quality_score": 1.0
+        },
+        {
+          "title": "Git and GitHub Course",
+          "url": "https://roadmap.sh/git-github",
+          "type": "course",
+          "provider": "roadmap.sh",
+          "description": "Complete Git and GitHub guide",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Git and GitHub for Beginners",
+          "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "freeCodeCamp.org",
+          "description": "Complete Git tutorial (1 hour)",
+          "is_free": true,
+          "quality_score": 0.95
+        }
+      ]
+    },
+    {
+      "skill_name": "Code refactoring",
+      "resources": [
+        {
+          "title": "Official Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "type": "documentation",
+          "provider": "Python.org",
+          "description": "Official Python documentation and tutorial",
+          "is_free": true,
+          "quality_score": 1.0
+        },
+        {
+          "title": "Python Full Course - freeCodeCamp",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "freeCodeCamp.org",
+          "description": "Complete Python course for beginners (4.5 hours)",
+          "is_free": true,
+          "quality_score": 0.98
+        },
+        {
+          "title": "Python for Everybody Specialization",
+          "url": "https://www.coursera.org/specializations/python",
+          "type": "course",
+          "provider": "Coursera",
+          "description": "University of Michigan's comprehensive Python course",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Python Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "Programming with Mosh",
+          "description": "Complete Python tutorial (6+ hours)",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Complete Python Bootcamp",
+          "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+          "type": "course",
+          "provider": "Udemy",
+          "description": "From zero to hero in Python",
+          "is_free": false,
+          "quality_score": 0.9
+        },
+        {
+          "title": "Python Exercises - W3Schools",
+          "url": "https://www.w3schools.com/python/python_exercises.asp",
+          "type": "practice",
+          "provider": "W3Schools",
+          "description": "Interactive Python exercises",
+          "is_free": true,
+          "quality_score": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "Using IDE extensions",
+      "resources": [
+        {
+          "title": "Official Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "type": "documentation",
+          "provider": "Python.org",
+          "description": "Official Python documentation and tutorial",
+          "is_free": true,
+          "quality_score": 1.0
+        },
+        {
+          "title": "Python Full Course - freeCodeCamp",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "freeCodeCamp.org",
+          "description": "Complete Python course for beginners (4.5 hours)",
+          "is_free": true,
+          "quality_score": 0.98
+        },
+        {
+          "title": "Python for Everybody Specialization",
+          "url": "https://www.coursera.org/specializations/python",
+          "type": "course",
+          "provider": "Coursera",
+          "description": "University of Michigan's comprehensive Python course",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Python Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "Programming with Mosh",
+          "description": "Complete Python tutorial (6+ hours)",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Complete Python Bootcamp",
+          "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+          "type": "course",
+          "provider": "Udemy",
+          "description": "From zero to hero in Python",
+          "is_free": false,
+          "quality_score": 0.9
+        },
+        {
+          "title": "Python Exercises - W3Schools",
+          "url": "https://www.w3schools.com/python/python_exercises.asp",
+          "type": "practice",
+          "provider": "W3Schools",
+          "description": "Interactive Python exercises",
+          "is_free": true,
+          "quality_score": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "E-service integration",
+      "resources": []
+    },
+    {
+      "skill_name": "Payment gateway integration (if applicable)",
+      "resources": []
+    },
+    {
+      "skill_name": "REST API design",
+      "resources": [
+        {
+          "title": "APIs for Beginners",
+          "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+          "type": "video",
+          "provider": "YouTube",
+          "is_free": true,
+          "quality_score": 0.91
+        },
+        {
+          "title": "Postman Learning Center",
+          "url": "https://learning.postman.com/",
+          "type": "practice",
+          "provider": "Postman",
+          "is_free": true,
+          "quality_score": 0.88
+        }
+      ]
+    },
+    {
+      "skill_name": "SCM tool proficiency",
+      "resources": []
+    },
+    {
+      "skill_name": "Debugging tools proficiency",
+      "resources": [
+        {
+          "title": "Software Testing Tutorial",
+          "url": "https://www.youtube.com/watch?v=sB_5fqiysi4",
+          "type": "video",
+          "provider": "YouTube",
+          "is_free": true,
+          "quality_score": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "Code tracing",
+      "resources": [
+        {
+          "title": "Official Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "type": "documentation",
+          "provider": "Python.org",
+          "description": "Official Python documentation and tutorial",
+          "is_free": true,
+          "quality_score": 1.0
+        },
+        {
+          "title": "Python Full Course - freeCodeCamp",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "freeCodeCamp.org",
+          "description": "Complete Python course for beginners (4.5 hours)",
+          "is_free": true,
+          "quality_score": 0.98
+        },
+        {
+          "title": "Python for Everybody Specialization",
+          "url": "https://www.coursera.org/specializations/python",
+          "type": "course",
+          "provider": "Coursera",
+          "description": "University of Michigan's comprehensive Python course",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Python Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "Programming with Mosh",
+          "description": "Complete Python tutorial (6+ hours)",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Complete Python Bootcamp",
+          "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+          "type": "course",
+          "provider": "Udemy",
+          "description": "From zero to hero in Python",
+          "is_free": false,
+          "quality_score": 0.9
+        },
+        {
+          "title": "Python Exercises - W3Schools",
+          "url": "https://www.w3schools.com/python/python_exercises.asp",
+          "type": "practice",
+          "provider": "W3Schools",
+          "description": "Interactive Python exercises",
+          "is_free": true,
+          "quality_score": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "Branching and merging strategies",
+      "resources": []
+    },
+    {
+      "skill_name": "Basic JavaScript programming",
+      "resources": [
+        {
+          "resource_url": "https://docs.python.org/3/tutorial/",
+          "resource_title": "Official Python Tutorial",
+          "resource_type": "documentation",
+          "provider": "Python.org",
+          "description": "Official Python documentation and tutorial",
+          "difficulty_level": "",
+          "quality_score": 1.0,
+          "created_at": "2025-11-16 10:42:36"
+        },
+        {
+          "resource_url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "resource_title": "Python Full Course - freeCodeCamp",
+          "resource_type": "video",
+          "provider": "YouTube",
+          "description": "Complete Python course for beginners (4.5 hours)",
+          "difficulty_level": "",
+          "quality_score": 0.98,
+          "created_at": "2025-11-16 10:42:36"
+        },
+        {
+          "resource_url": "https://www.coursera.org/specializations/python",
+          "resource_title": "Python for Everybody Specialization",
+          "resource_type": "course",
+          "provider": "Coursera",
+          "description": "University of Michigan's comprehensive Python course",
+          "difficulty_level": "",
+          "quality_score": 0.95,
+          "created_at": "2025-11-16 10:42:36"
+        },
+        {
+          "resource_url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "resource_title": "Python Tutorial for Beginners",
+          "resource_type": "video",
+          "provider": "YouTube",
+          "description": "Complete Python tutorial (6+ hours)",
+          "difficulty_level": "",
+          "quality_score": 0.95,
+          "created_at": "2025-11-16 10:42:36"
+        },
+        {
+          "resource_url": "https://www.udemy.com/course/complete-python-bootcamp/",
+          "resource_title": "Complete Python Bootcamp",
+          "resource_type": "course",
+          "provider": "Udemy",
+          "description": "From zero to hero in Python",
+          "difficulty_level": "",
+          "quality_score": 0.9,
+          "created_at": "2025-11-16 10:42:36"
+        },
+        {
+          "resource_url": "https://www.w3schools.com/python/python_exercises.asp",
+          "resource_title": "Python Exercises - W3Schools",
+          "resource_type": "practice",
+          "provider": "W3Schools",
+          "description": "Interactive Python exercises",
+          "difficulty_level": "",
+          "quality_score": 0.85,
+          "created_at": "2025-11-16 10:42:36"
+        }
+      ]
+    },
+    {
+      "skill_name": "Syntax of a chosen programming language",
+      "resources": [
+        {
+          "title": "Official Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "type": "documentation",
+          "provider": "Python.org",
+          "description": "Official Python documentation and tutorial",
+          "is_free": true,
+          "quality_score": 1.0
+        },
+        {
+          "title": "Python Full Course - freeCodeCamp",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "freeCodeCamp.org",
+          "description": "Complete Python course for beginners (4.5 hours)",
+          "is_free": true,
+          "quality_score": 0.98
+        },
+        {
+          "title": "Python for Everybody Specialization",
+          "url": "https://www.coursera.org/specializations/python",
+          "type": "course",
+          "provider": "Coursera",
+          "description": "University of Michigan's comprehensive Python course",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Python Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "Programming with Mosh",
+          "description": "Complete Python tutorial (6+ hours)",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Complete Python Bootcamp",
+          "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+          "type": "course",
+          "provider": "Udemy",
+          "description": "From zero to hero in Python",
+          "is_free": false,
+          "quality_score": 0.9
+        },
+        {
+          "title": "Python Exercises - W3Schools",
+          "url": "https://www.w3schools.com/python/python_exercises.asp",
+          "type": "practice",
+          "provider": "W3Schools",
+          "description": "Interactive Python exercises",
+          "is_free": true,
+          "quality_score": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "CSS styling and layout",
+      "resources": [
+        {
+          "resource_url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+          "resource_title": "MDN CSS Guide",
+          "resource_type": "documentation",
+          "provider": "MDN",
+          "description": "Complete CSS documentation and guides",
+          "difficulty_level": "",
+          "quality_score": 1.0,
+          "created_at": "2025-11-16 11:26:37"
+        },
+        {
+          "resource_url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+          "resource_title": "CSS Tutorial - Zero to Hero",
+          "resource_type": "video",
+          "provider": "YouTube",
+          "description": "Complete CSS course (11 hours)",
+          "difficulty_level": "",
+          "quality_score": 0.95,
+          "created_at": "2025-11-16 11:26:37"
+        }
+      ]
+    },
+    {
+      "skill_name": "IDE navigation and configuration",
+      "resources": [
+        {
+          "title": "Official Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "type": "documentation",
+          "provider": "Python.org",
+          "description": "Official Python documentation and tutorial",
+          "is_free": true,
+          "quality_score": 1.0
+        },
+        {
+          "title": "Python Full Course - freeCodeCamp",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "freeCodeCamp.org",
+          "description": "Complete Python course for beginners (4.5 hours)",
+          "is_free": true,
+          "quality_score": 0.98
+        },
+        {
+          "title": "Python for Everybody Specialization",
+          "url": "https://www.coursera.org/specializations/python",
+          "type": "course",
+          "provider": "Coursera",
+          "description": "University of Michigan's comprehensive Python course",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Python Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "Programming with Mosh",
+          "description": "Complete Python tutorial (6+ hours)",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Complete Python Bootcamp",
+          "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+          "type": "course",
+          "provider": "Udemy",
+          "description": "From zero to hero in Python",
+          "is_free": false,
+          "quality_score": 0.9
+        },
+        {
+          "title": "Python Exercises - W3Schools",
+          "url": "https://www.w3schools.com/python/python_exercises.asp",
+          "type": "practice",
+          "provider": "W3Schools",
+          "description": "Interactive Python exercises",
+          "is_free": true,
+          "quality_score": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "API key management",
+      "resources": [
+        {
+          "title": "APIs for Beginners",
+          "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+          "type": "video",
+          "provider": "YouTube",
+          "is_free": true,
+          "quality_score": 0.91
+        },
+        {
+          "title": "Postman Learning Center",
+          "url": "https://learning.postman.com/",
+          "type": "practice",
+          "provider": "Postman",
+          "is_free": true,
+          "quality_score": 0.88
+        }
+      ]
+    },
+    {
+      "skill_name": "Problem decomposition",
+      "resources": []
+    },
+    {
+      "skill_name": "Error analysis",
+      "resources": []
+    },
+    {
+      "skill_name": "Data serialization and deserialization",
+      "resources": [
+        {
+          "resource_url": "https://www.coursera.org/specializations/jhu-data-science",
+          "resource_title": "Data Science Specialization",
+          "resource_type": "course",
+          "provider": "Coursera",
+          "description": "",
+          "difficulty_level": "",
+          "quality_score": 0.96,
+          "created_at": "2025-11-16 11:26:37"
+        },
+        {
+          "resource_url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+          "resource_title": "Data Science Full Course",
+          "resource_type": "video",
+          "provider": "YouTube",
+          "description": "",
+          "difficulty_level": "",
+          "quality_score": 0.89,
+          "created_at": "2025-11-16 11:26:37"
+        }
+      ]
+    },
+    {
+      "skill_name": "Git commands (commit, push, pull, branch, merge)",
+      "resources": [
+        {
+          "resource_url": "https://git-scm.com/book/en/v2",
+          "resource_title": "Pro Git Book",
+          "resource_type": "documentation",
+          "provider": "Git",
+          "description": "Official Git documentation and book",
+          "difficulty_level": "",
+          "quality_score": 1.0,
+          "created_at": "2025-11-16 11:26:37"
+        },
+        {
+          "resource_url": "https://roadmap.sh/git-github",
+          "resource_title": "Git and GitHub Course",
+          "resource_type": "course",
+          "provider": "roadmap.sh",
+          "description": "Complete Git and GitHub guide",
+          "difficulty_level": "",
+          "quality_score": 0.95,
+          "created_at": "2025-11-16 11:26:37"
+        },
+        {
+          "resource_url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+          "resource_title": "Git and GitHub for Beginners",
+          "resource_type": "video",
+          "provider": "YouTube",
+          "description": "Complete Git tutorial (1 hour)",
+          "difficulty_level": "",
+          "quality_score": 0.95,
+          "created_at": "2025-11-16 11:26:37"
+        }
+      ]
+    },
+    {
+      "skill_name": "API integration",
+      "resources": [
+        {
+          "resource_url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+          "resource_title": "APIs for Beginners",
+          "resource_type": "video",
+          "provider": "YouTube",
+          "description": "",
+          "difficulty_level": "",
+          "quality_score": 0.91,
+          "created_at": "2025-11-16 11:26:37"
+        },
+        {
+          "resource_url": "https://learning.postman.com/",
+          "resource_title": "Postman Learning Center",
+          "resource_type": "practice",
+          "provider": "Postman",
+          "description": "",
+          "difficulty_level": "",
+          "quality_score": 0.88,
+          "created_at": "2025-11-16 11:26:37"
+        }
+      ]
+    },
+    {
+      "skill_name": "API consumption",
+      "resources": [
+        {
+          "title": "APIs for Beginners",
+          "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+          "type": "video",
+          "provider": "YouTube",
+          "is_free": true,
+          "quality_score": 0.91
+        },
+        {
+          "title": "Postman Learning Center",
+          "url": "https://learning.postman.com/",
+          "type": "practice",
+          "provider": "Postman",
+          "is_free": true,
+          "quality_score": 0.88
+        }
+      ]
+    },
+    {
+      "skill_name": "Algorithmic thinking",
+      "resources": [
+        {
+          "resource_url": "https://www.coursera.org/specializations/algorithms",
+          "resource_title": "Algorithms Specialization",
+          "resource_type": "course",
+          "provider": "Coursera",
+          "description": "",
+          "difficulty_level": "",
+          "quality_score": 0.97,
+          "created_at": "2025-11-16 10:26:47"
+        },
+        {
+          "resource_url": "https://leetcode.com/",
+          "resource_title": "LeetCode",
+          "resource_type": "practice",
+          "provider": "LeetCode",
+          "description": "",
+          "difficulty_level": "",
+          "quality_score": 0.95,
+          "created_at": "2025-11-16 10:26:47"
+        },
+        {
+          "resource_url": "https://www.youtube.com/watch?v=8hly31xKli0",
+          "resource_title": "Algorithms Course",
+          "resource_type": "video",
+          "provider": "YouTube",
+          "description": "",
+          "difficulty_level": "",
+          "quality_score": 0.9,
+          "created_at": "2025-11-16 10:26:47"
+        }
+      ]
+    },
+    {
+      "skill_name": "JSON data format",
+      "resources": [
+        {
+          "title": "Data Science Specialization",
+          "url": "https://www.coursera.org/specializations/jhu-data-science",
+          "type": "course",
+          "provider": "Coursera",
+          "is_free": true,
+          "quality_score": 0.96
+        },
+        {
+          "title": "Data Science Full Course",
+          "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+          "type": "video",
+          "provider": "YouTube",
+          "is_free": true,
+          "quality_score": 0.89
+        }
+      ]
+    },
+    {
+      "skill_name": "Security best practices",
+      "resources": [
+        {
+          "resource_url": "https://www.coursera.org/specializations/cyber-security",
+          "resource_title": "Cybersecurity Specialization",
+          "resource_type": "course",
+          "provider": "Coursera",
+          "description": "",
+          "difficulty_level": "",
+          "quality_score": 0.93,
+          "created_at": "2025-11-16 11:26:37"
+        },
+        {
+          "resource_url": "https://www.youtube.com/watch?v=U_P23SqJaDc",
+          "resource_title": "Cybersecurity Full Course",
+          "resource_type": "video",
+          "provider": "YouTube",
+          "description": "",
+          "difficulty_level": "",
+          "quality_score": 0.86,
+          "created_at": "2025-11-16 11:26:37"
+        }
+      ]
+    },
+    {
+      "skill_name": "Logging and error handling",
+      "resources": []
+    },
+    {
+      "skill_name": "HTTP protocol",
+      "resources": []
+    },
+    {
+      "skill_name": "API documentation interpretation",
+      "resources": [
+        {
+          "title": "APIs for Beginners",
+          "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+          "type": "video",
+          "provider": "YouTube",
+          "is_free": true,
+          "quality_score": 0.91
+        },
+        {
+          "title": "Postman Learning Center",
+          "url": "https://learning.postman.com/",
+          "type": "practice",
+          "provider": "Postman",
+          "is_free": true,
+          "quality_score": 0.88
+        }
+      ]
+    },
+    {
+      "skill_name": "Basic programming logic",
+      "resources": [
+        {
+          "title": "Official Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "type": "documentation",
+          "provider": "Python.org",
+          "description": "Official Python documentation and tutorial",
+          "is_free": true,
+          "quality_score": 1.0
+        },
+        {
+          "title": "Python Full Course - freeCodeCamp",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "freeCodeCamp.org",
+          "description": "Complete Python course for beginners (4.5 hours)",
+          "is_free": true,
+          "quality_score": 0.98
+        },
+        {
+          "title": "Python for Everybody Specialization",
+          "url": "https://www.coursera.org/specializations/python",
+          "type": "course",
+          "provider": "Coursera",
+          "description": "University of Michigan's comprehensive Python course",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Python Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "type": "video",
+          "provider": "YouTube",
+          "channel": "Programming with Mosh",
+          "description": "Complete Python tutorial (6+ hours)",
+          "is_free": true,
+          "quality_score": 0.95
+        },
+        {
+          "title": "Complete Python Bootcamp",
+          "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+          "type": "course",
+          "provider": "Udemy",
+          "description": "From zero to hero in Python",
+          "is_free": false,
+          "quality_score": 0.9
+        },
+        {
+          "title": "Python Exercises - W3Schools",
+          "url": "https://www.w3schools.com/python/python_exercises.asp",
+          "type": "practice",
+          "provider": "W3Schools",
+          "description": "Interactive Python exercises",
+          "is_free": true,
+          "quality_score": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "Release management",
+      "resources": []
+    }
+  ],
+  "statistics": {
+    "total_hours": 148,
+    "total_skills": 40,
+    "duration_days": 49,
+    "total_sessions": 10,
+    "total_resources": 89
+  },
+  "performance": {
+    "skill_gap_time": 5.604118824005127,
+    "schedule_time": 10.005551099777222,
+    "resources_time": 0.8251559734344482,
+    "total_time": 16.446850538253784
+  }
+}

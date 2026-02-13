@@ -1,0 +1,2984 @@
+{
+  "timestamp": "20251116_161502",
+  "total_tests": 5,
+  "successful": 5,
+  "failed": 0,
+  "test_results": [
+    {
+      "scenario": "Web Developer",
+      "status": "success",
+      "goal": "I want to become a full-stack web developer",
+      "current_skills": [],
+      "matched_occupation": {
+        "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+        "label": "web developer",
+        "description": "Web developers develop, implement and document web-accessible software based on the designs provided. They align the client's web presence with its business strategy, troubleshoot software problems and issues and look for ways to improve the application.",
+        "similarity_score": 0.7869765162467957
+      },
+      "learning_path": [
+        {
+          "session_number": 1,
+          "title": "Introduction to Programming Fundamentals",
+          "objectives": [
+            "Understand basic programming concepts like variables, data types, operators, and control flow.",
+            "Learn to write simple programs using a chosen programming language (e.g., Python, JavaScript).",
+            "Understand the concept of algorithms and how to translate them into code.",
+            "Learn to read and understand existing code."
+          ],
+          "skills": [
+            "Basic coding skills"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 2,
+          "title": "Web Programming Basics: HTML, CSS, and JavaScript",
+          "objectives": [
+            "Understand the structure of a web page using HTML.",
+            "Learn to style web pages using CSS.",
+            "Learn to add interactivity to web pages using JavaScript.",
+            "Understand the client-side nature of web development."
+          ],
+          "skills": [
+            "HTML structure creation",
+            "CSS styling",
+            "Basic JavaScript programming"
+          ],
+          "estimated_duration_hours": 12,
+          "difficulty_level": "beginner",
+          "prerequisites": [
+            "Introduction to Programming Fundamentals"
+          ]
+        },
+        {
+          "session_number": 3,
+          "title": "Introduction to Integrated Development Environments (IDEs)",
+          "objectives": [
+            "Understand the purpose and benefits of using an IDE.",
+            "Learn to navigate and use a specific IDE (e.g., VS Code, IntelliJ IDEA).",
+            "Learn to use IDE features like code completion, debugging, and version control integration.",
+            "Configure IDE settings for optimal development."
+          ],
+          "skills": [
+            "IDE navigation",
+            "Code editing and debugging",
+            "Version control integration (basic)"
+          ],
+          "estimated_duration_hours": 4,
+          "difficulty_level": "beginner",
+          "prerequisites": [
+            "Introduction to Programming Fundamentals"
+          ]
+        },
+        {
+          "session_number": 4,
+          "title": "Web-Based Collaborative Platforms for Software Development",
+          "objectives": [
+            "Understand the benefits of using collaborative platforms for software development.",
+            "Learn to use platforms like GitHub, GitLab, or Bitbucket for code sharing and collaboration.",
+            "Understand the concepts of branching, merging, and pull requests.",
+            "Learn to communicate effectively with team members using these platforms."
+          ],
+          "skills": [
+            "Version control (Git)",
+            "Branching and merging strategies",
+            "Code review process"
+          ],
+          "estimated_duration_hours": 6,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Introduction to Programming Fundamentals",
+            "Introduction to Integrated Development Environments (IDEs)"
+          ]
+        },
+        {
+          "session_number": 5,
+          "title": "Tools for Software Configuration Management (SCM)",
+          "objectives": [
+            "Understand the importance of SCM in software development.",
+            "Learn to use Git for version control.",
+            "Understand branching strategies and conflict resolution.",
+            "Learn to use tools for continuous integration and continuous deployment (CI/CD) (e.g., Jenkins, GitLab CI)."
+          ],
+          "skills": [
+            "Advanced Git usage",
+            "Branching and merging strategies",
+            "Conflict resolution",
+            "CI/CD pipeline setup (basic)"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Web-Based Collaborative Platforms for Software Development"
+          ]
+        },
+        {
+          "session_number": 6,
+          "title": "Introduction to Web Services (REST APIs)",
+          "objectives": [
+            "Understand the concept of web services and APIs.",
+            "Learn about RESTful API design principles.",
+            "Learn to make API requests using tools like Postman or curl.",
+            "Understand different data formats like JSON and XML.",
+            "Learn to consume and process data from APIs."
+          ],
+          "skills": [
+            "API interaction",
+            "JSON and XML data handling",
+            "Using tools like Postman/curl"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Web Programming Basics: HTML, CSS, and JavaScript"
+          ]
+        },
+        {
+          "session_number": 7,
+          "title": "Using Application-Specific Interfaces (APIs)",
+          "objectives": [
+            "Understand how to interact with specific application APIs (e.g., Google Maps API, Twitter API).",
+            "Learn to read API documentation and understand API endpoints.",
+            "Learn to authenticate with APIs using API keys or OAuth.",
+            "Learn to handle API rate limits and error responses."
+          ],
+          "skills": [
+            "API documentation reading",
+            "API authentication",
+            "API error handling",
+            "Application-specific API usage"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Introduction to Web Services (REST APIs)"
+          ]
+        },
+        {
+          "session_number": 8,
+          "title": "Working with Markup Languages (XML, JSON, YAML)",
+          "objectives": [
+            "Understand the purpose and structure of markup languages.",
+            "Learn to write and validate XML documents.",
+            "Learn to work with JSON data structures.",
+            "Learn to use YAML for configuration files.",
+            "Understand the differences and use cases for each language."
+          ],
+          "skills": [
+            "XML writing and validation",
+            "JSON data manipulation",
+            "YAML configuration"
+          ],
+          "estimated_duration_hours": 6,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Introduction to Programming Fundamentals"
+          ]
+        },
+        {
+          "session_number": 9,
+          "title": "Using E-Services (Web Forms, Payment Gateways)",
+          "objectives": [
+            "Understand the concept of e-services and their importance.",
+            "Learn to create and process web forms.",
+            "Understand the basics of payment gateway integration.",
+            "Learn about security considerations when working with e-services.",
+            "Learn about different e-service APIs."
+          ],
+          "skills": [
+            "Web form creation and processing",
+            "Payment gateway integration (basic)",
+            "Security considerations for e-services",
+            "E-service API usage"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Web Programming Basics: HTML, CSS, and JavaScript",
+            "Introduction to Web Services (REST APIs)"
+          ]
+        },
+        {
+          "session_number": 10,
+          "title": "Debugging Software",
+          "objectives": [
+            "Understand common types of software bugs.",
+            "Learn to use debugging tools in an IDE.",
+            "Learn debugging techniques like breakpoints, stepping through code, and inspecting variables.",
+            "Learn to read and understand error messages and stack traces.",
+            "Develop strategies for identifying and fixing bugs."
+          ],
+          "skills": [
+            "Debugging techniques",
+            "Error message analysis",
+            "Stack trace analysis"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Introduction to Programming Fundamentals",
+            "Introduction to Integrated Development Environments (IDEs)"
+          ]
+        }
+      ],
+      "resources": {
+        "API error handling": [
+          {
+            "title": "APIs for Beginners",
+            "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.91
+          },
+          {
+            "title": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "type": "practice",
+            "provider": "Postman",
+            "is_free": true,
+            "quality_score": 0.88
+          }
+        ],
+        "Basic JavaScript programming": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Code review process": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Using tools like Postman/curl": [],
+        "Error message analysis": [],
+        "Stack trace analysis": [],
+        "JSON and XML data handling": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "Branching and merging strategies": [],
+        "Debugging techniques": [
+          {
+            "title": "Software Testing Tutorial",
+            "url": "https://www.youtube.com/watch?v=sB_5fqiysi4",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "E-service API usage": [
+          {
+            "title": "APIs for Beginners",
+            "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.91
+          },
+          {
+            "title": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "type": "practice",
+            "provider": "Postman",
+            "is_free": true,
+            "quality_score": 0.88
+          }
+        ],
+        "Advanced Git usage": [
+          {
+            "title": "Pro Git Book",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "documentation",
+            "provider": "Git",
+            "description": "Official Git documentation and book",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Git and GitHub Course",
+            "url": "https://roadmap.sh/git-github",
+            "type": "course",
+            "provider": "roadmap.sh",
+            "description": "Complete Git and GitHub guide",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Git and GitHub for Beginners",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Git tutorial (1 hour)",
+            "is_free": true,
+            "quality_score": 0.95
+          }
+        ],
+        "Version control (Git)": [
+          {
+            "title": "Pro Git Book",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "documentation",
+            "provider": "Git",
+            "description": "Official Git documentation and book",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Git and GitHub Course",
+            "url": "https://roadmap.sh/git-github",
+            "type": "course",
+            "provider": "roadmap.sh",
+            "description": "Complete Git and GitHub guide",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Git and GitHub for Beginners",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Git tutorial (1 hour)",
+            "is_free": true,
+            "quality_score": 0.95
+          }
+        ],
+        "Web form creation and processing": [],
+        "XML writing and validation": [],
+        "Basic coding skills": [],
+        "CSS styling": [
+          {
+            "title": "MDN CSS Guide",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "type": "documentation",
+            "provider": "MDN",
+            "description": "Complete CSS documentation and guides",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "CSS Tutorial - Zero to Hero",
+            "url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete CSS course (11 hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          }
+        ],
+        "Conflict resolution": [],
+        "API documentation reading": [
+          {
+            "title": "APIs for Beginners",
+            "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.91
+          },
+          {
+            "title": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "type": "practice",
+            "provider": "Postman",
+            "is_free": true,
+            "quality_score": 0.88
+          }
+        ],
+        "JSON data manipulation": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "Payment gateway integration (basic)": [],
+        "API interaction": [
+          {
+            "title": "APIs for Beginners",
+            "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.91
+          },
+          {
+            "title": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "type": "practice",
+            "provider": "Postman",
+            "is_free": true,
+            "quality_score": 0.88
+          },
+          {
+            "title": "apihub (8,521 stars)",
+            "url": "https://github.com/hiteshchoudhary/apihub",
+            "type": "repository",
+            "provider": "GitHub",
+            "description": "Your own API Hub to learn and master API interaction. Ideal for frontend, mobile dev and backend developers. ",
+            "is_free": true,
+            "quality_score": 0.17042,
+            "stars": 8521
+          }
+        ],
+        "Code editing and debugging": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "API authentication": [
+          {
+            "resource_url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+            "resource_title": "APIs for Beginners",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.91,
+            "created_at": "2025-11-16 10:29:24"
+          },
+          {
+            "resource_url": "https://learning.postman.com/",
+            "resource_title": "Postman Learning Center",
+            "resource_type": "practice",
+            "provider": "Postman",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.88,
+            "created_at": "2025-11-16 10:29:24"
+          }
+        ],
+        "IDE navigation": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "CI/CD pipeline setup (basic)": [
+          {
+            "title": "DevOps Specialization",
+            "url": "https://www.coursera.org/specializations/devops",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.91
+          },
+          {
+            "title": "DevOps Tutorial",
+            "url": "https://www.youtube.com/watch?v=Xrgk023l4lI",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.88
+          }
+        ],
+        "YAML configuration": [],
+        "Version control integration (basic)": [
+          {
+            "title": "Pro Git Book",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "documentation",
+            "provider": "Git",
+            "description": "Official Git documentation and book",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Git and GitHub Course",
+            "url": "https://roadmap.sh/git-github",
+            "type": "course",
+            "provider": "roadmap.sh",
+            "description": "Complete Git and GitHub guide",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Git and GitHub for Beginners",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Git tutorial (1 hour)",
+            "is_free": true,
+            "quality_score": 0.95
+          }
+        ],
+        "HTML structure creation": [
+          {
+            "title": "MDN HTML Guide",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "type": "documentation",
+            "provider": "MDN",
+            "description": "Complete HTML documentation and guides",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Responsive Web Design",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+            "type": "course",
+            "provider": "freeCodeCamp",
+            "description": "Complete HTML/CSS course with certification",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "HTML Full Course - Build a Website Tutorial",
+            "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete HTML tutorial (2 hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          }
+        ],
+        "Application-specific API usage": [
+          {
+            "title": "APIs for Beginners",
+            "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.91
+          },
+          {
+            "title": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "type": "practice",
+            "provider": "Postman",
+            "is_free": true,
+            "quality_score": 0.88
+          }
+        ],
+        "Security considerations for e-services": [
+          {
+            "title": "Cybersecurity Specialization",
+            "url": "https://www.coursera.org/specializations/cyber-security",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.93
+          },
+          {
+            "title": "Cybersecurity Full Course",
+            "url": "https://www.youtube.com/watch?v=U_P23SqJaDc",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.86
+          }
+        ]
+      },
+      "statistics": {
+        "total_hours": 76,
+        "total_skills": 31,
+        "duration_days": 25,
+        "total_sessions": 10,
+        "total_resources": 60
+      },
+      "performance": {
+        "skill_gap_time": 5.692742586135864,
+        "schedule_time": 10.063618421554565,
+        "resources_time": 1.09912109375,
+        "total_time": 16.859006881713867
+      }
+    },
+    {
+      "scenario": "Data Scientist",
+      "status": "success",
+      "goal": "I want to become a data scientist with machine learning expertise",
+      "current_skills": [
+        "Python programming",
+        "Statistics"
+      ],
+      "matched_occupation": {
+        "uri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30",
+        "label": "data scientist",
+        "description": "Data scientists find and interpret rich data sources, manage large amounts of data, merge data sources, ensure consistency of data-sets, and create visualisations to aid in understanding data. They build mathematical models using data, present and communicate data insights and findings to specialists and scientists in their team and if required, to a non-expert audience, and recommend ways to apply the data.",
+        "similarity_score": 1.0
+      },
+      "learning_path": [
+        {
+          "session_number": 1,
+          "title": "Data Visualisation Software, Information Extraction & More (6 Skills)",
+          "skills": [
+            "data visualisation software",
+            "information extraction",
+            "information categorisation",
+            "query languages",
+            "interact professionally in research and professional environments",
+            "disseminate results to the scientific community"
+          ],
+          "skill_details": [
+            {
+              "uri": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+              "label": "data visualisation software",
+              "description": "A computer tool or application that creates a graphical and visual representation of data, allowing a better understanding and interpretation of complex data through visual elements such as maps, charts, infographics or graphs.",
+              "relation_type": "essential",
+              "priority": 1,
+              "relevance_score": 0.8,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            },
+            {
+              "uri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec",
+              "label": "information extraction",
+              "description": "The techniques and methods used for eliciting and extracting information from unstructured or semi-structured digital documents and sources.",
+              "relation_type": "essential",
+              "priority": 1,
+              "relevance_score": 0.8,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            },
+            {
+              "uri": "http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6",
+              "label": "information categorisation",
+              "description": "The process of classifying the information into categories and showing relationships between the data for some clearly defined purposes.",
+              "relation_type": "essential",
+              "priority": 1,
+              "relevance_score": 0.8,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            },
+            {
+              "uri": "http://data.europa.eu/esco/skill/9cf681c7-89ec-470c-b651-7fe03786f586",
+              "label": "query languages",
+              "description": "The field of standardised computer languages for retrieval of information from a database and of documents containing the needed information.",
+              "relation_type": "essential",
+              "priority": 1,
+              "relevance_score": 0.8,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            },
+            {
+              "uri": "http://data.europa.eu/esco/skill/20a8fe89-d4eb-4698-8521-8881c13377e0",
+              "label": "interact professionally in research and professional environments",
+              "description": "Show consideration to others as well as collegiality. Listen, give and receive feedback and respond perceptively to others, also involving staff supervision and leadership in a professional setting.",
+              "relation_type": "essential",
+              "priority": 1,
+              "relevance_score": 0.8,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            },
+            {
+              "uri": "http://data.europa.eu/esco/skill/2b1e2927-3542-48da-9063-02925e7562c1",
+              "label": "disseminate results to the scientific community",
+              "description": "Publicly disclose scientific results by any appropriate means, including conferences, workshops, colloquia and scientific publications.",
+              "relation_type": "essential",
+              "priority": 1,
+              "relevance_score": 0.8,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            }
+          ],
+          "duration": "20 hours",
+          "estimated_duration_hours": 20,
+          "difficulty_level": "beginner",
+          "objectives": [
+            "Master essential programming languages",
+            "Learn database querying"
+          ],
+          "comprehensive_guides": {
+            "data visualisation software": "# 📚 Comprehensive Guide: data visualisation software\n\n## 🎯 Overview\nA computer tool or application that creates a graphical and visual representation of data, allowing a better understanding and interpretation of complex data through visual elements such as maps, charts, infographics or graphs.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data visualisation software in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data visualisation software matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data visualisation software enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+            "information extraction": "# 📚 Comprehensive Guide: information extraction\n\n## 🎯 Overview\nThe techniques and methods used for eliciting and extracting information from unstructured or semi-structured digital documents and sources.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply information extraction in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why information extraction matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How information extraction enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+            "information categorisation": "# 📚 Comprehensive Guide: information categorisation\n\n## 🎯 Overview\nThe process of classifying the information into categories and showing relationships between the data for some clearly defined purposes.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply information categorisation in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why information categorisation matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How information categorisation enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+            "query languages": "# 📚 Comprehensive Guide: query languages\n\n## 🎯 Overview\nThe field of standardised computer languages for retrieval of information from a database and of documents containing the needed information.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply query languages in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why query languages matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How query languages enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+            "interact professionally in research and professional environments": "# 📚 Comprehensive Guide: interact professionally in research and professional environments\n\n## 🎯 Overview\nShow consideration to others as well as collegiality. Listen, give and receive feedback and respond perceptively to others, also involving staff supervision and leadership in a professional setting.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply interact professionally in research and professional environments in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why interact professionally in research and professional environments matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How interact professionally in research and professional environments enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+            "disseminate results to the scientific community": "# 📚 Comprehensive Guide: disseminate results to the scientific community\n\n## 🎯 Overview\nPublicly disclose scientific results by any appropriate means, including conferences, workshops, colloquia and scientific publications.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply disseminate results to the scientific community in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why disseminate results to the scientific community matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How disseminate results to the scientific community enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+          },
+          "learning_resources": {
+            "online_courses": [
+              "Google Data Analytics Certificate",
+              "IBM Data Science Specialization",
+              "Microsoft Power BI Course"
+            ],
+            "tutorials": [
+              "Pandas Documentation Tutorials",
+              "Matplotlib Tutorials",
+              "NumPy Quickstart"
+            ],
+            "documentation": [
+              "NumPy Documentation",
+              "Pandas Documentation",
+              "Matplotlib Documentation"
+            ],
+            "practice_platforms": [
+              "Analytics Vidhya",
+              "Kaggle Learn",
+              "DataCamp Practice"
+            ],
+            "communities": [
+              "Data Science Central",
+              "r/analytics",
+              "KDnuggets Community"
+            ]
+          }
+        },
+        {
+          "session_number": 2,
+          "title": "Data Visualization Fundamentals",
+          "skills": [
+            "data visualization"
+          ],
+          "skill_details": [
+            {
+              "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213",
+              "label": "data visualization",
+              "description": "The visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.",
+              "relation_type": "essential",
+              "priority": 1,
+              "relevance_score": 0.8,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            }
+          ],
+          "duration": "7 hours",
+          "estimated_duration_hours": 7,
+          "difficulty_level": "intermediate",
+          "objectives": [
+            "Create compelling visual narratives",
+            "Master visualization tools"
+          ],
+          "comprehensive_guides": {
+            "data visualization": "# 📚 Comprehensive Guide: data visualization\n\n## 🎯 Overview\nThe visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data visualization in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data visualization matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data visualization enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+          },
+          "learning_resources": {
+            "online_courses": [
+              "Google Data Analytics Certificate",
+              "IBM Data Science Specialization",
+              "Microsoft Power BI Course"
+            ],
+            "tutorials": [
+              "Pandas Documentation Tutorials",
+              "Matplotlib Tutorials",
+              "NumPy Quickstart"
+            ],
+            "documentation": [
+              "NumPy Documentation",
+              "Pandas Documentation",
+              "Matplotlib Documentation"
+            ],
+            "practice_platforms": [
+              "Analytics Vidhya",
+              "Kaggle Learn",
+              "DataCamp Practice"
+            ],
+            "communities": [
+              "Data Science Central",
+              "r/analytics",
+              "KDnuggets Community"
+            ]
+          }
+        },
+        {
+          "session_number": 3,
+          "title": "Data Mining, Mathematical Modeling & More",
+          "skills": [
+            "data mining",
+            "mathematical modeling",
+            "data ethics"
+          ],
+          "skill_details": [
+            {
+              "uri": "http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180",
+              "label": "data mining",
+              "description": "The methods of artificial intelligence, machine learning, statistics and databases used to extract content from a dataset.",
+              "relation_type": "essential",
+              "priority": 1,
+              "relevance_score": 0.5,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            },
+            {
+              "uri": "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8",
+              "label": "mathematical modeling",
+              "description": "The process of establishing a mathematical representation problem, such as equations, of a real-word to provide insights, discover new features about the problematic scenario, better understand the original problem or to make predictions about it.",
+              "relation_type": "essential",
+              "priority": 2,
+              "relevance_score": 0.5,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            },
+            {
+              "uri": "http://data.europa.eu/esco/skill/e9575f7f-053a-439e-8074-f93df3334e92",
+              "label": "data ethics",
+              "description": "The subfield of ethics that assess whether data practices are considerable ethical. It assesses processes such as collecting, analysing and disseminating structured and unstructured data that might negatively impact the society.",
+              "relation_type": "essential",
+              "priority": 2,
+              "relevance_score": 0.5,
+              "difficulty": "intermediate",
+              "vote_score": 0,
+              "explanation": "Essential skill for this occupation"
+            }
+          ],
+          "duration": "20 hours",
+          "estimated_duration_hours": 20,
+          "difficulty_level": "intermediate",
+          "objectives": [
+            "Complete remaining skill requirements"
+          ],
+          "comprehensive_guides": {
+            "data mining": "# 📚 Comprehensive Guide: data mining\n\n## 🎯 Overview\nThe methods of artificial intelligence, machine learning, statistics and databases used to extract content from a dataset.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data mining in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data mining matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data mining enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+            "mathematical modeling": "# 📚 Comprehensive Guide: mathematical modeling\n\n## 🎯 Overview\nThe process of establishing a mathematical representation problem, such as equations, of a real-word to provide insights, discover new features about the problematic scenario, better understand the original problem or to make predictions about it.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply mathematical modeling in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why mathematical modeling matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How mathematical modeling enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+            "data ethics": "# 📚 Comprehensive Guide: data ethics\n\n## 🎯 Overview\nThe subfield of ethics that assess whether data practices are considerable ethical. It assesses processes such as collecting, analysing and disseminating structured and unstructured data that might negatively impact the society.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data ethics in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data ethics matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data ethics enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+          },
+          "learning_resources": {
+            "online_courses": [
+              "Google Data Analytics Certificate",
+              "IBM Data Science Specialization",
+              "Microsoft Power BI Course"
+            ],
+            "tutorials": [
+              "Pandas Documentation Tutorials",
+              "Matplotlib Tutorials",
+              "NumPy Quickstart"
+            ],
+            "documentation": [
+              "NumPy Documentation",
+              "Pandas Documentation",
+              "Matplotlib Documentation"
+            ],
+            "practice_platforms": [
+              "Analytics Vidhya",
+              "Kaggle Learn",
+              "DataCamp Practice"
+            ],
+            "communities": [
+              "Data Science Central",
+              "r/analytics",
+              "KDnuggets Community"
+            ]
+          }
+        }
+      ],
+      "resources": {
+        "information extraction": [
+          {
+            "resource_url": "https://www.coursera.org/specializations/jhu-data-science",
+            "resource_title": "Data Science Specialization",
+            "resource_type": "course",
+            "provider": "Coursera",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.96,
+            "created_at": "2025-11-16 10:02:39"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "resource_title": "Data Science Full Course",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.89,
+            "created_at": "2025-11-16 10:02:39"
+          }
+        ],
+        "information categorisation": [],
+        "data visualization": [
+          {
+            "resource_url": "https://pandas.pydata.org/docs/",
+            "resource_title": "Pandas Documentation",
+            "resource_type": "documentation",
+            "provider": "Pandas",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 1.0,
+            "created_at": "2025-11-16 10:02:40"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "resource_title": "Pandas Tutorial",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.9,
+            "created_at": "2025-11-16 10:02:40"
+          }
+        ],
+        "data ethics": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "data visualisation software": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "mathematical modeling": [],
+        "disseminate results to the scientific community": [],
+        "query languages": [
+          {
+            "title": "PostgreSQL Documentation",
+            "url": "https://www.postgresql.org/docs/",
+            "type": "documentation",
+            "provider": "PostgreSQL",
+            "description": "Official PostgreSQL documentation",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "SQL Tutorial - Full Database Course for Beginners",
+            "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete SQL course (4 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Complete SQL Course",
+            "url": "https://roadmap.sh/courses/sql",
+            "type": "course",
+            "provider": "roadmap.sh",
+            "description": "Comprehensive SQL course from beginner to advanced",
+            "is_free": false,
+            "quality_score": 0.95
+          },
+          {
+            "title": "SQLBolt",
+            "url": "https://sqlbolt.com/",
+            "type": "practice",
+            "provider": "SQLBolt",
+            "description": "Interactive SQL exercises",
+            "is_free": true,
+            "quality_score": 0.9
+          }
+        ],
+        "data mining": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "interact professionally in research and professional environments": []
+      },
+      "statistics": {
+        "total_hours": 47,
+        "total_skills": 10,
+        "duration_days": 15,
+        "total_sessions": 3,
+        "total_resources": 14
+      },
+      "performance": {
+        "skill_gap_time": 24.753833770751953,
+        "schedule_time": 12.086225748062134,
+        "resources_time": 0.20165181159973145,
+        "total_time": 37.04773664474487
+      }
+    },
+    {
+      "scenario": "AI Engineer",
+      "status": "success",
+      "goal": "I want to become an AI engineer specializing in deep learning",
+      "current_skills": [
+        "Python",
+        "Machine learning basics"
+      ],
+      "matched_occupation": {
+        "uri": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+        "label": " artificial intelligence engineer ",
+        "description": "Artificial intelligence engineer apply methods of artificial intelligence in engineering, robotics and computer science to design programs which simulate intelligence including thinking models, cognitive and knowledge-based systems, problem solving, and decision making. They also integrate structured knowledge into computer systems (ontologies, knowledge bases) in order to solve complex problems normally requiring a high level of human expertise or artificial intelligence methods.",
+        "similarity_score": 1.0
+      },
+      "learning_path": [
+        {
+          "session_number": 1,
+          "title": "Introduction to Computer Simulation",
+          "objectives": [
+            "Understand the fundamental concepts of computer simulation.",
+            "Learn about different types of simulation (e.g., Monte Carlo, Discrete Event).",
+            "Identify real-world applications of computer simulation.",
+            "Gain hands-on experience with a basic simulation tool."
+          ],
+          "skills": [
+            "Abstract thinking",
+            "Statistical analysis (basic)"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 2,
+          "title": "Data Visualization Fundamentals",
+          "objectives": [
+            "Understand the principles of effective data visualization.",
+            "Learn about different chart types and their appropriate uses.",
+            "Develop skills in creating clear and informative visualizations.",
+            "Explore data visualization tools (e.g., Tableau, Python libraries).",
+            "Learn how to tell a story with data."
+          ],
+          "skills": [
+            "Data analysis",
+            "Design principles"
+          ],
+          "estimated_duration_hours": 12,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 3,
+          "title": "Introduction to Algorithms",
+          "objectives": [
+            "Understand the concept of an algorithm and its importance.",
+            "Learn about common algorithm design techniques (e.g., divide and conquer, greedy algorithms).",
+            "Analyze the time and space complexity of algorithms.",
+            "Implement basic algorithms in a programming language.",
+            "Understand data structures like arrays, linked lists, and trees."
+          ],
+          "skills": [
+            "Logical reasoning",
+            "Programming (e.g., Python, Java, C++)",
+            "Mathematical thinking"
+          ],
+          "estimated_duration_hours": 16,
+          "difficulty_level": "intermediate",
+          "prerequisites": []
+        },
+        {
+          "session_number": 4,
+          "title": "Artificial Neural Networks: A Gentle Introduction",
+          "objectives": [
+            "Understand the basic structure and function of artificial neural networks.",
+            "Learn about different types of neural networks (e.g., feedforward, recurrent).",
+            "Implement a simple neural network using a library like TensorFlow or PyTorch.",
+            "Understand the concepts of backpropagation and gradient descent.",
+            "Apply neural networks to simple classification or regression problems."
+          ],
+          "skills": [
+            "Linear Algebra (basic)",
+            "Calculus (basic)",
+            "Programming (Python)",
+            "Machine learning fundamentals"
+          ],
+          "estimated_duration_hours": 20,
+          "difficulty_level": "intermediate",
+          "prerequisites": []
+        },
+        {
+          "session_number": 5,
+          "title": "Information Extraction from Text",
+          "objectives": [
+            "Understand the challenges of extracting information from unstructured text.",
+            "Learn about techniques for named entity recognition (NER).",
+            "Explore methods for relationship extraction.",
+            "Use regular expressions and NLP libraries (e.g., NLTK, SpaCy) for information extraction.",
+            "Evaluate the performance of information extraction systems."
+          ],
+          "skills": [
+            "Natural Language Processing (NLP) basics",
+            "Regular expressions",
+            "Programming (Python)",
+            "Text processing"
+          ],
+          "estimated_duration_hours": 16,
+          "difficulty_level": "intermediate",
+          "prerequisites": []
+        },
+        {
+          "session_number": 6,
+          "title": "Task Algorithmisation: Breaking Down Complex Problems",
+          "objectives": [
+            "Learn how to decompose complex tasks into smaller, manageable steps.",
+            "Develop skills in creating flowcharts and pseudocode.",
+            "Understand different algorithm design paradigms (e.g., top-down, bottom-up).",
+            "Apply algorithmisation techniques to real-world problems.",
+            "Learn to optimize algorithms for efficiency."
+          ],
+          "skills": [
+            "Abstract reasoning",
+            "Process mapping"
+          ],
+          "estimated_duration_hours": 12,
+          "difficulty_level": "intermediate",
+          "prerequisites": []
+        },
+        {
+          "session_number": 7,
+          "title": "Information Categorization and Classification",
+          "objectives": [
+            "Understand the principles of information categorization.",
+            "Learn about different classification techniques (e.g., rule-based, machine learning).",
+            "Explore methods for feature selection and dimensionality reduction.",
+            "Implement classification models using machine learning libraries.",
+            "Evaluate the performance of classification models."
+          ],
+          "skills": [
+            "Machine learning fundamentals",
+            "Data analysis",
+            "Programming (Python)",
+            "Statistical analysis"
+          ],
+          "estimated_duration_hours": 16,
+          "difficulty_level": "intermediate",
+          "prerequisites": []
+        },
+        {
+          "session_number": 8,
+          "title": "Working with Unstructured Data",
+          "objectives": [
+            "Understand the characteristics of unstructured data.",
+            "Learn about different data formats (e.g., text, images, audio, video).",
+            "Explore techniques for preprocessing and cleaning unstructured data.",
+            "Apply NLP and computer vision techniques to extract information from unstructured data.",
+            "Learn how to store and manage unstructured data."
+          ],
+          "skills": [
+            "Data analysis",
+            "Natural Language Processing (NLP)",
+            "Computer Vision (basic)",
+            "Data preprocessing"
+          ],
+          "estimated_duration_hours": 20,
+          "difficulty_level": "intermediate",
+          "prerequisites": []
+        },
+        {
+          "session_number": 9,
+          "title": "Principles of Artificial Intelligence",
+          "objectives": [
+            "Understand the core concepts and history of AI.",
+            "Learn about different AI paradigms (e.g., symbolic AI, machine learning, deep learning).",
+            "Explore the ethical and societal implications of AI.",
+            "Discuss the future of AI and its potential impact on various industries.",
+            "Understand the Turing test and its significance."
+          ],
+          "skills": [
+            "Abstract thinking"
+          ],
+          "estimated_duration_hours": 12,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 10,
+          "title": "Creatively Using Digital Technologies",
+          "objectives": [
+            "Explore various digital technologies and their potential applications.",
+            "Develop skills in brainstorming and ideation using digital tools.",
+            "Learn how to use digital technologies to solve problems in creative ways.",
+            "Experiment with different digital media formats (e.g., video, audio, animation).",
+            "Understand the principles of design thinking and apply them to digital projects."
+          ],
+          "skills": [
+            "Creativity",
+            "Tool proficiency (various digital tools)"
+          ],
+          "estimated_duration_hours": 16,
+          "difficulty_level": "intermediate",
+          "prerequisites": []
+        }
+      ],
+      "resources": {
+        "Regular expressions": [
+          {
+            "title": "regexr (10,254 stars)",
+            "url": "https://github.com/gskinner/regexr",
+            "type": "repository",
+            "provider": "GitHub",
+            "description": "RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions.",
+            "is_free": true,
+            "quality_score": 0.20508,
+            "stars": 10254
+          }
+        ],
+        "Logical reasoning": [
+          {
+            "title": "KAG (8,226 stars)",
+            "url": "https://github.com/OpenSPG/KAG",
+            "type": "repository",
+            "provider": "GitHub",
+            "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.",
+            "is_free": true,
+            "quality_score": 0.16452,
+            "stars": 8226
+          }
+        ],
+        "Programming (e.g., Python, Java, C++)": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Statistical analysis": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "Computer Vision (basic)": [],
+        "Abstract thinking": [],
+        "Natural Language Processing (NLP)": [],
+        "Machine learning fundamentals": [
+          {
+            "title": "Machine Learning by Andrew Ng",
+            "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "Stanford's legendary ML course",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Practical Deep Learning for Coders",
+            "url": "https://course.fast.ai/",
+            "type": "course",
+            "provider": "Fast.ai",
+            "description": "Hands-on deep learning course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Machine Learning Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=NWONeJKn6kc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete ML tutorial with Python (10 hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "handson-ml2 (29,610 stars)",
+            "url": "https://github.com/ageron/handson-ml2",
+            "type": "repository",
+            "provider": "GitHub",
+            "description": "A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2.",
+            "is_free": true,
+            "quality_score": 0.5922,
+            "stars": 29610
+          },
+          {
+            "title": "handson-ml3 (11,679 stars)",
+            "url": "https://github.com/ageron/handson-ml3",
+            "type": "repository",
+            "provider": "GitHub",
+            "description": "A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2.",
+            "is_free": true,
+            "quality_score": 0.23358,
+            "stars": 11679
+          }
+        ],
+        "Creativity": [],
+        "Programming (Python)": [
+          {
+            "resource_url": "https://docs.python.org/3/tutorial/",
+            "resource_title": "Official Python Tutorial",
+            "resource_type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "difficulty_level": "",
+            "quality_score": 1.0,
+            "created_at": "2025-11-16 10:28:06"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "resource_title": "Python Full Course - freeCodeCamp",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "difficulty_level": "",
+            "quality_score": 0.98,
+            "created_at": "2025-11-16 10:28:06"
+          },
+          {
+            "resource_url": "https://www.coursera.org/specializations/python",
+            "resource_title": "Python for Everybody Specialization",
+            "resource_type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "difficulty_level": "",
+            "quality_score": 0.95,
+            "created_at": "2025-11-16 10:28:06"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "resource_title": "Python Tutorial for Beginners",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "Complete Python tutorial (6+ hours)",
+            "difficulty_level": "",
+            "quality_score": 0.95,
+            "created_at": "2025-11-16 10:28:06"
+          },
+          {
+            "resource_url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "resource_title": "Complete Python Bootcamp",
+            "resource_type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "difficulty_level": "",
+            "quality_score": 0.9,
+            "created_at": "2025-11-16 10:28:06"
+          },
+          {
+            "resource_url": "https://www.w3schools.com/python/python_exercises.asp",
+            "resource_title": "Python Exercises - W3Schools",
+            "resource_type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "difficulty_level": "",
+            "quality_score": 0.85,
+            "created_at": "2025-11-16 10:28:06"
+          }
+        ],
+        "Calculus (basic)": [],
+        "Design principles": [
+          {
+            "title": "p5.js (23,156 stars)",
+            "url": "https://github.com/processing/p5.js",
+            "type": "repository",
+            "provider": "GitHub",
+            "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
+            "is_free": true,
+            "quality_score": 0.46312,
+            "stars": 23156
+          }
+        ],
+        "Text processing": [],
+        "Linear Algebra (basic)": [],
+        "Natural Language Processing (NLP) basics": [],
+        "Data preprocessing": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "Data analysis": [
+          {
+            "resource_url": "https://pandas.pydata.org/docs/",
+            "resource_title": "Pandas Documentation",
+            "resource_type": "documentation",
+            "provider": "Pandas",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 1.0,
+            "created_at": "2025-11-16 10:28:06"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "resource_title": "Pandas Tutorial",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.9,
+            "created_at": "2025-11-16 10:28:06"
+          }
+        ],
+        "Statistical analysis (basic)": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "Mathematical thinking": [],
+        "Tool proficiency (various digital tools)": [
+          {
+            "title": "Pro Git Book",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "documentation",
+            "provider": "Git",
+            "description": "Official Git documentation and book",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Git and GitHub Course",
+            "url": "https://roadmap.sh/git-github",
+            "type": "course",
+            "provider": "roadmap.sh",
+            "description": "Complete Git and GitHub guide",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Git and GitHub for Beginners",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Git tutorial (1 hour)",
+            "is_free": true,
+            "quality_score": 0.95
+          }
+        ],
+        "Abstract reasoning": [],
+        "Process mapping": []
+      },
+      "statistics": {
+        "total_hours": 148,
+        "total_skills": 28,
+        "duration_days": 49,
+        "total_sessions": 10,
+        "total_resources": 31
+      },
+      "performance": {
+        "skill_gap_time": 22.68195128440857,
+        "schedule_time": 9.790911674499512,
+        "resources_time": 0.8991799354553223,
+        "total_time": 33.385552644729614
+      }
+    },
+    {
+      "scenario": "DevOps Engineer",
+      "status": "success",
+      "goal": "I want to become a DevOps engineer with cloud expertise",
+      "current_skills": [
+        "Linux administration",
+        "Basic networking"
+      ],
+      "matched_occupation": {
+        "uri": "http://data.europa.eu/esco/occupation/cc867bee-ab5c-427f-9244-f7a204d9574b",
+        "label": "cloud DevOps engineer ",
+        "description": "Cloud DevOps engineers implement and manage continuous software delivery systems and methodologies. This includes managing and configuring code repositories, build services, automated testing, and deployment mechanisms. For cloud-based workloads, a Cloud DevOps Engineer define and deploy infrastructure as code, automating test and development environments. They can define and configure automated disaster recovery solutions that meet business objectives.",
+        "similarity_score": 1.0
+      },
+      "learning_path": [
+        {
+          "session_number": 2,
+          "title": "JavaScript Fundamentals",
+          "objectives": [
+            "Understand JavaScript syntax, data types, and operators.",
+            "Learn about control flow statements (if/else, loops).",
+            "Understand functions, scope, and closures.",
+            "Learn about the Document Object Model (DOM) and how to manipulate it.",
+            "Understand event handling in JavaScript."
+          ],
+          "skills": [
+            "HTML and CSS knowledge (recommended)"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 3,
+          "title": "Introduction to Computer Engineering",
+          "objectives": [
+            "Understand the basic components of a computer system (CPU, memory, I/O).",
+            "Learn about computer architecture and organization.",
+            "Understand digital logic and circuits.",
+            "Learn about operating systems and their role.",
+            "Understand basic networking concepts."
+          ],
+          "skills": [
+            "Basic math skills",
+            "Logical reasoning"
+          ],
+          "estimated_duration_hours": 6,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 6,
+          "title": "ICT System Programming Fundamentals",
+          "objectives": [
+            "Understand the role of system programming in ICT.",
+            "Learn about system calls and their purpose.",
+            "Understand process management and inter-process communication.",
+            "Learn about memory management and virtual memory.",
+            "Understand file systems and I/O operations."
+          ],
+          "skills": [
+            "Strong programming skills (C/C++)"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "intermediate",
+          "prerequisites": []
+        }
+      ],
+      "resources": {
+        "Basic math skills": [],
+        "Logical reasoning": [
+          {
+            "title": "KAG (8,226 stars)",
+            "url": "https://github.com/OpenSPG/KAG",
+            "type": "repository",
+            "provider": "GitHub",
+            "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.",
+            "is_free": true,
+            "quality_score": 0.16452,
+            "stars": 8226
+          }
+        ],
+        "Strong programming skills (C/C++)": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "HTML and CSS knowledge (recommended)": [
+          {
+            "title": "MDN HTML Guide",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "type": "documentation",
+            "provider": "MDN",
+            "description": "Complete HTML documentation and guides",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Responsive Web Design",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+            "type": "course",
+            "provider": "freeCodeCamp",
+            "description": "Complete HTML/CSS course with certification",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "HTML Full Course - Build a Website Tutorial",
+            "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete HTML tutorial (2 hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          }
+        ]
+      },
+      "statistics": {
+        "total_hours": 22,
+        "total_skills": 4,
+        "duration_days": 7,
+        "total_sessions": 3,
+        "total_resources": 10
+      },
+      "performance": {
+        "skill_gap_time": 25.757812976837158,
+        "schedule_time": 11.29957890510559,
+        "resources_time": 0.1694045066833496,
+        "total_time": 37.230796337127686
+      }
+    },
+    {
+      "scenario": "Mobile Developer",
+      "status": "success",
+      "goal": "I want to become a mobile app developer for iOS and Android",
+      "current_skills": [
+        "Programming basics",
+        "UI design"
+      ],
+      "matched_occupation": {
+        "uri": "http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c",
+        "label": "mobile application developer",
+        "description": "Mobile application developers implement applications software for mobile devices, based on the designs provided, using general or specific development tools for device operating systems.",
+        "similarity_score": 0.9219635128974915
+      },
+      "learning_path": [
+        {
+          "session_number": 1,
+          "title": "Introduction to Python Programming",
+          "objectives": [
+            "Understand the basic syntax of Python.",
+            "Learn about data types and variables.",
+            "Write simple Python programs using control flow (if/else, loops).",
+            "Understand functions and modules."
+          ],
+          "skills": [
+            "Basic Python syntax",
+            "Data type manipulation",
+            "Control flow",
+            "Function definition and usage",
+            "Module import and usage"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 2,
+          "title": "Working with Integrated Development Environments (IDEs)",
+          "objectives": [
+            "Understand the benefits of using an IDE.",
+            "Learn to install and configure a popular Python IDE (e.g., VS Code, PyCharm).",
+            "Use IDE features for code editing, debugging, and testing.",
+            "Understand version control integration within the IDE."
+          ],
+          "skills": [
+            "IDE installation and configuration",
+            "Code editing features (auto-completion, syntax highlighting)",
+            "Debugging techniques within the IDE",
+            "Testing within the IDE",
+            "Version control integration (Git)"
+          ],
+          "estimated_duration_hours": 4,
+          "difficulty_level": "beginner",
+          "prerequisites": [
+            "Introduction to Python Programming"
+          ]
+        },
+        {
+          "session_number": 3,
+          "title": "Mobile Operating Systems: An Overview",
+          "objectives": [
+            "Understand the architecture of mobile operating systems (Android, iOS).",
+            "Learn about the key components of a mobile OS (kernel, middleware, applications).",
+            "Understand the security considerations for mobile OS.",
+            "Explore the different development environments for mobile apps."
+          ],
+          "skills": [
+            "Mobile security awareness"
+          ],
+          "estimated_duration_hours": 4,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 4,
+          "title": "Introduction to Software Configuration Management (SCM) with Git",
+          "objectives": [
+            "Understand the principles of SCM.",
+            "Learn to use Git for version control.",
+            "Understand branching and merging strategies.",
+            "Collaborate on code using Git and platforms like GitHub/GitLab."
+          ],
+          "skills": [
+            "Git commands (clone, add, commit, push, pull)",
+            "Branching and merging",
+            "Conflict resolution"
+          ],
+          "estimated_duration_hours": 6,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 5,
+          "title": "Internet of Things (IoT) Fundamentals",
+          "objectives": [
+            "Understand the basic concepts of IoT.",
+            "Learn about IoT architectures and protocols.",
+            "Explore common IoT devices and sensors.",
+            "Understand the security challenges in IoT."
+          ],
+          "skills": [
+            "IoT security awareness"
+          ],
+          "estimated_duration_hours": 4,
+          "difficulty_level": "beginner",
+          "prerequisites": []
+        },
+        {
+          "session_number": 6,
+          "title": "Data Migration Strategies and Planning",
+          "objectives": [
+            "Understand the different data migration strategies (big bang, trickle).",
+            "Learn to assess data quality and identify migration challenges.",
+            "Develop a data migration plan.",
+            "Understand data validation and reconciliation techniques."
+          ],
+          "skills": [
+            "Data migration strategy selection",
+            "Data quality assessment",
+            "Data migration planning",
+            "Data validation and reconciliation"
+          ],
+          "estimated_duration_hours": 4,
+          "difficulty_level": "intermediate",
+          "prerequisites": []
+        },
+        {
+          "session_number": 7,
+          "title": "Using Application-Specific Interfaces (APIs)",
+          "objectives": [
+            "Understand the concept of APIs and their role in software development.",
+            "Learn to use RESTful APIs to interact with external services.",
+            "Understand API authentication and authorization.",
+            "Handle API responses and errors."
+          ],
+          "skills": [
+            "RESTful API interaction",
+            "API authentication and authorization",
+            "API response handling"
+          ],
+          "estimated_duration_hours": 6,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Introduction to Python Programming"
+          ]
+        },
+        {
+          "session_number": 8,
+          "title": "Developing Automated Data Migration Methods with Python",
+          "objectives": [
+            "Learn to use Python libraries for data extraction, transformation, and loading (ETL).",
+            "Develop scripts to automate data migration tasks.",
+            "Implement error handling and logging in migration scripts.",
+            "Optimize migration performance."
+          ],
+          "skills": [
+            "Python ETL libraries (e.g., pandas, SQLAlchemy)",
+            "Data transformation techniques",
+            "Automated scripting",
+            "Error handling and logging",
+            "Performance optimization"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Introduction to Python Programming",
+            "Data Migration Strategies and Planning"
+          ]
+        },
+        {
+          "session_number": 9,
+          "title": "Software Debugging Techniques",
+          "objectives": [
+            "Understand common software bugs and errors.",
+            "Learn to use debugging tools and techniques.",
+            "Develop strategies for identifying and fixing bugs.",
+            "Understand logging and error reporting."
+          ],
+          "skills": [
+            "Debugging tools usage (e.g., pdb in Python)",
+            "Debugging techniques (breakpoints, stepping)",
+            "Bug identification and fixing",
+            "Logging and error reporting"
+          ],
+          "estimated_duration_hours": 6,
+          "difficulty_level": "intermediate",
+          "prerequisites": [
+            "Introduction to Python Programming"
+          ]
+        },
+        {
+          "session_number": 10,
+          "title": "Software Design Patterns",
+          "objectives": [
+            "Understand the concept of design patterns.",
+            "Learn about common creational, structural, and behavioral design patterns.",
+            "Apply design patterns to solve common software design problems.",
+            "Understand the benefits of using design patterns."
+          ],
+          "skills": [
+            "Design pattern identification",
+            "Implementation of design patterns",
+            "Application of design patterns to solve problems"
+          ],
+          "estimated_duration_hours": 8,
+          "difficulty_level": "advanced",
+          "prerequisites": [
+            "Introduction to Python Programming",
+            "Software Debugging Techniques"
+          ]
+        }
+      ],
+      "resources": {
+        "Data migration strategy selection": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "Code editing features (auto-completion, syntax highlighting)": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Data migration planning": [
+          {
+            "resource_url": "https://www.coursera.org/specializations/jhu-data-science",
+            "resource_title": "Data Science Specialization",
+            "resource_type": "course",
+            "provider": "Coursera",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.96,
+            "created_at": "2025-11-16 10:29:23"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "resource_title": "Data Science Full Course",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.89,
+            "created_at": "2025-11-16 10:29:23"
+          }
+        ],
+        "Performance optimization": [],
+        "Error handling and logging": [],
+        "Bug identification and fixing": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Version control integration (Git)": [
+          {
+            "title": "Pro Git Book",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "documentation",
+            "provider": "Git",
+            "description": "Official Git documentation and book",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Git and GitHub Course",
+            "url": "https://roadmap.sh/git-github",
+            "type": "course",
+            "provider": "roadmap.sh",
+            "description": "Complete Git and GitHub guide",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Git and GitHub for Beginners",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Git tutorial (1 hour)",
+            "is_free": true,
+            "quality_score": 0.95
+          }
+        ],
+        "Data quality assessment": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "Python ETL libraries (e.g., pandas, SQLAlchemy)": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Control flow": [],
+        "Application of design patterns to solve problems": [],
+        "Debugging techniques (breakpoints, stepping)": [
+          {
+            "title": "Software Testing Tutorial",
+            "url": "https://www.youtube.com/watch?v=sB_5fqiysi4",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Testing within the IDE": [
+          {
+            "title": "Software Testing Tutorial",
+            "url": "https://www.youtube.com/watch?v=sB_5fqiysi4",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Mobile security awareness": [],
+        "Branching and merging": [],
+        "Logging and error reporting": [],
+        "API response handling": [
+          {
+            "title": "APIs for Beginners",
+            "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.91
+          },
+          {
+            "title": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "type": "practice",
+            "provider": "Postman",
+            "is_free": true,
+            "quality_score": 0.88
+          }
+        ],
+        "Git commands (clone, add, commit, push, pull)": [
+          {
+            "title": "Pro Git Book",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "documentation",
+            "provider": "Git",
+            "description": "Official Git documentation and book",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Git and GitHub Course",
+            "url": "https://roadmap.sh/git-github",
+            "type": "course",
+            "provider": "roadmap.sh",
+            "description": "Complete Git and GitHub guide",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Git and GitHub for Beginners",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Git tutorial (1 hour)",
+            "is_free": true,
+            "quality_score": 0.95
+          }
+        ],
+        "Data validation and reconciliation": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "Debugging tools usage (e.g., pdb in Python)": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Conflict resolution": [],
+        "RESTful API interaction": [
+          {
+            "title": "APIs for Beginners",
+            "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.91
+          },
+          {
+            "title": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "type": "practice",
+            "provider": "Postman",
+            "is_free": true,
+            "quality_score": 0.88
+          }
+        ],
+        "API authentication and authorization": [
+          {
+            "title": "APIs for Beginners",
+            "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.91
+          },
+          {
+            "title": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "type": "practice",
+            "provider": "Postman",
+            "is_free": true,
+            "quality_score": 0.88
+          }
+        ],
+        "Basic Python syntax": [
+          {
+            "resource_url": "https://docs.python.org/3/tutorial/",
+            "resource_title": "Official Python Tutorial",
+            "resource_type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "difficulty_level": "",
+            "quality_score": 1.0,
+            "created_at": "2025-11-16 10:29:24"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "resource_title": "Python Full Course - freeCodeCamp",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "difficulty_level": "",
+            "quality_score": 0.98,
+            "created_at": "2025-11-16 10:29:24"
+          },
+          {
+            "resource_url": "https://www.coursera.org/specializations/python",
+            "resource_title": "Python for Everybody Specialization",
+            "resource_type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "difficulty_level": "",
+            "quality_score": 0.95,
+            "created_at": "2025-11-16 10:29:24"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "resource_title": "Python Tutorial for Beginners",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "Complete Python tutorial (6+ hours)",
+            "difficulty_level": "",
+            "quality_score": 0.95,
+            "created_at": "2025-11-16 10:29:24"
+          },
+          {
+            "resource_url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "resource_title": "Complete Python Bootcamp",
+            "resource_type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "difficulty_level": "",
+            "quality_score": 0.9,
+            "created_at": "2025-11-16 10:29:24"
+          },
+          {
+            "resource_url": "https://www.w3schools.com/python/python_exercises.asp",
+            "resource_title": "Python Exercises - W3Schools",
+            "resource_type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "difficulty_level": "",
+            "quality_score": 0.85,
+            "created_at": "2025-11-16 10:29:24"
+          }
+        ],
+        "Automated scripting": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Design pattern identification": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "IoT security awareness": [],
+        "Function definition and usage": [],
+        "Debugging techniques within the IDE": [
+          {
+            "title": "Software Testing Tutorial",
+            "url": "https://www.youtube.com/watch?v=sB_5fqiysi4",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ],
+        "Implementation of design patterns": [],
+        "Data type manipulation": [
+          {
+            "resource_url": "https://www.typescriptlang.org/docs/",
+            "resource_title": "TypeScript Handbook",
+            "resource_type": "documentation",
+            "provider": "TypeScript",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 1.0,
+            "created_at": "2025-11-16 10:29:24"
+          },
+          {
+            "resource_url": "https://www.coursera.org/specializations/jhu-data-science",
+            "resource_title": "Data Science Specialization",
+            "resource_type": "course",
+            "provider": "Coursera",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.96,
+            "created_at": "2025-11-16 10:29:24"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=BwuLxPH8IDs",
+            "resource_title": "TypeScript Course for Beginners",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.92,
+            "created_at": "2025-11-16 10:29:24"
+          },
+          {
+            "resource_url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "resource_title": "Data Science Full Course",
+            "resource_type": "video",
+            "provider": "YouTube",
+            "description": "",
+            "difficulty_level": "",
+            "quality_score": 0.89,
+            "created_at": "2025-11-16 10:29:24"
+          }
+        ],
+        "Module import and usage": [],
+        "Data transformation techniques": [
+          {
+            "title": "Data Science Specialization",
+            "url": "https://www.coursera.org/specializations/jhu-data-science",
+            "type": "course",
+            "provider": "Coursera",
+            "is_free": true,
+            "quality_score": 0.96
+          },
+          {
+            "title": "Data Science Full Course",
+            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            "type": "video",
+            "provider": "YouTube",
+            "is_free": true,
+            "quality_score": 0.89
+          }
+        ],
+        "IDE installation and configuration": [
+          {
+            "title": "Official Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "documentation",
+            "provider": "Python.org",
+            "description": "Official Python documentation and tutorial",
+            "is_free": true,
+            "quality_score": 1.0
+          },
+          {
+            "title": "Python Full Course - freeCodeCamp",
+            "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "freeCodeCamp.org",
+            "description": "Complete Python course for beginners (4.5 hours)",
+            "is_free": true,
+            "quality_score": 0.98
+          },
+          {
+            "title": "Python for Everybody Specialization",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "course",
+            "provider": "Coursera",
+            "description": "University of Michigan's comprehensive Python course",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Python Tutorial for Beginners",
+            "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+            "type": "video",
+            "provider": "YouTube",
+            "channel": "Programming with Mosh",
+            "description": "Complete Python tutorial (6+ hours)",
+            "is_free": true,
+            "quality_score": 0.95
+          },
+          {
+            "title": "Complete Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "type": "course",
+            "provider": "Udemy",
+            "description": "From zero to hero in Python",
+            "is_free": false,
+            "quality_score": 0.9
+          },
+          {
+            "title": "Python Exercises - W3Schools",
+            "url": "https://www.w3schools.com/python/python_exercises.asp",
+            "type": "practice",
+            "provider": "W3Schools",
+            "description": "Interactive Python exercises",
+            "is_free": true,
+            "quality_score": 0.85
+          }
+        ]
+      },
+      "statistics": {
+        "total_hours": 58,
+        "total_skills": 34,
+        "duration_days": 19,
+        "total_sessions": 10,
+        "total_resources": 77
+      },
+      "performance": {
+        "skill_gap_time": 26.891305446624756,
+        "schedule_time": 9.178279638290405,
+        "resources_time": 0.7133731842041016,
+        "total_time": 36.78683352470398
+      }
+    }
+  ],
+  "performance_summary": {
+    "avg_total_time": 32.261985206604,
+    "avg_resources": 38.4,
+    "avg_hours": 70.2
+  }
+}

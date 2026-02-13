@@ -1,0 +1,142 @@
+[2026-01-16 12:31:13] [INFO] ====================================================================================================
+[2026-01-16 12:31:13] [INFO] PHASE 1: System Test Initialization
+[2026-01-16 12:31:13] [INFO] ====================================================================================================
+[2026-01-16 12:31:13] [INFO] ℹ️  INFO: Test Goal: I want to become a Machine Learning Engineer
+[2026-01-16 12:31:13] [INFO] ℹ️  INFO: Test User: full_test_user
+[2026-01-16 12:31:13] [INFO] ℹ️  INFO: Base URL: http://localhost:5000
+[2026-01-16 12:31:13] [INFO] ====================================================================================================
+[2026-01-16 12:31:13] [INFO] PHASE 2: Learning Path Generation
+[2026-01-16 12:31:13] [INFO] ====================================================================================================
+[2026-01-16 12:31:13] [INFO] ℹ️  INFO: Sending request to generate learning path...
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: Response received in 7.15 seconds
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-16 12:31:20] [SUCCESS] ✅ SUCCESS: Learning path generated successfully
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: Matched Occupation: computer vision engineer
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: Occupation URI: http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: Similarity Score: 0.8793
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: Total Sessions: 8
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Session 1: Introduction to Machine Learning with Python - 4 skills
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Session 2: Data Processing and Preparation for Machine Learning - 3 skills
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Session 3: Statistical Foundations for Machine Learning - 3 skills
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Session 4: Deep Dive into TensorFlow for Machine Learning - 4 skills
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Session 5: Leveraging PyTorch for Machine Learning Projects - 4 skills
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Session 6: Advanced Data Processing Application Development - 4 skills
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Session 7: Statistical Modeling and Inference in Python - 4 skills
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Session 8: Building and Deploying Machine Learning Models with TensorFlow and PyTorch - 5 skills
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: Total Skills Generated: 31
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: 
+First 10 Skills:
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   1. machine learning (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   2. Python (computer programming) (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   3. statistics (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   4. programming (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   5. develop data processing applications (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   6. Python (computer programming) (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   7. programming (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   8. statistics (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   9. machine learning (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   10. Python (computer programming) (N/A) - Vote Score: 0
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: 
+Skill Gap Summary:
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Total Skills Needed: 25
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Skills to Learn: 23
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO:   Skills Analyzed: 23
+[2026-01-16 12:31:20] [INFO] ====================================================================================================
+[2026-01-16 12:31:20] [INFO] PHASE 3: Community Voting System
+[2026-01-16 12:31:20] [INFO] ====================================================================================================
+[2026-01-16 12:31:20] [INFO] ℹ️  INFO: Voting on 5 skills...
+[2026-01-16 12:31:22] [SUCCESS] ✅ SUCCESS: Upvoted: machine learning
+[2026-01-16 12:31:24] [SUCCESS] ✅ SUCCESS: Upvoted: Python (computer programming)
+[2026-01-16 12:31:26] [SUCCESS] ✅ SUCCESS: Upvoted: statistics
+[2026-01-16 12:31:29] [SUCCESS] ✅ SUCCESS: Upvoted: programming
+[2026-01-16 12:31:31] [SUCCESS] ✅ SUCCESS: Upvoted: develop data processing applications
+[2026-01-16 12:31:31] [INFO] ℹ️  INFO: 
+Voting Summary: 5 successful, 0 failed
+[2026-01-16 12:31:31] [INFO] ====================================================================================================
+[2026-01-16 12:31:31] [INFO] PHASE 4: Community Skill Suggestions
+[2026-01-16 12:31:31] [INFO] ====================================================================================================
+[2026-01-16 12:31:31] [INFO] ℹ️  INFO: Submitting 3 skill suggestions...
+[2026-01-16 12:31:33] [SUCCESS] ✅ SUCCESS: Suggested: TensorFlow
+[2026-01-16 12:31:35] [SUCCESS] ✅ SUCCESS: Suggested: PyTorch
+[2026-01-16 12:31:37] [SUCCESS] ✅ SUCCESS: Suggested: Docker
+[2026-01-16 12:31:37] [INFO] ℹ️  INFO: 
+Suggestion Summary: 3 successful, 0 failed
+[2026-01-16 12:31:37] [INFO] ====================================================================================================
+[2026-01-16 12:31:37] [INFO] PHASE 5: Quiz Generation
+[2026-01-16 12:31:37] [INFO] ====================================================================================================
+[2026-01-16 12:31:37] [INFO] ℹ️  INFO: Generating quiz from learning path...
+[2026-01-16 12:31:37] [INFO] ℹ️  INFO: Learning path has 8 sessions
+[2026-01-16 12:31:37] [INFO] ℹ️  INFO:   1. Introduction to Machine Learning with Python
+[2026-01-16 12:31:37] [INFO] ℹ️  INFO:   2. Data Processing and Preparation for Machine Learning
+[2026-01-16 12:31:37] [INFO] ℹ️  INFO:   3. Statistical Foundations for Machine Learning
+[2026-01-16 12:31:37] [INFO] ℹ️  INFO:   ... and 5 more sessions
+[2026-01-16 12:31:48] [INFO] ℹ️  INFO: Quiz generation completed in 11.00 seconds
+[2026-01-16 12:31:48] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-16 12:31:48] [SUCCESS] ✅ SUCCESS: Quiz generated with 3 questions
+[2026-01-16 12:31:48] [ERROR] ❌ ERROR: Exception during quiz generation: 'str' object has no attribute 'get'
+[2026-01-16 12:31:48] [INFO] 
+--- Traceback ---
+[2026-01-16 12:31:48] [INFO] Traceback (most recent call last):
+  File "C:\Users\V3gito\Desktop\Major Project\Project\Code\Hybrid-GenMentor\full_system_test.py", line 385, in test_quiz_generation
+    diff = q.get('difficulty', 'unknown')
+           ^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-01-16 12:31:48] [INFO] --- End Traceback ---
+
+[2026-01-16 12:31:48] [INFO] ====================================================================================================
+[2026-01-16 12:31:48] [INFO] PHASE 6: Quiz Answer Submission
+[2026-01-16 12:31:48] [INFO] ====================================================================================================
+[2026-01-16 12:31:48] [ERROR] ❌ ERROR: No questions in quiz data
+[2026-01-16 12:31:48] [INFO] ====================================================================================================
+[2026-01-16 12:31:48] [INFO] PHASE 7: Community Feedback Statistics
+[2026-01-16 12:31:48] [INFO] ====================================================================================================
+[2026-01-16 12:31:50] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-16 12:31:50] [SUCCESS] ✅ SUCCESS: Retrieved feedback statistics
+[2026-01-16 12:31:50] [INFO] ℹ️  INFO: 
+Feedback Metrics:
+[2026-01-16 12:31:50] [INFO] ℹ️  INFO:   Total Votes: 289
+[2026-01-16 12:31:50] [INFO] ℹ️  INFO:   Total Suggestions: 44
+[2026-01-16 12:31:50] [INFO] ℹ️  INFO:   Pending Suggestions: 28
+[2026-01-16 12:31:50] [INFO] ℹ️  INFO:   Approved Suggestions: 5
+[2026-01-16 12:31:50] [INFO] ====================================================================================================
+[2026-01-16 12:31:50] [INFO] PHASE 8: Path Regeneration (with Community Feedback)
+[2026-01-16 12:31:50] [INFO] ====================================================================================================
+[2026-01-16 12:31:50] [INFO] ℹ️  INFO: Waiting 2 seconds for feedback to propagate...
+[2026-01-16 12:31:52] [INFO] ℹ️  INFO: Regenerating learning path...
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: Response received in 5.25 seconds
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: Status Code: 200
+[2026-01-16 12:31:57] [SUCCESS] ✅ SUCCESS: Path regenerated successfully
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: New Sessions: 6
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: New Total Skills: 25
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: 
+Path Comparison:
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO:   Original Skills: 31
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO:   Regenerated Skills: 25
+[2026-01-16 12:31:57] [SUCCESS] ✅ SUCCESS: Found 4 community-influenced skills:
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO:   ✓ TensorFlow
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO:   ✓ PyTorch
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO:   ✓ TensorFlow
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO:   ✓ PyTorch
+[2026-01-16 12:31:57] [INFO] ====================================================================================================
+[2026-01-16 12:31:57] [INFO] PHASE 9: Final Test Summary
+[2026-01-16 12:31:57] [INFO] ====================================================================================================
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: Total Test Duration: 44.14 seconds (0.7 minutes)
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: SYSTEM CAPABILITIES TESTED:
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ✅ Learning Path Generation.......................... 31 skills generated
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ✅ Community Voting System........................... Votes submitted
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ✅ Skill Suggestions................................. Suggestions submitted
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ✅ Quiz Generation................................... 3 questions
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ⚠️ Quiz Submission................................... Skipped
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ✅ Feedback Statistics............................... Retrieved
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ✅ Path Regeneration................................. 25 skills
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: 
+====================================================================================================
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: OVERALL SUCCESS RATE: 85.7% (6/7 features working)
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ====================================================================================================
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: ⚠️  GOOD! Most features working properly
+[2026-01-16 12:31:57] [INFO] ℹ️  INFO: 
+Detailed log saved to: full_system_test_log_20260116_123113.txt

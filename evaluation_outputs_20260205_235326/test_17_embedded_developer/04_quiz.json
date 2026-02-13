@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:24:23.805592",
+      "learning_path_id": "test_17",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Real-time refers to predictable timing behavior—meeting deadlines—rather than maximum speed or requiring an RTOS.",
+        "id": 1,
+        "options": {
+          "A": "The system must run as fast as possible",
+          "B": "The system must meet timing deadlines deterministically",
+          "C": "The system must be connected to the internet",
+          "D": "The system must use a real-time operating system"
+        },
+        "question": "In an embedded system, what is the most common meaning of \"real-time\"?",
+        "topic": "embedded systems"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "An AND gate produces a HIGH output only if every input is HIGH.",
+        "id": 2,
+        "options": {
+          "A": "OR",
+          "B": "XOR",
+          "C": "AND",
+          "D": "NAND"
+        },
+        "question": "Which digital logic gate outputs HIGH only when all inputs are HIGH?",
+        "topic": "digital systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git commit records the staged snapshot into the repository history.",
+        "id": 3,
+        "options": {
+          "A": "git add",
+          "B": "git commit",
+          "C": "git push",
+          "D": "git checkout"
+        },
+        "question": "In Git, which command creates a new commit from staged changes?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The Nested Vectored Interrupt Controller (NVIC) enables, prioritizes, and dispatches interrupts/exceptions on Cortex-M.",
+        "id": 4,
+        "options": {
+          "A": "Manage cache coherency between cores",
+          "B": "Schedule RTOS tasks",
+          "C": "Control and prioritize interrupts",
+          "D": "Configure the system clock tree"
+        },
+        "question": "On Arm Cortex-M microcontrollers, what is the primary purpose of the NVIC?",
+        "topic": "Microcontroller Architecture (Arm Cortex-M)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "I2C uses SDA/SCL with addressing and open-drain lines, allowing multiple devices on the same bus.",
+        "id": 5,
+        "options": {
+          "A": "UART",
+          "B": "SPI",
+          "C": "I2C",
+          "D": "CAN"
+        },
+        "question": "You need to connect multiple sensors on the same two-wire bus with device addressing and open-drain signaling. Which interface is most appropriate?",
+        "topic": "Device Drivers (Spi/I2C/Uart/Can)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Static allocation and fixed-size pools reduce fragmentation risk and improve predictability; frequent heap use can degrade long-running systems.",
+        "id": 6,
+        "options": {
+          "A": "Use dynamic allocation freely; fragmentation is not an issue on MCUs",
+          "B": "Prefer static allocation and fixed-size pools; minimize new/delete",
+          "C": "Call malloc/free from interrupts to keep latency low",
+          "D": "Rely on exceptions to recover from allocation failures"
+        },
+        "question": "In embedded C++, which approach is generally best to avoid heap fragmentation on long-running microcontroller firmware?",
+        "topic": "C++ (Embedded)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "An integrated debugger provides breakpoints, single-stepping, and variable/memory inspection on the target.",
+        "id": 7,
+        "options": {
+          "A": "Link-time optimization (LTO)",
+          "B": "Integrated debugger (e.g., GDB/J-Link/ST-Link integration)",
+          "C": "Code formatter",
+          "D": "Package manager"
+        },
+        "question": "In an IDE, which feature most directly allows stepping through code, setting breakpoints, and inspecting variables on a target MCU?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Half-transfer and transfer-complete interrupts are designed for double-buffer/circular DMA workflows, enabling timely processing with low CPU overhead.",
+        "id": 8,
+        "options": {
+          "A": "Poll the DMA transfer counter in a tight loop",
+          "B": "Use DMA half-transfer and transfer-complete interrupts to signal processing of each half",
+          "C": "Disable interrupts during the entire DMA transfer to avoid race conditions",
+          "D": "Trigger processing only from the SysTick timer at a fixed rate"
+        },
+        "question": "A Cortex-M system uses DMA to fill a circular buffer from an ADC. You must process each half-buffer as soon as it is ready with minimal CPU overhead. Which interrupt/event strategy is best?",
+        "topic": "Interrupts, Timers & Dma"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Read-only data should be in .rodata and mapped to Flash; declaring it const and mapping sections correctly prevents it from consuming RAM.",
+        "id": 9,
+        "options": {
+          "A": "Move the table into the .bss section",
+          "B": "Place the table in a read-only section (e.g., .rodata) mapped to Flash and ensure it is declared const",
+          "C": "Increase the stack size and leave the table in .data",
+          "D": "Enable compiler optimizations so the table is removed automatically"
+        },
+        "question": "Your firmware crashes because a large lookup table is placed in RAM, but it should reside in Flash. Which linker-script change most directly fixes this?",
+        "topic": "Memory Management & Linker Scripts"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Yocto/OpenEmbedded uses BitBake recipes to automate and reproduce building toolchains, packages, and complete Linux images.",
+        "id": 10,
+        "options": {
+          "A": "Use an RTOS like FreeRTOS and manually copy binaries to an SD card",
+          "B": "Use Yocto/OpenEmbedded with BitBake recipes to generate the image",
+          "C": "Write a Prolog program to infer device tree nodes automatically",
+          "D": "Use only a bare-metal IDE project and a linker script"
+        },
+        "question": "You are building an embedded Linux image and want reproducible builds and automatic generation of a root filesystem, toolchain, and packages from recipes. Which approach best matches this goal?",
+        "topic": "Embedded Linux"
+      }
+    ],
+    "topics_covered": [
+      "embedded systems",
+      "digital systems",
+      "programming",
+      "integrated development environment software",
+      "tools for software configuration management",
+      "Microcontroller Architecture (Arm Cortex-M)",
+      "Hardware Interfacing & Digital Electronics",
+      "C++ (Embedded)",
+      "Interrupts, Timers & Dma",
+      "Memory Management & Linker Scripts",
+      "Device Drivers (Spi/I2C/Uart/Can)",
+      "Rtos (Freertos/Zephyr)",
+      "Embedded Linux",
+      "use automatic programming",
+      "use logic programming"
+    ]
+  },
+  "success": true
+}

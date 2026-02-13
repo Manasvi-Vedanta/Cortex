@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-04T17:52:40.086937",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Android SDK provides the APIs, build tools, emulator, and debugging utilities needed to develop Android applications.",
+        "is_correct": true,
+        "question": "In Android development, what is the primary role of the Android SDK?",
+        "question_id": 1,
+        "topic": "Android Sdk",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Kotlin is officially supported by Google for Android development and is widely used alongside (and often instead of) Java.",
+        "is_correct": true,
+        "question": "Which language is officially supported by Google as a first-class language for Android app development?",
+        "question_id": 2,
+        "topic": "Kotlin",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Gradle is the build system used by Android projects to compile code, manage dependencies, and configure build types/flavors.",
+        "is_correct": true,
+        "question": "What is Gradle primarily used for in Android projects?",
+        "question_id": 3,
+        "topic": "Gradle",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "An API (Application Programming Interface) defines how different software components interact, often via functions or network endpoints.",
+        "is_correct": true,
+        "question": "In programming, what does an \"API\" most commonly refer to?",
+        "question_id": 4,
+        "topic": "programming",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "`remember` stores a value in the composition so it is not recreated on every recomposition (within the same composition lifecycle).",
+        "is_correct": true,
+        "question": "In Jetpack Compose, which concept is used to hold UI state that should survive recomposition within the same composition?",
+        "question_id": 5,
+        "topic": "Jetpack Compose",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Retrofit relies on converter libraries (like Moshi or Gson) to deserialize JSON into strongly-typed model classes.",
+        "is_correct": true,
+        "question": "When using Retrofit in Android, which approach is commonly used to parse JSON responses into Kotlin/Java objects?",
+        "question_id": 6,
+        "topic": "Retrofit",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "A DAO declares the database operations (SQL queries and CRUD methods) that Room implements to access the underlying SQLite database.",
+        "is_correct": false,
+        "question": "In Room Database, what is the main purpose of a DAO (Data Access Object)?",
+        "question_id": 7,
+        "topic": "Room Database",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Retrofit handles network calls, Coroutines provide non-blocking async execution, and Room provides local persistence; a repository pattern commonly coordinates these layers.",
+        "is_correct": false,
+        "question": "You need to fetch data from a REST API and store it locally. To avoid blocking the UI thread, which combination is most appropriate in a modern Android app?",
+        "question_id": 8,
+        "topic": "Coroutines",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Side-effects like network calls should be launched from LaunchedEffect (or a ViewModel) so they run predictably and not on every recomposition.",
+        "is_correct": false,
+        "question": "A Compose screen triggers a network request directly inside a composable body, causing repeated calls on recomposition. What is the best fix?",
+        "question_id": 9,
+        "topic": "Jetpack Compose",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Logic programming (e.g., Prolog-style) focuses on declaring facts/rules and letting an inference engine derive results from queries.",
+        "is_correct": false,
+        "question": "Which statement best describes logic programming in the context of \"use logic programming\"?",
+        "question_id": 10,
+        "topic": "use logic programming",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Jetpack Compose",
+        "total": 2
+      }
+    ],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Room Database, Coroutines, use logic programming",
+      "✅ Your strongest areas: Android Sdk, Kotlin",
+      "📖 Topics needing more practice: Jetpack Compose"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Android Sdk",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kotlin",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Gradle",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "programming",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Retrofit",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Room Database",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Coroutines",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use logic programming",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

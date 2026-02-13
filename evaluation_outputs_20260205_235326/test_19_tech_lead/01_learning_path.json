@@ -1,0 +1,269 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core system design concepts and architectural tradeoffs",
+        "Identify common architectural patterns and when to apply them",
+        "Document an architecture using clear technical communication"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "System Design",
+        "Software Architecture",
+        "apply technical communication skills"
+      ],
+      "title": "Foundations of System Design and Software Architecture"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design resource models and endpoints for REST APIs",
+        "Define GraphQL schemas and query patterns",
+        "Communicate API contracts and versioning decisions"
+      ],
+      "prerequisites": [
+        "System Design",
+        "Software Architecture"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Api Design (Rest/Graphql)",
+        "apply technical communication skills"
+      ],
+      "title": "API Design with REST and GraphQL"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model entities and relationships for SQL databases",
+        "Choose appropriate NoSQL data models for access patterns",
+        "Evaluate consistency, indexing, and query tradeoffs"
+      ],
+      "prerequisites": [
+        "System Design"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Database Design (Sql/Nosql)",
+        "System Design"
+      ],
+      "title": "Database Design: SQL and NoSQL Modeling"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Differentiate unit, integration, and E2E tests and their roles",
+        "Design a balanced test pyramid for a service",
+        "Define test coverage goals aligned to risk"
+      ],
+      "prerequisites": [
+        "Api Design (Rest/Graphql)"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Automated Testing (Unit/Integration/E2E)",
+        "apply technical communication skills"
+      ],
+      "title": "Automated Testing Strategy: Unit, Integration, and E2E"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design a CI/CD pipeline that builds, tests, and deploys",
+        "Integrate automated testing stages into CI/CD",
+        "Define rollout and rollback approaches"
+      ],
+      "prerequisites": [
+        "Automated Testing (Unit/Integration/E2E)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Ci/Cd Pipelines",
+        "Automated Testing (Unit/Integration/E2E)",
+        "apply technical communication skills"
+      ],
+      "title": "CI/CD Pipelines for Reliable Delivery"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply structured code review techniques and checklists",
+        "Identify correctness, readability, and design issues in changes",
+        "Provide actionable feedback using clear technical communication"
+      ],
+      "prerequisites": [
+        "Software Architecture"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Code Review",
+        "apply technical communication skills"
+      ],
+      "title": "Code Review for Quality, Maintainability, and Risk Reduction"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use systematic approaches to isolate and reproduce issues",
+        "Form hypotheses and validate them with evidence",
+        "Document incident findings and next steps"
+      ],
+      "prerequisites": [
+        "Code Review",
+        "Automated Testing (Unit/Integration/E2E)"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Debugging And Troubleshooting",
+        "apply technical communication skills"
+      ],
+      "title": "Debugging and Troubleshooting in Production-like Environments"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design logging, metrics, and tracing for diagnosability",
+        "Define service-level signals and alerting principles",
+        "Use observability data to support troubleshooting"
+      ],
+      "prerequisites": [
+        "Debugging And Troubleshooting"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Observability (Logging/Metrics/Tracing)",
+        "Debugging And Troubleshooting",
+        "System Design"
+      ],
+      "title": "Observability: Logging, Metrics, and Tracing"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify common application security risks and mitigations",
+        "Incorporate security requirements into system and API design",
+        "Define security checks that fit into CI/CD"
+      ],
+      "prerequisites": [
+        "Api Design (Rest/Graphql)",
+        "Ci/Cd Pipelines"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Security Engineering (Appsec)",
+        "System Design",
+        "Api Design (Rest/Graphql)",
+        "Ci/Cd Pipelines"
+      ],
+      "title": "Security Engineering (AppSec) in Design and Delivery"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Map system components to cloud platform building blocks",
+        "Design deployment and operational considerations in the cloud",
+        "Align observability and security needs with cloud deployments"
+      ],
+      "prerequisites": [
+        "System Design",
+        "Observability (Logging/Metrics/Tracing)",
+        "Security Engineering (Appsec)"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Cloud Platforms (Aws/Azure/Gcp)",
+        "System Design",
+        "Observability (Logging/Metrics/Tracing)",
+        "Security Engineering (Appsec)"
+      ],
+      "title": "Cloud Platforms (AWS/Azure/GCP): Deploying and Operating Services"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core distributed systems challenges and failure modes",
+        "Choose consistency and communication approaches for services",
+        "Design for resilience using distributed systems principles"
+      ],
+      "prerequisites": [
+        "System Design",
+        "Database Design (Sql/Nosql)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Distributed Systems",
+        "System Design",
+        "Software Architecture"
+      ],
+      "title": "Distributed Systems: Consistency, Reliability, and Coordination"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify bottlenecks and performance risks in a system design",
+        "Design scaling strategies for compute, storage, and APIs",
+        "Use observability signals to guide performance improvements"
+      ],
+      "prerequisites": [
+        "Distributed Systems",
+        "Observability (Logging/Metrics/Tracing)",
+        "Database Design (Sql/Nosql)"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Scalability And Performance Engineering",
+        "System Design",
+        "Observability (Logging/Metrics/Tracing)",
+        "Database Design (Sql/Nosql)"
+      ],
+      "title": "Scalability and Performance Engineering"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Capture technical requirements and decisions using customer relationship management software",
+        "Communicate architecture, timelines, and risks clearly to stakeholders",
+        "Track follow-ups and outcomes to support delivery and operations"
+      ],
+      "prerequisites": [
+        "System Design"
+      ],
+      "session_number": 13,
+      "skills": [
+        "use customer relationship management software",
+        "apply technical communication skills",
+        "System Design"
+      ],
+      "title": "Customer-Facing Technical Execution with CRM Workflows"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Technical sales representatives act for a business to sell its merchandise while providing technical insight for customers.",
+    "label": "technical sales representative",
+    "similarity_score": 0.8233104944229126,
+    "uri": "http://data.europa.eu/esco/occupation/c956be07-53a3-4b01-b8f8-f0c5a428eaa8"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 38,
+    "skills_in_path": 13,
+    "skills_to_learn": 38,
+    "total_skills_needed": 38
+  },
+  "user_id": "eval_user_19"
+}

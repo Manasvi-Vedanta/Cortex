@@ -1,0 +1,49 @@
+{
+  "estimated_completion_date": "2025-11-12T08:57:03.580819",
+  "start_date": "2025-10-31T11:57:03.580819",
+  "tasks": [
+    {
+      "dependencies": [],
+      "difficulty": "beginner",
+      "duration_days": 3.1,
+      "duration_hours": 25,
+      "end": "2025-11-03T14:57:03.580819",
+      "id": "session_1",
+      "name": "Python Fundamentals",
+      "progress": 0,
+      "skills_count": 4,
+      "start": "2025-10-31T11:57:03.580819"
+    },
+    {
+      "dependencies": [
+        "Python Fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_days": 3.8,
+      "duration_hours": 30,
+      "end": "2025-11-07T08:57:03.580819",
+      "id": "session_2",
+      "name": "Object-Oriented Programming",
+      "progress": 0,
+      "skills_count": 4,
+      "start": "2025-11-03T14:57:03.580819"
+    },
+    {
+      "dependencies": [
+        "Object-Oriented Programming"
+      ],
+      "difficulty": "advanced",
+      "duration_days": 5.0,
+      "duration_hours": 40,
+      "end": "2025-11-12T08:57:03.580819",
+      "id": "session_3",
+      "name": "Data Science with Python",
+      "progress": 0,
+      "skills_count": 4,
+      "start": "2025-11-07T08:57:03.580819"
+    }
+  ],
+  "title": "Learning Path Timeline",
+  "total_duration_days": 11,
+  "total_duration_hours": 95
+}

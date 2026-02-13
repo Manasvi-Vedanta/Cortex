@@ -1,0 +1,285 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Navigate and manage files and directories in Linux/Unix",
+        "Use core command-line tools to inspect and manipulate data files",
+        "Understand permissions and environment basics needed for data workflows"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Linux/Unix"
+      ],
+      "title": "Linux/Unix Foundations for Data Work"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core concepts of database management systems",
+        "Perform basic database operations and understand transactional behavior",
+        "Compare common database system characteristics and use cases"
+      ],
+      "prerequisites": [
+        "Linux/Unix"
+      ],
+      "session_number": 2,
+      "skills": [
+        "database management systems"
+      ],
+      "title": "Database Systems Fundamentals and Operations"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create and manage schemas and tables in Postgresql/Mysql",
+        "Apply indexing and constraints to improve data integrity and performance",
+        "Run administrative and maintenance tasks relevant to analytics workloads"
+      ],
+      "prerequisites": [
+        "database management systems"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Database Systems (Postgresql/Mysql)"
+      ],
+      "title": "Relational Databases with Postgresql/Mysql"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write queries to filter, join, aggregate, and transform data",
+        "Use SQL to validate data quality and reconcile datasets",
+        "Design queries that are efficient and maintainable"
+      ],
+      "prerequisites": [
+        "Database Systems (Postgresql/Mysql)"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Sql"
+      ],
+      "title": "SQL for Analytics and Data Engineering"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Python to read, transform, and write datasets",
+        "Implement reusable functions for data preparation tasks",
+        "Perform basic validation checks and structured outputs for downstream systems"
+      ],
+      "prerequisites": [
+        "Linux/Unix"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Python"
+      ],
+      "title": "Python for Data Processing"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Combine SQL and Python to explore and summarize datasets",
+        "Create repeatable analysis steps that can be operationalized",
+        "Identify data issues and propose corrective transformations"
+      ],
+      "prerequisites": [
+        "Sql",
+        "Python"
+      ],
+      "session_number": 6,
+      "skills": [
+        "data analysis",
+        "Sql",
+        "Python"
+      ],
+      "title": "Data Analysis with SQL and Python"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design conceptual and logical models aligned to business questions",
+        "Translate requirements into normalized and analytics-friendly structures",
+        "Define keys, relationships, and grain to support reliable reporting"
+      ],
+      "prerequisites": [
+        "Sql",
+        "database management systems"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Data Modeling"
+      ],
+      "title": "Data Modeling for Analytics"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core data warehouse concepts and common architectural patterns",
+        "Define dimensions, facts, and grain for analytical use cases",
+        "Plan data organization to support performance and consistency"
+      ],
+      "prerequisites": [
+        "Data Modeling",
+        "Sql"
+      ],
+      "session_number": 8,
+      "skills": [
+        "data warehouse"
+      ],
+      "title": "Data Warehouse Concepts and Structures"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement dimensional structures and loading approaches",
+        "Apply strategies for incremental loads and historical tracking",
+        "Validate warehouse data correctness and consistency across layers"
+      ],
+      "prerequisites": [
+        "data warehouse",
+        "Sql"
+      ],
+      "session_number": 9,
+      "skills": [
+        "implement data warehousing techniques"
+      ],
+      "title": "Implement Data Warehousing Techniques"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design end-to-end ETL/ELT flows from source to target",
+        "Implement extraction, transformation, and loading patterns",
+        "Add checks for data quality, idempotency, and recoverability"
+      ],
+      "prerequisites": [
+        "Sql",
+        "Python",
+        "Database Systems (Postgresql/Mysql)"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Etl/Elt Pipeline Development"
+      ],
+      "title": "ETL/ELT Pipeline Development"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model pipelines as scheduled workflows and manage dependencies",
+        "Implement retries, backfills, and parameterized runs",
+        "Monitor and troubleshoot workflow executions"
+      ],
+      "prerequisites": [
+        "Etl/Elt Pipeline Development",
+        "Linux/Unix"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Workflow Orchestration (Airflow)"
+      ],
+      "title": "Workflow Orchestration with Airflow"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Map data pipeline components to common cloud platform services",
+        "Plan secure and reliable data movement and storage in the cloud",
+        "Estimate operational considerations for running pipelines in cloud environments"
+      ],
+      "prerequisites": [
+        "Etl/Elt Pipeline Development",
+        "data warehouse"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Cloud Platforms (Aws/Azure/Gcp)"
+      ],
+      "title": "Cloud Platforms for Data Engineering (Aws/Azure/Gcp)"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core distributed systems concepts relevant to data platforms",
+        "Understand tradeoffs in reliability, consistency, and scalability",
+        "Identify failure modes and design considerations for distributed data workloads"
+      ],
+      "prerequisites": [
+        "Linux/Unix",
+        "database management systems"
+      ],
+      "session_number": 13,
+      "skills": [
+        "Distributed Systems Fundamentals"
+      ],
+      "title": "Distributed Systems Fundamentals for Data Processing"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build scalable batch transformations using Apache Spark",
+        "Optimize Spark jobs through partitioning and execution planning awareness",
+        "Integrate Spark outputs with downstream analytical storage"
+      ],
+      "prerequisites": [
+        "Distributed Systems Fundamentals",
+        "Python",
+        "Sql"
+      ],
+      "session_number": 14,
+      "skills": [
+        "Apache Spark"
+      ],
+      "title": "Apache Spark for Batch Data Processing"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain Kafka concepts and how streaming data flows through systems",
+        "Design streaming ingestion patterns and topic strategies",
+        "Validate and reason about streaming data correctness and delivery behavior"
+      ],
+      "prerequisites": [
+        "Distributed Systems Fundamentals",
+        "Linux/Unix"
+      ],
+      "session_number": 15,
+      "skills": [
+        "Stream Processing (Kafka)"
+      ],
+      "title": "Stream Processing with Kafka"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Data engineers develop the architecture needed to process, manage, and store large amounts of data which will be used by data scientists for analysis. They design the infrastructure and maintain data pipelines and warehouses to leverage data for strategic advantage.",
+    "label": "data engineer",
+    "similarity_score": 0.927115261554718,
+    "uri": "http://data.europa.eu/esco/occupation/2079755f-d809-49e6-8037-4de6180e54c0"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 36,
+    "skills_in_path": 15,
+    "skills_to_learn": 36,
+    "total_skills_needed": 36
+  },
+  "user_id": "eval_user_11"
+}

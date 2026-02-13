@@ -1,0 +1,232 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify core building blocks across major cloud providers and how they map to common workloads",
+        "Explain fundamental cloud concepts and service categories used in modern architectures"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Aws/Azure/Gcp Core Services",
+        "cloud technologies"
+      ],
+      "title": "Cloud Foundations: Core Services and Cloud Technologies Overview"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply common cloud architecture patterns to meet scalability, reliability, and cost goals",
+        "Produce a high-level target architecture for a sample application"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services",
+        "cloud technologies"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Cloud Architecture & Design Patterns",
+        "design cloud architecture"
+      ],
+      "title": "Designing Cloud Architecture with Patterns"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Perform essential Linux administration tasks commonly required for cloud-hosted systems",
+        "Troubleshoot basic OS-level issues impacting application availability"
+      ],
+      "prerequisites": [],
+      "session_number": 3,
+      "skills": [
+        "Linux Administration"
+      ],
+      "title": "Linux Administration for Cloud Workloads"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design least-privilege access using roles, policies, and RBAC concepts",
+        "Explain encryption-at-rest/in-transit approaches and key management using KMS"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Security & Iam (Rbac, Policies, Kms)"
+      ],
+      "title": "Identity, Access, and Key Management in the Cloud"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create and manage cloud infrastructure using declarative IaC workflows",
+        "Implement safe change management practices for infrastructure updates"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services",
+        "Security & Iam (Rbac, Policies, Kms)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Infrastructure As Code (Terraform/Cloudformation/Bicep)"
+      ],
+      "title": "Infrastructure as Code: Repeatable Cloud Environments"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build container images and run containers locally for development and testing",
+        "Apply basic container best practices for configuration and security"
+      ],
+      "prerequisites": [
+        "Linux Administration"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Containers (Docker)"
+      ],
+      "title": "Containers with Docker: Packaging and Running Applications"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Deploy and operate containerized workloads on a managed Kubernetes service",
+        "Explain core Kubernetes objects and how they support scaling and resilience"
+      ],
+      "prerequisites": [
+        "Containers (Docker)",
+        "Aws/Azure/Gcp Core Services"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Kubernetes (Eks/Aks/Gke)"
+      ],
+      "title": "Kubernetes Fundamentals on Managed Services (EKS/AKS/GKE)"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design a CI/CD pipeline that builds, tests, and deploys to cloud environments",
+        "Implement deployment strategies that reduce risk and improve release reliability"
+      ],
+      "prerequisites": [
+        "Infrastructure As Code (Terraform/Cloudformation/Bicep)",
+        "Containers (Docker)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Devops & Ci/Cd Pipelines (Github Actions/Jenkins/Azure Devops)"
+      ],
+      "title": "CI/CD Pipelines for Cloud Deployments"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design serverless components for common application patterns",
+        "Compare serverless tradeoffs and integrate with other cloud services"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services",
+        "Security & Iam (Rbac, Policies, Kms)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Serverless (Lambda/Functions/Cloud Run)"
+      ],
+      "title": "Serverless Architectures: Event-Driven Compute"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select appropriate storage types based on access patterns, consistency, and cost",
+        "Design data storage layouts for durability, performance, and security"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services",
+        "Security & Iam (Rbac, Policies, Kms)"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Data Storage (Sql/Nosql/Object Storage)"
+      ],
+      "title": "Data Storage in the Cloud: SQL, NoSQL, and Object Storage"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Instrument services to collect logs, metrics, and traces for troubleshooting and performance analysis",
+        "Define actionable alerts and dashboards aligned to service objectives"
+      ],
+      "prerequisites": [
+        "Aws/Azure/Gcp Core Services"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Observability (Logging, Metrics, Tracing)"
+      ],
+      "title": "Observability: Logging, Metrics, and Tracing"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create monitoring and reporting views for capacity, cost, and reliability tracking",
+        "Establish operational reporting routines to support continuous improvement"
+      ],
+      "prerequisites": [
+        "Observability (Logging, Metrics, Tracing)"
+      ],
+      "session_number": 12,
+      "skills": [
+        "cloud monitoring and reporting"
+      ],
+      "title": "Cloud Monitoring and Reporting for Operations"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design for fault tolerance using multi-zone and multi-region approaches",
+        "Define DR targets and implement recovery strategies aligned to business requirements"
+      ],
+      "prerequisites": [
+        "Cloud Architecture & Design Patterns",
+        "Data Storage (Sql/Nosql/Object Storage)",
+        "Infrastructure As Code (Terraform/Cloudformation/Bicep)"
+      ],
+      "session_number": 13,
+      "skills": [
+        "Disaster Recovery & High Availability Design"
+      ],
+      "title": "High Availability and Disaster Recovery Design"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Cloud engineers are responsible for the design, planning, management and maintenance of cloud-based systems. They develop and implement cloud-applications, handle the migration of existing on-premise applications to the cloud, and debug cloud stacks.",
+    "label": "cloud engineer",
+    "similarity_score": 0.9372993111610413,
+    "uri": "http://data.europa.eu/esco/occupation/349ee6f6-c295-4c38-9b98-48765b55280e"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 34,
+    "skills_in_path": 13,
+    "skills_to_learn": 34,
+    "total_skills_needed": 38
+  },
+  "user_id": "eval_user_06"
+}

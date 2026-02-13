@@ -1,0 +1,277 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Define core concepts in data science",
+        "Apply basic statistics to summarize and interpret data"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "data science",
+        "statistics"
+      ],
+      "title": "Foundations of data science and statistics"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Python to load, inspect, and manipulate data",
+        "Write clear, reusable Python code for analysis tasks"
+      ],
+      "prerequisites": [
+        "data science"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Python"
+      ],
+      "title": "Python essentials for data workflows"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Perform vectorized computations for efficiency",
+        "Use arrays to represent and transform datasets"
+      ],
+      "prerequisites": [
+        "Python"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Numpy",
+        "Python"
+      ],
+      "title": "Numerical computing with Numpy"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Pandas to clean, join, and reshape tabular data",
+        "Create reliable data summaries for downstream analysis"
+      ],
+      "prerequisites": [
+        "Python",
+        "Numpy"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Pandas",
+        "Python"
+      ],
+      "title": "Data manipulation with Pandas"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Query datasets using Sql to filter, aggregate, and join",
+        "Extract analysis-ready datasets for Python workflows"
+      ],
+      "prerequisites": [
+        "data science"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Sql",
+        "data engineering"
+      ],
+      "title": "Sql for data access and analysis"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify common data quality issues and apply fixes",
+        "Prepare consistent datasets for modeling and analysis"
+      ],
+      "prerequisites": [
+        "Pandas",
+        "statistics"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Data Cleaning And Preprocessing",
+        "Pandas",
+        "Python"
+      ],
+      "title": "Data Cleaning And Preprocessing end-to-end"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create effective plots to understand distributions and relationships",
+        "Communicate insights using clear visual encodings"
+      ],
+      "prerequisites": [
+        "Pandas",
+        "statistics"
+      ],
+      "session_number": 7,
+      "skills": [
+        "data visualization",
+        "data visualisation software",
+        "Pandas"
+      ],
+      "title": "Exploratory data visualization"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply data mining approaches to find structure in data",
+        "Translate discovered patterns into actionable analysis questions"
+      ],
+      "prerequisites": [
+        "statistics",
+        "Pandas"
+      ],
+      "session_number": 8,
+      "skills": [
+        "data mining",
+        "data science"
+      ],
+      "title": "Data mining for pattern discovery"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core Machine Learning problem types and workflows",
+        "Set up a basic modeling pipeline from data to predictions"
+      ],
+      "prerequisites": [
+        "statistics",
+        "Python",
+        "Data Cleaning And Preprocessing"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Machine Learning",
+        "data science"
+      ],
+      "title": "Machine Learning fundamentals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Train baseline models using Scikit-Learn",
+        "Use consistent workflows for fitting and predicting"
+      ],
+      "prerequisites": [
+        "Machine Learning",
+        "Pandas"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Scikit-Learn",
+        "Machine Learning",
+        "Python"
+      ],
+      "title": "Scikit-Learn modeling workflows"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create and transform features to improve model performance",
+        "Assess feature impact through iterative experimentation"
+      ],
+      "prerequisites": [
+        "Scikit-Learn",
+        "Data Cleaning And Preprocessing"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Feature Engineering",
+        "Machine Learning",
+        "Pandas"
+      ],
+      "title": "Feature Engineering for improved models"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select appropriate evaluation approaches for different modeling goals",
+        "Validate models to reduce overfitting and improve reliability"
+      ],
+      "prerequisites": [
+        "Scikit-Learn",
+        "Feature Engineering"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Model Evaluation And Validation",
+        "Machine Learning",
+        "statistics"
+      ],
+      "title": "Model Evaluation And Validation"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design data flows that support repeatable analysis and modeling",
+        "Integrate Sql extraction with Python-based preparation steps"
+      ],
+      "prerequisites": [
+        "Sql",
+        "Data Cleaning And Preprocessing"
+      ],
+      "session_number": 13,
+      "skills": [
+        "data engineering",
+        "Sql",
+        "Python"
+      ],
+      "title": "Data engineering for ML-ready pipelines"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Execute an end-to-end workflow from data access to validated model results",
+        "Present findings using data visualization and clear evaluation evidence"
+      ],
+      "prerequisites": [
+        "data engineering",
+        "Model Evaluation And Validation"
+      ],
+      "session_number": 14,
+      "skills": [
+        "data science",
+        "Sql",
+        "Data Cleaning And Preprocessing",
+        "Pandas",
+        "data visualization",
+        "Feature Engineering",
+        "Scikit-Learn",
+        "Model Evaluation And Validation",
+        "Machine Learning"
+      ],
+      "title": "Capstone: end-to-end data science project"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Data scientists find and interpret rich data sources, manage large amounts of data, merge data sources, ensure consistency of data-sets, and create visualisations to aid in understanding data. They build mathematical models using data, present and communicate data insights and findings to specialists and scientists in their team and if required, to a non-expert audience, and recommend ways to apply the data.",
+    "label": "data scientist",
+    "similarity_score": 1.0,
+    "uri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 33,
+    "skills_in_path": 14,
+    "skills_to_learn": 33,
+    "total_skills_needed": 34
+  },
+  "user_id": "eval_user_05"
+}

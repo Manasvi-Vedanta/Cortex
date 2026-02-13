@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:01:04.997367",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Data science focuses on using data (analysis, modeling, experimentation) to generate insights and support decision-making.",
+        "is_correct": true,
+        "question": "Which statement best describes the goal of data science in an organization?",
+        "question_id": 1,
+        "topic": "data science",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A p-value is computed under the assumption that the null hypothesis is true and measures how surprising the observed data would be.",
+        "is_correct": true,
+        "question": "In statistics, what does a p-value represent in hypothesis testing?",
+        "question_id": 2,
+        "topic": "statistics",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "NumPy arrays enable efficient vectorized operations and are implemented in optimized C, typically making them faster than Python lists for numeric workloads.",
+        "is_correct": true,
+        "question": "In NumPy, what is the primary advantage of using a NumPy array over a Python list for numerical computation?",
+        "question_id": 3,
+        "topic": "Numpy",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "HAVING filters groups after aggregation, while WHERE filters rows before grouping/aggregation.",
+        "is_correct": true,
+        "question": "Which SQL clause is used to filter rows after aggregation (e.g., after GROUP BY)?",
+        "question_id": 4,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "For a simple baseline, imputing numeric features with mean/median is common; median is often preferred if the distribution is skewed or has outliers.",
+        "is_correct": true,
+        "question": "You have a Pandas DataFrame df with a column 'age' that contains missing values. Which approach is generally most appropriate to impute missing ages when you want a simple baseline and 'age' is numeric?",
+        "question_id": 5,
+        "topic": "Data Cleaning And Preprocessing",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A scatter plot is designed to show the relationship/correlation pattern between two continuous variables.",
+        "is_correct": true,
+        "question": "Which visualization is most appropriate to assess the relationship between two continuous variables (e.g., height vs. weight)?",
+        "question_id": 6,
+        "topic": "data visualization",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Pipelines ensure transformations (e.g., scaling, encoding) are learned from training data only within each CV split, reducing leakage and making workflows reproducible.",
+        "is_correct": false,
+        "question": "In scikit-learn, why is it recommended to use a Pipeline when preprocessing data and training a model?",
+        "question_id": 7,
+        "topic": "Scikit-Learn",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Using transactions after the label/prediction cutoff leaks future information into training, inflating performance and failing in production.",
+        "is_correct": false,
+        "question": "You are building a churn model and one feature is 'total_spend_last_30_days'. You compute it using all transactions in the dataset, including those that occur after the churn label date for some customers. What is the primary issue with this feature?",
+        "question_id": 8,
+        "topic": "Feature Engineering",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "For rare positives, Precision-Recall metrics focus on performance for the positive class and are often more sensitive than accuracy; cross-validation provides a more reliable estimate.",
+        "is_correct": false,
+        "question": "You have a highly imbalanced binary classification problem (1% positive class). Which evaluation approach is generally most informative for model selection?",
+        "question_id": 9,
+        "topic": "Model Evaluation And Validation",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Exactly-once semantics are commonly approximated with idempotent writes (upsert/merge keyed by event_id) plus watermarks/handling for late-arriving events.",
+        "is_correct": false,
+        "question": "A data engineering pipeline ingests event data from multiple services into a warehouse. You need to ensure each event is processed exactly once despite retries and late-arriving data. Which design choice best supports this requirement?",
+        "question_id": 10,
+        "topic": "data engineering",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Scikit-Learn, Feature Engineering, Model Evaluation And Validation",
+      "✅ Your strongest areas: data science, statistics"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "data science",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "statistics",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Numpy",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Cleaning And Preprocessing",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "data visualization",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Scikit-Learn",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Feature Engineering",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Model Evaluation And Validation",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "data engineering",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

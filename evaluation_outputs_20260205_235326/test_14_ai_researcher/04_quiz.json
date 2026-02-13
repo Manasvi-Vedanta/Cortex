@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:18:49.360425",
+      "learning_path_id": "test_14",
+      "target_occupation": "computer scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The dot product returns a scalar equal to ||a||·||b||·cos(theta), capturing alignment/similarity and projection.",
+        "id": 1,
+        "options": {
+          "A": "A scalar measuring similarity/projection between the vectors",
+          "B": "A vector perpendicular to both vectors",
+          "C": "A matrix whose determinant equals the angle between vectors",
+          "D": "A probability distribution over vector components"
+        },
+        "question": "In linear algebra, what does the dot product of two vectors primarily compute?",
+        "topic": "Mathematics (Linear Algebra, Calculus, Probability, Statistics)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Lists can be modified in place (append, assignment), while tuples cannot be changed after creation.",
+        "id": 2,
+        "options": {
+          "A": "Lists are mutable; tuples are immutable",
+          "B": "Lists can store numbers; tuples cannot",
+          "C": "Tuples are slower to iterate than lists by definition",
+          "D": "Lists preserve order; tuples do not"
+        },
+        "question": "In Python, what is the main difference between a list and a tuple?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "F1-score balances precision and recall, making it more informative than accuracy under class imbalance.",
+        "id": 3,
+        "options": {
+          "A": "Accuracy",
+          "B": "F1-score",
+          "C": "Mean Squared Error (MSE)",
+          "D": "R-squared"
+        },
+        "question": "Which metric is most appropriate for evaluating a binary classifier on a highly imbalanced dataset when you care about performance on the minority class?",
+        "topic": "Model Evaluation & Benchmarking"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Without non-linear activations, stacked layers collapse into an equivalent linear transformation.",
+        "id": 4,
+        "options": {
+          "A": "To introduce non-linearity so the network can model complex functions",
+          "B": "To ensure weights always sum to 1",
+          "C": "To make gradients exactly constant across layers",
+          "D": "To convert a regression problem into classification"
+        },
+        "question": "In deep learning, what is the primary purpose of an activation function like ReLU?",
+        "topic": "Deep Learning"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Gradient descent minimizes the loss by stepping in the negative gradient direction: w ← w − η∇L(w).",
+        "id": 5,
+        "options": {
+          "A": "w ← w + η∇L(w)",
+          "B": "w ← w − η∇L(w)",
+          "C": "w ← ηw − ∇L(w)",
+          "D": "w ← w / (η∇L(w))"
+        },
+        "question": "You are training logistic regression with gradient descent. Which update rule is correct for parameters w with learning rate η and gradient ∇L(w)?",
+        "topic": "Optimization (Gradient-Based Methods, Convex Optimization)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "model.eval() sets inference behavior for certain layers, and torch.no_grad() disables autograd tracking to save memory/compute.",
+        "id": 6,
+        "options": {
+          "A": "model.eval(); with torch.no_grad(): y = model(x)",
+          "B": "model.train(); with torch.grad(): y = model(x)",
+          "C": "model.eval(); with torch.enable_grad(): y = model(x)",
+          "D": "model.zero_grad(); y = model(x)"
+        },
+        "question": "In PyTorch, which snippet correctly prevents gradient tracking during evaluation/inference?",
+        "topic": "Pytorch"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Nested CV separates hyperparameter selection from performance estimation, reducing optimistic bias from test leakage.",
+        "id": 7,
+        "options": {
+          "A": "Train on all data and report training loss",
+          "B": "Use the test set for hyperparameter tuning and report test performance",
+          "C": "Use nested cross-validation (inner loop for tuning, outer loop for evaluation)",
+          "D": "Shuffle labels to remove bias, then evaluate once"
+        },
+        "question": "You want to estimate a model’s generalization performance while tuning hyperparameters without leaking test information. Which approach is best?",
+        "topic": "Research Methodology & Experimental Design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Gradient checkpointing trades extra compute for lower memory by not storing all activations and recomputing them during backward pass.",
+        "id": 8,
+        "options": {
+          "A": "Increase batch size",
+          "B": "Use gradient checkpointing (activation recomputation)",
+          "C": "Switch from AdamW to SGD",
+          "D": "Remove the tokenizer and feed raw text"
+        },
+        "question": "You are fine-tuning a large Transformer for NLP with limited GPU memory. Which change most directly reduces activation memory during backprop while keeping the same model architecture?",
+        "topic": "Natural Language Processing"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The deadly triad (function approximation + bootstrapping + off-policy learning) can lead to divergence due to moving targets and distribution shift.",
+        "id": 9,
+        "options": {
+          "A": "Because Q-learning requires on-policy data and cannot use replay buffers",
+          "B": "Because the combination of function approximation, bootstrapping, and off-policy updates can create unstable feedback loops (the 'deadly triad')",
+          "C": "Because the Bellman equation is only valid for tabular methods",
+          "D": "Because exploration (epsilon-greedy) makes gradients undefined"
+        },
+        "question": "In reinforcement learning, why can off-policy Q-learning diverge when combined with function approximation and bootstrapping (e.g., neural networks)?",
+        "topic": "Reinforcement Learning"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Mixed precision reduces gradient tensor size (and often enables faster kernels), decreasing all-reduce communication time and improving scaling.",
+        "id": 10,
+        "options": {
+          "A": "Increase the number of DataLoader workers only",
+          "B": "Use mixed precision (FP16/BF16) with gradient scaling to reduce communication volume",
+          "C": "Turn off shuffling in the dataset",
+          "D": "Switch the activation function from ReLU to tanh"
+        },
+        "question": "You are running distributed data-parallel training across 8 GPUs and observe poor scaling. Profiling shows long stalls during gradient synchronization. Which change most directly targets this bottleneck?",
+        "topic": "Distributed Training & High-Performance Computing (Gpu/Cuda)"
+      }
+    ],
+    "topics_covered": [
+      "Mathematics (Linear Algebra, Calculus, Probability, Statistics)",
+      "Python",
+      "Machine Learning",
+      "Optimization (Gradient-Based Methods, Convex Optimization)",
+      "Research Methodology & Experimental Design",
+      "Model Evaluation & Benchmarking",
+      "Deep Learning",
+      "Pytorch",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Reinforcement Learning",
+      "Distributed Training & High-Performance Computing (Gpu/Cuda)",
+      "scientific research methodology",
+      "manage research data",
+      "write research proposals"
+    ]
+  },
+  "success": true
+}

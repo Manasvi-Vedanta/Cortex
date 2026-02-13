@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-01-24T10:46:39.042543",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A DBA's core role revolves around ensuring the database is available, performs optimally, and is secure, rather than application development or marketing.",
+        "is_correct": true,
+        "question": "Which of the following is a primary responsibility of a Database Administrator (DBA)?",
+        "question_id": 1,
+        "topic": "manage database",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Indexes are primarily used to speed up data retrieval by providing a quick lookup mechanism, similar to an index in a book.",
+        "is_correct": false,
+        "question": "What is the main purpose of creating an index on a database table?",
+        "question_id": 2,
+        "topic": "define database physical structure",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The principle of least privilege dictates that users should only be granted the minimum necessary permissions to perform their tasks, reducing potential security risks.",
+        "is_correct": true,
+        "question": "To adhere to the principle of least privilege in database security, a DBA should grant users what kind of permissions?",
+        "question_id": 3,
+        "topic": "maintain database security",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Database backups are crucial for disaster recovery, ensuring that data can be restored after accidental deletion, hardware failure, or other catastrophic events.",
+        "is_correct": false,
+        "question": "What is the fundamental reason for regularly backing up a database?",
+        "question_id": 4,
+        "topic": "design database backup specifications",
+        "user_answer": "D"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "medium",
+        "explanation": "Scripting languages combined with scheduling tools are ideal for automating routine administrative tasks like monitoring system resources across multiple servers.",
+        "is_correct": false,
+        "question": "A DBA needs to automate the daily task of checking disk space usage for all database servers and send an alert if it exceeds a threshold. Which of the following approaches is most suitable for this task?",
+        "question_id": 5,
+        "topic": "use scripting programming",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "High disk I/O wait times with low CPU usage are a classic indicator that the storage subsystem is the bottleneck, as the CPU is waiting for data to be read from or written to disk.",
+        "is_correct": true,
+        "question": "During a performance troubleshooting session, a DBA observes that a database server's CPU utilization is consistently low, but disk I/O wait times are extremely high, leading to slow query execution. What is the most likely immediate bottleneck?",
+        "question_id": 6,
+        "topic": "maintain database performance",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A foreign key in one table references the primary key in another table, creating a relationship and enforcing referential integrity by ensuring linked data exists.",
+        "is_correct": false,
+        "question": "In a relational database schema, which type of key is specifically used to establish and enforce a link between the data in two tables, ensuring referential integrity?",
+        "question_id": 7,
+        "topic": "design database scheme",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Two-Phase Commit (2PC) is a distributed algorithm that ensures all participating nodes in a distributed transaction either commit or abort the transaction together, thereby preserving ACID properties across multiple systems.",
+        "is_correct": false,
+        "question": "In a highly available distributed database system, what mechanism is commonly employed to ensure atomicity, consistency, isolation, and durability (ACID) across multiple nodes for a single transaction?",
+        "question_id": 8,
+        "topic": "distributed computing",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "BI file latch contention in OpenEdge often indicates issues with BI file sizing, insufficient BI writers, or long-running transactions causing excessive logging. Reviewing the configuration and transaction patterns is the correct first step.",
+        "is_correct": false,
+        "question": "An OpenEdge DBA notices frequent 'latch contention' messages related to the BI (Before-Image) files, leading to performance degradation. Which of the following actions is the most appropriate first step to investigate and mitigate this issue?",
+        "question_id": 9,
+        "topic": "OpenEdge Database",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "hard",
+        "explanation": "An RPO of 1 hour and RTO of 4 hours are aggressive. Real-time synchronous replication with automated failover (like database mirroring or AlwaysOn Availability Groups) minimizes data loss (near-zero RPO) and recovery time (low RTO), making it the best fit. Option B provides good RPO but higher RTO due to restoration time. Options A and C cannot meet the RPO and RTO.",
+        "is_correct": false,
+        "question": "A critical production database server experiences a catastrophic hardware failure, resulting in complete data loss on the primary system. The Recovery Point Objective (RPO) for this database is 1 hour, and the Recovery Time Objective (RTO) is 4 hours. Which backup and recovery strategy would best meet these objectives, assuming standard RDBMS capabilities?",
+        "question_id": 10,
+        "topic": "design database backup specifications",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: define database physical structure, design database backup specifications, use scripting programming",
+      "✅ Your strongest areas: manage database, maintain database security"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "manage database",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "maintain database security",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "maintain database performance",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "define database physical structure",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design database backup specifications",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use scripting programming",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design database scheme",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "distributed computing",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "OpenEdge Database",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

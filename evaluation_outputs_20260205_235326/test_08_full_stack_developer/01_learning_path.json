@@ -1,0 +1,175 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create structured web pages using Html",
+        "Style layouts and typography using CSS",
+        "Produce simple learning materials as digital content"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Html",
+        "CSS",
+        "develop digital content"
+      ],
+      "title": "Web Foundations with Html and CSS"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write core JavaScript syntax and control flow",
+        "Manipulate page behavior with JavaScript",
+        "Create short practice exercises as digital content"
+      ],
+      "prerequisites": [
+        "Html",
+        "CSS"
+      ],
+      "session_number": 2,
+      "skills": [
+        "JavaScript",
+        "develop digital content"
+      ],
+      "title": "JavaScript Essentials for Interactive Pages"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain the request/response model in Http",
+        "Use JavaScript to call Rest Apis and handle responses",
+        "Document API calls and examples as digital content"
+      ],
+      "prerequisites": [
+        "JavaScript"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Http",
+        "Rest Apis",
+        "JavaScript",
+        "develop digital content"
+      ],
+      "title": "HTTP Basics and Working with Rest Apis"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write basic Sql queries for reading and modifying data",
+        "Model simple relational data structures",
+        "Apply Database Design And Normalization to reduce redundancy"
+      ],
+      "prerequisites": [],
+      "session_number": 4,
+      "skills": [
+        "Sql",
+        "Database Design And Normalization"
+      ],
+      "title": "SQL Fundamentals and Database Design Basics"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create a basic server using Node.Js",
+        "Implement Rest Apis endpoints",
+        "Connect API endpoints to Sql queries"
+      ],
+      "prerequisites": [
+        "JavaScript",
+        "Http",
+        "Sql"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Node.Js",
+        "Rest Apis",
+        "Sql"
+      ],
+      "title": "Node.Js for Building Simple APIs"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement Authentication And Authorization (Jwt, Oauth2) flows at a high level",
+        "Protect Rest Apis endpoints using token-based access",
+        "Explain common authorization patterns in API design"
+      ],
+      "prerequisites": [
+        "Node.Js",
+        "Rest Apis",
+        "Http"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Authentication And Authorization (Jwt, Oauth2)",
+        "Rest Apis",
+        "Http",
+        "Node.Js"
+      ],
+      "title": "Authentication and Authorization with JWT and OAuth2"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build user interfaces using React components",
+        "Manage basic component state and rendering",
+        "Consume Rest Apis from a React UI"
+      ],
+      "prerequisites": [
+        "JavaScript",
+        "Html",
+        "CSS"
+      ],
+      "session_number": 7,
+      "skills": [
+        "React",
+        "JavaScript Framework",
+        "JavaScript",
+        "Rest Apis"
+      ],
+      "title": "React Fundamentals for UI Development"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Add TypeScript to an existing React codebase",
+        "Define types for component props, state, and API responses",
+        "Reduce runtime errors by using TypeScript in key modules"
+      ],
+      "prerequisites": [
+        "React",
+        "JavaScript"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Add TypeScript",
+        "TypeScript",
+        "React"
+      ],
+      "title": "Add TypeScript to a React Project"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Web developers develop, implement and document web-accessible software based on the designs provided. They align the client's web presence with its business strategy, troubleshoot software problems and issues and look for ways to improve the application.",
+    "label": "web developer",
+    "similarity_score": 0.7676358819007874,
+    "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 31,
+    "skills_in_path": 8,
+    "skills_to_learn": 31,
+    "total_skills_needed": 33
+  },
+  "user_id": "eval_user_08"
+}

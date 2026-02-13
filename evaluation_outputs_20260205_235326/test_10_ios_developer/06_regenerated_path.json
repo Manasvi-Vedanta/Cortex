@@ -1,0 +1,271 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Set up and navigate an integrated development environment software for iOS development",
+        "Create and run a basic iOS project using Xcode",
+        "Apply tools for software configuration management to manage project changes"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "integrated development environment software",
+        "Xcode",
+        "tools for software configuration management",
+        "programming"
+      ],
+      "title": "iOS Development Setup and Workflow Foundations"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write core Swift (computer programming) constructs used in iOS apps",
+        "Structure small programs to practice data handling and control flow",
+        "Prepare Swift code to be used in UI-driven projects"
+      ],
+      "prerequisites": [
+        "integrated development environment software",
+        "Xcode"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Swift (computer programming)",
+        "programming"
+      ],
+      "title": "Swift Programming Essentials for iOS"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain the Ios App Lifecycle and how it affects app behavior",
+        "Identify where to place code for startup, foreground, and background transitions",
+        "Run lifecycle experiments in Xcode to observe state changes"
+      ],
+      "prerequisites": [
+        "Swift (computer programming)",
+        "Xcode"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Ios App Lifecycle",
+        "Xcode",
+        "Swift (computer programming)"
+      ],
+      "title": "iOS App Lifecycle and Project Structure"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create screens and navigation using Ios Sdk (Uikit)",
+        "Connect UI elements to Swift (computer programming) logic",
+        "Run and debug UI behavior in Xcode"
+      ],
+      "prerequisites": [
+        "Ios App Lifecycle",
+        "Swift (computer programming)",
+        "Xcode"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Ios Sdk (Uikit)",
+        "Swift (computer programming)",
+        "Xcode"
+      ],
+      "title": "Building Interfaces with Ios Sdk (Uikit)"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build views and compose layouts using Swiftui",
+        "Bind view state to Swift (computer programming) data structures",
+        "Compare Swiftui project flow with Ios App Lifecycle concepts"
+      ],
+      "prerequisites": [
+        "Swift (computer programming)",
+        "Xcode"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Swiftui",
+        "Swift (computer programming)",
+        "Ios App Lifecycle",
+        "Xcode"
+      ],
+      "title": "Declarative UI with Swiftui"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Define responsibilities of Model, View, and ViewModel in Mvvm Architecture",
+        "Refactor UI code to separate presentation logic from views",
+        "Apply Mvvm Architecture in either Swiftui or Ios Sdk (Uikit) screens"
+      ],
+      "prerequisites": [
+        "Swiftui",
+        "Ios Sdk (Uikit)",
+        "Swift (computer programming)"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Mvvm Architecture",
+        "Swift (computer programming)",
+        "Swiftui",
+        "Ios Sdk (Uikit)"
+      ],
+      "title": "Structuring Apps with Mvvm Architecture"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain request/response patterns used by Restful Apis",
+        "Perform network requests using Urlsession",
+        "Handle common networking errors and response validation"
+      ],
+      "prerequisites": [
+        "Swift (computer programming)",
+        "Mvvm Architecture"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Restful Apis",
+        "Urlsession",
+        "Swift (computer programming)"
+      ],
+      "title": "Networking Fundamentals with Restful Apis and Urlsession"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Decode JSON responses into Swift (computer programming) types using Json Parsing (Codable)",
+        "Encode Swift (computer programming) types into JSON for requests",
+        "Integrate parsing into a Restful Apis workflow"
+      ],
+      "prerequisites": [
+        "Restful Apis",
+        "Urlsession",
+        "Swift (computer programming)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Json Parsing (Codable)",
+        "Swift (computer programming)",
+        "Restful Apis",
+        "Urlsession"
+      ],
+      "title": "Json Parsing (Codable) for API Data Models"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Concurrency (Async/Await, Gcd) to run network and parsing work without blocking UI",
+        "Coordinate multiple asynchronous tasks safely",
+        "Integrate Concurrency (Async/Await, Gcd) with Urlsession and Json Parsing (Codable)"
+      ],
+      "prerequisites": [
+        "Urlsession",
+        "Json Parsing (Codable)",
+        "Swift (computer programming)"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Concurrency (Async/Await, Gcd)",
+        "Urlsession",
+        "Json Parsing (Codable)",
+        "Swift (computer programming)"
+      ],
+      "title": "Concurrency for Responsive Apps (Async/Await, Gcd)"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model and store app data locally using Core Data",
+        "Perform basic create, read, update, and delete operations",
+        "Connect Core Data to Mvvm Architecture for clean data flow"
+      ],
+      "prerequisites": [
+        "Mvvm Architecture",
+        "Swift (computer programming)",
+        "Xcode"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Core Data",
+        "Mvvm Architecture",
+        "Swift (computer programming)",
+        "Xcode"
+      ],
+      "title": "Local Persistence with Core Data"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design a data flow that syncs Restful Apis data into Core Data",
+        "Use Json Parsing (Codable) to map API payloads into stored records",
+        "Apply Concurrency (Async/Await, Gcd) to keep sync operations responsive"
+      ],
+      "prerequisites": [
+        "Core Data",
+        "Restful Apis",
+        "Json Parsing (Codable)",
+        "Concurrency (Async/Await, Gcd)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Core Data",
+        "Restful Apis",
+        "Json Parsing (Codable)",
+        "Concurrency (Async/Await, Gcd)",
+        "Swift (computer programming)"
+      ],
+      "title": "Offline-First Data Flow: Core Data + Restful Apis"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Relate app components to digital systems concepts (inputs, outputs, state, and transitions)",
+        "Apply Ios App Lifecycle understanding to manage state changes predictably",
+        "Validate behavior through repeatable runs and debugging in Xcode"
+      ],
+      "prerequisites": [
+        "Ios App Lifecycle",
+        "Xcode",
+        "programming"
+      ],
+      "session_number": 12,
+      "skills": [
+        "digital systems",
+        "Ios App Lifecycle",
+        "Xcode",
+        "programming"
+      ],
+      "title": "Systems Thinking for iOS Apps: digital systems and Lifecycle Integration"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Embedded systems software developers program, implement, document and maintain software to be run on an embedded system.",
+    "label": "embedded systems software developer",
+    "similarity_score": 0.7171382904052734,
+    "uri": "http://data.europa.eu/esco/occupation/57af9090-55b4-4911-b2d0-86db01c00b02"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 33,
+    "skills_in_path": 12,
+    "skills_to_learn": 33,
+    "total_skills_needed": 34
+  },
+  "user_id": "eval_user_10"
+}

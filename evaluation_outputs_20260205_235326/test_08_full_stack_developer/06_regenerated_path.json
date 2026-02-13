@@ -1,0 +1,214 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Set up a basic web page structure using Html",
+        "Style page layout and typography using CSS",
+        "Add interactivity using JavaScript",
+        "Explain how web programming connects structure, style, and behavior"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "web programming",
+        "Html",
+        "CSS",
+        "JavaScript"
+      ],
+      "title": "Web Programming Foundations with Html, CSS, and JavaScript"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe core Http concepts used in web programming",
+        "Make requests to Rest Apis using JavaScript",
+        "Handle responses and errors in JavaScript",
+        "Render fetched data into an Html page"
+      ],
+      "prerequisites": [
+        "Html",
+        "CSS",
+        "JavaScript",
+        "web programming"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Http",
+        "Rest Apis",
+        "JavaScript",
+        "Html",
+        "web programming"
+      ],
+      "title": "Http Basics and Calling Rest Apis with JavaScript"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain key JavaScript Framework concepts using React",
+        "Build reusable UI pieces in React",
+        "Manage UI updates driven by JavaScript data",
+        "Compose a small page using React with basic styling"
+      ],
+      "prerequisites": [
+        "JavaScript",
+        "Html",
+        "CSS",
+        "web programming"
+      ],
+      "session_number": 3,
+      "skills": [
+        "JavaScript Framework",
+        "React",
+        "JavaScript",
+        "CSS",
+        "web programming"
+      ],
+      "title": "JavaScript Framework Concepts with React"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Add TypeScript to an existing React setup",
+        "Use TypeScript to improve correctness in JavaScript code",
+        "Type common React patterns using TypeScript",
+        "Refactor a small React feature from JavaScript to TypeScript"
+      ],
+      "prerequisites": [
+        "React",
+        "JavaScript",
+        "JavaScript Framework"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Add TypeScript",
+        "TypeScript",
+        "React",
+        "JavaScript"
+      ],
+      "title": "Add TypeScript to a React Project"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create a simple server using Node.Js",
+        "Implement basic Rest Apis endpoints",
+        "Use Http concepts to reason about requests and responses",
+        "Connect a JavaScript client to Node.Js Rest Apis"
+      ],
+      "prerequisites": [
+        "JavaScript",
+        "Http",
+        "Rest Apis",
+        "web programming"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Node.Js",
+        "Rest Apis",
+        "Http",
+        "JavaScript",
+        "web programming"
+      ],
+      "title": "Node.Js Fundamentals for Rest Apis"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model simple data using Sql tables",
+        "Write basic Sql queries for common operations",
+        "Integrate Sql-backed data into Node.Js Rest Apis",
+        "Validate API behavior by querying and returning Sql results"
+      ],
+      "prerequisites": [
+        "Node.Js",
+        "Rest Apis",
+        "JavaScript"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Sql",
+        "Node.Js",
+        "Rest Apis",
+        "JavaScript"
+      ],
+      "title": "Sql Basics and Data Access for Node.Js"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain authentication and authorization flows using Authentication And Authorization (Oauth2/Jwt)",
+        "Protect Rest Apis endpoints using Authentication And Authorization (Oauth2/Jwt)",
+        "Use Http headers appropriately for Authentication And Authorization (Oauth2/Jwt)",
+        "Integrate a JavaScript client with authenticated Rest Apis"
+      ],
+      "prerequisites": [
+        "Node.Js",
+        "Rest Apis",
+        "Http",
+        "JavaScript"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Authentication And Authorization (Oauth2/Jwt)",
+        "Rest Apis",
+        "Http",
+        "Node.Js",
+        "JavaScript"
+      ],
+      "title": "Authentication And Authorization (Oauth2/Jwt) for Rest Apis"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Develop digital content that explains a small end-to-end web programming project",
+        "Create a concise walkthrough of React UI and Node.Js Rest Apis behavior",
+        "Document Http interactions and Authentication And Authorization (Oauth2/Jwt) usage",
+        "Summarize Sql data flow from storage to UI"
+      ],
+      "prerequisites": [
+        "React",
+        "Node.Js",
+        "Rest Apis",
+        "Sql",
+        "Authentication And Authorization (Oauth2/Jwt)",
+        "Http",
+        "TypeScript"
+      ],
+      "session_number": 8,
+      "skills": [
+        "develop digital content",
+        "web programming",
+        "React",
+        "Node.Js",
+        "Rest Apis",
+        "Http",
+        "Authentication And Authorization (Oauth2/Jwt)",
+        "Sql"
+      ],
+      "title": "Develop Digital Content: Building and Presenting a Full Web Programming Demo"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Web developers develop, implement and document web-accessible software based on the designs provided. They align the client's web presence with its business strategy, troubleshoot software problems and issues and look for ways to improve the application.",
+    "label": "web developer",
+    "similarity_score": 0.7676358819007874,
+    "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 30,
+    "skills_in_path": 8,
+    "skills_to_learn": 30,
+    "total_skills_needed": 32
+  },
+  "user_id": "eval_user_08"
+}

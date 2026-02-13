@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:24:25.878477",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Real-time refers to predictable timing behavior—meeting deadlines—rather than maximum speed or requiring an RTOS.",
+        "is_correct": false,
+        "question": "In an embedded system, what is the most common meaning of \"real-time\"?",
+        "question_id": 1,
+        "topic": "embedded systems",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "An AND gate produces a HIGH output only if every input is HIGH.",
+        "is_correct": false,
+        "question": "Which digital logic gate outputs HIGH only when all inputs are HIGH?",
+        "question_id": 2,
+        "topic": "digital systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git commit records the staged snapshot into the repository history.",
+        "is_correct": false,
+        "question": "In Git, which command creates a new commit from staged changes?",
+        "question_id": 3,
+        "topic": "tools for software configuration management",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The Nested Vectored Interrupt Controller (NVIC) enables, prioritizes, and dispatches interrupts/exceptions on Cortex-M.",
+        "is_correct": true,
+        "question": "On Arm Cortex-M microcontrollers, what is the primary purpose of the NVIC?",
+        "question_id": 4,
+        "topic": "Microcontroller Architecture (Arm Cortex-M)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "I2C uses SDA/SCL with addressing and open-drain lines, allowing multiple devices on the same bus.",
+        "is_correct": false,
+        "question": "You need to connect multiple sensors on the same two-wire bus with device addressing and open-drain signaling. Which interface is most appropriate?",
+        "question_id": 5,
+        "topic": "Device Drivers (Spi/I2C/Uart/Can)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Static allocation and fixed-size pools reduce fragmentation risk and improve predictability; frequent heap use can degrade long-running systems.",
+        "is_correct": true,
+        "question": "In embedded C++, which approach is generally best to avoid heap fragmentation on long-running microcontroller firmware?",
+        "question_id": 6,
+        "topic": "C++ (Embedded)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "An integrated debugger provides breakpoints, single-stepping, and variable/memory inspection on the target.",
+        "is_correct": false,
+        "question": "In an IDE, which feature most directly allows stepping through code, setting breakpoints, and inspecting variables on a target MCU?",
+        "question_id": 7,
+        "topic": "integrated development environment software",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Half-transfer and transfer-complete interrupts are designed for double-buffer/circular DMA workflows, enabling timely processing with low CPU overhead.",
+        "is_correct": false,
+        "question": "A Cortex-M system uses DMA to fill a circular buffer from an ADC. You must process each half-buffer as soon as it is ready with minimal CPU overhead. Which interrupt/event strategy is best?",
+        "question_id": 8,
+        "topic": "Interrupts, Timers & Dma",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Read-only data should be in .rodata and mapped to Flash; declaring it const and mapping sections correctly prevents it from consuming RAM.",
+        "is_correct": false,
+        "question": "Your firmware crashes because a large lookup table is placed in RAM, but it should reside in Flash. Which linker-script change most directly fixes this?",
+        "question_id": 9,
+        "topic": "Memory Management & Linker Scripts",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Yocto/OpenEmbedded uses BitBake recipes to automate and reproduce building toolchains, packages, and complete Linux images.",
+        "is_correct": false,
+        "question": "You are building an embedded Linux image and want reproducible builds and automatic generation of a root filesystem, toolchain, and packages from recipes. Which approach best matches this goal?",
+        "question_id": 10,
+        "topic": "Embedded Linux",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: embedded systems, digital systems, tools for software configuration management",
+      "✅ Your strongest areas: Microcontroller Architecture (Arm Cortex-M), C++ (Embedded)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Microcontroller Architecture (Arm Cortex-M)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "C++ (Embedded)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "embedded systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "digital systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Device Drivers (Spi/I2C/Uart/Can)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "integrated development environment software",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Interrupts, Timers & Dma",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Memory Management & Linker Scripts",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Embedded Linux",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,247 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand core concepts of programming and web programming",
+        "Create and structure basic digital content for the web"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "programming",
+        "web programming",
+        "develop digital content"
+      ],
+      "title": "Foundations of Web Programming and Digital Content"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create semantic page structure using Html5",
+        "Organize content sections to support maintainability"
+      ],
+      "prerequisites": [
+        "programming",
+        "web programming",
+        "develop digital content"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Html5",
+        "develop digital content"
+      ],
+      "title": "Building Page Structure with Html5"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply Css3 to style Html5 content",
+        "Use layout and styling techniques to improve readability and visual hierarchy"
+      ],
+      "prerequisites": [
+        "Html5",
+        "develop digital content"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Css3",
+        "Html5"
+      ],
+      "title": "Styling Interfaces with Css3"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement layouts that adapt to different screen sizes",
+        "Validate responsive behavior across common viewport ranges"
+      ],
+      "prerequisites": [
+        "Css3",
+        "Html5"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Responsive Web Design",
+        "Css3",
+        "Html5"
+      ],
+      "title": "Responsive Web Design Essentials"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply Accessibility (Wcag/Aria) principles to content and UI structure",
+        "Identify and fix common accessibility issues in web pages"
+      ],
+      "prerequisites": [
+        "Html5",
+        "Css3"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Accessibility (Wcag/Aria)",
+        "Html5",
+        "Css3"
+      ],
+      "title": "Accessibility (Wcag/Aria) in Practice"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use Browser Devtools to inspect Html5 and Css3 issues",
+        "Diagnose layout, responsiveness, and accessibility-related problems using Browser Devtools"
+      ],
+      "prerequisites": [
+        "Html5",
+        "Css3",
+        "Responsive Web Design",
+        "Accessibility (Wcag/Aria)"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Browser Devtools",
+        "Html5",
+        "Css3",
+        "Responsive Web Design",
+        "Accessibility (Wcag/Aria)"
+      ],
+      "title": "Debugging and Inspection with Browser Devtools"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build UI components using React",
+        "Compose a simple interface from multiple React components"
+      ],
+      "prerequisites": [
+        "programming",
+        "web programming",
+        "Html5",
+        "Css3"
+      ],
+      "session_number": 7,
+      "skills": [
+        "React",
+        "web programming"
+      ],
+      "title": "Introduction to React for UI Development"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use TypeScript to improve code clarity and correctness",
+        "Apply TypeScript types to common programming patterns"
+      ],
+      "prerequisites": [
+        "programming",
+        "web programming"
+      ],
+      "session_number": 8,
+      "skills": [
+        "TypeScript",
+        "programming",
+        "web programming"
+      ],
+      "title": "TypeScript Fundamentals for Web Programming"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Add TypeScript to an existing React codebase",
+        "Refactor React components to use TypeScript safely"
+      ],
+      "prerequisites": [
+        "React",
+        "TypeScript"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Add TypeScript",
+        "React",
+        "TypeScript"
+      ],
+      "title": "Add TypeScript to a React Project"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify performance bottlenecks using Browser Devtools",
+        "Apply Web Performance Optimization techniques to improve loading and runtime behavior"
+      ],
+      "prerequisites": [
+        "Browser Devtools",
+        "web programming",
+        "Html5",
+        "Css3"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Web Performance Optimization",
+        "Browser Devtools",
+        "web programming"
+      ],
+      "title": "Web Performance Optimization with Browser Devtools"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use tools for software configuration management to track and manage changes",
+        "Apply consistent configuration practices across a web programming workflow"
+      ],
+      "prerequisites": [
+        "web programming"
+      ],
+      "session_number": 11,
+      "skills": [
+        "tools for software configuration management",
+        "web programming"
+      ],
+      "title": "Configuration Management Tools for Web Projects"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use e-services to publish or deliver digital content",
+        "Integrate a simple web programming workflow with use e-services for delivery"
+      ],
+      "prerequisites": [
+        "develop digital content",
+        "web programming"
+      ],
+      "session_number": 12,
+      "skills": [
+        "use e-services",
+        "develop digital content",
+        "web programming"
+      ],
+      "title": "Delivering Digital Services with E-Services"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Web developers develop, implement and document web-accessible software based on the designs provided. They align the client's web presence with its business strategy, troubleshoot software problems and issues and look for ways to improve the application.",
+    "label": "web developer",
+    "similarity_score": 0.8014558553695679,
+    "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 30,
+    "skills_in_path": 12,
+    "skills_to_learn": 30,
+    "total_skills_needed": 32
+  },
+  "user_id": "eval_user_03"
+}

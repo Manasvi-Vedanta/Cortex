@@ -1,0 +1,1695 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Complete Learning Journey | GenMentor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .stat-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 1em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .timeline-container {
+            padding: 60px 40px;
+        }
+        
+        .session {
+            margin-bottom: 60px;
+            position: relative;
+            padding-left: 60px;
+            border-left: 4px solid #e0e0e0;
+        }
+        
+        .session::before {
+            content: '';
+            position: absolute;
+            left: -15px;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #4CAF50;
+            border: 4px solid white;
+            box-shadow: 0 0 0 4px #e0e0e0;
+        }
+        
+        .session.intermediate::before {
+            background: #FF9800;
+        }
+        
+        .session.advanced::before {
+            background: #F44336;
+        }
+        
+        .session-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px 15px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .session-title {
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+        
+        .session-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 20px;
+            background: rgba(255,255,255,0.2);
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .session-content {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-top: none;
+            border-radius: 0 0 15px 15px;
+            padding: 30px;
+        }
+        
+        .session-meta {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .meta-item i {
+            color: #667eea;
+            font-size: 1.2em;
+        }
+        
+        .objectives {
+            margin-bottom: 30px;
+        }
+        
+        .objectives h3 {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .objectives ul {
+            list-style: none;
+        }
+        
+        .objectives li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .objectives li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .skill-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s;
+        }
+        
+        .skill-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .skill-name {
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .resources {
+            margin-top: 15px;
+        }
+        
+        .resources-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .resource-item {
+            background: white;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.2s;
+        }
+        
+        .resource-item:hover {
+            background: #667eea;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .resource-icon {
+            font-size: 1.2em;
+            min-width: 30px;
+            text-align: center;
+        }
+        
+        .resource-link {
+            text-decoration: none;
+            color: inherit;
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .resource-info {
+            flex: 1;
+        }
+        
+        .resource-title {
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        
+        .resource-meta {
+            font-size: 0.85em;
+            opacity: 0.7;
+        }
+        
+        .quality-badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            background: #4CAF50;
+            color: white;
+        }
+        
+        .quality-badge.high {
+            background: #4CAF50;
+        }
+        
+        .quality-badge.medium {
+            background: #FF9800;
+        }
+        
+        .quality-badge.low {
+            background: #f44336;
+        }
+        
+        .progress-bar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            z-index: 1000;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            width: 0%;
+            transition: width 0.3s;
+        }
+        
+        .download-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 30px;
+            border-radius: 50px;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(102, 126, 234, 0.5);
+        }
+        
+        @media print {
+            .download-btn, .progress-bar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Your Complete Learning Journey</h1>
+            <p style="font-size: 1.4em; font-weight: 600; margin: 20px 0;">"I want to become a data scientist with machine learning expertise"</p>
+            <p style="font-size: 1.1em; opacity: 0.9;">
+                <i class="fas fa-briefcase"></i> Target Role: data engineer
+            </p>
+            <p style="font-size: 0.95em; opacity: 0.85; margin-top: 15px; max-width: 800px; margin-left: auto; margin-right: auto;">Data engineers develop the architecture needed to process, manage, and store large amounts of data which will be used by data scientists for analysis. They design the infrastructure and maintain data pipelines and warehouses to leverage data for strategic advantage.</p>
+            <p style="font-size: 0.9em; opacity: 0.8; margin-top: 15px;"><i class="fas fa-check-circle"></i> Current Skills: Python programming, Statistics</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">📚</div>
+                <div class="stat-value">10</div>
+                <div class="stat-label">Learning Sessions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🎯</div>
+                <div class="stat-value">30</div>
+                <div class="stat-label">Skills to Master</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⏰</div>
+                <div class="stat-value">66h</div>
+                <div class="stat-label">Total Study Time</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📅</div>
+                <div class="stat-value">22</div>
+                <div class="stat-label">Days (3h/day)</div>
+            </div>
+        </div>
+        
+        <div class="timeline-container">
+            <h2 style="text-align: center; margin-bottom: 50px; font-size: 2.5em; color: #667eea;">
+                <i class="fas fa-road"></i> Your Learning Path
+            </h2>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 1</span>
+                        <div class="session-title">Introduction to Data Warehousing</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>4 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the fundamental concepts of data warehousing.</li>
+                            <li>Differentiate between OLTP and OLAP systems.</li>
+                            <li>Identify the key components of a data warehouse architecture.</li>
+                            <li>Learn about different data warehouse modeling techniques (e.g., star schema, snowflake schema).</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data modeling</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Database concepts</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/learn/database-design" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Database Design</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ztHopE5Wnpc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Database Design Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Analytical thinking</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 2</span>
+                        <div class="session-title">Computer Science Fundamentals for Data Professionals</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>8 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand basic data structures (arrays, linked lists, trees, graphs).</li>
+                            <li>Learn about algorithms and their complexity (Big O notation).</li>
+                            <li>Grasp the principles of operating systems and networking.</li>
+                            <li>Understand the basics of programming paradigms (e.g., procedural, object-oriented).</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Problem-solving</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Problem-solving" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Algorithmic thinking</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/algorithms" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Algorithms Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🔗</div>
+                                        <a href="https://leetcode.com/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">LeetCode</div>
+                                                <div class="resource-meta">LeetCode • Practice</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=8hly31xKli0" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Algorithms Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Programming logic</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.python.org/3/tutorial/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Official Python Tutorial</div>
+                                                <div class="resource-meta">Python.org • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Full Course - freeCodeCamp</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/python" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python for Everybody Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Python Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Complete Python Bootcamp</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 3</span>
+                        <div class="session-title">Data Storage Technologies: A Comprehensive Overview</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>6 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Explore different data storage options (e.g., relational databases, NoSQL databases, cloud storage).</li>
+                            <li>Understand the trade-offs between different storage technologies (e.g., cost, performance, scalability).</li>
+                            <li>Learn about data storage formats (e.g., CSV, JSON, Parquet, ORC).</li>
+                            <li>Understand the concepts of data backup and recovery.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data storage selection</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/learn/database-design" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Database Design</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ztHopE5Wnpc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Database Design Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Database administration</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/learn/database-design" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Database Design</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ztHopE5Wnpc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Database Design Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Cloud computing</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.aws.amazon.com/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">AWS Documentation</div>
+                                                <div class="resource-meta">AWS • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">AWS Certified Solutions Architect</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ulprqHHWlng" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">AWS Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 4</span>
+                        <div class="session-title">Working with Unstructured Data</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>8 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Define unstructured data and its characteristics.</li>
+                            <li>Learn about techniques for extracting information from unstructured data (e.g., text mining, image recognition).</li>
+                            <li>Explore different tools and technologies for processing unstructured data (e.g., NLP libraries, computer vision frameworks).</li>
+                            <li>Understand the challenges of storing and managing unstructured data.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Text mining</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Text mining" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Natural Language Processing (NLP)</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Natural Language Processing (NLP)" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Image processing</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Image processing" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 5</span>
+                        <div class="session-title">Managing Research Data: Best Practices and Tools</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>4 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the importance of research data management.</li>
+                            <li>Learn about data management planning (DMP).</li>
+                            <li>Explore best practices for data documentation, metadata creation, and data preservation.</li>
+                            <li>Discover tools and resources for managing research data (e.g., data repositories, version control systems).</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data governance</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Metadata management</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Metadata management" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data preservation</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 6</span>
+                        <div class="session-title">Data Processing Techniques: ETL and Beyond</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>8 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the ETL (Extract, Transform, Load) process.</li>
+                            <li>Learn about different data transformation techniques (e.g., data cleaning, data integration, data aggregation).</li>
+                            <li>Explore modern data processing frameworks (e.g., Apache Spark, Apache Flink).</li>
+                            <li>Understand the concepts of data pipelines and data orchestration.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 ETL development</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "ETL development" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data transformation</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data pipeline design</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 7</span>
+                        <div class="session-title">Establishing Data Processes: From Collection to Analysis</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>6 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Learn how to define and document data processes.</li>
+                            <li>Understand the importance of data quality and data validation.</li>
+                            <li>Explore different data governance frameworks.</li>
+                            <li>Learn how to monitor and improve data processes.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data governance</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data quality management</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Process improvement</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Process improvement" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session advanced">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 8</span>
+                        <div class="session-title">Managing ICT Data Architecture: Principles and Practices</div>
+                    </div>
+                    <div class="session-badge">advanced</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>8 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the principles of ICT data architecture.</li>
+                            <li>Learn about different data architecture patterns (e.g., data lake, data mesh).</li>
+                            <li>Explore the role of data architects in an organization.</li>
+                            <li>Understand the importance of data security and data privacy.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data architecture design</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data modeling</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data security</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/cyber-security" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Cybersecurity Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=U_P23SqJaDc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Cybersecurity Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session intermediate">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 9</span>
+                        <div class="session-title">Storing Digital Data and Systems: Infrastructure Considerations</div>
+                    </div>
+                    <div class="session-badge">intermediate</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>6 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Understand different infrastructure options for storing digital data (e.g., on-premise, cloud, hybrid).</li>
+                            <li>Learn about storage capacity planning and performance optimization.</li>
+                            <li>Explore different storage technologies (e.g., SAN, NAS, object storage).</li>
+                            <li>Understand the importance of data security and disaster recovery.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Infrastructure management</div>
+
+                                    <div class="resources">
+                                        <div class="resources-label" style="color: #999;">
+                                            <i class="fas fa-search"></i> Search for "Infrastructure management" on your preferred learning platform
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Cloud computing</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">📘</div>
+                                        <a href="https://docs.aws.amazon.com/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">AWS Documentation</div>
+                                                <div class="resource-meta">AWS • Documentation</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">AWS Certified Solutions Architect</div>
+                                                <div class="resource-meta">Udemy • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ulprqHHWlng" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">AWS Tutorial for Beginners</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data security</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/cyber-security" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Cybersecurity Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=U_P23SqJaDc" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Cybersecurity Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session beginner">
+                <div class="session-header">
+                    <div>
+                        <span style="opacity: 0.7;">Session 10</span>
+                        <div class="session-title">Creating Data Sets: From Raw Data to Analysis-Ready Formats</div>
+                    </div>
+                    <div class="session-badge">beginner</div>
+                </div>
+                
+                <div class="session-content">
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span><strong>8 hours</strong> estimated</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>3 skills</strong> to learn</span>
+                        </div>
+                        <div class="meta-item"><i class="fas fa-link"></i><span><strong>1</strong> prerequisites</span></div>
+                    </div>
+
+                    <div class="objectives">
+                        <h3><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                        <ul>
+                            <li>Learn how to identify and collect relevant data sources.</li>
+                            <li>Understand data cleaning and data transformation techniques.</li>
+                            <li>Explore different data set formats (e.g., CSV, JSON, Parquet).</li>
+                            <li>Learn how to create data dictionaries and metadata documentation.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 style="margin-bottom: 20px; color: #667eea;"><i class="fas fa-list-check"></i> Skills & Resources</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data collection</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data cleaning</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-name">📖 Data transformation</div>
+
+                                <div class="resources">
+                                    <div class="resources-label">📚 Learning Resources:</div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎓</div>
+                                        <a href="https://www.coursera.org/specializations/jhu-data-science" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Specialization</div>
+                                                <div class="resource-meta">Coursera • Course</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="resource-item">
+                                        <div class="resource-icon">🎥</div>
+                                        <a href="https://www.youtube.com/watch?v=ua-CiDNNj30" class="resource-link" target="_blank">
+                                            <div class="resource-info">
+                                                <div class="resource-title">Data Science Full Course</div>
+                                                <div class="resource-meta">YouTube • Video</div>
+                                            </div>
+                                            <span class="quality-badge high">High</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <a href="#" class="download-btn" onclick="window.print(); return false;">
+        <i class="fas fa-download"></i>
+        Save as PDF
+    </a>
+    
+    <script>
+        // Scroll progress indicator
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressFill').style.width = scrolled + '%';
+        });
+        
+        // Add click handlers for resource items
+        document.querySelectorAll('.resource-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                if (!e.target.closest('a')) {
+                    const link = this.querySelector('a');
+                    if (link) {
+                        window.open(link.href, '_blank');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

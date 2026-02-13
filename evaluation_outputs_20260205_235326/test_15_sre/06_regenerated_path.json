@@ -1,0 +1,272 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Administer users, permissions, processes, and services on Linux systems",
+        "Troubleshoot common system issues using core Linux tooling",
+        "Apply engineering principles to operational hygiene and repeatability"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Linux Systems Administration",
+        "engineering principles"
+      ],
+      "title": "Linux Foundations for Reliable Operations"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write Bash scripts to automate routine operational tasks",
+        "Use Python for structured automation and safe system interactions",
+        "Create reusable scripts that support incident response workflows"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Scripting (Python/Bash)",
+        "Incident Response & On-Call Operations"
+      ],
+      "title": "Automation with Python and Bash"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Model infrastructure changes using Terraform workflows",
+        "Manage state and apply safe change practices",
+        "Align IaC practices with engineering principles for maintainability"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration"
+      ],
+      "session_number": 3,
+      "skills": [
+        "Infrastructure As Code (Terraform)",
+        "engineering principles"
+      ],
+      "title": "Infrastructure as Code with Terraform"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand core cloud building blocks and shared responsibility",
+        "Map infrastructure needs to cloud primitives",
+        "Operate cloud resources with reliability and cost-awareness"
+      ],
+      "prerequisites": [
+        "Infrastructure As Code (Terraform)"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Cloud Platforms (Aws/Gcp/Azure)",
+        "Reliability Engineering (Sli/Slo,Error Budgets)"
+      ],
+      "title": "Cloud Platform Fundamentals (AWS/GCP/Azure)"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Manage system configuration consistently across environments",
+        "Reduce configuration drift and improve repeatability",
+        "Integrate configuration management into operational practices"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration",
+        "Scripting (Python/Bash)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Configuration Management (Ansible/Chef/Puppet)",
+        "Linux Systems Administration"
+      ],
+      "title": "Configuration Management with Ansible/Chef/Puppet"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Build, run, and troubleshoot containerized workloads",
+        "Understand container networking and storage basics",
+        "Apply engineering principles to container image hygiene"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Containers (Docker)",
+        "engineering principles"
+      ],
+      "title": "Containers with Docker"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand Kubernetes primitives and control plane behavior",
+        "Deploy and operate workloads with basic reliability practices",
+        "Troubleshoot common Kubernetes operational issues"
+      ],
+      "prerequisites": [
+        "Containers (Docker)",
+        "Linux Systems Administration"
+      ],
+      "session_number": 7,
+      "skills": [
+        "Kubernetes",
+        "Distributed Systems Fundamentals"
+      ],
+      "title": "Kubernetes Core Concepts and Operations"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design CI/CD pipelines that support reliable releases",
+        "Implement checks that reduce operational risk",
+        "Connect delivery practices to incident reduction goals"
+      ],
+      "prerequisites": [
+        "Scripting (Python/Bash)",
+        "Infrastructure As Code (Terraform)"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Ci/Cd Pipelines (Jenkins/Github Actions/Gitlab Ci)",
+        "Reliability Engineering (Sli/Slo,Error Budgets)"
+      ],
+      "title": "CI/CD Pipelines for Safe Delivery"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Instrument and collect metrics for services and infrastructure",
+        "Build dashboards that reflect service health and user impact",
+        "Use SLI/SLO thinking to prioritize monitoring signals"
+      ],
+      "prerequisites": [
+        "Distributed Systems Fundamentals"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Monitoring & Observability (Prometheus/Grafana)",
+        "Reliability Engineering (Sli/Slo,Error Budgets)"
+      ],
+      "title": "Monitoring and Observability with Prometheus and Grafana"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Design structured logging approaches for troubleshooting",
+        "Use tracing to identify latency and dependency issues",
+        "Correlate logs, metrics, and traces during investigations"
+      ],
+      "prerequisites": [
+        "Distributed Systems Fundamentals"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Logging & Tracing (Elk/Opentelemetry/Jaeger)",
+        "Monitoring & Observability (Prometheus/Grafana)"
+      ],
+      "title": "Logging and Tracing with ELK and OpenTelemetry/Jaeger"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Run effective incident response using clear operational procedures",
+        "Practice triage, mitigation, and escalation patterns",
+        "Perform post-incident learning aligned with engineering principles"
+      ],
+      "prerequisites": [
+        "Monitoring & Observability (Prometheus/Grafana)",
+        "Logging & Tracing (Elk/Opentelemetry/Jaeger)"
+      ],
+      "session_number": 11,
+      "skills": [
+        "Incident Response & On-Call Operations",
+        "engineering principles"
+      ],
+      "title": "Incident Response and On-Call Operations"
+    },
+    {
+      "difficulty_level": "advanced",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Define SLIs and SLOs that reflect user experience",
+        "Use error budgets to guide operational and delivery decisions",
+        "Connect reliability targets to monitoring and incident practices"
+      ],
+      "prerequisites": [
+        "Incident Response & On-Call Operations"
+      ],
+      "session_number": 12,
+      "skills": [
+        "Reliability Engineering (Sli/Slo,Error Budgets)",
+        "Monitoring & Observability (Prometheus/Grafana)"
+      ],
+      "title": "Reliability Engineering with SLIs/SLOs and Error Budgets"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Understand failure modes in distributed systems",
+        "Reason about latency, partial failure, and dependency behavior",
+        "Apply operational strategies that reduce distributed-system risk"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration"
+      ],
+      "session_number": 13,
+      "skills": [
+        "Distributed Systems Fundamentals",
+        "engineering principles"
+      ],
+      "title": "Distributed Systems Fundamentals for Operators"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply six sigma methods to reduce operational defects and rework",
+        "Measure and improve incident and change outcomes",
+        "Standardize processes to improve reliability and predictability"
+      ],
+      "prerequisites": [
+        "engineering principles"
+      ],
+      "session_number": 14,
+      "skills": [
+        "six sigma methods ",
+        "Incident Response & On-Call Operations"
+      ],
+      "title": "Process Improvement with Six Sigma Methods in Operations"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Dependability engineers ensure the reliability, availability and maintainability (RAM) of a production process or a system. They focus on improving the capability to function without interruption and operate when needed, and on increasing the easiness of repairing, replacing or upgrading the product. ",
+    "label": "dependability engineer",
+    "similarity_score": 0.8754928708076477,
+    "uri": "http://data.europa.eu/esco/occupation/07dfff6d-a0d0-4202-a697-fe9176c15999"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 34,
+    "skills_in_path": 14,
+    "skills_to_learn": 34,
+    "total_skills_needed": 35
+  },
+  "user_id": "eval_user_15"
+}

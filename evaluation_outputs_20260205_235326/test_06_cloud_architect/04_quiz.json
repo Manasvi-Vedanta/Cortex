@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-06T00:03:03.562333",
+      "learning_path_id": "test_06",
+      "target_occupation": "cloud engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Amazon S3 is AWS's object storage service designed for storing and retrieving any amount of data as objects.",
+        "id": 1,
+        "options": {
+          "A": "Amazon S3",
+          "B": "Amazon EBS",
+          "C": "Amazon RDS",
+          "D": "Amazon EFS"
+        },
+        "question": "Which AWS service is primarily used for object storage?",
+        "topic": "Data Storage & Databases (Sql/Nosql/Object Storage)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Azure RBAC assigns roles to users/groups/service principals to define permissions on resources (who can do what).",
+        "id": 2,
+        "options": {
+          "A": "Encrypt data at rest using customer-managed keys",
+          "B": "Control who can access Azure resources and what actions they can perform",
+          "C": "Automatically scale virtual machines based on CPU usage",
+          "D": "Route traffic between virtual networks"
+        },
+        "question": "In Azure, what is the primary purpose of RBAC (Role-Based Access Control)?",
+        "topic": "Security & Iam (Rbac, Policies, Kms, Secrets)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Docker packages applications and dependencies into containers, enabling consistent execution across environments.",
+        "id": 3,
+        "options": {
+          "A": "A managed Kubernetes control plane",
+          "B": "A way to package and run applications in isolated containers",
+          "C": "A serverless function runtime only",
+          "D": "A distributed database with strong consistency"
+        },
+        "question": "What does Docker primarily provide?",
+        "topic": "Containers (Docker)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "IaC uses declarative or imperative code (e.g., Terraform/CloudFormation/Bicep) to provision and manage infrastructure reproducibly.",
+        "id": 4,
+        "options": {
+          "A": "Manually configuring servers via SSH to ensure accuracy",
+          "B": "Defining and provisioning infrastructure using version-controlled code",
+          "C": "Using a GUI to create cloud resources without documentation",
+          "D": "Only monitoring infrastructure using dashboards"
+        },
+        "question": "Which statement best describes Infrastructure as Code (IaC)?",
+        "topic": "Infrastructure As Code (Terraform/Cloudformation/Bicep)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "PR-triggered workflows validate changes, while deployments can be gated using GitHub Environments with required reviewers/approvals on main.",
+        "id": 5,
+        "options": {
+          "A": "Use a single workflow triggered only by a nightly cron schedule",
+          "B": "Use two workflows: one triggered on pull_request for tests, and one triggered on push to main with environment protection rules for approvals",
+          "C": "Run deployments from developer laptops to ensure faster releases",
+          "D": "Disable branch protection to avoid blocked merges"
+        },
+        "question": "You need a CI/CD pipeline that runs tests on every pull request and deploys to production only after approval. Which approach best fits GitHub Actions?",
+        "topic": "Devops & Ci/Cd Pipelines (Github Actions/Jenkins/Azure Devops)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A ClusterIP Service provides stable discovery and load balancing to a set of pods selected by labels, even as pods scale or restart.",
+        "id": 6,
+        "options": {
+          "A": "Provide persistent storage to pods",
+          "B": "Expose a stable virtual IP/DNS name and load-balance traffic to matching pods",
+          "C": "Encrypt secrets using a KMS key",
+          "D": "Schedule pods onto specific nodes using taints"
+        },
+        "question": "In Kubernetes, what is the main purpose of a Service (type ClusterIP) in front of a Deployment?",
+        "topic": "Kubernetes (Eks/Aks/Gke)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "When a partition occurs, a distributed system must generally trade off between consistency and availability (CAP).",
+        "id": 7,
+        "options": {
+          "A": "You can always guarantee both consistency and availability",
+          "B": "You must choose between consistency and availability",
+          "C": "You must choose between latency and throughput only",
+          "D": "You must disable replication to maintain availability"
+        },
+        "question": "You are designing a globally distributed system and must tolerate network partitions. Under the CAP theorem, which trade-off is typically required during a partition?",
+        "topic": "Distributed Systems (Scalability, Consistency, Fault Tolerance)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "SCPs can restrict allowed actions across accounts, and AWS Config rules can detect/flag noncompliance; together they enforce encryption and block public access at scale.",
+        "id": 8,
+        "options": {
+          "A": "Rely on developers to follow a wiki checklist",
+          "B": "Use AWS Organizations Service Control Policies (SCPs) and/or AWS Config rules to prevent/flag noncompliant buckets",
+          "C": "Store access keys in application code to ensure encryption is used",
+          "D": "Enable CloudWatch Logs on EC2 instances"
+        },
+        "question": "A company wants to enforce that all new AWS S3 buckets must have server-side encryption enabled and must not be publicly accessible. Which solution best enforces this at scale?",
+        "topic": "Security & Iam (Rbac, Policies, Kms, Secrets)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "terraform import associates an existing real-world resource with a Terraform resource address in state, enabling management without recreation.",
+        "id": 9,
+        "options": {
+          "A": "Delete the existing resource and rerun apply",
+          "B": "Run terraform import to map the existing resource into the Terraform state, then plan/apply",
+          "C": "Run terraform refresh only and consider it fixed",
+          "D": "Remove the resource block from code permanently"
+        },
+        "question": "Your Terraform apply fails because a resource already exists in the cloud (created manually) and Terraform tries to create it again. What is the best next step to bring it under Terraform management without recreating it?",
+        "topic": "Infrastructure As Code (Terraform/Cloudformation/Bicep)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Correlating traces, Kubernetes metrics, and cloud infrastructure metrics provides fast root-cause isolation across layers during incident response.",
+        "id": 10,
+        "options": {
+          "A": "Only check application logs; metrics and traces are optional",
+          "B": "Enable end-to-end observability: correlate distributed traces with Prometheus metrics (pods/nodes) and cloud metrics (e.g., CloudWatch) on a shared time window",
+          "C": "Scale the cluster immediately without collecting any data",
+          "D": "Disable autoscaling to reduce variability"
+        },
+        "question": "An API running on EKS experiences intermittent latency spikes. You need to respond to the incident by quickly identifying whether the bottleneck is at the application, Kubernetes, or cloud infrastructure layer. Which approach is most effective?",
+        "topic": "Monitoring & Observability (Cloudwatch/Azure Monitor/Prometheus/Grafana)"
+      }
+    ],
+    "topics_covered": [
+      "Aws/Azure/Gcp Core Services",
+      "cloud technologies",
+      "Cloud Architecture & Design Patterns",
+      "design cloud architecture",
+      "Security & Iam (Rbac, Policies, Kms, Secrets)",
+      "Infrastructure As Code (Terraform/Cloudformation/Bicep)",
+      "Data Storage & Databases (Sql/Nosql/Object Storage)",
+      "Containers (Docker)",
+      "Kubernetes (Eks/Aks/Gke)",
+      "Devops & Ci/Cd Pipelines (Github Actions/Jenkins/Azure Devops)",
+      "Monitoring & Observability (Cloudwatch/Azure Monitor/Prometheus/Grafana)",
+      "cloud monitoring and reporting",
+      "Distributed Systems (Scalability, Consistency, Fault Tolerance)",
+      "do cloud refactoring",
+      "respond to incidents in cloud"
+    ]
+  },
+  "success": true
+}

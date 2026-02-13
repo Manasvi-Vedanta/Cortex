@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-02-06T00:10:43.272002",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Xcode uses schemes to define build/run settings, and the Run action builds and launches the target on a simulator or device.",
+        "is_correct": true,
+        "question": "In Xcode, which feature is primarily used to build and run an app on a connected device or simulator?",
+        "question_id": 1,
+        "topic": "Xcode",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "An IDE integrates common development tools (editor, compiler/build system, debugger, etc.) into one workflow.",
+        "is_correct": true,
+        "question": "What is the main purpose of an integrated development environment (IDE)?",
+        "question_id": 2,
+        "topic": "integrated development environment software",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "UIViewController is the standard controller class for managing a screen’s view hierarchy and lifecycle in UIKit.",
+        "is_correct": true,
+        "question": "In UIKit, which class is most commonly used as the base for a screen's controller logic?",
+        "question_id": 3,
+        "topic": "Ios Sdk (Uikit)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Flip-flops are sequential elements that store state (typically 1 bit) and update on clock edges.",
+        "is_correct": false,
+        "question": "In digital systems, what does a flip-flop primarily provide?",
+        "question_id": 4,
+        "topic": "digital systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "UI updates must occur on the main thread; in Swift this is done via MainActor or DispatchQueue.main.async.",
+        "is_correct": true,
+        "question": "You are writing Swift code that updates a UI label after receiving sensor data from a background task. What is the correct approach?",
+        "question_id": 5,
+        "topic": "Concurrency (Gcd/Async-Await)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "SwiftUI updates views automatically when state changes via @State, @ObservedObject/@StateObject, and @Published properties.",
+        "is_correct": true,
+        "question": "In SwiftUI, which mechanism is most appropriate to keep a view updated when a model value changes over time (e.g., a live sensor reading)?",
+        "question_id": 6,
+        "topic": "Swiftui",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Codable with JSONDecoder provides type-safe, maintainable JSON parsing and integrates well with Swift models.",
+        "is_correct": false,
+        "question": "When consuming a RESTful API that returns JSON, what is the most idiomatic way in Swift to parse the response into strongly typed models?",
+        "question_id": 7,
+        "topic": "Restful Apis & Json",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "High-frequency polling wastes CPU/radio time; push-based or long-polling with backoff reduces overhead while maintaining timely updates.",
+        "is_correct": false,
+        "question": "An app uses URLSession to poll an embedded device every 200 ms. After a few minutes, the app becomes sluggish and battery drain increases. Which change best addresses this while keeping responsiveness?",
+        "question_id": 8,
+        "topic": "Urlsession & Networking",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The Leaks instrument (often used alongside Allocations) helps detect leaked memory and trace allocation backtraces.",
+        "is_correct": false,
+        "question": "You suspect a memory leak in an iOS app that communicates with an embedded device. Which Instruments tool is most appropriate to confirm leaked allocations and identify their origin?",
+        "question_id": 9,
+        "topic": "Debugging & Instruments (Profiling)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Continuations are the standard way to adapt callback-based APIs to async/await while preserving error handling and structured concurrency.",
+        "is_correct": false,
+        "question": "You are integrating a legacy Objective-C library that exposes a callback-based API into a modern Swift async/await codebase. What is the best approach to bridge it safely and cleanly?",
+        "question_id": 10,
+        "topic": "Objective-C",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 3,
+        "percentage": 75.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Needs Improvement",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "🎯 Priority topics to review: digital systems, Restful Apis & Json, Urlsession & Networking",
+      "✅ Your strongest areas: Xcode, integrated development environment software"
+    ],
+    "score": {
+      "correct": 5,
+      "grade": "C-",
+      "incorrect": 5,
+      "percentage": 50.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Xcode",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "integrated development environment software",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Ios Sdk (Uikit)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Concurrency (Gcd/Async-Await)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Swiftui",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "digital systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Restful Apis & Json",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Urlsession & Networking",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Debugging & Instruments (Profiling)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Objective-C",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

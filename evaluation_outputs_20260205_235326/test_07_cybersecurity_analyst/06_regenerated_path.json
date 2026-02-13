@@ -1,0 +1,249 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core TCP/IP concepts and common network protocols used in enterprise environments",
+        "Interpret basic protocol behaviors to support security investigations"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Tcp/Ip And Network Protocols"
+      ],
+      "title": "TCP/IP Foundations for Security Work"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe common network security controls and how they reduce risk",
+        "Relate network security concepts to real-world attack paths and defensive strategies"
+      ],
+      "prerequisites": [
+        "Tcp/Ip And Network Protocols"
+      ],
+      "session_number": 2,
+      "skills": [
+        "Network Security"
+      ],
+      "title": "Network Security Essentials"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Identify key fields and patterns in security-relevant logs",
+        "Perform basic log triage to separate normal activity from suspicious activity"
+      ],
+      "prerequisites": [],
+      "session_number": 3,
+      "skills": [
+        "Log Analysis"
+      ],
+      "title": "Log Analysis Fundamentals"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain how a SIEM supports security monitoring workflows",
+        "Use Security Monitoring And Siem (Splunk/Elastic) to search and filter events for investigation"
+      ],
+      "prerequisites": [
+        "Log Analysis"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Security Monitoring And Siem (Splunk/Elastic)"
+      ],
+      "title": "Security Monitoring and SIEM Basics (Splunk/Elastic)"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply a structured approach to evaluate suspicious activity",
+        "Document findings and confidence levels during analysis"
+      ],
+      "prerequisites": [
+        "Log Analysis",
+        "Security Monitoring And Siem (Splunk/Elastic)"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Threat Detection And Analysis"
+      ],
+      "title": "Threat Detection and Analysis Workflow"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Describe phases of Incident Response and expected outputs",
+        "Run a basic Incident Response process from detection through closure"
+      ],
+      "prerequisites": [
+        "Threat Detection And Analysis"
+      ],
+      "session_number": 6,
+      "skills": [
+        "Incident Response"
+      ],
+      "title": "Incident Response Lifecycle and Execution"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain vulnerability management stages from identification to remediation verification",
+        "Prioritize vulnerabilities using risk-based reasoning"
+      ],
+      "prerequisites": [],
+      "session_number": 7,
+      "skills": [
+        "Vulnerability Management"
+      ],
+      "title": "Vulnerability Management Program Basics"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core Windows security concepts relevant to enterprise environments",
+        "Describe common Windows Security And Active Directory security issues and investigation starting points"
+      ],
+      "prerequisites": [
+        "Tcp/Ip And Network Protocols"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Windows Security And Active Directory"
+      ],
+      "title": "Windows Security and Active Directory Fundamentals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core Linux security concepts and common misconfigurations",
+        "Identify Linux security-relevant artifacts useful for investigations"
+      ],
+      "prerequisites": [
+        "Tcp/Ip And Network Protocols"
+      ],
+      "session_number": 9,
+      "skills": [
+        "Linux Security"
+      ],
+      "title": "Linux Security Fundamentals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain how Endpoint Detection And Response (Edr) supports detection and response",
+        "Use Endpoint Detection And Response (Edr) outputs to support investigations and response actions"
+      ],
+      "prerequisites": [
+        "Threat Detection And Analysis",
+        "Incident Response"
+      ],
+      "session_number": 10,
+      "skills": [
+        "Endpoint Detection And Response (Edr)"
+      ],
+      "title": "Endpoint Detection and Response (EDR) Concepts and Use"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Operate open source software to support security monitoring and analysis tasks",
+        "Evaluate basic operational considerations when using open source software in workflows"
+      ],
+      "prerequisites": [],
+      "session_number": 11,
+      "skills": [
+        "operate open source software"
+      ],
+      "title": "Operate Open Source Software for Security Tasks"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use an application-specific interface to complete common operational tasks efficiently",
+        "Navigate and apply interface features to support monitoring and investigation workflows"
+      ],
+      "prerequisites": [],
+      "session_number": 12,
+      "skills": [
+        "use an application-specific interface"
+      ],
+      "title": "Use an Application-Specific Interface for Security Operations"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply scientific research methodology to form hypotheses and test them using available evidence",
+        "Improve investigation quality by documenting methods, assumptions, and limitations"
+      ],
+      "prerequisites": [
+        "Threat Detection And Analysis"
+      ],
+      "session_number": 13,
+      "skills": [
+        "scientific research methodology"
+      ],
+      "title": "Scientific Research Methodology for Security Investigations"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Use data science concepts to summarize and explore security-relevant datasets",
+        "Apply basic analytical reasoning to support detection and investigation decisions"
+      ],
+      "prerequisites": [
+        "Log Analysis",
+        "scientific research methodology"
+      ],
+      "session_number": 14,
+      "skills": [
+        "data science"
+      ],
+      "title": "Data Science for Security Analytics"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Create a structured plan to manage personal professional development aligned to security responsibilities",
+        "Track progress and adjust learning goals based on outcomes and feedback"
+      ],
+      "prerequisites": [],
+      "session_number": 15,
+      "skills": [
+        "manage personal professional development"
+      ],
+      "title": "Manage Personal Professional Development for Security Roles"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Computer scientists conduct research in computer and information science, directed toward greater knowledge and understanding of fundamental aspects of ICT phenomena. They write research reports and proposals. Computer scientists also invent and design new approaches to computing technology, find innovative uses for existing technology and studies and solve complex problems in computing.",
+    "label": "computer scientist",
+    "similarity_score": 0.7767985463142395,
+    "uri": "http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 33,
+    "skills_in_path": 15,
+    "skills_to_learn": 33,
+    "total_skills_needed": 35
+  },
+  "user_id": "eval_user_07"
+}

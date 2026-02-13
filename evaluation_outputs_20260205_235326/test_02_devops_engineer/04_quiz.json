@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-02-05T23:56:06.192460",
+      "learning_path_id": "test_02",
+      "target_occupation": "cloud DevOps engineer ",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "DevOps focuses on collaboration, automation, and feedback loops to improve deployment frequency, reliability, and time-to-recovery.",
+        "id": 1,
+        "options": {
+          "A": "Increase collaboration and automate delivery to ship changes faster and more reliably",
+          "B": "Replace developers with operations engineers",
+          "C": "Eliminate the need for testing by deploying directly to production",
+          "D": "Move all applications to a single cloud provider"
+        },
+        "question": "What is the primary goal of DevOps in a software delivery organization?",
+        "topic": "DevOps"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in one step.",
+        "id": 2,
+        "options": {
+          "A": "git branch feature/login",
+          "B": "git checkout -b feature/login",
+          "C": "git switch feature/login --create",
+          "D": "git merge -b feature/login"
+        },
+        "question": "Which Git command creates a new branch named \"feature/login\" and switches to it?",
+        "topic": "Git"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A Dockerfile is a build recipe that describes the steps and metadata needed to produce a Docker image.",
+        "id": 3,
+        "options": {
+          "A": "Define how to build a container image (layers, commands, files, and configuration)",
+          "B": "Store runtime logs for a container",
+          "C": "Schedule containers across a cluster",
+          "D": "Encrypt secrets used by containers"
+        },
+        "question": "In Docker, what is the main purpose of a Dockerfile?",
+        "topic": "Containers (Docker)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "top provides a real-time view of processes, CPU/memory usage, and system load.",
+        "id": 4,
+        "options": {
+          "A": "top",
+          "B": "chmod",
+          "C": "tar",
+          "D": "ssh"
+        },
+        "question": "Which Linux command is commonly used to view running processes in real time?",
+        "topic": "Linux Administration"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Automated tests plus controlled promotion (gates/approvals) reduce risk and prevent unverified changes from reaching production.",
+        "id": 5,
+        "options": {
+          "A": "Run unit/integration tests and require approval gates before production deployment",
+          "B": "Deploy every commit directly to production to get faster feedback",
+          "C": "Skip tests in CI to reduce pipeline time",
+          "D": "Only run tests on developer laptops"
+        },
+        "question": "In a CI/CD pipeline, which practice best ensures only validated code is deployed to production?",
+        "topic": "Ci/Cd Pipelines"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "A Service provides a stable virtual IP/DNS name and load-balances traffic to matching Pods.",
+        "id": 6,
+        "options": {
+          "A": "Service",
+          "B": "ConfigMap",
+          "C": "Namespace",
+          "D": "Node"
+        },
+        "question": "In Kubernetes, which object is typically used to expose a set of Pods internally and provide stable service discovery?",
+        "topic": "Container Orchestration (Kubernetes)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Secrets should be sourced from a secrets manager or secure runtime inputs; marking variables sensitive helps reduce exposure in output, while avoiding plaintext in VCS.",
+        "id": 7,
+        "options": {
+          "A": "Hardcode the password in a variable default value",
+          "B": "Store the password in Terraform state only and share state publicly",
+          "C": "Read the password from a secrets manager (e.g., Vault/SSM/Key Vault) via data sources or environment variables and mark variables as sensitive",
+          "D": "Base64-encode the password in the .tf file"
+        },
+        "question": "In Terraform, what is the best way to prevent a database password from being stored in plaintext in configuration files and accidentally committed to Git?",
+        "topic": "Infrastructure As Code (Terraform)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Multi-stage builds keep only runtime artifacts in the final image, and BuildKit-style secret mounts avoid persisting tokens in layers.",
+        "id": 8,
+        "options": {
+          "A": "Use a single-stage Docker build and copy the entire source tree into the final image",
+          "B": "Use multi-stage builds and pass secrets at build time (e.g., BuildKit secrets) without copying them into the final stage",
+          "C": "Store secrets in the Dockerfile as ENV variables so they are available at runtime",
+          "D": "Run the application directly on the Kubernetes node without a container"
+        },
+        "question": "Your CI pipeline builds a Docker image and deploys to Kubernetes. You want to minimize image size and reduce the risk of leaking build-time secrets (e.g., npm tokens). Which approach is best?",
+        "topic": "Containers (Docker)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Assuming roles via STS with OIDC provides short-lived, least-privilege credentials and avoids managing long-lived static keys.",
+        "id": 9,
+        "options": {
+          "A": "Create an IAM user and store its access keys in the repository",
+          "B": "Use AWS STS to assume an IAM role with short-lived credentials (e.g., via OIDC federation from the CI system)",
+          "C": "Share the root account credentials with the CI system",
+          "D": "Disable bucket policies and make the bucket public"
+        },
+        "question": "You need to grant a CI job permission to upload artifacts to an AWS S3 bucket without using long-lived access keys. What is the most secure and cloud-native approach?",
+        "topic": "Security And Secrets Management (Iam/Vault)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Prometheus/Grafana are well-suited for latency percentiles and alerting, while EFK/ELK centralizes logs for correlation and troubleshooting.",
+        "id": 10,
+        "options": {
+          "A": "Prometheus for metrics/alerts + Grafana for dashboards + centralized logging with EFK/ELK for log correlation",
+          "B": "Only EFK/ELK, because logs can replace metrics and alerting",
+          "C": "Only Prometheus, because metrics can replace logs entirely",
+          "D": "Git hooks and pre-commit checks"
+        },
+        "question": "A Node.js/Express API deployed on Kubernetes shows intermittent latency spikes. You want to correlate application logs with request traces and also alert on high p95 latency. Which stack best fits these needs?",
+        "topic": "Monitoring And Alerting (Prometheus/Grafana)"
+      }
+    ],
+    "topics_covered": [
+      "DevOps",
+      "Git",
+      "Ci/Cd Pipelines",
+      "Containers (Docker)",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Linux Administration",
+      "Scripting (Bash)",
+      "Container Orchestration (Kubernetes)",
+      "Infrastructure As Code (Terraform)",
+      "Configuration Management (Ansible)",
+      "Security And Secrets Management (Iam/Vault)",
+      "Monitoring And Alerting (Prometheus/Grafana)",
+      "Logging And Log Management (Elk/Efk)",
+      "JavaScript",
+      "software frameworks"
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "skill_name": "Kotlin",
+    "suggestion": {
+      "item_uri": "http://data.europa.eu/esco/skill/android-kotlin",
+      "item_type": "skill",
+      "suggestion_type": "add_skill",
+      "suggestion_text": "Add Kotlin: Primary modern programming language for Android development"
+    },
+    "user_id": "full_test_user",
+    "status": "success",
+    "response": {
+      "message": "Suggestion added successfully",
+      "success": true,
+      "suggestion_id": 126
+    }
+  },
+  {
+    "skill_name": "Jetpack Compose",
+    "suggestion": {
+      "item_uri": "http://data.europa.eu/esco/skill/android-jetpack-compose",
+      "item_type": "skill",
+      "suggestion_type": "add_skill",
+      "suggestion_text": "Add Jetpack Compose: Modern declarative UI toolkit for building native Android interfaces"
+    },
+    "user_id": "full_test_user",
+    "status": "success",
+    "response": {
+      "message": "Suggestion added successfully",
+      "success": true,
+      "suggestion_id": 127
+    }
+  },
+  {
+    "skill_name": "Firebase",
+    "suggestion": {
+      "item_uri": "http://data.europa.eu/esco/skill/mobile-firebase",
+      "item_type": "skill",
+      "suggestion_type": "add_skill",
+      "suggestion_text": "Add Firebase: Backend-as-a-Service platform for mobile app development"
+    },
+    "user_id": "full_test_user",
+    "status": "success",
+    "response": {
+      "message": "Suggestion added successfully",
+      "success": true,
+      "suggestion_id": 128
+    }
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "learning_path": [
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Write and run Python code for data-centric tasks",
+        "Use core Python data structures and functions to prepare for ML pipelines"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skills": [
+        "Python"
+      ],
+      "title": "Python Foundations for ML Workflows"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Query and filter datasets using SQL",
+        "Join tables and aggregate results to create analysis-ready datasets"
+      ],
+      "prerequisites": [],
+      "session_number": 2,
+      "skills": [
+        "Sql"
+      ],
+      "title": "SQL for Data Retrieval and Preparation"
+    },
+    {
+      "difficulty_level": "beginner",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Apply probability concepts relevant to learning algorithms",
+        "Use statistical reasoning to interpret data and model behavior"
+      ],
+      "prerequisites": [],
+      "session_number": 3,
+      "skills": [
+        "Statistics And Probability"
+      ],
+      "title": "Statistics and Probability for Modeling"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Clean and transform raw data into model-ready inputs",
+        "Create and select features to improve learning performance"
+      ],
+      "prerequisites": [
+        "Python",
+        "Sql",
+        "Statistics And Probability"
+      ],
+      "session_number": 4,
+      "skills": [
+        "Data Preprocessing And Feature Engineering"
+      ],
+      "title": "Data Preprocessing and Feature Engineering"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Explain core deep learning concepts and training dynamics",
+        "Design basic neural network architectures for common tasks"
+      ],
+      "prerequisites": [
+        "Python",
+        "Statistics And Probability"
+      ],
+      "session_number": 5,
+      "skills": [
+        "Deep Learning"
+      ],
+      "title": "Deep Learning Fundamentals"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement neural networks in TensorFlow",
+        "Train, monitor, and iterate on TensorFlow models"
+      ],
+      "prerequisites": [
+        "Python",
+        "Deep Learning",
+        "Data Preprocessing And Feature Engineering"
+      ],
+      "session_number": 6,
+      "skills": [
+        "TensorFlow"
+      ],
+      "title": "TensorFlow Model Building and Training"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Implement neural networks in PyTorch",
+        "Train and debug PyTorch models using standard workflows"
+      ],
+      "prerequisites": [
+        "Python",
+        "Deep Learning",
+        "Data Preprocessing And Feature Engineering"
+      ],
+      "session_number": 7,
+      "skills": [
+        "PyTorch"
+      ],
+      "title": "PyTorch Model Building and Training"
+    },
+    {
+      "difficulty_level": "intermediate",
+      "estimated_duration_hours": 8,
+      "objectives": [
+        "Select appropriate evaluation metrics for different problem types",
+        "Perform validation strategies to estimate generalization and reduce overfitting"
+      ],
+      "prerequisites": [
+        "Statistics And Probability",
+        "Deep Learning",
+        "Data Preprocessing And Feature Engineering"
+      ],
+      "session_number": 8,
+      "skills": [
+        "Model Evaluation And Validation"
+      ],
+      "title": "Model Evaluation and Validation"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Computer vision engineers research, design, develop, and train artificial intelligence algorithms and machine learning primitives that understand the content of digital images based on a large amount of data. They apply this understanding to solve different real-world problems such as security, autonomous driving, robotic manufacturing, digital image classification, medical image processing and diagnosis, etc.",
+    "label": "computer vision engineer",
+    "similarity_score": 0.9153484106063843,
+    "uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 29,
+    "skills_in_path": 8,
+    "skills_to_learn": 29,
+    "total_skills_needed": 30
+  },
+  "user_id": "eval_user_01"
+}

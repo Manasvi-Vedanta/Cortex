@@ -1,0 +1,76 @@
+# ============================================================================
+# GenMentor - AI-Powered Career Guidance System
+# Minimal Requirements - Only packages ACTUALLY used in the code
+# Python 3.9+ Required
+# ============================================================================
+
+# ============================================================================
+# CORE WEB FRAMEWORK (used in app.py)
+# ============================================================================
+Flask==3.1.0
+Werkzeug==3.1.3
+
+# ============================================================================
+# AI & MACHINE LEARNING (used in ai_engine.py, rag_system.py, fine_tuning.py)
+# ============================================================================
+sentence-transformers==4.1.0
+transformers==4.52.4
+torch==2.7.1
+google-generativeai==0.8.5
+openai>=1.0.0  # Optional: Uncomment/install if using OpenAI instead of Gemini
+
+# ============================================================================
+# SCIENTIFIC COMPUTING (used in multiple modules)
+# ============================================================================
+numpy==2.3.2
+pandas==2.3.2
+scikit-learn==1.7.0
+
+# ============================================================================
+# GRAPH PROCESSING (used in astar_pathfinding.py, learning_path_visualizer.py)
+# ============================================================================
+networkx==3.5
+
+# ============================================================================
+# WEB SCRAPING & ASYNC HTTP (used in improved_resource_curator.py, resource_curator.py)
+# ============================================================================
+requests==2.32.2
+beautifulsoup4==4.13.4
+aiohttp==3.13.2
+nest-asyncio==1.6.0
+
+# ============================================================================
+# PERFORMANCE OPTIMIZATION (used in faiss_optimizer.py - OPTIONAL but recommended)
+# ============================================================================
+# FAISS provides 6.84x speedup for occupation matching
+# System works without it but falls back to slower linear search
+faiss-cpu==1.9.0.post1
+
+# ============================================================================
+# VISUALIZATION (used ONLY in generate_report_graphs.py - for final report)
+# ============================================================================
+matplotlib==3.10.6
+
+# ============================================================================
+# CONFIGURATION (used in config.py)
+# ============================================================================
+python-dotenv==1.1.0
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# NOT USED in code (removed from requirements):
+# - nltk (not imported anywhere)
+# - seaborn (not imported anywhere)
+# - PyJWT (not imported anywhere)
+# - Markdown (not imported anywhere)
+# - colorama (not imported anywhere)
+# - tqdm (not imported anywhere)
+# - h2, aiohappyeyeballs, aiosignal (dependencies, auto-installed)
+# - google-api-python-client (not directly used)
+#
+# Standard Library (no installation needed):
+# - sqlite3, json, os, sys, io, pickle, typing, re, heapq
+# - statistics, datetime, time, pathlib, threading, queue
+# - contextlib, hashlib, collections, urllib.parse, asyncio
+# ============================================================================
