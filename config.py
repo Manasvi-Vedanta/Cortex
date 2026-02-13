@@ -16,7 +16,7 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")
 # ===========================================
 # GEMINI API (Google)
 # ===========================================
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("GOOGLE_API_KEY", "AIzaSyCto9fcsMeZGhoBxfqvO6Swk4bE6Z7Kkvc"))
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("GOOGLE_API_KEY", ""))
 
 # ===========================================
 # OPENAI API (ChatGPT)
