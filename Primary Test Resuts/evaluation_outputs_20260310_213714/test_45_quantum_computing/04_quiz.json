@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:54:14.522727",
+      "learning_path_id": "test_45",
+      "target_occupation": "biophysicist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "⟨ψ|φ⟩ is the complex inner product; its magnitude squared gives the probability of projecting |φ⟩ onto |ψ⟩.",
+        "id": 1,
+        "options": {
+          "A": "The inner product (overlap amplitude) between states |ψ⟩ and |φ⟩",
+          "B": "The tensor product of |ψ⟩ and |φ⟩",
+          "C": "A measurement outcome probability distribution",
+          "D": "A unitary operator acting on |φ⟩"
+        },
+        "question": "In Dirac notation, what does the expression ⟨ψ|φ⟩ represent?",
+        "topic": "Quantum Mechanics (Dirac Notation, Postulates, Measurement)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "By definition, v is an eigenvector of A if applying A scales v by λ: Av = λv.",
+        "id": 2,
+        "options": {
+          "A": "Av = v + λ",
+          "B": "Av = λv for some scalar λ",
+          "C": "Aλ = v",
+          "D": "v = A/λ"
+        },
+        "question": "Which statement best defines an eigenvector v of a matrix A with eigenvalue λ?",
+        "topic": "Linear Algebra (Vector Spaces, Eigenvalues, Tensor Products)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A qubit is a normalized superposition of computational basis states |0⟩ and |1⟩.",
+        "id": 3,
+        "options": {
+          "A": "A classical bit that can be 0 or 1",
+          "B": "A two-level quantum system with state |ψ⟩ = α|0⟩ + β|1⟩ where |α|^2 + |β|^2 = 1",
+          "C": "A three-level quantum system used for error correction",
+          "D": "A measurement device that outputs 0 or 1"
+        },
+        "question": "In quantum information, what is a qubit?",
+        "topic": "Quantum Information Theory (Qubits, Entanglement, Channels)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "NumPy provides n-dimensional arrays and optimized routines for vectorized computation and linear algebra.",
+        "id": 4,
+        "options": {
+          "A": "NumPy",
+          "B": "Flask",
+          "C": "Django",
+          "D": "BeautifulSoup"
+        },
+        "question": "In Python scientific computing, which library is most commonly used for efficient array operations and linear algebra needed in simulations?",
+        "topic": "Python (Scientific Computing)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "The joint space is the tensor product of two 2D spaces: 2 × 2 = 4.",
+        "id": 5,
+        "options": {
+          "A": "2",
+          "B": "4",
+          "C": "8",
+          "D": "16"
+        },
+        "question": "You model a two-qubit system representing two coupled chromophores. If each chromophore is a 2-level system, what is the dimension of the joint Hilbert space?",
+        "topic": "Linear Algebra (Vector Spaces, Eigenvalues, Tensor Products)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Open-system dynamics and decoherence generally produce mixed states, represented by a density matrix ρ with Tr(ρ)=1 and ρ ⪰ 0.",
+        "id": 6,
+        "options": {
+          "A": "A statevector |ψ⟩ only",
+          "B": "A density matrix ρ that is positive semidefinite with Tr(ρ)=1",
+          "C": "A classical probability vector over basis states only",
+          "D": "A Hamiltonian matrix H with Tr(H)=1"
+        },
+        "question": "In a density-matrix simulation of a biomolecular exciton under dephasing noise, which object correctly represents the system state and can capture mixed states?",
+        "topic": "Numerical Simulation Of Quantum Systems (Statevector, Density Matrix)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Arbitrary single-qubit unitaries plus an entangling two-qubit gate such as CNOT provide universality.",
+        "id": 7,
+        "options": {
+          "A": "CNOT",
+          "B": "SWAP",
+          "C": "Z",
+          "D": "Hadamard"
+        },
+        "question": "In the quantum circuit model, which gate is essential (together with arbitrary single-qubit gates) to form a universal gate set for quantum computation?",
+        "topic": "Quantum Circuit Model & Gate Synthesis"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Unstable or oscillatory convergence is often addressed by changing/tuning the classical optimizer (step size, momentum, gradients). The other options break the problem or do not address optimization stability.",
+        "id": 8,
+        "options": {
+          "A": "Switch from a gradient-free method (e.g., COBYLA) to a gradient-based method with a tuned learning rate (e.g., Adam) and/or use parameter-shift gradients",
+          "B": "Replace the Hamiltonian with the identity operator",
+          "C": "Measure only in the computational basis and ignore all other Pauli terms",
+          "D": "Increase the number of qubits without changing the ansatz"
+        },
+        "question": "You are implementing a variational quantum eigensolver (VQE) to estimate a small molecule’s ground-state energy. During optimization, the energy estimate oscillates and fails to decrease reliably. Which change most directly targets this issue in the classical optimization loop?",
+        "topic": "Optimization Methods For Variational Algorithms (Vqe/Qaoa)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Standard QPE uses controlled-U^(2^k) operations and an inverse QFT, leading to large depth and stringent error/coherence requirements.",
+        "id": 9,
+        "options": {
+          "A": "QPE typically requires deep circuits with controlled-unitary powers, making it sensitive to noise and coherence limits",
+          "B": "QPE cannot be used with unitary operators",
+          "C": "QPE only works if the input state is maximally mixed",
+          "D": "QPE requires no entanglement and is therefore easy to run on NISQ devices"
+        },
+        "question": "A lab wants to run a quantum algorithm that uses Quantum Phase Estimation (QPE) to extract an eigenphase related to a Hamiltonian relevant for protein-ligand binding models. Which statement best describes the key resource scaling challenge of standard QPE on near-term hardware?",
+        "topic": "Quantum Algorithms (Qft, Grover, Phase Estimation)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Reproducibility in scientific software is improved by dependency pinning, automated tests/CI, deterministic runs (seeds), and clear documentation of inputs and provenance.",
+        "id": 10,
+        "options": {
+          "A": "Pin dependencies (e.g., requirements/lockfile), add minimal tests/CI, and provide a runnable example with fixed random seeds and documented data provenance",
+          "B": "Send them your local compiled binaries and ask them not to change anything",
+          "C": "Tell them to rerun until they get the same output",
+          "D": "Remove version control to avoid merge conflicts"
+        },
+        "question": "You are contributing to an open-source genomics pipeline that includes a quantum-simulation module. A collaborator proposes adding a feature but cannot reproduce your results. Which practice best supports reproducibility and professional software operation in this context?",
+        "topic": "operate open source software"
+      }
+    ],
+    "topics_covered": [
+      "Quantum Mechanics (Dirac Notation, Postulates, Measurement)",
+      "Linear Algebra (Vector Spaces, Eigenvalues, Tensor Products)",
+      "Quantum Information Theory (Qubits, Entanglement, Channels)",
+      "Quantum Circuit Model & Gate Synthesis",
+      "Python (Scientific Computing)",
+      "Numerical Simulation Of Quantum Systems (Statevector, Density Matrix)",
+      "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)",
+      "Quantum Algorithms (Qft, Grover, Phase Estimation)",
+      "Optimization Methods For Variational Algorithms (Vqe/Qaoa)",
+      "Quantum Error Correction (Stabilizer Codes, Fault Tolerance)",
+      "Quantum Complexity Theory (Bqp, Qma, Reductions)",
+      "operate open source software",
+      "manage personal professional development",
+      "life sciences",
+      "genomics"
+    ]
+  },
+  "success": true
+}

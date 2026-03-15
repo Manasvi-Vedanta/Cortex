@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:19:27.004020",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "User interviews allow you to ask follow-up questions and uncover motivations, needs, and pain points in depth.",
+        "is_correct": true,
+        "question": "Which user research method is best for understanding users' motivations and pain points through direct conversation?",
+        "question_id": 1,
+        "topic": "User Research Methods",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A user flow maps the sequence of steps/screens a user goes through to achieve a goal (e.g., sign up, purchase, submit a form).",
+        "is_correct": true,
+        "question": "In UX/UI work, what is a user flow?",
+        "question_id": 2,
+        "topic": "User Flows",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Wireframes focus on structure, content placement, and hierarchy before investing time in detailed visual design.",
+        "is_correct": true,
+        "question": "What is the primary purpose of a wireframe?",
+        "question_id": 3,
+        "topic": "Wireframing",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Illustrator is built for vector graphics, making it the standard tool for scalable logos and icons.",
+        "is_correct": true,
+        "question": "Which Adobe Creative Suite app is primarily used for vector logo design?",
+        "question_id": 4,
+        "topic": "adobe creative suite",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Auto Layout helps UI elements adapt to content changes by maintaining consistent padding, spacing, and alignment.",
+        "is_correct": true,
+        "question": "In Figma, what is the main benefit of using Auto Layout for a button component?",
+        "question_id": 5,
+        "topic": "Figma",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Native date pickers constrain input to valid dates and match platform conventions, reducing formatting and entry errors.",
+        "is_correct": true,
+        "question": "Which interaction design pattern best reduces user errors when entering a date on mobile?",
+        "question_id": 6,
+        "topic": "Interaction Design",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Task-based usability testing observes real user behavior and identifies where users succeed, fail, or get confused in the flow.",
+        "is_correct": false,
+        "question": "You need to validate whether users can complete a checkout flow using a clickable prototype. Which approach is most appropriate?",
+        "question_id": 7,
+        "topic": "Usability Testing",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "WCAG AA requires sufficient contrast (commonly 4.5:1 for normal text) to support users with low vision and in varied viewing conditions.",
+        "is_correct": false,
+        "question": "A marketing site must meet WCAG 2.2 AA. Which design choice most directly improves text readability for many users?",
+        "question_id": 8,
+        "topic": "Accessibility (Wcag)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Semantic tokens decouple intent from raw values, allowing the system to adjust scales per breakpoint while keeping component usage consistent.",
+        "is_correct": false,
+        "question": "You’re building a responsive design system for web and mobile. Which token strategy best supports consistent scaling across breakpoints?",
+        "question_id": 9,
+        "topic": "Design Systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "This workflow matches tools to tasks (vector, raster, motion) and supports consistency and speed through reusable templates and shared assets.",
+        "is_correct": false,
+        "question": "A client needs a social media campaign with static posts, short motion graphics, and a consistent brand look. Which workflow best uses Creative Suite efficiently?",
+        "question_id": 10,
+        "topic": "use creative suite software",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Usability Testing, Accessibility (Wcag), Design Systems",
+      "✅ Your strongest areas: User Research Methods, User Flows"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "User Research Methods",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "User Flows",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Wireframing",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "adobe creative suite",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Figma",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Interaction Design",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Usability Testing",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Accessibility (Wcag)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Design Systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use creative suite software",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

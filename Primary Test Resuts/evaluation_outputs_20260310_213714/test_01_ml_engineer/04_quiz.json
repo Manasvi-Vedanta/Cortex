@@ -1,0 +1,170 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:38:16.167857",
+      "learning_path_id": "test_01",
+      "target_occupation": "computer vision engineer",
+      "total_questions": 10,
+      "total_topics": 8
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "NumPy ndarrays are designed for efficient numerical computation and naturally represent images as 2D/3D arrays.",
+        "id": 1,
+        "options": {
+          "A": "NumPy ndarray",
+          "B": "Python list of strings",
+          "C": "set",
+          "D": "dict"
+        },
+        "question": "In Python, which data structure is most appropriate for storing a fixed-size image as a 2D grid of pixel values for numerical operations?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows prior to GROUP BY and aggregation; HAVING filters after aggregation.",
+        "id": 2,
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "ORDER BY",
+          "D": "LIMIT"
+        },
+        "question": "In SQL, which clause is used to filter rows BEFORE aggregation (e.g., before applying COUNT or AVG) when analyzing image metadata?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A predicted probability is the model's confidence/estimated likelihood for that class for the given input, not global accuracy or class prevalence.",
+        "id": 3,
+        "options": {
+          "A": "The model's estimated likelihood that the image belongs to 'cat'",
+          "B": "The model is correct on 80% of all images",
+          "C": "The dataset contains 80% cats",
+          "D": "The model's loss is 0.8"
+        },
+        "question": "In a classification setting, what does a model's predicted probability of 0.8 for the class 'cat' typically represent?",
+        "topic": "Statistics And Probability"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Normalization/standardization reduces scale differences and helps mitigate illumination variation effects on pixel intensities.",
+        "id": 4,
+        "options": {
+          "A": "Normalize pixel values (e.g., scale to [0,1] or standardize)",
+          "B": "Shuffle the dataset once",
+          "C": "Increase batch size",
+          "D": "Use a larger learning rate"
+        },
+        "question": "Which preprocessing step is most directly used to reduce sensitivity to lighting changes in images before training a CNN?",
+        "topic": "Data Preprocessing And Feature Engineering"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "F1-score balances precision and recall and is more informative than accuracy when the positive class is rare.",
+        "id": 5,
+        "options": {
+          "A": "F1-score",
+          "B": "Mean Squared Error (MSE)",
+          "C": "R-squared",
+          "D": "Explained variance"
+        },
+        "question": "You have a highly imbalanced defect-detection dataset (1% defective). Which metric is generally more informative than accuracy for evaluating the model?",
+        "topic": "Model Evaluation And Validation"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Pooling down-samples feature maps, reducing computation and adding some translation invariance while keeping strong activations.",
+        "id": 6,
+        "options": {
+          "A": "Reduce spatial resolution while retaining salient features",
+          "B": "Increase the number of channels to improve color fidelity",
+          "C": "Convert logits into probabilities",
+          "D": "Compute the loss function"
+        },
+        "question": "In a CNN, what is the primary purpose of a pooling layer (e.g., max pooling) in many vision architectures?",
+        "topic": "deep learning"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Segmentation requires spatial alignment; applying the same random transform to both image and mask via a joint mapping function preserves correspondence.",
+        "id": 7,
+        "options": {
+          "A": "Use a single tf.data pipeline that maps a function applying identical random transforms to both image and mask",
+          "B": "Augment images only; masks do not need augmentation",
+          "C": "Use two independent augmentation pipelines with different random seeds",
+          "D": "Apply augmentation after batching so each batch shares the same transform"
+        },
+        "question": "In TensorFlow/Keras, which approach is most appropriate to ensure the same random augmentation is applied to an image and its segmentation mask during training?",
+        "topic": "TensorFlow"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Frames from the same video are highly correlated; group-wise splitting prevents leakage and yields a more realistic validation estimate.",
+        "id": 8,
+        "options": {
+          "A": "Split data by video (group-wise split) so all frames from a video are in only one split",
+          "B": "Increase the number of epochs to average out leakage effects",
+          "C": "Use a larger model to generalize better",
+          "D": "Randomly shuffle frames more thoroughly"
+        },
+        "question": "You suspect data leakage in a computer vision pipeline because multiple frames from the same video appear in both train and validation sets. What is the best fix?",
+        "topic": "Model Evaluation And Validation"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Freezing is done by disabling gradients on backbone parameters (requires_grad=False) and typically excluding them from the optimizer.",
+        "id": 9,
+        "options": {
+          "A": "Set requires_grad = False for backbone parameters (and ensure the optimizer only updates head parameters)",
+          "B": "Call model.eval() during training",
+          "C": "Wrap the forward pass in torch.no_grad() for the entire model",
+          "D": "Set dropout probability to 0"
+        },
+        "question": "In PyTorch, you want to fine-tune a pretrained backbone but freeze all its layers except the final classification head. Which action is required to prevent gradients from updating the backbone weights?",
+        "topic": "PyTorch"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Mixed precision can underflow/overflow; dynamic loss scaling helps prevent NaNs, and gradient clipping can further stabilize training.",
+        "id": 10,
+        "options": {
+          "A": "Use dynamic loss scaling (e.g., GradScaler) and consider gradient clipping",
+          "B": "Remove all normalization layers from the model",
+          "C": "Switch to a larger batch size without any other changes",
+          "D": "Disable data augmentation entirely"
+        },
+        "question": "You are training a detector and observe unstable training with occasional NaNs in the loss when using mixed precision. Which mitigation is most appropriate in practice?",
+        "topic": "deep learning"
+      }
+    ],
+    "topics_covered": [
+      "Python",
+      "Sql",
+      "Statistics And Probability",
+      "Data Preprocessing And Feature Engineering",
+      "Model Evaluation And Validation",
+      "deep learning",
+      "TensorFlow",
+      "PyTorch"
+    ]
+  },
+  "success": true
+}

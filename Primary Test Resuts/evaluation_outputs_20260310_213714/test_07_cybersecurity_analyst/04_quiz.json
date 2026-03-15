@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:47:57.714981",
+      "learning_path_id": "test_07",
+      "target_occupation": "computer scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "TCP provides connection-oriented communication with sequencing, acknowledgments, and retransmissions to ensure reliable, ordered delivery.",
+        "id": 1,
+        "options": {
+          "A": "IP",
+          "B": "TCP",
+          "C": "ICMP",
+          "D": "ARP"
+        },
+        "question": "In the TCP/IP model, which protocol is primarily responsible for reliable, ordered delivery of data between applications?",
+        "topic": "Tcp/Ip And Networking Fundamentals"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A SIEM centralizes log collection and correlates events across sources to support detection, alerting, and investigations.",
+        "id": 2,
+        "options": {
+          "A": "Encrypt all network traffic end-to-end",
+          "B": "Aggregate and correlate security-relevant logs and alerts",
+          "C": "Patch operating systems automatically",
+          "D": "Replace endpoint antivirus with behavioral analysis"
+        },
+        "question": "What is the main purpose of a SIEM in a security monitoring program?",
+        "topic": "Security Monitoring (Siem)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Authentication events are often recorded in /var/log/auth.log (or a similar file), and tail shows the most recent entries.",
+        "id": 3,
+        "options": {
+          "A": "cat /etc/passwd",
+          "B": "tail /var/log/auth.log",
+          "C": "ls -la /home",
+          "D": "chmod 600 /var/log"
+        },
+        "question": "Which Linux command is commonly used to view recent authentication-related log entries on many distributions?",
+        "topic": "Linux Security"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A falsifiable hypothesis is testable and could be refuted by observations or experimental data.",
+        "id": 4,
+        "options": {
+          "A": "A claim that cannot be tested empirically",
+          "B": "A claim that can be tested and could be proven wrong by evidence",
+          "C": "A summary of related work from prior papers",
+          "D": "A conclusion drawn after analyzing results"
+        },
+        "question": "In scientific research methodology, which statement best describes a falsifiable hypothesis?",
+        "topic": "scientific research methodology"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Rapid, systematic changes to a query parameter are consistent with automated probing/fuzzing often used to find injection or enumeration weaknesses.",
+        "id": 5,
+        "options": {
+          "A": "Normal browser caching behavior",
+          "B": "SQL injection probing via parameter fuzzing/enumeration",
+          "C": "DNS zone transfer",
+          "D": "TLS certificate renewal"
+        },
+        "question": "You are analyzing web server logs and see many requests from one IP with rapidly changing URLs like /index.php?id=1, /index.php?id=2, /index.php?id=3. What is the most likely activity?",
+        "topic": "Log Analysis"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "MFA requires something beyond the password (e.g., token/biometric), making stolen credentials alone insufficient.",
+        "id": 6,
+        "options": {
+          "A": "Single Sign-On (SSO)",
+          "B": "Multi-Factor Authentication (MFA)",
+          "C": "Role-Based Access Control (RBAC)",
+          "D": "Just-In-Time (JIT) compilation"
+        },
+        "question": "Which IAM practice most directly reduces the impact of credential theft by requiring an additional verification factor?",
+        "topic": "Identity And Access Management (Iam)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Effective vulnerability management includes verification and risk-based prioritization (exposure, exploitability, business impact) before remediation.",
+        "id": 7,
+        "options": {
+          "A": "Immediately reboot the server to clear the vulnerability",
+          "B": "Validate the finding and assess exposure/asset criticality to prioritize remediation",
+          "C": "Disable all logging to reduce noise during patching",
+          "D": "Delete the scanner report because scanners often have false positives"
+        },
+        "question": "A vulnerability scanner reports a critical CVE on a production server. What is the best next step in vulnerability management before applying a fix?",
+        "topic": "Vulnerability Assessment And Management"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "This chain is highly suspicious for malware. Immediate containment (isolation) plus evidence preservation enables scoping, eradication, and root-cause analysis.",
+        "id": 8,
+        "options": {
+          "A": "Ignore it because Office often uses PowerShell for updates",
+          "B": "Isolate the endpoint from the network and preserve forensic evidence",
+          "C": "Delete the scheduled task only and close the alert",
+          "D": "Reimage the machine immediately without collecting any artifacts"
+        },
+        "question": "An EDR alert shows: a Word process spawns PowerShell, which downloads a script from an external domain and then creates a scheduled task for persistence. What is the most appropriate immediate incident response action?",
+        "topic": "Incident Response"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The rule correlates multiple events and context (failures, success, geo-change, time window) to detect suspicious behavior rather than a single static signature.",
+        "id": 9,
+        "options": {
+          "A": "Signature-based detection only",
+          "B": "Anomaly/behavior-based detection using correlated events",
+          "C": "Data loss prevention via content inspection",
+          "D": "Vulnerability scanning via authenticated checks"
+        },
+        "question": "A SIEM correlation rule triggers when a user has 20 failed logins followed by a success from a new country within 5 minutes. Which detection concept does this best represent?",
+        "topic": "Threat Detection And Analysis"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Verifying provenance (signatures/checksums), rebuilding in a controlled environment, and staged deployment reduces tampering and operational risk.",
+        "id": 10,
+        "options": {
+          "A": "Pull the latest code from a random fork and deploy directly to production",
+          "B": "Download a prebuilt binary from an unofficial file-sharing site for speed",
+          "C": "Verify the release signature/checksum from the official maintainers, rebuild in a controlled pipeline, and deploy via staged rollout",
+          "D": "Wait indefinitely; open-source fixes are usually optional"
+        },
+        "question": "You operate an open-source service from source. A security advisory announces a critical fix in a new release. What is the most robust approach to apply the update while reducing supply-chain risk?",
+        "topic": "operate open source software"
+      }
+    ],
+    "topics_covered": [
+      "Tcp/Ip And Networking Fundamentals",
+      "Log Analysis",
+      "Network Security",
+      "Security Monitoring (Siem)",
+      "Threat Detection And Analysis",
+      "Incident Response",
+      "Vulnerability Assessment And Management",
+      "Windows Security",
+      "Linux Security",
+      "Endpoint Detection And Response (Edr)",
+      "Identity And Access Management (Iam)",
+      "operate open source software",
+      "scientific research methodology",
+      "data science",
+      "manage personal professional development"
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,895 @@
+{
+  "learning_path": [
+    {
+      "comprehensive_guides": {
+        "Excel": "# 📚 Comprehensive Guide: Excel\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Excel in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Excel matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Excel enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Sql": "# 📚 Comprehensive Guide: Sql\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Sql in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Sql matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Sql enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "SQL Server Central",
+          "r/SQL",
+          "Database Administrators Stack Exchange"
+        ],
+        "documentation": [
+          "SQLite Documentation",
+          "MySQL Documentation",
+          "PostgreSQL Documentation"
+        ],
+        "online_courses": [
+          "Khan Academy Intro to SQL",
+          "SQLBolt Interactive Tutorial",
+          "Coursera SQL Specialization"
+        ],
+        "practice_platforms": [
+          "SQLZoo",
+          "LeetCode Database Problems",
+          "HackerRank SQL"
+        ],
+        "tutorials": [
+          "W3Schools SQL Tutorial",
+          "PostgreSQL Tutorial",
+          "SQLitetutorial.net"
+        ]
+      },
+      "objectives": [
+        "Use Excel to explore and organize tabular data",
+        "Write Sql queries to retrieve and filter data",
+        "Combine Excel outputs with Sql query results for analysis"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Excel",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/excel",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Sql",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/sql",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Excel",
+        "Sql"
+      ],
+      "title": "Working with Data in Excel and Sql"
+    },
+    {
+      "comprehensive_guides": {
+        "Data Cleaning (Pandas)": "# 📚 Comprehensive Guide: Data Cleaning (Pandas)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Data Cleaning (Pandas) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Data Cleaning (Pandas) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Data Cleaning (Pandas) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "Python Discord Server",
+          "Python Reddit Community",
+          "Stack Overflow Python Tag",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Official Python Documentation",
+          "Pandas Documentation",
+          "Python Package Index (PyPI)",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "Codewars",
+          "LeetCode",
+          "HackerRank",
+          "DataCamp Practice"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Matplotlib Tutorials",
+          "Automate the Boring Stuff",
+          "Python Tutorial at W3Schools",
+          "Pandas Documentation Tutorials"
+        ]
+      },
+      "objectives": [
+        "Load datasets in Python for cleaning workflows",
+        "Apply Data Cleaning (Pandas) techniques to handle missing values and inconsistent formats",
+        "Validate cleaned outputs for downstream use"
+      ],
+      "prerequisites": [
+        "Excel"
+      ],
+      "session_number": 2,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Data Cleaning (Pandas)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/data-cleaning-(pandas)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Python",
+        "Data Cleaning (Pandas)"
+      ],
+      "title": "Data Cleaning (Pandas) with Python"
+    },
+    {
+      "comprehensive_guides": {
+        "statistics": "# 📚 Comprehensive Guide: statistics\n\n## 🎯 Overview\nThe study of statistical theory, methods and practices such as collection, organisation, analysis, interpretation and presentation of data. It deals with all aspects of data including the planning of data collection in terms of the design of surveys and experiments in order to forecast and plan work-related activities.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply statistics in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why statistics matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How statistics enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Summarize datasets using statistics",
+        "Interpret variability and distributions using statistics",
+        "Use statistics to support data quality checks"
+      ],
+      "prerequisites": [
+        "Data Cleaning (Pandas)"
+      ],
+      "session_number": 3,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The study of statistical theory, methods and practices such as collection, organisation, analysis, interpretation and presentation of data. It deals with all aspects of data including the planning of data collection in terms of the design of surveys and experiments in order to forecast and plan work-related activities.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "statistics",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "statistics"
+      ],
+      "title": "statistics for Data Understanding"
+    },
+    {
+      "comprehensive_guides": {
+        "Data Modeling": "# 📚 Comprehensive Guide: Data Modeling\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Data Modeling in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Data Modeling matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Data Modeling enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Sql": "# 📚 Comprehensive Guide: Sql\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Sql in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Sql matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Sql enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "database design": "# 📚 Comprehensive Guide: database design\n\n## 🎯 Overview\nThe type of infrastructure which defines the format of data: semi-structured, unstructured and structured.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply database design in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why database design matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How database design enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "r/SQL",
+          "Database Administrators Stack Exchange",
+          "Data Science Central",
+          "SQL Server Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "SQLite Documentation",
+          "MySQL Documentation",
+          "PostgreSQL Documentation",
+          "Pandas Documentation"
+        ],
+        "online_courses": [
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate",
+          "Khan Academy Intro to SQL",
+          "SQLBolt Interactive Tutorial",
+          "Microsoft Power BI Course"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "LeetCode Database Problems",
+          "Kaggle Learn",
+          "SQLZoo"
+        ],
+        "tutorials": [
+          "W3Schools SQL Tutorial",
+          "Matplotlib Tutorials",
+          "SQLitetutorial.net",
+          "PostgreSQL Tutorial",
+          "Pandas Documentation Tutorials"
+        ]
+      },
+      "objectives": [
+        "Create a Data Modeling approach for analytical use cases",
+        "Design tables and relationships using database design",
+        "Align Data Modeling decisions with Sql querying needs"
+      ],
+      "prerequisites": [
+        "Sql",
+        "statistics"
+      ],
+      "session_number": 4,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Data Modeling",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/data-modeling",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The type of infrastructure which defines the format of data: semi-structured, unstructured and structured.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "database design",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/03ff0d53-573a-47a0-a0ad-1995815a4339",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Sql",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/sql",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Data Modeling",
+        "database design",
+        "Sql"
+      ],
+      "title": "Data Modeling and database design Fundamentals"
+    },
+    {
+      "comprehensive_guides": {
+        "Data Cleaning (Pandas)": "# 📚 Comprehensive Guide: Data Cleaning (Pandas)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Data Cleaning (Pandas) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Data Cleaning (Pandas) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Data Cleaning (Pandas) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "data engineering": "# 📚 Comprehensive Guide: data engineering\n\n## 🎯 Overview\nThe process of developing and constructing systems for implementing data collection and analysis at large scale.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data engineering in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data engineering matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data engineering enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "Python Discord Server",
+          "Python Reddit Community",
+          "Stack Overflow Python Tag",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Official Python Documentation",
+          "Pandas Documentation",
+          "Python Package Index (PyPI)",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "Codewars",
+          "LeetCode",
+          "DataCamp Practice",
+          "HackerRank"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Matplotlib Tutorials",
+          "Automate the Boring Stuff",
+          "Python Tutorial at W3Schools",
+          "Pandas Documentation Tutorials"
+        ]
+      },
+      "objectives": [
+        "Plan data engineering steps from raw to curated datasets",
+        "Use Python to implement repeatable data engineering workflows",
+        "Prepare cleaned, structured data for Data Modeling"
+      ],
+      "prerequisites": [
+        "Data Modeling",
+        "Data Cleaning (Pandas)"
+      ],
+      "session_number": 5,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The process of developing and constructing systems for implementing data collection and analysis at large scale.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "data engineering",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/48db96bf-3314-45c6-bad8-fdb6e20e5639",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Data Cleaning (Pandas)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/data-cleaning-(pandas)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "data engineering",
+        "Python",
+        "Data Cleaning (Pandas)"
+      ],
+      "title": "data engineering for Reliable Data Pipelines"
+    },
+    {
+      "comprehensive_guides": {
+        "data mining": "# 📚 Comprehensive Guide: data mining\n\n## 🎯 Overview\nThe methods of artificial intelligence, machine learning, statistics and databases used to extract content from a dataset.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data mining in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data mining matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data mining enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "perform data mining": "# 📚 Comprehensive Guide: perform data mining\n\n## 🎯 Overview\nExplore large datasets to reveal patterns using statistics, database systems or artificial intelligence and present the information in a comprehensible way.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply perform data mining in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why perform data mining matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How perform data mining enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "statistics": "# 📚 Comprehensive Guide: statistics\n\n## 🎯 Overview\nThe study of statistical theory, methods and practices such as collection, organisation, analysis, interpretation and presentation of data. It deals with all aspects of data including the planning of data collection in terms of the design of surveys and experiments in order to forecast and plan work-related activities.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply statistics in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why statistics matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How statistics enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "KDnuggets Community",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Pandas Documentation",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Microsoft Power BI Course",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "tutorials": [
+          "Pandas Documentation Tutorials",
+          "Matplotlib Tutorials",
+          "NumPy Quickstart"
+        ]
+      },
+      "objectives": [
+        "Explain core concepts in data mining",
+        "perform data mining to identify patterns and segments",
+        "Use statistics to evaluate and compare findings"
+      ],
+      "prerequisites": [
+        "statistics",
+        "Python"
+      ],
+      "session_number": 6,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The methods of artificial intelligence, machine learning, statistics and databases used to extract content from a dataset.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "data mining",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Explore large datasets to reveal patterns using statistics, database systems or artificial intelligence and present the information in a comprehensible way.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "perform data mining",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/4216e465-7baa-4884-a241-54b197bb9278",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The study of statistical theory, methods and practices such as collection, organisation, analysis, interpretation and presentation of data. It deals with all aspects of data including the planning of data collection in terms of the design of surveys and experiments in order to forecast and plan work-related activities.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "statistics",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "data mining",
+        "perform data mining",
+        "statistics"
+      ],
+      "title": "data mining and perform data mining on Structured Data"
+    },
+    {
+      "comprehensive_guides": {
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "data engineering": "# 📚 Comprehensive Guide: data engineering\n\n## 🎯 Overview\nThe process of developing and constructing systems for implementing data collection and analysis at large scale.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data engineering in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data engineering matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data engineering enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "unstructured data": "# 📚 Comprehensive Guide: unstructured data\n\n## 🎯 Overview\nThe information that is not arranged in a pre-defined manner or does not have a pre-defined data model and is difficult to understand and find patterns in without using techniques such as data mining.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply unstructured data in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why unstructured data matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How unstructured data enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "Python Discord Server",
+          "Python Reddit Community",
+          "Stack Overflow Python Tag",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Official Python Documentation",
+          "Pandas Documentation",
+          "Python Package Index (PyPI)",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "Codewars",
+          "LeetCode",
+          "DataCamp Practice",
+          "HackerRank"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Matplotlib Tutorials",
+          "Automate the Boring Stuff",
+          "Python Tutorial at W3Schools",
+          "Pandas Documentation Tutorials"
+        ]
+      },
+      "objectives": [
+        "Identify common forms of unstructured data and typical challenges",
+        "Prepare unstructured data for analysis-ready structures",
+        "Integrate unstructured data into data engineering workflows"
+      ],
+      "prerequisites": [
+        "data engineering"
+      ],
+      "session_number": 7,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The information that is not arranged in a pre-defined manner or does not have a pre-defined data model and is difficult to understand and find patterns in without using techniques such as data mining.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "unstructured data",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The process of developing and constructing systems for implementing data collection and analysis at large scale.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "data engineering",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/48db96bf-3314-45c6-bad8-fdb6e20e5639",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "unstructured data",
+        "data engineering",
+        "Python"
+      ],
+      "title": "Working with unstructured data"
+    },
+    {
+      "comprehensive_guides": {
+        "Dashboard Design": "# 📚 Comprehensive Guide: Dashboard Design\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Dashboard Design in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Dashboard Design matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Dashboard Design enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "data visualization": "# 📚 Comprehensive Guide: data visualization\n\n## 🎯 Overview\nThe visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data visualization in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data visualization matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data visualization enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "KDnuggets Community",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Pandas Documentation",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Microsoft Power BI Course",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "tutorials": [
+          "Pandas Documentation Tutorials",
+          "Matplotlib Tutorials",
+          "NumPy Quickstart"
+        ]
+      },
+      "objectives": [
+        "Apply data visualization principles to communicate insights",
+        "Design effective layouts using Dashboard Design",
+        "Select appropriate chart types for different analytical questions"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "session_number": 8,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "data visualization",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Dashboard Design",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/dashboard-design",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "data visualization",
+        "Dashboard Design"
+      ],
+      "title": "data visualization and Dashboard Design Foundations"
+    },
+    {
+      "comprehensive_guides": {
+        "Business Intelligence (Power Bi)": "# 📚 Comprehensive Guide: Business Intelligence (Power Bi)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Business Intelligence (Power Bi) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Business Intelligence (Power Bi) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Business Intelligence (Power Bi) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Dashboard Design": "# 📚 Comprehensive Guide: Dashboard Design\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Dashboard Design in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Dashboard Design matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Dashboard Design enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Data Modeling": "# 📚 Comprehensive Guide: Data Modeling\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Data Modeling in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Data Modeling matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Data Modeling enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "KDnuggets Community",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Pandas Documentation",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Microsoft Power BI Course",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "tutorials": [
+          "Pandas Documentation Tutorials",
+          "Matplotlib Tutorials",
+          "NumPy Quickstart"
+        ]
+      },
+      "objectives": [
+        "Build reports using Business Intelligence (Power Bi)",
+        "Create interactive visuals aligned with Dashboard Design",
+        "Connect modeled data to Business Intelligence (Power Bi) reporting needs"
+      ],
+      "prerequisites": [
+        "Data Modeling",
+        "data visualization"
+      ],
+      "session_number": 9,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Business Intelligence (Power Bi)",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/business-intelligence-(power-bi)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Dashboard Design",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/dashboard-design",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Data Modeling",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/data-modeling",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Business Intelligence (Power Bi)",
+        "Dashboard Design",
+        "Data Modeling"
+      ],
+      "title": "Business Intelligence (Power Bi) for Reporting"
+    },
+    {
+      "comprehensive_guides": {
+        "Dashboard Design": "# 📚 Comprehensive Guide: Dashboard Design\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Data Analyst.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Dashboard Design in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Dashboard Design matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Dashboard Design enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "data visualisation software": "# 📚 Comprehensive Guide: data visualisation software\n\n## 🎯 Overview\nA computer tool or application that creates a graphical and visual representation of data, allowing a better understanding and interpretation of complex data through visual elements such as maps, charts, infographics or graphs.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data visualisation software in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data visualisation software matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data visualisation software enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "data visualization": "# 📚 Comprehensive Guide: data visualization\n\n## 🎯 Overview\nThe visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data visualization in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data visualization matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data visualization enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "KDnuggets Community",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Pandas Documentation",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Microsoft Power BI Course",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "tutorials": [
+          "Pandas Documentation Tutorials",
+          "Matplotlib Tutorials",
+          "NumPy Quickstart"
+        ]
+      },
+      "objectives": [
+        "Use data visualisation software to refine visual outputs",
+        "Apply data visualization standards for consistency and clarity",
+        "Package dashboards for stakeholder consumption"
+      ],
+      "prerequisites": [
+        "Business Intelligence (Power Bi)"
+      ],
+      "session_number": 10,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "A computer tool or application that creates a graphical and visual representation of data, allowing a better understanding and interpretation of complex data through visual elements such as maps, charts, infographics or graphs.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "data visualisation software",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "data visualization",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Data Analyst.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Dashboard Design",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/dashboard-design",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "data visualisation software",
+        "data visualization",
+        "Dashboard Design"
+      ],
+      "title": "data visualisation software for Polished Delivery"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Data analysts import, inspect, clean, transform, validate, model, or interpret collections of data with regard to the business goals of the company. They ensure that the data sources and repositories provide consistent and reliable data. Data analysts use different algorithms and IT tools as demanded by the situation and the current data. They might prepare reports in the form of visualisations such as graphs, charts, and dashboards.",
+    "label": "data analyst",
+    "similarity_score": 1.0,
+    "uri": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 31,
+    "skills_in_path": 10,
+    "skills_to_learn": 31,
+    "total_skills_needed": 32
+  },
+  "user_id": "eval_user_23"
+}

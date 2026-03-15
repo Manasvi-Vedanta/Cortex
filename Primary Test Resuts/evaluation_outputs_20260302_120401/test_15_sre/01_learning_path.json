@@ -1,0 +1,741 @@
+{
+  "learning_path": [
+    {
+      "comprehensive_guides": {
+        "Linux Systems Administration": "# 📚 Comprehensive Guide: Linux Systems Administration\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Linux Systems Administration in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Linux Systems Administration matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Linux Systems Administration enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering principles": "# 📚 Comprehensive Guide: engineering principles\n\n## 🎯 Overview\nThe engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering principles in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering principles matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering principles enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Administer users, permissions, services, and packages on Linux systems",
+        "Troubleshoot common Linux performance and availability issues using standard system tools",
+        "Apply engineering principles to make operational changes safely and repeatably"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Linux Systems Administration",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/linux-systems-administration",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering principles",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Linux Systems Administration",
+        "engineering principles"
+      ],
+      "title": "Linux Systems Administration Foundations for Reliable Operations"
+    },
+    {
+      "comprehensive_guides": {
+        "Scripting (Python)": "# 📚 Comprehensive Guide: Scripting (Python)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Scripting (Python) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Scripting (Python) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Scripting (Python) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering processes": "# 📚 Comprehensive Guide: engineering processes\n\n## 🎯 Overview\nThe systematic approach to the development and maintenance of engineering systems.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering processes in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering processes matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering processes enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "Python Reddit Community",
+          "Python Discord Server",
+          "Stack Overflow Python Tag"
+        ],
+        "documentation": [
+          "Official Python Documentation",
+          "Python Package Index (PyPI)"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "LeetCode",
+          "HackerRank",
+          "Python Challenge",
+          "Codewars"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Automate the Boring Stuff",
+          "Python Tutorial at W3Schools"
+        ]
+      },
+      "objectives": [
+        "Write Python scripts to automate routine operational tasks",
+        "Handle errors, logging output, and safe retries in automation scripts",
+        "Use engineering processes to review, test, and deploy scripts responsibly"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration",
+        "engineering principles"
+      ],
+      "session_number": 2,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Scripting (Python)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/scripting-(python)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The systematic approach to the development and maintenance of engineering systems.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering processes",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Scripting (Python)",
+        "engineering processes"
+      ],
+      "title": "Scripting (Python) for Automation and Operational Efficiency"
+    },
+    {
+      "comprehensive_guides": {
+        "Containers (Docker)": "# 📚 Comprehensive Guide: Containers (Docker)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Containers (Docker) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Containers (Docker) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Containers (Docker) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering principles": "# 📚 Comprehensive Guide: engineering principles\n\n## 🎯 Overview\nThe engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering principles in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering principles matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering principles enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Create and run container images and containers using Docker",
+        "Understand container isolation, networking, and storage basics",
+        "Apply engineering principles to standardize container build and runtime practices"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration"
+      ],
+      "session_number": 3,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Containers (Docker)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/containers-(docker)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering principles",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Containers (Docker)",
+        "engineering principles"
+      ],
+      "title": "Containers (Docker): Building, Running, and Operating Containerized Workloads"
+    },
+    {
+      "comprehensive_guides": {
+        "Orchestration (Kubernetes)": "# 📚 Comprehensive Guide: Orchestration (Kubernetes)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Orchestration (Kubernetes) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Orchestration (Kubernetes) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Orchestration (Kubernetes) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering processes": "# 📚 Comprehensive Guide: engineering processes\n\n## 🎯 Overview\nThe systematic approach to the development and maintenance of engineering systems.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering processes in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering processes matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering processes enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Explain Kubernetes primitives and how they support reliability and scaling",
+        "Perform basic operational tasks: deploy, update, and troubleshoot workloads",
+        "Use engineering processes to manage changes and reduce operational risk"
+      ],
+      "prerequisites": [
+        "Containers (Docker)",
+        "Linux Systems Administration"
+      ],
+      "session_number": 4,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Orchestration (Kubernetes)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/orchestration-(kubernetes)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The systematic approach to the development and maintenance of engineering systems.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering processes",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Orchestration (Kubernetes)",
+        "engineering processes"
+      ],
+      "title": "Orchestration (Kubernetes): Core Concepts and Day-2 Operations"
+    },
+    {
+      "comprehensive_guides": {
+        "Infrastructure As Code (Terraform)": "# 📚 Comprehensive Guide: Infrastructure As Code (Terraform)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Infrastructure As Code (Terraform) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Infrastructure As Code (Terraform) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Infrastructure As Code (Terraform) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering principles": "# 📚 Comprehensive Guide: engineering principles\n\n## 🎯 Overview\nThe engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering principles in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering principles matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering principles enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Model infrastructure changes using Terraform in a safe, repeatable way",
+        "Plan and apply changes with an emphasis on minimizing risk",
+        "Use engineering principles to enforce consistency and reduce configuration drift"
+      ],
+      "prerequisites": [
+        "Cloud Platforms (Aws/Gcp/Azure)",
+        "engineering processes"
+      ],
+      "session_number": 5,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Infrastructure As Code (Terraform)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/infrastructure-as-code-(terraform)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering principles",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Infrastructure As Code (Terraform)",
+        "engineering principles"
+      ],
+      "title": "Infrastructure As Code (Terraform): Reproducible Infrastructure Delivery"
+    },
+    {
+      "comprehensive_guides": {
+        "Cloud Platforms (Aws/Gcp/Azure)": "# 📚 Comprehensive Guide: Cloud Platforms (Aws/Gcp/Azure)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Cloud Platforms (Aws/Gcp/Azure) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Cloud Platforms (Aws/Gcp/Azure) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Cloud Platforms (Aws/Gcp/Azure) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "cost management": "# 📚 Comprehensive Guide: cost management\n\n## 🎯 Overview\nThe process of planning, monitoring and adjusting the expenses and revenues of a business in order to achieve cost efficiency and capability.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply cost management in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why cost management matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How cost management enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Compare core cloud building blocks and operational responsibilities across major platforms",
+        "Identify common failure modes and operational guardrails in cloud environments",
+        "Incorporate cost management considerations into architecture and operations decisions"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration",
+        "engineering principles"
+      ],
+      "session_number": 6,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Cloud Platforms (Aws/Gcp/Azure)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/cloud-platforms-(aws/gcp/azure)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The process of planning, monitoring and adjusting the expenses and revenues of a business in order to achieve cost efficiency and capability.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "cost management",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Cloud Platforms (Aws/Gcp/Azure)",
+        "cost management"
+      ],
+      "title": "Cloud Platforms (Aws/Gcp/Azure): Operational Patterns and Governance Basics"
+    },
+    {
+      "comprehensive_guides": {
+        "Ci/Cd Pipelines (Jenkins/Github Actions)": "# 📚 Comprehensive Guide: Ci/Cd Pipelines (Jenkins/Github Actions)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Ci/Cd Pipelines (Jenkins/Github Actions) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Ci/Cd Pipelines (Jenkins/Github Actions) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Ci/Cd Pipelines (Jenkins/Github Actions) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering processes": "# 📚 Comprehensive Guide: engineering processes\n\n## 🎯 Overview\nThe systematic approach to the development and maintenance of engineering systems.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering processes in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering processes matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering processes enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Design a CI/CD pipeline that builds, tests, and deploys consistently",
+        "Implement controlled rollout practices aligned with engineering processes",
+        "Reduce operational risk by standardizing delivery workflows"
+      ],
+      "prerequisites": [
+        "Scripting (Python)",
+        "Containers (Docker)"
+      ],
+      "session_number": 7,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "beginner",
+          "explanation": "Essential skill for this occupation",
+          "label": "Ci/Cd Pipelines (Jenkins/Github Actions)",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/ci/cd-pipelines-(jenkins/github-actions)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The systematic approach to the development and maintenance of engineering systems.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering processes",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Ci/Cd Pipelines (Jenkins/Github Actions)",
+        "engineering processes"
+      ],
+      "title": "Ci/Cd Pipelines (Jenkins/Github Actions): Delivery Automation for Reliability"
+    },
+    {
+      "comprehensive_guides": {
+        "Monitoring And Observability (Prometheus/Grafana)": "# 📚 Comprehensive Guide: Monitoring And Observability (Prometheus/Grafana)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Monitoring And Observability (Prometheus/Grafana) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Monitoring And Observability (Prometheus/Grafana) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Monitoring And Observability (Prometheus/Grafana) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering principles": "# 📚 Comprehensive Guide: engineering principles\n\n## 🎯 Overview\nThe engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering principles in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering principles matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering principles enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Define key service metrics and build dashboards for operational visibility",
+        "Create alerting strategies that reduce noise and improve response time",
+        "Apply engineering principles to iterate on observability based on outcomes"
+      ],
+      "prerequisites": [
+        "Orchestration (Kubernetes)",
+        "Linux Systems Administration"
+      ],
+      "session_number": 8,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Monitoring And Observability (Prometheus/Grafana)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/monitoring-and-observability-(prometheus/grafana)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering principles",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Monitoring And Observability (Prometheus/Grafana)",
+        "engineering principles"
+      ],
+      "title": "Monitoring And Observability (Prometheus/Grafana): Metrics-Driven Operations"
+    },
+    {
+      "comprehensive_guides": {
+        "Logging And Tracing (Elk/Opentelemetry)": "# 📚 Comprehensive Guide: Logging And Tracing (Elk/Opentelemetry)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Logging And Tracing (Elk/Opentelemetry) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Logging And Tracing (Elk/Opentelemetry) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Logging And Tracing (Elk/Opentelemetry) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering processes": "# 📚 Comprehensive Guide: engineering processes\n\n## 🎯 Overview\nThe systematic approach to the development and maintenance of engineering systems.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering processes in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering processes matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering processes enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Structure logs for effective search and correlation",
+        "Use tracing concepts to follow requests across components",
+        "Integrate logs and traces into engineering processes for faster debugging and learning"
+      ],
+      "prerequisites": [
+        "Distributed Systems Fundamentals",
+        "Scripting (Python)"
+      ],
+      "session_number": 9,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Logging And Tracing (Elk/Opentelemetry)",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/logging-and-tracing-(elk/opentelemetry)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The systematic approach to the development and maintenance of engineering systems.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering processes",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Logging And Tracing (Elk/Opentelemetry)",
+        "engineering processes"
+      ],
+      "title": "Logging And Tracing (Elk/Opentelemetry): Diagnosing Issues End-to-End"
+    },
+    {
+      "comprehensive_guides": {
+        "Distributed Systems Fundamentals": "# 📚 Comprehensive Guide: Distributed Systems Fundamentals\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Distributed Systems Fundamentals in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Distributed Systems Fundamentals matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Distributed Systems Fundamentals enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering principles": "# 📚 Comprehensive Guide: engineering principles\n\n## 🎯 Overview\nThe engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering principles in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering principles matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering principles enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Explain common distributed systems trade-offs and failure scenarios",
+        "Identify patterns that improve resilience and operability",
+        "Apply engineering principles to design for predictable behavior under failure"
+      ],
+      "prerequisites": [
+        "Linux Systems Administration"
+      ],
+      "session_number": 10,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "beginner",
+          "explanation": "Essential skill for this occupation",
+          "label": "Distributed Systems Fundamentals",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/distributed-systems-fundamentals",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering principles",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Distributed Systems Fundamentals",
+        "engineering principles"
+      ],
+      "title": "Distributed Systems Fundamentals: Reliability, Consistency, and Failure Modes"
+    },
+    {
+      "comprehensive_guides": {
+        "Incident Response And On-Call Operations": "# 📚 Comprehensive Guide: Incident Response And On-Call Operations\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Site Reliability Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Incident Response And On-Call Operations in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Incident Response And On-Call Operations matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Incident Response And On-Call Operations enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "engineering processes": "# 📚 Comprehensive Guide: engineering processes\n\n## 🎯 Overview\nThe systematic approach to the development and maintenance of engineering systems.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering processes in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering processes matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering processes enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Execute structured incident response: detection, triage, mitigation, and recovery",
+        "Create and improve runbooks to standardize on-call actions",
+        "Use engineering processes to conduct blameless post-incident learning and follow-ups"
+      ],
+      "prerequisites": [
+        "Monitoring And Observability (Prometheus/Grafana)",
+        "Logging And Tracing (Elk/Opentelemetry)"
+      ],
+      "session_number": 11,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Site Reliability Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Incident Response And On-Call Operations",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/incident-response-and-on-call-operations",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The systematic approach to the development and maintenance of engineering systems.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering processes",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Incident Response And On-Call Operations",
+        "engineering processes"
+      ],
+      "title": "Incident Response And On-Call Operations: Runbooks, Triage, and Postmortems"
+    },
+    {
+      "comprehensive_guides": {
+        "cost management": "# 📚 Comprehensive Guide: cost management\n\n## 🎯 Overview\nThe process of planning, monitoring and adjusting the expenses and revenues of a business in order to achieve cost efficiency and capability.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply cost management in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why cost management matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How cost management enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "six sigma methods ": "# 📚 Comprehensive Guide: six sigma methods \n\n## 🎯 Overview\nSix Sigma is a methodology to manage processes increasing the performance and decreasing process variations. The ultimate goal of this methodology is to reduce defects and improve the quality of products and services. \n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply six sigma methods  in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why six sigma methods  matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How six sigma methods  enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Apply six sigma methods to reduce defects and variability in operational workflows",
+        "Measure and improve key process outcomes using a structured approach",
+        "Connect process improvements to cost management outcomes and sustained reliability"
+      ],
+      "prerequisites": [
+        "engineering processes",
+        "engineering principles"
+      ],
+      "session_number": 12,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Six Sigma is a methodology to manage processes increasing the performance and decreasing process variations. The ultimate goal of this methodology is to reduce defects and improve the quality of products and services. ",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "six sigma methods ",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/4c2c72df-3f3f-48e7-9993-a602354a75e4",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The process of planning, monitoring and adjusting the expenses and revenues of a business in order to achieve cost efficiency and capability.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "cost management",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "six sigma methods ",
+        "cost management"
+      ],
+      "title": "Six Sigma Methods for Operational Excellence and Cost Management"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Dependability engineers ensure the reliability, availability and maintainability (RAM) of a production process or a system. They focus on improving the capability to function without interruption and operate when needed, and on increasing the easiness of repairing, replacing or upgrading the product. ",
+    "label": "dependability engineer",
+    "similarity_score": 0.8754927797838121,
+    "uri": "http://data.europa.eu/esco/occupation/07dfff6d-a0d0-4202-a697-fe9176c15999"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 32,
+    "skills_in_path": 12,
+    "skills_to_learn": 32,
+    "total_skills_needed": 33
+  },
+  "user_id": "eval_user_15"
+}

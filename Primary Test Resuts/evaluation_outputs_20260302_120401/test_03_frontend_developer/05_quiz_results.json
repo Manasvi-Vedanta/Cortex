@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:08:00.236020",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A variable holds a value (e.g., number, string, object) so code can read and update it during execution.",
+        "is_correct": true,
+        "question": "In programming, what is a variable primarily used for?",
+        "question_id": 1,
+        "topic": "programming",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "<main> represents the dominant content of the <body> and should be unique per page.",
+        "is_correct": true,
+        "question": "Which HTML5 element is most appropriate for the main content of a document (excluding headers, footers, and sidebars)?",
+        "question_id": 2,
+        "topic": "Html5",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Media queries apply different CSS rules based on conditions like viewport width, enabling responsive design.",
+        "is_correct": true,
+        "question": "Which CSS3 feature is specifically designed to create layouts that adapt to different screen sizes?",
+        "question_id": 3,
+        "topic": "Responsive Web Design",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Elements panel shows the DOM tree and associated styles, allowing live edits for debugging.",
+        "is_correct": true,
+        "question": "In browser DevTools, which panel is typically used to inspect and edit the DOM and CSS rules live?",
+        "question_id": 4,
+        "topic": "Browser Devtools",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "CSS Grid is designed for two-dimensional layouts, controlling both rows and columns efficiently.",
+        "is_correct": true,
+        "question": "You need to create a two-dimensional layout (rows and columns) for a dashboard. Which CSS3 layout system is best suited?",
+        "question_id": 5,
+        "topic": "Css3",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Icon-only controls need an accessible name (e.g., aria-label or visible text) so assistive tech can announce the purpose.",
+        "is_correct": true,
+        "question": "A button is implemented as an icon-only control. Which approach best improves accessibility for screen readers?",
+        "question_id": 6,
+        "topic": "Accessibility (Wcag/Aria)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "useEffect runs side-effect logic after render and can clean up effects (e.g., unsubscribing) when dependencies change.",
+        "is_correct": false,
+        "question": "In React, what is the primary purpose of the useEffect hook?",
+        "question_id": 7,
+        "topic": "React",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Modern formats and responsive images reduce bytes transferred while keeping the same displayed size and quality targets.",
+        "is_correct": false,
+        "question": "Your page loads slowly due to large images. Which change most directly improves performance without changing visual dimensions?",
+        "question_id": 8,
+        "topic": "Web Performance Optimization",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "A gradual approach (allowJs + staged strictness) minimizes disruption while steadily increasing type safety.",
+        "is_correct": false,
+        "question": "You are adding TypeScript to an existing JavaScript project. Which approach is generally the safest incremental migration strategy?",
+        "question_id": 9,
+        "topic": "Add TypeScript",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Git provides version control, and platforms like GitHub/GitLab add workflows for reviews, branching, tags, and releases.",
+        "is_correct": false,
+        "question": "A team needs to track changes, review code, and manage releases for a web app. Which tool best fits software configuration management needs?",
+        "question_id": 10,
+        "topic": "tools for software configuration management",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: React, Web Performance Optimization, Add TypeScript",
+      "✅ Your strongest areas: programming, Html5"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "programming",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Html5",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Responsive Web Design",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Browser Devtools",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Css3",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Accessibility (Wcag/Aria)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "React",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Web Performance Optimization",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Add TypeScript",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

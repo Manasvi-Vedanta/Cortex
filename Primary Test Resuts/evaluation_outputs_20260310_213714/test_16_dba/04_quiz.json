@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:03:10.927437",
+      "learning_path_id": "test_16",
+      "target_occupation": "database administrator",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Transaction logs record changes (redo/undo information) so the DBMS can recover committed work and roll back incomplete work after failures.",
+        "id": 1,
+        "options": {
+          "A": "To store query execution plans for faster reuse",
+          "B": "To record changes so the database can recover to a consistent state after a crash",
+          "C": "To keep a copy of all indexes for quick rebuilds",
+          "D": "To compress table data to save disk space"
+        },
+        "question": "In a database management system (DBMS), what is the primary purpose of the transaction log (e.g., WAL in PostgreSQL, transaction log in SQL Server)?",
+        "topic": "database management systems"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "'top' provides a live view of CPU, memory, and process activity, useful for diagnosing DB server resource pressure.",
+        "id": 2,
+        "options": {
+          "A": "top",
+          "B": "tar",
+          "C": "chmod",
+          "D": "grep"
+        },
+        "question": "On Linux/Unix, which command is commonly used to view real-time CPU and memory usage to quickly assess database host load?",
+        "topic": "Linux/Unix Administration"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A foreign key ensures referenced values exist in the parent table (or are NULL if allowed), enforcing referential integrity.",
+        "id": 3,
+        "options": {
+          "A": "Uniqueness of values in a column",
+          "B": "That a column cannot contain NULL values",
+          "C": "Referential integrity between a child table and a parent table",
+          "D": "Automatic encryption of referenced columns"
+        },
+        "question": "In data modeling, what does a FOREIGN KEY constraint enforce?",
+        "topic": "Data Modeling And Schema Design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "InnoDB supports transactions, row-level locking, and crash recovery, making it the standard ACID-capable engine.",
+        "id": 4,
+        "options": {
+          "A": "MyISAM",
+          "B": "InnoDB",
+          "C": "MEMORY",
+          "D": "CSV"
+        },
+        "question": "In MySQL, which storage engine is commonly used by default and supports ACID transactions?",
+        "topic": "MySQL"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "work_mem is allocated per sort/hash operation (per node), and insufficient values can cause disk spills during sorts/joins.",
+        "id": 5,
+        "options": {
+          "A": "shared_buffers",
+          "B": "work_mem",
+          "C": "maintenance_work_mem",
+          "D": "effective_cache_size"
+        },
+        "question": "In PostgreSQL, which configuration parameter primarily controls how much memory is used for each sort/hash operation before spilling to disk?",
+        "topic": "PostgreSQL"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Query Store persists query texts, plans, and runtime statistics over time, enabling performance regression analysis.",
+        "id": 6,
+        "options": {
+          "A": "SQL Server Agent Alerts",
+          "B": "Query Store",
+          "C": "Database Mail",
+          "D": "Policy-Based Management"
+        },
+        "question": "In SQL Server, which feature provides a built-in way to capture and query historical performance metrics (CPU, waits, I/O) for troubleshooting over time?",
+        "topic": "SQL Server"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "With (customer_id, order_date), the index can efficiently seek by customer_id and then read rows already ordered by order_date.",
+        "id": 7,
+        "options": {
+          "A": "A composite B-tree index on (customer_id, order_date)",
+          "B": "A composite B-tree index on (order_date, customer_id)",
+          "C": "A hash index on (customer_id)",
+          "D": "A full-text index on (order_date)"
+        },
+        "question": "A query frequently filters on (customer_id) and then sorts by (order_date). Which index best supports both the filter and the sort in most relational databases?",
+        "topic": "Indexing And Query Optimization"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "PITR requires restoring a base backup and then replaying archived WAL to a target time/LSN before the unwanted change, then promoting.",
+        "id": 8,
+        "options": {
+          "A": "Restore the base backup and replay WAL until just before 14:05, then promote the instance",
+          "B": "Restore only the latest WAL files without the base backup",
+          "C": "Run VACUUM FULL to undo the DELETE",
+          "D": "Rebuild indexes and restart PostgreSQL to revert the data"
+        },
+        "question": "You need point-in-time recovery (PITR) for a PostgreSQL database after an accidental DELETE at 14:05. You have a base backup from last night and continuous archiving enabled. What is the correct recovery approach?",
+        "topic": "Backup And Recovery"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Asynchronous replication can be lagged; ensuring read-after-write requires primary reads or waiting until a replica has applied the transaction (e.g., GTID/position-based checks).",
+        "id": 9,
+        "options": {
+          "A": "Send all reads to replicas and increase replica count",
+          "B": "Use read-after-write consistency by routing that user's reads to the primary (or to a replica only after confirming it has applied the relevant GTID/position)",
+          "C": "Disable binary logging to reduce replication overhead",
+          "D": "Switch replicas to statement-based replication to make them faster"
+        },
+        "question": "A MySQL primary is overloaded by read traffic. You add replicas for read scaling, but the application must never read stale data immediately after a user updates their profile. Which strategy best addresses this requirement?",
+        "topic": "Replication And Clustering"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Synchronous replication minimizes data loss (near-zero RPO) and automatic failover reduces downtime (low RTO) compared to async or backup-only approaches.",
+        "id": 10,
+        "options": {
+          "A": "Nightly full backups stored offsite",
+          "B": "Asynchronous replication to a standby with manual failover",
+          "C": "Synchronous replication with automatic failover (e.g., SQL Server Always On synchronous commit / PostgreSQL synchronous standby with a failover manager)",
+          "D": "Single server with RAID-10 and a UPS"
+        },
+        "question": "You are designing HA/DR for a mission-critical database with an RPO near zero and an RTO under 1 minute across two data centers. Which architecture most directly meets these targets?",
+        "topic": "High Availability And Disaster Recovery (Ha/Dr)"
+      }
+    ],
+    "topics_covered": [
+      "database management systems",
+      "Linux/Unix Administration",
+      "Database Installation And Configuration",
+      "Data Modeling And Schema Design",
+      "MySQL",
+      "PostgreSQL",
+      "SQL Server",
+      "Transaction Management And Concurrency Control",
+      "Indexing And Query Optimization",
+      "Database Performance Tuning",
+      "Database Monitoring And Alerting",
+      "Database Security And Access Control",
+      "Backup And Recovery",
+      "Replication And Clustering",
+      "High Availability And Disaster Recovery (Ha/Dr)"
+    ]
+  },
+  "success": true
+}

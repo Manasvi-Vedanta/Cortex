@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:21:48.366847",
+      "learning_path_id": "test_12",
+      "target_occupation": "blockchain developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A block hash commits to the block’s contents (including the previous block hash), creating an integrity chain where changes become detectable.",
+        "id": 1,
+        "options": {
+          "A": "To encrypt all transaction data so only miners can read it",
+          "B": "To link blocks and make tampering evident by committing to the block’s contents",
+          "C": "To generate new private keys for users on the network",
+          "D": "To compress the block so it uses less storage"
+        },
+        "question": "In a typical blockchain, what is the primary purpose of a cryptographic hash in each block?",
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The EVM is the deterministic execution environment for smart contract bytecode, ensuring all nodes reach the same result.",
+        "id": 2,
+        "options": {
+          "A": "A centralized server that stores all Ethereum account passwords",
+          "B": "A peer-to-peer file system used to host dApps",
+          "C": "A deterministic runtime environment that executes smart contract bytecode on Ethereum nodes",
+          "D": "A database that only validators can query"
+        },
+        "question": "Which statement best describes the Ethereum Virtual Machine (EVM)?",
+        "topic": "Ethereum (Evm) Fundamentals"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "ERC-721 defines a standard interface for unique, non-fungible tokens.",
+        "id": 3,
+        "options": {
+          "A": "ERC-20",
+          "B": "ERC-721",
+          "C": "ERC-1155",
+          "D": "EIP-1559"
+        },
+        "question": "Which token standard is primarily used for non-fungible tokens (NFTs) where each token is unique?",
+        "topic": "Token Standards (Erc-20/Erc-721/Erc-1155)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "State variables marked public get an automatically generated getter function.",
+        "id": 4,
+        "options": {
+          "A": "external",
+          "B": "public",
+          "C": "internal",
+          "D": "private"
+        },
+        "question": "In Solidity, which keyword makes a state variable accessible via an auto-generated getter function?",
+        "topic": "Solidity"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Merkle trees support compact proofs (Merkle proofs) that a transaction is included in a block, enabling light clients and efficient verification.",
+        "id": 5,
+        "options": {
+          "A": "They allow nodes to execute smart contracts faster by parallelizing opcodes",
+          "B": "They enable efficient inclusion proofs for transactions without downloading the entire block",
+          "C": "They replace digital signatures for transaction authorization",
+          "D": "They prevent front-running by hiding transaction contents"
+        },
+        "question": "What is the main reason Merkle trees are used in blockchains?",
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Mainnet forking lets you run tests locally while reading real mainnet state at a chosen block height.",
+        "id": 6,
+        "options": {
+          "A": "Use a local in-memory chain with no forking and manually mock all external contracts",
+          "B": "Use mainnet forking in Hardhat/Foundry to simulate mainnet state locally",
+          "C": "Deploy to mainnet and run tests using small-value transactions",
+          "D": "Only run static analysis; runtime tests are unnecessary"
+        },
+        "question": "You want to test your contract against real mainnet state (e.g., existing ERC-20 balances) without deploying to mainnet. Which approach is most appropriate?",
+        "topic": "Testing & Debugging (Unit Tests, Mainnet Forking)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Signer holds the ability to sign transactions; a Provider alone can read chain data but cannot authorize state changes.",
+        "id": 7,
+        "options": {
+          "A": "A Provider only",
+          "B": "A Signer (connected to a Provider)",
+          "C": "A ContractFactory without a signer",
+          "D": "A TransactionReceipt"
+        },
+        "question": "In ethers.js, which object is typically required to send a state-changing transaction (e.g., calling a non-view function) from a specific account?",
+        "topic": "Web3 Libraries (Ethers.Js/Web3.Js)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "delegatecall runs the callee’s code in the caller’s storage context; a malicious/buggy implementation can corrupt storage (e.g., ownership) and seize control.",
+        "id": 8,
+        "options": {
+          "A": "The plugin cannot read storage from the calling contract, so state will be lost",
+          "B": "The plugin executes in the caller’s context and can overwrite storage, enabling full takeover if the plugin is malicious or compromised",
+          "C": "The plugin will always run out of gas because delegatecall doubles gas costs",
+          "D": "delegatecall automatically prevents reentrancy, so the main risk is only DoS"
+        },
+        "question": "A contract uses `delegatecall` to a plugin address that can be updated by an admin. What is the most critical security risk in this design?",
+        "topic": "Smart Contract Security & Auditing"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Reading from storage (SLOAD) is expensive; caching the value in a local variable avoids repeated SLOADs inside the loop.",
+        "id": 9,
+        "options": {
+          "A": "Replace `uint256` with `int256` to reduce opcode cost",
+          "B": "Cache `feeBps` into a local memory variable once before the loop and use the cached value",
+          "C": "Mark the function `payable` so it gets a larger gas stipend",
+          "D": "Emit an event each iteration to reduce storage reads"
+        },
+        "question": "You are optimizing gas in a function that repeatedly reads the same storage variable `uint256 feeBps;` inside a loop. Which change most reliably reduces gas usage?",
+        "topic": "Gas Optimization"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "ERC-1155 is a multi-token standard supporting many token IDs in one contract, including fungible and non-fungible patterns, with batch transfers/mints.",
+        "id": 10,
+        "options": {
+          "A": "ERC-20, because it supports both fungible and non-fungible tokens in one contract",
+          "B": "ERC-721, because it supports batch minting and fungible balances",
+          "C": "ERC-1155, because it supports multiple token IDs (fungible and non-fungible) with batch operations",
+          "D": "ERC-777, because it replaces the need for NFTs"
+        },
+        "question": "You are building an on-chain game that needs both fungible in-game currency and many item types, some fungible (e.g., potions) and some non-fungible (e.g., unique swords). Which token standard best fits to minimize deployments and support batch transfers?",
+        "topic": "Token Standards (Erc-20/Erc-721/Erc-1155)"
+      }
+    ],
+    "topics_covered": [
+      "blockchain components",
+      "blockchain architecture",
+      "blockchain openness",
+      "blockchain applications",
+      "blockchain application areas ",
+      "Ethereum (Evm) Fundamentals",
+      "Smart Contract Development",
+      "Solidity",
+      "Development Frameworks (Hardhat/Foundry/Truffle)",
+      "Web3 Libraries (Ethers.Js/Web3.Js)",
+      "Token Standards (Erc-20/Erc-721/Erc-1155)",
+      "Cryptography (Hashing, Signatures, Merkle Trees)",
+      "Testing & Debugging (Unit Tests, Mainnet Forking)",
+      "Smart Contract Security & Auditing",
+      "Gas Optimization"
+    ]
+  },
+  "success": true
+}

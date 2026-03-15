@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:11:01.954358",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A p-value is computed under the assumption that the null hypothesis is true and measures how extreme the observed data (or more extreme) would be under that assumption.",
+        "is_correct": false,
+        "question": "In statistics, what does the p-value represent in a hypothesis test?",
+        "question_id": 1,
+        "topic": "statistics",
+        "user_answer": "D"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "easy",
+        "explanation": "Tuples are immutable (cannot be changed in place), while lists, dicts, and sets are mutable.",
+        "is_correct": false,
+        "question": "In Python, which data structure is immutable?",
+        "question_id": 2,
+        "topic": "Python",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "The .shape attribute returns a tuple describing the array's dimensions (e.g., (rows, cols) for 2D arrays).",
+        "is_correct": false,
+        "question": "In NumPy, what does the expression arr.shape return?",
+        "question_id": 3,
+        "topic": "Numpy",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows before GROUP BY and aggregate functions are applied; HAVING filters after aggregation.",
+        "is_correct": false,
+        "question": "In SQL, which clause is used to filter rows before aggregation occurs?",
+        "question_id": 4,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "fillna(df['age'].median()) imputes missing values using the median, a common robust strategy for numeric features.",
+        "is_correct": false,
+        "question": "In Pandas, you have a DataFrame df with a column \"age\" that contains missing values. Which approach is most appropriate to fill missing ages with the median age?",
+        "question_id": 5,
+        "topic": "Pandas",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "RobustScaler scales using the median and interquartile range, making it less sensitive to outliers than mean/variance-based scaling.",
+        "is_correct": false,
+        "question": "You are building a regression model and want to reduce the impact of outliers in a numeric feature during preprocessing. Which technique is most appropriate?",
+        "question_id": 6,
+        "topic": "Data Cleaning And Preprocessing",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Histograms show frequency across bins, making distribution shape and skewness easy to see.",
+        "is_correct": true,
+        "question": "In data visualization, which chart is generally best for showing the distribution of a single continuous variable and identifying skewness?",
+        "question_id": 7,
+        "topic": "data visualization",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A Pipeline ensures preprocessing (e.g., scaling) is fit only on each training fold and applied to the corresponding validation fold, preventing leakage.",
+        "is_correct": false,
+        "question": "You are training a model with scikit-learn and need to prevent data leakage when scaling features and performing cross-validation. Which approach is best?",
+        "question_id": 8,
+        "topic": "Scikit-Learn",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Accuracy can be misleading with severe imbalance; ROC-AUC summarizes ranking performance across thresholds and is commonly used for imbalanced classification.",
+        "is_correct": false,
+        "question": "You have a highly imbalanced binary classification problem (1% positive class). Which evaluation metric is typically most informative for model selection?",
+        "question_id": 9,
+        "topic": "Model Evaluation And Validation",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Partitioning by date enables partition pruning, and clustering/sorting by user_id improves locality and reduces scanned data for common filters in columnar systems.",
+        "is_correct": false,
+        "question": "You are designing a data engineering pipeline to support daily analytics on a 5TB event table. Analysts frequently filter by event_date and user_id. Which design choice most directly improves query performance and cost in a columnar data warehouse/data lake?",
+        "question_id": 10,
+        "topic": "data engineering",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: statistics, Python, Numpy",
+      "✅ Your strongest areas: data visualization"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "data visualization",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "statistics",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Numpy",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Pandas",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Cleaning And Preprocessing",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Scikit-Learn",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Model Evaluation And Validation",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "data engineering",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T23:03:08.765480",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Edge processing reduces round-trip time to the cloud and can filter/aggregate data locally, lowering bandwidth costs and improving responsiveness.",
+        "is_correct": true,
+        "question": "In edge computing architecture, what is the primary reason to process data at or near the data source (the edge) instead of only in a central cloud region?",
+        "question_id": 1,
+        "topic": "Edge Computing Architecture",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Distributed systems are designed to tolerate partial failures; nodes and networks can fail independently while the system aims to remain available/correct.",
+        "is_correct": false,
+        "question": "Which statement best describes a key property of distributed systems?",
+        "question_id": 2,
+        "topic": "Distributed Systems Fundamentals",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "top provides an interactive, real-time view of processes and system resource utilization.",
+        "is_correct": false,
+        "question": "Which Linux command is commonly used to view real-time system and process resource usage (CPU/memory) interactively?",
+        "question_id": 3,
+        "topic": "Linux Systems Administration",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "FROM sets the base image (and optionally a build stage) that the rest of the Dockerfile builds upon.",
+        "is_correct": false,
+        "question": "Which Dockerfile instruction is primarily used to specify the base image for a container build?",
+        "question_id": 4,
+        "topic": "Containerization (Docker)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "K3s and MicroK8s are designed to run Kubernetes with a smaller footprint, making them suitable for edge and resource-constrained environments.",
+        "is_correct": true,
+        "question": "You need to deploy a lightweight Kubernetes cluster on an edge device with limited CPU/RAM. Which option is most appropriate?",
+        "question_id": 5,
+        "topic": "Kubernetes (K3S/Microk8S)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "MQTT is a lightweight pub/sub protocol designed for constrained devices and networks, using a broker-based model.",
+        "is_correct": true,
+        "question": "Which IoT protocol is best known for a lightweight publish/subscribe messaging model commonly used over unreliable networks?",
+        "question_id": 6,
+        "topic": "Iot Protocols (Mqtt/Coap/Opc Ua)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "OpenTelemetry provides standardized APIs/SDKs and collectors for distributed tracing and context propagation across services.",
+        "is_correct": true,
+        "question": "You want end-to-end request tracing across microservices running in Kubernetes, with vendor-neutral instrumentation. Which approach best fits?",
+        "question_id": 7,
+        "topic": "Observability (Prometheus/Grafana/Opentelemetry)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Unique device certificates enable strong identity, revocation, and rotation; mTLS provides mutual authentication and encryption consistent with Zero Trust principles.",
+        "is_correct": false,
+        "question": "An edge gateway must authenticate devices and encrypt traffic using mutual TLS. Which design best supports scalable device identity and rotation?",
+        "question_id": 8,
+        "topic": "Security (Pki, Tls, Device Identity, Zero Trust)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Tracing and latency metrics pinpoint whether delays occur in the service, network, or database; correlating with Kubernetes events/logs provides evidence-driven diagnosis.",
+        "is_correct": false,
+        "question": "A microservice deployed on Kubernetes is intermittently failing readiness checks and being restarted. You suspect a dependency (database) is slow. What is the most effective first step to debug this in a production-like environment?",
+        "question_id": 9,
+        "topic": "debug software",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Durable local buffering with asynchronous forwarding matches intermittent networks and reduces coupling; at-least-once delivery improves reliability under disconnections.",
+        "is_correct": false,
+        "question": "You are designing an edge-to-cloud ingestion pipeline. Edge devices send telemetry to a local broker, which forwards to a cloud edge service (AWS/Azure/GCP). The system must tolerate intermittent connectivity and avoid data loss. Which architecture choice best aligns software behavior with the underlying system architecture constraints?",
+        "question_id": 10,
+        "topic": "align software with system architectures",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 3,
+        "percentage": 100.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: Distributed Systems Fundamentals, Linux Systems Administration, Containerization (Docker)",
+      "✅ Your strongest areas: Edge Computing Architecture, Kubernetes (K3S/Microk8S)"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Edge Computing Architecture",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kubernetes (K3S/Microk8S)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Iot Protocols (Mqtt/Coap/Opc Ua)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Observability (Prometheus/Grafana/Opentelemetry)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Systems Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux Systems Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Containerization (Docker)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Security (Pki, Tls, Device Identity, Zero Trust)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "debug software",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "align software with system architectures",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

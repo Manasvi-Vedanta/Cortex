@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:10:35.650620",
+      "learning_path_id": "test_20",
+      "target_occupation": "automation engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in one step.",
+        "id": 1,
+        "options": {
+          "A": "git branch feature/login",
+          "B": "git checkout -b feature/login",
+          "C": "git switch feature/login --create",
+          "D": "git merge feature/login"
+        },
+        "question": "In Git, which command creates a new local branch named \"feature/login\" and switches to it?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Dedicated test attributes (e.g., data-testid) are designed to be stable and less affected by layout or copy changes.",
+        "id": 2,
+        "options": {
+          "A": "Absolute XPath (starting with /html/body/...)",
+          "B": "CSS selector using a dedicated data-testid attribute",
+          "C": "Index-based XPath like (//button)[3]",
+          "D": "Link text that matches visible UI copy exactly"
+        },
+        "question": "Which locator strategy is generally the most stable for UI automation when the application provides unique attributes intended for testing?",
+        "topic": "Locators & Web Technologies (Html/Css/Dom/Xpath)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Selenium automates browsers to drive and validate web UI behavior.",
+        "id": 3,
+        "options": {
+          "A": "A tool for compiling Java projects and managing dependencies",
+          "B": "A browser automation library for automating web UI interactions",
+          "C": "A test reporting dashboard for aggregating results",
+          "D": "A CI server for running pipelines"
+        },
+        "question": "Which statement best describes what Selenium is used for?",
+        "topic": "Test Automation Frameworks (Selenium/Cypress/Playwright)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "PUT is typically used to replace/update a resource at a known URI.",
+        "id": 4,
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PUT",
+          "D": "TRACE"
+        },
+        "question": "In REST APIs, which HTTP method is most commonly used to update an existing resource (full replacement)?",
+        "topic": "Api Testing (Rest/Soap)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Surefire supports selecting a class and method with -Dtest=ClassName#methodName.",
+        "id": 5,
+        "options": {
+          "A": "mvn test -Dtest=UserServiceTest#shouldCreateUser",
+          "B": "mvn package -DskipTests=false -Dmethod=shouldCreateUser",
+          "C": "mvn verify -Dtests=shouldCreateUser",
+          "D": "mvn test -Dinclude=UserServiceTest.shouldCreateUser"
+        },
+        "question": "You need to run a specific JUnit 5 test method named \"shouldCreateUser\" from the command line using Maven. Which Maven command is appropriate?",
+        "topic": "Build Tools (Maven/Gradle/Npm)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Page Objects should expose behaviors and state accessors; assertions are usually kept in tests to avoid coupling pages to test expectations.",
+        "id": 6,
+        "options": {
+          "A": "Inside the Page Object methods, mixed with click/type actions",
+          "B": "In the test layer (or a dedicated assertion/helper layer) that uses Page Object methods",
+          "C": "In the browser driver configuration code",
+          "D": "In the build tool configuration (pom.xml/build.gradle)"
+        },
+        "question": "In the Page Object Model, where should assertions (e.g., verifying a success message text) typically live to keep the design maintainable?",
+        "topic": "Test Design & Automation Patterns (Page Object Model)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A matrix strategy runs the same job with different parameters (e.g., browsers) in parallel on PR events.",
+        "id": 7,
+        "options": {
+          "A": "Run tests locally and attach screenshots to the PR manually",
+          "B": "Use a GitHub Actions workflow with a matrix strategy for browsers and enable parallel jobs",
+          "C": "Commit the node_modules directory so CI runs faster",
+          "D": "Run UI tests only on the main branch after merge to avoid CI usage"
+        },
+        "question": "A team wants every pull request to run UI tests in parallel across Chromium and Firefox using GitHub Actions. Which approach best fits this requirement?",
+        "topic": "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Condition-based explicit waits synchronize with real UI readiness (visibility/enabled/clickable) and reduce flakiness better than sleeps or blanket workarounds.",
+        "id": 8,
+        "options": {
+          "A": "Add a fixed sleep (e.g., 5 seconds) before every click",
+          "B": "Use an explicit wait for a condition like \"element is visible and enabled/clickable\" before interacting",
+          "C": "Increase the global implicit wait to 60 seconds and remove all explicit waits",
+          "D": "Click using JavaScript execution for every element to bypass the UI state"
+        },
+        "question": "Your UI tests are flaky because elements are sometimes present in the DOM but not yet clickable due to animations and overlays. Which solution is the most robust across Selenium/Playwright-style tools?",
+        "topic": "Test Automation Frameworks (Selenium/Cypress/Playwright)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A reusable client/service layer centralizes cross-cutting concerns (base URL, headers, retries, logging) and keeps tests focused on assertions and scenarios.",
+        "id": 9,
+        "options": {
+          "A": "Copy-paste the HTTP request code into each test for clarity",
+          "B": "Create a reusable API client/service layer (wrapper) that centralizes request building and exposes domain-specific methods",
+          "C": "Store all requests as raw curl commands in comments and execute them manually when needed",
+          "D": "Put all endpoint calls into a single test method and branch with if/else for different scenarios"
+        },
+        "question": "You are designing automation components for API tests. Multiple tests need to call the same REST endpoints with consistent headers, base URL, retries, and logging, while keeping test cases readable. What is the best design approach?",
+        "topic": "design automation components"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Allure needs result files (e.g., allure-results) produced by the adapter and then collected/published; misconfigured output paths or missing artifacts commonly leads to empty reports.",
+        "id": 10,
+        "options": {
+          "A": "The CI runner does not have a graphical browser installed",
+          "B": "Allure results files were not generated or not collected from the correct output directory as pipeline artifacts",
+          "C": "Git history is shallow (depth=1) so reports cannot be created",
+          "D": "The tests used too many assertions, causing Allure to skip them"
+        },
+        "question": "Your CI pipeline publishes an Allure report, but the report shows '0 tests' even though the test runner logs indicate tests executed. Which is the most likely root cause?",
+        "topic": "Test Reporting & Logging (Allure/Extent)"
+      }
+    ],
+    "topics_covered": [
+      "automation technology",
+      "operate open source software",
+      "Version Control (Git)",
+      "manage personal professional development",
+      "Locators & Web Technologies (Html/Css/Dom/Xpath)",
+      "Programming (Java/Python/Javascript)",
+      "Build Tools (Maven/Gradle/Npm)",
+      "Test Frameworks (Junit/Testng/Pytest)",
+      "Test Automation Frameworks (Selenium/Cypress/Playwright)",
+      "Test Design & Automation Patterns (Page Object Model)",
+      "design automation components",
+      "Api Testing (Rest/Soap)",
+      "Test Reporting & Logging (Allure/Extent)",
+      "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)",
+      "use technical drawing software"
+    ]
+  },
+  "success": true
+}

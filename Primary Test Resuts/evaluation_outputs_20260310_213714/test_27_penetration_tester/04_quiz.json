@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:22:53.823640",
+      "learning_path_id": "test_27",
+      "target_occupation": "material testing technician",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`pwd` prints the present working directory, helping confirm the save location for lab files.",
+        "id": 1,
+        "options": {
+          "A": "pwd",
+          "B": "ls",
+          "C": "cd",
+          "D": "cat"
+        },
+        "question": "In a Linux lab workstation used for test data processing, which command shows the current working directory so you can confirm where results will be saved?",
+        "topic": "Linux Administration"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The display filter `dns` matches DNS protocol packets directly; the other options are incorrect or incomplete.",
+        "id": 2,
+        "options": {
+          "A": "dns",
+          "B": "ip.addr == 53",
+          "C": "tcp.port == 53",
+          "D": "http"
+        },
+        "question": "In Wireshark, which display filter shows only DNS traffic when troubleshooting a lab instrument that resolves a hostname before uploading results?",
+        "topic": "Wireshark"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "SQL injection is a classic example of the OWASP category \"Injection\".",
+        "id": 3,
+        "options": {
+          "A": "Injection",
+          "B": "Security Logging and Monitoring Failures",
+          "C": "Vulnerable and Outdated Components",
+          "D": "Server-Side Request Forgery (SSRF)"
+        },
+        "question": "Which OWASP Top 10 category most directly covers failures to validate and sanitize user input that could allow SQL injection in a lab results web portal?",
+        "topic": "Web Application Security (Owasp Top 10)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Metrological traceability links measurements to standards through an unbroken chain of calibrations, supporting reliable test results.",
+        "id": 4,
+        "options": {
+          "A": "Metrological traceability",
+          "B": "Aesthetic conformity",
+          "C": "Random sampling only",
+          "D": "Obfuscation of raw data"
+        },
+        "question": "When performing a tensile test, which quality standard concept ensures the load cell and extensometer are calibrated and traceable to recognized references?",
+        "topic": "quality standards"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "`-sS` performs a TCP SYN scan (fast and common) over the default top 1000 ports; the others target UDP, OS detection, or vulnerability scripts.",
+        "id": 5,
+        "options": {
+          "A": "nmap -sS <ip>",
+          "B": "nmap -sU <ip>",
+          "C": "nmap -O <ip>",
+          "D": "nmap --script vuln <ip>"
+        },
+        "question": "You need to quickly identify which TCP ports are open on a new network-connected hardness tester before allowing it on the lab VLAN. Which Nmap command is most appropriate for a fast TCP SYN scan of the top 1000 ports?",
+        "topic": "Nmap"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Burp Scanner is designed for automated vulnerability scanning; Repeater is manual request replay, Intruder is for payload attacks, and Decoder is for encoding/decoding.",
+        "id": 6,
+        "options": {
+          "A": "Scanner",
+          "B": "Repeater",
+          "C": "Intruder",
+          "D": "Decoder"
+        },
+        "question": "In Burp Suite, which tool is primarily used to automatically discover common web vulnerabilities (e.g., reflected XSS) in a lab sample-tracking application after you have configured the target scope?",
+        "topic": "Burp Suite"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Using try/except around conversions (e.g., `float(value)`) allows robust handling of bad data while preserving traceability via logging.",
+        "id": 7,
+        "options": {
+          "A": "Wrap float conversion in try/except and log or skip invalid rows",
+          "B": "Assume all fields are valid and convert directly with float()",
+          "C": "Use global variables for all parsed values",
+          "D": "Disable error output to keep the console clean"
+        },
+        "question": "A Python script parses CSV results from an impact test machine. Which approach best ensures the script does not crash when a numeric field is missing or contains non-numeric text?",
+        "topic": "Scripting (Python)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "In regulated/production-like lab environments, exploitation must be authorized and planned to avoid safety, integrity, and accreditation impacts.",
+        "id": 8,
+        "options": {
+          "A": "Obtain explicit written authorization and define a safe test plan (scope, timing, rollback) with stakeholders",
+          "B": "Exploit immediately to prove impact and then inform the lab manager afterward",
+          "C": "Run password cracking against all user accounts to speed up access",
+          "D": "Disable antivirus and endpoint controls to avoid interference"
+        },
+        "question": "During a vulnerability assessment of a lab results server, you confirm an RCE vulnerability exists but the system is part of an accredited testing environment. What is the most appropriate next step before attempting exploitation?",
+        "topic": "Vulnerability Assessment & Exploitation"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Hashcat is widely used for high-performance GPU cracking of many hash types, including NTLMv2 challenge-response formats.",
+        "id": 9,
+        "options": {
+          "A": "Hashcat",
+          "B": "John the Ripper (jumbo) in single mode only",
+          "C": "Wireshark",
+          "D": "Nmap"
+        },
+        "question": "You captured NTLMv2 challenge-response traffic from a Windows domain-joined lab PC and want to attempt offline cracking to assess password strength. Which tool is best suited for GPU-accelerated cracking of NTLMv2 hashes?",
+        "topic": "Password Attacks & Cracking (Hashes, John/Hashcat)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Kerberoasting targets SPN-linked service tickets for offline cracking; strong service account secrets (or gMSA) and least privilege reduce risk.",
+        "id": 10,
+        "options": {
+          "A": "Kerberoasting; mitigate by using strong, long passwords (or gMSA) and least privilege for service accounts",
+          "B": "ARP spoofing; mitigate by disabling DNS",
+          "C": "SQL injection; mitigate by parameterized queries in the instrument firmware",
+          "D": "Clickjacking; mitigate by adding X-Frame-Options to the domain controller"
+        },
+        "question": "A lab’s Active Directory uses a single service account for multiple instruments, and the account has a Service Principal Name (SPN) set. Which attack becomes feasible if the password is weak, and what is the best mitigation?",
+        "topic": "Active Directory Security"
+      }
+    ],
+    "topics_covered": [
+      "Linux Administration",
+      "Nmap",
+      "Wireshark",
+      "Scripting (Python)",
+      "Web Application Security (Owasp Top 10)",
+      "Burp Suite",
+      "Vulnerability Assessment & Exploitation",
+      "Metasploit Framework",
+      "Password Attacks & Cracking (Hashes, John/Hashcat)",
+      "Active Directory Security",
+      "health, safety and hygiene legislation",
+      "materials engineering",
+      "quality standards",
+      "advanced materials",
+      "perform laboratory tests"
+    ]
+  },
+  "success": true
+}

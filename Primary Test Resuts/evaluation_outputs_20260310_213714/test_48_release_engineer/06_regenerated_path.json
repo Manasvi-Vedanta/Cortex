@@ -1,0 +1,706 @@
+{
+  "learning_path": [
+    {
+      "comprehensive_guides": {
+        "Version Control (Git)": "# 📚 Comprehensive Guide: Version Control (Git)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Version Control (Git) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Version Control (Git) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Version Control (Git) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Initialize and configure a Git repository",
+        "Create commits with clear history and messages",
+        "Use branching and merging to manage parallel work",
+        "Resolve basic merge conflicts"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "beginner",
+          "explanation": "Essential skill for this occupation",
+          "label": "Version Control (Git)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/version-control-(git)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Version Control (Git)"
+      ],
+      "title": "Git Foundations for Collaborative Development"
+    },
+    {
+      "comprehensive_guides": {
+        "Build Systems (Maven/Gradle/Bazel/Make)": "# 📚 Comprehensive Guide: Build Systems (Maven/Gradle/Bazel/Make)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Build Systems (Maven/Gradle/Bazel/Make) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Build Systems (Maven/Gradle/Bazel/Make) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Build Systems (Maven/Gradle/Bazel/Make) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Set up a basic build using a selected build system",
+        "Define dependencies and build targets",
+        "Run local builds consistently across environments",
+        "Troubleshoot common build failures"
+      ],
+      "prerequisites": [
+        "Version Control (Git)"
+      ],
+      "session_number": 2,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Build Systems (Maven/Gradle/Bazel/Make)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/build-systems-(maven/gradle/bazel/make)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Build Systems (Maven/Gradle/Bazel/Make)"
+      ],
+      "title": "Build Systems: Reproducible Builds with Maven/Gradle/Bazel/Make"
+    },
+    {
+      "comprehensive_guides": {
+        "Package Management (Npm/Pip/Nuget/Apt/Yum)": "# 📚 Comprehensive Guide: Package Management (Npm/Pip/Nuget/Apt/Yum)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Package Management (Npm/Pip/Nuget/Apt/Yum) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Package Management (Npm/Pip/Nuget/Apt/Yum) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Package Management (Npm/Pip/Nuget/Apt/Yum) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Install, lock, and update dependencies using a package manager",
+        "Compare dependency resolution and lockfile behavior",
+        "Create repeatable installs for development and CI environments",
+        "Identify and fix common dependency/version issues"
+      ],
+      "prerequisites": [
+        "Version Control (Git)"
+      ],
+      "session_number": 3,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Package Management (Npm/Pip/Nuget/Apt/Yum)",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/package-management-(npm/pip/nuget/apt/yum)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Package Management (Npm/Pip/Nuget/Apt/Yum)"
+      ],
+      "title": "Package Management Across Ecosystems (Npm/Pip/Nuget/Apt/Yum)"
+    },
+    {
+      "comprehensive_guides": {
+        "Scripting (Bash/Python)": "# 📚 Comprehensive Guide: Scripting (Bash/Python)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Scripting (Bash/Python) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Scripting (Bash/Python) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Scripting (Bash/Python) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "Stack Overflow Python Tag",
+          "Python Discord Server",
+          "Python Reddit Community"
+        ],
+        "documentation": [
+          "Python Package Index (PyPI)",
+          "Official Python Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "HackerRank",
+          "Python Challenge",
+          "Codewars",
+          "LeetCode"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Python Tutorial at W3Schools",
+          "Automate the Boring Stuff"
+        ]
+      },
+      "objectives": [
+        "Write scripts to automate build, test, and packaging steps",
+        "Handle inputs, exit codes, and basic error handling",
+        "Generate artifacts and logs suitable for CI usage",
+        "Refactor scripts for readability and reuse"
+      ],
+      "prerequisites": [
+        "Version Control (Git)"
+      ],
+      "session_number": 4,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Scripting (Bash/Python)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/scripting-(bash/python)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Scripting (Bash/Python)"
+      ],
+      "title": "Scripting for Automation with Bash/Python"
+    },
+    {
+      "comprehensive_guides": {
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)": "# 📚 Comprehensive Guide: Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Create a pipeline that checks out code, builds, and runs automated steps",
+        "Use pipeline variables and secrets appropriately",
+        "Implement basic pipeline stages and job dependencies",
+        "Produce build outputs suitable for publishing"
+      ],
+      "prerequisites": [
+        "Version Control (Git)",
+        "Build Systems (Maven/Gradle/Bazel/Make)",
+        "Scripting (Bash/Python)"
+      ],
+      "session_number": 5,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "beginner",
+          "explanation": "Essential skill for this occupation",
+          "label": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/ci/cd-pipelines-(jenkins/gitlab-ci/github-actions)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+      ],
+      "title": "CI/CD Pipelines with Jenkins/GitLab CI/GitHub Actions"
+    },
+    {
+      "comprehensive_guides": {
+        "Artifact Repositories (Nexus/Artifactory)": "# 📚 Comprehensive Guide: Artifact Repositories (Nexus/Artifactory)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Artifact Repositories (Nexus/Artifactory) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Artifact Repositories (Nexus/Artifactory) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Artifact Repositories (Nexus/Artifactory) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Publish build outputs to an artifact repository",
+        "Configure clients to resolve dependencies from the repository",
+        "Apply repository layout and retention concepts",
+        "Validate artifact integrity and traceability"
+      ],
+      "prerequisites": [
+        "Build Systems (Maven/Gradle/Bazel/Make)",
+        "Package Management (Npm/Pip/Nuget/Apt/Yum)",
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+      ],
+      "session_number": 6,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Artifact Repositories (Nexus/Artifactory)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/artifact-repositories-(nexus/artifactory)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Artifact Repositories (Nexus/Artifactory)"
+      ],
+      "title": "Artifact Repositories: Publishing and Consuming with Nexus/Artifactory"
+    },
+    {
+      "comprehensive_guides": {
+        "Semantic Versioning & Release Tagging": "# 📚 Comprehensive Guide: Semantic Versioning & Release Tagging\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Semantic Versioning & Release Tagging in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Semantic Versioning & Release Tagging matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Semantic Versioning & Release Tagging enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Apply semantic versioning rules to real change scenarios",
+        "Create and manage release tags consistently",
+        "Align versioning with dependency and artifact publishing workflows",
+        "Establish a repeatable version bump and tagging process"
+      ],
+      "prerequisites": [
+        "Version Control (Git)",
+        "Artifact Repositories (Nexus/Artifactory)"
+      ],
+      "session_number": 7,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Semantic Versioning & Release Tagging",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/semantic-versioning-&-release-tagging",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Semantic Versioning & Release Tagging"
+      ],
+      "title": "Semantic Versioning & Release Tagging in Practice"
+    },
+    {
+      "comprehensive_guides": {
+        "Release Automation & Orchestration": "# 📚 Comprehensive Guide: Release Automation & Orchestration\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Release Automation & Orchestration in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Release Automation & Orchestration matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Release Automation & Orchestration enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "advanced",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Design a release workflow from commit to published artifact",
+        "Automate release steps including versioning, tagging, and publishing",
+        "Coordinate multi-step releases with approvals and gates",
+        "Produce release notes and traceability outputs as part of the workflow"
+      ],
+      "prerequisites": [
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+        "Semantic Versioning & Release Tagging",
+        "Artifact Repositories (Nexus/Artifactory)",
+        "Scripting (Bash/Python)"
+      ],
+      "session_number": 8,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Release Automation & Orchestration",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/release-automation-&-orchestration",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Release Automation & Orchestration"
+      ],
+      "title": "Release Automation & Orchestration End-to-End"
+    },
+    {
+      "comprehensive_guides": {
+        "Containerization (Docker)": "# 📚 Comprehensive Guide: Containerization (Docker)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Containerization (Docker) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Containerization (Docker) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Containerization (Docker) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Create Docker images for applications and build environments",
+        "Use Docker to standardize local and CI execution",
+        "Manage image tags aligned with release versions",
+        "Push and pull images as part of automated workflows"
+      ],
+      "prerequisites": [
+        "Build Systems (Maven/Gradle/Bazel/Make)",
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+      ],
+      "session_number": 9,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Containerization (Docker)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/containerization-(docker)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Containerization (Docker)"
+      ],
+      "title": "Containerization with Docker for Build and Runtime Consistency"
+    },
+    {
+      "comprehensive_guides": {
+        "Infrastructure As Code (Terraform/Ansible)": "# 📚 Comprehensive Guide: Infrastructure As Code (Terraform/Ansible)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Infrastructure As Code (Terraform/Ansible) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Infrastructure As Code (Terraform/Ansible) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Infrastructure As Code (Terraform/Ansible) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Define infrastructure changes as code with repeatable execution",
+        "Manage variables, environments, and state/configuration safely",
+        "Automate provisioning and configuration steps",
+        "Integrate IaC runs into a controlled pipeline workflow"
+      ],
+      "prerequisites": [
+        "Version Control (Git)",
+        "Scripting (Bash/Python)",
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+      ],
+      "session_number": 10,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Infrastructure As Code (Terraform/Ansible)",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/infrastructure-as-code-(terraform/ansible)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Infrastructure As Code (Terraform/Ansible)"
+      ],
+      "title": "Infrastructure as Code with Terraform/Ansible"
+    },
+    {
+      "comprehensive_guides": {
+        "Kubernetes": "# 📚 Comprehensive Guide: Kubernetes\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Release Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Kubernetes in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Kubernetes matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Kubernetes enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "advanced",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Deploy containerized workloads to Kubernetes",
+        "Manage rollouts, updates, and rollbacks",
+        "Configure environment-specific deployments using automated workflows",
+        "Validate deployments through repeatable operational checks"
+      ],
+      "prerequisites": [
+        "Containerization (Docker)",
+        "Infrastructure As Code (Terraform/Ansible)",
+        "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+      ],
+      "session_number": 11,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Release Engineer.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Kubernetes",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/kubernetes",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Kubernetes"
+      ],
+      "title": "Kubernetes Deployment Workflows"
+    },
+    {
+      "comprehensive_guides": {
+        "use technical drawing software": "# 📚 Comprehensive Guide: use technical drawing software\n\n## 🎯 Overview\nCreate technical designs and technical drawings using specialised software.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply use technical drawing software in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why use technical drawing software matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How use technical drawing software enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Create and revise technical drawings using technical drawing software",
+        "Apply consistent conventions for dimensions, annotations, and revisions",
+        "Export and manage drawing outputs for controlled distribution",
+        "Maintain drawing version history and release readiness"
+      ],
+      "prerequisites": [],
+      "session_number": 12,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Create technical designs and technical drawings using specialised software.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "use technical drawing software",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/541561bc-510c-4a99-881c-2d8bf5a85462",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "use technical drawing software"
+      ],
+      "title": "Technical Drawing Software in Engineering Documentation"
+    },
+    {
+      "comprehensive_guides": {
+        "engineering principles": "# 📚 Comprehensive Guide: engineering principles\n\n## 🎯 Overview\nThe engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply engineering principles in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why engineering principles matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How engineering principles enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Apply engineering principles to evaluate design and process decisions",
+        "Identify constraints and trade-offs impacting manufacturability",
+        "Translate requirements into measurable engineering criteria",
+        "Document decisions to support downstream production execution"
+      ],
+      "prerequisites": [],
+      "session_number": 13,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "engineering principles",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "engineering principles"
+      ],
+      "title": "Engineering Principles Applied to Production and Manufacturing Contexts"
+    },
+    {
+      "comprehensive_guides": {
+        "production processes": "# 📚 Comprehensive Guide: production processes\n\n## 🎯 Overview\nMaterials and techniques required in the production and distribution processes.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply production processes in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why production processes matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How production processes enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Map a production process from inputs to outputs",
+        "Define checkpoints and controls to ensure consistent outcomes",
+        "Identify bottlenecks and propose process adjustments",
+        "Document standard work for repeatable production execution"
+      ],
+      "prerequisites": [
+        "engineering principles"
+      ],
+      "session_number": 14,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Materials and techniques required in the production and distribution processes.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "production processes",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/12c7b323-d870-4f5b-9d7d-d9f525206d77",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "production processes"
+      ],
+      "title": "Production Processes: Planning, Control, and Continuous Execution"
+    },
+    {
+      "comprehensive_guides": {
+        "manufacturing processes": "# 📚 Comprehensive Guide: manufacturing processes\n\n## 🎯 Overview\nThe steps required through which a material is transformed into a product, its development and full-scale manufacturing.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply manufacturing processes in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why manufacturing processes matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How manufacturing processes enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Compare manufacturing processes based on constraints and outcomes",
+        "Select appropriate manufacturing processes for given requirements",
+        "Define process steps and quality considerations",
+        "Prepare documentation to support manufacturing execution"
+      ],
+      "prerequisites": [
+        "engineering principles",
+        "production processes"
+      ],
+      "session_number": 15,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The steps required through which a material is transformed into a product, its development and full-scale manufacturing.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "manufacturing processes",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/3786b61f-f22e-48d1-af8d-ad4c354534db",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "manufacturing processes"
+      ],
+      "title": "Manufacturing Processes: From Process Selection to Execution Readiness"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Industrial engineers design a vast array of production systems aiming to present efficient and effective solutions. They integrate a varied number of variables such as workers, technology, ergonomics, production flows, and product specifications for the design and implementation of production systems. They can specify and design for microsystems as well.",
+    "label": "industrial engineer",
+    "similarity_score": 0.8168914131017541,
+    "uri": "http://data.europa.eu/esco/occupation/53d2052f-edc0-4f44-8be1-164526412bfe"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 34,
+    "skills_in_path": 15,
+    "skills_to_learn": 34,
+    "total_skills_needed": 34
+  },
+  "user_id": "eval_user_48"
+}

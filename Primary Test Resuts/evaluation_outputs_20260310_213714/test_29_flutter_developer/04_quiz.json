@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:26:13.552438",
+      "learning_path_id": "test_29",
+      "target_occupation": "drafter",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`final` creates a single-assignment variable, useful for constants like drawing scale factors or configuration values.",
+        "id": 1,
+        "options": {
+          "A": "final",
+          "B": "var",
+          "C": "dynamic",
+          "D": "late"
+        },
+        "question": "In Dart, which keyword declares a variable whose value cannot be reassigned after initialization?",
+        "topic": "Dart"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Flutter UIs are built by composing widgets (buttons, layouts, lists), which is ideal for modular CAD-like interfaces.",
+        "id": 2,
+        "options": {
+          "A": "Widget",
+          "B": "Activity",
+          "C": "Fragment",
+          "D": "Controller"
+        },
+        "question": "In Flutter, what is the primary building block used to compose the UI (e.g., tool panels, drawing canvas, property inspectors)?",
+        "topic": "Widgets & Ui Composition"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Hidden lines are dashed to indicate features/edges obscured from view.",
+        "id": 3,
+        "options": {
+          "A": "Hidden line (dashed)",
+          "B": "Centerline (long-short pattern)",
+          "C": "Dimension line (with arrowheads)",
+          "D": "Cutting plane line (thick with arrows)"
+        },
+        "question": "In technical drawings, which line type is typically used to represent edges that are not directly visible in the view?",
+        "topic": "technical drawings"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "1:50 means multiply drawing length by 50: 120 mm × 50 = 6000 mm = 6 m.",
+        "id": 4,
+        "options": {
+          "A": "2 m",
+          "B": "6 m",
+          "C": "12 m",
+          "D": "60 m"
+        },
+        "question": "A drawing is created at a scale of 1:50. If a wall measures 120 mm on the drawing, what is the real-world length?",
+        "topic": "mathematics"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Network calls should be awaited asynchronously and paired with a loading UI so rendering stays responsive.",
+        "id": 5,
+        "options": {
+          "A": "Use async/await with a Future and show a loading state",
+          "B": "Run the HTTP request inside build() repeatedly until it returns",
+          "C": "Use a synchronous while-loop to wait for the response",
+          "D": "Store the response in a global variable without awaiting"
+        },
+        "question": "You are building a Flutter-based drafting app that loads a list of project drawings from a server. Which approach best prevents the UI from freezing while the data loads?",
+        "topic": "Asynchronous Programming (Futures/Streams)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Dio supports interceptors, request cancellation, timeouts, and richer configuration than basic HTTP usage.",
+        "id": 6,
+        "options": {
+          "A": "Dio",
+          "B": "path_provider",
+          "C": "shared_preferences",
+          "D": "sqflite"
+        },
+        "question": "A drafting app consumes a REST endpoint GET /drawings that returns JSON. Which Flutter/Dart library is commonly used to perform the HTTP request with interceptors and advanced configuration?",
+        "topic": "Rest Api Integration (Http/Dio)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "A perpendicular constraint enforces a 90° relationship even after subsequent modifications.",
+        "id": 7,
+        "options": {
+          "A": "Perpendicular constraint",
+          "B": "Fillet tool",
+          "C": "Trim tool",
+          "D": "Hatch tool"
+        },
+        "question": "In CAD software, what is the most appropriate tool/constraint to ensure two lines remain exactly perpendicular while editing the drawing?",
+        "topic": "use CAD software"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Firestore provides Streams for live updates; Bloc converts events/stream data into immutable states for consistent UI rendering.",
+        "id": 8,
+        "options": {
+          "A": "Firestore snapshots (Streams) feeding a Bloc that emits new states",
+          "B": "One-time HTTP GET in build() with setState only",
+          "C": "Local-only variables updated without notifying the UI",
+          "D": "Using Navigator 2.0 to store drawing geometry"
+        },
+        "question": "Your Flutter drafting app receives real-time collaboration updates (e.g., other users moving dimension annotations). Which combination best fits: real-time data + predictable state updates in the UI?",
+        "topic": "State Management (Bloc/Provider/Riverpod)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Freezed supports immutability and sealed unions, and integrates with JSON code generation for nested models.",
+        "id": 9,
+        "options": {
+          "A": "Freezed with generated fromJson/toJson",
+          "B": "Manual Map<String, dynamic> parsing everywhere",
+          "C": "Storing raw JSON strings and decoding only in the UI",
+          "D": "Using only enums without model classes"
+        },
+        "question": "A REST API returns a complex Drawing model with nested objects (layers, entities, dimensions). You want immutable models, union types for entity kinds (Line/Circle/Text), and generated JSON serialization. Which approach best matches these requirements?",
+        "topic": "Json Serialization (Json_Serializable/Freezed)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "go_router supports declarative routing, deep linking, and URL-based state restoration using path parameters.",
+        "id": 10,
+        "options": {
+          "A": "Use go_router with declarative routes and path parameters for projectId and drawingId",
+          "B": "Use Navigator.pop() repeatedly until the correct screen appears",
+          "C": "Use only named routes without parameters and store IDs in global variables",
+          "D": "Avoid routing and render all screens in a single widget tree"
+        },
+        "question": "In a Flutter drafting app using go_router, you need deep links like /projects/42/drawings/7 that also restore correctly on web refresh. Which routing approach is most appropriate?",
+        "topic": "Flutter Navigation & Routing (Navigator 2.0/Go_Router)"
+      }
+    ],
+    "topics_covered": [
+      "Dart",
+      "Flutter Framework",
+      "Widgets & Ui Composition",
+      "Asynchronous Programming (Futures/Streams)",
+      "Rest Api Integration (Http/Dio)",
+      "Json Serialization (Json_Serializable/Freezed)",
+      "State Management (Bloc/Provider/Riverpod)",
+      "Flutter Navigation & Routing (Navigator 2.0/Go_Router)",
+      "Firebase (Auth/Firestore/Cloud Messaging)",
+      "mathematics",
+      "technical drawings",
+      "design drawings",
+      "use technical drawing software",
+      "CAD software",
+      "use CAD software"
+    ]
+  },
+  "success": true
+}

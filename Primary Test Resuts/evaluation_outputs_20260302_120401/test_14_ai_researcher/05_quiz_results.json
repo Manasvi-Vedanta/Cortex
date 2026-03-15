@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:25:04.268371",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Supervised learning uses labeled examples (x, y) to learn a mapping from inputs to outputs.",
+        "is_correct": false,
+        "question": "In supervised machine learning, what best describes the training data?",
+        "question_id": 1,
+        "topic": "Machine Learning Fundamentals",
+        "user_answer": "D"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "easy",
+        "explanation": "Tuples are immutable (cannot be modified in place), unlike lists, dicts, and sets.",
+        "is_correct": false,
+        "question": "Which Python data structure is immutable?",
+        "question_id": 2,
+        "topic": "Python",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The dot product maps two vectors to a single scalar (often related to similarity and projection).",
+        "is_correct": true,
+        "question": "In linear algebra, what does the dot product of two vectors primarily produce?",
+        "question_id": 3,
+        "topic": "Mathematics (Linear Algebra, Calculus, Probability)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Pearson's r quantifies the strength and direction of a linear relationship between two continuous variables.",
+        "is_correct": true,
+        "question": "Which statistic measures the linear relationship between two continuous variables?",
+        "question_id": 4,
+        "topic": "Statistics",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "L1 regularization adds the sum of absolute weights to the loss, encouraging sparsity and reducing overfitting.",
+        "is_correct": false,
+        "question": "You are training a logistic regression model and want to reduce overfitting by shrinking coefficients toward zero. Which regularization term should you add to the loss?",
+        "question_id": 5,
+        "topic": "Optimization Algorithms",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "PyTorch accumulates gradients by default; optimizer.zero_grad() clears them before computing new gradients.",
+        "is_correct": false,
+        "question": "In PyTorch, which call is typically required to clear accumulated gradients before the next backward pass during training?",
+        "question_id": 6,
+        "topic": "Pytorch",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Subword methods handle rare/unknown words by decomposing them into frequent pieces, improving coverage and efficiency.",
+        "is_correct": false,
+        "question": "In NLP, why is subword tokenization (e.g., BPE/WordPiece) commonly used instead of word-level tokenization?",
+        "question_id": 7,
+        "topic": "Natural Language Processing",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "To attribute effects to the architecture, you must control confounders by holding other factors constant and changing only the architecture.",
+        "is_correct": false,
+        "question": "You are designing an experiment to test whether a new model architecture improves accuracy over a baseline. Which design choice best supports a causal claim that the architecture change caused the improvement?",
+        "question_id": 8,
+        "topic": "Research Methods & Experimental Design",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "If near-duplicates appear across splits, the model can effectively memorize, inflating validation performance without true generalization.",
+        "is_correct": false,
+        "question": "In computer vision, you suspect data leakage because validation accuracy is extremely high early in training. Which scenario is the most plausible source of leakage?",
+        "question_id": 9,
+        "topic": "Computer Vision",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Subtracting a baseline (like V(s)) from returns reduces variance of gradient estimates while keeping the expected gradient unchanged.",
+        "is_correct": false,
+        "question": "In reinforcement learning, you want to reduce variance of policy gradient updates without introducing bias. Which technique accomplishes this?",
+        "question_id": 10,
+        "topic": "Reinforcement Learning",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Machine Learning Fundamentals, Python, Optimization Algorithms",
+      "✅ Your strongest areas: Mathematics (Linear Algebra, Calculus, Probability), Statistics"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Mathematics (Linear Algebra, Calculus, Probability)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Statistics",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Machine Learning Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Optimization Algorithms",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Pytorch",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Natural Language Processing",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Research Methods & Experimental Design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Computer Vision",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Reinforcement Learning",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

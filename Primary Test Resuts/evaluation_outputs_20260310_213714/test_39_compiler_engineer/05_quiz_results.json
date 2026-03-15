@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:43:59.467032",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Lexing groups characters into tokens such as identifiers, keywords, operators, and literals before parsing builds grammatical structure.",
+        "is_correct": false,
+        "question": "In a typical compiler pipeline, which phase is primarily responsible for converting a stream of characters into tokens (e.g., identifiers, keywords, literals)?",
+        "question_id": 1,
+        "topic": "Compiler Theory (Lexing/Parsing/Semantic Analysis)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An AST captures the hierarchical structure of the program as a tree, reflecting nesting and syntactic constructs.",
+        "is_correct": true,
+        "question": "Which intermediate representation is most directly used to represent the hierarchical syntactic structure of source code (e.g., expressions nested inside statements)?",
+        "question_id": 2,
+        "topic": "Intermediate Representations (Ssa, Cfg, Ast)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Headers provide declarations that allow multiple source files to compile consistently against shared interfaces.",
+        "is_correct": false,
+        "question": "In C/C++, what is the primary purpose of a header file (.h/.hpp) in a multi-file project?",
+        "question_id": 3,
+        "topic": "C/C++",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "GDB is the GNU Debugger used for breakpoints, stepping, inspecting variables, and analyzing crashes.",
+        "is_correct": false,
+        "question": "Which tool is primarily used to inspect and control a running process for step-by-step debugging on Linux?",
+        "question_id": 4,
+        "topic": "Debugging And Profiling (Gdb, Perf)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Constant propagation is typically implemented using forward dataflow analysis to compute facts (e.g., constant values) at each program point.",
+        "is_correct": false,
+        "question": "You are designing a compiler optimization pass. Which analysis most directly determines whether a variable's value at a program point is guaranteed to be the same along all paths (enabling constant propagation)?",
+        "question_id": 5,
+        "topic": "Optimization Techniques (Dataflow, Loop Opts, Peephole)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "LLVM backends lower LLVM IR to target-specific machine code, performing instruction selection, scheduling, and register allocation.",
+        "is_correct": true,
+        "question": "In LLVM, which component is responsible for transforming LLVM IR into target-specific machine instructions (e.g., x86-64) during compilation?",
+        "question_id": 6,
+        "topic": "Llvm",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Poor locality increases cache miss rates, stressing the cache/memory hierarchy and increasing effective memory access latency.",
+        "is_correct": false,
+        "question": "A hot loop repeatedly reads a large array with poor spatial locality, causing frequent cache misses. Which architectural feature is most directly being stressed?",
+        "question_id": 7,
+        "topic": "Computer Architecture (Pipelines, Caches, Isa)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Dynamic linking relies on relocations to patch addresses (often via GOT/PLT). Incorrect or mismatched relocations/symbol resolution can cause invalid runtime jump targets.",
+        "is_correct": false,
+        "question": "You are investigating a crash in a shared library after an update. The binary loads, but a function call jumps to an invalid address only at runtime. Which linker/loader concept most directly explains why this can happen if not handled correctly?",
+        "question_id": 8,
+        "topic": "Linkers And Loaders (Elf, Relocation)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Ports-and-adapters (hexagonal) and dependency inversion keep domain logic independent by depending on abstractions, with infrastructure implemented as adapters.",
+        "is_correct": false,
+        "question": "As a software architect, you must align a new service with an existing system architecture that mandates strict separation between domain logic and infrastructure concerns. Which design approach best enforces this constraint while keeping the domain model independent?",
+        "question_id": 9,
+        "topic": "align software with system architectures",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Git provides versioned change control; CI enforces automated validation; git bisect helps pinpoint the regression-introducing commit when builds/tests are reproducible.",
+        "is_correct": false,
+        "question": "A team reports intermittent performance regressions after merging feature branches. You need a process and tooling strategy to both control changes and quickly identify the commit that introduced the regression. Which combination is most appropriate?",
+        "question_id": 10,
+        "topic": "tools for software configuration management",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Compiler Theory (Lexing/Parsing/Semantic Analysis), C/C++, Debugging And Profiling (Gdb, Perf)",
+      "✅ Your strongest areas: Intermediate Representations (Ssa, Cfg, Ast), Llvm"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Intermediate Representations (Ssa, Cfg, Ast)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Llvm",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Compiler Theory (Lexing/Parsing/Semantic Analysis)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "C/C++",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Debugging And Profiling (Gdb, Perf)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Optimization Techniques (Dataflow, Loop Opts, Peephole)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Computer Architecture (Pipelines, Caches, Isa)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linkers And Loaders (Elf, Relocation)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "align software with system architectures",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

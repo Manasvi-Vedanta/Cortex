@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:04:50.269368",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Bare-metal means the program runs directly on the MCU/SoC hardware (typically with startup code and a linker script) without an OS kernel.",
+        "is_correct": false,
+        "question": "In embedded systems, what best describes a 'bare-metal' application?",
+        "question_id": 1,
+        "topic": "embedded systems",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "An AND gate produces a HIGH output only if every input is HIGH.",
+        "is_correct": false,
+        "question": "Which digital logic gate outputs HIGH only when all inputs are HIGH?",
+        "question_id": 2,
+        "topic": "Digital Electronics Basics",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is the standard distributed version control system used to track code changes and collaborate.",
+        "is_correct": false,
+        "question": "Which tool is most commonly used for distributed version control in software configuration management?",
+        "question_id": 3,
+        "topic": "tools for software configuration management",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "UART is an asynchronous serial interface commonly used for console logs and device-to-device serial links.",
+        "is_correct": false,
+        "question": "Which interface is typically used for simple point-to-point asynchronous serial communication (TX/RX) between two devices?",
+        "question_id": 4,
+        "topic": "Hardware Interfacing (Gpio/Uart/Spi/I2C)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A periodic timer interrupt is commonly used as a system tick for scheduling, timeouts, and periodic task execution.",
+        "is_correct": true,
+        "question": "A microcontroller timer is configured to generate an interrupt every 1 ms. What is the most appropriate use of this interrupt in a real-time firmware design?",
+        "question_id": 5,
+        "topic": "Interrupts And Timers",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "The device tree describes the board hardware so the Linux kernel can discover devices and match them to drivers.",
+        "is_correct": true,
+        "question": "In embedded Linux, what is the primary role of a device tree (DTS/DTB)?",
+        "question_id": 6,
+        "topic": "Embedded Linux",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ISRs typically 'give' a binary semaphore or use task notifications/event flags to wake a task safely and efficiently.",
+        "is_correct": true,
+        "question": "In FreeRTOS or Zephyr, which synchronization primitive is best suited to signal an event from an ISR to a task with minimal overhead?",
+        "question_id": 7,
+        "topic": "Rtos (Freertos/Zephyr)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "With compiler optimizations, functions may be inlined or removed, causing breakpoints on the original symbol to not correspond to executed instructions.",
+        "is_correct": false,
+        "question": "You are debugging a Cortex-M target via SWD using OpenOCD and GDB. You set a breakpoint at a function, but it never triggers even though the function is executed. Which is the most likely cause in an optimized build?",
+        "question_id": 8,
+        "topic": "Debugging With Jtag/Swd (Gdb/Openocd)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "LTO and dead-code elimination can remove unused functions/data and improve inlining decisions, often reducing flash and sometimes RAM (e.g., fewer globals).",
+        "is_correct": true,
+        "question": "A bare-metal firmware must fit into 64 KB flash and 8 KB RAM. Which change is most likely to reduce both flash and RAM usage without changing functionality?",
+        "question_id": 9,
+        "topic": "Memory-Constrained Optimization",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Logic programming expresses requirements as constraints; a solver searches for satisfying assignments, enabling automatic generation of configuration/code from the solved model.",
+        "is_correct": false,
+        "question": "You want to auto-generate a correct-by-construction GPIO configuration routine from a set of constraints: 'Pins P1 and P2 must be outputs, P3 must be input with pull-up, and no two peripherals may claim the same pin.' Which approach best matches 'logic programming' used for automatic programming here?",
+        "question_id": 10,
+        "topic": "use logic programming",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      },
+      "medium": {
+        "correct": 3,
+        "percentage": 100.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: embedded systems, Digital Electronics Basics, tools for software configuration management",
+      "✅ Your strongest areas: Interrupts And Timers, Embedded Linux"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Interrupts And Timers",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Embedded Linux",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Rtos (Freertos/Zephyr)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Memory-Constrained Optimization",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "embedded systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Digital Electronics Basics",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Hardware Interfacing (Gpio/Uart/Spi/I2C)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Debugging With Jtag/Swd (Gdb/Openocd)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use logic programming",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

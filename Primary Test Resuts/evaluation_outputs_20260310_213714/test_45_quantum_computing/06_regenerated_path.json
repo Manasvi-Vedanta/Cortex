@@ -1,0 +1,982 @@
+{
+  "learning_path": [
+    {
+      "comprehensive_guides": {
+        "Linear Algebra": "# 📚 Comprehensive Guide: Linear Algebra\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Linear Algebra in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Linear Algebra matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Linear Algebra enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Build core matrix/vector intuition used in quantum states and operations",
+        "Practice eigenvalues/eigenvectors and unitary transformations in small examples"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Linear Algebra",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/linear-algebra",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Linear Algebra"
+      ],
+      "title": "Linear Algebra Foundations for Quantum Systems"
+    },
+    {
+      "comprehensive_guides": {
+        "Quantum Mechanics": "# 📚 Comprehensive Guide: Quantum Mechanics\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Mechanics in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Mechanics matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Mechanics enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Connect postulates of quantum mechanics to state vectors and measurements",
+        "Work through simple two-level system examples relevant to qubits"
+      ],
+      "prerequisites": [
+        "Linear Algebra"
+      ],
+      "session_number": 2,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Mechanics",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/quantum-mechanics",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Quantum Mechanics"
+      ],
+      "title": "Quantum Mechanics Essentials for Computation"
+    },
+    {
+      "comprehensive_guides": {
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "Stack Overflow Python Tag",
+          "Python Discord Server",
+          "Python Reddit Community"
+        ],
+        "documentation": [
+          "Python Package Index (PyPI)",
+          "Official Python Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "HackerRank",
+          "Python Challenge",
+          "Codewars",
+          "LeetCode"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Python Tutorial at W3Schools",
+          "Automate the Boring Stuff"
+        ]
+      },
+      "objectives": [
+        "Write clean Python for numerical experiments and algorithm prototypes",
+        "Implement small linear algebra and simulation utilities in Python"
+      ],
+      "prerequisites": [],
+      "session_number": 3,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Python"
+      ],
+      "title": "Python for Scientific and Quantum Workflows"
+    },
+    {
+      "comprehensive_guides": {
+        "Numerical Methods And Scientific Computing": "# 📚 Comprehensive Guide: Numerical Methods And Scientific Computing\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Numerical Methods And Scientific Computing in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Numerical Methods And Scientific Computing matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Numerical Methods And Scientific Computing enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "Stack Overflow Python Tag",
+          "Python Discord Server",
+          "Python Reddit Community"
+        ],
+        "documentation": [
+          "Python Package Index (PyPI)",
+          "Official Python Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "HackerRank",
+          "Python Challenge",
+          "Codewars",
+          "LeetCode"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Python Tutorial at W3Schools",
+          "Automate the Boring Stuff"
+        ]
+      },
+      "objectives": [
+        "Apply numerical methods to simulate small quantum systems and circuits",
+        "Validate numerical stability and accuracy in basic experiments"
+      ],
+      "prerequisites": [
+        "Linear Algebra",
+        "Quantum Mechanics",
+        "Python"
+      ],
+      "session_number": 4,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Numerical Methods And Scientific Computing",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/numerical-methods-and-scientific-computing",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Numerical Methods And Scientific Computing",
+        "Python"
+      ],
+      "title": "Numerical Methods for Quantum Simulation"
+    },
+    {
+      "comprehensive_guides": {
+        "Quantum Computing Theory (Qubits, Gates, Circuits)": "# 📚 Comprehensive Guide: Quantum Computing Theory (Qubits, Gates, Circuits)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Computing Theory (Qubits, Gates, Circuits) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Computing Theory (Qubits, Gates, Circuits) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Computing Theory (Qubits, Gates, Circuits) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Model qubits and multi-qubit states using linear algebra",
+        "Compose gates into circuits and predict outcomes for small circuits"
+      ],
+      "prerequisites": [
+        "Linear Algebra",
+        "Quantum Mechanics"
+      ],
+      "session_number": 5,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Computing Theory (Qubits, Gates, Circuits)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/quantum-computing-theory-(qubits,-gates,-circuits)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Quantum Computing Theory (Qubits, Gates, Circuits)"
+      ],
+      "title": "Quantum Computing Theory: Qubits, Gates, Circuits"
+    },
+    {
+      "comprehensive_guides": {
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)": "# 📚 Comprehensive Guide: Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "Stack Overflow Python Tag",
+          "Python Discord Server",
+          "Python Reddit Community"
+        ],
+        "documentation": [
+          "Python Package Index (PyPI)",
+          "Official Python Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "HackerRank",
+          "Python Challenge",
+          "Codewars",
+          "LeetCode"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Python Tutorial at W3Schools",
+          "Automate the Boring Stuff"
+        ]
+      },
+      "objectives": [
+        "Build and run circuits using quantum programming frameworks",
+        "Compare circuit behavior across simulators and backends at a conceptual level"
+      ],
+      "prerequisites": [
+        "Quantum Computing Theory (Qubits, Gates, Circuits)",
+        "Python"
+      ],
+      "session_number": 6,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/quantum-programming-frameworks-(qiskit/cirq/pennylane)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)",
+        "Python"
+      ],
+      "title": "Quantum Programming Frameworks: Circuit Construction and Execution"
+    },
+    {
+      "comprehensive_guides": {
+        "Quantum Algorithms (E.G., Shor, Grover, Qft)": "# 📚 Comprehensive Guide: Quantum Algorithms (E.G., Shor, Grover, Qft)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Algorithms (E.G., Shor, Grover, Qft) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Algorithms (E.G., Shor, Grover, Qft) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Algorithms (E.G., Shor, Grover, Qft) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Quantum Computing Theory (Qubits, Gates, Circuits)": "# 📚 Comprehensive Guide: Quantum Computing Theory (Qubits, Gates, Circuits)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Computing Theory (Qubits, Gates, Circuits) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Computing Theory (Qubits, Gates, Circuits) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Computing Theory (Qubits, Gates, Circuits) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Understand amplitude amplification and its circuit structure",
+        "Derive and implement small-instance QFT circuits"
+      ],
+      "prerequisites": [
+        "Linear Algebra",
+        "Quantum Computing Theory (Qubits, Gates, Circuits)"
+      ],
+      "session_number": 7,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Algorithms (E.G., Shor, Grover, Qft)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/quantum-algorithms-(e.g.,-shor,-grover,-qft)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Computing Theory (Qubits, Gates, Circuits)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/quantum-computing-theory-(qubits,-gates,-circuits)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Quantum Algorithms (E.G., Shor, Grover, Qft)",
+        "Quantum Computing Theory (Qubits, Gates, Circuits)"
+      ],
+      "title": "Quantum Algorithms I: Grover and QFT Concepts"
+    },
+    {
+      "comprehensive_guides": {
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Quantum Algorithms (E.G., Shor, Grover, Qft)": "# 📚 Comprehensive Guide: Quantum Algorithms (E.G., Shor, Grover, Qft)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Algorithms (E.G., Shor, Grover, Qft) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Algorithms (E.G., Shor, Grover, Qft) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Algorithms (E.G., Shor, Grover, Qft) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)": "# 📚 Comprehensive Guide: Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "advanced",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "Stack Overflow Python Tag",
+          "Python Discord Server",
+          "Python Reddit Community"
+        ],
+        "documentation": [
+          "Python Package Index (PyPI)",
+          "Official Python Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "HackerRank",
+          "Python Challenge",
+          "Codewars",
+          "LeetCode"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Python Tutorial at W3Schools",
+          "Automate the Boring Stuff"
+        ]
+      },
+      "objectives": [
+        "Study modular arithmetic subroutines and their circuit implications",
+        "Implement small demonstrations of period-finding components"
+      ],
+      "prerequisites": [
+        "Quantum Algorithms (E.G., Shor, Grover, Qft)",
+        "Quantum Computing Theory (Qubits, Gates, Circuits)",
+        "Python"
+      ],
+      "session_number": 8,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Algorithms (E.G., Shor, Grover, Qft)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/quantum-algorithms-(e.g.,-shor,-grover,-qft)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/quantum-programming-frameworks-(qiskit/cirq/pennylane)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Quantum Algorithms (E.G., Shor, Grover, Qft)",
+        "Python",
+        "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)"
+      ],
+      "title": "Quantum Algorithms II: Shor-Style Building Blocks"
+    },
+    {
+      "comprehensive_guides": {
+        "Linear Algebra": "# 📚 Comprehensive Guide: Linear Algebra\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Linear Algebra in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Linear Algebra matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Linear Algebra enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Quantum Information Theory": "# 📚 Comprehensive Guide: Quantum Information Theory\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Information Theory in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Information Theory matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Information Theory enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "advanced",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Compute basic information measures for simple quantum states",
+        "Analyze entanglement and simple noise channels in small systems"
+      ],
+      "prerequisites": [
+        "Quantum Mechanics",
+        "Linear Algebra"
+      ],
+      "session_number": 9,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Information Theory",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/quantum-information-theory",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Linear Algebra",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/linear-algebra",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Quantum Information Theory",
+        "Linear Algebra"
+      ],
+      "title": "Quantum Information Theory: Entropy, Channels, and Entanglement"
+    },
+    {
+      "comprehensive_guides": {
+        "Classical Algorithms And Computational Complexity": "# 📚 Comprehensive Guide: Classical Algorithms And Computational Complexity\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Classical Algorithms And Computational Complexity in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Classical Algorithms And Computational Complexity matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Classical Algorithms And Computational Complexity enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Review classical complexity notions used to frame quantum speedups",
+        "Relate classical algorithmic baselines to quantum algorithm claims"
+      ],
+      "prerequisites": [],
+      "session_number": 10,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Classical Algorithms And Computational Complexity",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/classical-algorithms-and-computational-complexity",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Classical Algorithms And Computational Complexity"
+      ],
+      "title": "Classical Algorithms and Computational Complexity for Quantum Context"
+    },
+    {
+      "comprehensive_guides": {
+        "Optimization (Convex/Nonconvex, Variational Methods)": "# 📚 Comprehensive Guide: Optimization (Convex/Nonconvex, Variational Methods)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Optimization (Convex/Nonconvex, Variational Methods) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Optimization (Convex/Nonconvex, Variational Methods) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Optimization (Convex/Nonconvex, Variational Methods) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)": "# 📚 Comprehensive Guide: Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "advanced",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "Stack Overflow Python Tag",
+          "Python Discord Server",
+          "Python Reddit Community"
+        ],
+        "documentation": [
+          "Python Package Index (PyPI)",
+          "Official Python Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "HackerRank",
+          "Python Challenge",
+          "Codewars",
+          "LeetCode"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Python Tutorial at W3Schools",
+          "Automate the Boring Stuff"
+        ]
+      },
+      "objectives": [
+        "Apply convex/nonconvex optimization ideas to variational objectives",
+        "Implement and compare optimization loops for small variational circuits"
+      ],
+      "prerequisites": [
+        "Python",
+        "Quantum Computing Theory (Qubits, Gates, Circuits)",
+        "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)"
+      ],
+      "session_number": 11,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Optimization (Convex/Nonconvex, Variational Methods)",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/optimization-(convex/nonconvex,-variational-methods)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/quantum-programming-frameworks-(qiskit/cirq/pennylane)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Optimization (Convex/Nonconvex, Variational Methods)",
+        "Python",
+        "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)"
+      ],
+      "title": "Optimization for Variational Quantum Methods"
+    },
+    {
+      "comprehensive_guides": {
+        "Quantum Error Correction And Fault Tolerance": "# 📚 Comprehensive Guide: Quantum Error Correction And Fault Tolerance\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Error Correction And Fault Tolerance in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Error Correction And Fault Tolerance matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Error Correction And Fault Tolerance enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Quantum Information Theory": "# 📚 Comprehensive Guide: Quantum Information Theory\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Information Theory in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Information Theory matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Information Theory enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "advanced",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Understand stabilizer-style error models and simple codes conceptually",
+        "Analyze logical vs physical error rates in simplified scenarios"
+      ],
+      "prerequisites": [
+        "Quantum Information Theory",
+        "Quantum Computing Theory (Qubits, Gates, Circuits)"
+      ],
+      "session_number": 12,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Error Correction And Fault Tolerance",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/quantum-error-correction-and-fault-tolerance",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Information Theory",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/quantum-information-theory",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Quantum Error Correction And Fault Tolerance",
+        "Quantum Information Theory"
+      ],
+      "title": "Quantum Error Correction and Fault Tolerance Basics"
+    },
+    {
+      "comprehensive_guides": {
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)": "# 📚 Comprehensive Guide: Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Quantum Programming Frameworks (Qiskit/Cirq/Pennylane) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "operate open source software": "# 📚 Comprehensive Guide: operate open source software\n\n## 🎯 Overview\nOperate Open Source software, knowing the main Open Source models, licensing schemes, and the coding practices commonly adopted in the production of Open Source software.\n\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply operate open source software in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why operate open source software matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How operate open source software enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "Stack Overflow Python Tag",
+          "Python Discord Server",
+          "Python Reddit Community"
+        ],
+        "documentation": [
+          "Python Package Index (PyPI)",
+          "Official Python Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "HackerRank",
+          "Python Challenge",
+          "Codewars",
+          "LeetCode"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Python Tutorial at W3Schools",
+          "Automate the Boring Stuff"
+        ]
+      },
+      "objectives": [
+        "Install, configure, and run open source software used in quantum workflows",
+        "Reproduce a small end-to-end run using open source software and scripts"
+      ],
+      "prerequisites": [
+        "Python"
+      ],
+      "session_number": 13,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Operate Open Source software, knowing the main Open Source models, licensing schemes, and the coding practices commonly adopted in the production of Open Source software.\n",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "operate open source software",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/2b34764d-637c-48f5-aa70-31e15c965db6",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/quantum-programming-frameworks-(qiskit/cirq/pennylane)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "operate open source software",
+        "Python",
+        "Quantum Programming Frameworks (Qiskit/Cirq/Pennylane)"
+      ],
+      "title": "Operate Open Source Software for Quantum Tooling"
+    },
+    {
+      "comprehensive_guides": {
+        "Classical Algorithms And Computational Complexity": "# 📚 Comprehensive Guide: Classical Algorithms And Computational Complexity\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Classical Algorithms And Computational Complexity in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Classical Algorithms And Computational Complexity matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Classical Algorithms And Computational Complexity enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Optimization (Convex/Nonconvex, Variational Methods)": "# 📚 Comprehensive Guide: Optimization (Convex/Nonconvex, Variational Methods)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Quantum Computing Researcher.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Optimization (Convex/Nonconvex, Variational Methods) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Optimization (Convex/Nonconvex, Variational Methods) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Optimization (Convex/Nonconvex, Variational Methods) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "genomics": "# 📚 Comprehensive Guide: genomics\n\n## 🎯 Overview\nThe field of study in relation to whole genomes of organisms, as well as their genetic or epigenetic sequence of information. It aims to provide knowledge about the downstream of biological products and the analysis of the structure and function of these sequences through employing recombinant DNA and bioinformatics approaches.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply genomics in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why genomics matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How genomics enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "life sciences": "# 📚 Comprehensive Guide: life sciences\n\n## 🎯 Overview\nThe study of the processes related to cells, molecules and living organisms.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply life sciences in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why life sciences matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How life sciences enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Identify genomics problem types that map to computational tasks",
+        "Translate a genomics workflow into algorithmic and optimization components"
+      ],
+      "prerequisites": [
+        "life sciences",
+        "genomics"
+      ],
+      "session_number": 14,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The study of the processes related to cells, molecules and living organisms.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "life sciences",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/055192dc-f16c-4855-835d-19cac6ff20aa",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The field of study in relation to whole genomes of organisms, as well as their genetic or epigenetic sequence of information. It aims to provide knowledge about the downstream of biological products and the analysis of the structure and function of these sequences through employing recombinant DNA and bioinformatics approaches.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "genomics",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/50431cf0-3b03-40fe-82aa-0b3a55ff7f9b",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Classical Algorithms And Computational Complexity",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/classical-algorithms-and-computational-complexity",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Quantum Computing Researcher.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Optimization (Convex/Nonconvex, Variational Methods)",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/optimization-(convex/nonconvex,-variational-methods)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "life sciences",
+        "genomics",
+        "Classical Algorithms And Computational Complexity",
+        "Optimization (Convex/Nonconvex, Variational Methods)"
+      ],
+      "title": "Life Sciences and Genomics: Problem Framing for Quantum Approaches"
+    },
+    {
+      "comprehensive_guides": {
+        "manage personal professional development": "# 📚 Comprehensive Guide: manage personal professional development\n\n## 🎯 Overview\nTake responsibility for lifelong learning and continuous professional development. Engage in learning to support and update professional competence. Identify priority areas for professional development based on reflection about own practice and through contact with peers and stakeholders. Pursue a cycle of self-improvement and develop credible career plans. \n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply manage personal professional development in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why manage personal professional development matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How manage personal professional development enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Create a structured plan to build and demonstrate capability across sessions",
+        "Define milestones and a portfolio plan aligned to targeted roles"
+      ],
+      "prerequisites": [],
+      "session_number": 15,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Take responsibility for lifelong learning and continuous professional development. Engage in learning to support and update professional competence. Identify priority areas for professional development based on reflection about own practice and through contact with peers and stakeholders. Pursue a cycle of self-improvement and develop credible career plans. ",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "manage personal professional development",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "manage personal professional development"
+      ],
+      "title": "Manage Personal Professional Development for a Quantum/Genomics Track"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Biophysicists study the existing relation between living organisms and physics. They conduct research on living organisms based on the methods of physics that aim to explain the complexity of life, predict patterns, and draw conclusions about aspects of life. Biophysicists' research fields cover DNA, proteins, molecules, cells, and environments.",
+    "label": "biophysicist",
+    "similarity_score": 0.8102125832910329,
+    "uri": "http://data.europa.eu/esco/occupation/1738173e-ef9c-4222-88c8-b6aa9bad3cf7"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 34,
+    "skills_in_path": 15,
+    "skills_to_learn": 34,
+    "total_skills_needed": 36
+  },
+  "user_id": "eval_user_45"
+}

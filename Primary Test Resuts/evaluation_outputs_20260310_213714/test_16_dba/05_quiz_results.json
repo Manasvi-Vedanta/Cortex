@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:03:12.971437",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Transaction logs record changes (redo/undo information) so the DBMS can recover committed work and roll back incomplete work after failures.",
+        "is_correct": false,
+        "question": "In a database management system (DBMS), what is the primary purpose of the transaction log (e.g., WAL in PostgreSQL, transaction log in SQL Server)?",
+        "question_id": 1,
+        "topic": "database management systems",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "'top' provides a live view of CPU, memory, and process activity, useful for diagnosing DB server resource pressure.",
+        "is_correct": false,
+        "question": "On Linux/Unix, which command is commonly used to view real-time CPU and memory usage to quickly assess database host load?",
+        "question_id": 2,
+        "topic": "Linux/Unix Administration",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A foreign key ensures referenced values exist in the parent table (or are NULL if allowed), enforcing referential integrity.",
+        "is_correct": false,
+        "question": "In data modeling, what does a FOREIGN KEY constraint enforce?",
+        "question_id": 3,
+        "topic": "Data Modeling And Schema Design",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "InnoDB supports transactions, row-level locking, and crash recovery, making it the standard ACID-capable engine.",
+        "is_correct": true,
+        "question": "In MySQL, which storage engine is commonly used by default and supports ACID transactions?",
+        "question_id": 4,
+        "topic": "MySQL",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "work_mem is allocated per sort/hash operation (per node), and insufficient values can cause disk spills during sorts/joins.",
+        "is_correct": true,
+        "question": "In PostgreSQL, which configuration parameter primarily controls how much memory is used for each sort/hash operation before spilling to disk?",
+        "question_id": 5,
+        "topic": "PostgreSQL",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Query Store persists query texts, plans, and runtime statistics over time, enabling performance regression analysis.",
+        "is_correct": false,
+        "question": "In SQL Server, which feature provides a built-in way to capture and query historical performance metrics (CPU, waits, I/O) for troubleshooting over time?",
+        "question_id": 6,
+        "topic": "SQL Server",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "With (customer_id, order_date), the index can efficiently seek by customer_id and then read rows already ordered by order_date.",
+        "is_correct": false,
+        "question": "A query frequently filters on (customer_id) and then sorts by (order_date). Which index best supports both the filter and the sort in most relational databases?",
+        "question_id": 7,
+        "topic": "Indexing And Query Optimization",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "PITR requires restoring a base backup and then replaying archived WAL to a target time/LSN before the unwanted change, then promoting.",
+        "is_correct": true,
+        "question": "You need point-in-time recovery (PITR) for a PostgreSQL database after an accidental DELETE at 14:05. You have a base backup from last night and continuous archiving enabled. What is the correct recovery approach?",
+        "question_id": 8,
+        "topic": "Backup And Recovery",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Asynchronous replication can be lagged; ensuring read-after-write requires primary reads or waiting until a replica has applied the transaction (e.g., GTID/position-based checks).",
+        "is_correct": false,
+        "question": "A MySQL primary is overloaded by read traffic. You add replicas for read scaling, but the application must never read stale data immediately after a user updates their profile. Which strategy best addresses this requirement?",
+        "question_id": 9,
+        "topic": "Replication And Clustering",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Synchronous replication minimizes data loss (near-zero RPO) and automatic failover reduces downtime (low RTO) compared to async or backup-only approaches.",
+        "is_correct": false,
+        "question": "You are designing HA/DR for a mission-critical database with an RPO near zero and an RTO under 1 minute across two data centers. Which architecture most directly meets these targets?",
+        "question_id": 10,
+        "topic": "High Availability And Disaster Recovery (Ha/Dr)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: database management systems, Linux/Unix Administration, Data Modeling And Schema Design",
+      "✅ Your strongest areas: MySQL, PostgreSQL"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "MySQL",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "PostgreSQL",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Backup And Recovery",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "database management systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux/Unix Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Modeling And Schema Design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "SQL Server",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Indexing And Query Optimization",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Replication And Clustering",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "High Availability And Disaster Recovery (Ha/Dr)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

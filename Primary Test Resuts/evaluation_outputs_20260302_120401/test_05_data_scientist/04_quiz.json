@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:10:59.900340",
+      "learning_path_id": "test_05",
+      "target_occupation": "data scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A p-value is computed under the assumption that the null hypothesis is true and measures how extreme the observed data (or more extreme) would be under that assumption.",
+        "id": 1,
+        "options": {
+          "A": "The probability that the null hypothesis is true",
+          "B": "The probability of observing results at least as extreme as the data, assuming the null hypothesis is true",
+          "C": "The probability that the alternative hypothesis is true",
+          "D": "The probability that the sample mean equals the population mean"
+        },
+        "question": "In statistics, what does the p-value represent in a hypothesis test?",
+        "topic": "statistics"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "easy",
+        "explanation": "Tuples are immutable (cannot be changed in place), while lists, dicts, and sets are mutable.",
+        "id": 2,
+        "options": {
+          "A": "list",
+          "B": "dict",
+          "C": "set",
+          "D": "tuple"
+        },
+        "question": "In Python, which data structure is immutable?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "The .shape attribute returns a tuple describing the array's dimensions (e.g., (rows, cols) for 2D arrays).",
+        "id": 3,
+        "options": {
+          "A": "The data type of the array elements",
+          "B": "The number of dimensions and size of each dimension",
+          "C": "The total number of elements in the array",
+          "D": "A sorted copy of the array"
+        },
+        "question": "In NumPy, what does the expression arr.shape return?",
+        "topic": "Numpy"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows before GROUP BY and aggregate functions are applied; HAVING filters after aggregation.",
+        "id": 4,
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "ORDER BY",
+          "D": "GROUP BY"
+        },
+        "question": "In SQL, which clause is used to filter rows before aggregation occurs?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "fillna(df['age'].median()) imputes missing values using the median, a common robust strategy for numeric features.",
+        "id": 5,
+        "options": {
+          "A": "df['age'] = df['age'].dropna()",
+          "B": "df['age'] = df['age'].fillna(df['age'].median())",
+          "C": "df['age'] = df['age'].fillna(method='ffill')",
+          "D": "df = df[df['age'].notna()]"
+        },
+        "question": "In Pandas, you have a DataFrame df with a column \"age\" that contains missing values. Which approach is most appropriate to fill missing ages with the median age?",
+        "topic": "Pandas"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "RobustScaler scales using the median and interquartile range, making it less sensitive to outliers than mean/variance-based scaling.",
+        "id": 6,
+        "options": {
+          "A": "StandardScaler (z-score scaling)",
+          "B": "MinMaxScaler (0 to 1 scaling)",
+          "C": "RobustScaler (uses median and IQR)",
+          "D": "OneHotEncoder"
+        },
+        "question": "You are building a regression model and want to reduce the impact of outliers in a numeric feature during preprocessing. Which technique is most appropriate?",
+        "topic": "Data Cleaning And Preprocessing"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Histograms show frequency across bins, making distribution shape and skewness easy to see.",
+        "id": 7,
+        "options": {
+          "A": "Histogram",
+          "B": "Pie chart",
+          "C": "Radar chart",
+          "D": "Sankey diagram"
+        },
+        "question": "In data visualization, which chart is generally best for showing the distribution of a single continuous variable and identifying skewness?",
+        "topic": "data visualization"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A Pipeline ensures preprocessing (e.g., scaling) is fit only on each training fold and applied to the corresponding validation fold, preventing leakage.",
+        "id": 8,
+        "options": {
+          "A": "Fit the scaler on the full dataset once, then cross-validate the model",
+          "B": "Scale the target variable only, then cross-validate",
+          "C": "Use a Pipeline with the scaler and estimator, then cross_validate/cross_val_score",
+          "D": "Shuffle the dataset after scaling to remove leakage"
+        },
+        "question": "You are training a model with scikit-learn and need to prevent data leakage when scaling features and performing cross-validation. Which approach is best?",
+        "topic": "Scikit-Learn"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Accuracy can be misleading with severe imbalance; ROC-AUC summarizes ranking performance across thresholds and is commonly used for imbalanced classification.",
+        "id": 9,
+        "options": {
+          "A": "Accuracy",
+          "B": "Mean Squared Error (MSE)",
+          "C": "ROC-AUC",
+          "D": "Confusion matrix only (no scalar metric)"
+        },
+        "question": "You have a highly imbalanced binary classification problem (1% positive class). Which evaluation metric is typically most informative for model selection?",
+        "topic": "Model Evaluation And Validation"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Partitioning by date enables partition pruning, and clustering/sorting by user_id improves locality and reduces scanned data for common filters in columnar systems.",
+        "id": 10,
+        "options": {
+          "A": "Store the table as a single unpartitioned CSV file to reduce metadata",
+          "B": "Partition by event_date and cluster/sort by user_id",
+          "C": "Normalize the table into many small tables to reduce file size",
+          "D": "Use row-based storage and avoid compression to speed up scans"
+        },
+        "question": "You are designing a data engineering pipeline to support daily analytics on a 5TB event table. Analysts frequently filter by event_date and user_id. Which design choice most directly improves query performance and cost in a columnar data warehouse/data lake?",
+        "topic": "data engineering"
+      }
+    ],
+    "topics_covered": [
+      "statistics",
+      "Python",
+      "data science",
+      "Numpy",
+      "Pandas",
+      "Sql",
+      "data engineering",
+      "Data Cleaning And Preprocessing",
+      "data visualization",
+      "data visualisation software",
+      "data mining",
+      "Feature Engineering",
+      "Machine Learning",
+      "Scikit-Learn",
+      "Model Evaluation And Validation"
+    ]
+  },
+  "success": true
+}

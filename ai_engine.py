@@ -1835,6 +1835,9 @@ Output JSON format:
                 # Filter to keep ONLY database skills (remove any skills LLM added)
                 sessions = self._filter_to_database_skills_only(sessions, skills_list)
                 
+                # Enrich sessions with learning resources, skill details, and comprehensive guides
+                sessions = self._enrich_sessions_with_resources(sessions, ordered_skills)
+                
                 print(f"✅ Generated {len(sessions)} learning sessions with LLM")
                 return sessions
             else:
@@ -1918,6 +1921,8 @@ Output JSON format:
                         sessions = learning_plan.get('sessions', [])
                         sessions = self._filter_soft_skills_from_sessions(sessions)
                         sessions = self._filter_to_database_skills_only(sessions, skills_list)
+                        # Enrich sessions with learning resources, skill details, and comprehensive guides
+                        sessions = self._enrich_sessions_with_resources(sessions, ordered_skills)
                         print(f"✅ Generated {len(sessions)} learning sessions with OpenAI fallback")
                         return sessions
                 except Exception as fallback_error:
@@ -1928,6 +1933,48 @@ Output JSON format:
         
         # Fallback to enhanced basic sessions
         return self._create_enhanced_basic_sessions(ordered_skills)
+    
+    def _enrich_sessions_with_resources(self, sessions: List[Dict], ordered_skills: List[Dict]) -> List[Dict]:
+        """Enrich LLM-generated sessions with learning_resources, comprehensive_guides, and skill_details.
+        
+        The LLM returns sessions with skill labels only. This method maps those labels back to
+        the full skill dicts from ordered_skills and adds the same resource fields that the
+        fallback _create_enhanced_basic_sessions path provides.
+        """
+        # Build a lookup from skill label (lowered) to full skill dict
+        skill_lookup = {}
+        for skill in ordered_skills:
+            skill_lookup[skill['label'].lower()] = skill
+        
+        for session in sessions:
+            # Map skill labels to full skill dicts
+            session_skill_labels = session.get('skills', [])
+            matched_skill_dicts = []
+            for label in session_skill_labels:
+                matched = skill_lookup.get(label.lower())
+                if matched:
+                    matched_skill_dicts.append(matched)
+                else:
+                    # Create a minimal skill dict for unmatched labels so guides still generate
+                    matched_skill_dicts.append({'label': label, 'description': '', 'priority': 0.5})
+            
+            # Add skill_details if not already present
+            if 'skill_details' not in session or not session['skill_details']:
+                session['skill_details'] = matched_skill_dicts
+            
+            # Add comprehensive_guides if not already present
+            if 'comprehensive_guides' not in session or not session['comprehensive_guides']:
+                session['comprehensive_guides'] = self._generate_skill_guides(matched_skill_dicts)
+            
+            # Add learning_resources if not already present
+            if 'learning_resources' not in session or not session['learning_resources']:
+                session['learning_resources'] = self._generate_learning_resources(matched_skill_dicts)
+            
+            # Ensure duration field exists (some LLM outputs may omit it)
+            if 'duration' not in session and 'estimated_duration_hours' in session:
+                session['duration'] = f"{session['estimated_duration_hours']} hours"
+        
+        return sessions
     
     def _create_enhanced_basic_sessions(self, ordered_skills: List[Dict]) -> List[Dict]:
         """Create enhanced basic learning sessions with intelligent grouping and dynamic durations."""

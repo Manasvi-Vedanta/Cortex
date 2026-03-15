@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:29:45.770675",
+      "learning_path_id": "test_31",
+      "target_occupation": "business intelligence manager",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A data warehouse integrates data from multiple sources and stores historical, subject-oriented data optimized for analytics, reporting, and decision-making.",
+        "id": 1,
+        "options": {
+          "A": "Run day-to-day transactional operations with high concurrency",
+          "B": "Store integrated historical data optimized for analytics and reporting",
+          "C": "Replace all operational databases to reduce application complexity",
+          "D": "Provide a file system for unstructured documents and emails"
+        },
+        "question": "What is the primary purpose of a data warehouse in a BI environment?",
+        "topic": "Data Warehousing"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Fact tables contain numeric measures of a business process and link to dimension tables via foreign keys.",
+        "id": 2,
+        "options": {
+          "A": "Store descriptive attributes like customer name and region",
+          "B": "Store business process measurements (e.g., sales amount) and foreign keys to dimensions",
+          "C": "Store only primary keys for all tables to enforce normalization",
+          "D": "Store ETL logs and data lineage metadata"
+        },
+        "question": "In a star schema, what is the role of a fact table?",
+        "topic": "Data Modeling (Dimensional/Star Schema)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "HAVING filters groups after aggregation (e.g., SUM, COUNT) is calculated; WHERE filters rows before grouping.",
+        "id": 3,
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "GROUP BY",
+          "D": "ORDER BY"
+        },
+        "question": "Which SQL clause is used to filter rows after aggregation has been performed?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Measures are DAX calculations evaluated dynamically based on filter context (slicers, rows/columns in a visual).",
+        "id": 4,
+        "options": {
+          "A": "Storing static text labels for visuals",
+          "B": "Creating calculated results that evaluate in the context of a visual (filter context)",
+          "C": "Importing data from on-premises sources without a gateway",
+          "D": "Defining relationships between tables in the model"
+        },
+        "question": "In Power BI, what is a measure primarily used for?",
+        "topic": "Power Bi"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Incremental loading commonly uses a watermark to extract changes and then performs upserts (insert/update) to keep the warehouse current efficiently.",
+        "id": 5,
+        "options": {
+          "A": "Full truncate-and-reload every day to avoid duplicates",
+          "B": "Use a watermark (e.g., LastModifiedDate) and upsert changed/new rows",
+          "C": "Only append new rows and ignore updates to existing rows",
+          "D": "Disable constraints and indexes permanently to speed up loads"
+        },
+        "question": "You need to load daily incremental changes from a source table into a warehouse table. Which approach is most appropriate?",
+        "topic": "Etl/Elt (Ssis/Azure Data Factory)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "TRY...CATCH is the T-SQL mechanism for structured error handling, enabling logging and controlled failure behavior.",
+        "id": 6,
+        "options": {
+          "A": "IF...ELSE",
+          "B": "TRY...CATCH",
+          "C": "WHILE",
+          "D": "CASE"
+        },
+        "question": "In SQL Server (T-SQL), which construct is best suited to capture and handle errors within a batch or stored procedure?",
+        "topic": "T-Sql (Sql Server)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "If units are flat but revenue rises, likely drivers include price increases, product mix shifts, discounts/returns (gross vs net), or currency; these should be validated before recommendations.",
+        "id": 7,
+        "options": {
+          "A": "Conclude demand is increasing and recommend expanding inventory immediately",
+          "B": "Investigate price/mix changes and validate whether revenue is gross vs net and currency effects",
+          "C": "Remove 'Units Sold' from the dashboard to avoid confusion",
+          "D": "Assume the data is correct and communicate only the revenue trend to executives"
+        },
+        "question": "A report shows 'Revenue' increasing month-over-month, but 'Units Sold' is flat. What is the most reasonable next step to interpret the business information?",
+        "topic": "interpret business information"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Type 2 slowly changing dimensions preserve history by creating new rows for attribute changes and linking facts to the correct version via surrogate keys.",
+        "id": 8,
+        "options": {
+          "A": "Type 0 SCD: never change attributes once loaded",
+          "B": "Type 1 SCD: overwrite attributes to keep only the latest values",
+          "C": "Type 2 SCD: create a new dimension row per change with effective dates and surrogate keys",
+          "D": "Snowflake the dimension into multiple normalized tables to avoid duplicates"
+        },
+        "question": "Your BI team is asked to deliver a 'Customer' dimension. The source system reuses customer IDs and overwrites attributes (e.g., segment, address). The business needs historical reporting by the segment at the time of each sale. What is the best dimensional modeling approach?",
+        "topic": "Data Modeling (Dimensional/Star Schema)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "CALCULATE with DATESYTD applies a time-intelligence filter over the Date table to compute year-to-date totals correctly within filter context.",
+        "id": 9,
+        "options": {
+          "A": "YTD Sales = SUM(Sales[Amount])",
+          "B": "YTD Sales = CALCULATE(SUM(Sales[Amount]), DATESYTD('Date'[Date]))",
+          "C": "YTD Sales = SUMX(ALL('Date'), Sales[Amount])",
+          "D": "YTD Sales = CALCULATE(COUNT(Sales[Amount]), ALL('Date'))"
+        },
+        "question": "A Power BI model has Sales and Date tables. You need a measure for Year-to-Date Sales that respects the report's date filters and works across years. Which DAX pattern is most appropriate?",
+        "topic": "Dax"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Preventing inconsistent KPIs requires automated data validation plus governed, centralized KPI definitions (semantic layer/metrics store) and monitoring to detect and alert on issues early.",
+        "id": 10,
+        "options": {
+          "A": "Ask analysts to manually reconcile KPIs each morning and update the dashboard notes",
+          "B": "Implement automated validation checks (row counts, referential integrity, threshold/anomaly tests), define KPI calculation rules in a governed semantic layer, and monitor with alerts",
+          "C": "Increase the dashboard refresh frequency to hourly so discrepancies are less noticeable",
+          "D": "Allow each department to define its own KPI logic to match local needs"
+        },
+        "question": "A nightly pipeline loads data from multiple sources. Executives report inconsistent KPI values between the dashboard and finance extracts. As a BI manager, which combined data quality and governance action is most effective to prevent recurrence?",
+        "topic": "Data Quality & Validation"
+      }
+    ],
+    "topics_covered": [
+      "Data Warehousing",
+      "business management principles",
+      "manage business knowledge",
+      "Sql",
+      "T-Sql (Sql Server)",
+      "interpret business information",
+      "Data Modeling (Dimensional/Star Schema)",
+      "business analysis",
+      "Etl/Elt (Ssis/Azure Data Factory)",
+      "perform business analysis",
+      "Data Quality & Validation",
+      "Power Bi",
+      "Data Visualization & Dashboard Design",
+      "Dax",
+      "Python"
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:33:19.085340",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Airport security measures exist to deter, detect, and prevent threats by controlling access and screening people/items to protect aviation operations.",
+        "is_correct": false,
+        "question": "What is the primary purpose of airport security measures?",
+        "question_id": 1,
+        "topic": "ensure compliance with airport security measures",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Suspected narcotics are illegal substances and require proper reporting and escalation per airport and law-enforcement procedures.",
+        "is_correct": false,
+        "question": "Which item is generally classified as an illegal substance that must be reported if discovered during screening?",
+        "question_id": 2,
+        "topic": "illegal substances",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An alarm requires secondary screening to resolve the cause while maintaining safety, professionalism, and compliance with screening protocols.",
+        "is_correct": true,
+        "question": "During passenger screening, what is the correct action if the walk-through metal detector alarms?",
+        "question_id": 3,
+        "topic": "conduct airport security screening",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Safety regulations are mandatory rules and procedures intended to reduce hazards and protect passengers, staff, and infrastructure.",
+        "is_correct": false,
+        "question": "Which statement best describes an airport safety regulation?",
+        "question_id": 4,
+        "topic": "airport safety regulations",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Unattended items can be a security threat; standard practice is to avoid handling, secure the area, and escalate through established procedures.",
+        "is_correct": false,
+        "question": "You find an unattended bag in a public terminal area. What is the best immediate action?",
+        "question_id": 5,
+        "topic": "identify security threats",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Effective correlation links endpoint detections with Windows/AD authentication and other telemetry to validate activity and build a timeline.",
+        "is_correct": false,
+        "question": "In a SIEM (e.g., Splunk/QRadar/Sentinel), which approach best supports log correlation for a suspected compromised airport workstation?",
+        "question_id": 6,
+        "topic": "Log Analysis & Correlation",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Failed logon and related account events in Windows Security logs (and AD) are primary evidence for brute-force attempts and authentication abuse.",
+        "is_correct": true,
+        "question": "Which Windows Security log event type most directly helps confirm repeated failed logon attempts against an airport domain account?",
+        "question_id": 7,
+        "topic": "Windows Security (Event Logs, Active Directory)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Office spawning PowerShell is a common phishing/malware pattern; proper triage is containment (isolation), evidence collection, and escalation.",
+        "is_correct": false,
+        "question": "An EDR alert (CrowdStrike/MDE/SentinelOne) shows: 'powershell.exe spawned by winword.exe' on a staff workstation used for gate operations. What is the most appropriate triage decision?",
+        "question_id": 8,
+        "topic": "Incident Response & Triage",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Good tuning reduces noise with scoped allowlists and adjusted thresholds while preserving detection for abnormal behavior and non-kiosk systems.",
+        "is_correct": false,
+        "question": "You are tuning SIEM alerts for 'multiple failed logons' to reduce false positives from known kiosk systems that occasionally mistype cached credentials. What is the best tuning method while maintaining security coverage?",
+        "question_id": 9,
+        "topic": "Threat Detection & Alert Tuning",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Safe analysis requires isolation (sandbox), validation against IOCs, indicator extraction, and operationalizing findings in SIEM/EDR without risking production systems.",
+        "is_correct": false,
+        "question": "A suspicious file from a checkpoint workstation is flagged by threat intel with an IOC hash and mapped to MITRE ATT&CK technique 'T1059 Command and Scripting Interpreter'. What is the best next step for malware analysis fundamentals in an airport environment?",
+        "question_id": 10,
+        "topic": "Malware Analysis Fundamentals",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: ensure compliance with airport security measures, illegal substances, airport safety regulations",
+      "✅ Your strongest areas: conduct airport security screening, Windows Security (Event Logs, Active Directory)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "conduct airport security screening",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Windows Security (Event Logs, Active Directory)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "ensure compliance with airport security measures",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "illegal substances",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "airport safety regulations",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "identify security threats",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Log Analysis & Correlation",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Incident Response & Triage",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Threat Detection & Alert Tuning",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Malware Analysis Fundamentals",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

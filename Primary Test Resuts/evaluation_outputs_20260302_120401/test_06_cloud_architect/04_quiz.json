@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:12:37.185709",
+      "learning_path_id": "test_06",
+      "target_occupation": "cloud engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "PaaS abstracts server management and provides a managed runtime/platform to deploy applications.",
+        "id": 1,
+        "options": {
+          "A": "IaaS",
+          "B": "PaaS",
+          "C": "SaaS",
+          "D": "On-premises"
+        },
+        "question": "Which cloud service model provides managed application runtime where you deploy code without managing servers (e.g., AWS Lambda, Azure Functions)?",
+        "topic": "cloud technologies"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`top` provides an interactive, real-time view of processes and system resource usage.",
+        "id": 2,
+        "options": {
+          "A": "top",
+          "B": "tar",
+          "C": "chmod",
+          "D": "grep"
+        },
+        "question": "On Linux, which command is commonly used to view real-time system processes and CPU/memory usage interactively?",
+        "topic": "Linux Administration"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Amazon S3 is AWS's object storage service that stores data in buckets as objects.",
+        "id": 3,
+        "options": {
+          "A": "EC2",
+          "B": "S3",
+          "C": "VPC",
+          "D": "IAM"
+        },
+        "question": "In AWS, which service is primarily used for object storage (storing files as objects in buckets)?",
+        "topic": "Aws Services (Ec2, S3, Vpc, Iam)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A Dockerfile contains build instructions (base image, dependencies, commands) used to create a container image.",
+        "id": 4,
+        "options": {
+          "A": "To define how to build a container image",
+          "B": "To store container logs centrally",
+          "C": "To schedule containers across nodes",
+          "D": "To manage DNS for containers"
+        },
+        "question": "In Docker, what is the primary purpose of a Dockerfile?",
+        "topic": "Containers (Docker)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A NAT Gateway enables outbound internet access for resources in private subnets while preventing unsolicited inbound connections.",
+        "id": 5,
+        "options": {
+          "A": "Internet Gateway",
+          "B": "NAT Gateway",
+          "C": "VPC Peering",
+          "D": "AWS Direct Connect"
+        },
+        "question": "You need to allow an EC2 instance in a private subnet to download OS updates from the internet without allowing inbound internet traffic to that instance. Which AWS component is the best fit?",
+        "topic": "Aws Services (Ec2, S3, Vpc, Iam)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Terraform state records resource IDs and metadata so Terraform can plan and apply changes against existing infrastructure.",
+        "id": 6,
+        "options": {
+          "A": "To store application secrets for runtime use",
+          "B": "To track the mapping between declared resources and real infrastructure objects",
+          "C": "To compile HCL into machine code for faster execution",
+          "D": "To replace the need for version control systems"
+        },
+        "question": "In Terraform, what is the main purpose of the state file?",
+        "topic": "Infrastructure As Code (Terraform)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Service exposes a stable virtual IP/DNS name and routes traffic to matching Pods via label selectors.",
+        "id": 7,
+        "options": {
+          "A": "Deployment",
+          "B": "Service",
+          "C": "ConfigMap",
+          "D": "Namespace"
+        },
+        "question": "In Kubernetes, which object provides stable networking and load-balancing to a set of Pods selected by labels?",
+        "topic": "Kubernetes"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "SSE-KMS with a customer-managed key enables granular key policies, auditing via CloudTrail, and controlled rotation/usage.",
+        "id": 8,
+        "options": {
+          "A": "SSE-S3 (S3-managed keys) with no additional configuration",
+          "B": "SSE-KMS using a customer-managed KMS key with key policies and CloudTrail logging",
+          "C": "Client-side encryption using a hard-coded key in the application",
+          "D": "Store data unencrypted in S3 and rely on TLS in transit only"
+        },
+        "question": "A company requires encryption at rest for S3 objects and strict control over key usage, including the ability to audit key access and rotate keys. Which approach best meets these requirements?",
+        "topic": "Cloud Security (Encryption, Key Management, Security Groups)"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "hard",
+        "explanation": "Active-active across regions provides the fastest recovery (very low RTO) and can achieve very low RPO with near-real-time replication.",
+        "id": 9,
+        "options": {
+          "A": "Backup and restore",
+          "B": "Pilot light",
+          "C": "Warm standby",
+          "D": "Multi-site active-active"
+        },
+        "question": "You run a multi-region web application. The RTO must be under 15 minutes and the RPO under 5 minutes. Which disaster recovery strategy most appropriately meets these targets?",
+        "topic": "Disaster Recovery And High Availability Design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Distributed tracing reveals end-to-end request paths and per-service latency, making it ideal for diagnosing cross-service bottlenecks.",
+        "id": 10,
+        "options": {
+          "A": "Increase log retention from 7 days to 90 days",
+          "B": "Enable distributed tracing with correlation/trace IDs across services",
+          "C": "Add more replicas to every Kubernetes Deployment",
+          "D": "Disable TLS to reduce overhead and simplify debugging"
+        },
+        "question": "A microservices API shows intermittent latency spikes. Metrics indicate normal CPU/memory, and logs do not clearly show where time is spent. What is the best next step to pinpoint the bottleneck across services?",
+        "topic": "Observability (Monitoring, Logging, Tracing)"
+      }
+    ],
+    "topics_covered": [
+      "cloud technologies",
+      "Linux Administration",
+      "Aws Services (Ec2, S3, Vpc, Iam)",
+      "Identity And Access Management (Iam)",
+      "Cloud Security (Encryption, Key Management, Security Groups)",
+      "Cloud Architecture Design",
+      "Infrastructure As Code (Terraform)",
+      "Containers (Docker)",
+      "Kubernetes",
+      "Ci/Cd Pipelines (Github Actions, Jenkins)",
+      "Observability (Monitoring, Logging, Tracing)",
+      "cloud monitoring and reporting",
+      "Azure Services (Virtual Networks, Storage, Entra Id)",
+      "Google Cloud Platform Services (Compute Engine, Cloud Storage, Iam)",
+      "Disaster Recovery And High Availability Design"
+    ]
+  },
+  "success": true
+}

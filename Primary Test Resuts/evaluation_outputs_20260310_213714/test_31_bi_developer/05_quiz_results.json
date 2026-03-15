@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:29:47.834030",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A data warehouse integrates data from multiple sources and stores historical, subject-oriented data optimized for analytics, reporting, and decision-making.",
+        "is_correct": true,
+        "question": "What is the primary purpose of a data warehouse in a BI environment?",
+        "question_id": 1,
+        "topic": "Data Warehousing",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Fact tables contain numeric measures of a business process and link to dimension tables via foreign keys.",
+        "is_correct": true,
+        "question": "In a star schema, what is the role of a fact table?",
+        "question_id": 2,
+        "topic": "Data Modeling (Dimensional/Star Schema)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "HAVING filters groups after aggregation (e.g., SUM, COUNT) is calculated; WHERE filters rows before grouping.",
+        "is_correct": true,
+        "question": "Which SQL clause is used to filter rows after aggregation has been performed?",
+        "question_id": 3,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Measures are DAX calculations evaluated dynamically based on filter context (slicers, rows/columns in a visual).",
+        "is_correct": true,
+        "question": "In Power BI, what is a measure primarily used for?",
+        "question_id": 4,
+        "topic": "Power Bi",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Incremental loading commonly uses a watermark to extract changes and then performs upserts (insert/update) to keep the warehouse current efficiently.",
+        "is_correct": true,
+        "question": "You need to load daily incremental changes from a source table into a warehouse table. Which approach is most appropriate?",
+        "question_id": 5,
+        "topic": "Etl/Elt (Ssis/Azure Data Factory)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "TRY...CATCH is the T-SQL mechanism for structured error handling, enabling logging and controlled failure behavior.",
+        "is_correct": true,
+        "question": "In SQL Server (T-SQL), which construct is best suited to capture and handle errors within a batch or stored procedure?",
+        "question_id": 6,
+        "topic": "T-Sql (Sql Server)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "If units are flat but revenue rises, likely drivers include price increases, product mix shifts, discounts/returns (gross vs net), or currency; these should be validated before recommendations.",
+        "is_correct": false,
+        "question": "A report shows 'Revenue' increasing month-over-month, but 'Units Sold' is flat. What is the most reasonable next step to interpret the business information?",
+        "question_id": 7,
+        "topic": "interpret business information",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Type 2 slowly changing dimensions preserve history by creating new rows for attribute changes and linking facts to the correct version via surrogate keys.",
+        "is_correct": false,
+        "question": "Your BI team is asked to deliver a 'Customer' dimension. The source system reuses customer IDs and overwrites attributes (e.g., segment, address). The business needs historical reporting by the segment at the time of each sale. What is the best dimensional modeling approach?",
+        "question_id": 8,
+        "topic": "Data Modeling (Dimensional/Star Schema)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "CALCULATE with DATESYTD applies a time-intelligence filter over the Date table to compute year-to-date totals correctly within filter context.",
+        "is_correct": false,
+        "question": "A Power BI model has Sales and Date tables. You need a measure for Year-to-Date Sales that respects the report's date filters and works across years. Which DAX pattern is most appropriate?",
+        "question_id": 9,
+        "topic": "Dax",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Preventing inconsistent KPIs requires automated data validation plus governed, centralized KPI definitions (semantic layer/metrics store) and monitoring to detect and alert on issues early.",
+        "is_correct": false,
+        "question": "A nightly pipeline loads data from multiple sources. Executives report inconsistent KPI values between the dashboard and finance extracts. As a BI manager, which combined data quality and governance action is most effective to prevent recurrence?",
+        "question_id": 10,
+        "topic": "Data Quality & Validation",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Data Modeling (Dimensional/Star Schema)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: interpret business information, Dax, Data Quality & Validation",
+      "✅ Your strongest areas: Data Warehousing, Sql",
+      "📖 Topics needing more practice: Data Modeling (Dimensional/Star Schema)"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Warehousing",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Power Bi",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Etl/Elt (Ssis/Azure Data Factory)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "T-Sql (Sql Server)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "interpret business information",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Dax",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Quality & Validation",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

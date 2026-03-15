@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:47:14.206265",
+      "learning_path_id": "test_41",
+      "target_occupation": "technical sales representative",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Product comprehension is a practical understanding of what the product does, where it fits, and how it solves customer problems, including constraints.",
+        "id": 1,
+        "options": {
+          "A": "Knowing the product’s features, use cases, limitations, and how it delivers value",
+          "B": "Memorizing the company’s org chart and internal processes",
+          "C": "Focusing only on pricing and discount rules",
+          "D": "Learning competitor slogans to use in pitches"
+        },
+        "question": "In a technical sales call, what does 'product comprehension' most directly mean?",
+        "topic": "product comprehension"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Performance characteristics like latency, throughput, and scalability are measurable attributes customers often evaluate.",
+        "id": 2,
+        "options": {
+          "A": "Latency under load (e.g., p95 response time)",
+          "B": "The CEO’s preferred presentation style",
+          "C": "The office location of the engineering team",
+          "D": "The color of the company’s logo"
+        },
+        "question": "Which is an example of a product 'characteristic' that a technical sales representative should be able to explain?",
+        "topic": "characteristics of products"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Markdown links use the format [link text](URL).",
+        "id": 3,
+        "options": {
+          "A": "[API Docs](https://example.com/docs)",
+          "B": "(API Docs)[https://example.com/docs]",
+          "C": "<API Docs|https://example.com/docs>",
+          "D": "{API Docs}(https://example.com/docs)"
+        },
+        "question": "In Markdown, which syntax correctly creates a clickable link with text 'API Docs' pointing to https://example.com/docs?",
+        "topic": "Markdown"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is used to read/retrieve a representation of a resource and is intended to be safe and non-modifying.",
+        "id": 4,
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PATCH",
+          "D": "DELETE"
+        },
+        "question": "Which HTTP method is typically used to retrieve a resource without modifying it?",
+        "topic": "Http Fundamentals (Methods/Status Codes/Auth)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "401 indicates authentication is required or missing/invalid; 403 is for authenticated requests that are not permitted.",
+        "id": 5,
+        "options": {
+          "A": "401 Unauthorized",
+          "B": "403 Forbidden",
+          "C": "404 Not Found",
+          "D": "500 Internal Server Error"
+        },
+        "question": "A customer’s API request fails because they forgot to include credentials. Which HTTP status code is most appropriate?",
+        "topic": "Http Fundamentals (Methods/Status Codes/Auth)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "JSON requires double-quoted property names and uses ':' for key/value pairs; single quotes and unquoted keys are invalid.",
+        "id": 6,
+        "options": {
+          "A": "{name: \"Acme\", trial: true}",
+          "B": "{\"name\": \"Acme\", \"trial\": true}",
+          "C": "{\"name\" = \"Acme\", \"trial\" = true}",
+          "D": "{'name': 'Acme', 'trial': true}"
+        },
+        "question": "Which JSON example is valid and best represents an object with a string 'name' and a boolean 'trial'?",
+        "topic": "Json"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Docs-as-code uses version control, code review, and automated publishing to keep documentation aligned with product changes.",
+        "id": 7,
+        "options": {
+          "A": "Keep docs in a shared drive and update them manually after each release",
+          "B": "Store docs in the same Git repo as the product, review via pull requests, and publish via CI",
+          "C": "Only allow one person to edit docs to avoid merge conflicts",
+          "D": "Write docs in a proprietary editor that cannot be diffed, then export PDFs"
+        },
+        "question": "You want to propose a docs-as-code workflow to reduce documentation drift. Which approach best aligns with docs-as-code principles?",
+        "topic": "Docs-As-Code Workflows"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "OpenAPI is a machine- and human-readable contract that defines endpoints, parameters, schemas, and security, enabling tooling like SDK generation.",
+        "id": 8,
+        "options": {
+          "A": "A slide deck with screenshots of example requests",
+          "B": "An OpenAPI (Swagger) specification for the REST API",
+          "C": "A CRM export of previous support tickets",
+          "D": "A Markdown README with only high-level marketing copy"
+        },
+        "question": "A prospect asks for a 'single source of truth' describing endpoints, request/response schemas, and auth so their team can generate client SDKs. What should you provide?",
+        "topic": "Api Documentation (Rest/Openapi)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Idempotency keys (or stable client-generated identifiers) allow safe retries for POST by deduplicating repeated requests; 409 often indicates a conflict/duplicate.",
+        "id": 9,
+        "options": {
+          "A": "Switch the request to GET so it becomes safe",
+          "B": "Disable retries entirely and accept occasional failures",
+          "C": "Use an idempotency key (or client-generated order ID) so repeated POSTs are treated as the same operation",
+          "D": "Change the endpoint to return 500 so the client stops retrying"
+        },
+        "question": "A customer reports: 'Our POST to /v1/orders returns 409.' Logs show they are retrying the same request after a timeout, creating duplicates. What is the best technical guidance to reduce duplicates while keeping retries safe?",
+        "topic": "Http Fundamentals (Methods/Status Codes/Auth)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "A small script is a fast, practical way to aggregate CRM export data (count, sort, report) without heavy tooling or manual work.",
+        "id": 10,
+        "options": {
+          "A": "Write a short Python script to parse the CSV and count industries, then sort and print the top 3",
+          "B": "Re-enter the data manually into a new spreadsheet to avoid automation",
+          "C": "Ask engineering to build a full web app dashboard before you can answer",
+          "D": "Use Git to merge the CSV with a Markdown file and infer counts from diffs"
+        },
+        "question": "You need to quickly analyze a CSV export from a CRM to find the top 3 industries by number of open opportunities. Which approach is most appropriate for a technical sales representative who can script?",
+        "topic": "Basic Programming/Scripting (Python/Javascript)"
+      }
+    ],
+    "topics_covered": [
+      "product comprehension",
+      "characteristics of products",
+      "apply technical communication skills",
+      "Technical Writing (Software Documentation)",
+      "Markdown",
+      "Http Fundamentals (Methods/Status Codes/Auth)",
+      "Json",
+      "Api Documentation (Rest/Openapi)",
+      "Git",
+      "Command Line (Bash/Shell)",
+      "Docs-As-Code Workflows",
+      "Static Site Generators (Mkdocs/Docusaurus/Sphinx)",
+      "Basic Programming/Scripting (Python/Javascript)",
+      "use customer relationship management software",
+      "sales promotion techniques"
+    ]
+  },
+  "success": true
+}

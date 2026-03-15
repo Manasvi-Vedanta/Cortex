@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:51:12.841909",
+      "learning_path_id": "test_09",
+      "target_occupation": "mobile application developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`val` creates an immutable reference (read-only). `var` is mutable, `const` is for compile-time constants, and `lateinit` is for deferred initialization of `var` properties.",
+        "id": 1,
+        "options": {
+          "A": "val",
+          "B": "var",
+          "C": "const",
+          "D": "lateinit"
+        },
+        "question": "In Kotlin, which keyword declares a read-only variable (cannot be reassigned)?",
+        "topic": "Kotlin"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Android Studio is the official IDE for Android development, providing code editing, build tools integration, emulator support, debugging, and profiling.",
+        "id": 2,
+        "options": {
+          "A": "Designing and building Android apps in an IDE",
+          "B": "Running Android apps only on physical devices (not emulators)",
+          "C": "Replacing the Android SDK entirely",
+          "D": "Hosting REST APIs for mobile apps"
+        },
+        "question": "What is Android Studio primarily used for?",
+        "topic": "Android Studio"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Android platform for a given API level includes `android.jar`, which contains the Android framework APIs used at compile time.",
+        "id": 3,
+        "options": {
+          "A": "Platform (android.jar) for a specific API level",
+          "B": "Gradle Wrapper",
+          "C": "Git",
+          "D": "Layout Inspector"
+        },
+        "question": "Which Android SDK component provides the core Android APIs and libraries used to compile apps?",
+        "topic": "Android Sdk"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is a distributed version control system used for tracking changes, branching, merging, and collaboration.",
+        "id": 4,
+        "options": {
+          "A": "Git",
+          "B": "ADB",
+          "C": "SQLite",
+          "D": "Logcat"
+        },
+        "question": "In software configuration management, which tool is most commonly used to track code changes and collaborate via branches and merges?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "`LazyColumn` only composes and lays out visible items (plus a small buffer), making it suitable for large lists.",
+        "id": 5,
+        "options": {
+          "A": "LazyColumn",
+          "B": "Column",
+          "C": "Box",
+          "D": "Surface"
+        },
+        "question": "In Jetpack Compose, which composable is specifically designed to efficiently display a long scrolling list of items?",
+        "topic": "Jetpack Compose"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "The ViewModel is designed to hold UI-related data and logic in a lifecycle-aware way and survive configuration changes.",
+        "id": 6,
+        "options": {
+          "A": "ViewModel",
+          "B": "Activity/Fragment only",
+          "C": "XML layout file",
+          "D": "AndroidManifest.xml"
+        },
+        "question": "In MVVM, where should UI state and business logic that survives configuration changes (like rotation) typically live?",
+        "topic": "Mvvm Architecture"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Retrofit uses an annotated interface to define endpoints; with OkHttp and a converter (Moshi/Gson), it can map JSON to Kotlin data classes. Network calls should not run on the main thread.",
+        "id": 7,
+        "options": {
+          "A": "Define a Retrofit interface with suspend functions and use a JSON converter (e.g., Moshi/Gson)",
+          "B": "Use Room DAO methods to fetch HTTP responses",
+          "C": "Use LiveData to open a raw TCP socket directly",
+          "D": "Write all network calls on the main thread for simplicity"
+        },
+        "question": "You need to call a REST API using Retrofit with OkHttp and parse JSON into Kotlin objects. Which approach is most appropriate?",
+        "topic": "Rest Api Integration (Retrofit/Okhttp)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "`repeatOnLifecycle` ties collection to the lifecycle state and automatically cancels/restarts collection, preventing leaks and wasted work when the UI is stopped.",
+        "id": 8,
+        "options": {
+          "A": "Use viewLifecycleOwner.lifecycleScope.launch { viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) { flow.collect { ... } } }",
+          "B": "Use GlobalScope.launch { flow.collect { ... } }",
+          "C": "Collect the Flow in Application.onCreate() and store the latest value in a static field",
+          "D": "Run flow.collect() on the main thread without any lifecycle awareness"
+        },
+        "question": "You collect a Flow in a Fragment to update the UI. To avoid leaks and stop collecting when the view is not STARTED, which pattern is best?",
+        "topic": "Coroutines & Flow"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "A repository coordinating Room (single source of truth) and network refresh is a common offline-first pattern. UI observes Room via Flow/LiveData; network updates are persisted to Room.",
+        "id": 9,
+        "options": {
+          "A": "Repository exposes a Flow from Room; a refresh function fetches via Retrofit and writes to Room; ViewModel collects the Room Flow for UI state",
+          "B": "ViewModel calls Retrofit on the main thread and directly updates the UI without caching",
+          "C": "Activity reads SQLite directly and also performs network calls, bypassing a repository",
+          "D": "Store all server responses only in SharedPreferences and never use Room"
+        },
+        "question": "You want offline-first behavior: show cached data immediately from Room, then refresh from the network and update the cache. Which design best fits MVVM + Jetpack components?",
+        "topic": "Room Database (Sqlite)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Installing the module in `SingletonComponent` and scoping with `@Singleton` ensures one shared Retrofit instance across the application.",
+        "id": 10,
+        "options": {
+          "A": "Create a @Module with @InstallIn(SingletonComponent::class) and a @Provides or @Binds method annotated with @Singleton",
+          "B": "Instantiate Retrofit inside every Activity to ensure fresh instances",
+          "C": "Put Retrofit in a companion object without DI to avoid configuration",
+          "D": "Provide Retrofit in a @Module installed in ActivityComponent without any scope"
+        },
+        "question": "In a multi-module Android app using Hilt, you need to provide a single instance of Retrofit shared across the app. Where and how should it be provided?",
+        "topic": "Dependency Injection (Hilt/Dagger)"
+      }
+    ],
+    "topics_covered": [
+      "Kotlin",
+      "Android Studio",
+      "Android Sdk",
+      "integrated development environment software",
+      "programming",
+      "digital systems",
+      "Jetpack Compose",
+      "Mvvm Architecture",
+      "Android Jetpack (Lifecycle/Viewmodel/Livedata)",
+      "Coroutines & Flow",
+      "Rest Api Integration (Retrofit/Okhttp)",
+      "Room Database (Sqlite)",
+      "Dependency Injection (Hilt/Dagger)",
+      "debug software",
+      "tools for software configuration management"
+    ]
+  },
+  "success": true
+}

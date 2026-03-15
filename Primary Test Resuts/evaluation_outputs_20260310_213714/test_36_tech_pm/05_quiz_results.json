@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:38:55.360642",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "The Growth stage is characterized by rapid adoption, scaling channels, and increasing market share after initial validation.",
+        "is_correct": false,
+        "question": "In the product life-cycle, which stage typically focuses on scaling distribution and increasing market share after product-market fit is established?",
+        "question_id": 1,
+        "topic": "product life-cycle",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A product roadmap aligns stakeholders on priorities, sequencing, and rationale for planned work.",
+        "is_correct": true,
+        "question": "Which artifact most directly communicates what will be built, why, and in what order over time?",
+        "question_id": 2,
+        "topic": "plan product management",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "An event taxonomy standardizes how user actions are tracked (names, properties, conventions) to ensure reliable analysis.",
+        "is_correct": false,
+        "question": "In event tracking, what is an 'event taxonomy' primarily used for?",
+        "question_id": 3,
+        "topic": "Data Modeling & Event Taxonomy",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "POST is commonly used to create a new resource on the server.",
+        "is_correct": false,
+        "question": "Which HTTP method is most appropriate for creating a new resource in a REST API?",
+        "question_id": 4,
+        "topic": "Api Fundamentals (Rest/Graphq)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A good KPI is specific, behavior-based, and time-bounded; completing onboarding plus a key action is a clear activation signal.",
+        "is_correct": false,
+        "question": "You want to measure activation for a new onboarding flow. Which KPI definition is most actionable and least ambiguous?",
+        "question_id": 5,
+        "topic": "Product Metrics & Kpis Instrumentation",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A proof-of-concept prototype tests whether the core technology can meet requirements, reducing feasibility risk early.",
+        "is_correct": true,
+        "question": "In industrial R&D for a physical product, which activity best reduces technical feasibility risk before committing to full-scale development?",
+        "question_id": 6,
+        "topic": "industrial research and development",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "WAU requires grouping by week and counting distinct users, with a time filter that captures the last 4 full weeks.",
+        "is_correct": false,
+        "question": "You have a table events(user_id, event_name, event_time). Which SQL query best calculates weekly active users (WAU) for the last 4 full weeks?",
+        "question_id": 7,
+        "topic": "Product Analytics (Sql + Bi Tools)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "When instrumentation changes, measurement may be biased; validating against backend records and auditing event definitions reduces false conclusions.",
+        "is_correct": false,
+        "question": "After launching a new signup flow, conversion appears to increase by 5%. However, you also changed the event instrumentation at launch. What is the best next step to validate the result?",
+        "question_id": 8,
+        "topic": "User Analytics Platforms (Amplitude/Mixpanel/Google Analytics)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "When metrics move in opposite directions, a synthesized business metric like revenue per visitor plus uncertainty and guardrails provides a sound decision basis.",
+        "is_correct": false,
+        "question": "You run an A/B test on a checkout change. Variant B increases average order value but decreases conversion rate. Which approach best supports a product decision?",
+        "question_id": 9,
+        "topic": "A/B Testing & Experimentation",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Usability testing on prototypes validates workflows and comprehension early, catching issues before engineering investment and reducing rework.",
+        "is_correct": false,
+        "question": "A team is developing a new product design and wants to reduce late-stage rework. Which testing strategy is most effective before full implementation?",
+        "question_id": 10,
+        "topic": "manage product testing",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: product life-cycle, Data Modeling & Event Taxonomy, Api Fundamentals (Rest/Graphq)",
+      "✅ Your strongest areas: plan product management, industrial research and development"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "plan product management",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "industrial research and development",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "product life-cycle",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Modeling & Event Taxonomy",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Api Fundamentals (Rest/Graphq)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Product Metrics & Kpis Instrumentation",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Product Analytics (Sql + Bi Tools)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "User Analytics Platforms (Amplitude/Mixpanel/Google Analytics)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "A/B Testing & Experimentation",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "manage product testing",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

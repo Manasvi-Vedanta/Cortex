@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:29:48.495030",
+      "learning_path_id": "test_17",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Embedded systems are purpose-built computers integrated into products (appliances, vehicles, sensors) to perform specific tasks, commonly under timing and resource constraints.",
+        "id": 1,
+        "options": {
+          "A": "A general-purpose computer designed to run many unrelated applications",
+          "B": "A dedicated computing system built into a larger device to perform specific functions, often with real-time constraints",
+          "C": "A cloud service that provides remote compute resources",
+          "D": "A desktop operating system used for software development"
+        },
+        "question": "What best describes an embedded system?",
+        "topic": "embedded systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Digital logic encodes bits as voltage ranges; logic '1' is typically represented by a voltage near VDD (within specified thresholds).",
+        "id": 2,
+        "options": {
+          "A": "A voltage near ground (0V)",
+          "B": "A high voltage level near the supply voltage (e.g., 3.3V or 5V), depending on the logic family",
+          "C": "An analog voltage that can take any value",
+          "D": "A negative voltage level"
+        },
+        "question": "In digital systems, what does a logic level '1' typically represent?",
+        "topic": "digital systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A debugger enables breakpoints, single-stepping, and inspection of memory/registers—core needs for embedded firmware bring-up.",
+        "id": 3,
+        "options": {
+          "A": "Code formatter",
+          "B": "Debugger",
+          "C": "Syntax highlighting",
+          "D": "Project template generator"
+        },
+        "question": "Which IDE feature most directly helps you step through firmware line-by-line while inspecting variables and registers on a microcontroller?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is a widely used distributed version control system for tracking source code changes and collaborating across teams.",
+        "id": 4,
+        "options": {
+          "A": "Git",
+          "B": "GDB",
+          "C": "Valgrind",
+          "D": "Wireshark"
+        },
+        "question": "Which tool is most commonly used for software configuration management (version control) in embedded projects?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Cortex-M commonly uses MSP for exceptions/handler mode and PSP for thread mode (e.g., RTOS tasks), improving isolation and context switching.",
+        "id": 5,
+        "options": {
+          "A": "MSP: process stack; PSP: main stack",
+          "B": "MSP: main/exception stack; PSP: thread (task) stack",
+          "C": "MSP: heap pointer; PSP: stack pointer",
+          "D": "MSP: interrupt vector base; PSP: program counter"
+        },
+        "question": "On an Arm Cortex-M microcontroller, which pair correctly matches the typical roles of MSP and PSP?",
+        "topic": "Microcontroller Architecture (Arm Cortex-M)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Hardware timers provide stable periodic events; an interrupt (or timer-triggered flag) reduces jitter compared to busy-wait loops and polling.",
+        "id": 6,
+        "options": {
+          "A": "Use a busy-wait delay loop calibrated by compiler optimization level",
+          "B": "Use a hardware timer to generate an interrupt every 1 ms and trigger sampling in the ISR (or set a flag)",
+          "C": "Poll a GPIO pin in the main loop until it toggles",
+          "D": "Insert a 1 ms sleep call provided by the host OS"
+        },
+        "question": "You need periodic sampling every 1 ms with minimal CPU jitter on a bare-metal Cortex-M. Which approach is most appropriate?",
+        "topic": "Interrupts And Timers"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "I2C uses SCL and SDA and includes 7/10-bit addressing, allowing multiple devices to share the same bus.",
+        "id": 7,
+        "options": {
+          "A": "UART is synchronous and requires a shared clock line",
+          "B": "I2C typically uses two lines (SCL, SDA) and supports addressing multiple devices on the same bus",
+          "C": "SPI uses device addressing on the data line instead of chip select signals",
+          "D": "I2C is full-duplex by default like SPI"
+        },
+        "question": "Which statement about UART, I2C, and SPI is correct?",
+        "topic": "Serial Communication Protocols (Uart/I2C/Spi)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "FreeRTOS provides built-in stack overflow hooks and high-water mark measurements to detect insufficient stack and identify which task is at risk.",
+        "id": 8,
+        "options": {
+          "A": "Disable interrupts globally and see if the fault disappears",
+          "B": "Enable FreeRTOS stack overflow checking (configCHECK_FOR_STACK_OVERFLOW) and use high-water mark APIs (uxTaskGetStackHighWaterMark) to monitor stack usage",
+          "C": "Increase CPU clock frequency to reduce task runtime",
+          "D": "Replace all queues with global variables to reduce overhead"
+        },
+        "question": "A FreeRTOS-based product occasionally hard-faults after running for hours. You suspect a stack overflow in one task. Which combination is the best first step to detect and diagnose it?",
+        "topic": "Rtos (Freertos)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Wait queues allow a process to sleep efficiently until an event occurs; the driver wakes it when data is available, avoiding CPU waste.",
+        "id": 9,
+        "options": {
+          "A": "Use udelay() in the read() implementation until data is ready",
+          "B": "Use a wait queue (wait_event_interruptible) and wake_up() from the interrupt handler or bottom half when data arrives",
+          "C": "Call printf() from kernel space to notify user space",
+          "D": "Use malloc() in the driver to allocate more memory for faster reads"
+        },
+        "question": "On Embedded Linux, you are writing a character device driver for a sensor. User space should read samples via read(). Which kernel mechanism is most appropriate to block until new data arrives without busy-waiting?",
+        "topic": "Device Drivers"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Model-based code generation is a common automatic programming approach in embedded systems, while Prolog/CLP is suited to expressing and solving rule/constraint problems like configuration validity.",
+        "id": 10,
+        "options": {
+          "A": "Automatic programming: model-based code generation (e.g., Simulink); Logic programming: Prolog/constraint logic programming to encode rules and constraints",
+          "B": "Automatic programming: manual copy-paste templates; Logic programming: C preprocessor macros",
+          "C": "Automatic programming: writing assembly by hand; Logic programming: using only unit tests",
+          "D": "Automatic programming: using a text editor; Logic programming: using Git branches"
+        },
+        "question": "You want to auto-generate embedded C code from a high-level specification and also use logic programming to express constraints (e.g., valid pin mappings). Which pairing best matches these goals?",
+        "topic": "use automatic programming"
+      }
+    ],
+    "topics_covered": [
+      "embedded systems",
+      "digital systems",
+      "programming",
+      "integrated development environment software",
+      "tools for software configuration management",
+      "Hardware Interfaces And Digital Electronics",
+      "Microcontroller Architecture (Arm Cortex-M)",
+      "Bare-Metal Firmware Development",
+      "Interrupts And Timers",
+      "Serial Communication Protocols (Uart/I2C/Spi)",
+      "Rtos (Freertos)",
+      "Embedded Linux",
+      "Device Drivers",
+      "use automatic programming",
+      "use logic programming"
+    ]
+  },
+  "success": true
+}

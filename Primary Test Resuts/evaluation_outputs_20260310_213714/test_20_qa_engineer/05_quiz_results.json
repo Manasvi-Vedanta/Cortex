@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:10:37.733587",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in one step.",
+        "is_correct": true,
+        "question": "In Git, which command creates a new local branch named \"feature/login\" and switches to it?",
+        "question_id": 1,
+        "topic": "Version Control (Git)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Dedicated test attributes (e.g., data-testid) are designed to be stable and less affected by layout or copy changes.",
+        "is_correct": true,
+        "question": "Which locator strategy is generally the most stable for UI automation when the application provides unique attributes intended for testing?",
+        "question_id": 2,
+        "topic": "Locators & Web Technologies (Html/Css/Dom/Xpath)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Selenium automates browsers to drive and validate web UI behavior.",
+        "is_correct": false,
+        "question": "Which statement best describes what Selenium is used for?",
+        "question_id": 3,
+        "topic": "Test Automation Frameworks (Selenium/Cypress/Playwright)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "PUT is typically used to replace/update a resource at a known URI.",
+        "is_correct": false,
+        "question": "In REST APIs, which HTTP method is most commonly used to update an existing resource (full replacement)?",
+        "question_id": 4,
+        "topic": "Api Testing (Rest/Soap)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Surefire supports selecting a class and method with -Dtest=ClassName#methodName.",
+        "is_correct": false,
+        "question": "You need to run a specific JUnit 5 test method named \"shouldCreateUser\" from the command line using Maven. Which Maven command is appropriate?",
+        "question_id": 5,
+        "topic": "Build Tools (Maven/Gradle/Npm)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Page Objects should expose behaviors and state accessors; assertions are usually kept in tests to avoid coupling pages to test expectations.",
+        "is_correct": true,
+        "question": "In the Page Object Model, where should assertions (e.g., verifying a success message text) typically live to keep the design maintainable?",
+        "question_id": 6,
+        "topic": "Test Design & Automation Patterns (Page Object Model)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A matrix strategy runs the same job with different parameters (e.g., browsers) in parallel on PR events.",
+        "is_correct": false,
+        "question": "A team wants every pull request to run UI tests in parallel across Chromium and Firefox using GitHub Actions. Which approach best fits this requirement?",
+        "question_id": 7,
+        "topic": "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Condition-based explicit waits synchronize with real UI readiness (visibility/enabled/clickable) and reduce flakiness better than sleeps or blanket workarounds.",
+        "is_correct": false,
+        "question": "Your UI tests are flaky because elements are sometimes present in the DOM but not yet clickable due to animations and overlays. Which solution is the most robust across Selenium/Playwright-style tools?",
+        "question_id": 8,
+        "topic": "Test Automation Frameworks (Selenium/Cypress/Playwright)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A reusable client/service layer centralizes cross-cutting concerns (base URL, headers, retries, logging) and keeps tests focused on assertions and scenarios.",
+        "is_correct": false,
+        "question": "You are designing automation components for API tests. Multiple tests need to call the same REST endpoints with consistent headers, base URL, retries, and logging, while keeping test cases readable. What is the best design approach?",
+        "question_id": 9,
+        "topic": "design automation components",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Allure needs result files (e.g., allure-results) produced by the adapter and then collected/published; misconfigured output paths or missing artifacts commonly leads to empty reports.",
+        "is_correct": false,
+        "question": "Your CI pipeline publishes an Allure report, but the report shows '0 tests' even though the test runner logs indicate tests executed. Which is the most likely root cause?",
+        "question_id": 10,
+        "topic": "Test Reporting & Logging (Allure/Extent)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Test Automation Frameworks (Selenium/Cypress/Playwright), Api Testing (Rest/Soap), Build Tools (Maven/Gradle/Npm)",
+      "✅ Your strongest areas: Version Control (Git), Locators & Web Technologies (Html/Css/Dom/Xpath)"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Version Control (Git)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Locators & Web Technologies (Html/Css/Dom/Xpath)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Test Design & Automation Patterns (Page Object Model)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Test Automation Frameworks (Selenium/Cypress/Playwright)",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Api Testing (Rest/Soap)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Build Tools (Maven/Gradle/Npm)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design automation components",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Test Reporting & Logging (Allure/Extent)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

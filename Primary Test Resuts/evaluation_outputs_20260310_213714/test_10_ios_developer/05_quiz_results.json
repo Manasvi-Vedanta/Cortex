@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:52:59.052599",
+    "detailed_results": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The .xcodeproj contains the project structure, targets, build settings, and code signing configuration used by Xcode.",
+        "is_correct": false,
+        "question": "In Xcode, which file typically defines an iOS app’s build settings, targets, and signing configuration?",
+        "question_id": 1,
+        "topic": "Xcode",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is the dominant version control system used to track changes, collaborate, and manage releases in software projects.",
+        "is_correct": false,
+        "question": "Which tool is most commonly used for software configuration management (version control) in iOS projects?",
+        "question_id": 2,
+        "topic": "tools for software configuration management",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "'let' declares a constant whose value cannot be changed after initialization.",
+        "is_correct": true,
+        "question": "In Swift, what does the keyword 'let' declare?",
+        "question_id": 3,
+        "topic": "Swift (computer programming)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Flip-flops are clocked storage elements that hold a single bit, forming the basis of registers and sequential logic.",
+        "is_correct": true,
+        "question": "In digital systems, what is the primary purpose of a flip-flop?",
+        "question_id": 4,
+        "topic": "digital systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A leading-to-superview constraint with a constant of 16 directly expresses the required margin and adapts to different screen sizes.",
+        "is_correct": false,
+        "question": "You need a UILabel to keep a fixed 16pt margin from the leading edge of its superview across all device sizes. Which Auto Layout approach is most appropriate?",
+        "question_id": 5,
+        "topic": "Autolayout & Constraints",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "PUT is typically used to replace/update a resource at a known URI using the full representation.",
+        "is_correct": true,
+        "question": "Which HTTP method is most appropriate for updating an existing resource (e.g., /devices/42) in a RESTful API when sending the full updated representation?",
+        "question_id": 6,
+        "topic": "Restful Apis & Json",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "MainActor.run guarantees the enclosed code executes on the main actor (main thread), which is required for UIKit/SwiftUI UI updates.",
+        "is_correct": false,
+        "question": "In Swift concurrency, what is the correct way to ensure a UI update happens on the main thread after awaiting a network call?",
+        "question_id": 7,
+        "topic": "Concurrency (Gcd/Async-Await/Operationqueue)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Modeling readings as entities with queryable attributes enables efficient filtered fetches and sorting, supporting offline access and scalable datasets.",
+        "is_correct": false,
+        "question": "You are building an iOS companion app for an embedded device. The app must cache sensor readings locally and support offline viewing with efficient queries (e.g., last 24 hours, by sensor ID). Which Core Data design best fits this requirement?",
+        "question_id": 8,
+        "topic": "Core Data",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Stubbing via URLProtocol or injecting a mock client isolates the ViewModel from the network, allowing deterministic tests of decoding and mapping with async expectations.",
+        "is_correct": false,
+        "question": "Your app uses MVVM and fetches device status via URLSession. You want a unit test that verifies decoding and state mapping without making real network calls. What is the best approach with XCTest?",
+        "question_id": 9,
+        "topic": "Unit Testing (Xctest)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Uploading to App Store Connect/TestFlight requires correct code signing: a distribution certificate and appropriate provisioning profile (or configured automatic signing with the right team permissions).",
+        "is_correct": false,
+        "question": "You are preparing an iOS app for TestFlight distribution to field-test an embedded device integration. A teammate can build locally but cannot upload to App Store Connect. Which is the most likely missing requirement?",
+        "question_id": 10,
+        "topic": "App Store Distribution (Code Signing/Provisioning/Testflight)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Xcode, tools for software configuration management, Autolayout & Constraints",
+      "✅ Your strongest areas: Swift (computer programming), digital systems"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Swift (computer programming)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "digital systems",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Restful Apis & Json",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Xcode",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Autolayout & Constraints",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Concurrency (Gcd/Async-Await/Operationqueue)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Core Data",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Unit Testing (Xctest)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "App Store Distribution (Code Signing/Provisioning/Testflight)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

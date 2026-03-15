@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:42:16.546596",
+      "learning_path_id": "test_38",
+      "target_occupation": "surface engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <name> creates a new branch and checks it out immediately.",
+        "id": 1,
+        "options": {
+          "A": "git branch coating-process",
+          "B": "git checkout -b coating-process",
+          "C": "git switch coating-process --create",
+          "D": "git merge coating-process"
+        },
+        "question": "In Git, which command creates a new branch named \"coating-process\" and switches to it in one step?",
+        "topic": "Git Version Control"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "df -h reports filesystem disk space usage with human-readable units.",
+        "id": 2,
+        "options": {
+          "A": "free -h",
+          "B": "df -h",
+          "C": "du -sh",
+          "D": "lsblk -f"
+        },
+        "question": "On a Linux system, which command shows disk space usage for mounted filesystems in a human-readable format?",
+        "topic": "Linux Systems Administration"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Pitting corrosion is localized and forms pits, often promoted by chlorides on passive alloys like stainless steel.",
+        "id": 3,
+        "options": {
+          "A": "Uniform corrosion",
+          "B": "Galvanic corrosion",
+          "C": "Pitting corrosion",
+          "D": "Erosion-corrosion"
+        },
+        "question": "Which corrosion type is characterized by highly localized attack that creates small holes and can rapidly perforate stainless steels in chloride environments?",
+        "topic": "corrosion types"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A section view shows internal geometry by depicting the object as if cut by a plane.",
+        "id": 4,
+        "options": {
+          "A": "The part’s surface color and texture",
+          "B": "Internal features by cutting through the object",
+          "C": "The assembly sequence of components",
+          "D": "The bill of materials for the drawing"
+        },
+        "question": "In technical drawing software (CAD), what does a \"section view\" primarily help communicate?",
+        "topic": "use technical drawing software"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "medium",
+        "explanation": "set -euo pipefail combines: exit on error (-e), error on unset vars (-u), and pipeline failure propagation (pipefail).",
+        "id": 5,
+        "options": {
+          "A": "set -e",
+          "B": "set -u",
+          "C": "set -o pipefail",
+          "D": "set -euo pipefail"
+        },
+        "question": "You need a Bash script to fail fast if any command errors, treat unset variables as errors, and fail a pipeline if any command in it fails. Which line best accomplishes this?",
+        "topic": "Scripting (Bash)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ARG is designed for build-time parameters and is set via docker build --build-arg.",
+        "id": 6,
+        "options": {
+          "A": "Use docker run -e VERSION=... at runtime",
+          "B": "Use an ARG in the Dockerfile and pass it with --build-arg",
+          "C": "Write the version into the image using docker commit",
+          "D": "Use EXPOSE to declare the version"
+        },
+        "question": "In Docker, what is the most appropriate way to pass a build-time value (e.g., a version string) into an image build without hardcoding it in the Dockerfile?",
+        "topic": "Containerization (Docker)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Terraform state records resource instances and their IDs/attributes, enabling accurate diffing and change planning.",
+        "id": 7,
+        "options": {
+          "A": "Provider schema",
+          "B": "State file",
+          "C": "Module registry",
+          "D": "Workspace variables"
+        },
+        "question": "In Terraform, which concept is used to store and track the mapping between declared resources and real infrastructure so Terraform can plan changes safely?",
+        "topic": "Infrastructure As Code (Terraform)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "readinessProbe controls whether a Pod is considered ready to receive traffic; failing readiness removes it from Service endpoints without restarting it.",
+        "id": 8,
+        "options": {
+          "A": "livenessProbe",
+          "B": "readinessProbe",
+          "C": "startupProbe",
+          "D": "nodeProbe"
+        },
+        "question": "A Kubernetes Deployment for a coating-inspection API experiences intermittent latency spikes. You want to reduce impact by ensuring traffic only goes to Pods that have fully initialized (e.g., warmed caches, loaded calibration data). Which probe is most appropriate?",
+        "topic": "Kubernetes"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "OpenTelemetry supports distributed tracing with context propagation, enabling correlation of a single request across multiple services.",
+        "id": 9,
+        "options": {
+          "A": "Use Prometheus counters only and infer causality from timestamps",
+          "B": "Use OpenTelemetry to propagate trace context and export distributed traces",
+          "C": "Use Grafana dashboards only with CPU/memory panels",
+          "D": "Rely on Kubernetes events to reconstruct the request path"
+        },
+        "question": "You are building observability for a production surface-treatment line where you must trace a part’s journey across services (order intake → bath control → QA reporting). You need end-to-end request correlation across microservices. Which approach best fits?",
+        "topic": "Observability (Prometheus/Grafana/Opentelemetry)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Building once into an immutable, versioned artifact and promoting it through stages with tests and approval provides traceability, consistency, and controlled rollout.",
+        "id": 10,
+        "options": {
+          "A": "Build and deploy directly from a developer laptop to production over SSH",
+          "B": "A pipeline that builds a versioned artifact/image, runs tests, requires an approval gate, then deploys the same artifact to production",
+          "C": "Skip tests in CI to speed up delivery and validate only in production",
+          "D": "Rebuild the artifact separately in each environment to ensure it matches local settings"
+        },
+        "question": "A new coating recipe must be deployed to multiple production cells with minimal downtime and a clear audit trail. You want automated tests, manual approval before production, and immutable artifacts. Which CI/CD design best meets these requirements?",
+        "topic": "Ci/Cd Pipelines (Github Actions/Jenkins/Gitlab Ci)"
+      }
+    ],
+    "topics_covered": [
+      "Git Version Control",
+      "Linux Systems Administration",
+      "Scripting (Bash)",
+      "Programming (Go Or Python)",
+      "Containerization (Docker)",
+      "Ci/Cd Pipelines (Github Actions/Jenkins/Gitlab Ci)",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Infrastructure As Code (Terraform)",
+      "Configuration Management (Ansible)",
+      "Kubernetes",
+      "Observability (Prometheus/Grafana/Opentelemetry)",
+      "engineering principles",
+      "production processes",
+      "corrosion types",
+      "use technical drawing software"
+    ]
+  },
+  "success": true
+}

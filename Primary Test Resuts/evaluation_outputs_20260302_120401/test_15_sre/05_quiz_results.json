@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:26:31.126507",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`top` provides an interactive, real-time view of processes and system resource usage.",
+        "is_correct": false,
+        "question": "In Linux, which command is commonly used to view real-time system and process CPU/memory usage interactively?",
+        "question_id": 1,
+        "topic": "Linux Systems Administration",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A container image is an immutable package (layers + metadata) used to instantiate containers.",
+        "is_correct": false,
+        "question": "In Docker, what is the primary purpose of a container image?",
+        "question_id": 2,
+        "topic": "Containers (Docker)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Counters are monotonically increasing and are ideal for totals like request counts and error counts.",
+        "is_correct": false,
+        "question": "Which metric type in Prometheus is best suited for values that only increase (e.g., total HTTP requests served)?",
+        "question_id": 3,
+        "topic": "Monitoring And Observability (Prometheus/Grafana)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "DMAIC is the standard Six Sigma improvement framework: Define, Measure, Analyze, Improve, Control.",
+        "is_correct": false,
+        "question": "In Six Sigma, what does the DMAIC cycle stand for?",
+        "question_id": 4,
+        "topic": "six sigma methods",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "A Deployment manages ReplicaSets to keep the desired replica count and supports rolling updates and self-healing.",
+        "is_correct": false,
+        "question": "You need a Kubernetes workload to automatically restart failed containers and maintain a desired number of replicas across nodes. Which object is the best fit?",
+        "question_id": 5,
+        "topic": "Orchestration (Kubernetes)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Terraform state tracks resource IDs and attributes so Terraform can plan changes and manage drift.",
+        "is_correct": true,
+        "question": "In Terraform, what is the main purpose of the state file?",
+        "question_id": 6,
+        "topic": "Infrastructure As Code (Terraform)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Triggering on pull_request and requiring the status check via branch protection prevents merging when tests fail.",
+        "is_correct": false,
+        "question": "A GitHub Actions workflow should run unit tests on every pull request and block merging if tests fail. Which approach best enforces this?",
+        "question_id": 7,
+        "topic": "Ci/Cd Pipelines (Jenkins/Github Actions)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Distributed tracing shows request paths and per-hop latency, making it the most direct way to pinpoint slow dependencies.",
+        "is_correct": false,
+        "question": "During an incident, p95 latency spikes while CPU and memory remain normal. You suspect a slow downstream dependency. Which observability approach most directly helps confirm this and identify where time is spent?",
+        "question_id": 8,
+        "topic": "Logging And Tracing (Elk/Opentelemetry)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Asynchronous replication commonly provides eventual consistency, where replicas converge over time and stale reads can occur after failover.",
+        "is_correct": false,
+        "question": "A multi-region service uses asynchronous replication. After a region failover, some users see older data for several minutes. Which distributed-systems concept best explains this behavior?",
+        "question_id": 9,
+        "topic": "Distributed Systems Fundamentals",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "NAT Gateways can be expensive for hours and data processing; a right-sized NAT instance plus VPC endpoints reduces NAT traffic and can significantly lower costs while keeping outbound access.",
+        "is_correct": false,
+        "question": "Your AWS bill increased sharply. Cost Explorer shows most spend is from NAT Gateway data processing and hours. A private subnet’s instances need outbound internet access for OS updates. Which change most effectively reduces cost while preserving functionality?",
+        "question_id": 10,
+        "topic": "cost management",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Linux Systems Administration, Containers (Docker), Monitoring And Observability (Prometheus/Grafana)",
+      "✅ Your strongest areas: Infrastructure As Code (Terraform)"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Infrastructure As Code (Terraform)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux Systems Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Containers (Docker)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Monitoring And Observability (Prometheus/Grafana)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "six sigma methods",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Orchestration (Kubernetes)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ci/Cd Pipelines (Jenkins/Github Actions)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Logging And Tracing (Elk/Opentelemetry)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Systems Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "cost management",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

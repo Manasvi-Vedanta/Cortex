@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:33:03.611377",
+      "learning_path_id": "test_19",
+      "target_occupation": "technical sales representative",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "GET is used to read/retrieve data and should be safe and idempotent (no server-side state change).",
+        "id": 1,
+        "options": {
+          "A": "Creates a new resource",
+          "B": "Retrieves a resource without modifying it",
+          "C": "Deletes a resource",
+          "D": "Updates part of a resource"
+        },
+        "question": "In a REST API, what does the HTTP method GET typically do?",
+        "topic": "Api Design (Rest/Graphql)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "SQL databases are designed for structured schemas, joins, and strong transactional guarantees (ACID).",
+        "id": 2,
+        "options": {
+          "A": "Relational SQL database",
+          "B": "Key-value NoSQL store",
+          "C": "Document NoSQL database",
+          "D": "GraphQL server"
+        },
+        "question": "Which database type is generally best suited for enforcing complex relationships and ACID transactions (e.g., orders and payments)?",
+        "topic": "Database Design (Sql/Nosql)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "CD commonly refers to Continuous Delivery (and sometimes Continuous Deployment), extending CI into release automation.",
+        "id": 3,
+        "options": {
+          "A": "Code Deployment",
+          "B": "Continuous Delivery (or Continuous Deployment)",
+          "C": "Centralized Development",
+          "D": "Change Detection"
+        },
+        "question": "In CI/CD, what does the 'CD' most commonly stand for?",
+        "topic": "Ci/Cd Pipelines"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A lead is an early-stage potential customer/contact that can be qualified into an opportunity.",
+        "id": 4,
+        "options": {
+          "A": "A finalized contract ready for invoicing",
+          "B": "A potential customer or contact that may become an opportunity",
+          "C": "A support ticket from an existing customer",
+          "D": "A product feature request logged by engineering"
+        },
+        "question": "In a CRM used by technical sales, what is a 'lead'?",
+        "topic": "use customer relationship management software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Active-active multi-region designs reduce single points of failure and can continue serving traffic if a region fails.",
+        "id": 5,
+        "options": {
+          "A": "Single server deployment with nightly backups",
+          "B": "Active-active deployment across multiple regions with automated failover",
+          "C": "Single-region deployment with vertical scaling only",
+          "D": "Manual failover using a runbook and DNS changes during incidents"
+        },
+        "question": "A prospect asks for 'high availability' across regions. Which architecture best matches that requirement?",
+        "topic": "Distributed Systems"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "GraphQL enables clients to query precisely the data shape they need and can reduce over/under-fetching across multiple resources.",
+        "id": 6,
+        "options": {
+          "A": "When clients need to fetch exactly the fields they need from multiple resources in one request",
+          "B": "When you want to avoid defining a schema",
+          "C": "When you need to stream logs from servers",
+          "D": "When you require only file uploads and downloads"
+        },
+        "question": "A customer wants to reduce integration effort for multiple internal teams consuming the same data. When is GraphQL often a better fit than REST?",
+        "topic": "Api Design (Rest/Graphql)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Integration tests validate interactions between components/services and are suited to catching contract/configuration issues that unit tests miss.",
+        "id": 7,
+        "options": {
+          "A": "Unit tests",
+          "B": "Integration tests",
+          "C": "Static code formatting checks",
+          "D": "A/B tests"
+        },
+        "question": "A customer reports a bug that only happens when services talk to each other in staging. Which testing approach is most appropriate to catch this class of issue earlier?",
+        "topic": "Automated Testing (Unit/Integration/E2E)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Kubernetes plus EU region pinning supports residency requirements and improves portability; choosing services with standard interfaces reduces lock-in risk.",
+        "id": 8,
+        "options": {
+          "A": "Use a single managed proprietary database service that only exists in one cloud region",
+          "B": "Deploy on Kubernetes with region-pinned storage in EU regions and use managed services where they have standard interfaces",
+          "C": "Run everything on a single VM in any region and rely on encryption to satisfy residency",
+          "D": "Avoid cloud entirely and require the customer to build their own data center"
+        },
+        "question": "A prospect requires strict data residency in the EU and wants to minimize vendor lock-in. As a technical sales rep, which recommendation best balances compliance and portability?",
+        "topic": "Cloud Platforms (Aws/Azure/Gcp)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Distributed tracing pinpoints where time is spent across services and, when correlated with release versions, helps identify regressions quickly.",
+        "id": 9,
+        "options": {
+          "A": "Increase instance size immediately to restore performance",
+          "B": "Enable distributed tracing and correlate traces with the deployment version to find the slow span/service",
+          "C": "Turn off logging to reduce overhead",
+          "D": "Switch the database from SQL to NoSQL"
+        },
+        "question": "A customer says, 'Our p95 latency doubled after the last release, but CPU is normal.' What is the most effective next step to isolate the cause in a microservices environment?",
+        "topic": "Observability (Logging/Metrics/Tracing)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Multi-tenant isolation requires server-side authorization that consistently enforces tenant boundaries; client-side checks are insufficient and insecure.",
+        "id": 10,
+        "options": {
+          "A": "Client-side input validation in the UI",
+          "B": "Server-side authorization checks that enforce tenant scoping on every request (e.g., RBAC/ABAC with tenant_id constraints)",
+          "C": "Using HTTP instead of HTTPS to simplify debugging",
+          "D": "Storing passwords in reversible encryption for account recovery"
+        },
+        "question": "During a security review, a customer asks how your API prevents unauthorized access to another tenant’s data. Which control most directly addresses this risk in a multi-tenant app?",
+        "topic": "Security Engineering (Appsec)"
+      }
+    ],
+    "topics_covered": [
+      "System Design",
+      "Software Architecture",
+      "apply technical communication skills",
+      "Api Design (Rest/Graphql)",
+      "Database Design (Sql/Nosql)",
+      "Distributed Systems",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Ci/Cd Pipelines",
+      "Automated Testing (Unit/Integration/E2E)",
+      "Code Review",
+      "Debugging",
+      "Observability (Logging/Metrics/Tracing)",
+      "Performance Optimization",
+      "Security Engineering (Appsec)",
+      "use customer relationship management software"
+    ]
+  },
+  "success": true
+}

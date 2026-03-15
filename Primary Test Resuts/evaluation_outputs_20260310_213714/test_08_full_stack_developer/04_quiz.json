@@ -1,0 +1,176 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:49:31.069129",
+      "learning_path_id": "test_08",
+      "target_occupation": "web developer",
+      "total_questions": 10,
+      "total_topics": 14
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The <a> (anchor) tag creates hyperlinks using the href attribute.",
+        "id": 1,
+        "options": {
+          "A": "<a>",
+          "B": "<link>",
+          "C": "<href>",
+          "D": "<nav>"
+        },
+        "question": "In HTML, which tag is primarily used to create a hyperlink to another page?",
+        "topic": "Html"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Padding adds space inside the element, between the content and its border.",
+        "id": 2,
+        "options": {
+          "A": "margin",
+          "B": "padding",
+          "C": "border-spacing",
+          "D": "gap"
+        },
+        "question": "In CSS, which property is used to control the space inside an element between its content and border?",
+        "topic": "CSS"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "JSON.parse() parses a JSON-formatted string and returns the corresponding JavaScript value/object.",
+        "id": 3,
+        "options": {
+          "A": "JSON.stringify()",
+          "B": "JSON.parse()",
+          "C": "Object.toJSON()",
+          "D": "JSON.toObject()"
+        },
+        "question": "Which JavaScript method converts a JSON string into a JavaScript object?",
+        "topic": "JavaScript"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "SELECT is the standard SQL command for querying and returning data from one or more tables.",
+        "id": 4,
+        "options": {
+          "A": "GET",
+          "B": "SELECT",
+          "C": "FETCH TABLE",
+          "D": "PULL"
+        },
+        "question": "Which SQL statement is used to retrieve rows from a table?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Using the functional updater (prev => ...) ensures you read the latest previous state, avoiding stale updates.",
+        "id": 5,
+        "options": {
+          "A": "setState(state + 1)",
+          "B": "setState(prev => prev + 1)",
+          "C": "state = state + 1",
+          "D": "updateState(state++)"
+        },
+        "question": "In React, what is the correct way to update state based on the previous state value?",
+        "topic": "React"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "PATCH is intended for partial updates, while PUT typically replaces the entire resource representation.",
+        "id": 6,
+        "options": {
+          "A": "PUT",
+          "B": "PATCH",
+          "C": "POST",
+          "D": "GET"
+        },
+        "question": "Which HTTP method is most appropriate for a REST API endpoint that partially updates a resource (e.g., updating only a user's email)?",
+        "topic": "Rest Apis"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "unknown accepts any value, but TypeScript requires type narrowing (e.g., typeof checks) before using it as a specific type.",
+        "id": 7,
+        "options": {
+          "A": "value can be any type and can be used without checks",
+          "B": "value must be a string",
+          "C": "value can be any type, but you must narrow it before using it in a type-specific way",
+          "D": "value is always null or undefined"
+        },
+        "question": "In TypeScript, what does the following function signature mean: function log(value: unknown): void?",
+        "topic": "TypeScript"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A many-to-many relationship is normalized using a junction table (e.g., OrderItems) that references both entities and stores attributes like quantity.",
+        "id": 8,
+        "options": {
+          "A": "Add a productId column to Orders and store only one product per order",
+          "B": "Add an orderId column to Products and store only one order per product",
+          "C": "Create an OrderItems (or OrderProducts) join table with orderId, productId, and quantity",
+          "D": "Store a comma-separated list of productIds in the Orders table"
+        },
+        "question": "You are designing a database for orders. Each order can contain many products, and each product can appear in many orders. Which normalized design best represents this relationship?",
+        "topic": "Database Design And Normalization"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "JWT access tokens are hard to revoke once issued; using short-lived access tokens with refresh tokens and server-side tracking/rotation enables practical revocation.",
+        "id": 9,
+        "options": {
+          "A": "Use only long-lived access tokens and never expire them",
+          "B": "Store issued JWTs in localStorage and delete them on logout",
+          "C": "Use short-lived access tokens plus refresh tokens, and maintain a server-side allowlist/denylist (or rotation) for refresh tokens",
+          "D": "Encrypt the JWT with a reversible key and change the key on logout"
+        },
+        "question": "In a Node.js API using JWT for authentication, which approach best supports immediate token revocation (e.g., user logs out or token is compromised) while still using JWTs?",
+        "topic": "Authentication And Authorization (Oauth2/Jwt)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Incremental adoption (allowJs/checkJs, gradual conversion, and progressively stricter compiler options) minimizes disruption while steadily increasing type coverage.",
+        "id": 10,
+        "options": {
+          "A": "Rename all .js files to .ts/.tsx in one commit and fix errors later",
+          "B": "Start by enabling allowJs and checkJs, add TypeScript incrementally, and convert files module-by-module with strictness increased gradually",
+          "C": "Avoid type definitions for third-party libraries to prevent compilation issues",
+          "D": "Use TypeScript only for new files and never type existing code"
+        },
+        "question": "You are adding TypeScript to an existing JavaScript React project. Which plan most effectively reduces risk while improving type safety over time?",
+        "topic": "Add TypeScript"
+      }
+    ],
+    "topics_covered": [
+      "web programming",
+      "Html",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Add TypeScript",
+      "React",
+      "JavaScript Framework",
+      "Node.Js",
+      "Rest Apis",
+      "Sql",
+      "Database Design And Normalization",
+      "Authentication And Authorization (Oauth2/Jwt)",
+      "develop digital content"
+    ]
+  },
+  "success": true
+}

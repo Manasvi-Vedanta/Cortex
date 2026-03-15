@@ -1,0 +1,199 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:31:26.987169",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "OpenCV images are typically BGR; reversing the last axis swaps channels to RGB.",
+        "is_correct": true,
+        "question": "In Python, what does slicing img[:, :, ::-1] commonly do to an OpenCV image array?",
+        "question_id": 1,
+        "topic": "Python",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The dot product equals ||a||·||b||·cos(theta), capturing alignment/projection between vectors.",
+        "is_correct": false,
+        "question": "In linear algebra, what does the dot product of two vectors primarily measure?",
+        "question_id": 2,
+        "topic": "Linear Algebra",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "F1-score balances precision and recall, making it more informative than accuracy under class imbalance.",
+        "is_correct": false,
+        "question": "Which metric is most appropriate to evaluate a binary classifier on a highly imbalanced dataset (e.g., rare defect detection)?",
+        "question_id": 3,
+        "topic": "Model Training & Evaluation (Metrics, Validation, Overfitting Control)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "cv2.Sobel computes first-order derivatives (gradients) in x and/or y directions.",
+        "is_correct": true,
+        "question": "In OpenCV, which function is commonly used to compute image gradients for edge detection (e.g., Sobel operator)?",
+        "question_id": 4,
+        "topic": "Opencv",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Batch tensors require consistent dimensions; resizing or padding standardizes HxW for batching.",
+        "is_correct": true,
+        "question": "You have a dataset of varying image sizes and want to train a CNN. Which preprocessing step is typically necessary to form batches efficiently?",
+        "question_id": 5,
+        "topic": "Data Preprocessing & Augmentation For Vision",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "train() activates training behavior (e.g., dropout, BatchNorm updates); eval() uses inference behavior.",
+        "is_correct": true,
+        "question": "In PyTorch, which pair correctly describes the typical roles of model.train() and model.eval()?",
+        "question_id": 6,
+        "topic": "PyTorch",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Convolutions reuse the same kernel across locations, drastically reducing parameters and leveraging local structure.",
+        "is_correct": false,
+        "question": "Why do CNNs typically use weight sharing and local receptive fields (convolutions) instead of fully connected layers for images?",
+        "question_id": 7,
+        "topic": "Deep Learning (Cnn Architectures)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Too-large learning rates commonly cause oscillation/divergence; lowering LR or scheduling it improves stability.",
+        "is_correct": false,
+        "question": "You are training a vision model with SGD and notice the training loss oscillates and sometimes diverges. Which change is most directly likely to stabilize training without changing the model architecture?",
+        "question_id": 8,
+        "topic": "Optimization (Sgd, Adam, Learning Rate Scheduling)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "AP summarizes precision-recall tradeoffs; IoU threshold defines what counts as a true positive detection.",
+        "is_correct": false,
+        "question": "In object detection evaluation, what does Average Precision (AP) at IoU=0.5 primarily summarize?",
+        "question_id": 9,
+        "topic": "Object Detection & Segmentation (Yolo, Faster R-Cnn, Mask R-Cnn)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "ROIAlign avoids quantization of ROI bin boundaries by using bilinear interpolation, improving spatial alignment for masks.",
+        "is_correct": false,
+        "question": "You are training Mask R-CNN for instance segmentation and your masks look spatially misaligned with the objects, especially for small instances. Which component is most directly designed to reduce this misalignment compared to naive ROI pooling?",
+        "question_id": 10,
+        "topic": "Object Detection & Segmentation (Yolo, Faster R-Cnn, Mask R-Cnn)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: Linear Algebra, Model Training & Evaluation (Metrics, Validation, Overfitting Control), Deep Learning (Cnn Architectures)",
+      "✅ Your strongest areas: Python, Opencv"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Opencv",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Preprocessing & Augmentation For Vision",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "PyTorch",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linear Algebra",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Model Training & Evaluation (Metrics, Validation, Overfitting Control)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Deep Learning (Cnn Architectures)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Optimization (Sgd, Adam, Learning Rate Scheduling)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Object Detection & Segmentation (Yolo, Faster R-Cnn, Mask R-Cnn)",
+        "total": 2
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

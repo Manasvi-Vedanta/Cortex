@@ -36,16 +36,38 @@
 
 ## 📊 System Performance
 
-### Comprehensive Evaluation Results (20 Test Cases)
+### Comprehensive Evaluation Results (Latest: 50 Test Cases)
 
-| Metric | GPT-5.2 | Gemini 2.5 |
-|--------|---------|------------|
+| Metric | Value |
+|--------|-------|
+| **Success Rate** | 100% (50/50) |
+| **Average Similarity Score** | 84.65% |
+| **Mean Skills per Path** | 29.62 |
+| **Path Generation Time** | 26.28s |
+| **Quiz Generation Time** | 27.52s |
+| **Total Evaluation Time** | 86.31 min |
+
+### 20-Case LLM Comparison (Gemini vs GPT-5.2)
+
+The following comparison is based on the two canonical 20-case runs in `Primary Test Resuts/`:
+
+- Gemini: `evaluation_outputs_20260124_102936`
+- GPT-5.2: `evaluation_outputs_20260205_235326`
+
+| Metric | Gemini 2.5 (20 cases) | GPT-5.2 (20 cases) |
+|--------|------------------------|--------------------|
 | **Success Rate** | 100% (20/20) | 100% (20/20) |
 | **Average Similarity Score** | 87.53% | 87.53% |
-| **Mean Skills per Path** | 32.8 | 14.0 |
-| **Path Generation Time** | 30.5s | 9.1s |
-| **Quiz Generation Time** | 29.2s | 24.4s |
-| **Total Evaluation Time** | 37 min | 21 min |
+| **Mean Skills per Path** | 14.0 | 32.8 |
+| **Path Generation Time** | 9.10s | 30.45s |
+| **Quiz Generation Time** | 24.43s | 29.18s |
+| **Total Evaluation Time** | 21.31 min | 36.96 min |
+
+### 20-Case Comparison Summary
+
+- Both models achieved identical occupation-matching similarity and 100% feature success.
+- Gemini 2.5 was faster overall on the 20-case benchmark.
+- GPT-5.2 generated more detailed learning paths (higher average skills per path).
 
 ### Feature Success Rates
 
@@ -381,7 +403,7 @@ python full_system_test.py
 📊 Total Duration: 106.49 seconds
 ```
 
-### Run Comprehensive Evaluation (20 Test Cases)
+### Run Comprehensive Evaluation
 
 ```bash
 python comprehensive_evaluation_test.py
@@ -392,24 +414,37 @@ python comprehensive_evaluation_test.py
 ======================================================================
  EVALUATION SUMMARY
 ======================================================================
-✅ Passed: 20/20 (100%)
-📊 Avg Similarity: 87.53%
-🎯 Avg Skills/Path: 32.8
-⏱️  Total Time: 37.0 minutes
-📝 Quiz Questions: 200 generated
+✅ Passed: 50/50 (100%)
+📊 Avg Similarity: 84.65%
+🎯 Avg Skills/Path: 29.62
+⏱️  Total Time: 86.31 minutes
+📝 Quiz Questions: 500 generated
 
-Results saved to: evaluation_outputs_YYYYMMDD_HHMMSS/
+Results saved to: Primary Test Resuts/evaluation_outputs_YYYYMMDD_HHMMSS/
 ```
+
+### Primary Test Results Folder
+
+The canonical evaluation artifacts are maintained under:
+
+```text
+Primary Test Resuts/
+```
+
+Currently available runs include:
+
+- `evaluation_outputs_20260124_102936` (20-case run)
+- `evaluation_outputs_20260205_235326` (20-case run)
+- `evaluation_outputs_20260302_120401` (20-case run)
+- `evaluation_outputs_20260310_213714` (50-case run)
 
 ---
 
 ## 📚 Documentation
 
-- **[COMPLETE_SYSTEM_EXPLANATION.md](COMPLETE_SYSTEM_EXPLANATION.md)** - Detailed technical documentation (1,500+ lines)
-- **[QUICK_START.md](QUICK_START.md)** - Quick getting started guide
-- **[ADVANCED_FEATURES.md](ADVANCED_FEATURES.md)** - Advanced features documentation
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common issues and solutions
-- **[TEST_RESULTS_SUMMARY.md](TEST_RESULTS_SUMMARY.md)** - Test results analysis
+- `README.md` - Project overview and setup
+- `eval/` - Evaluation plots and report figures
+- `examples/` - API response samples
 
 ---
 
@@ -487,8 +522,8 @@ Cortex/
 │
 ├── 🧪 Testing
 │   ├── full_system_test.py         # 7-feature test suite
-│   ├── comprehensive_evaluation_test.py  # 20-case evaluation
-│   └── evaluation_outputs_*/       # Test results
+│   ├── comprehensive_evaluation_test.py  # Multi-case evaluation suite
+│   └── Primary Test Resuts/        # Canonical evaluation outputs
 │
 └── 📚 Documentation
     ├── README.md                   # This file
@@ -518,7 +553,7 @@ pip install -r requirements.txt
 - Normal: 15-30 seconds (includes LLM inference time)
 - Skill priority caching reduces repeated calls
 
-For more help, see [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md)
+For diagnostics, review logs in your terminal output and evaluation artifacts in `Primary Test Resuts/`.
 
 ---
 

@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:28:01.403788",
+      "learning_path_id": "test_30",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`volatile` tells the compiler the value can change unexpectedly (e.g., memory-mapped registers, ISR-updated variables), so it must perform actual memory accesses.",
+        "id": 1,
+        "options": {
+          "A": "To place a variable in flash memory instead of RAM",
+          "B": "To prevent the compiler from optimizing away reads/writes because the value may change outside program control",
+          "C": "To make a variable thread-safe without locks",
+          "D": "To allocate the variable on the heap"
+        },
+        "question": "In C for embedded systems, what is the primary purpose of the `volatile` keyword?",
+        "topic": "programming"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An integrated debugger provides stepping, breakpoints, watch windows, and register/memory views needed for embedded debugging.",
+        "id": 2,
+        "options": {
+          "A": "Syntax highlighting",
+          "B": "Integrated debugger",
+          "C": "Code formatter",
+          "D": "Project template generator"
+        },
+        "question": "Which IDE feature most directly helps you step through embedded code line-by-line while inspecting variables and registers?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Many embedded toolchains initialize the stack pointer to the top of RAM, and the stack grows downward as data is pushed.",
+        "id": 3,
+        "options": {
+          "A": "At the lowest RAM address and grows upward",
+          "B": "At the highest RAM address and grows downward",
+          "C": "In flash and grows upward",
+          "D": "In peripheral register space and grows downward"
+        },
+        "question": "In a typical MCU memory map, where is the stack usually located at program start?",
+        "topic": "Memory Management (Heap/Stack/Virtual Memory)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A flip-flop is a bistable element that stores one bit; registers are arrays of flip-flops.",
+        "id": 4,
+        "options": {
+          "A": "Multiplexer",
+          "B": "Flip-flop",
+          "C": "Decoder",
+          "D": "Comparator"
+        },
+        "question": "Which digital logic element stores exactly 1 bit of state and is commonly used to build registers?",
+        "topic": "digital systems"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "CMake cross-compilation is typically configured through a toolchain file that sets compilers, flags, and paths for the target.",
+        "id": 5,
+        "options": {
+          "A": "A CMake toolchain file passed via `-DCMAKE_TOOLCHAIN_FILE=...`",
+          "B": "A `package.json` file",
+          "C": "A `.gdbinit` script",
+          "D": "A `Makefile` variable named `CROSS=1`"
+        },
+        "question": "You are using CMake to cross-compile firmware for an ARM Cortex-M target. Which CMake mechanism is most appropriate to specify the cross-compiler and target sysroot/settings?",
+        "topic": "Build Systems (Make/Cmake)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "`bt` (backtrace) prints the current thread's stack frames, showing the chain of function calls.",
+        "id": 6,
+        "options": {
+          "A": "info registers",
+          "B": "bt",
+          "C": "continue",
+          "D": "watch"
+        },
+        "question": "In GDB, after hitting a breakpoint, which command shows the call stack (backtrace) so you can see how execution reached the current function?",
+        "topic": "Debugging With Gdb"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A queue provides FIFO behavior; a ring buffer is a common fixed-size, allocation-free implementation for embedded systems.",
+        "id": 7,
+        "options": {
+          "A": "Stack",
+          "B": "Queue (ring buffer)",
+          "C": "Binary search tree",
+          "D": "Hash set"
+        },
+        "question": "You need a data structure for an embedded event queue where events are processed in the order they arrive (FIFO). Which is the best fit?",
+        "topic": "Data Structures And Algorithms"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A 64-bit access may not be atomic on a 32-bit MCU; a critical section or true atomic operation prevents partial (torn) reads while the ISR updates the value.",
+        "id": 8,
+        "options": {
+          "A": "Declare the counter as `volatile` and read it normally",
+          "B": "Read it twice and assume the second read is correct",
+          "C": "Protect the read with a critical section (e.g., temporarily disable interrupts) or use an atomic 64-bit read if supported",
+          "D": "Move the counter to flash memory"
+        },
+        "question": "An ISR increments a counter, and a main-loop task reads it. On a 32-bit MCU, the counter is a 64-bit integer. What is the most robust way to read the counter in the main loop without getting a torn read?",
+        "topic": "Concurrency And Synchronization (Threads/Locks/Atomics)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Version control with tags and embedding/recording commit IDs and build configs enables traceability and reproducible builds across environments.",
+        "id": 9,
+        "options": {
+          "A": "Store only compiled binaries in a shared folder and overwrite them each release",
+          "B": "Use a VCS (e.g., Git) with tagged releases and record the commit hash plus build configuration in the build artifacts",
+          "C": "Rely on developers' local IDE settings without versioning",
+          "D": "Disable code reviews to speed up merges"
+        },
+        "question": "A firmware team wants reproducible builds and traceability from a binary back to the exact source revision and build settings. Which configuration management practice best supports this?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Logic programming represents constraints as declarative rules (facts/clauses) and uses inference/querying to determine whether configurations satisfy those rules.",
+        "id": 10,
+        "options": {
+          "A": "Write the rules as facts and Horn clauses (e.g., Prolog/Datalog style) and query whether a configuration satisfies them",
+          "B": "Use only bitwise operations in C to encode the rules",
+          "C": "Manually generate C code by copy-pasting rule checks for each sensor instance",
+          "D": "Store the rules in a spreadsheet and validate by visual inspection"
+        },
+        "question": "You are building an embedded configuration validator. You want to express rules like: 'A sensor is valid if it is I2C OR SPI, and if I2C then pull-ups must be enabled.' Which approach best matches logic programming for this task?",
+        "topic": "use logic programming"
+      }
+    ],
+    "topics_covered": [
+      "programming",
+      "integrated development environment software",
+      "debug software",
+      "Data Structures And Algorithms",
+      "Build Systems (Make/Cmake)",
+      "Debugging With Gdb",
+      "Computer Architecture",
+      "digital systems",
+      "Memory Management (Heap/Stack/Virtual Memory)",
+      "Operating Systems Internals",
+      "Concurrency And Synchronization (Threads/Locks/Atomics)",
+      "tools for software configuration management",
+      "use logic programming",
+      "use automatic programming",
+      "embedded systems"
+    ]
+  },
+  "success": true
+}

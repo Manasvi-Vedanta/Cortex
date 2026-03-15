@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:06:30.672884",
+      "learning_path_id": "test_02",
+      "target_occupation": "cloud DevOps engineer ",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "DevOps focuses on collaboration, automation, and feedback loops to improve delivery speed and reliability.",
+        "id": 1,
+        "options": {
+          "A": "Increase collaboration and automate delivery to ship changes faster and more reliably",
+          "B": "Replace developers with operations engineers",
+          "C": "Eliminate the need for testing by deploying directly to production",
+          "D": "Move all applications to a single cloud provider"
+        },
+        "question": "What is the primary goal of DevOps in a software delivery organization?",
+        "topic": "DevOps"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in a single command.",
+        "id": 2,
+        "options": {
+          "A": "git branch feature/login",
+          "B": "git checkout -b feature/login",
+          "C": "git switch feature/login --create",
+          "D": "git merge -b feature/login"
+        },
+        "question": "In Git, which command creates a new branch named \"feature/login\" and switches to it in one step?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "top provides an interactive, real-time view of processes and system resource usage.",
+        "id": 3,
+        "options": {
+          "A": "top",
+          "B": "ls",
+          "C": "chmod",
+          "D": "tar"
+        },
+        "question": "On a Linux system, which command is commonly used to view real-time CPU and memory usage interactively?",
+        "topic": "Linux Administration"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "CMD defines the default command executed when the container starts (can be overridden at runtime).",
+        "id": 4,
+        "options": {
+          "A": "RUN",
+          "B": "COPY",
+          "C": "CMD",
+          "D": "EXPOSE"
+        },
+        "question": "Which Dockerfile instruction is primarily used to specify the command that runs when a container starts?",
+        "topic": "Containers (Docker)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Restricting deployment to the main branch ensures PR/MR validation runs without deploying, while merges to main can deploy.",
+        "id": 5,
+        "options": {
+          "A": "Run deploy job only when the pipeline is triggered by a schedule",
+          "B": "Run deploy job only when the branch is main (and not for PR/MR pipelines)",
+          "C": "Run deploy job only when tests fail",
+          "D": "Run deploy job only when the commit message contains [deploy]"
+        },
+        "question": "In a CI pipeline, you want to prevent deployments from running on pull request builds but allow them on merges to the main branch. Which condition best matches this requirement?",
+        "topic": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A remote backend centralizes state and supports locking to prevent concurrent writes and state corruption.",
+        "id": 6,
+        "options": {
+          "A": "Store terraform.tfstate in the application container image",
+          "B": "Store terraform.tfstate in each engineer’s home directory",
+          "C": "Use a remote backend with state locking (e.g., S3 + DynamoDB, or Terraform Cloud)",
+          "D": "Disable state entirely and rely on provider APIs at runtime"
+        },
+        "question": "In Terraform, what is the best practice for storing the state file for a team to avoid conflicts and enable locking?",
+        "topic": "Infrastructure As Code (Terraform)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Service provides a stable virtual IP/DNS name and load-balances traffic to matching Pods.",
+        "id": 7,
+        "options": {
+          "A": "Deployment",
+          "B": "Service",
+          "C": "ConfigMap",
+          "D": "Namespace"
+        },
+        "question": "In Kubernetes, which object is typically used to expose a set of Pods internally and provide stable service discovery via a DNS name?",
+        "topic": "Container Orchestration (Kubernetes)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Using a secrets manager with identity-based access avoids committing secrets to Git and reduces plaintext exposure in manifests.",
+        "id": 8,
+        "options": {
+          "A": "Hardcode the password in the container image as an environment variable",
+          "B": "Store the password in a ConfigMap and mount it as a file",
+          "C": "Retrieve the secret at runtime from a secrets manager (e.g., Vault/AWS SSM) using workload identity/IAM and inject it into the pod",
+          "D": "Commit the password to Git in an encrypted file and decrypt it manually on the cluster"
+        },
+        "question": "Your Kubernetes app needs a database password. You must avoid storing secrets in Git and also avoid putting plaintext secrets into Kubernetes manifests. Which approach best meets this requirement?",
+        "topic": "Security & Secrets Management (Iam/Vault/Ssm)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Distributed tracing (Jaeger) correlates spans across services to identify where latency is introduced in a request flow.",
+        "id": 9,
+        "options": {
+          "A": "Prometheus (metrics scraping)",
+          "B": "Grafana (dashboards)",
+          "C": "Jaeger (distributed tracing)",
+          "D": "OpenSearch/ELK (log indexing and search)"
+        },
+        "question": "You are investigating intermittent latency spikes in a microservices system. Metrics show increased request duration, but logs don’t clearly show where time is spent across services. Which observability tool is most appropriate to pinpoint the slow hop in the request path?",
+        "topic": "Logging & Observability (Elk/Opensearch/Jaeger)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Multi-stage builds allow compiling/installing in a builder stage and producing a smaller runtime image with only what’s needed for production.",
+        "id": 10,
+        "options": {
+          "A": "Use a single-stage image based on a full OS image and run npm install without flags",
+          "B": "Use multi-stage builds: install dependencies/build in a builder stage, then copy only built artifacts and production dependencies into a slim runtime stage",
+          "C": "Copy the entire project including node_modules from your laptop into the image",
+          "D": "Run the app directly on the host without containers to reduce image size"
+        },
+        "question": "You are building a Node.js API using a common software framework. You want to run it in production with minimal image size and avoid shipping dev dependencies. Which Docker approach best fits?",
+        "topic": "software frameworks"
+      }
+    ],
+    "topics_covered": [
+      "DevOps",
+      "Version Control (Git)",
+      "Linux Administration",
+      "Scripting (Bash/Python)",
+      "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+      "Containers (Docker)",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Infrastructure As Code (Terraform)",
+      "Configuration Management (Ansible/Chef/Puppet)",
+      "Container Orchestration (Kubernetes)",
+      "Security & Secrets Management (Iam/Vault/Ssm)",
+      "Monitoring & Alerting (Prometheus/Grafana)",
+      "Logging & Observability (Elk/Opensearch/Jaeger)",
+      "JavaScript",
+      "software frameworks"
+    ]
+  },
+  "success": true
+}

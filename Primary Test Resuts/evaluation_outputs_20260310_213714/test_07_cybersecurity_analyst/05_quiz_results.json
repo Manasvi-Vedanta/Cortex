@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:47:59.791460",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "TCP provides connection-oriented communication with sequencing, acknowledgments, and retransmissions to ensure reliable, ordered delivery.",
+        "is_correct": true,
+        "question": "In the TCP/IP model, which protocol is primarily responsible for reliable, ordered delivery of data between applications?",
+        "question_id": 1,
+        "topic": "Tcp/Ip And Networking Fundamentals",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A SIEM centralizes log collection and correlates events across sources to support detection, alerting, and investigations.",
+        "is_correct": true,
+        "question": "What is the main purpose of a SIEM in a security monitoring program?",
+        "question_id": 2,
+        "topic": "Security Monitoring (Siem)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Authentication events are often recorded in /var/log/auth.log (or a similar file), and tail shows the most recent entries.",
+        "is_correct": true,
+        "question": "Which Linux command is commonly used to view recent authentication-related log entries on many distributions?",
+        "question_id": 3,
+        "topic": "Linux Security",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A falsifiable hypothesis is testable and could be refuted by observations or experimental data.",
+        "is_correct": true,
+        "question": "In scientific research methodology, which statement best describes a falsifiable hypothesis?",
+        "question_id": 4,
+        "topic": "scientific research methodology",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Rapid, systematic changes to a query parameter are consistent with automated probing/fuzzing often used to find injection or enumeration weaknesses.",
+        "is_correct": true,
+        "question": "You are analyzing web server logs and see many requests from one IP with rapidly changing URLs like /index.php?id=1, /index.php?id=2, /index.php?id=3. What is the most likely activity?",
+        "question_id": 5,
+        "topic": "Log Analysis",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "MFA requires something beyond the password (e.g., token/biometric), making stolen credentials alone insufficient.",
+        "is_correct": true,
+        "question": "Which IAM practice most directly reduces the impact of credential theft by requiring an additional verification factor?",
+        "question_id": 6,
+        "topic": "Identity And Access Management (Iam)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Effective vulnerability management includes verification and risk-based prioritization (exposure, exploitability, business impact) before remediation.",
+        "is_correct": false,
+        "question": "A vulnerability scanner reports a critical CVE on a production server. What is the best next step in vulnerability management before applying a fix?",
+        "question_id": 7,
+        "topic": "Vulnerability Assessment And Management",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "This chain is highly suspicious for malware. Immediate containment (isolation) plus evidence preservation enables scoping, eradication, and root-cause analysis.",
+        "is_correct": false,
+        "question": "An EDR alert shows: a Word process spawns PowerShell, which downloads a script from an external domain and then creates a scheduled task for persistence. What is the most appropriate immediate incident response action?",
+        "question_id": 8,
+        "topic": "Incident Response",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The rule correlates multiple events and context (failures, success, geo-change, time window) to detect suspicious behavior rather than a single static signature.",
+        "is_correct": false,
+        "question": "A SIEM correlation rule triggers when a user has 20 failed logins followed by a success from a new country within 5 minutes. Which detection concept does this best represent?",
+        "question_id": 9,
+        "topic": "Threat Detection And Analysis",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Verifying provenance (signatures/checksums), rebuilding in a controlled environment, and staged deployment reduces tampering and operational risk.",
+        "is_correct": false,
+        "question": "You operate an open-source service from source. A security advisory announces a critical fix in a new release. What is the most robust approach to apply the update while reducing supply-chain risk?",
+        "question_id": 10,
+        "topic": "operate open source software",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Vulnerability Assessment And Management, Incident Response, Threat Detection And Analysis",
+      "✅ Your strongest areas: Tcp/Ip And Networking Fundamentals, Security Monitoring (Siem)"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Tcp/Ip And Networking Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Security Monitoring (Siem)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Linux Security",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "scientific research methodology",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Log Analysis",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Identity And Access Management (Iam)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Vulnerability Assessment And Management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Incident Response",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Threat Detection And Analysis",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "operate open source software",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:31:28.506037",
+      "learning_path_id": "test_32",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "HTTPS is HTTP over TLS, providing encryption in transit and authenticating the server (and optionally the client).",
+        "id": 1,
+        "options": {
+          "A": "HTTPS compresses payloads automatically to reduce bandwidth",
+          "B": "HTTPS adds encryption and server authentication using TLS",
+          "C": "HTTPS guarantees zero packet loss over Wi-Fi",
+          "D": "HTTPS is only used for browser-based traffic, not APIs"
+        },
+        "question": "Which statement best describes HTTPS compared to HTTP when an embedded device sends telemetry to a cloud endpoint?",
+        "topic": "Http/Https Fundamentals"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is used to retrieve a representation of a resource without modifying it.",
+        "id": 2,
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PUT",
+          "D": "PATCH"
+        },
+        "question": "In a RESTful API used by an embedded gateway, which HTTP method is typically used to retrieve the current state of a resource (e.g., /devices/42)?",
+        "topic": "Restful Api Design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "400 indicates the client sent an invalid request (e.g., malformed JSON or missing required fields).",
+        "id": 3,
+        "options": {
+          "A": "200 OK",
+          "B": "400 Bad Request",
+          "C": "401 Unauthorized",
+          "D": "500 Internal Server Error"
+        },
+        "question": "A device sends a request with missing required fields in JSON (e.g., missing \"firmwareVersion\"). Which HTTP status code is most appropriate?",
+        "topic": "Error Handling & Status Codes"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "git commit records staged changes into the repository history.",
+        "id": 4,
+        "options": {
+          "A": "git commit",
+          "B": "git push",
+          "C": "git clone",
+          "D": "git fetch"
+        },
+        "question": "In Git, which command creates a new commit from staged changes?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A one-to-many relationship is modeled by placing a foreign key (device_id) in the many-side table (readings).",
+        "id": 5,
+        "options": {
+          "A": "Store readings as a comma-separated list in the devices table",
+          "B": "Create a readings table with a device_id foreign key referencing devices(id)",
+          "C": "Duplicate device fields (name, location) into every reading row and remove the devices table",
+          "D": "Use one table and rely on ordering by timestamp without any device identifier"
+        },
+        "question": "You are designing a SQL schema to store device readings. Each reading belongs to exactly one device, and a device can have many readings. Which design best represents this relationship?",
+        "topic": "Database Design & Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Client Credentials is designed for machine-to-machine authentication without user interaction.",
+        "id": 6,
+        "options": {
+          "A": "Authorization Code flow with browser redirects",
+          "B": "Client Credentials flow",
+          "C": "Implicit flow",
+          "D": "Password (ROPC) flow"
+        },
+        "question": "An embedded device uses OAuth2 to call a cloud API. Which OAuth2 flow is generally most appropriate for a headless device that can securely store a client secret (no user present)?",
+        "topic": "Api Security (Oauth2, Jwt, Api Keys)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Integration tests validate interactions between components (API, DB, auth) rather than isolated functions.",
+        "id": 7,
+        "options": {
+          "A": "Unit test",
+          "B": "Integration test",
+          "C": "Static analysis",
+          "D": "Linting"
+        },
+        "question": "You are writing tests for a firmware-update service. Which test type best verifies that the HTTP API, database, and authentication work together end-to-end in a staging environment?",
+        "topic": "Testing (Unit/Integration/Api Tests)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Rate limiting controls request bursts; 429 Too Many Requests is the standard response when limits are exceeded.",
+        "id": 8,
+        "options": {
+          "A": "Disable keep-alive so each request uses a new TCP connection",
+          "B": "Implement per-device rate limiting (e.g., token bucket) and return 429 when exceeded",
+          "C": "Always return 200 OK but silently drop excess requests",
+          "D": "Increase JSON indentation to improve readability"
+        },
+        "question": "A cloud API used by thousands of devices must prevent a single device from overwhelming the service. Which approach best addresses this while keeping latency low?",
+        "topic": "Performance & Scalability (Caching, Rate Limiting)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Strongly typed, reusable schemas enable code generation and automated validation across clients and servers.",
+        "id": 9,
+        "options": {
+          "A": "Only document endpoints in a README and avoid schemas to stay flexible",
+          "B": "Define reusable JSON schemas (components/schemas) and reference them in requestBody and responses",
+          "C": "Use only example payloads and omit types/constraints",
+          "D": "Document only 200 responses; errors can be inferred"
+        },
+        "question": "You are documenting an embedded device management API with OpenAPI. You want client SDKs to be generated and to ensure request/response validation. Which OpenAPI practice is most important?",
+        "topic": "Api Documentation (Openapi/Swagger)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The Strategy pattern encapsulates interchangeable algorithms and allows selecting the appropriate one at runtime based on context (sensor model).",
+        "id": 10,
+        "options": {
+          "A": "Singleton",
+          "B": "Strategy",
+          "C": "Observer",
+          "D": "Decorator"
+        },
+        "question": "You are building firmware that supports multiple sensor types. At runtime, the device must select the correct algorithm for converting raw ADC values based on the detected sensor model. Which design pattern best fits this requirement?",
+        "topic": "use software design patterns"
+      }
+    ],
+    "topics_covered": [
+      "Http/Https Fundamentals",
+      "Restful Api Design",
+      "Error Handling & Status Codes",
+      "Database Design & Sql",
+      "Api Documentation (Openapi/Swagger)",
+      "Version Control (Git)",
+      "Authentication & Authorization (Rbac/Abac)",
+      "Api Security (Oauth2, Jwt, Api Keys)",
+      "Testing (Unit/Integration/Api Tests)",
+      "Performance & Scalability (Caching, Rate Limiting)",
+      "integrated development environment software",
+      "debug software",
+      "tools for software configuration management",
+      "programming",
+      "use software design patterns"
+    ]
+  },
+  "success": true
+}

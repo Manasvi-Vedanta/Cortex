@@ -1,0 +1,52 @@
+{
+  "test_id": "47",
+  "goal": "I want to become a GIS Developer.",
+  "short_name": "GIS Developer",
+  "category": "Emerging Tech",
+  "matched_occupation": "geographic information systems specialist",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/9af8907f-56a7-4170-83b1-3c6ba0997cfa",
+  "similarity_score": 0.9132727960371584,
+  "total_skills": 15,
+  "total_sessions": 3,
+  "skills_list": [
+    "Python",
+    "Sql",
+    "Gis Fundamentals (Projections, Datums, Spatial Analysis)",
+    "Esri Arcgis Platform (Arcgis Pro, Arcgis Enterprise, Arcgis Online)",
+    "Javascript",
+    "Web Gis (Leaflet/Openlayers/Mapbox Gl Js)",
+    "Geospatial Data Formats & Standards (Geojson, Shapefile, Geopackage, Ogc)",
+    "Geoserver",
+    "Rest Apis (Arcgis Rest, Ogc Api)",
+    "Spatial Etl (Gdal/Ogr, Fme)",
+    "Version Control (Git)",
+    "use databases",
+    "Postgis",
+    "geomatics",
+    "geological mapping"
+  ],
+  "session_durations": [
+    20,
+    9,
+    20
+  ],
+  "path_generation_time": 32.60414481163025,
+  "quiz_generation_time": 23.246837615966797,
+  "total_test_time": 105.38236808776855,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 20.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

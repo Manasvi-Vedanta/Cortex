@@ -1,0 +1,202 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:34:45.357017",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in a single command.",
+        "is_correct": true,
+        "question": "In Git, which command creates a new local branch named 'feature/login' and switches to it in one step?",
+        "question_id": 1,
+        "topic": "Version Control (Git)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Build tools handle dependency resolution and automate tasks like compiling, packaging, and running tests.",
+        "is_correct": false,
+        "question": "Which statement best describes the purpose of a build tool like Maven/Gradle/npm in an automation project?",
+        "question_id": 2,
+        "topic": "Build Tools & Dependency Management (Maven/Gradle/Npm)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A unique id is typically the most stable and fastest locator compared to brittle absolute XPaths or generic tags.",
+        "is_correct": false,
+        "question": "In Selenium WebDriver, which locator strategy is generally the most stable when the application provides unique identifiers?",
+        "question_id": 3,
+        "topic": "Test Automation Frameworks (Selenium/Cypress/Playwright)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A pipeline triggered on push/merge ensures tests run automatically and consistently for each change.",
+        "is_correct": true,
+        "question": "Which CI/CD practice best helps ensure automated tests run consistently on every change to the main branch?",
+        "question_id": 4,
+        "topic": "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "POM separates page-specific details (locators/actions) from test logic, improving maintainability and reuse.",
+        "is_correct": false,
+        "question": "You want to implement the Page Object Model (POM). Which design best matches POM principles?",
+        "question_id": 5,
+        "topic": "Test Design & Automation Patterns (Page Object Model, Data-Driven)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "@pytest.mark.parametrize is the standard pytest feature for data-driven tests, producing separate test cases per dataset.",
+        "is_correct": false,
+        "question": "In pytest, which approach is most appropriate for running the same test with multiple input datasets (data-driven testing)?",
+        "question_id": 6,
+        "topic": "Test Frameworks (Junit/Testng/Pytest/Jest)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Robust API tests validate protocol-level correctness (status), structure (schema/fields), and business correctness (key values).",
+        "is_correct": false,
+        "question": "You are testing a REST API endpoint POST /orders that returns 201 and a JSON body. Which validation is most valuable for a robust automated API test?",
+        "question_id": 7,
+        "topic": "Api Testing (Rest/Soap)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Explicit waits synchronize on real UI conditions, reducing flakiness compared to fixed sleeps that are either too short or waste time.",
+        "is_correct": false,
+        "question": "Your UI tests in GitHub Actions are flaky because elements sometimes load slowly. Which change most directly improves reliability without adding excessive fixed delays?",
+        "question_id": 8,
+        "topic": "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Modular components with defined interfaces, fail-safe behavior, and logging improve safety, maintainability, and diagnosability in automation systems.",
+        "is_correct": false,
+        "question": "You need to design automation components for a production line where a sensor triggers an actuator. The system must be safe and maintainable. Which approach is best?",
+        "question_id": 9,
+        "topic": "design automation components",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Using version control, documentation, version pinning, and CI artifact retention provides auditability, reproducibility, and traceable evidence.",
+        "is_correct": false,
+        "question": "You are asked to operate and customize an open-source test reporting tool (e.g., Allure) for a regulated environment. Which action best supports traceability and compliance?",
+        "question_id": 10,
+        "topic": "operate open source software",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Build Tools & Dependency Management (Maven/Gradle/Npm), Test Automation Frameworks (Selenium/Cypress/Playwright), Test Design & Automation Patterns (Page Object Model, Data-Driven)",
+      "✅ Your strongest areas: Version Control (Git)",
+      "📖 Topics needing more practice: Ci/Cd (Jenkins/Github Actions/Gitlab Ci)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Version Control (Git)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Build Tools & Dependency Management (Maven/Gradle/Npm)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Test Automation Frameworks (Selenium/Cypress/Playwright)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Test Design & Automation Patterns (Page Object Model, Data-Driven)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Test Frameworks (Junit/Testng/Pytest/Jest)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Api Testing (Rest/Soap)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "design automation components",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "operate open source software",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

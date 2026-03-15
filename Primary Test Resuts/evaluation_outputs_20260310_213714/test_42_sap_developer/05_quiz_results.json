@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:48:44.910840",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "DDIC objects define reusable, centrally managed data definitions (tables, views, data elements, domains) used consistently across ABAP programs and the database.",
+        "is_correct": true,
+        "question": "In ABAP, what is the primary purpose of a Data Dictionary (DDIC) object such as a table or data element?",
+        "question_id": 1,
+        "topic": "ABAP",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Requirements analysis is where stakeholder needs are elicited, validated, and documented as functional and non-functional requirements.",
+        "is_correct": true,
+        "question": "Which SDLC phase primarily focuses on validating requirements and defining what the system must do?",
+        "question_id": 2,
+        "topic": "systems development life-cycle",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows prior to GROUP BY and aggregation; HAVING filters after aggregation.",
+        "is_correct": true,
+        "question": "Which SQL clause is used to filter rows before aggregation occurs?",
+        "question_id": 3,
+        "topic": "Sql",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "SAP Gateway is the enablement layer that exposes business data via OData services and handles related runtime and management capabilities.",
+        "is_correct": true,
+        "question": "In SAP architecture, what is the primary role of SAP Gateway?",
+        "question_id": 4,
+        "topic": "Sap Gateway",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "An NFR catalog with explicit acceptance criteria makes quality attributes measurable and testable, enabling architectural decisions and trade-offs.",
+        "is_correct": true,
+        "question": "When analyzing software specifications, which artifact best helps an architect identify measurable non-functional requirements (e.g., latency, availability, throughput)?",
+        "question_id": 5,
+        "topic": "analyse software specifications",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Offline capability requires local storage (e.g., IndexedDB) plus sync logic (queues, retries, conflict resolution) to reconcile with the backend when connectivity returns.",
+        "is_correct": true,
+        "question": "You are creating a software design for an SAP Fiori app that must work offline and sync later. Which design approach best supports this requirement?",
+        "question_id": 6,
+        "topic": "create software design",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "In classic SAP architecture, ABAP AS runs application logic and uses the database (often HANA) for persistence and data-intensive operations.",
+        "is_correct": false,
+        "question": "In SAP NetWeaver-based landscapes, which statement best describes how the ABAP application server relates to the database (e.g., SAP HANA) from an architectural perspective?",
+        "question_id": 7,
+        "topic": "Sap Netweaver",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Architectural optimization for OData includes minimizing payloads ($select), controlling navigation ($expand), paging, and shaping data to UI needs (read model) to reduce round-trips and backend load.",
+        "is_correct": false,
+        "question": "A team exposes an OData service for a high-traffic SAPUI5 app. Performance degrades due to many round-trips and over-fetching. Which change is most architecturally appropriate?",
+        "question_id": 8,
+        "topic": "Odata Services",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "SAP BTP supports side-by-side extensibility, clean-core principles, and independent scaling while integrating via stable APIs/events rather than tight coupling or shared databases.",
+        "is_correct": false,
+        "question": "You must align a new extension app with the enterprise system architecture: core ERP must remain clean, integrations must be API-based, and the solution must scale independently. Which target architecture best fits?",
+        "question_id": 9,
+        "topic": "align software with system architectures",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Git plus disciplined workflows (branching, PR reviews), automated CI/CD, and versioned artifacts provide traceability, repeatability, and controlled releases at scale.",
+        "is_correct": false,
+        "question": "As an architect overseeing development, you need strong traceability from requirements to code changes and controlled releases across multiple teams. Which combination of configuration management tools/practices best supports this?",
+        "question_id": 10,
+        "topic": "tools for software configuration management",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Sap Netweaver, Odata Services, align software with system architectures",
+      "✅ Your strongest areas: ABAP, systems development life-cycle"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "ABAP",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "systems development life-cycle",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Sap Gateway",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "analyse software specifications",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "create software design",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sap Netweaver",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Odata Services",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "align software with system architectures",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:56:24.282615",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Each block includes the previous block’s hash; changing past data changes the hash, breaking the chain and revealing tampering.",
+        "is_correct": false,
+        "question": "In a blockchain, what is the primary purpose of a cryptographic hash in each block header?",
+        "question_id": 1,
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The EVM is the deterministic execution environment that runs contract bytecode and enforces gas rules across all nodes.",
+        "is_correct": false,
+        "question": "Which statement best describes the Ethereum Virtual Machine (EVM)?",
+        "question_id": 2,
+        "topic": "Ethereum Virtual Machine (Evm)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A `view` function promises not to modify state (no storage writes), allowing it to be called without sending a transaction.",
+        "is_correct": true,
+        "question": "Which Solidity keyword is used to declare a function that does not modify blockchain state?",
+        "question_id": 3,
+        "topic": "Solidity",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "ERC-721 defines NFTs with unique token IDs and ownership tracking per token.",
+        "is_correct": true,
+        "question": "Which token standard is designed for non-fungible tokens (NFTs) where each token ID is unique?",
+        "question_id": 4,
+        "topic": "Token Standards (Erc-20/Erc-721/Erc-1155)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "`eth_call` simulates execution against a node’s current state without writing to the chain; a transaction is mined and updates state.",
+        "is_correct": true,
+        "question": "In Ethereum, what is the practical difference between calling a contract function with `eth_call` versus sending a transaction?",
+        "question_id": 5,
+        "topic": "Web3.Js/Ethers.Js",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Merkle trees allow compact proofs (Merkle proofs) that a transaction is included in a block using only a logarithmic number of hashes.",
+        "is_correct": false,
+        "question": "What is the main purpose of a Merkle tree in a blockchain block?",
+        "question_id": 6,
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Fuzz/property-based testing generates many randomized sequences/inputs to validate invariants hold under diverse conditions.",
+        "is_correct": false,
+        "question": "Which testing approach is most appropriate for checking an invariant like “totalSupply always equals the sum of all balances” across many randomized inputs?",
+        "question_id": 7,
+        "topic": "Smart Contract Testing (Unit/Integration/Fuzzing)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Reentrancy is mitigated by updating state (effects) before external interactions, and often adding a reentrancy guard.",
+        "is_correct": false,
+        "question": "A contract sends ETH using `call` before updating internal balances. An attacker re-enters and drains funds. Which change most directly mitigates this vulnerability?",
+        "question_id": 8,
+        "topic": "Smart Contract Security",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Merkle airdrops keep only a root on-chain and shift per-user costs to claims, avoiding an expensive on-chain loop over thousands of recipients.",
+        "is_correct": false,
+        "question": "You need to distribute tokens to 50,000 addresses. Which design is generally most gas-efficient and scalable on Ethereum mainnet?",
+        "question_id": 9,
+        "topic": "Gas Optimization",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Public permissioned systems allow open read/verification while restricting who can write/submit transactions to approved participants.",
+        "is_correct": false,
+        "question": "You are building a dApp that must allow anyone to read and verify data, but only approved participants can submit transactions. Which blockchain openness model fits best?",
+        "question_id": 10,
+        "topic": "blockchain openness",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Cryptography (Hashing, Signatures, Merkle Trees), Ethereum Virtual Machine (Evm), Smart Contract Testing (Unit/Integration/Fuzzing)",
+      "✅ Your strongest areas: Solidity, Token Standards (Erc-20/Erc-721/Erc-1155)"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Solidity",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Token Standards (Erc-20/Erc-721/Erc-1155)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Web3.Js/Ethers.Js",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ethereum Virtual Machine (Evm)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Smart Contract Testing (Unit/Integration/Fuzzing)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Smart Contract Security",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Gas Optimization",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "blockchain openness",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

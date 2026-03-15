@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:24:33.100001",
+      "learning_path_id": "test_28",
+      "target_occupation": "data engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "grep searches for matching text patterns within files or standard input, which is frequently used for inspecting logs and data files.",
+        "id": 1,
+        "options": {
+          "A": "grep",
+          "B": "chmod",
+          "C": "tar",
+          "D": "ps"
+        },
+        "question": "In Linux, which command is commonly used to search for a text pattern inside files (e.g., logs)?",
+        "topic": "Linux/Unix"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A set stores unique elements and provides average O(1) membership tests, making it ideal for deduplication and fast lookups.",
+        "id": 2,
+        "options": {
+          "A": "list",
+          "B": "tuple",
+          "C": "set",
+          "D": "dict"
+        },
+        "question": "In Python, which built-in data type is best suited for storing unique values and performing fast membership checks?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "WHERE filters rows prior to GROUP BY/aggregation; HAVING filters after aggregation.",
+        "id": 3,
+        "options": {
+          "A": "HAVING",
+          "B": "WHERE",
+          "C": "ORDER BY",
+          "D": "LIMIT"
+        },
+        "question": "Which SQL clause is used to filter rows before aggregation occurs?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Fact tables contain measures (e.g., revenue, quantity) and reference dimension tables via foreign keys to support analytical queries.",
+        "id": 4,
+        "options": {
+          "A": "Store descriptive attributes like customer name and region",
+          "B": "Store transactional/measurable events and foreign keys to dimensions",
+          "C": "Enforce database user permissions and roles",
+          "D": "Store only pre-aggregated totals with no keys"
+        },
+        "question": "In a star schema for analytics, what is the primary role of a fact table?",
+        "topic": "Data Modeling"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "schedule_interval (or 'schedule') defines when the DAG is triggered (e.g., a cron expression like '0 2 * * *').",
+        "id": 5,
+        "options": {
+          "A": "task_id",
+          "B": "schedule_interval",
+          "C": "retries",
+          "D": "depends_on_past"
+        },
+        "question": "You need an Airflow DAG to run every day at 02:00 UTC. Which Airflow setting most directly controls this schedule?",
+        "topic": "Workflow Orchestration (Airflow)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "ELT loads raw data into the warehouse first, then performs transformations within the warehouse using its scalable compute engine.",
+        "id": 6,
+        "options": {
+          "A": "On the source OLTP database before extraction",
+          "B": "In a separate ETL server before loading",
+          "C": "Inside the target warehouse using SQL/warehouse compute after loading",
+          "D": "Only in the BI tool at query time"
+        },
+        "question": "In an ELT approach for a cloud data warehouse, where does most of the transformation typically occur?",
+        "topic": "Etl/Elt Pipelines"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "medium",
+        "explanation": "map/filter/select are lazy transformations; count() is an action that triggers job execution and returns a result.",
+        "id": 7,
+        "options": {
+          "A": "map()",
+          "B": "filter()",
+          "C": "select()",
+          "D": "count()"
+        },
+        "question": "In Apache Spark, which operation triggers execution of the DAG and materializes computation?",
+        "topic": "Apache Spark"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Within a consumer group, each partition can be assigned to at most one consumer; with 12 partitions, only 12 consumers can be active and the rest will be idle.",
+        "id": 8,
+        "options": {
+          "A": "12",
+          "B": "20",
+          "C": "32",
+          "D": "1"
+        },
+        "question": "A Kafka topic has 12 partitions and a consumer group has 20 consumers. Assuming all consumers are healthy, how many consumers will be actively reading partitions at any moment?",
+        "topic": "Stream Processing (Kafka)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "With replication factor 2, data exists on two nodes; losing one node still leaves one copy available (though with reduced redundancy).",
+        "id": 9,
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
+        },
+        "question": "You are designing a distributed storage system and want to tolerate the loss of any single node without losing data. Using replication, what is the minimum replication factor required?",
+        "topic": "Distributed Systems Fundamentals"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "MERGE/UPSERT using a stable unique key makes the load idempotent: reruns update existing rows and insert only new ones, preventing duplicates from replays/late arrivals.",
+        "id": 10,
+        "options": {
+          "A": "Append-only loads and rely on analysts to deduplicate in queries",
+          "B": "Delete the entire target table and fully reload it every day",
+          "C": "Use a deterministic business key and MERGE/UPSERT into the target table",
+          "D": "Increase warehouse size so the duplicates are less noticeable"
+        },
+        "question": "In a cloud data warehouse (e.g., BigQuery/Redshift/Snowflake), a daily incremental load is producing duplicate rows because the upstream system can resend late-arriving records. Which approach most reliably prevents duplicates while keeping the pipeline idempotent?",
+        "topic": "Data Warehousing (Snowflake/Redshift/Bigquery)"
+      }
+    ],
+    "topics_covered": [
+      "Linux/Unix",
+      "Python",
+      "data analysis",
+      "Sql",
+      "database management systems",
+      "Data Modeling",
+      "Etl/Elt Pipelines",
+      "Workflow Orchestration (Airflow)",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Data Warehousing (Snowflake/Redshift/Bigquery)",
+      "Distributed Systems Fundamentals",
+      "Hadoop Ecosystem (Hdfs, Yarn, Mapreduce)",
+      "Apache Spark",
+      "Nosql Databases (Cassandra/Hbase/Mongodb)",
+      "Stream Processing (Kafka)"
+    ]
+  },
+  "success": true
+}

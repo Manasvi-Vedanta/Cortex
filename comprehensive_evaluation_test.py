@@ -1,6 +1,6 @@
 """
 Comprehensive Evaluation Test Suite for Hybrid GenMentor
-Runs 20 different tech career goal tests with detailed metrics and professional visualizations.
+Runs 50 different tech career goal tests with detailed metrics and professional visualizations.
 
 """
 
@@ -41,7 +41,7 @@ OUTPUT_DIR = f"evaluation_outputs_{TIMESTAMP}"
 GRAPHS_DIR = os.path.join(OUTPUT_DIR, "graphs")
 LOG_FILE = os.path.join(OUTPUT_DIR, "evaluation_log.txt")
 
-# 20 Different Tech Career Goals for Comprehensive Testing
+# 50 Different Tech Career Goals for Comprehensive Testing
 TEST_CASES = [
     {
         "id": "01",
@@ -261,6 +261,337 @@ TEST_CASES = [
             ("Selenium/Cypress", "http://data.europa.eu/esco/skill/qa-selenium", "Web automation"),
             ("API Testing", "http://data.europa.eu/esco/skill/qa-api", "REST/GraphQL testing"),
             ("Performance Testing", "http://data.europa.eu/esco/skill/qa-performance", "Load and stress testing")
+        ]
+    },
+    # ==================== NEW TEST CASES 21-50 ====================
+    {
+        "id": "21",
+        "goal": "I want to become a Natural Language Processing Engineer.",
+        "short_name": "NLP Engineer",
+        "category": "AI/ML",
+        "suggestions": [
+            ("Hugging Face Transformers", "http://data.europa.eu/esco/skill/nlp-transformers", "Transformer models library"),
+            ("spaCy", "http://data.europa.eu/esco/skill/nlp-spacy", "Industrial NLP library"),
+            ("LLM Fine-tuning", "http://data.europa.eu/esco/skill/nlp-finetuning", "Large language model adaptation")
+        ]
+    },
+    {
+        "id": "22",
+        "goal": "I want to become a Robotics Software Engineer.",
+        "short_name": "Robotics Engineer",
+        "category": "Systems",
+        "suggestions": [
+            ("ROS2", "http://data.europa.eu/esco/skill/robotics-ros2", "Robot Operating System 2"),
+            ("Motion Planning", "http://data.europa.eu/esco/skill/robotics-motion", "Path and trajectory planning"),
+            ("Computer Vision for Robotics", "http://data.europa.eu/esco/skill/robotics-cv", "Visual perception systems")
+        ]
+    },
+    {
+        "id": "23",
+        "goal": "I want to become a Data Analyst.",
+        "short_name": "Data Analyst",
+        "category": "Data",
+        "suggestions": [
+            ("Tableau", "http://data.europa.eu/esco/skill/analyst-tableau", "Data visualization platform"),
+            ("Power BI", "http://data.europa.eu/esco/skill/analyst-powerbi", "Business intelligence tool"),
+            ("Advanced Excel", "http://data.europa.eu/esco/skill/analyst-excel", "Pivot tables, macros, VBA")
+        ]
+    },
+    {
+        "id": "24",
+        "goal": "I want to become a Network Engineer.",
+        "short_name": "Network Engineer",
+        "category": "Infrastructure",
+        "suggestions": [
+            ("Cisco Networking", "http://data.europa.eu/esco/skill/network-cisco", "Routing and switching"),
+            ("Network Security", "http://data.europa.eu/esco/skill/network-security", "Firewalls and VPNs"),
+            ("SDN", "http://data.europa.eu/esco/skill/network-sdn", "Software-defined networking")
+        ]
+    },
+    {
+        "id": "25",
+        "goal": "I want to become a UI/UX Designer.",
+        "short_name": "UI/UX Designer",
+        "category": "Creative Tech",
+        "suggestions": [
+            ("Figma", "http://data.europa.eu/esco/skill/ux-figma", "Collaborative design tool"),
+            ("User Research", "http://data.europa.eu/esco/skill/ux-research", "User research methods"),
+            ("Prototyping", "http://data.europa.eu/esco/skill/ux-prototyping", "Interactive prototype creation")
+        ]
+    },
+    {
+        "id": "26",
+        "goal": "I want to become a Solutions Architect.",
+        "short_name": "Solutions Architect",
+        "category": "Leadership",
+        "suggestions": [
+            ("Enterprise Architecture", "http://data.europa.eu/esco/skill/sa-enterprise", "Enterprise architecture patterns"),
+            ("Cloud Migration", "http://data.europa.eu/esco/skill/sa-migration", "Cloud migration strategies"),
+            ("Stakeholder Management", "http://data.europa.eu/esco/skill/sa-stakeholder", "Technical communication")
+        ]
+    },
+    {
+        "id": "27",
+        "goal": "I want to become a Penetration Tester.",
+        "short_name": "Penetration Tester",
+        "category": "Security",
+        "suggestions": [
+            ("Burp Suite", "http://data.europa.eu/esco/skill/pentest-burp", "Web application security testing"),
+            ("Metasploit", "http://data.europa.eu/esco/skill/pentest-metasploit", "Penetration testing framework"),
+            ("OWASP Top 10", "http://data.europa.eu/esco/skill/pentest-owasp", "Web security vulnerabilities")
+        ]
+    },
+    {
+        "id": "28",
+        "goal": "I want to become a Big Data Engineer.",
+        "short_name": "Big Data Engineer",
+        "category": "Data",
+        "suggestions": [
+            ("Apache Kafka", "http://data.europa.eu/esco/skill/bigdata-kafka", "Distributed streaming platform"),
+            ("Hadoop Ecosystem", "http://data.europa.eu/esco/skill/bigdata-hadoop", "Distributed storage and processing"),
+            ("Apache Flink", "http://data.europa.eu/esco/skill/bigdata-flink", "Stream processing framework")
+        ]
+    },
+    {
+        "id": "29",
+        "goal": "I want to become a Flutter Developer.",
+        "short_name": "Flutter Developer",
+        "category": "Mobile Development",
+        "suggestions": [
+            ("Dart Language", "http://data.europa.eu/esco/skill/flutter-dart", "Dart programming language"),
+            ("State Management", "http://data.europa.eu/esco/skill/flutter-state", "Riverpod/BLoC patterns"),
+            ("Platform Channels", "http://data.europa.eu/esco/skill/flutter-channels", "Native platform integration")
+        ]
+    },
+    {
+        "id": "30",
+        "goal": "I want to become a Systems Programmer.",
+        "short_name": "Systems Programmer",
+        "category": "Systems",
+        "suggestions": [
+            ("Rust", "http://data.europa.eu/esco/skill/systems-rust", "Memory-safe systems language"),
+            ("Operating System Internals", "http://data.europa.eu/esco/skill/systems-os", "Kernel and OS concepts"),
+            ("Compiler Design", "http://data.europa.eu/esco/skill/systems-compiler", "Compiler construction")
+        ]
+    },
+    {
+        "id": "31",
+        "goal": "I want to become a Business Intelligence Developer.",
+        "short_name": "BI Developer",
+        "category": "Data",
+        "suggestions": [
+            ("SSRS/SSIS", "http://data.europa.eu/esco/skill/bi-ssrs", "SQL Server reporting and integration"),
+            ("DAX", "http://data.europa.eu/esco/skill/bi-dax", "Data Analysis Expressions"),
+            ("Data Modeling", "http://data.europa.eu/esco/skill/bi-modeling", "Dimensional modeling")
+        ]
+    },
+    {
+        "id": "32",
+        "goal": "I want to become an API Developer.",
+        "short_name": "API Developer",
+        "category": "Web Development",
+        "suggestions": [
+            ("OpenAPI/Swagger", "http://data.europa.eu/esco/skill/api-openapi", "API specification standard"),
+            ("gRPC", "http://data.europa.eu/esco/skill/api-grpc", "High-performance RPC framework"),
+            ("API Gateway", "http://data.europa.eu/esco/skill/api-gateway", "API management and routing")
+        ]
+    },
+    {
+        "id": "33",
+        "goal": "I want to become a Security Operations Center Analyst.",
+        "short_name": "SOC Analyst",
+        "category": "Security",
+        "suggestions": [
+            ("Splunk", "http://data.europa.eu/esco/skill/soc-splunk", "SIEM and log analysis platform"),
+            ("Threat Hunting", "http://data.europa.eu/esco/skill/soc-threat", "Proactive threat detection"),
+            ("Digital Forensics", "http://data.europa.eu/esco/skill/soc-forensics", "Incident forensic analysis")
+        ]
+    },
+    {
+        "id": "34",
+        "goal": "I want to become a VR/AR Developer.",
+        "short_name": "VR/AR Developer",
+        "category": "Creative Tech",
+        "suggestions": [
+            ("Unity XR", "http://data.europa.eu/esco/skill/vr-unity", "Unity VR/AR development toolkit"),
+            ("3D Modeling", "http://data.europa.eu/esco/skill/vr-3dmodeling", "3D asset creation"),
+            ("Spatial Computing", "http://data.europa.eu/esco/skill/vr-spatial", "Spatial interaction design")
+        ]
+    },
+    {
+        "id": "35",
+        "goal": "I want to become a Firmware Engineer.",
+        "short_name": "Firmware Engineer",
+        "category": "Systems",
+        "suggestions": [
+            ("Bare Metal Programming", "http://data.europa.eu/esco/skill/fw-baremetal", "Low-level hardware programming"),
+            ("JTAG Debugging", "http://data.europa.eu/esco/skill/fw-jtag", "Hardware debugging tools"),
+            ("Bootloader Development", "http://data.europa.eu/esco/skill/fw-bootloader", "System startup code")
+        ]
+    },
+    {
+        "id": "36",
+        "goal": "I want to become a Product Manager in Tech.",
+        "short_name": "Tech PM",
+        "category": "Leadership",
+        "suggestions": [
+            ("Agile/Scrum", "http://data.europa.eu/esco/skill/pm-agile", "Agile project management"),
+            ("Product Analytics", "http://data.europa.eu/esco/skill/pm-analytics", "Product metrics and KPIs"),
+            ("Roadmap Planning", "http://data.europa.eu/esco/skill/pm-roadmap", "Product roadmap strategy")
+        ]
+    },
+    {
+        "id": "37",
+        "goal": "I want to become a Reinforcement Learning Engineer.",
+        "short_name": "RL Engineer",
+        "category": "AI/ML",
+        "suggestions": [
+            ("OpenAI Gym", "http://data.europa.eu/esco/skill/rl-gym", "RL environment toolkit"),
+            ("Policy Gradient Methods", "http://data.europa.eu/esco/skill/rl-policy", "Advanced RL algorithms"),
+            ("Multi-Agent Systems", "http://data.europa.eu/esco/skill/rl-multiagent", "Multi-agent RL")
+        ]
+    },
+    {
+        "id": "38",
+        "goal": "I want to become a Platform Engineer.",
+        "short_name": "Platform Engineer",
+        "category": "Infrastructure",
+        "suggestions": [
+            ("Internal Developer Platforms", "http://data.europa.eu/esco/skill/platform-idp", "Developer experience platforms"),
+            ("Service Mesh", "http://data.europa.eu/esco/skill/platform-mesh", "Istio/Linkerd service mesh"),
+            ("GitOps", "http://data.europa.eu/esco/skill/platform-gitops", "ArgoCD/Flux deployment")
+        ]
+    },
+    {
+        "id": "39",
+        "goal": "I want to become a Compiler Engineer.",
+        "short_name": "Compiler Engineer",
+        "category": "Systems",
+        "suggestions": [
+            ("LLVM", "http://data.europa.eu/esco/skill/compiler-llvm", "LLVM compiler infrastructure"),
+            ("Parsing Techniques", "http://data.europa.eu/esco/skill/compiler-parsing", "Lexing and parsing algorithms"),
+            ("Code Optimization", "http://data.europa.eu/esco/skill/compiler-optimization", "Compiler optimization passes")
+        ]
+    },
+    {
+        "id": "40",
+        "goal": "I want to become a Distributed Systems Engineer.",
+        "short_name": "Distributed Systems",
+        "category": "Infrastructure",
+        "suggestions": [
+            ("Consensus Algorithms", "http://data.europa.eu/esco/skill/dist-consensus", "Raft/Paxos protocols"),
+            ("Message Queues", "http://data.europa.eu/esco/skill/dist-mq", "RabbitMQ/Kafka messaging"),
+            ("CAP Theorem", "http://data.europa.eu/esco/skill/dist-cap", "Distributed systems theory")
+        ]
+    },
+    {
+        "id": "41",
+        "goal": "I want to become a Technical Writer for Software.",
+        "short_name": "Tech Writer",
+        "category": "Quality",
+        "suggestions": [
+            ("API Documentation", "http://data.europa.eu/esco/skill/tw-api", "API docs with Swagger/ReadMe"),
+            ("Docs-as-Code", "http://data.europa.eu/esco/skill/tw-docsascode", "Markdown/AsciiDoc workflows"),
+            ("Developer Experience", "http://data.europa.eu/esco/skill/tw-dx", "Developer-focused writing")
+        ]
+    },
+    {
+        "id": "42",
+        "goal": "I want to become a SAP Developer.",
+        "short_name": "SAP Developer",
+        "category": "Enterprise",
+        "suggestions": [
+            ("ABAP", "http://data.europa.eu/esco/skill/sap-abap", "SAP programming language"),
+            ("SAP Fiori", "http://data.europa.eu/esco/skill/sap-fiori", "SAP UX design system"),
+            ("SAP HANA", "http://data.europa.eu/esco/skill/sap-hana", "In-memory database platform")
+        ]
+    },
+    {
+        "id": "43",
+        "goal": "I want to become a Bioinformatics Engineer.",
+        "short_name": "Bioinformatics Eng",
+        "category": "Emerging Tech",
+        "suggestions": [
+            ("Genomics Pipelines", "http://data.europa.eu/esco/skill/bio-genomics", "Sequencing data analysis"),
+            ("Biopython", "http://data.europa.eu/esco/skill/bio-biopython", "Bioinformatics Python library"),
+            ("Statistical Genetics", "http://data.europa.eu/esco/skill/bio-statgen", "Genetic data analysis")
+        ]
+    },
+    {
+        "id": "44",
+        "goal": "I want to become an ERP Consultant.",
+        "short_name": "ERP Consultant",
+        "category": "Enterprise",
+        "suggestions": [
+            ("ERP Implementation", "http://data.europa.eu/esco/skill/erp-impl", "Enterprise resource planning deployment"),
+            ("Business Process Mapping", "http://data.europa.eu/esco/skill/erp-bpm", "Process analysis and design"),
+            ("Change Management", "http://data.europa.eu/esco/skill/erp-change", "Organizational change")
+        ]
+    },
+    {
+        "id": "45",
+        "goal": "I want to become a Quantum Computing Researcher.",
+        "short_name": "Quantum Computing",
+        "category": "Emerging Tech",
+        "suggestions": [
+            ("Qiskit", "http://data.europa.eu/esco/skill/quantum-qiskit", "IBM quantum computing SDK"),
+            ("Quantum Algorithms", "http://data.europa.eu/esco/skill/quantum-algo", "Grover's and Shor's algorithms"),
+            ("Quantum Error Correction", "http://data.europa.eu/esco/skill/quantum-error", "Fault-tolerant quantum computing")
+        ]
+    },
+    {
+        "id": "46",
+        "goal": "I want to become an Audio Software Developer.",
+        "short_name": "Audio Developer",
+        "category": "Creative Tech",
+        "suggestions": [
+            ("Digital Signal Processing", "http://data.europa.eu/esco/skill/audio-dsp", "Audio signal processing algorithms"),
+            ("JUCE Framework", "http://data.europa.eu/esco/skill/audio-juce", "C++ audio application framework"),
+            ("VST Plugin Development", "http://data.europa.eu/esco/skill/audio-vst", "Audio plugin creation")
+        ]
+    },
+    {
+        "id": "47",
+        "goal": "I want to become a GIS Developer.",
+        "short_name": "GIS Developer",
+        "category": "Emerging Tech",
+        "suggestions": [
+            ("PostGIS", "http://data.europa.eu/esco/skill/gis-postgis", "Spatial database extension"),
+            ("Leaflet/Mapbox", "http://data.europa.eu/esco/skill/gis-leaflet", "Web mapping libraries"),
+            ("Remote Sensing", "http://data.europa.eu/esco/skill/gis-remote", "Satellite data processing")
+        ]
+    },
+    {
+        "id": "48",
+        "goal": "I want to become a Release Engineer.",
+        "short_name": "Release Engineer",
+        "category": "Quality",
+        "suggestions": [
+            ("Release Pipelines", "http://data.europa.eu/esco/skill/release-pipelines", "Build and release automation"),
+            ("Artifact Management", "http://data.europa.eu/esco/skill/release-artifacts", "Nexus/Artifactory repositories"),
+            ("Feature Flags", "http://data.europa.eu/esco/skill/release-flags", "Progressive delivery with feature flags")
+        ]
+    },
+    {
+        "id": "49",
+        "goal": "I want to become a Computer Graphics Programmer.",
+        "short_name": "Graphics Programmer",
+        "category": "Creative Tech",
+        "suggestions": [
+            ("Vulkan/OpenGL", "http://data.europa.eu/esco/skill/graphics-vulkan", "Graphics APIs"),
+            ("Shader Programming", "http://data.europa.eu/esco/skill/graphics-shaders", "GLSL/HLSL shaders"),
+            ("Ray Tracing", "http://data.europa.eu/esco/skill/graphics-raytracing", "Real-time ray tracing")
+        ]
+    },
+    {
+        "id": "50",
+        "goal": "I want to become an Edge Computing Engineer.",
+        "short_name": "Edge Computing Eng",
+        "category": "Infrastructure",
+        "suggestions": [
+            ("Edge AI", "http://data.europa.eu/esco/skill/edge-ai", "ML inference on edge devices"),
+            ("MQTT/CoAP", "http://data.europa.eu/esco/skill/edge-protocols", "Lightweight IoT protocols"),
+            ("Containerization at Edge", "http://data.europa.eu/esco/skill/edge-containers", "K3s/MicroK8s edge deployment")
         ]
     }
 ]
@@ -1404,7 +1735,7 @@ def main():
     """Main entry point"""
     print("\n" + "=" * 100)
     print(" HYBRID GENMENTOR - COMPREHENSIVE EVALUATION TEST SUITE")
-    print(" Running 20 Tech Career Goal Tests with Research-Grade Visualizations")
+    print(" Running 50 Tech Career Goal Tests with Research-Grade Visualizations")
     print("=" * 100 + "\n")
     
     # Check prerequisites

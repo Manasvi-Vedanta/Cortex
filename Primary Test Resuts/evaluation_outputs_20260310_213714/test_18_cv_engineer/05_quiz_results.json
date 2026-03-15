@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:06:38.987371",
+    "detailed_results": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A set stores unique elements and provides average O(1) membership tests, making it ideal for unique labels and fast lookups.",
+        "is_correct": false,
+        "question": "In Python, which data structure is best suited for storing unique class labels and performing fast membership checks (e.g., \"is this label present?\")?",
+        "question_id": 1,
+        "topic": "Python",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "OpenCV images are typically BGR; cv2.COLOR_BGR2RGB swaps channels to standard RGB ordering.",
+        "is_correct": false,
+        "question": "In OpenCV, which color conversion code converts a BGR image (default OpenCV format) to RGB?",
+        "question_id": 2,
+        "topic": "Opencv",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Horizontal flipping simulates mirrored viewpoints and is a standard augmentation for many vision tasks.",
+        "is_correct": false,
+        "question": "Which operation is a common data augmentation technique that helps a model become more robust to left-right viewpoint changes in images?",
+        "question_id": 3,
+        "topic": "Data Preprocessing & Augmentation",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "model.eval() sets modules such as Dropout and BatchNorm to evaluation behavior; torch.no_grad() only disables gradient tracking.",
+        "is_correct": false,
+        "question": "In PyTorch, which method switches a model to inference mode so layers like Dropout and BatchNorm behave deterministically?",
+        "question_id": 4,
+        "topic": "PyTorch",
+        "user_answer": "D"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "medium",
+        "explanation": "Homogeneous coordinates (x, y, 1) allow translation to be represented as matrix multiplication using a 3x3 transform.",
+        "is_correct": false,
+        "question": "You apply a 2D affine transform to an image. Which representation correctly uses homogeneous coordinates to apply translation along with rotation/scale?",
+        "question_id": 5,
+        "topic": "Computer Vision Fundamentals (Image Processing/Geometry)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "CrossEntropyLoss expects class indices as targets and raw, unnormalized logits; it applies log-softmax internally for multi-class classification per pixel.",
+        "is_correct": true,
+        "question": "For multi-class semantic segmentation with integer class IDs per pixel (0..K-1), which PyTorch loss is typically appropriate when the model outputs raw logits of shape [N, K, H, W]?",
+        "question_id": 6,
+        "topic": "Model Training & Optimization (Losses/Regularization/Schedulers)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Transformers operate on sequences; patching and embedding turns the image into a token sequence that self-attention can process.",
+        "is_correct": false,
+        "question": "In a Vision Transformer (ViT), what is the primary purpose of splitting an image into fixed-size patches and linearly embedding them?",
+        "question_id": 7,
+        "topic": "Deep Learning (Cnn/Transformers)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "COCO mAP averages AP across a range of IoU thresholds (0.50:0.05:0.95), making it stricter than AP@0.5 alone.",
+        "is_correct": false,
+        "question": "You are evaluating an object detector using COCO-style mAP. Which statement best describes how IoU thresholds are used in COCO mAP computation?",
+        "question_id": 8,
+        "topic": "Model Evaluation & Metrics (Map/Iou/Roc)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Dice-based losses (often combined with BCE) are designed to handle imbalance by optimizing overlap, giving more signal to small foreground regions.",
+        "is_correct": false,
+        "question": "You train a U-Net for binary segmentation and observe severe class imbalance (foreground is ~2% of pixels). Which change is most directly targeted to improve learning on the minority class?",
+        "question_id": 9,
+        "topic": "Object Detection & Segmentation (Yolo/Rcnn/Unet)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "TensorRT optimizes inference by fusing layers, selecting efficient kernels, and enabling reduced precision (FP16/INT8) to improve throughput and latency on GPUs.",
+        "is_correct": false,
+        "question": "You export a PyTorch model to ONNX and run it with TensorRT for faster inference on an NVIDIA GPU. Which optimization is TensorRT most known for applying during engine building?",
+        "question_id": 10,
+        "topic": "Deployment & Inference Optimization (Onnx/Tensorrt)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Python, Opencv, Data Preprocessing & Augmentation",
+      "✅ Your strongest areas: Model Training & Optimization (Losses/Regularization/Schedulers)"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Model Training & Optimization (Losses/Regularization/Schedulers)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Opencv",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Preprocessing & Augmentation",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "PyTorch",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Computer Vision Fundamentals (Image Processing/Geometry)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Deep Learning (Cnn/Transformers)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Model Evaluation & Metrics (Map/Iou/Roc)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Object Detection & Segmentation (Yolo/Rcnn/Unet)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Deployment & Inference Optimization (Onnx/Tensorrt)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

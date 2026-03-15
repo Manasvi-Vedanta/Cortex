@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:23:28.759265",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "RTP is the long-run expected payout percentage of total wagers returned to players, not a per-spin guarantee.",
+        "is_correct": false,
+        "question": "In a slot game, what does RTP (Return to Player) represent?",
+        "question_id": 1,
+        "topic": "games rules",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Option B is unambiguous, measurable, and directly implementable (trigger condition + outcome).",
+        "is_correct": false,
+        "question": "Which statement is the clearest, testable game rule suitable for implementation?",
+        "question_id": 2,
+        "topic": "formulate game rules",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Update() runs once per frame; FixedUpdate() is tied to the physics timestep, and Awake/OnEnable are lifecycle events.",
+        "is_correct": true,
+        "question": "In Unity, which built-in method is called once per rendered frame (commonly used for non-physics gameplay updates)?",
+        "question_id": 3,
+        "topic": "Game Engine Proficiency (Unity/Unreal)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "git revert adds a new commit that undoes a prior commit, preserving shared history—important for team workflows.",
+        "is_correct": true,
+        "question": "In Git, which command creates a new commit that reverses the changes introduced by a previous commit (without rewriting history)?",
+        "question_id": 4,
+        "topic": "Version Control (Git/Perforce)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Prefix sums + binary search gives O(log n) per sample after O(n) preprocessing, which is efficient for high-frequency draws.",
+        "is_correct": true,
+        "question": "You need to select a weighted random prize from 10,000 entries many times per second. Which approach is typically most efficient for repeated sampling?",
+        "question_id": 5,
+        "topic": "Data Structures & Algorithms",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "ECS places behavior in systems operating over data-only components, improving modularity, testability, and performance.",
+        "is_correct": true,
+        "question": "In an ECS (Entity Component System) architecture, where should the logic that evaluates paylines and awards wins typically live?",
+        "question_id": 6,
+        "topic": "Gameplay Systems Architecture (Ecs, Component-Based Design)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Profiling is the correct first step to pinpoint CPU/GPU time, GC allocations, and call stacks causing spikes.",
+        "is_correct": false,
+        "question": "A Unity slot prototype shows occasional frame spikes when entering the bonus round. What is the best first step to identify the cause?",
+        "question_id": 7,
+        "topic": "Debugging & Profiling Tools",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Passing snapshots/messages to the main thread prevents concurrent mutation and respects engine thread-affinity (e.g., Unity UI must be updated on main thread).",
+        "is_correct": false,
+        "question": "You run reel simulation and win evaluation on a worker thread to keep the UI responsive. Which design best avoids data races when updating the UI with results?",
+        "question_id": 8,
+        "topic": "Multithreading & Concurrency",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Quaternions avoid gimbal lock and slerp provides smooth rotational interpolation along the shortest path.",
+        "is_correct": false,
+        "question": "A 3D bonus wheel must rotate smoothly from its current orientation to a target orientation without gimbal lock. Which representation/interpolation is most appropriate?",
+        "question_id": 9,
+        "topic": "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Server-side validation with cryptographic signing prevents client tampering and makes codes unforgeable without the secret key.",
+        "is_correct": false,
+        "question": "You are asked to add 'publicity code' support: players enter a code that grants a bonus, but the code must not be guessable or forgeable by reading the client. Which approach is most secure?",
+        "question_id": 10,
+        "topic": "publicity code",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: games rules, formulate game rules, Debugging & Profiling Tools",
+      "✅ Your strongest areas: Game Engine Proficiency (Unity/Unreal), Version Control (Git/Perforce)"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Game Engine Proficiency (Unity/Unreal)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Version Control (Git/Perforce)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Structures & Algorithms",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Gameplay Systems Architecture (Ecs, Component-Based Design)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "games rules",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "formulate game rules",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Debugging & Profiling Tools",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Multithreading & Concurrency",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "publicity code",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

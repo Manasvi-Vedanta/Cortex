@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:57:57.646060",
+      "learning_path_id": "test_47",
+      "target_occupation": "geographic information systems specialist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A CRS specifies how coordinates map to real-world locations, typically combining a datum (Earth model) and a projection (map transformation).",
+        "id": 1,
+        "options": {
+          "A": "How spatial data is symbolized on a map",
+          "B": "How coordinates relate to the Earth using a datum and a projection",
+          "C": "The file format used to store vector features",
+          "D": "The database schema for spatial tables"
+        },
+        "question": "In GIS, what does a coordinate reference system (CRS) define?",
+        "topic": "Gis Fundamentals (Projections, Datums, Spatial Analysis)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters rows before aggregation and ordering are applied.",
+        "id": 2,
+        "options": {
+          "A": "WHERE",
+          "B": "GROUP BY",
+          "C": "ORDER BY",
+          "D": "HAVING"
+        },
+        "question": "Which SQL clause is used to filter rows returned by a SELECT query?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <name> creates a branch and checks it out in one step.",
+        "id": 3,
+        "options": {
+          "A": "git branch feature/geocode",
+          "B": "git checkout -b feature/geocode",
+          "C": "git merge feature/geocode",
+          "D": "git switch feature/geocode --create"
+        },
+        "question": "Which Git command creates a new branch named feature/geocode and switches to it?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "GeoPackage (.gpkg) is an OGC standard built on SQLite that can store multiple layers in one file.",
+        "id": 4,
+        "options": {
+          "A": "Shapefile",
+          "B": "GeoJSON",
+          "C": "GeoPackage",
+          "D": "KML"
+        },
+        "question": "Which format is a single-file SQLite-based container that can store multiple vector layers and attributes?",
+        "topic": "Geospatial Data Formats & Standards (Geojson, Shapefile, Geopackage, Ogc)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "ST_Intersection returns the actual intersecting geometry; ST_Intersects only returns a boolean.",
+        "id": 5,
+        "options": {
+          "A": "ST_Union(a, b)",
+          "B": "ST_Intersects(a, b)",
+          "C": "ST_Intersection(a, b)",
+          "D": "ST_Difference(a, b)"
+        },
+        "question": "In PostGIS, which function returns the geometry representing the intersection of two geometries?",
+        "topic": "Postgis"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ArcGIS Server is the service engine that publishes and serves GIS web services; Portal handles identity/content, Data Store stores hosted data.",
+        "id": 6,
+        "options": {
+          "A": "Portal for ArcGIS",
+          "B": "ArcGIS Server",
+          "C": "ArcGIS Data Store",
+          "D": "ArcGIS Pro"
+        },
+        "question": "In ArcGIS Enterprise, which component primarily hosts and serves web services (map/feature services) to clients?",
+        "topic": "Esri Arcgis Platform (Arcgis Pro, Arcgis Enterprise, Arcgis Online)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "L.geoJSON is designed to ingest GeoJSON and create corresponding Leaflet layers.",
+        "id": 7,
+        "options": {
+          "A": "L.tileLayer",
+          "B": "L.geoJSON",
+          "C": "L.control.layers",
+          "D": "L.markerClusterGroup"
+        },
+        "question": "In Leaflet, which object type is most appropriate for displaying a GeoJSON FeatureCollection on a map?",
+        "topic": "Web Gis (Leaflet/Openlayers/Mapbox Gl Js)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "GDAL provides server-friendly CLI tools that can be scripted for batch raster reprojection, clipping, and conversion at scale.",
+        "id": 8,
+        "options": {
+          "A": "Use ArcGIS Pro interactively and export results manually",
+          "B": "Use GDAL tools (e.g., gdalwarp, gdal_translate) scripted in Python",
+          "C": "Use GeoJSON as an intermediate format for rasters",
+          "D": "Use Git to store rasters and rely on diffs for processing"
+        },
+        "question": "You are building a geoprocessing pipeline that must reproject, clip, and convert thousands of rasters nightly. You need robust command-line automation and good performance on servers. Which approach is most appropriate?",
+        "topic": "Spatial Etl (Gdal/Ogr, Fme)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "OGC API - Features is the modern OGC standard for querying vector features over HTTP with filtering and paging.",
+        "id": 9,
+        "options": {
+          "A": "ArcGIS REST Feature Service query endpoint",
+          "B": "OGC API - Features",
+          "C": "WMS 1.1.1 GetMap",
+          "D": "WMTS GetTile"
+        },
+        "question": "A client requests an OGC-compliant way to query features with filtering and paging over HTTP, and they want to avoid vendor-specific endpoints. Which API best fits?",
+        "topic": "Rest Apis (Arcgis Rest, Ogc Api)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Geological mapping benefits from topology validation and snapping to structural features (faults/contacts) to reduce gaps/overlaps and slivers after overlays.",
+        "id": 10,
+        "options": {
+          "A": "Digitize polygons without topology rules to preserve raw field interpretation",
+          "B": "Apply topology rules (e.g., Must Not Overlap, Must Not Have Gaps) and snap/validate edits against fault lines before final overlay",
+          "C": "Convert all polygons to raster to eliminate topology issues permanently",
+          "D": "Store the map as GeoJSON only, because GeoJSON enforces topology"
+        },
+        "question": "You are compiling a geological map and need to ensure polygon contacts align with mapped faults and avoid sliver polygons after overlay operations. Which workflow best addresses this?",
+        "topic": "geological mapping"
+      }
+    ],
+    "topics_covered": [
+      "Python",
+      "Sql",
+      "Gis Fundamentals (Projections, Datums, Spatial Analysis)",
+      "Esri Arcgis Platform (Arcgis Pro, Arcgis Enterprise, Arcgis Online)",
+      "Javascript",
+      "Web Gis (Leaflet/Openlayers/Mapbox Gl Js)",
+      "Geospatial Data Formats & Standards (Geojson, Shapefile, Geopackage, Ogc)",
+      "Geoserver",
+      "Rest Apis (Arcgis Rest, Ogc Api)",
+      "Spatial Etl (Gdal/Ogr, Fme)",
+      "Version Control (Git)",
+      "use databases",
+      "Postgis",
+      "geomatics",
+      "geological mapping"
+    ]
+  },
+  "success": true
+}

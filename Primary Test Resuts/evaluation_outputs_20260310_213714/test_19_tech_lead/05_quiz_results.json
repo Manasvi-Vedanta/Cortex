@@ -1,0 +1,201 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:08:43.034611",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "APIs define how systems interact (endpoints, methods, schemas), enabling communication between services/clients and backends.",
+        "is_correct": true,
+        "question": "In a typical web application, what is the primary role of an API?",
+        "question_id": 1,
+        "topic": "Api Design (Rest/Graphql)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Authentication (Authn) confirms identity; authorization (Authz) controls permissions and access to resources.",
+        "is_correct": true,
+        "question": "Which statement best describes the difference between authentication and authorization?",
+        "question_id": 2,
+        "topic": "Security Engineering (Authn/Authz, Owasp)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A primary key uniquely identifies records, enabling reliable joins, updates, and referential integrity.",
+        "is_correct": true,
+        "question": "In SQL database design, what is a primary key used for?",
+        "question_id": 3,
+        "topic": "Database Design (Sql/Nosql)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "CRMs track opportunities, stages, probabilities, close dates, and amounts—inputs used for forecasting.",
+        "is_correct": false,
+        "question": "Which CRM capability most directly helps a technical sales representative forecast revenue?",
+        "question_id": 4,
+        "topic": "use customer relationship management software",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "GraphQL can reduce over/under-fetching by letting clients request specific fields, often lowering the number of requests needed.",
+        "is_correct": false,
+        "question": "A customer needs an API that mobile apps will call frequently over unreliable networks. Which design choice best improves efficiency and reduces round trips?",
+        "question_id": 5,
+        "topic": "Api Design (Rest/Graphql)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "E2E tests validate the full workflow across components; unit/integration tests provide faster, more targeted coverage.",
+        "is_correct": false,
+        "question": "A prospect asks how you would validate that a new payment workflow works end-to-end across UI, API, and database. Which testing approach is most appropriate?",
+        "question_id": 6,
+        "topic": "Testing Strategy (Unit/Integration/E2E)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Managed Kubernetes services provide a managed control plane and support autoscaling for containerized workloads.",
+        "is_correct": true,
+        "question": "A customer wants to deploy a containerized service with automatic scaling and managed control plane. Which cloud service category best matches this need across AWS/Azure/GCP?",
+        "question_id": 7,
+        "topic": "Cloud Platforms (Aws/Azure/Gcp)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Circuit breakers, timeouts, and bulkheads prevent retry storms and isolate failures, reducing cascading outages under load.",
+        "is_correct": false,
+        "question": "A prospect reports intermittent timeouts during peak traffic. Metrics show high p95 latency and frequent retries between microservices. Which change is most likely to reduce cascading failures in a distributed system?",
+        "question_id": 8,
+        "topic": "Distributed Systems",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Layered automation (PR checks + post-merge integration/build) plus approval gates and progressive deployment meets compliance while keeping developer feedback fast.",
+        "is_correct": false,
+        "question": "You’re reviewing a proposed CI/CD pipeline for a regulated customer. They require fast feedback for developers and strong release controls. Which pipeline design best balances both?",
+        "question_id": 9,
+        "topic": "Ci/Cd Pipelines",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "It clarifies scope with measurable metrics and likely bottlenecks, enabling a structured diagnosis and credible recommendations.",
+        "is_correct": false,
+        "question": "During a discovery call, a customer says: “Our API is slow.” You have limited time and need actionable next steps. Which response best demonstrates strong technical communication and performance triage?",
+        "question_id": 10,
+        "topic": "apply technical communication skills",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 3,
+        "percentage": 75.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Api Design (Rest/Graphql)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: use customer relationship management software, Testing Strategy (Unit/Integration/E2E), Distributed Systems",
+      "✅ Your strongest areas: Security Engineering (Authn/Authz, Owasp), Database Design (Sql/Nosql)",
+      "📖 Topics needing more practice: Api Design (Rest/Graphql)"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Security Engineering (Authn/Authz, Owasp)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Database Design (Sql/Nosql)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Cloud Platforms (Aws/Azure/Gcp)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use customer relationship management software",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Testing Strategy (Unit/Integration/E2E)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ci/Cd Pipelines",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "apply technical communication skills",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:25:02.217597",
+      "learning_path_id": "test_14",
+      "target_occupation": "computer scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Supervised learning uses labeled examples (x, y) to learn a mapping from inputs to outputs.",
+        "id": 1,
+        "options": {
+          "A": "Inputs with corresponding correct outputs (labels)",
+          "B": "Only inputs, with no outputs provided",
+          "C": "Only outputs, with no inputs provided",
+          "D": "Randomly generated data with no structure"
+        },
+        "question": "In supervised machine learning, what best describes the training data?",
+        "topic": "Machine Learning Fundamentals"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "easy",
+        "explanation": "Tuples are immutable (cannot be modified in place), unlike lists, dicts, and sets.",
+        "id": 2,
+        "options": {
+          "A": "list",
+          "B": "dict",
+          "C": "set",
+          "D": "tuple"
+        },
+        "question": "Which Python data structure is immutable?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The dot product maps two vectors to a single scalar (often related to similarity and projection).",
+        "id": 3,
+        "options": {
+          "A": "A scalar value",
+          "B": "A vector orthogonal to both inputs",
+          "C": "A matrix",
+          "D": "A probability distribution"
+        },
+        "question": "In linear algebra, what does the dot product of two vectors primarily produce?",
+        "topic": "Mathematics (Linear Algebra, Calculus, Probability)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Pearson's r quantifies the strength and direction of a linear relationship between two continuous variables.",
+        "id": 4,
+        "options": {
+          "A": "Pearson correlation coefficient",
+          "B": "Median absolute deviation",
+          "C": "Interquartile range",
+          "D": "Mode"
+        },
+        "question": "Which statistic measures the linear relationship between two continuous variables?",
+        "topic": "Statistics"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "L1 regularization adds the sum of absolute weights to the loss, encouraging sparsity and reducing overfitting.",
+        "id": 5,
+        "options": {
+          "A": "L1 penalty (sum of absolute values of weights)",
+          "B": "A constant offset added to all predictions",
+          "C": "A penalty on the number of training examples",
+          "D": "A penalty that increases with higher learning rates"
+        },
+        "question": "You are training a logistic regression model and want to reduce overfitting by shrinking coefficients toward zero. Which regularization term should you add to the loss?",
+        "topic": "Optimization Algorithms"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "PyTorch accumulates gradients by default; optimizer.zero_grad() clears them before computing new gradients.",
+        "id": 6,
+        "options": {
+          "A": "model.eval()",
+          "B": "optimizer.zero_grad()",
+          "C": "torch.no_grad()",
+          "D": "loss.detach()"
+        },
+        "question": "In PyTorch, which call is typically required to clear accumulated gradients before the next backward pass during training?",
+        "topic": "Pytorch"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Subword methods handle rare/unknown words by decomposing them into frequent pieces, improving coverage and efficiency.",
+        "id": 7,
+        "options": {
+          "A": "It eliminates the need for any vocabulary",
+          "B": "It guarantees perfect grammar in generated text",
+          "C": "It reduces out-of-vocabulary issues by representing rare words as smaller units",
+          "D": "It makes training unnecessary because tokens are pre-labeled"
+        },
+        "question": "In NLP, why is subword tokenization (e.g., BPE/WordPiece) commonly used instead of word-level tokenization?",
+        "topic": "Natural Language Processing"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "To attribute effects to the architecture, you must control confounders by holding other factors constant and changing only the architecture.",
+        "id": 8,
+        "options": {
+          "A": "Change the architecture and also change the dataset and preprocessing to match the new model",
+          "B": "Use the same dataset, preprocessing, training budget, and evaluation protocol; change only the architecture",
+          "C": "Evaluate the new model on a different test set that is easier to compare visually",
+          "D": "Tune the new model extensively but do not tune the baseline to save time"
+        },
+        "question": "You are designing an experiment to test whether a new model architecture improves accuracy over a baseline. Which design choice best supports a causal claim that the architecture change caused the improvement?",
+        "topic": "Research Methods & Experimental Design"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "If near-duplicates appear across splits, the model can effectively memorize, inflating validation performance without true generalization.",
+        "id": 9,
+        "options": {
+          "A": "Using random horizontal flips during training augmentation",
+          "B": "Normalizing images using mean and standard deviation computed from the training set only",
+          "C": "Splitting the dataset after generating near-duplicate crops/frames so that highly similar images appear in both train and validation",
+          "D": "Using a smaller batch size for validation than for training"
+        },
+        "question": "In computer vision, you suspect data leakage because validation accuracy is extremely high early in training. Which scenario is the most plausible source of leakage?",
+        "topic": "Computer Vision"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Subtracting a baseline (like V(s)) from returns reduces variance of gradient estimates while keeping the expected gradient unchanged.",
+        "id": 10,
+        "options": {
+          "A": "Add a baseline value function and use advantage estimates (e.g., A(s,a) = Q(s,a) - V(s))",
+          "B": "Increase the discount factor above 1 to emphasize long-term rewards",
+          "C": "Remove exploration by always taking the greedy action",
+          "D": "Replace rewards with random noise to encourage robustness"
+        },
+        "question": "In reinforcement learning, you want to reduce variance of policy gradient updates without introducing bias. Which technique accomplishes this?",
+        "topic": "Reinforcement Learning"
+      }
+    ],
+    "topics_covered": [
+      "Machine Learning Fundamentals",
+      "Mathematics (Linear Algebra, Calculus, Probability)",
+      "Statistics",
+      "Python",
+      "Optimization Algorithms",
+      "Deep Learning",
+      "Pytorch",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Reinforcement Learning",
+      "Research Methods & Experimental Design",
+      "scientific research methodology",
+      "manage research data",
+      "write research proposals",
+      "interact professionally in research and professional environments"
+    ]
+  },
+  "success": true
+}

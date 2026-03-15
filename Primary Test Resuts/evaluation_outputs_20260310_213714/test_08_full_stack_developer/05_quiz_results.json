@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:49:33.097479",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The <a> (anchor) tag creates hyperlinks using the href attribute.",
+        "is_correct": false,
+        "question": "In HTML, which tag is primarily used to create a hyperlink to another page?",
+        "question_id": 1,
+        "topic": "Html",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Padding adds space inside the element, between the content and its border.",
+        "is_correct": true,
+        "question": "In CSS, which property is used to control the space inside an element between its content and border?",
+        "question_id": 2,
+        "topic": "CSS",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "JSON.parse() parses a JSON-formatted string and returns the corresponding JavaScript value/object.",
+        "is_correct": true,
+        "question": "Which JavaScript method converts a JSON string into a JavaScript object?",
+        "question_id": 3,
+        "topic": "JavaScript",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "SELECT is the standard SQL command for querying and returning data from one or more tables.",
+        "is_correct": true,
+        "question": "Which SQL statement is used to retrieve rows from a table?",
+        "question_id": 4,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Using the functional updater (prev => ...) ensures you read the latest previous state, avoiding stale updates.",
+        "is_correct": true,
+        "question": "In React, what is the correct way to update state based on the previous state value?",
+        "question_id": 5,
+        "topic": "React",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "PATCH is intended for partial updates, while PUT typically replaces the entire resource representation.",
+        "is_correct": false,
+        "question": "Which HTTP method is most appropriate for a REST API endpoint that partially updates a resource (e.g., updating only a user's email)?",
+        "question_id": 6,
+        "topic": "Rest Apis",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "unknown accepts any value, but TypeScript requires type narrowing (e.g., typeof checks) before using it as a specific type.",
+        "is_correct": false,
+        "question": "In TypeScript, what does the following function signature mean: function log(value: unknown): void?",
+        "question_id": 7,
+        "topic": "TypeScript",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A many-to-many relationship is normalized using a junction table (e.g., OrderItems) that references both entities and stores attributes like quantity.",
+        "is_correct": false,
+        "question": "You are designing a database for orders. Each order can contain many products, and each product can appear in many orders. Which normalized design best represents this relationship?",
+        "question_id": 8,
+        "topic": "Database Design And Normalization",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "JWT access tokens are hard to revoke once issued; using short-lived access tokens with refresh tokens and server-side tracking/rotation enables practical revocation.",
+        "is_correct": false,
+        "question": "In a Node.js API using JWT for authentication, which approach best supports immediate token revocation (e.g., user logs out or token is compromised) while still using JWTs?",
+        "question_id": 9,
+        "topic": "Authentication And Authorization (Oauth2/Jwt)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Incremental adoption (allowJs/checkJs, gradual conversion, and progressively stricter compiler options) minimizes disruption while steadily increasing type coverage.",
+        "is_correct": false,
+        "question": "You are adding TypeScript to an existing JavaScript React project. Which plan most effectively reduces risk while improving type safety over time?",
+        "question_id": 10,
+        "topic": "Add TypeScript",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 3,
+        "percentage": 75.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Html, Rest Apis, TypeScript",
+      "✅ Your strongest areas: CSS, JavaScript"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "CSS",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "JavaScript",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "React",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Html",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Rest Apis",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "TypeScript",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Database Design And Normalization",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Authentication And Authorization (Oauth2/Jwt)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Add TypeScript",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

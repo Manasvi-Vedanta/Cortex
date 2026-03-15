@@ -1,0 +1,838 @@
+{
+  "learning_path": [
+    {
+      "comprehensive_guides": {
+        "digital systems": "# 📚 Comprehensive Guide: digital systems\n\n## 🎯 Overview\nSystems to store, process and spread information in digital form. They are hardware, software and networks, as well as the ways in which these can be employed.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply digital systems in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why digital systems matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How digital systems enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "programming": "# 📚 Comprehensive Guide: programming\n\n## 🎯 Overview\nThe techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms (e.g. object oriented programming, functional programming) and of programming languages.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply programming in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why programming matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How programming enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Establish core programming concepts used throughout Android development",
+        "Relate digital systems fundamentals to how applications execute and manage data"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms (e.g. object oriented programming, functional programming) and of programming languages.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "programming",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+          "vote_score": 1
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Systems to store, process and spread information in digital form. They are hardware, software and networks, as well as the ways in which these can be employed.",
+          "difficulty": "beginner",
+          "explanation": "Optional but recommended skill",
+          "label": "digital systems",
+          "priority": 1,
+          "relation_type": "optional",
+          "relevance_score": 0.9,
+          "uri": "http://data.europa.eu/esco/skill/397da142-ab35-48fe-b154-7c38f447adfb",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "programming",
+        "digital systems"
+      ],
+      "title": "Programming Foundations and Digital Systems Overview"
+    },
+    {
+      "comprehensive_guides": {
+        "Kotlin": "# 📚 Comprehensive Guide: Kotlin\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Kotlin in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Kotlin matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Kotlin enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "programming": "# 📚 Comprehensive Guide: programming\n\n## 🎯 Overview\nThe techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms (e.g. object oriented programming, functional programming) and of programming languages.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply programming in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why programming matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How programming enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Write idiomatic Kotlin code for common application tasks",
+        "Apply Kotlin language features to structure maintainable code"
+      ],
+      "prerequisites": [
+        "programming"
+      ],
+      "session_number": 2,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Kotlin",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/kotlin",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms (e.g. object oriented programming, functional programming) and of programming languages.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "programming",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+          "vote_score": 1
+        }
+      ],
+      "skills": [
+        "Kotlin",
+        "programming"
+      ],
+      "title": "Kotlin Essentials for Android Development"
+    },
+    {
+      "comprehensive_guides": {
+        "Android Studio": "# 📚 Comprehensive Guide: Android Studio\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Android Studio in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Android Studio matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Android Studio enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "integrated development environment software": "# 📚 Comprehensive Guide: integrated development environment software\n\n## 🎯 Overview\nThe suite of software development tools for writing programs, such as compiler, debugger, code editor, code highlights, packaged in a unified user interface, such as Visual Studio or Eclipse.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply integrated development environment software in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why integrated development environment software matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How integrated development environment software enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Configure an integrated development environment software for Android projects",
+        "Use Android Studio effectively for project creation and navigation"
+      ],
+      "prerequisites": [
+        "Kotlin"
+      ],
+      "session_number": 3,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The suite of software development tools for writing programs, such as compiler, debugger, code editor, code highlights, packaged in a unified user interface, such as Visual Studio or Eclipse.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "integrated development environment software",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/925463a7-d51f-4d5b-9f79-4d28cf30acde",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Android Studio",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/android-studio",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "integrated development environment software",
+        "Android Studio"
+      ],
+      "title": "Development Environment Setup and Workflow"
+    },
+    {
+      "comprehensive_guides": {
+        "Android Sdk": "# 📚 Comprehensive Guide: Android Sdk\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Android Sdk in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Android Sdk matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Android Sdk enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Android Studio": "# 📚 Comprehensive Guide: Android Studio\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Android Studio in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Android Studio matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Android Studio enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Understand core Android Sdk components used by applications",
+        "Build and run a basic app using Android Studio with Android Sdk"
+      ],
+      "prerequisites": [
+        "Android Studio"
+      ],
+      "session_number": 4,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Android Sdk",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/android-sdk",
+          "vote_score": 1
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Android Studio",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/android-studio",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Android Sdk",
+        "Android Studio"
+      ],
+      "title": "Android SDK Fundamentals and Project Structure"
+    },
+    {
+      "comprehensive_guides": {
+        "Jetpack Compose": "# 📚 Comprehensive Guide: Jetpack Compose\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Jetpack Compose in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Jetpack Compose matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Jetpack Compose enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Kotlin": "# 📚 Comprehensive Guide: Kotlin\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Kotlin in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Kotlin matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Kotlin enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Create UI screens using Jetpack Compose",
+        "Structure UI code for readability and reuse"
+      ],
+      "prerequisites": [
+        "Android Sdk",
+        "Kotlin"
+      ],
+      "session_number": 5,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Jetpack Compose",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/jetpack-compose",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Kotlin",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/kotlin",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Jetpack Compose",
+        "Kotlin"
+      ],
+      "title": "UI Development with Jetpack Compose"
+    },
+    {
+      "comprehensive_guides": {
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)": "# 📚 Comprehensive Guide: Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Jetpack Compose": "# 📚 Comprehensive Guide: Jetpack Compose\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Jetpack Compose in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Jetpack Compose matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Jetpack Compose enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Manage UI-related state using Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)",
+        "Connect UI to state changes in a lifecycle-aware way"
+      ],
+      "prerequisites": [
+        "Jetpack Compose"
+      ],
+      "session_number": 6,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/android-jetpack-(lifecycle/viewmodel/navigation/room)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Jetpack Compose",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/jetpack-compose",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)",
+        "Jetpack Compose"
+      ],
+      "title": "Android Jetpack: Lifecycle and Viewmodel"
+    },
+    {
+      "comprehensive_guides": {
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)": "# 📚 Comprehensive Guide: Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Mvvm Architecture": "# 📚 Comprehensive Guide: Mvvm Architecture\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Mvvm Architecture in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Mvvm Architecture matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Mvvm Architecture enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Organize application layers using Mvvm Architecture",
+        "Define responsibilities between UI and state management"
+      ],
+      "prerequisites": [
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)"
+      ],
+      "session_number": 7,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Mvvm Architecture",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/mvvm-architecture",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/android-jetpack-(lifecycle/viewmodel/navigation/room)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Mvvm Architecture",
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)"
+      ],
+      "title": "MVVM Architecture in Practice"
+    },
+    {
+      "comprehensive_guides": {
+        "Coroutines And Flow": "# 📚 Comprehensive Guide: Coroutines And Flow\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Coroutines And Flow in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Coroutines And Flow matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Coroutines And Flow enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Kotlin": "# 📚 Comprehensive Guide: Kotlin\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Kotlin in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Kotlin matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Kotlin enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Perform background work safely using Coroutines And Flow",
+        "Model streams of data updates and connect them to UI state"
+      ],
+      "prerequisites": [
+        "Kotlin",
+        "Mvvm Architecture"
+      ],
+      "session_number": 8,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Coroutines And Flow",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/coroutines-and-flow",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Kotlin",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/kotlin",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Coroutines And Flow",
+        "Kotlin"
+      ],
+      "title": "Asynchronous Programming with Coroutines And Flow"
+    },
+    {
+      "comprehensive_guides": {
+        "Coroutines And Flow": "# 📚 Comprehensive Guide: Coroutines And Flow\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Coroutines And Flow in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Coroutines And Flow matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Coroutines And Flow enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Restful Apis (Json)": "# 📚 Comprehensive Guide: Restful Apis (Json)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Restful Apis (Json) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Restful Apis (Json) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Restful Apis (Json) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Consume Restful Apis (Json) and handle responses",
+        "Integrate network data into application state"
+      ],
+      "prerequisites": [
+        "Coroutines And Flow"
+      ],
+      "session_number": 9,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Restful Apis (Json)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/restful-apis-(json)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Coroutines And Flow",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/coroutines-and-flow",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Restful Apis (Json)",
+        "Coroutines And Flow"
+      ],
+      "title": "Networking with Restful Apis (Json)"
+    },
+    {
+      "comprehensive_guides": {
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)": "# 📚 Comprehensive Guide: Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Sql And Room Persistence": "# 📚 Comprehensive Guide: Sql And Room Persistence\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Sql And Room Persistence in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Sql And Room Persistence matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Sql And Room Persistence enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "SQL Server Central",
+          "r/SQL",
+          "Database Administrators Stack Exchange"
+        ],
+        "documentation": [
+          "SQLite Documentation",
+          "MySQL Documentation",
+          "PostgreSQL Documentation"
+        ],
+        "online_courses": [
+          "Khan Academy Intro to SQL",
+          "SQLBolt Interactive Tutorial",
+          "Coursera SQL Specialization"
+        ],
+        "practice_platforms": [
+          "SQLZoo",
+          "LeetCode Database Problems",
+          "HackerRank SQL"
+        ],
+        "tutorials": [
+          "W3Schools SQL Tutorial",
+          "PostgreSQL Tutorial",
+          "SQLitetutorial.net"
+        ]
+      },
+      "objectives": [
+        "Model local data using Sql And Room Persistence",
+        "Persist and retrieve application data reliably"
+      ],
+      "prerequisites": [
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)"
+      ],
+      "session_number": 10,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Sql And Room Persistence",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/sql-and-room-persistence",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/android-jetpack-(lifecycle/viewmodel/navigation/room)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Sql And Room Persistence",
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)"
+      ],
+      "title": "Local Data Storage with Sql And Room Persistence"
+    },
+    {
+      "comprehensive_guides": {
+        "Dependency Injection (Hilt/Dagger)": "# 📚 Comprehensive Guide: Dependency Injection (Hilt/Dagger)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Dependency Injection (Hilt/Dagger) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Dependency Injection (Hilt/Dagger) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Dependency Injection (Hilt/Dagger) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Mvvm Architecture": "# 📚 Comprehensive Guide: Mvvm Architecture\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Mvvm Architecture in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Mvvm Architecture matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Mvvm Architecture enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Apply Dependency Injection (Hilt/Dagger) to manage dependencies",
+        "Improve modularity and testability through dependency wiring"
+      ],
+      "prerequisites": [
+        "Mvvm Architecture"
+      ],
+      "session_number": 11,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Dependency Injection (Hilt/Dagger)",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/dependency-injection-(hilt/dagger)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "advanced",
+          "explanation": "Essential skill for this occupation",
+          "label": "Mvvm Architecture",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/mvvm-architecture",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Dependency Injection (Hilt/Dagger)",
+        "Mvvm Architecture"
+      ],
+      "title": "Dependency Injection with Dependency Injection (Hilt/Dagger)"
+    },
+    {
+      "comprehensive_guides": {
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)": "# 📚 Comprehensive Guide: Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Android Jetpack (Lifecycle/Viewmodel/Navigation/Room) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "Jetpack Compose": "# 📚 Comprehensive Guide: Jetpack Compose\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Jetpack Compose in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Jetpack Compose matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Jetpack Compose enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Implement screen-to-screen flow using Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)",
+        "Coordinate navigation with UI state and MVVM structure"
+      ],
+      "prerequisites": [
+        "Mvvm Architecture",
+        "Jetpack Compose"
+      ],
+      "session_number": 12,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/android-jetpack-(lifecycle/viewmodel/navigation/room)",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Jetpack Compose",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/jetpack-compose",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Android Jetpack (Lifecycle/Viewmodel/Navigation/Room)",
+        "Jetpack Compose"
+      ],
+      "title": "Navigation and App Flow with Android Jetpack"
+    },
+    {
+      "comprehensive_guides": {
+        "Android Studio": "# 📚 Comprehensive Guide: Android Studio\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Android Studio in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Android Studio matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Android Studio enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "tools for software configuration management": "# 📚 Comprehensive Guide: tools for software configuration management\n\n## 🎯 Overview\nThe software programs to perform configuration identification, control, status accounting and audit, such as CVS, ClearCase, Subversion, GIT and TortoiseSVN perform this management.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply tools for software configuration management in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why tools for software configuration management matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How tools for software configuration management enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Apply tools for software configuration management to manage project changes",
+        "Maintain consistent project setup across environments"
+      ],
+      "prerequisites": [
+        "Android Studio"
+      ],
+      "session_number": 13,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The software programs to perform configuration identification, control, status accounting and audit, such as CVS, ClearCase, Subversion, GIT and TortoiseSVN perform this management.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "tools for software configuration management",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/9d2e926f-53d9-41f5-98f3-19dfaa687f3f",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Android Studio",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/android-studio",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "tools for software configuration management",
+        "Android Studio"
+      ],
+      "title": "Configuration Management and Project Maintenance"
+    },
+    {
+      "comprehensive_guides": {
+        "Android Studio": "# 📚 Comprehensive Guide: Android Studio\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become an Android App Developer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Android Studio in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Android Studio matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Android Studio enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n",
+        "debug software": "# 📚 Comprehensive Guide: debug software\n\n## 🎯 Overview\nRepair computer code by analysing testing results, locating the defects causing the software to output an incorrect or unexpected result and remove these faults.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply debug software in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why debug software matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How debug software enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Use debug software to identify and fix runtime issues",
+        "Diagnose UI, state, and data problems during development"
+      ],
+      "prerequisites": [
+        "Android Sdk",
+        "Android Studio"
+      ],
+      "session_number": 14,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Repair computer code by analysing testing results, locating the defects causing the software to output an incorrect or unexpected result and remove these faults.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "debug software",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.3,
+          "uri": "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
+          "vote_score": 0
+        },
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become an Android App Developer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Android Studio",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/android-studio",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "debug software",
+        "Android Studio"
+      ],
+      "title": "Debugging Android Applications"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Mobile application developers implement applications software for mobile devices, based on the designs provided, using general or specific development tools for device operating systems.",
+    "label": "mobile application developer",
+    "similarity_score": 0.8564533024470428,
+    "uri": "http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 34,
+    "skills_in_path": 14,
+    "skills_to_learn": 34,
+    "total_skills_needed": 35
+  },
+  "user_id": "eval_user_09"
+}

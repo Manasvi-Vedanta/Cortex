@@ -1,0 +1,201 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:37:07.464917",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Doping intentionally adds donor/acceptor impurities to increase electrons or holes, controlling conductivity.",
+        "is_correct": true,
+        "question": "In a silicon semiconductor, what does 'doping' primarily do?",
+        "question_id": 1,
+        "topic": "semiconductors",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "ICs combine many devices (transistors, resistors, etc.) on one die, improving density, cost, and reliability.",
+        "is_correct": false,
+        "question": "What is the main purpose of an integrated circuit (IC) compared to discrete components?",
+        "question_id": 2,
+        "topic": "integrated circuits",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "'volatile' tells the compiler the value can change outside program flow (e.g., hardware), so it must perform actual reads/writes.",
+        "is_correct": false,
+        "question": "In embedded C, which keyword prevents the compiler from optimizing away repeated reads of a memory-mapped hardware register?",
+        "question_id": 3,
+        "topic": "Embedded C",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "An oscilloscope measures analog voltage vs. time, useful for clocks, PWM, signal integrity, and power rails.",
+        "is_correct": false,
+        "question": "Which tool is primarily used to observe voltage over time on a physical pin of a microcontroller board?",
+        "question_id": 4,
+        "topic": "Oscilloscope/Logic Analyzer Usage",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The Nested Vectored Interrupt Controller (NVIC) controls interrupt enable/disable, priorities, and vectoring on Cortex-M.",
+        "is_correct": false,
+        "question": "On Arm Cortex-M, what is the primary role of the NVIC?",
+        "question_id": 5,
+        "topic": "Interrupts, Timers & Dma",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Timer-triggered ADC plus DMA moves data to memory with minimal CPU intervention and stable sampling intervals.",
+        "is_correct": true,
+        "question": "You need to continuously sample ADC data at a fixed rate with minimal CPU load. Which approach is typically best?",
+        "question_id": 6,
+        "topic": "Interrupts, Timers & Dma",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "FLASH typically stores program code and constants; RAM stores mutable data, stack, heap, and relocated initialized data.",
+        "is_correct": true,
+        "question": "In a typical embedded linker script, what is the main purpose of defining separate FLASH and RAM memory regions?",
+        "question_id": 7,
+        "topic": "Memory Management & Linker Scripts",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "A non-starting clock source can halt or misconfigure startup; probing the crystal/clock pins is the fastest way to confirm oscillation without significantly loading the circuit.",
+        "is_correct": true,
+        "question": "During hardware bring-up, SWD/JTAG connects but the CPU appears stuck immediately after reset. You suspect the external crystal is not oscillating. What is the most effective first measurement?",
+        "question_id": 8,
+        "topic": "Hardware Bring-Up & Debugging (Jtag/Swd)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Intermittent faults that improve with larger stacks strongly indicate stack overflow leading to memory corruption and unpredictable crashes.",
+        "is_correct": false,
+        "question": "A FreeRTOS-based firmware occasionally hard faults after running for hours. The fault occurs in different tasks and disappears when you increase stack sizes. Which root cause is most consistent with this behavior?",
+        "question_id": 9,
+        "topic": "Rtos (Freertos/Zephyr)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A dual-image (A/B) or staged update with verification and an atomic swap/flag ensures a valid fallback image remains if the update is interrupted.",
+        "is_correct": false,
+        "question": "You are designing a robust DFU/OTA firmware update mechanism for a microcontroller. Which strategy best prevents bricking if power is lost mid-update?",
+        "question_id": 10,
+        "topic": "Bootloaders & Firmware Update Mechanisms (Dfu/Ota)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Interrupts, Timers & Dma",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: integrated circuits, Embedded C, Oscilloscope/Logic Analyzer Usage",
+      "✅ Your strongest areas: semiconductors, Memory Management & Linker Scripts",
+      "📖 Topics needing more practice: Interrupts, Timers & Dma"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "semiconductors",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Memory Management & Linker Scripts",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Hardware Bring-Up & Debugging (Jtag/Swd)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "integrated circuits",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Embedded C",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Oscilloscope/Logic Analyzer Usage",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Rtos (Freertos/Zephyr)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Bootloaders & Firmware Update Mechanisms (Dfu/Ota)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

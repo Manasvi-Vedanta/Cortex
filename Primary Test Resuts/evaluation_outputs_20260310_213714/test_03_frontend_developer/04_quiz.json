@@ -1,0 +1,176 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:41:24.099178",
+      "learning_path_id": "test_03",
+      "target_occupation": "web developer",
+      "total_questions": 10,
+      "total_topics": 14
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "<main> semantically identifies the primary content of the document and should be unique per page.",
+        "id": 1,
+        "options": {
+          "A": "<main>",
+          "B": "<section>",
+          "C": "<article>",
+          "D": "<div>"
+        },
+        "question": "Which HTML5 element is most appropriate for wrapping the main content of a page (excluding header, footer, and sidebars)?",
+        "topic": "Html5"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Padding adds internal spacing between the content box and the border; margin is outside the border.",
+        "id": 2,
+        "options": {
+          "A": "margin",
+          "B": "padding",
+          "C": "gap",
+          "D": "border-spacing"
+        },
+        "question": "In CSS3, which property is used to create space between an element's border and its content?",
+        "topic": "Css3"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "aria-label supplies an accessible name that screen readers can announce when a visible label is missing.",
+        "id": 3,
+        "options": {
+          "A": "aria-hidden",
+          "B": "aria-controls",
+          "C": "aria-label",
+          "D": "aria-live"
+        },
+        "question": "Which ARIA attribute is commonly used to provide an accessible name for an element when no visible label is present?",
+        "topic": "Accessibility (Wcag/Aria)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is the standard distributed version control system used to track changes and collaborate on code.",
+        "id": 4,
+        "options": {
+          "A": "Git",
+          "B": "Figma",
+          "C": "Postman",
+          "D": "Lighthouse"
+        },
+        "question": "Which tool is primarily used for software configuration management (version control) in web development?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Responsive design typically uses fluid layouts plus media queries to adapt the same page to different viewport sizes.",
+        "id": 5,
+        "options": {
+          "A": "Use a fixed-width container (e.g., 960px) and center it",
+          "B": "Use CSS media queries to change grid/flex rules at breakpoints",
+          "C": "Serve a separate mobile site on m.example.com",
+          "D": "Use images for text so it scales smoothly"
+        },
+        "question": "You want a layout to switch from a 1-column mobile view to a 3-column desktop view. Which approach best fits Responsive Web Design?",
+        "topic": "Responsive Web Design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "The parameter is typed as string, so passing a number triggers a compile-time type error.",
+        "id": 6,
+        "options": {
+          "A": "It compiles and runs, converting 42 to \"42\" automatically",
+          "B": "It fails type-checking because 42 is not a string",
+          "C": "It fails only at runtime because TypeScript types are erased",
+          "D": "It works only if \"noImplicitAny\" is disabled"
+        },
+        "question": "In TypeScript, what does the following code ensure?\n\nfunction greet(name: string) { return `Hi ${name}`; }\n\ngreet(42);",
+        "topic": "TypeScript"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Stable unique keys (like database ids) help React correctly match elements between renders and minimize DOM updates.",
+        "id": 7,
+        "options": {
+          "A": "Use the array index as the key for every item",
+          "B": "Omit the key prop to let React infer identity",
+          "C": "Use a stable, unique key derived from the item (e.g., id)",
+          "D": "Use Math.random() for the key to guarantee uniqueness"
+        },
+        "question": "In React, which pattern is recommended for rendering a list of items efficiently and avoiding reconciliation issues?",
+        "topic": "React"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "srcset/sizes lets the browser choose an appropriately sized asset; modern formats reduce bytes while maintaining visual quality.",
+        "id": 8,
+        "options": {
+          "A": "Replace all images with CSS gradients",
+          "B": "Use responsive images with srcset/sizes and modern formats (e.g., AVIF/WebP)",
+          "C": "Move all images into a single sprite sheet regardless of size",
+          "D": "Inline all images as base64 in the HTML to reduce requests"
+        },
+        "question": "A page is slow on mobile due to large images. Which solution most directly improves performance while preserving quality across devices?",
+        "topic": "Web Performance Optimization"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A common incremental strategy is enabling allowJs/checkJs as needed and migrating file-by-file to .ts/.tsx to manage risk and effort.",
+        "id": 9,
+        "options": {
+          "A": "Rename all .js files to .ts immediately and fix every error before running the app",
+          "B": "Add TypeScript, allow JS files, and incrementally migrate by converting files to .tsx/.ts over time",
+          "C": "Avoid a tsconfig.json and rely on editor hints only",
+          "D": "Use TypeScript only for CSS modules and keep all logic in JavaScript"
+        },
+        "question": "You add TypeScript to an existing React project and want to type-check without rewriting everything. Which approach is most practical to start with?",
+        "topic": "Add TypeScript"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Console errors often immediately reveal exceptions (e.g., undefined variables) that stop event handlers or scripts from executing.",
+        "id": 10,
+        "options": {
+          "A": "Open the Network panel and clear the cache",
+          "B": "Open the Console panel and look for errors/exceptions when clicking the button",
+          "C": "Open the Application panel and delete localStorage",
+          "D": "Open the Performance panel and record a CPU profile without interacting"
+        },
+        "question": "A user reports that clicking a button does nothing. Using Browser Devtools, what is the most effective first step to identify whether a JavaScript error is preventing the click handler from running?",
+        "topic": "Browser Devtools"
+      }
+    ],
+    "topics_covered": [
+      "Html5",
+      "Css3",
+      "web programming",
+      "develop digital content",
+      "Responsive Web Design",
+      "Accessibility (Wcag/Aria)",
+      "Browser Devtools",
+      "programming",
+      "TypeScript",
+      "React",
+      "Add TypeScript",
+      "Web Performance Optimization",
+      "tools for software configuration management",
+      "use e-services"
+    ]
+  },
+  "success": true
+}

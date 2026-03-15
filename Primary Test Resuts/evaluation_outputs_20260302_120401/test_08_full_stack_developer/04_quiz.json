@@ -1,0 +1,176 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:15:44.084918",
+      "learning_path_id": "test_08",
+      "target_occupation": "web developer",
+      "total_questions": 10,
+      "total_topics": 14
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The <a> (anchor) element creates hyperlinks using the href attribute.",
+        "id": 1,
+        "options": {
+          "A": "<a>",
+          "B": "<link>",
+          "C": "<href>",
+          "D": "<nav>"
+        },
+        "question": "Which HTML element is used to create a hyperlink to another page or resource?",
+        "topic": "Html"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Padding adds space between the content and the element’s border; margin is outside the border.",
+        "id": 2,
+        "options": {
+          "A": "margin",
+          "B": "padding",
+          "C": "border-spacing",
+          "D": "gap"
+        },
+        "question": "Which CSS property is primarily used to control the spacing inside an element’s border?",
+        "topic": "CSS"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "let is block-scoped and allows reassignment; const is block-scoped but cannot be reassigned.",
+        "id": 3,
+        "options": {
+          "A": "var",
+          "B": "let",
+          "C": "const",
+          "D": "static"
+        },
+        "question": "Which JavaScript keyword declares a block-scoped variable that can be reassigned?",
+        "topic": "JavaScript"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is intended for safe, read-only retrieval of resources.",
+        "id": 4,
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PUT",
+          "D": "DELETE"
+        },
+        "question": "In HTTP, which method is typically used to retrieve data without changing server state?",
+        "topic": "Http"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "201 Created is the standard response when a server successfully creates a new resource.",
+        "id": 5,
+        "options": {
+          "A": "200 OK",
+          "B": "201 Created",
+          "C": "204 No Content",
+          "D": "302 Found"
+        },
+        "question": "In a REST API, which HTTP status code best indicates that a new resource was successfully created?",
+        "topic": "Rest Apis"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "TypeScript adds static typing, enabling compile-time checks that reduce runtime type errors.",
+        "id": 6,
+        "options": {
+          "A": "Hoisting",
+          "B": "Static typing",
+          "C": "Prototype chaining",
+          "D": "Event bubbling"
+        },
+        "question": "Which TypeScript feature helps catch errors by enforcing types at compile time?",
+        "topic": "TypeScript"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The dependency array determines when the effect re-runs: on mount and whenever any dependency changes.",
+        "id": 7,
+        "options": {
+          "A": "To define initial state values for the component",
+          "B": "To memoize the component so it never re-renders",
+          "C": "To control when the effect runs based on changes to listed values",
+          "D": "To automatically bind 'this' in event handlers"
+        },
+        "question": "In React, what is the primary purpose of the dependency array in useEffect?",
+        "topic": "React"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "JWT access tokens are commonly sent on each request in the Authorization: Bearer <token> header.",
+        "id": 8,
+        "options": {
+          "A": "In the URL fragment (after #)",
+          "B": "In a custom HTML meta tag",
+          "C": "In the Authorization header using the Bearer scheme",
+          "D": "In the response body of the previous request only"
+        },
+        "question": "You are building an Express (Node.js) API that uses JWTs. Where should the server typically look for the access token on each request?",
+        "topic": "Authentication And Authorization (Jwt/Oauth)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A LEFT JOIN keeps all users and matches orders when present; COUNT(o.id) yields 0 for users with no orders.",
+        "id": 9,
+        "options": {
+          "A": "SELECT u.email, COUNT(o.id) FROM users u INNER JOIN orders o ON o.user_id = u.id GROUP BY u.email;",
+          "B": "SELECT u.email, COUNT(o.id) FROM users u LEFT JOIN orders o ON o.user_id = u.id GROUP BY u.email;",
+          "C": "SELECT email, COUNT(*) FROM orders GROUP BY email;",
+          "D": "SELECT u.email, SUM(o.id) FROM users u RIGHT JOIN orders o ON o.user_id = u.id GROUP BY u.email;"
+        },
+        "question": "Given a SQL table users(id, email) and orders(id, user_id, total), which query returns each user’s email and the number of orders they have (including users with zero orders)?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Using a union type (string | null) forces callers and the function body to account for null explicitly under strictNullChecks.",
+        "id": 10,
+        "options": {
+          "A": "function greet(name: string): string",
+          "B": "function greet(name: any): string",
+          "C": "function greet(name: string | null): string",
+          "D": "function greet(name?: string): string"
+        },
+        "question": "You are migrating a JavaScript codebase to TypeScript. A function accepts either a string or null. Which TypeScript signature best enforces handling of null under strictNullChecks?",
+        "topic": "Add TypeScript"
+      }
+    ],
+    "topics_covered": [
+      "web programming",
+      "Html",
+      "CSS",
+      "JavaScript",
+      "develop digital content",
+      "Http",
+      "Rest Apis",
+      "Add TypeScript",
+      "TypeScript",
+      "JavaScript Framework",
+      "React",
+      "Node.Js",
+      "Sql",
+      "Authentication And Authorization (Jwt/Oauth)"
+    ]
+  },
+  "success": true
+}

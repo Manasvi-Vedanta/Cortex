@@ -1,0 +1,173 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:06:36.908495",
+      "learning_path_id": "test_18",
+      "target_occupation": "computer vision engineer",
+      "total_questions": 10,
+      "total_topics": 11
+    },
+    "questions": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A set stores unique elements and provides average O(1) membership tests, making it ideal for unique labels and fast lookups.",
+        "id": 1,
+        "options": {
+          "A": "list",
+          "B": "tuple",
+          "C": "set",
+          "D": "dict"
+        },
+        "question": "In Python, which data structure is best suited for storing unique class labels and performing fast membership checks (e.g., \"is this label present?\")?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "OpenCV images are typically BGR; cv2.COLOR_BGR2RGB swaps channels to standard RGB ordering.",
+        "id": 2,
+        "options": {
+          "A": "cv2.COLOR_RGB2BGR",
+          "B": "cv2.COLOR_BGR2RGB",
+          "C": "cv2.COLOR_BGR2GRAY",
+          "D": "cv2.COLOR_HSV2BGR"
+        },
+        "question": "In OpenCV, which color conversion code converts a BGR image (default OpenCV format) to RGB?",
+        "topic": "Opencv"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Horizontal flipping simulates mirrored viewpoints and is a standard augmentation for many vision tasks.",
+        "id": 3,
+        "options": {
+          "A": "Horizontal flip",
+          "B": "Histogram equalization",
+          "C": "Gaussian blur",
+          "D": "Canny edge detection"
+        },
+        "question": "Which operation is a common data augmentation technique that helps a model become more robust to left-right viewpoint changes in images?",
+        "topic": "Data Preprocessing & Augmentation"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "model.eval() sets modules such as Dropout and BatchNorm to evaluation behavior; torch.no_grad() only disables gradient tracking.",
+        "id": 4,
+        "options": {
+          "A": "model.train()",
+          "B": "model.eval()",
+          "C": "torch.no_grad()",
+          "D": "optimizer.zero_grad()"
+        },
+        "question": "In PyTorch, which method switches a model to inference mode so layers like Dropout and BatchNorm behave deterministically?",
+        "topic": "PyTorch"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "medium",
+        "explanation": "Homogeneous coordinates (x, y, 1) allow translation to be represented as matrix multiplication using a 3x3 transform.",
+        "id": 5,
+        "options": {
+          "A": "A 2x2 matrix multiplied by a 2D point (x, y)",
+          "B": "A 3x3 matrix multiplied by a 3D point (x, y, z)",
+          "C": "A 3x3 matrix multiplied by a 2D point (x, y)",
+          "D": "A 3x3 matrix multiplied by a homogeneous point (x, y, 1)"
+        },
+        "question": "You apply a 2D affine transform to an image. Which representation correctly uses homogeneous coordinates to apply translation along with rotation/scale?",
+        "topic": "Computer Vision Fundamentals (Image Processing/Geometry)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "CrossEntropyLoss expects class indices as targets and raw, unnormalized logits; it applies log-softmax internally for multi-class classification per pixel.",
+        "id": 6,
+        "options": {
+          "A": "torch.nn.MSELoss",
+          "B": "torch.nn.CrossEntropyLoss",
+          "C": "torch.nn.BCELoss",
+          "D": "torch.nn.CosineEmbeddingLoss"
+        },
+        "question": "For multi-class semantic segmentation with integer class IDs per pixel (0..K-1), which PyTorch loss is typically appropriate when the model outputs raw logits of shape [N, K, H, W]?",
+        "topic": "Model Training & Optimization (Losses/Regularization/Schedulers)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Transformers operate on sequences; patching and embedding turns the image into a token sequence that self-attention can process.",
+        "id": 7,
+        "options": {
+          "A": "To compute edge maps before attention",
+          "B": "To convert the image into a sequence of tokens suitable for transformer attention",
+          "C": "To reduce the number of channels to 1 (grayscale)",
+          "D": "To enforce translation invariance like max pooling"
+        },
+        "question": "In a Vision Transformer (ViT), what is the primary purpose of splitting an image into fixed-size patches and linearly embedding them?",
+        "topic": "Deep Learning (Cnn/Transformers)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "COCO mAP averages AP across a range of IoU thresholds (0.50:0.05:0.95), making it stricter than AP@0.5 alone.",
+        "id": 8,
+        "options": {
+          "A": "mAP is computed only at IoU = 0.5",
+          "B": "mAP is computed only at IoU = 0.75",
+          "C": "mAP averages AP over multiple IoU thresholds (typically 0.50 to 0.95 in steps of 0.05)",
+          "D": "mAP ignores IoU and uses only classification accuracy"
+        },
+        "question": "You are evaluating an object detector using COCO-style mAP. Which statement best describes how IoU thresholds are used in COCO mAP computation?",
+        "topic": "Model Evaluation & Metrics (Map/Iou/Roc)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Dice-based losses (often combined with BCE) are designed to handle imbalance by optimizing overlap, giving more signal to small foreground regions.",
+        "id": 9,
+        "options": {
+          "A": "Replace ReLU with Tanh in all layers",
+          "B": "Use a loss like Dice loss (or BCE+Dice) that emphasizes overlap on the foreground",
+          "C": "Increase image resolution without changing anything else",
+          "D": "Remove skip connections from U-Net"
+        },
+        "question": "You train a U-Net for binary segmentation and observe severe class imbalance (foreground is ~2% of pixels). Which change is most directly targeted to improve learning on the minority class?",
+        "topic": "Object Detection & Segmentation (Yolo/Rcnn/Unet)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "TensorRT optimizes inference by fusing layers, selecting efficient kernels, and enabling reduced precision (FP16/INT8) to improve throughput and latency on GPUs.",
+        "id": 10,
+        "options": {
+          "A": "Replacing convolution with FFT-based filtering for all kernels",
+          "B": "Automatic mixed precision (e.g., FP16/INT8) and layer fusion to reduce memory bandwidth and latency",
+          "C": "Converting the model to run only on CPU with vectorized NumPy",
+          "D": "Training-time data augmentation to improve generalization"
+        },
+        "question": "You export a PyTorch model to ONNX and run it with TensorRT for faster inference on an NVIDIA GPU. Which optimization is TensorRT most known for applying during engine building?",
+        "topic": "Deployment & Inference Optimization (Onnx/Tensorrt)"
+      }
+    ],
+    "topics_covered": [
+      "Python",
+      "Computer Vision Fundamentals (Image Processing/Geometry)",
+      "Opencv",
+      "Data Preprocessing & Augmentation",
+      "PyTorch",
+      "Deep Learning (Cnn/Transformers)",
+      "Model Training & Optimization (Losses/Regularization/Schedulers)",
+      "Object Detection & Segmentation (Yolo/Rcnn/Unet)",
+      "Model Evaluation & Metrics (Map/Iou/Roc)",
+      "Cuda & Gpu Acceleration",
+      "Deployment & Inference Optimization (Onnx/Tensorrt)"
+    ]
+  },
+  "success": true
+}

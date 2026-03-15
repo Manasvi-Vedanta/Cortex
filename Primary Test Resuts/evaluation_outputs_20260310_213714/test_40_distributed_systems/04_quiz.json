@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:45:31.219636",
+      "learning_path_id": "test_40",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Device drivers bridge the OS and hardware by implementing hardware-specific control and data transfer operations behind standard OS interfaces.",
+        "id": 1,
+        "options": {
+          "A": "Provide a user interface for configuring hardware",
+          "B": "Translate OS requests into hardware-specific operations",
+          "C": "Encrypt data sent to peripherals",
+          "D": "Schedule network packets across CPU cores"
+        },
+        "question": "In an embedded Linux device, what is the primary purpose of a device driver?",
+        "topic": "embedded systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Eventual consistency guarantees convergence over time (in the absence of new writes), not immediate visibility of the latest write.",
+        "id": 2,
+        "options": {
+          "A": "All reads always return the most recent write",
+          "B": "All replicas converge to the same value if no new updates occur",
+          "C": "Writes are rejected unless a majority of nodes acknowledge them",
+          "D": "Transactions are serialized globally across all nodes"
+        },
+        "question": "Which statement best describes eventual consistency in a distributed system?",
+        "topic": "Data Consistency Models (Strong/Eventual)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "TCP provides connection-oriented, reliable, in-order delivery with retransmissions and congestion control.",
+        "id": 3,
+        "options": {
+          "A": "UDP",
+          "B": "ICMP",
+          "C": "TCP",
+          "D": "ARP"
+        },
+        "question": "In TCP/IP networking, which protocol provides reliable, ordered delivery of a byte stream?",
+        "topic": "Networking (Tcp/Ip, Http/2, Grpc)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A Pod is Kubernetes' basic scheduling unit, grouping one or more containers that share networking and (optionally) storage.",
+        "id": 4,
+        "options": {
+          "A": "A persistent block storage volume shared across clusters",
+          "B": "The smallest deployable unit that can contain one or more containers",
+          "C": "A node-level firewall policy for container traffic",
+          "D": "A global load balancer for external clients"
+        },
+        "question": "In Kubernetes, what is the primary role of a Pod?",
+        "topic": "Containerization And Orchestration (Docker/Kubernetes)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A mutex (or an atomic for simple types) ensures mutual exclusion/atomicity and prevents torn reads/writes without wasteful spinning.",
+        "id": 5,
+        "options": {
+          "A": "Use a global variable with no synchronization to avoid latency",
+          "B": "Protect the shared reading with a mutex (or use an atomic if the type supports it)",
+          "C": "Increase thread priorities so updates happen first",
+          "D": "Use busy-wait loops to ensure the publisher sees the latest value"
+        },
+        "question": "You have two threads on an embedded Linux gateway: one updates a shared sensor reading, another publishes it over MQTT/HTTP. Which approach best prevents data races with minimal overhead?",
+        "topic": "Concurrency And Multithreading"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Kafka provides durable logs, replayability, and ordering within a partition; keying by device ID preserves per-device order while scaling throughput.",
+        "id": 6,
+        "options": {
+          "A": "RabbitMQ (classic queues) with auto-ack",
+          "B": "Apache Kafka with partitions keyed by device ID",
+          "C": "gRPC unary calls directly into a database",
+          "D": "A shared NFS directory with appended log files"
+        },
+        "question": "A fleet of embedded devices sends telemetry to a backend. You need high-throughput ingestion, ordered processing per device, and the ability to replay data for debugging. Which system best fits?",
+        "topic": "Messaging And Streaming Systems (Kafka/Rabbitmq/Pulsar)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "gRPC runs over HTTP/2, which supports multiple concurrent streams multiplexed over one TCP connection.",
+        "id": 7,
+        "options": {
+          "A": "HTTP/2 streams",
+          "B": "DNS round-robin",
+          "C": "TLS session tickets",
+          "D": "UDP hole punching"
+        },
+        "question": "An embedded gateway uses gRPC to communicate with a cloud service. Which gRPC feature most directly enables efficient multiplexing of multiple concurrent RPCs over a single connection?",
+        "topic": "Networking (Tcp/Ip, Http/2, Grpc)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Raft commits entries when replicated to a majority. With 5 nodes, a majority is 3.",
+        "id": 8,
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5"
+        },
+        "question": "You are implementing a Raft-based leader election among 5 nodes for coordinating firmware rollouts. What is the minimum number of nodes that must agree to commit a log entry?",
+        "topic": "Distributed Consensus (Raft/Paxos)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "To avoid stale reads in quorum systems, require R + W > RF. With RF=3, R=2 and W=2 gives 4>3 and still tolerates one node failure.",
+        "id": 9,
+        "options": {
+          "A": "R=1, W=1",
+          "B": "R=1, W=2",
+          "C": "R=2, W=2",
+          "D": "R=3, W=1"
+        },
+        "question": "An embedded device uploads sensor events to a Cassandra-like store. You need to tolerate one node failure while ensuring reads see the latest acknowledged write (no stale reads). With replication factor RF=3, which (R, W) satisfies this requirement?",
+        "topic": "Distributed Data Stores (Cassandra/Dynamodb/Hbase)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "eBPF/ftrace/perf can measure scheduler latency, wakeups, and lock contention with low overhead; correlating with metrics/traces helps identify when and why deadlines are missed.",
+        "id": 10,
+        "options": {
+          "A": "Add more printf logs and increase log level to DEBUG everywhere",
+          "B": "Use eBPF/ftrace (or perf) to capture scheduling/lock events, and correlate with high-resolution metrics/traces",
+          "C": "Disable CPU frequency scaling and assume the problem is fixed",
+          "D": "Move the application into a Docker container to isolate timing"
+        },
+        "question": "A real-time-ish embedded Linux application occasionally misses deadlines. You suspect kernel scheduling latency and lock contention. Which observability + profiling combination is most appropriate to pinpoint the cause on-device?",
+        "topic": "Performance Tuning And Profiling"
+      }
+    ],
+    "topics_covered": [
+      "Distributed Systems Fundamentals",
+      "System Design And Architecture",
+      "Concurrency And Multithreading",
+      "Linux And Operating Systems Internals",
+      "Networking (Tcp/Ip, Http/2, Grpc)",
+      "Distributed Consensus (Raft/Paxos)",
+      "Data Consistency Models (Strong/Eventual)",
+      "Distributed Data Stores (Cassandra/Dynamodb/Hbase)",
+      "Fault Tolerance And Resiliency Patterns",
+      "Observability (Metrics/Logging/Tracing)",
+      "Performance Tuning And Profiling",
+      "Cloud Infrastructure (Aws/Gcp/Azure)",
+      "Containerization And Orchestration (Docker/Kubernetes)",
+      "Messaging And Streaming Systems (Kafka/Rabbitmq/Pulsar)",
+      "embedded systems"
+    ]
+  },
+  "success": true
+}

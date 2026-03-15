@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:09:28.777132",
+      "learning_path_id": "test_04",
+      "target_occupation": "user interface developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "IDEs commonly provide syntax highlighting and real-time linting/diagnostics to flag syntax issues immediately.",
+        "id": 1,
+        "options": {
+          "A": "Syntax highlighting and inline diagnostics",
+          "B": "Version tagging",
+          "C": "Database replication",
+          "D": "Load balancing"
+        },
+        "question": "In an IDE, what feature most directly helps you catch syntax errors as you type?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <name> both creates the branch and checks it out.",
+        "id": 2,
+        "options": {
+          "A": "git branch feature/login",
+          "B": "git checkout -b feature/login",
+          "C": "git merge feature/login",
+          "D": "git commit -m \"feature/login\""
+        },
+        "question": "Which Git command creates a new branch named \"feature/login\" and switches to it in one step?",
+        "topic": "Git & Version Control"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "let is block-scoped and allows reassignment; const is block-scoped but not reassignable.",
+        "id": 3,
+        "options": {
+          "A": "var",
+          "B": "let",
+          "C": "const",
+          "D": "static"
+        },
+        "question": "In JavaScript, which keyword declares a block-scoped variable that can be reassigned?",
+        "topic": "programming"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is intended for safe, read-only retrieval of resources.",
+        "id": 4,
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PATCH",
+          "D": "DELETE"
+        },
+        "question": "Which HTTP method is typically used to retrieve data without changing server state?",
+        "topic": "Http/Https & Networking Fundamentals"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A RESTful design uses resource-oriented paths (e.g., /products) and GET for retrieval; pagination fits naturally as query parameters.",
+        "id": 5,
+        "options": {
+          "A": "GET /getProducts?page=2&limit=20",
+          "B": "POST /products/list?page=2&limit=20",
+          "C": "GET /products?page=2&limit=20",
+          "D": "PUT /products?page=2&limit=20"
+        },
+        "question": "You are designing a REST API for a UI that lists products and supports pagination. Which endpoint design is most appropriate?",
+        "topic": "Restful Api Design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "1NF requires atomic values; a separate related table removes repeating groups and stores one phone number per row.",
+        "id": 6,
+        "options": {
+          "A": "Add an index on the phone number column",
+          "B": "Move phone numbers into a separate table with one row per phone number and a foreign key to the user",
+          "C": "Store phone numbers as a comma-separated string",
+          "D": "Encrypt the phone number column"
+        },
+        "question": "In database normalization, which change best resolves a repeating group (e.g., multiple phone numbers stored in one column) to reach 1NF?",
+        "topic": "Database Schema Design & Normalization"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A LEFT JOIN keeps all customers and counts matching orders; customers with no orders produce NULLs that COUNT(o.id) treats as 0.",
+        "id": 7,
+        "options": {
+          "A": "SELECT c.id, COUNT(o.id) FROM customers c INNER JOIN orders o ON o.customer_id = c.id GROUP BY c.id;",
+          "B": "SELECT c.id, COUNT(o.id) FROM customers c LEFT JOIN orders o ON o.customer_id = c.id GROUP BY c.id;",
+          "C": "SELECT c.id, SUM(o.id) FROM customers c RIGHT JOIN orders o ON o.customer_id = c.id GROUP BY c.id;",
+          "D": "SELECT c.id, COUNT(*) FROM orders o JOIN customers c ON c.id = o.customer_id;"
+        },
+        "question": "In SQL, which query returns the number of orders per customer, including customers with zero orders?",
+        "topic": "Sql (Postgresql/Mysql)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "HttpOnly cookies are not readable by JavaScript, reducing XSS token exfiltration risk; short-lived tokens and server-managed sessions/refresh flows further limit exposure.",
+        "id": 8,
+        "options": {
+          "A": "Store the access token in localStorage and reuse it until it expires",
+          "B": "Store the access token in sessionStorage and reuse it until it expires",
+          "C": "Use an HttpOnly, Secure cookie for a short-lived session (or refresh token) and keep access tokens out of JavaScript-accessible storage",
+          "D": "Embed the access token into the HTML at build time"
+        },
+        "question": "A single-page app (SPA) uses OAuth2 with JWT access tokens. Which approach best reduces the risk of token theft via XSS while still allowing the UI to call APIs?",
+        "topic": "Authentication & Authorization (Oauth2/Jwt)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A broker/stream decouples producers/consumers, buffers bursts, and enables reliable event-driven updates suitable for real-time UI read models.",
+        "id": 9,
+        "options": {
+          "A": "Have the UI poll the database every second",
+          "B": "Use a message broker/stream (e.g., RabbitMQ/Kafka) to publish notification events and have a consumer update a read model for the UI",
+          "C": "Write notifications to a shared file on disk and have the UI read it",
+          "D": "Send events by embedding them in image responses"
+        },
+        "question": "You have a UI that shows a real-time notification badge. The backend emits events when notifications change. Which architecture is most appropriate to decouple services and handle bursts reliably?",
+        "topic": "Message Queues & Event Streaming (Rabbitmq/Kafka)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Docker Compose provides reproducible multi-service environments with consistent service discovery and environment configuration, ideal for CI integration testing.",
+        "id": 10,
+        "options": {
+          "A": "Hardcode the API URL in the UI code and commit it",
+          "B": "Run everything on the host machine and manually start services in the right order",
+          "C": "Use Docker Compose to define UI/API/DB services, networks, and environment variables, and run tests against the composed stack",
+          "D": "Disable integration tests in CI and rely only on unit tests"
+        },
+        "question": "Your UI integration tests pass locally but fail in CI because the API base URL differs per environment. You want a repeatable setup that runs the UI, API, and database together with consistent networking. What is the best solution?",
+        "topic": "Docker & Containerization"
+      }
+    ],
+    "topics_covered": [
+      "integrated development environment software",
+      "Git & Version Control",
+      "programming",
+      "web programming",
+      "Http/Https & Networking Fundamentals",
+      "Restful Api Design",
+      "Database Schema Design & Normalization",
+      "Sql (Postgresql/Mysql)",
+      "Authentication & Authorization (Oauth2/Jwt)",
+      "Testing (Unit/Integration)",
+      "Docker & Containerization",
+      "Caching (Redis/Memcached)",
+      "Message Queues & Event Streaming (Rabbitmq/Kafka)",
+      "software UI design patterns",
+      "graphics editor software"
+    ]
+  },
+  "success": true
+}

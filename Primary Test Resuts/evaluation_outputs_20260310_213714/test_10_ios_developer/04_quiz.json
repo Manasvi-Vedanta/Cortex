@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:52:57.021361",
+      "learning_path_id": "test_10",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The .xcodeproj contains the project structure, targets, build settings, and code signing configuration used by Xcode.",
+        "id": 1,
+        "options": {
+          "A": "Info.plist",
+          "B": "Package.swift",
+          "C": ".xcodeproj (project file)",
+          "D": "Main.storyboard"
+        },
+        "question": "In Xcode, which file typically defines an iOS app’s build settings, targets, and signing configuration?",
+        "topic": "Xcode"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is the dominant version control system used to track changes, collaborate, and manage releases in software projects.",
+        "id": 2,
+        "options": {
+          "A": "Git",
+          "B": "CMake",
+          "C": "Valgrind",
+          "D": "Doxygen"
+        },
+        "question": "Which tool is most commonly used for software configuration management (version control) in iOS projects?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "'let' declares a constant whose value cannot be changed after initialization.",
+        "id": 3,
+        "options": {
+          "A": "A mutable variable",
+          "B": "An immutable constant",
+          "C": "A class method",
+          "D": "A protocol requirement"
+        },
+        "question": "In Swift, what does the keyword 'let' declare?",
+        "topic": "Swift (computer programming)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Flip-flops are clocked storage elements that hold a single bit, forming the basis of registers and sequential logic.",
+        "id": 4,
+        "options": {
+          "A": "Amplify an analog signal",
+          "B": "Store one bit of state synchronized to a clock",
+          "C": "Convert AC to DC",
+          "D": "Perform floating-point division"
+        },
+        "question": "In digital systems, what is the primary purpose of a flip-flop?",
+        "topic": "digital systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A leading-to-superview constraint with a constant of 16 directly expresses the required margin and adapts to different screen sizes.",
+        "id": 5,
+        "options": {
+          "A": "Set the label’s frame in viewDidLoad and never use constraints",
+          "B": "Add a leading constraint from the label to the superview with constant 16",
+          "C": "Set the label’s content hugging priority to 1000",
+          "D": "Use a centerX constraint and set the label’s width to 16"
+        },
+        "question": "You need a UILabel to keep a fixed 16pt margin from the leading edge of its superview across all device sizes. Which Auto Layout approach is most appropriate?",
+        "topic": "Autolayout & Constraints"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "PUT is typically used to replace/update a resource at a known URI using the full representation.",
+        "id": 6,
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PUT",
+          "D": "DELETE"
+        },
+        "question": "Which HTTP method is most appropriate for updating an existing resource (e.g., /devices/42) in a RESTful API when sending the full updated representation?",
+        "topic": "Restful Apis & Json"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "MainActor.run guarantees the enclosed code executes on the main actor (main thread), which is required for UIKit/SwiftUI UI updates.",
+        "id": 7,
+        "options": {
+          "A": "Call sleep(1) before updating the UI",
+          "B": "Wrap the UI update in DispatchQueue.global().async",
+          "C": "Use await MainActor.run { /* update UI */ }",
+          "D": "Use OperationQueue.current?.addOperation { /* update UI */ }"
+        },
+        "question": "In Swift concurrency, what is the correct way to ensure a UI update happens on the main thread after awaiting a network call?",
+        "topic": "Concurrency (Gcd/Async-Await/Operationqueue)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Modeling readings as entities with queryable attributes enables efficient filtered fetches and sorting, supporting offline access and scalable datasets.",
+        "id": 8,
+        "options": {
+          "A": "Store all readings as a single JSON blob in UserDefaults",
+          "B": "Use a Core Data entity 'Reading' with indexed attributes (timestamp, sensorID) and fetch with NSPredicate + sort descriptors",
+          "C": "Write readings to a plist file and load the entire file into memory for every query",
+          "D": "Avoid persistence and re-fetch from the device each time"
+        },
+        "question": "You are building an iOS companion app for an embedded device. The app must cache sensor readings locally and support offline viewing with efficient queries (e.g., last 24 hours, by sensor ID). Which Core Data design best fits this requirement?",
+        "topic": "Core Data"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Stubbing via URLProtocol or injecting a mock client isolates the ViewModel from the network, allowing deterministic tests of decoding and mapping with async expectations.",
+        "id": 9,
+        "options": {
+          "A": "Run the test only on a physical device connected to the embedded hardware",
+          "B": "Use URLProtocol stubbing (or a mocked networking layer) to return deterministic JSON, then assert ViewModel outputs using XCTest expectations",
+          "C": "Add a 5-second delay and hope the network response arrives before assertions",
+          "D": "Disable ATS (App Transport Security) so tests run faster"
+        },
+        "question": "Your app uses MVVM and fetches device status via URLSession. You want a unit test that verifies decoding and state mapping without making real network calls. What is the best approach with XCTest?",
+        "topic": "Unit Testing (Xctest)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Uploading to App Store Connect/TestFlight requires correct code signing: a distribution certificate and appropriate provisioning profile (or configured automatic signing with the right team permissions).",
+        "id": 10,
+        "options": {
+          "A": "They did not add Auto Layout constraints to all views",
+          "B": "They are missing a valid distribution certificate and an App Store provisioning profile (or proper automatic signing access) for the app’s bundle ID",
+          "C": "They used SwiftUI instead of UIKit",
+          "D": "They did not include a Core Data model file"
+        },
+        "question": "You are preparing an iOS app for TestFlight distribution to field-test an embedded device integration. A teammate can build locally but cannot upload to App Store Connect. Which is the most likely missing requirement?",
+        "topic": "App Store Distribution (Code Signing/Provisioning/Testflight)"
+      }
+    ],
+    "topics_covered": [
+      "Xcode",
+      "tools for software configuration management",
+      "Swift (computer programming)",
+      "Ios Sdk (Uikit)",
+      "Autolayout & Constraints",
+      "Swiftui",
+      "Ios App Architecture (Mvc/Mvvm/Vip)",
+      "Restful Apis & Json",
+      "Urlsession & Networking",
+      "Concurrency (Gcd/Async-Await/Operationqueue)",
+      "Core Data",
+      "Unit Testing (Xctest)",
+      "App Store Distribution (Code Signing/Provisioning/Testflight)",
+      "Objective-C",
+      "digital systems"
+    ]
+  },
+  "success": true
+}

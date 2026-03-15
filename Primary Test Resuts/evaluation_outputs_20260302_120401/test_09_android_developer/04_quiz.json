@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:17:06.392846",
+      "learning_path_id": "test_09",
+      "target_occupation": "mobile application developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A variable is a named place in memory (conceptually) used to store data that may change during program execution.",
+        "id": 1,
+        "options": {
+          "A": "A named storage location for a value that can change",
+          "B": "A fixed hardware register inside the CPU",
+          "C": "A network endpoint used to fetch data",
+          "D": "A compiled Android app package"
+        },
+        "question": "In programming, what does a variable primarily represent?",
+        "topic": "programming"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A bit is the fundamental unit of digital information and can hold one of two values: 0 or 1.",
+        "id": 2,
+        "options": {
+          "A": "A 16-bit signed integer",
+          "B": "The smallest unit of data, either 0 or 1",
+          "C": "A character encoded in UTF-8",
+          "D": "A network packet header"
+        },
+        "question": "In digital systems, what is a bit?",
+        "topic": "digital systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "In Kotlin, 'val' declares an immutable reference (read-only), while 'var' is mutable.",
+        "id": 3,
+        "options": {
+          "A": "var",
+          "B": "val",
+          "C": "const",
+          "D": "let"
+        },
+        "question": "Which Kotlin keyword declares a read-only reference (cannot be reassigned)?",
+        "topic": "Kotlin"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An IDE integrates editor, build tools, debugging, and project navigation to streamline development.",
+        "id": 4,
+        "options": {
+          "A": "To replace the operating system",
+          "B": "To provide tools like code editing, building, debugging, and project management in one place",
+          "C": "To host REST APIs for mobile apps",
+          "D": "To encrypt application data at rest"
+        },
+        "question": "What is the primary purpose of an Integrated Development Environment (IDE) for app development?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Module-level build.gradle(.kts) specifies dependencies, compileSdk, defaultConfig, buildTypes, and other module build settings.",
+        "id": 5,
+        "options": {
+          "A": "AndroidManifest.xml",
+          "B": "settings.gradle(.kts)",
+          "C": "build.gradle(.kts) in the app/module directory",
+          "D": "gradle.properties"
+        },
+        "question": "In Android Studio, which file typically defines app-level dependencies and build configuration for a module?",
+        "topic": "Android Studio"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A ViewModel is designed to store and manage UI-related data in a lifecycle-conscious way and survive configuration changes.",
+        "id": 6,
+        "options": {
+          "A": "Activity",
+          "B": "Fragment",
+          "C": "ViewModel",
+          "D": "RecyclerView.Adapter"
+        },
+        "question": "In MVVM on Android, which component should expose UI state and handle UI-related logic while surviving configuration changes?",
+        "topic": "Mvvm Architecture"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "@Composable identifies functions that describe UI and can be re-invoked by the Compose runtime during recomposition.",
+        "id": 7,
+        "options": {
+          "A": "It marks a function as safe to run on the main thread only",
+          "B": "It marks a function that can emit UI and participate in Compose's recomposition",
+          "C": "It generates a Room database schema at compile time",
+          "D": "It enables ProGuard/R8 rules for the function"
+        },
+        "question": "In Jetpack Compose, what is the main purpose of the @Composable annotation?",
+        "topic": "Jetpack Compose"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Suspend-based Retrofit calls executed in coroutines keep the UI responsive and use JSON converters for reliable parsing.",
+        "id": 8,
+        "options": {
+          "A": "Run the network call on the main thread and parse JSON in the Activity",
+          "B": "Use Kotlin coroutines with Retrofit (suspend functions) and parse JSON via a converter (e.g., Moshi/Gson)",
+          "C": "Use Thread.sleep() to wait for the response, then parse JSON",
+          "D": "Store the URL in SharedPreferences and let the system fetch it automatically"
+        },
+        "question": "You need to call a REST API and parse JSON without blocking the UI. Which approach best matches modern Android practices?",
+        "topic": "Rest Apis (Json)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "collectAsStateWithLifecycle bridges Flow to Compose State in a lifecycle-aware way, triggering recomposition when data changes.",
+        "id": 9,
+        "options": {
+          "A": "Call flow.collect { ... } directly inside the Composable body",
+          "B": "Convert Flow to state using collectAsStateWithLifecycle (or collectAsState in simpler cases) and read the state in UI",
+          "C": "Use runBlocking in the Composable to get the list synchronously",
+          "D": "Read the database on the main thread and manually call invalidate()"
+        },
+        "question": "A Room DAO returns a Flow<List<User>>. In a Compose screen, what is the recommended way to observe it so the UI updates automatically and respects lifecycle?",
+        "topic": "Room Database (Sqlite)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A Retrofit client is typically an app-wide dependency; providing it in a Hilt module installed in SingletonComponent with @Singleton ensures one shared instance.",
+        "id": 10,
+        "options": {
+          "A": "In an Activity with no scope, so each screen gets a fresh instance",
+          "B": "In a @HiltViewModel with @ViewModelScoped, so it survives process death",
+          "C": "In a @Module installed in SingletonComponent with @Singleton scope",
+          "D": "In AndroidManifest.xml as a <service> so Hilt can discover it"
+        },
+        "question": "In a multi-module Android app using Hilt, you want to provide a single Retrofit instance shared across the app. Where should you define the provider and which scope is most appropriate?",
+        "topic": "Dependency Injection (Hilt/Dagger)"
+      }
+    ],
+    "topics_covered": [
+      "programming",
+      "digital systems",
+      "Kotlin",
+      "integrated development environment software",
+      "Android Studio",
+      "Android Sdk",
+      "Gradle (Build System)",
+      "Android Jetpack (Architecture Components)",
+      "Mvvm Architecture",
+      "Jetpack Compose",
+      "Coroutines",
+      "Rest Apis (Json)",
+      "Room Database (Sqlite)",
+      "Dependency Injection (Hilt/Dagger)",
+      "tools for software configuration management"
+    ]
+  },
+  "success": true
+}

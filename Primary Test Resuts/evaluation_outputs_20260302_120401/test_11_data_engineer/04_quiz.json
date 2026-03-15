@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:20:09.594234",
+      "learning_path_id": "test_11",
+      "target_occupation": "data engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A data warehouse centralizes integrated, historical data optimized for analytics, reporting, and decision support rather than day-to-day transactions.",
+        "id": 1,
+        "options": {
+          "A": "To store application logs for debugging in real time",
+          "B": "To support analytics and reporting by integrating historical data from multiple sources",
+          "C": "To replace all operational databases used by applications",
+          "D": "To run machine learning training jobs directly on transactional systems"
+        },
+        "question": "What is the primary purpose of a data warehouse in an organization?",
+        "topic": "data warehouse"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows prior to GROUP BY aggregation; HAVING filters groups after aggregation.",
+        "id": 2,
+        "options": {
+          "A": "HAVING",
+          "B": "ORDER BY",
+          "C": "WHERE",
+          "D": "GROUP BY"
+        },
+        "question": "In SQL, which clause is used to filter rows BEFORE aggregation occurs?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A DBMS is the software layer that manages data storage, retrieval, concurrency, security, and administration for databases.",
+        "id": 3,
+        "options": {
+          "A": "A programming language used to query data",
+          "B": "Software that stores, organizes, secures, and provides access to databases",
+          "C": "A file format for columnar storage",
+          "D": "A dashboard tool for business intelligence"
+        },
+        "question": "Which statement best describes a Database Management System (DBMS)?",
+        "topic": "database management systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Fact tables hold quantitative measures and link to dimension tables via foreign keys in a star schema.",
+        "id": 4,
+        "options": {
+          "A": "It contains descriptive attributes like customer name and product category",
+          "B": "It stores measures (e.g., revenue, quantity) and foreign keys to dimensions",
+          "C": "It is always fully normalized to third normal form (3NF)",
+          "D": "It stores only unstructured text and JSON documents"
+        },
+        "question": "In a star schema, what is a key characteristic of a fact table?",
+        "topic": "Data Modeling"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "CDC captures incremental changes, reducing load and locking on the OLTP system compared to repeated full extracts.",
+        "id": 5,
+        "options": {
+          "A": "Run frequent full table scans during peak hours",
+          "B": "Use Change Data Capture (CDC) to extract only inserts/updates/deletes",
+          "C": "Disable indexes on the OLTP database during extraction",
+          "D": "Copy the OLTP database files while the system is running without coordination"
+        },
+        "question": "You need to load data from an OLTP system into a warehouse while minimizing impact on the source database. Which approach is generally best?",
+        "topic": "implement data warehousing techniques"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ELT loads data first and performs transformations inside the target warehouse, leveraging its compute and SQL engine.",
+        "id": 6,
+        "options": {
+          "A": "In the source OLTP database using triggers",
+          "B": "In the data warehouse after loading raw/staged data",
+          "C": "On a developer laptop before uploading files",
+          "D": "In a BI tool at query time only"
+        },
+        "question": "In an ELT pipeline targeting a cloud data warehouse, where do most transformations typically occur?",
+        "topic": "Etl/Elt Pipeline Development"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A task is the atomic schedulable unit in Airflow; a DAG is a collection of tasks with dependencies.",
+        "id": 7,
+        "options": {
+          "A": "DAG",
+          "B": "Task",
+          "C": "Connection",
+          "D": "Pool"
+        },
+        "question": "In Apache Airflow, which concept best represents a unit of work that can be scheduled and retried independently?",
+        "topic": "Workflow Orchestration (Airflow)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Within a consumer group, each partition can be consumed by at most one consumer; with 12 partitions, only 12 consumers can be active and the rest will be idle.",
+        "id": 8,
+        "options": {
+          "A": "12",
+          "B": "20",
+          "C": "32",
+          "D": "240"
+        },
+        "question": "A Kafka topic has 12 partitions. Your consumer group has 20 consumers. What is the maximum number of consumers that will actively read data in parallel from that topic?",
+        "topic": "Stream Processing (Kafka)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Persisting/caching stores the join result so subsequent actions reuse it without recomputing the lineage and redoing expensive shuffles.",
+        "id": 9,
+        "options": {
+          "A": "Call collect() after the join to bring all data to the driver",
+          "B": "Persist/cache the joined DataFrame/RDD before the actions",
+          "C": "Increase the driver memory only",
+          "D": "Convert the DataFrame to a Python list for reuse"
+        },
+        "question": "You run a Spark job that performs a large join and then multiple actions (e.g., write to two sinks and compute a metric). The join output is reused. Which change most directly reduces recomputation and repeated shuffles?",
+        "topic": "Apache Spark"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "dbt tests like `unique` and `not_null` are designed for data quality enforcement and can be executed in CI via `dbt test` to fail builds when constraints are violated.",
+        "id": 10,
+        "options": {
+          "A": "Write a Python script that queries the warehouse and fails the pipeline if duplicates exist",
+          "B": "Add a dbt test (e.g., unique + not_null) on the key column and run `dbt test` in CI",
+          "C": "Rely on BI tool filters to hide duplicates from dashboards",
+          "D": "Disable incremental models so duplicates cannot occur"
+        },
+        "question": "You are building a dbt project on a cloud data warehouse. You want to ensure that a model is not materialized if it contains duplicate primary keys, and you want this check to run automatically in CI. What is the best dbt-native approach?",
+        "topic": "Dbt"
+      }
+    ],
+    "topics_covered": [
+      "data warehouse",
+      "data analytics",
+      "data analysis",
+      "database management systems",
+      "Sql",
+      "Data Modeling",
+      "implement data warehousing techniques",
+      "Etl/Elt Pipeline Development",
+      "Python",
+      "Workflow Orchestration (Airflow)",
+      "Dbt",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Distributed Systems Fundamentals",
+      "Apache Spark",
+      "Stream Processing (Kafka)"
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:33:05.663079",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "GET is used to read/retrieve data and should be safe and idempotent (no server-side state change).",
+        "is_correct": false,
+        "question": "In a REST API, what does the HTTP method GET typically do?",
+        "question_id": 1,
+        "topic": "Api Design (Rest/Graphql)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "SQL databases are designed for structured schemas, joins, and strong transactional guarantees (ACID).",
+        "is_correct": false,
+        "question": "Which database type is generally best suited for enforcing complex relationships and ACID transactions (e.g., orders and payments)?",
+        "question_id": 2,
+        "topic": "Database Design (Sql/Nosql)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "CD commonly refers to Continuous Delivery (and sometimes Continuous Deployment), extending CI into release automation.",
+        "is_correct": true,
+        "question": "In CI/CD, what does the 'CD' most commonly stand for?",
+        "question_id": 3,
+        "topic": "Ci/Cd Pipelines",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A lead is an early-stage potential customer/contact that can be qualified into an opportunity.",
+        "is_correct": true,
+        "question": "In a CRM used by technical sales, what is a 'lead'?",
+        "question_id": 4,
+        "topic": "use customer relationship management software",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Active-active multi-region designs reduce single points of failure and can continue serving traffic if a region fails.",
+        "is_correct": false,
+        "question": "A prospect asks for 'high availability' across regions. Which architecture best matches that requirement?",
+        "question_id": 5,
+        "topic": "Distributed Systems",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "GraphQL enables clients to query precisely the data shape they need and can reduce over/under-fetching across multiple resources.",
+        "is_correct": false,
+        "question": "A customer wants to reduce integration effort for multiple internal teams consuming the same data. When is GraphQL often a better fit than REST?",
+        "question_id": 6,
+        "topic": "Api Design (Rest/Graphql)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Integration tests validate interactions between components/services and are suited to catching contract/configuration issues that unit tests miss.",
+        "is_correct": false,
+        "question": "A customer reports a bug that only happens when services talk to each other in staging. Which testing approach is most appropriate to catch this class of issue earlier?",
+        "question_id": 7,
+        "topic": "Automated Testing (Unit/Integration/E2E)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Kubernetes plus EU region pinning supports residency requirements and improves portability; choosing services with standard interfaces reduces lock-in risk.",
+        "is_correct": false,
+        "question": "A prospect requires strict data residency in the EU and wants to minimize vendor lock-in. As a technical sales rep, which recommendation best balances compliance and portability?",
+        "question_id": 8,
+        "topic": "Cloud Platforms (Aws/Azure/Gcp)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Distributed tracing pinpoints where time is spent across services and, when correlated with release versions, helps identify regressions quickly.",
+        "is_correct": false,
+        "question": "A customer says, 'Our p95 latency doubled after the last release, but CPU is normal.' What is the most effective next step to isolate the cause in a microservices environment?",
+        "question_id": 9,
+        "topic": "Observability (Logging/Metrics/Tracing)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Multi-tenant isolation requires server-side authorization that consistently enforces tenant boundaries; client-side checks are insufficient and insecure.",
+        "is_correct": false,
+        "question": "During a security review, a customer asks how your API prevents unauthorized access to another tenant’s data. Which control most directly addresses this risk in a multi-tenant app?",
+        "question_id": 10,
+        "topic": "Security Engineering (Appsec)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Api Design (Rest/Graphql), Database Design (Sql/Nosql), Distributed Systems",
+      "✅ Your strongest areas: Ci/Cd Pipelines, use customer relationship management software"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Ci/Cd Pipelines",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "use customer relationship management software",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Api Design (Rest/Graphql)",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Database Design (Sql/Nosql)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Automated Testing (Unit/Integration/E2E)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Cloud Platforms (Aws/Azure/Gcp)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Observability (Logging/Metrics/Tracing)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Security Engineering (Appsec)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

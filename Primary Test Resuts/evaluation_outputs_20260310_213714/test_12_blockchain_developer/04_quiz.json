@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:56:22.213637",
+      "learning_path_id": "test_12",
+      "target_occupation": "blockchain developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Each block includes the previous block’s hash; changing past data changes the hash, breaking the chain and revealing tampering.",
+        "id": 1,
+        "options": {
+          "A": "To encrypt all transaction data so only miners can read it",
+          "B": "To link blocks together and make tampering detectable",
+          "C": "To generate private keys for users automatically",
+          "D": "To compress the blockchain so it uses less storage"
+        },
+        "question": "In a blockchain, what is the primary purpose of a cryptographic hash in each block header?",
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The EVM is the deterministic execution environment that runs contract bytecode and enforces gas rules across all nodes.",
+        "id": 2,
+        "options": {
+          "A": "A database that stores only ERC-20 token balances",
+          "B": "A peer-to-peer networking protocol for node discovery",
+          "C": "A deterministic runtime that executes smart contract bytecode on Ethereum",
+          "D": "A wallet standard for signing transactions"
+        },
+        "question": "Which statement best describes the Ethereum Virtual Machine (EVM)?",
+        "topic": "Ethereum Virtual Machine (Evm)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A `view` function promises not to modify state (no storage writes), allowing it to be called without sending a transaction.",
+        "id": 3,
+        "options": {
+          "A": "payable",
+          "B": "view",
+          "C": "virtual",
+          "D": "override"
+        },
+        "question": "Which Solidity keyword is used to declare a function that does not modify blockchain state?",
+        "topic": "Solidity"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "ERC-721 defines NFTs with unique token IDs and ownership tracking per token.",
+        "id": 4,
+        "options": {
+          "A": "ERC-20",
+          "B": "ERC-721",
+          "C": "ERC-1155",
+          "D": "EIP-1559"
+        },
+        "question": "Which token standard is designed for non-fungible tokens (NFTs) where each token ID is unique?",
+        "topic": "Token Standards (Erc-20/Erc-721/Erc-1155)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "`eth_call` simulates execution against a node’s current state without writing to the chain; a transaction is mined and updates state.",
+        "id": 5,
+        "options": {
+          "A": "`eth_call` changes state but costs no gas; transactions do not change state but cost gas",
+          "B": "`eth_call` executes locally without persisting state changes; transactions execute on-chain and persist state changes",
+          "C": "`eth_call` requires a mined block; transactions execute instantly",
+          "D": "`eth_call` can only be used for payable functions; transactions cannot send ETH"
+        },
+        "question": "In Ethereum, what is the practical difference between calling a contract function with `eth_call` versus sending a transaction?",
+        "topic": "Web3.Js/Ethers.Js"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Merkle trees allow compact proofs (Merkle proofs) that a transaction is included in a block using only a logarithmic number of hashes.",
+        "id": 6,
+        "options": {
+          "A": "To hide transaction amounts using encryption",
+          "B": "To enable efficient inclusion proofs for transactions without downloading the entire block",
+          "C": "To generate validator identities for proof-of-stake",
+          "D": "To prevent front-running by reordering transactions"
+        },
+        "question": "What is the main purpose of a Merkle tree in a blockchain block?",
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Fuzz/property-based testing generates many randomized sequences/inputs to validate invariants hold under diverse conditions.",
+        "id": 7,
+        "options": {
+          "A": "Unit testing only",
+          "B": "Integration testing only",
+          "C": "Fuzz testing (property-based testing)",
+          "D": "Manual testing on a public testnet"
+        },
+        "question": "Which testing approach is most appropriate for checking an invariant like “totalSupply always equals the sum of all balances” across many randomized inputs?",
+        "topic": "Smart Contract Testing (Unit/Integration/Fuzzing)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Reentrancy is mitigated by updating state (effects) before external interactions, and often adding a reentrancy guard.",
+        "id": 8,
+        "options": {
+          "A": "Replace `call` with `tx.origin` checks",
+          "B": "Use the Checks-Effects-Interactions pattern (update state before external calls)",
+          "C": "Store balances in `memory` instead of `storage`",
+          "D": "Use `block.timestamp` to rate-limit withdrawals"
+        },
+        "question": "A contract sends ETH using `call` before updating internal balances. An attacker re-enters and drains funds. Which change most directly mitigates this vulnerability?",
+        "topic": "Smart Contract Security"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Merkle airdrops keep only a root on-chain and shift per-user costs to claims, avoiding an expensive on-chain loop over thousands of recipients.",
+        "id": 9,
+        "options": {
+          "A": "A single transaction that loops over all recipients and transfers to each",
+          "B": "A pull-based claim system using a Merkle root (Merkle airdrop) where users claim individually",
+          "C": "Storing the entire recipient list as an on-chain array and iterating over it per block",
+          "D": "Deploying a separate ERC-20 contract per recipient"
+        },
+        "question": "You need to distribute tokens to 50,000 addresses. Which design is generally most gas-efficient and scalable on Ethereum mainnet?",
+        "topic": "Gas Optimization"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Public permissioned systems allow open read/verification while restricting who can write/submit transactions to approved participants.",
+        "id": 10,
+        "options": {
+          "A": "Public permissionless blockchain",
+          "B": "Private permissioned blockchain with no public read access",
+          "C": "Public permissioned (permissioned write, public read) blockchain",
+          "D": "Offline blockchain with periodic manual synchronization"
+        },
+        "question": "You are building a dApp that must allow anyone to read and verify data, but only approved participants can submit transactions. Which blockchain openness model fits best?",
+        "topic": "blockchain openness"
+      }
+    ],
+    "topics_covered": [
+      "blockchain components",
+      "blockchain architecture",
+      "blockchain openness",
+      "blockchain applications",
+      "blockchain application areas ",
+      "Ethereum Virtual Machine (Evm)",
+      "Solidity",
+      "Smart Contract Development Frameworks (Hardhat/Truffle/Foundry)",
+      "Web3.Js/Ethers.Js",
+      "Token Standards (Erc-20/Erc-721/Erc-1155)",
+      "Cryptography (Hashing, Signatures, Merkle Trees)",
+      "Smart Contract Testing (Unit/Integration/Fuzzing)",
+      "blockchain applications security principles",
+      "Smart Contract Security",
+      "Gas Optimization"
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T23:03:06.731114",
+      "learning_path_id": "test_50",
+      "target_occupation": "cloud engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Edge processing reduces round-trip time to the cloud and can filter/aggregate data locally, lowering bandwidth costs and improving responsiveness.",
+        "id": 1,
+        "options": {
+          "A": "To increase latency for better batching efficiency",
+          "B": "To reduce latency and bandwidth usage for time-sensitive workloads",
+          "C": "To eliminate the need for device authentication",
+          "D": "To avoid using containers and orchestration"
+        },
+        "question": "In edge computing architecture, what is the primary reason to process data at or near the data source (the edge) instead of only in a central cloud region?",
+        "topic": "Edge Computing Architecture"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Distributed systems are designed to tolerate partial failures; nodes and networks can fail independently while the system aims to remain available/correct.",
+        "id": 2,
+        "options": {
+          "A": "All components share a single memory space",
+          "B": "The system continues operating correctly even when some nodes fail",
+          "C": "Network communication is instantaneous and reliable",
+          "D": "There is always exactly one machine in the system"
+        },
+        "question": "Which statement best describes a key property of distributed systems?",
+        "topic": "Distributed Systems Fundamentals"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "top provides an interactive, real-time view of processes and system resource utilization.",
+        "id": 3,
+        "options": {
+          "A": "top",
+          "B": "tar",
+          "C": "chmod",
+          "D": "ping"
+        },
+        "question": "Which Linux command is commonly used to view real-time system and process resource usage (CPU/memory) interactively?",
+        "topic": "Linux Systems Administration"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "FROM sets the base image (and optionally a build stage) that the rest of the Dockerfile builds upon.",
+        "id": 4,
+        "options": {
+          "A": "RUN",
+          "B": "CMD",
+          "C": "FROM",
+          "D": "EXPOSE"
+        },
+        "question": "Which Dockerfile instruction is primarily used to specify the base image for a container build?",
+        "topic": "Containerization (Docker)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "K3s and MicroK8s are designed to run Kubernetes with a smaller footprint, making them suitable for edge and resource-constrained environments.",
+        "id": 5,
+        "options": {
+          "A": "K3s or MicroK8s",
+          "B": "Apache Mesos",
+          "C": "Docker Swarm only (no Kubernetes)",
+          "D": "A full OpenStack control plane on the device"
+        },
+        "question": "You need to deploy a lightweight Kubernetes cluster on an edge device with limited CPU/RAM. Which option is most appropriate?",
+        "topic": "Kubernetes (K3S/Microk8S)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "MQTT is a lightweight pub/sub protocol designed for constrained devices and networks, using a broker-based model.",
+        "id": 6,
+        "options": {
+          "A": "MQTT",
+          "B": "OPC UA",
+          "C": "SFTP",
+          "D": "SOAP"
+        },
+        "question": "Which IoT protocol is best known for a lightweight publish/subscribe messaging model commonly used over unreliable networks?",
+        "topic": "Iot Protocols (Mqtt/Coap/Opc Ua)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "OpenTelemetry provides standardized APIs/SDKs and collectors for distributed tracing and context propagation across services.",
+        "id": 7,
+        "options": {
+          "A": "Use OpenTelemetry SDKs/collectors to emit traces and propagate context between services",
+          "B": "Only scrape node CPU metrics with Prometheus",
+          "C": "Enable Kubernetes NetworkPolicy and read dropped packet counters",
+          "D": "Rely exclusively on container stdout logs without correlation IDs"
+        },
+        "question": "You want end-to-end request tracing across microservices running in Kubernetes, with vendor-neutral instrumentation. Which approach best fits?",
+        "topic": "Observability (Prometheus/Grafana/Opentelemetry)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Unique device certificates enable strong identity, revocation, and rotation; mTLS provides mutual authentication and encryption consistent with Zero Trust principles.",
+        "id": 8,
+        "options": {
+          "A": "Use a shared pre-shared key (PSK) embedded in all devices",
+          "B": "Issue each device a unique X.509 certificate from a PKI and enforce mTLS with certificate rotation",
+          "C": "Disable certificate validation to avoid clock-skew issues",
+          "D": "Use HTTP without TLS inside the network because it is 'trusted'"
+        },
+        "question": "An edge gateway must authenticate devices and encrypt traffic using mutual TLS. Which design best supports scalable device identity and rotation?",
+        "topic": "Security (Pki, Tls, Device Identity, Zero Trust)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Tracing and latency metrics pinpoint whether delays occur in the service, network, or database; correlating with Kubernetes events/logs provides evidence-driven diagnosis.",
+        "id": 9,
+        "options": {
+          "A": "Increase the replica count and ignore the restarts",
+          "B": "Add distributed tracing and latency metrics (e.g., OpenTelemetry + Prometheus) to identify where time is spent, then correlate with pod events/logs",
+          "C": "Disable readiness probes so Kubernetes stops restarting the pod",
+          "D": "Rebuild the container image with a different base OS without collecting evidence"
+        },
+        "question": "A microservice deployed on Kubernetes is intermittently failing readiness checks and being restarted. You suspect a dependency (database) is slow. What is the most effective first step to debug this in a production-like environment?",
+        "topic": "debug software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Durable local buffering with asynchronous forwarding matches intermittent networks and reduces coupling; at-least-once delivery improves reliability under disconnections.",
+        "id": 10,
+        "options": {
+          "A": "Use synchronous request/response calls from devices directly to a cloud API with no local buffering",
+          "B": "Use a local message queue/broker with durable storage and at-least-once delivery, then forward asynchronously to the cloud when connectivity is available",
+          "C": "Store all telemetry only in device RAM to maximize performance",
+          "D": "Require a single global database transaction spanning edge and cloud components"
+        },
+        "question": "You are designing an edge-to-cloud ingestion pipeline. Edge devices send telemetry to a local broker, which forwards to a cloud edge service (AWS/Azure/GCP). The system must tolerate intermittent connectivity and avoid data loss. Which architecture choice best aligns software behavior with the underlying system architecture constraints?",
+        "topic": "align software with system architectures"
+      }
+    ],
+    "topics_covered": [
+      "Edge Computing Architecture",
+      "Distributed Systems Fundamentals",
+      "align software with system architectures",
+      "Linux Systems Administration",
+      "systems development life-cycle",
+      "Containerization (Docker)",
+      "Kubernetes (K3S/Microk8S)",
+      "Iot Protocols (Mqtt/Coap/Opc Ua)",
+      "programming",
+      "Cloud Platforms (Aws/Azure/Gcp Edge Services)",
+      "Observability (Prometheus/Grafana/Opentelemetry)",
+      "debug software",
+      "Security (Pki, Tls, Device Identity, Zero Trust)",
+      "database development tools",
+      "ICT system programming"
+    ]
+  },
+  "success": true
+}

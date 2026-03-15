@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:26:29.083080",
+      "learning_path_id": "test_15",
+      "target_occupation": "dependability engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`top` provides an interactive, real-time view of processes and system resource usage.",
+        "id": 1,
+        "options": {
+          "A": "top",
+          "B": "chmod",
+          "C": "tar",
+          "D": "ssh"
+        },
+        "question": "In Linux, which command is commonly used to view real-time system and process CPU/memory usage interactively?",
+        "topic": "Linux Systems Administration"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A container image is an immutable package (layers + metadata) used to instantiate containers.",
+        "id": 2,
+        "options": {
+          "A": "A running instance of an application with allocated CPU and memory",
+          "B": "A packaged filesystem and metadata used to create containers",
+          "C": "A Kubernetes object that exposes a service externally",
+          "D": "A virtual machine snapshot managed by the hypervisor"
+        },
+        "question": "In Docker, what is the primary purpose of a container image?",
+        "topic": "Containers (Docker)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Counters are monotonically increasing and are ideal for totals like request counts and error counts.",
+        "id": 3,
+        "options": {
+          "A": "Counter",
+          "B": "Gauge",
+          "C": "Histogram",
+          "D": "Summary"
+        },
+        "question": "Which metric type in Prometheus is best suited for values that only increase (e.g., total HTTP requests served)?",
+        "topic": "Monitoring And Observability (Prometheus/Grafana)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "DMAIC is the standard Six Sigma improvement framework: Define, Measure, Analyze, Improve, Control.",
+        "id": 4,
+        "options": {
+          "A": "Design, Measure, Analyze, Improve, Control",
+          "B": "Define, Measure, Analyze, Improve, Control",
+          "C": "Define, Model, Assess, Implement, Calibrate",
+          "D": "Discover, Measure, Align, Integrate, Confirm"
+        },
+        "question": "In Six Sigma, what does the DMAIC cycle stand for?",
+        "topic": "six sigma methods"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "A Deployment manages ReplicaSets to keep the desired replica count and supports rolling updates and self-healing.",
+        "id": 5,
+        "options": {
+          "A": "Deployment",
+          "B": "ConfigMap",
+          "C": "Ingress",
+          "D": "PersistentVolume"
+        },
+        "question": "You need a Kubernetes workload to automatically restart failed containers and maintain a desired number of replicas across nodes. Which object is the best fit?",
+        "topic": "Orchestration (Kubernetes)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Terraform state tracks resource IDs and attributes so Terraform can plan changes and manage drift.",
+        "id": 6,
+        "options": {
+          "A": "To store application logs for debugging failed applies",
+          "B": "To record the mapping between real infrastructure resources and Terraform-managed resources",
+          "C": "To cache provider plugins so they do not need to be downloaded again",
+          "D": "To define IAM permissions required to run Terraform"
+        },
+        "question": "In Terraform, what is the main purpose of the state file?",
+        "topic": "Infrastructure As Code (Terraform)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Triggering on pull_request and requiring the status check via branch protection prevents merging when tests fail.",
+        "id": 7,
+        "options": {
+          "A": "Add a scheduled workflow that runs nightly and posts results to Slack",
+          "B": "Use a workflow triggered on pull_request and require the workflow status check in branch protection rules",
+          "C": "Run tests only on the default branch after merge to avoid slowing down PRs",
+          "D": "Store test results as artifacts but do not fail the job on test failures"
+        },
+        "question": "A GitHub Actions workflow should run unit tests on every pull request and block merging if tests fail. Which approach best enforces this?",
+        "topic": "Ci/Cd Pipelines (Jenkins/Github Actions)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Distributed tracing shows request paths and per-hop latency, making it the most direct way to pinpoint slow dependencies.",
+        "id": 8,
+        "options": {
+          "A": "Increase log level to DEBUG on all services and restart them",
+          "B": "Use distributed tracing with OpenTelemetry to view end-to-end spans and service-to-service timings",
+          "C": "Scale the frontend Deployment replicas to reduce latency",
+          "D": "Disable retries globally to reduce traffic"
+        },
+        "question": "During an incident, p95 latency spikes while CPU and memory remain normal. You suspect a slow downstream dependency. Which observability approach most directly helps confirm this and identify where time is spent?",
+        "topic": "Logging And Tracing (Elk/Opentelemetry)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Asynchronous replication commonly provides eventual consistency, where replicas converge over time and stale reads can occur after failover.",
+        "id": 9,
+        "options": {
+          "A": "Strong consistency",
+          "B": "Linearizability",
+          "C": "Eventual consistency",
+          "D": "Mutual exclusion"
+        },
+        "question": "A multi-region service uses asynchronous replication. After a region failover, some users see older data for several minutes. Which distributed-systems concept best explains this behavior?",
+        "topic": "Distributed Systems Fundamentals"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "NAT Gateways can be expensive for hours and data processing; a right-sized NAT instance plus VPC endpoints reduces NAT traffic and can significantly lower costs while keeping outbound access.",
+        "id": 10,
+        "options": {
+          "A": "Move all instances to public subnets and assign public IPs",
+          "B": "Replace the NAT Gateway with a self-managed NAT instance (right-sized) and add VPC endpoints for frequently used AWS services (e.g., S3/ECR) to reduce NAT traffic",
+          "C": "Disable outbound internet access entirely and rely on manual patching",
+          "D": "Increase the number of NAT Gateways to distribute load and lower cost"
+        },
+        "question": "Your AWS bill increased sharply. Cost Explorer shows most spend is from NAT Gateway data processing and hours. A private subnet’s instances need outbound internet access for OS updates. Which change most effectively reduces cost while preserving functionality?",
+        "topic": "cost management"
+      }
+    ],
+    "topics_covered": [
+      "Linux Systems Administration",
+      "engineering principles",
+      "Scripting (Python)",
+      "engineering processes",
+      "Containers (Docker)",
+      "Orchestration (Kubernetes)",
+      "Infrastructure As Code (Terraform)",
+      "Cloud Platforms (Aws/Gcp/Azure)",
+      "cost management",
+      "Ci/Cd Pipelines (Jenkins/Github Actions)",
+      "Monitoring And Observability (Prometheus/Grafana)",
+      "Logging And Tracing (Elk/Opentelemetry)",
+      "Distributed Systems Fundamentals",
+      "Incident Response And On-Call Operations",
+      "six sigma methods "
+    ]
+  },
+  "success": true
+}

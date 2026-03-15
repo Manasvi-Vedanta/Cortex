@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:52:14.918636",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "ERP modules organize related processes and data (e.g., HR, Finance) so the organization can run end-to-end operations in an integrated way.",
+        "is_correct": false,
+        "question": "In an ERP system, what is the primary purpose of a 'module' (e.g., Finance, HR, Procurement)?",
+        "question_id": 1,
+        "topic": "Erp Fundamentals (Modules & Processes)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An exclusive gateway routes the flow to exactly one of the outgoing paths based on conditions.",
+        "is_correct": true,
+        "question": "In BPMN, what does an 'Exclusive Gateway' (XOR) represent?",
+        "question_id": 2,
+        "topic": "Business Process Mapping (Bpmn)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Master data is the shared, relatively stable reference data (e.g., customer, vendor, employee, job roles) used across many processes.",
+        "is_correct": false,
+        "question": "Which statement best describes 'master data' in an ERP context?",
+        "question_id": 3,
+        "topic": "Master Data Management (Mdm)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "LinkedIn is a widely used online job platform for job search, networking, and applications.",
+        "is_correct": false,
+        "question": "Which is an example of an online job platform commonly used to search and apply for vacancies?",
+        "question_id": 4,
+        "topic": "online job platforms",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Business rules and acceptance criteria belong in the functional requirements section so developers and testers can implement and validate the behavior.",
+        "is_correct": true,
+        "question": "You are writing a functional specification for an ERP enhancement that flags candidates whose work authorization will expire within 60 days. Which section should clearly define the rule logic and acceptance criteria?",
+        "question_id": 5,
+        "topic": "Requirements Gathering & Functional Specification Writing",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Configuration uses standard settings (e.g., workflows, tolerances, org structures) to adapt the ERP without altering vendor core code.",
+        "is_correct": false,
+        "question": "In SAP S/4HANA or Oracle ERP Cloud, which activity is typically considered configuration (not custom development)?",
+        "question_id": 6,
+        "topic": "Erp Configuration/Customization (Module Setup)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A LEFT JOIN with a NULL check on the right table finds orphan records where no matching employer exists.",
+        "is_correct": false,
+        "question": "You need to validate that every placed candidate has a corresponding employer record in the ERP after migration. Which SQL query best identifies candidates whose employer_id does NOT exist in the employer table?",
+        "question_id": 7,
+        "topic": "Sql (Data Querying & Validation)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A controlled deduplication strategy with survivorship and legacy-to-new cross-references reduces duplicates and maintains auditability and traceability.",
+        "is_correct": false,
+        "question": "During data migration, you discover duplicate candidate profiles caused by different spellings and missing national IDs. Which approach best reduces duplicates while preserving traceability for audit purposes?",
+        "question_id": 8,
+        "topic": "Data Migration (Etl, Mapping, Cleansing)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Middleware enables transformation, validation, error handling, retries, and monitoring—key for stable EDI-to-ERP integrations.",
+        "is_correct": false,
+        "question": "A partner job board sends candidate applications via EDI, while your ERP expects structured inbound messages. Which integration design is most robust for reliability and monitoring?",
+        "question_id": 9,
+        "topic": "Integration (Apis, Idoc/Edi, Middleware)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "When UAT reveals a compliance-impacting mismatch, the correct approach is to validate the legal requirement, update specs and test cases, retest, and secure formal approval to ensure traceable compliance.",
+        "is_correct": false,
+        "question": "In UAT for an employment integration program, users report that a new 'placement eligibility' rule blocks candidates who should be eligible under labour legislation exceptions. What is the best next step to resolve this while protecting compliance?",
+        "question_id": 10,
+        "topic": "Testing (Sit/Uat, Test Case Design)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Erp Fundamentals (Modules & Processes), Master Data Management (Mdm), online job platforms",
+      "✅ Your strongest areas: Business Process Mapping (Bpmn), Requirements Gathering & Functional Specification Writing"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Business Process Mapping (Bpmn)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Requirements Gathering & Functional Specification Writing",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Erp Fundamentals (Modules & Processes)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Master Data Management (Mdm)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "online job platforms",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Erp Configuration/Customization (Module Setup)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql (Data Querying & Validation)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Migration (Etl, Mapping, Cleansing)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Integration (Apis, Idoc/Edi, Middleware)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Testing (Sit/Uat, Test Case Design)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

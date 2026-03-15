@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:06:32.704457",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "DevOps focuses on collaboration, automation, and feedback loops to improve delivery speed and reliability.",
+        "is_correct": false,
+        "question": "What is the primary goal of DevOps in a software delivery organization?",
+        "question_id": 1,
+        "topic": "DevOps",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in a single command.",
+        "is_correct": false,
+        "question": "In Git, which command creates a new branch named \"feature/login\" and switches to it in one step?",
+        "question_id": 2,
+        "topic": "Version Control (Git)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "top provides an interactive, real-time view of processes and system resource usage.",
+        "is_correct": false,
+        "question": "On a Linux system, which command is commonly used to view real-time CPU and memory usage interactively?",
+        "question_id": 3,
+        "topic": "Linux Administration",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "CMD defines the default command executed when the container starts (can be overridden at runtime).",
+        "is_correct": false,
+        "question": "Which Dockerfile instruction is primarily used to specify the command that runs when a container starts?",
+        "question_id": 4,
+        "topic": "Containers (Docker)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Restricting deployment to the main branch ensures PR/MR validation runs without deploying, while merges to main can deploy.",
+        "is_correct": false,
+        "question": "In a CI pipeline, you want to prevent deployments from running on pull request builds but allow them on merges to the main branch. Which condition best matches this requirement?",
+        "question_id": 5,
+        "topic": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A remote backend centralizes state and supports locking to prevent concurrent writes and state corruption.",
+        "is_correct": false,
+        "question": "In Terraform, what is the best practice for storing the state file for a team to avoid conflicts and enable locking?",
+        "question_id": 6,
+        "topic": "Infrastructure As Code (Terraform)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Service provides a stable virtual IP/DNS name and load-balances traffic to matching Pods.",
+        "is_correct": false,
+        "question": "In Kubernetes, which object is typically used to expose a set of Pods internally and provide stable service discovery via a DNS name?",
+        "question_id": 7,
+        "topic": "Container Orchestration (Kubernetes)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Using a secrets manager with identity-based access avoids committing secrets to Git and reduces plaintext exposure in manifests.",
+        "is_correct": false,
+        "question": "Your Kubernetes app needs a database password. You must avoid storing secrets in Git and also avoid putting plaintext secrets into Kubernetes manifests. Which approach best meets this requirement?",
+        "question_id": 8,
+        "topic": "Security & Secrets Management (Iam/Vault/Ssm)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Distributed tracing (Jaeger) correlates spans across services to identify where latency is introduced in a request flow.",
+        "is_correct": false,
+        "question": "You are investigating intermittent latency spikes in a microservices system. Metrics show increased request duration, but logs don’t clearly show where time is spent across services. Which observability tool is most appropriate to pinpoint the slow hop in the request path?",
+        "question_id": 9,
+        "topic": "Logging & Observability (Elk/Opensearch/Jaeger)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Multi-stage builds allow compiling/installing in a builder stage and producing a smaller runtime image with only what’s needed for production.",
+        "is_correct": false,
+        "question": "You are building a Node.js API using a common software framework. You want to run it in production with minimal image size and avoid shipping dev dependencies. Which Docker approach best fits?",
+        "question_id": 10,
+        "topic": "software frameworks",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: DevOps, Version Control (Git), Linux Administration"
+    ],
+    "score": {
+      "correct": 0,
+      "grade": "F",
+      "incorrect": 10,
+      "percentage": 0.0,
+      "total": 10
+    },
+    "strengths": [],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "DevOps",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Version Control (Git)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Containers (Docker)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Infrastructure As Code (Terraform)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Container Orchestration (Kubernetes)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Security & Secrets Management (Iam/Vault/Ssm)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Logging & Observability (Elk/Opensearch/Jaeger)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "software frameworks",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

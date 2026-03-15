@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:05:04.648775",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A list preserves order and allows duplicates, which is ideal for an ordered collection of file paths.",
+        "is_correct": true,
+        "question": "In Python, which data structure is most appropriate for storing an ordered sequence of image file paths that may contain duplicates?",
+        "question_id": 1,
+        "topic": "Python",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows prior to GROUP BY and aggregation; HAVING filters after aggregation.",
+        "is_correct": true,
+        "question": "In SQL, which clause is used to filter rows BEFORE aggregation (e.g., before computing COUNT or AVG)?",
+        "question_id": 2,
+        "topic": "Sql",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Convolution applies learnable kernels across the image to detect local features that are useful for recognition tasks.",
+        "is_correct": false,
+        "question": "In computer vision, what does a convolutional layer primarily do to an input image?",
+        "question_id": 3,
+        "topic": "Deep Learning",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Precision-Recall AUC focuses on performance for the positive class and is more informative than accuracy under class imbalance.",
+        "is_correct": false,
+        "question": "Which metric is most appropriate for evaluating a binary classifier when the positive class (e.g., 'defect') is rare in a vision dataset?",
+        "question_id": 4,
+        "topic": "Model Evaluation And Validation",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Using test-set statistics leaks information from the evaluation data into preprocessing, biasing results and inflating performance estimates.",
+        "is_correct": false,
+        "question": "You are training a vision model and want to standardize input images using per-channel mean and standard deviation computed from the training set. Why should you avoid computing these statistics using the test set?",
+        "question_id": 5,
+        "topic": "Data Preprocessing And Feature Engineering",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "In frequentist terms, 95% refers to long-run coverage: across repeated samples, 95% of such intervals contain the true parameter.",
+        "is_correct": false,
+        "question": "In statistics, if you compute a 95% confidence interval for a model’s mean inference latency, what does '95%' most accurately mean?",
+        "question_id": 6,
+        "topic": "Statistics And Probability",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A group-based split prevents leakage of product-specific visual cues into validation and better estimates performance on unseen products.",
+        "is_correct": false,
+        "question": "You have 1,000 labeled images from 50 different physical products (20 images per product). To best estimate generalization to NEW products, which validation strategy is most appropriate?",
+        "question_id": 7,
+        "topic": "Model Evaluation And Validation",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Freezing requires disabling gradients for backbone parameters (requires_grad=False) and ensuring the optimizer updates only the head parameters.",
+        "is_correct": true,
+        "question": "In PyTorch, you want to fine-tune a pretrained CNN by freezing the backbone and training only a new classification head. Which approach correctly prevents backbone weights from being updated?",
+        "question_id": 8,
+        "topic": "PyTorch",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Keras mixed precision uses float16 where safe and float32 where needed; loss scaling mitigates gradient underflow and is standard practice.",
+        "is_correct": true,
+        "question": "In TensorFlow/Keras, you are training a segmentation model and want to use mixed precision to speed up training on a modern GPU while keeping numerical stability. Which is the best practice?",
+        "question_id": 9,
+        "topic": "TensorFlow",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A useful digital twin must be calibrated to the real system and continuously updated/validated with real data to ensure sim-to-real transfer and trustworthy decisions.",
+        "is_correct": false,
+        "question": "You are building a digital twin of a factory line to improve a vision-based defect detector. Which setup best supports reliable model improvement and deployment decisions?",
+        "question_id": 10,
+        "topic": "digital twin technology",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Deep Learning, Model Evaluation And Validation, Data Preprocessing And Feature Engineering",
+      "✅ Your strongest areas: Python, Sql"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "PyTorch",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "TensorFlow",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Deep Learning",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Model Evaluation And Validation",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Preprocessing And Feature Engineering",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Statistics And Probability",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "digital twin technology",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

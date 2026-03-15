@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:44:28.034540",
+      "learning_path_id": "test_05",
+      "target_occupation": "data scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Data science combines statistical thinking, programming, and domain context to derive insights and build data-driven solutions.",
+        "id": 1,
+        "options": {
+          "A": "A discipline that uses data, statistics, and computing to extract insights and support decisions",
+          "B": "A method for storing data in relational tables only",
+          "C": "A process for designing computer hardware for analytics",
+          "D": "A technique for encrypting data to prevent access"
+        },
+        "question": "Which statement best defines data science?",
+        "topic": "data science"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A p-value is computed under the assumption that the null hypothesis is true and measures how extreme the observed data are under that assumption.",
+        "id": 2,
+        "options": {
+          "A": "The probability that the null hypothesis is true",
+          "B": "The probability of observing results at least as extreme as the data, assuming the null hypothesis is true",
+          "C": "The probability that the alternative hypothesis is false",
+          "D": "The probability that the sample mean equals the population mean"
+        },
+        "question": "In statistics, what does a p-value represent (in the context of a hypothesis test)?",
+        "topic": "statistics"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Lists preserve order and can be modified (mutable), unlike tuples (immutable) and sets (unordered).",
+        "id": 3,
+        "options": {
+          "A": "tuple",
+          "B": "set",
+          "C": "list",
+          "D": "dict"
+        },
+        "question": "In Python, which data structure is an ordered, mutable collection commonly used to store a sequence of items?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Histograms show how values are distributed across bins, making them a standard choice for a single numeric variable.",
+        "id": 4,
+        "options": {
+          "A": "Histogram",
+          "B": "Pie chart",
+          "C": "Sankey diagram",
+          "D": "Radar chart"
+        },
+        "question": "Which visualization is generally most appropriate for showing the distribution of a single numeric variable?",
+        "topic": "data visualization"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A left join keeps all rows from the left DataFrame (orders) and brings in matching customer fields when available.",
+        "id": 5,
+        "options": {
+          "A": "pd.merge(orders, customers, on='customer_id', how='inner')",
+          "B": "pd.merge(orders, customers, on='customer_id', how='left')",
+          "C": "pd.merge(orders, customers, on='customer_id', how='right')",
+          "D": "pd.concat([orders, customers], axis=1)"
+        },
+        "question": "You need to combine two Pandas DataFrames, orders and customers, using customer_id so that all orders are kept even if customer details are missing. Which operation should you use?",
+        "topic": "Data Wrangling (Pandas)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "You must aggregate per customer using GROUP BY, then sort by the aggregated SUM and limit to 5.",
+        "id": 6,
+        "options": {
+          "A": "SELECT customer_id, SUM(amount) AS revenue FROM purchases ORDER BY revenue DESC LIMIT 5;",
+          "B": "SELECT customer_id, SUM(amount) AS revenue FROM purchases GROUP BY customer_id ORDER BY revenue DESC LIMIT 5;",
+          "C": "SELECT TOP 5 customer_id, SUM(amount) AS revenue FROM purchases GROUP BY customer_id;",
+          "D": "SELECT customer_id, AVG(amount) AS revenue FROM purchases GROUP BY customer_id ORDER BY revenue DESC LIMIT 5;"
+        },
+        "question": "In SQL, which query returns the top 5 customers by total revenue (amount) from a table purchases(customer_id, amount)?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "With severe class imbalance, accuracy can be misleading; precision-recall focuses on performance for the positive class and is often more informative.",
+        "id": 7,
+        "options": {
+          "A": "Accuracy",
+          "B": "Mean Squared Error (MSE)",
+          "C": "Precision-Recall AUC (or PR curve)",
+          "D": "R-squared"
+        },
+        "question": "You are building a binary classifier on an imbalanced dataset (1% positive class). Which evaluation metric is typically most informative for model selection?",
+        "topic": "Model Evaluation & Validation"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Using information from the future relative to the prediction point leaks target-related data into training, inflating offline performance and breaking production validity.",
+        "id": 8,
+        "options": {
+          "A": "Underfitting due to too few features",
+          "B": "Data leakage because the feature uses future information not available at prediction time",
+          "C": "High bias caused by using too many trees",
+          "D": "Class imbalance because churn is rare"
+        },
+        "question": "You are training a model to predict customer churn and you compute a feature: 'number of support tickets in the next 30 days'. Your model performance is excellent but fails in production. What is the most likely issue?",
+        "topic": "Feature Engineering"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "For time-ordered data, walk-forward validation preserves temporal order and avoids training on future data relative to the validation fold.",
+        "id": 9,
+        "options": {
+          "A": "Random K-fold cross-validation with shuffling",
+          "B": "Leave-one-out cross-validation",
+          "C": "Time series split (walk-forward / rolling-origin validation)",
+          "D": "Train-test split stratified by the target label"
+        },
+        "question": "Your cross-validation AUC is 0.92, but the test AUC drops to 0.71. You suspect the model is overfitting and want a validation approach that better reflects future performance on time-ordered data. What should you use?",
+        "topic": "Model Evaluation & Validation"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Even if protected attributes are removed, correlated variables like ZIP code can encode them indirectly, leading to discriminatory outcomes.",
+        "id": 10,
+        "options": {
+          "A": "Differential privacy guarantees will be violated by removing race",
+          "B": "Proxy discrimination, because ZIP code can act as a proxy for protected attributes",
+          "C": "Simpson’s paradox, because aggregated data always reverses correlations",
+          "D": "Overfitting, because fewer features always increase variance"
+        },
+        "question": "A company wants to deploy a model that predicts loan default risk. They plan to exclude protected attributes (e.g., race) but keep ZIP code. Which ethical risk is most relevant?",
+        "topic": "data ethics"
+      }
+    ],
+    "topics_covered": [
+      "data science",
+      "statistics",
+      "Python",
+      "Data Cleaning & Preprocessing",
+      "Data Wrangling (Pandas)",
+      "Sql",
+      "data models",
+      "data engineering",
+      "data visualization",
+      "data visualisation software",
+      "data mining",
+      "Feature Engineering",
+      "Machine Learning",
+      "Model Evaluation & Validation",
+      "data ethics"
+    ]
+  },
+  "success": true
+}

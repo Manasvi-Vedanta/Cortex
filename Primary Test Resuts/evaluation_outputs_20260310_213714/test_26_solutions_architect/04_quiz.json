@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:21:05.933639",
+      "learning_path_id": "test_26",
+      "target_occupation": "ICT system architect",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Requirements analysis is where stakeholder needs are gathered and documented, including functional and non-functional requirements.",
+        "id": 1,
+        "options": {
+          "A": "Requirements analysis",
+          "B": "Implementation",
+          "C": "Deployment",
+          "D": "Maintenance"
+        },
+        "question": "In the systems development life-cycle (SDLC), which phase primarily focuses on defining functional and non-functional requirements?",
+        "topic": "systems development life-cycle"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "GET is the standard REST method for safe, read-only retrieval of resources.",
+        "id": 2,
+        "options": {
+          "A": "POST",
+          "B": "GET",
+          "C": "PATCH",
+          "D": "DELETE"
+        },
+        "question": "Which HTTP method is typically used to retrieve a resource in a REST API without modifying server state?",
+        "topic": "Api Design (Rest/Graphql)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Containers bundle the app and dependencies, improving portability and consistency across dev/test/prod.",
+        "id": 3,
+        "options": {
+          "A": "They virtualize hardware to run multiple operating systems on one host",
+          "B": "They package an application and its dependencies for consistent execution across environments",
+          "C": "They automatically scale applications based on CPU usage without additional tooling",
+          "D": "They replace the need for source control by storing image history"
+        },
+        "question": "Which statement best describes a primary benefit of containers like Docker?",
+        "topic": "Containers (Docker)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Distributed tracing follows a request end-to-end across services using trace/span context.",
+        "id": 4,
+        "options": {
+          "A": "Logging",
+          "B": "Metrics",
+          "C": "Tracing",
+          "D": "Alerting"
+        },
+        "question": "In observability, which signal is primarily used to understand the path of a single request across multiple services?",
+        "topic": "Observability (Logging/Metrics/Tracing)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A normalized design with a foreign key enforces relationships and supports indexing and joins for common queries.",
+        "id": 5,
+        "options": {
+          "A": "Store all order items as a JSON array in a single Orders table column",
+          "B": "Create Orders and OrderItems tables with a foreign key from OrderItems(order_id) to Orders(id)",
+          "C": "Create one table with repeated columns item1, item2, item3 to avoid joins",
+          "D": "Use a key-value store for order items and keep orders in SQL without relationships"
+        },
+        "question": "You are designing a relational schema for orders and order items. Which design best enforces referential integrity and supports efficient querying?",
+        "topic": "Databases (Sql And Nosql)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "IaC uses declarative templates in version control with automated deployments, enabling review, repeatability, and promotion.",
+        "id": 6,
+        "options": {
+          "A": "Manually create resources in the cloud console and document steps in a wiki",
+          "B": "Use Terraform/CloudFormation/Bicep stored in Git and applied via a CI/CD pipeline",
+          "C": "Run ad-hoc shell scripts from an engineer’s laptop to create resources",
+          "D": "Rely on auto-scaling defaults and avoid defining infrastructure explicitly"
+        },
+        "question": "A team wants repeatable, reviewable cloud provisioning with pull requests and environment promotion. Which approach best fits Infrastructure as Code practices?",
+        "topic": "Infrastructure As Code (Terraform/Cloudformation/Bicep)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Service provides stable networking (DNS/ClusterIP) and load-balances traffic to matching Pods.",
+        "id": 7,
+        "options": {
+          "A": "Deployment",
+          "B": "Service",
+          "C": "ConfigMap",
+          "D": "Namespace"
+        },
+        "question": "In Kubernetes, which object is primarily responsible for exposing a set of Pods internally within the cluster under a stable DNS name and virtual IP?",
+        "topic": "Container Orchestration (Kubernetes/Eks/Aks/Gke)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Event-driven messaging decouples producers/consumers and supports buffering, retries, and failure isolation via broker features like DLQs.",
+        "id": 8,
+        "options": {
+          "A": "Synchronous REST calls from the Order service to every dependent service in a fixed sequence",
+          "B": "Publish 'OrderPlaced' to a message broker/event bus and have consumers process asynchronously with retries and dead-lettering",
+          "C": "Share the monolith’s database tables across all services to avoid integration work",
+          "D": "Use a single GraphQL endpoint that directly writes to each service’s database"
+        },
+        "question": "You are migrating a monolith to microservices. Several services need to react to 'OrderPlaced' events without tight coupling, and you want resilience to temporary downstream outages. Which design is most appropriate?",
+        "topic": "Microservices Architecture"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "KMS/HSM-backed key management with envelope encryption enables controlled key usage, auditing, and rotation via IAM and key policies.",
+        "id": 9,
+        "options": {
+          "A": "Use application-side Base64 encoding and store the encoded data in the database",
+          "B": "Use TLS for data in transit only; rely on default storage settings for data at rest",
+          "C": "Use a cloud KMS/HSM-backed key management service with envelope encryption and IAM policies restricting key usage and rotation",
+          "D": "Hardcode a single AES key in the application configuration file and reuse it across environments"
+        },
+        "question": "A company must encrypt sensitive data at rest in cloud storage and ensure encryption keys are rotated and access is tightly controlled. Which architecture best meets this requirement?",
+        "topic": "Security Architecture (Iam, Encryption, Key Management)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Distributed tracing pinpoints latency across service calls; tagging traces with build/deploy metadata helps correlate spikes to a specific release.",
+        "id": 10,
+        "options": {
+          "A": "Increase log verbosity everywhere and search for errors manually",
+          "B": "Rely only on CPU metrics; if CPU is low, the issue is not in the application",
+          "C": "Use distributed tracing with consistent trace context propagation and correlate traces with deployment version tags",
+          "D": "Disable autoscaling to keep the number of pods constant during investigation"
+        },
+        "question": "After deploying a new version via CI/CD, users report intermittent latency spikes across multiple microservices. You need to identify where time is spent across service boundaries and correlate it with the deployment. What is the best next step?",
+        "topic": "Observability (Logging/Metrics/Tracing)"
+      }
+    ],
+    "topics_covered": [
+      "systems development life-cycle",
+      "align software with system architectures",
+      "system design",
+      "web programming",
+      "Api Design (Rest/Graphql)",
+      "Databases (Sql And Nosql)",
+      "database development tools",
+      "Microservices Architecture",
+      "Cloud Architecture (Aws/Azure/Gcp)",
+      "Security Architecture (Iam, Encryption, Key Management)",
+      "Infrastructure As Code (Terraform/Cloudformation/Bicep)",
+      "Containers (Docker)",
+      "Container Orchestration (Kubernetes/Eks/Aks/Gke)",
+      "Devops/Ci-Cd (Github Actions/Jenkins/Azure Devops)",
+      "Observability (Logging/Metrics/Tracing)"
+    ]
+  },
+  "success": true
+}

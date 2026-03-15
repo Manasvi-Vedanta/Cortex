@@ -1,0 +1,195 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:21:50.452881",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A block hash commits to the block’s contents (including the previous block hash), creating an integrity chain where changes become detectable.",
+        "is_correct": false,
+        "question": "In a typical blockchain, what is the primary purpose of a cryptographic hash in each block?",
+        "question_id": 1,
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The EVM is the deterministic execution environment for smart contract bytecode, ensuring all nodes reach the same result.",
+        "is_correct": false,
+        "question": "Which statement best describes the Ethereum Virtual Machine (EVM)?",
+        "question_id": 2,
+        "topic": "Ethereum (Evm) Fundamentals",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "ERC-721 defines a standard interface for unique, non-fungible tokens.",
+        "is_correct": true,
+        "question": "Which token standard is primarily used for non-fungible tokens (NFTs) where each token is unique?",
+        "question_id": 3,
+        "topic": "Token Standards (Erc-20/Erc-721/Erc-1155)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "State variables marked public get an automatically generated getter function.",
+        "is_correct": true,
+        "question": "In Solidity, which keyword makes a state variable accessible via an auto-generated getter function?",
+        "question_id": 4,
+        "topic": "Solidity",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Merkle trees support compact proofs (Merkle proofs) that a transaction is included in a block, enabling light clients and efficient verification.",
+        "is_correct": true,
+        "question": "What is the main reason Merkle trees are used in blockchains?",
+        "question_id": 5,
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Mainnet forking lets you run tests locally while reading real mainnet state at a chosen block height.",
+        "is_correct": true,
+        "question": "You want to test your contract against real mainnet state (e.g., existing ERC-20 balances) without deploying to mainnet. Which approach is most appropriate?",
+        "question_id": 6,
+        "topic": "Testing & Debugging (Unit Tests, Mainnet Forking)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Signer holds the ability to sign transactions; a Provider alone can read chain data but cannot authorize state changes.",
+        "is_correct": false,
+        "question": "In ethers.js, which object is typically required to send a state-changing transaction (e.g., calling a non-view function) from a specific account?",
+        "question_id": 7,
+        "topic": "Web3 Libraries (Ethers.Js/Web3.Js)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "delegatecall runs the callee’s code in the caller’s storage context; a malicious/buggy implementation can corrupt storage (e.g., ownership) and seize control.",
+        "is_correct": false,
+        "question": "A contract uses `delegatecall` to a plugin address that can be updated by an admin. What is the most critical security risk in this design?",
+        "question_id": 8,
+        "topic": "Smart Contract Security & Auditing",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Reading from storage (SLOAD) is expensive; caching the value in a local variable avoids repeated SLOADs inside the loop.",
+        "is_correct": false,
+        "question": "You are optimizing gas in a function that repeatedly reads the same storage variable `uint256 feeBps;` inside a loop. Which change most reliably reduces gas usage?",
+        "question_id": 9,
+        "topic": "Gas Optimization",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "ERC-1155 is a multi-token standard supporting many token IDs in one contract, including fungible and non-fungible patterns, with batch transfers/mints.",
+        "is_correct": false,
+        "question": "You are building an on-chain game that needs both fungible in-game currency and many item types, some fungible (e.g., potions) and some non-fungible (e.g., unique swords). Which token standard best fits to minimize deployments and support batch transfers?",
+        "question_id": 10,
+        "topic": "Token Standards (Erc-20/Erc-721/Erc-1155)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Cryptography (Hashing, Signatures, Merkle Trees)",
+        "total": 2
+      },
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Token Standards (Erc-20/Erc-721/Erc-1155)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: Ethereum (Evm) Fundamentals, Web3 Libraries (Ethers.Js/Web3.Js), Smart Contract Security & Auditing",
+      "✅ Your strongest areas: Solidity, Testing & Debugging (Unit Tests, Mainnet Forking)",
+      "📖 Topics needing more practice: Cryptography (Hashing, Signatures, Merkle Trees), Token Standards (Erc-20/Erc-721/Erc-1155)"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Solidity",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Testing & Debugging (Unit Tests, Mainnet Forking)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ethereum (Evm) Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Web3 Libraries (Ethers.Js/Web3.Js)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Smart Contract Security & Auditing",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Gas Optimization",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

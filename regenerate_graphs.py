@@ -21,7 +21,7 @@ except ImportError:
     SEABORN_AVAILABLE = False
 
 # Configuration
-DATA_DIR = "evaluation_outputs_20260205_235326"
+DATA_DIR = "evaluation_outputs_20260310_213714"
 GRAPHS_DIR = os.path.join(DATA_DIR, "graphs")
 SUMMARY_FILE = os.path.join(DATA_DIR, "evaluation_summary.json")
 
@@ -45,6 +45,11 @@ COLORS = {
         '#1E3A5F', '#7B2D8E', '#0D7377', '#E8871E', '#C73E1D', 
         '#3498DB', '#27AE60', '#8E44AD', '#F39C12', '#16A085',
         '#E74C3C'
+    ],
+    'categories_light': [
+        '#7EAED3', '#C9A0D8', '#7BCBCE', '#F5C68A', '#E8A090',
+        '#A3D1F2', '#8ED5A8', '#C9A3D9', '#F9D37A', '#8DD4C8',
+        '#F0A8A0'
     ]
 }
 
@@ -92,7 +97,7 @@ def plot_01_similarity_scores():
     
     # Color by category
     unique_cats = list(set(categories))
-    cat_colors = {cat: COLORS['categories'][i % len(COLORS['categories'])] 
+    cat_colors = {cat: COLORS['categories_light'][i % len(COLORS['categories_light'])] 
                  for i, cat in enumerate(unique_cats)}
     bar_colors = [cat_colors[cat] for cat in categories]
     
@@ -113,12 +118,12 @@ def plot_01_similarity_scores():
     ax.set_xlim(0, 1.15)
     
     # Add threshold lines
-    ax.axvline(x=0.7, color=COLORS['warning'], linestyle='--', alpha=0.7, linewidth=1.5)
-    ax.axvline(x=0.9, color=COLORS['success'], linestyle='--', alpha=0.7, linewidth=1.5)
+    ax.axvline(x=0.7, color='#D4A57A', linestyle='--', alpha=0.7, linewidth=1.5)
+    ax.axvline(x=0.9, color='#7BCBCE', linestyle='--', alpha=0.7, linewidth=1.5)
     
     # Add threshold labels
-    ax.text(0.70, len(names) + 0.3, 'Good (0.7)', color=COLORS['warning'], fontsize=9, ha='center')
-    ax.text(0.90, len(names) + 0.3, 'Excellent (0.9)', color=COLORS['success'], fontsize=9, ha='center')
+    ax.text(0.70, len(names) + 0.3, 'Good (0.7)', color='#D4A57A', fontsize=9, ha='center')
+    ax.text(0.90, len(names) + 0.3, 'Excellent (0.9)', color='#7BCBCE', fontsize=9, ha='center')
     
     # Create legend outside the plot
     legend_patches = [mpatches.Patch(color=cat_colors[cat], label=cat) for cat in sorted(unique_cats)]
@@ -127,8 +132,8 @@ def plot_01_similarity_scores():
     
     # Add statistics annotation
     mean_score = statistics.mean(scores)
-    ax.axvline(x=mean_score, color=COLORS['danger'], linestyle='-', alpha=0.8, linewidth=2)
-    ax.text(mean_score, -0.8, f'Mean: {mean_score:.3f}', color=COLORS['danger'], 
+    ax.axvline(x=mean_score, color='#E8A090', linestyle='-', alpha=0.8, linewidth=2)
+    ax.text(mean_score, -0.8, f'Mean: {mean_score:.3f}', color='#E8A090', 
            fontsize=10, ha='center', fontweight='bold')
     
     plt.tight_layout()
@@ -295,9 +300,9 @@ def plot_04_success_rates():
     ]
     success_rates = [count/total * 100 for count in success_counts]
     
-    colors = [COLORS['success'] if rate >= 90 else 
-             COLORS['warning'] if rate >= 70 else 
-             COLORS['danger'] for rate in success_rates]
+    colors = ['#A8D8B9' if rate >= 90 else 
+             '#F5D6A0' if rate >= 70 else 
+             '#F2B8B0' for rate in success_rates]
     
     x = np.arange(len(features))
     bars = ax1.bar(x, success_rates, color=colors, edgecolor='white', width=0.6)
@@ -312,8 +317,8 @@ def plot_04_success_rates():
     ax1.set_ylabel('Success Rate (%)', fontweight='bold')
     ax1.set_title('Feature Success Rates Across All Tests', fontweight='bold', pad=10)
     ax1.set_ylim(0, 115)
-    ax1.axhline(y=90, color=COLORS['success'], linestyle='--', alpha=0.5, linewidth=2)
-    ax1.text(len(features)-0.5, 91, 'Target: 90%', color=COLORS['success'], fontsize=9)
+    ax1.axhline(y=90, color='#A8D8B9', linestyle='--', alpha=0.5, linewidth=2)
+    ax1.text(len(features)-0.5, 91, 'Target: 90%', color='#6BAF8D', fontsize=9)
     
     # Right: Success matrix heatmap
     ax2 = axes[1]
@@ -327,13 +332,15 @@ def plot_04_success_rates():
         for r in test_results
     ]).astype(int)
     
-    im = ax2.imshow(success_matrix, cmap='RdYlGn', aspect='auto', vmin=0, vmax=1)
+    from matplotlib.colors import LinearSegmentedColormap
+    soft_cmap = LinearSegmentedColormap.from_list('soft_rg', ['#F2B8B0', '#A8D8B9'])
+    im = ax2.imshow(success_matrix, cmap=soft_cmap, aspect='auto', vmin=0, vmax=1)
     
     ax2.set_xticks(range(len(feature_names)))
     ax2.set_xticklabels(feature_names, fontsize=10, fontweight='bold')
     ax2.set_yticks(range(len(test_names)))
     ax2.set_yticklabels(test_names, fontsize=8)
-    ax2.set_title('Test × Feature Success Matrix\n(Green = Pass, Red = Fail)', 
+    ax2.set_title('Test × Feature Success Matrix\n(Green = Pass, Pink = Fail)', 
                  fontweight='bold', pad=10)
     
     # Add colorbar
@@ -355,7 +362,7 @@ def plot_05_category_analysis():
         category_data[r['category']].append(r)
     
     categories = sorted(category_data.keys())
-    cat_colors = {cat: COLORS['categories'][i % len(COLORS['categories'])] 
+    cat_colors = {cat: COLORS['categories_light'][i % len(COLORS['categories_light'])] 
                  for i, cat in enumerate(categories)}
     
     # 1. Average similarity by category (with error bars)

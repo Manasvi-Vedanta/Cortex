@@ -1,0 +1,827 @@
+{
+  "learning_path": [
+    {
+      "comprehensive_guides": {
+        "Linux/Unix": "# 📚 Comprehensive Guide: Linux/Unix\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Linux/Unix in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Linux/Unix matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Linux/Unix enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Navigate and manage files and directories efficiently",
+        "Use shell utilities to inspect and transform data files",
+        "Understand permissions and process basics relevant to data jobs"
+      ],
+      "prerequisites": [],
+      "session_number": 1,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Linux/Unix",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/linux/unix",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Linux/Unix"
+      ],
+      "title": "Linux/Unix Foundations for Data Engineering Workflows"
+    },
+    {
+      "comprehensive_guides": {
+        "Sql": "# 📚 Comprehensive Guide: Sql\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Sql in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Sql matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Sql enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "SQL Server Central",
+          "r/SQL",
+          "Database Administrators Stack Exchange"
+        ],
+        "documentation": [
+          "SQLite Documentation",
+          "MySQL Documentation",
+          "PostgreSQL Documentation"
+        ],
+        "online_courses": [
+          "Khan Academy Intro to SQL",
+          "SQLBolt Interactive Tutorial",
+          "Coursera SQL Specialization"
+        ],
+        "practice_platforms": [
+          "SQLZoo",
+          "LeetCode Database Problems",
+          "HackerRank SQL"
+        ],
+        "tutorials": [
+          "W3Schools SQL Tutorial",
+          "PostgreSQL Tutorial",
+          "SQLitetutorial.net"
+        ]
+      },
+      "objectives": [
+        "Write SELECT queries with filtering, sorting, and aggregation",
+        "Use joins to combine datasets correctly",
+        "Apply subqueries and common table expressions for readability"
+      ],
+      "prerequisites": [
+        "Linux/Unix"
+      ],
+      "session_number": 2,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Sql",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/sql",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Sql"
+      ],
+      "title": "SQL Essentials for Querying and Transforming Data"
+    },
+    {
+      "comprehensive_guides": {
+        "database management systems": "# 📚 Comprehensive Guide: database management systems\n\n## 🎯 Overview\nThe tools for creating, updating and managing databases, such as Oracle, MySQL and Microsoft SQL Server.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply database management systems in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why database management systems matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How database management systems enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "KDnuggets Community",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Pandas Documentation",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Microsoft Power BI Course",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "tutorials": [
+          "Pandas Documentation Tutorials",
+          "Matplotlib Tutorials",
+          "NumPy Quickstart"
+        ]
+      },
+      "objectives": [
+        "Understand core database concepts and how they impact data workloads",
+        "Learn basic operational considerations for running databases",
+        "Connect querying patterns to performance and reliability concerns"
+      ],
+      "prerequisites": [
+        "Sql"
+      ],
+      "session_number": 3,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "The tools for creating, updating and managing databases, such as Oracle, MySQL and Microsoft SQL Server.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "database management systems",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "database management systems"
+      ],
+      "title": "Database Fundamentals and Operational Concepts"
+    },
+    {
+      "comprehensive_guides": {
+        "Data Modeling": "# 📚 Comprehensive Guide: Data Modeling\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Data Modeling in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Data Modeling matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Data Modeling enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "KDnuggets Community",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Pandas Documentation",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Microsoft Power BI Course",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "tutorials": [
+          "Pandas Documentation Tutorials",
+          "Matplotlib Tutorials",
+          "NumPy Quickstart"
+        ]
+      },
+      "objectives": [
+        "Design entities and relationships to support analytics use cases",
+        "Translate business questions into structured models",
+        "Identify tradeoffs in model design for downstream querying"
+      ],
+      "prerequisites": [
+        "Sql",
+        "database management systems"
+      ],
+      "session_number": 4,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Data Modeling",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/data-modeling",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Data Modeling"
+      ],
+      "title": "Data Modeling for Analytics and Engineering"
+    },
+    {
+      "comprehensive_guides": {
+        "Python": "# 📚 Comprehensive Guide: Python\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Python in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Python matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Python enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "Stack Overflow Python Tag",
+          "Python Discord Server",
+          "Python Reddit Community"
+        ],
+        "documentation": [
+          "Python Package Index (PyPI)",
+          "Official Python Documentation"
+        ],
+        "online_courses": [
+          "Codecademy Python Course",
+          "Python.org Beginner's Guide",
+          "edX Python Fundamentals"
+        ],
+        "practice_platforms": [
+          "HackerRank",
+          "Python Challenge",
+          "Codewars",
+          "LeetCode"
+        ],
+        "tutorials": [
+          "Real Python Tutorials",
+          "Python Tutorial at W3Schools",
+          "Automate the Boring Stuff"
+        ]
+      },
+      "objectives": [
+        "Write Python code to read, transform, and validate datasets",
+        "Structure scripts for repeatable data tasks",
+        "Handle errors and edge cases in data processing"
+      ],
+      "prerequisites": [
+        "Linux/Unix"
+      ],
+      "session_number": 5,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Python",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/python",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Python"
+      ],
+      "title": "Python for Data Processing and Automation"
+    },
+    {
+      "comprehensive_guides": {
+        "Etl/Elt Pipeline Development": "# 📚 Comprehensive Guide: Etl/Elt Pipeline Development\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Etl/Elt Pipeline Development in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Etl/Elt Pipeline Development matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Etl/Elt Pipeline Development enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Differentiate ETL vs ELT and choose appropriate patterns",
+        "Design pipeline steps for extraction, transformation, and loading",
+        "Implement basic validation and reconciliation approaches"
+      ],
+      "prerequisites": [
+        "Sql",
+        "Python",
+        "Data Modeling"
+      ],
+      "session_number": 6,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Etl/Elt Pipeline Development",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/etl/elt-pipeline-development",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Etl/Elt Pipeline Development"
+      ],
+      "title": "ETL/ELT Pipeline Development Concepts and Patterns"
+    },
+    {
+      "comprehensive_guides": {
+        "Workflow Orchestration (Airflow)": "# 📚 Comprehensive Guide: Workflow Orchestration (Airflow)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Workflow Orchestration (Airflow) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Workflow Orchestration (Airflow) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Workflow Orchestration (Airflow) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Model pipelines as scheduled workflows",
+        "Manage dependencies and retries for reliable execution",
+        "Operationalize ETL/ELT runs with monitoring concepts"
+      ],
+      "prerequisites": [
+        "Etl/Elt Pipeline Development",
+        "Python",
+        "Linux/Unix"
+      ],
+      "session_number": 7,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Workflow Orchestration (Airflow)",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.8,
+          "uri": "modern://skill/workflow-orchestration-(airflow)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Workflow Orchestration (Airflow)"
+      ],
+      "title": "Workflow Orchestration with Airflow"
+    },
+    {
+      "comprehensive_guides": {
+        "Cloud Platforms (Aws/Azure/Gcp)": "# 📚 Comprehensive Guide: Cloud Platforms (Aws/Azure/Gcp)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Cloud Platforms (Aws/Azure/Gcp) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Cloud Platforms (Aws/Azure/Gcp) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Cloud Platforms (Aws/Azure/Gcp) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Understand core cloud building blocks used in data platforms",
+        "Map common data workloads to cloud services at a high level",
+        "Identify considerations for cost, security, and scalability"
+      ],
+      "prerequisites": [
+        "Linux/Unix",
+        "Sql"
+      ],
+      "session_number": 8,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Cloud Platforms (Aws/Azure/Gcp)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/cloud-platforms-(aws/azure/gcp)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Cloud Platforms (Aws/Azure/Gcp)"
+      ],
+      "title": "Cloud Platforms for Data Engineering Foundations"
+    },
+    {
+      "comprehensive_guides": {
+        "Data Warehousing (Snowflake/Redshift/Bigquery)": "# 📚 Comprehensive Guide: Data Warehousing (Snowflake/Redshift/Bigquery)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Data Warehousing (Snowflake/Redshift/Bigquery) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Data Warehousing (Snowflake/Redshift/Bigquery) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Data Warehousing (Snowflake/Redshift/Bigquery) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "KDnuggets Community",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Pandas Documentation",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Microsoft Power BI Course",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "tutorials": [
+          "Pandas Documentation Tutorials",
+          "Matplotlib Tutorials",
+          "NumPy Quickstart"
+        ]
+      },
+      "objectives": [
+        "Understand warehouse-oriented storage and query patterns",
+        "Design loading approaches aligned with ELT",
+        "Apply modeling concepts to warehouse-friendly structures"
+      ],
+      "prerequisites": [
+        "Sql",
+        "Data Modeling",
+        "Cloud Platforms (Aws/Azure/Gcp)",
+        "Etl/Elt Pipeline Development"
+      ],
+      "session_number": 9,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Data Warehousing (Snowflake/Redshift/Bigquery)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/data-warehousing-(snowflake/redshift/bigquery)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Data Warehousing (Snowflake/Redshift/Bigquery)"
+      ],
+      "title": "Data Warehousing Concepts and Practice"
+    },
+    {
+      "comprehensive_guides": {
+        "Hadoop Ecosystem (Hdfs, Yarn, Mapreduce)": "# 📚 Comprehensive Guide: Hadoop Ecosystem (Hdfs, Yarn, Mapreduce)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Hadoop Ecosystem (Hdfs, Yarn, Mapreduce) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Hadoop Ecosystem (Hdfs, Yarn, Mapreduce) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Hadoop Ecosystem (Hdfs, Yarn, Mapreduce) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Understand distributed storage and compute concepts in Hadoop",
+        "Explain how HDFS, YARN, and MapReduce fit together",
+        "Recognize workload types suited to batch processing"
+      ],
+      "prerequisites": [
+        "Distributed Systems Fundamentals",
+        "Linux/Unix"
+      ],
+      "session_number": 10,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Hadoop Ecosystem (Hdfs, Yarn, Mapreduce)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/hadoop-ecosystem-(hdfs,-yarn,-mapreduce)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Hadoop Ecosystem (Hdfs, Yarn, Mapreduce)"
+      ],
+      "title": "Hadoop Ecosystem Fundamentals: HDFS, YARN, MapReduce"
+    },
+    {
+      "comprehensive_guides": {
+        "Distributed Systems Fundamentals": "# 📚 Comprehensive Guide: Distributed Systems Fundamentals\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Distributed Systems Fundamentals in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Distributed Systems Fundamentals matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Distributed Systems Fundamentals enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Understand core distributed systems concepts relevant to data processing",
+        "Identify common failure modes and reliability considerations",
+        "Connect distributed concepts to storage and compute frameworks"
+      ],
+      "prerequisites": [
+        "Linux/Unix"
+      ],
+      "session_number": 11,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "beginner",
+          "explanation": "Essential skill for this occupation",
+          "label": "Distributed Systems Fundamentals",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/distributed-systems-fundamentals",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Distributed Systems Fundamentals"
+      ],
+      "title": "Distributed Systems Fundamentals for Data Platforms"
+    },
+    {
+      "comprehensive_guides": {
+        "Apache Spark": "# 📚 Comprehensive Guide: Apache Spark\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Apache Spark in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Apache Spark matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Apache Spark enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Understand Spark execution concepts for distributed processing",
+        "Build transformations and actions for batch workloads",
+        "Apply performance-aware patterns for large-scale processing"
+      ],
+      "prerequisites": [
+        "Python",
+        "Distributed Systems Fundamentals",
+        "Hadoop Ecosystem (Hdfs, Yarn, Mapreduce)"
+      ],
+      "session_number": 12,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Apache Spark",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/apache-spark",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Apache Spark"
+      ],
+      "title": "Apache Spark for Scalable Batch Data Processing"
+    },
+    {
+      "comprehensive_guides": {
+        "Nosql Databases (Cassandra/Hbase/Mongodb)": "# 📚 Comprehensive Guide: Nosql Databases (Cassandra/Hbase/Mongodb)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Nosql Databases (Cassandra/Hbase/Mongodb) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Nosql Databases (Cassandra/Hbase/Mongodb) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Nosql Databases (Cassandra/Hbase/Mongodb) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "r/SQL",
+          "Database Administrators Stack Exchange",
+          "Data Science Central",
+          "SQL Server Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "SQLite Documentation",
+          "MySQL Documentation",
+          "PostgreSQL Documentation",
+          "Pandas Documentation"
+        ],
+        "online_courses": [
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate",
+          "Khan Academy Intro to SQL",
+          "SQLBolt Interactive Tutorial",
+          "Microsoft Power BI Course"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "LeetCode Database Problems",
+          "DataCamp Practice",
+          "Kaggle Learn",
+          "SQLZoo"
+        ],
+        "tutorials": [
+          "W3Schools SQL Tutorial",
+          "Matplotlib Tutorials",
+          "SQLitetutorial.net",
+          "PostgreSQL Tutorial",
+          "Pandas Documentation Tutorials"
+        ]
+      },
+      "objectives": [
+        "Understand when to use NoSQL databases for data workloads",
+        "Model data for access patterns in NoSQL systems",
+        "Identify tradeoffs between consistency, scalability, and query flexibility"
+      ],
+      "prerequisites": [
+        "Data Modeling",
+        "Distributed Systems Fundamentals",
+        "database management systems"
+      ],
+      "session_number": 13,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Nosql Databases (Cassandra/Hbase/Mongodb)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 1.0,
+          "uri": "modern://skill/nosql-databases-(cassandra/hbase/mongodb)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Nosql Databases (Cassandra/Hbase/Mongodb)"
+      ],
+      "title": "NoSQL Databases: Cassandra, HBase, MongoDB Use Cases and Modeling"
+    },
+    {
+      "comprehensive_guides": {
+        "Stream Processing (Kafka)": "# 📚 Comprehensive Guide: Stream Processing (Kafka)\n\n## 🎯 Overview\nModern technology skill identified as essential for I want to become a Big Data Engineer.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply Stream Processing (Kafka) in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why Stream Processing (Kafka) matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How Stream Processing (Kafka) enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "intermediate",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [],
+        "documentation": [],
+        "online_courses": [],
+        "practice_platforms": [],
+        "tutorials": []
+      },
+      "objectives": [
+        "Understand event streaming concepts and core Kafka components",
+        "Design streaming data flows for ingestion and processing",
+        "Reason about delivery semantics and operational considerations"
+      ],
+      "prerequisites": [
+        "Distributed Systems Fundamentals",
+        "Linux/Unix"
+      ],
+      "session_number": 14,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Modern technology skill identified as essential for I want to become a Big Data Engineer.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "Stream Processing (Kafka)",
+          "priority": 1,
+          "relation_type": "essential",
+          "relevance_score": 0.9,
+          "uri": "modern://skill/stream-processing-(kafka)",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "Stream Processing (Kafka)"
+      ],
+      "title": "Stream Processing with Kafka Fundamentals"
+    },
+    {
+      "comprehensive_guides": {
+        "data analysis": "# 📚 Comprehensive Guide: data analysis\n\n## 🎯 Overview\nIdentify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose.\n\n## 🔑 Key Learning Objectives\n- Understand core concepts and terminology\n- Apply data analysis in real-world scenarios  \n- Develop practical, job-ready skills\n- Build confidence through hands-on practice\n\n## 📈 Learning Path\n\n### 1. Foundation Phase (25% of time)\n**Goal**: Build solid understanding of basics\n- **Theory**: Core principles and concepts\n- **Vocabulary**: Essential terminology and definitions\n- **Context**: Why data analysis matters in your field\n- **Prerequisites**: Review any foundational knowledge needed\n\n### 2. Application Phase (50% of time)  \n**Goal**: Develop practical skills\n- **Guided Practice**: Follow step-by-step tutorials\n- **Mini-Projects**: Small, manageable applications\n- **Problem Solving**: Work through common challenges\n- **Tools & Resources**: Learn essential software/platforms\n\n### 3. Integration Phase (25% of time)\n**Goal**: Apply skills professionally  \n- **Real Projects**: Work on portfolio-worthy applications\n- **Best Practices**: Learn industry standards\n- **Advanced Techniques**: Explore specialized approaches\n- **Career Application**: Connect skills to job requirements\n\n## 💡 Practical Exercises\n\n### Beginner Level\n- Interactive tutorials and guided walkthroughs\n- Simple exercises with immediate feedback\n- Concept review and terminology practice\n\n### Intermediate Level  \n- Project-based learning with real datasets\n- Problem-solving scenarios from industry\n- Integration with other skills you're learning\n\n### Advanced Level\n- Complex, multi-step projects\n- Optimization and performance challenges\n- Leadership and teaching opportunities\n\n## 📊 Progress Tracking\n- [ ] Complete foundational concepts\n- [ ] Finish guided practice exercises\n- [ ] Build first independent project\n- [ ] Apply skills in work/portfolio context\n- [ ] Achieve proficiency benchmarks\n\n## 🔗 Recommended Resources\n- Official documentation and tutorials\n- Interactive learning platforms\n- Community forums and support groups\n- Professional certification paths (if applicable)\n\n## 🚀 Career Integration\n- **Job Market Value**: How data analysis enhances your profile\n- **Portfolio Projects**: Ways to demonstrate competency\n- **Interview Prep**: Common questions and talking points\n- **Continuous Learning**: Staying current with updates\n\n---\n*This guide is personalized for your learning journey. Adjust timing and depth based on your pace and career goals.*\n"
+      },
+      "difficulty_level": "beginner",
+      "duration": "8 hours",
+      "estimated_duration_hours": 8,
+      "learning_resources": {
+        "communities": [
+          "r/analytics",
+          "KDnuggets Community",
+          "Data Science Central"
+        ],
+        "documentation": [
+          "Matplotlib Documentation",
+          "Pandas Documentation",
+          "NumPy Documentation"
+        ],
+        "online_courses": [
+          "Microsoft Power BI Course",
+          "IBM Data Science Specialization",
+          "Google Data Analytics Certificate"
+        ],
+        "practice_platforms": [
+          "Analytics Vidhya",
+          "DataCamp Practice",
+          "Kaggle Learn"
+        ],
+        "tutorials": [
+          "Pandas Documentation Tutorials",
+          "Matplotlib Tutorials",
+          "NumPy Quickstart"
+        ]
+      },
+      "objectives": [
+        "Use analysis techniques to validate pipeline outputs",
+        "Perform exploratory checks to detect anomalies and data quality issues",
+        "Communicate findings through reproducible analysis workflows"
+      ],
+      "prerequisites": [
+        "Sql",
+        "Python"
+      ],
+      "session_number": 15,
+      "skill_details": [
+        {
+          "community_score": 0.0,
+          "community_votes": 0,
+          "description": "Identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose.",
+          "difficulty": "intermediate",
+          "explanation": "Essential skill for this occupation",
+          "label": "data analysis",
+          "priority": 2,
+          "relation_type": "essential",
+          "relevance_score": 0.7,
+          "uri": "http://data.europa.eu/esco/skill/629685b8-5f9e-4522-8cff-b3e2c4ec625a",
+          "vote_score": 0
+        }
+      ],
+      "skills": [
+        "data analysis"
+      ],
+      "title": "Data Analysis with SQL and Python for Validation and Insights"
+    }
+  ],
+  "matched_occupation": {
+    "description": "Data engineers develop the architecture needed to process, manage, and store large amounts of data which will be used by data scientists for analysis. They design the infrastructure and maintain data pipelines and warehouses to leverage data for strategic advantage.",
+    "label": "data engineer",
+    "similarity_score": 0.8737404205042612,
+    "uri": "http://data.europa.eu/esco/occupation/2079755f-d809-49e6-8037-4de6180e54c0"
+  },
+  "skill_gap_summary": {
+    "recognized_skills": [],
+    "skills_analyzed": 38,
+    "skills_in_path": 15,
+    "skills_to_learn": 38,
+    "total_skills_needed": 38
+  },
+  "user_id": "eval_user_28"
+}

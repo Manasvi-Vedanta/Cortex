@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:59:41.402931",
+      "learning_path_id": "test_48",
+      "target_occupation": "industrial engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A commit captures a snapshot of changes (with metadata and a message), enabling traceability and rollback—critical for controlled engineering changes.",
+        "id": 1,
+        "options": {
+          "A": "To permanently delete files from the repository",
+          "B": "To record a snapshot of changes with a message for traceability",
+          "C": "To compile source code into a binary",
+          "D": "To upload artifacts to an artifact repository"
+        },
+        "question": "In Git, what is the primary purpose of a commit?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A Dockerfile contains the step-by-step instructions to build a Docker image (base image, dependencies, copy files, run commands, etc.).",
+        "id": 2,
+        "options": {
+          "A": "docker-compose.yml",
+          "B": "Dockerfile",
+          "C": "package.json",
+          "D": "Jenkinsfile"
+        },
+        "question": "Which file is commonly used by Docker to define how to build a container image?",
+        "topic": "Containerization (Docker)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "SemVer increments MINOR for backward-compatible feature additions; MAJOR is for breaking changes and PATCH is for backward-compatible bug fixes.",
+        "id": 3,
+        "options": {
+          "A": "MAJOR",
+          "B": "MINOR",
+          "C": "PATCH",
+          "D": "None; versions should never change for new features"
+        },
+        "question": "In semantic versioning (MAJOR.MINOR.PATCH), which part should change when you add a backward-compatible feature?",
+        "topic": "Semantic Versioning & Release Tagging"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Technical drawing tools produce standardized, dimensioned, and toleranced drawings that communicate design and manufacturing requirements clearly.",
+        "id": 4,
+        "options": {
+          "A": "It replaces the need for measurements by automatically guessing dimensions",
+          "B": "It creates standardized drawings (dimensions, tolerances, annotations) to communicate manufacturing intent",
+          "C": "It is only used for marketing visuals, not production",
+          "D": "It is primarily used to run CI/CD pipelines"
+        },
+        "question": "Which statement best describes the purpose of technical drawing software in an industrial engineering context?",
+        "topic": "use technical drawing software"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Maven is a Java build tool that resolves dependencies and produces artifacts like JARs in a repeatable way, commonly used in CI.",
+        "id": 5,
+        "options": {
+          "A": "Maven",
+          "B": "Npm",
+          "C": "Terraform",
+          "D": "Ansible"
+        },
+        "question": "You need a CI pipeline to build a Java service and produce a JAR with reproducible dependencies. Which build tool is most directly aligned with this requirement?",
+        "topic": "Build Systems (Maven/Gradle/Bazel/Make)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "df -h reports filesystem disk space usage in human-readable units, useful for diagnosing capacity issues affecting production systems.",
+        "id": 6,
+        "options": {
+          "A": "df -h",
+          "B": "ps aux",
+          "C": "chmod +x",
+          "D": "grep -R"
+        },
+        "question": "In Linux systems administration, which command is most appropriate to check disk space usage by mounted filesystems on a production server?",
+        "topic": "Linux Systems Administration"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Artifact repositories store and serve versioned build outputs with metadata and access control, enabling traceable, repeatable deployments.",
+        "id": 7,
+        "options": {
+          "A": "Artifact repository (e.g., Nexus/Artifactory)",
+          "B": "Package manager (e.g., pip/npm)",
+          "C": "Text editor",
+          "D": "Load balancer"
+        },
+        "question": "You want to publish and retrieve versioned build outputs (e.g., JARs, Docker images) for traceable releases across plants. Which tool category best fits this need?",
+        "topic": "Artifact Repositories (Nexus/Artifactory)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A Git tag plus embedding the commit SHA (e.g., OCI labels) creates a strong audit trail linking the built image to an immutable source revision.",
+        "id": 8,
+        "options": {
+          "A": "Build from the default branch without tags and rely on timestamps",
+          "B": "Tag the release in Git and embed the Git commit SHA as an image label during the build",
+          "C": "Rename the Dockerfile after each release",
+          "D": "Store the image only on the build agent to prevent changes"
+        },
+        "question": "A GitHub Actions workflow builds a Docker image for a line-control application. You must ensure the exact source state used for the image can be audited later. Which approach best supports this?",
+        "topic": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Deployments with RollingUpdate and readiness probes gradually shift traffic only to healthy pods and support rollback to a previous ReplicaSet if issues occur.",
+        "id": 9,
+        "options": {
+          "A": "DaemonSet with hostNetwork enabled",
+          "B": "Deployment with RollingUpdate strategy and readiness probes",
+          "C": "ConfigMap without versioning",
+          "D": "Running pods only in the default namespace"
+        },
+        "question": "You manage a Kubernetes deployment for an industrial data-collection service. A new version causes intermittent failures under load. You need a safe rollout strategy that limits impact and allows quick rollback. Which Kubernetes feature best fits?",
+        "topic": "Kubernetes"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Terraform is suited for declarative infrastructure provisioning, while Ansible handles configuration management; version control enables consistent, auditable environments.",
+        "id": 10,
+        "options": {
+          "A": "Use Terraform to provision infrastructure and Ansible to configure OS/software, both driven by version-controlled code",
+          "B": "Use only Bash scripts run manually on each server",
+          "C": "Store environment details in a spreadsheet and apply changes ad hoc",
+          "D": "Use npm to install system packages and ignore infrastructure provisioning"
+        },
+        "question": "You must provision identical test environments for a manufacturing execution system across multiple sites. Some resources are cloud (networks/VMs) and some are on-prem configuration steps (packages/services). Which approach best supports repeatability and separation of concerns?",
+        "topic": "Infrastructure As Code (Terraform/Ansible)"
+      }
+    ],
+    "topics_covered": [
+      "Version Control (Git)",
+      "Build Systems (Maven/Gradle/Bazel/Make)",
+      "Package Management (Npm/Pip/Gem/Nuget)",
+      "Scripting (Bash/Python)",
+      "Linux Systems Administration",
+      "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+      "Artifact Repositories (Nexus/Artifactory)",
+      "Semantic Versioning & Release Tagging",
+      "Release Automation & Orchestration",
+      "Containerization (Docker)",
+      "Infrastructure As Code (Terraform/Ansible)",
+      "Kubernetes",
+      "use technical drawing software",
+      "production processes",
+      "engineering principles"
+    ]
+  },
+  "success": true
+}

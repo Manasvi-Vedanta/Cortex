@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:54:38.430519",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Indexes provide faster lookup paths (e.g., B-tree) so the database can find rows without scanning the entire table.",
+        "is_correct": false,
+        "question": "In a relational DBMS, what is the primary purpose of an index?",
+        "question_id": 1,
+        "topic": "database management systems",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows prior to GROUP BY and aggregate functions; HAVING filters after aggregation.",
+        "is_correct": false,
+        "question": "Which SQL clause is used to filter rows before aggregation occurs?",
+        "question_id": 2,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Fact tables store measurable metrics (facts) and foreign keys to related dimension tables.",
+        "is_correct": true,
+        "question": "In dimensional modeling, what is a fact table primarily used to store?",
+        "question_id": 3,
+        "topic": "Data Modeling",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Airflow DAGs define a workflow as tasks connected by dependencies in a directed acyclic graph.",
+        "is_correct": true,
+        "question": "In Apache Airflow, what is a DAG?",
+        "question_id": 4,
+        "topic": "Workflow Orchestration (Airflow)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ROW_NUMBER() (or DENSE_RANK()) OVER (PARTITION BY department ORDER BY salary DESC) enables selecting the top N per group.",
+        "is_correct": true,
+        "question": "You need the top 3 highest-paid employees per department. Which SQL approach is most appropriate in PostgreSQL/MySQL 8+?",
+        "question_id": 5,
+        "topic": "Database Systems (Postgresql/Mysql)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ELT typically loads data into the destination (warehouse/lakehouse) and performs transformations there using scalable compute.",
+        "is_correct": false,
+        "question": "Which statement best describes ELT compared to ETL in modern cloud analytics?",
+        "question_id": 6,
+        "topic": "Etl/Elt Pipeline Development",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Iterating line-by-line avoids loading the entire dataset into memory and supports incremental processing.",
+        "is_correct": false,
+        "question": "In Python, which approach is generally most memory-efficient for processing a very large newline-delimited JSON file?",
+        "question_id": 7,
+        "topic": "Python",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Delta Lake adds a transaction log on top of Parquet to provide ACID guarantees, schema enforcement/evolution, and time travel.",
+        "is_correct": false,
+        "question": "You store Parquet data in S3 and want ACID transactions, schema evolution, and time travel for analytics. Which table format best fits?",
+        "question_id": 8,
+        "topic": "Data Lake/Lakehouse (S3/Adls/Gcs, Delta/Iceberg/Hudi)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Within a consumer group, each partition is assigned to at most one consumer; extra consumers remain unassigned (idle).",
+        "is_correct": false,
+        "question": "A Kafka consumer group has 6 consumers but the topic has only 4 partitions. What is the outcome?",
+        "question_id": 9,
+        "topic": "Stream Processing (Kafka)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Partitioning data by the aggregation key (and tuning shuffle partitions) reduces unnecessary data movement and can improve shuffle efficiency.",
+        "is_correct": false,
+        "question": "You need to compute daily aggregates over a 10 TB dataset using Spark. The job is slow and shows heavy shuffle. Which change most directly reduces shuffle for groupBy on a high-cardinality key?",
+        "question_id": 10,
+        "topic": "Apache Spark",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: database management systems, Sql, Etl/Elt Pipeline Development",
+      "✅ Your strongest areas: Data Modeling, Workflow Orchestration (Airflow)"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Modeling",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Workflow Orchestration (Airflow)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Database Systems (Postgresql/Mysql)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "database management systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Etl/Elt Pipeline Development",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Lake/Lakehouse (S3/Adls/Gcs, Delta/Iceberg/Hudi)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Stream Processing (Kafka)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Apache Spark",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

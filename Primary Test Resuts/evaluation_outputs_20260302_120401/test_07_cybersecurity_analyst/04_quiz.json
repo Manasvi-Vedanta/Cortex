@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:14:26.001095",
+      "learning_path_id": "test_07",
+      "target_occupation": "computer scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "SIEM platforms centralize logs/events, correlate them across sources, and generate alerts/dashboards for detection and response.",
+        "id": 1,
+        "options": {
+          "A": "To compile source code into machine code",
+          "B": "To collect, correlate, and alert on security-relevant events from many sources",
+          "C": "To replace endpoint antivirus with a firewall",
+          "D": "To encrypt all files on a server automatically"
+        },
+        "question": "What is the primary purpose of a SIEM such as Splunk or Elastic Security?",
+        "topic": "Security Monitoring & Siem (Splunk/Elastic)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Read permission on a directory allows listing filenames; execute controls traversing/accessing entries.",
+        "id": 2,
+        "options": {
+          "A": "Read (r) on the directory",
+          "B": "Write (w) on the directory",
+          "C": "Execute (x) on the directory",
+          "D": "Setuid (s) on the directory"
+        },
+        "question": "In Linux, which permission bit allows a user to list a directory’s contents?",
+        "topic": "Linux Security (Permissions, Auditd)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "The Windows Security log records audit events such as logons, logoffs, and account management actions.",
+        "id": 3,
+        "options": {
+          "A": "Application",
+          "B": "Security",
+          "C": "Setup",
+          "D": "Forwarded Events"
+        },
+        "question": "Which Windows log is most directly used to review authentication and account logon events?",
+        "topic": "Log Analysis (Windows Event Logs, Syslog)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The abstract/introduction frames the problem, motivation, and often summarizes aims/hypotheses and significance.",
+        "id": 4,
+        "options": {
+          "A": "Abstract/Introduction",
+          "B": "References",
+          "C": "Appendix",
+          "D": "Budget justification"
+        },
+        "question": "Which section of a research proposal typically states the specific aims, hypotheses, and why the work matters?",
+        "topic": "write research proposals"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Authentication-related messages (including SSH) are commonly logged under auth/authpriv depending on configuration.",
+        "id": 5,
+        "options": {
+          "A": "kern",
+          "B": "authpriv",
+          "C": "mail",
+          "D": "local7"
+        },
+        "question": "You need to detect repeated failed SSH logins on Linux from a central log server. Which Syslog facility is most commonly associated with authentication events?",
+        "topic": "Log Analysis (Windows Event Logs, Syslog)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Triage focuses on validation and prioritization using context (logs, endpoint telemetry, asset criticality) before disruptive actions.",
+        "id": 6,
+        "options": {
+          "A": "Immediately reimage the affected machine",
+          "B": "Correlate the alert with related logs/telemetry and validate against expected behavior",
+          "C": "Disable all user accounts in the organization",
+          "D": "Ignore the alert until multiple systems are impacted"
+        },
+        "question": "During incident triage, which action best helps you decide whether an alert is a true positive and how urgent it is?",
+        "topic": "Incident Response & Triage"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Effective prioritization combines technical severity with real-world exploitability and asset criticality/exposure.",
+        "id": 7,
+        "options": {
+          "A": "Patch the hosts in alphabetical order",
+          "B": "Patch only the hosts owned by the security team first",
+          "C": "Prioritize by exploitability and business impact (e.g., internet exposure, critical assets, known exploitation) rather than CVSS alone",
+          "D": "Ignore vulnerabilities with CVSS below 9.0"
+        },
+        "question": "A vulnerability scanner reports CVE-XXXX on 500 hosts. Which prioritization approach is most defensible for remediation planning?",
+        "topic": "Vulnerability Management (Scanning, Prioritization)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The sequence reflects attacker techniques (macro/doc to PowerShell, encoded commands, download/execute, scheduled task persistence), i.e., TTPs rather than a single indicator.",
+        "id": 8,
+        "options": {
+          "A": "Only an IOC match; no TTPs involved",
+          "B": "TTP chain consistent with phishing-driven execution, command/script interpreter abuse, and persistence via scheduled task",
+          "C": "Normal Windows update behavior",
+          "D": "Kerberos ticket renewal activity"
+        },
+        "question": "An EDR alert shows: a Word process spawns PowerShell with an encoded command, then PowerShell downloads a script and creates a scheduled task for persistence. Which mapping best describes this behavior?",
+        "topic": "Threat Detection & Hunting (Ioc/Ttp Analysis)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Kerberos issues commonly surface as ticket/SPN/time-skew errors in Security logs; validating SPNs and time sync is a standard diagnostic step.",
+        "id": 9,
+        "options": {
+          "A": "Check the file server’s DNS A record only",
+          "B": "Review Security event logs on the client and server for Kerberos failures (e.g., ticket errors) and validate SPN/time synchronization",
+          "C": "Delete all user profiles on the file server",
+          "D": "Disable NTFS permissions on the share"
+        },
+        "question": "In an Active Directory environment, users report intermittent access failures to a file server after a GPO change. Kerberos is used. Which investigation step is most likely to confirm a Kerberos-related root cause?",
+        "topic": "Windows Security (Active Directory, Gpo, Kerberos)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Reproducibility requires versioned code, documented data provenance/metadata, controlled environments, and an auditable pipeline—core to sound methodology and data management.",
+        "id": 10,
+        "options": {
+          "A": "Keep data and code on a personal laptop with manual file copies and no versioning",
+          "B": "Use version control for code (e.g., Git), store data with documented provenance/metadata, track environments (e.g., containers/lockfiles), and publish a reproducible pipeline/notebook",
+          "C": "Only save final plots and delete intermediate datasets to reduce clutter",
+          "D": "Rely on undocumented GUI clicks in multiple applications so results are faster to produce"
+        },
+        "question": "You are conducting a reproducible data science study using open-source tools. Which workflow best supports scientific research methodology and research data management?",
+        "topic": "manage research data"
+      }
+    ],
+    "topics_covered": [
+      "Security Monitoring & Siem (Splunk/Elastic)",
+      "Log Analysis (Windows Event Logs, Syslog)",
+      "Incident Response & Triage",
+      "Threat Detection & Hunting (Ioc/Ttp Analysis)",
+      "Windows Security (Active Directory, Gpo, Kerberos)",
+      "Linux Security (Permissions, Auditd)",
+      "Vulnerability Management (Scanning, Prioritization)",
+      "Endpoint Detection & Response (Edr)",
+      "operate open source software",
+      "use an application-specific interface",
+      "scientific research methodology",
+      "manage research data",
+      "data science",
+      "write research proposals",
+      "manage personal professional development"
+    ]
+  },
+  "success": true
+}

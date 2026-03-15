@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:34:43.315113",
+      "learning_path_id": "test_20",
+      "target_occupation": "automation engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in a single command.",
+        "id": 1,
+        "options": {
+          "A": "git branch feature/login",
+          "B": "git checkout -b feature/login",
+          "C": "git switch feature/login --create",
+          "D": "git merge feature/login"
+        },
+        "question": "In Git, which command creates a new local branch named 'feature/login' and switches to it in one step?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Build tools handle dependency resolution and automate tasks like compiling, packaging, and running tests.",
+        "id": 2,
+        "options": {
+          "A": "It records UI interactions to generate tests automatically",
+          "B": "It manages dependencies and automates build/test tasks",
+          "C": "It replaces the need for a version control system",
+          "D": "It runs tests only in a browser without any configuration"
+        },
+        "question": "Which statement best describes the purpose of a build tool like Maven/Gradle/npm in an automation project?",
+        "topic": "Build Tools & Dependency Management (Maven/Gradle/Npm)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A unique id is typically the most stable and fastest locator compared to brittle absolute XPaths or generic tags.",
+        "id": 3,
+        "options": {
+          "A": "By.id",
+          "B": "By.tagName",
+          "C": "By.linkText",
+          "D": "By.xpath with absolute path"
+        },
+        "question": "In Selenium WebDriver, which locator strategy is generally the most stable when the application provides unique identifiers?",
+        "topic": "Test Automation Frameworks (Selenium/Cypress/Playwright)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A pipeline triggered on push/merge ensures tests run automatically and consistently for each change.",
+        "id": 4,
+        "options": {
+          "A": "Running tests only on developer machines before merging",
+          "B": "Triggering a pipeline on each push/merge to main",
+          "C": "Disabling flaky tests permanently",
+          "D": "Storing test results only as screenshots on a shared drive"
+        },
+        "question": "Which CI/CD practice best helps ensure automated tests run consistently on every change to the main branch?",
+        "topic": "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "POM separates page-specific details (locators/actions) from test logic, improving maintainability and reuse.",
+        "id": 5,
+        "options": {
+          "A": "Store all locators and test assertions in a single test class for simplicity",
+          "B": "Create a class per page/screen that exposes actions and element accessors, while tests focus on business flows",
+          "C": "Put API calls and UI locators in the same utility class to reduce files",
+          "D": "Generate tests by recording user actions and never refactor them"
+        },
+        "question": "You want to implement the Page Object Model (POM). Which design best matches POM principles?",
+        "topic": "Test Design & Automation Patterns (Page Object Model, Data-Driven)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "@pytest.mark.parametrize is the standard pytest feature for data-driven tests, producing separate test cases per dataset.",
+        "id": 6,
+        "options": {
+          "A": "Use @pytest.mark.parametrize to supply multiple sets of arguments",
+          "B": "Duplicate the test function once per dataset",
+          "C": "Hard-code all datasets inside the test body as a single string",
+          "D": "Use a try/except block to loop until one dataset passes"
+        },
+        "question": "In pytest, which approach is most appropriate for running the same test with multiple input datasets (data-driven testing)?",
+        "topic": "Test Frameworks (Junit/Testng/Pytest/Jest)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Robust API tests validate protocol-level correctness (status), structure (schema/fields), and business correctness (key values).",
+        "id": 7,
+        "options": {
+          "A": "Only check that the response time is under 5 seconds",
+          "B": "Only check that the response body is not empty",
+          "C": "Check status code, validate JSON schema/required fields, and assert key business values (e.g., orderId not null)",
+          "D": "Only check that the response contains the word 'success'"
+        },
+        "question": "You are testing a REST API endpoint POST /orders that returns 201 and a JSON body. Which validation is most valuable for a robust automated API test?",
+        "topic": "Api Testing (Rest/Soap)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Explicit waits synchronize on real UI conditions, reducing flakiness compared to fixed sleeps that are either too short or waste time.",
+        "id": 8,
+        "options": {
+          "A": "Replace all waits with Thread.sleep(5000) everywhere",
+          "B": "Use explicit waits for specific conditions (e.g., element visible/clickable) and remove arbitrary sleeps",
+          "C": "Run the pipeline only at night when fewer users are online",
+          "D": "Disable parallel execution so tests run slower but unchanged"
+        },
+        "question": "Your UI tests in GitHub Actions are flaky because elements sometimes load slowly. Which change most directly improves reliability without adding excessive fixed delays?",
+        "topic": "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Modular components with defined interfaces, fail-safe behavior, and logging improve safety, maintainability, and diagnosability in automation systems.",
+        "id": 9,
+        "options": {
+          "A": "Implement all logic in one large script so it is easy to deploy as a single file",
+          "B": "Use a modular design with clear interfaces (sensor input module, control logic module, actuator output module), include fail-safe states, and log events",
+          "C": "Rely on manual operator intervention instead of implementing interlocks",
+          "D": "Remove logging to maximize performance and avoid disk usage"
+        },
+        "question": "You need to design automation components for a production line where a sensor triggers an actuator. The system must be safe and maintainable. Which approach is best?",
+        "topic": "design automation components"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Using version control, documentation, version pinning, and CI artifact retention provides auditability, reproducibility, and traceable evidence.",
+        "id": 10,
+        "options": {
+          "A": "Modify the tool directly in production without version control to save time",
+          "B": "Fork the tool/config in Git, document changes, pin versions, and integrate report artifacts into CI with retained history",
+          "C": "Disable report generation to avoid storing test evidence",
+          "D": "Only keep the latest report and delete previous ones to reduce storage"
+        },
+        "question": "You are asked to operate and customize an open-source test reporting tool (e.g., Allure) for a regulated environment. Which action best supports traceability and compliance?",
+        "topic": "operate open source software"
+      }
+    ],
+    "topics_covered": [
+      "Version Control (Git)",
+      "Programming (Java/Python/Javascript)",
+      "Build Tools & Dependency Management (Maven/Gradle/Npm)",
+      "Test Frameworks (Junit/Testng/Pytest/Jest)",
+      "Test Automation Frameworks (Selenium/Cypress/Playwright)",
+      "Test Design & Automation Patterns (Page Object Model, Data-Driven)",
+      "Api Testing (Rest/Soap)",
+      "Test Reporting & Logging (Allure/Extent/Reporter Integrations)",
+      "Ci/Cd (Jenkins/Github Actions/Gitlab Ci)",
+      "automation technology",
+      "design automation components",
+      "operate open source software",
+      "use technical drawing software",
+      "production processes",
+      "manage personal professional development"
+    ]
+  },
+  "success": true
+}

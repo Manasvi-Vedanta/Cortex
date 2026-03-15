@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:35:11.919456",
+      "learning_path_id": "test_34",
+      "target_occupation": "photographic developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The 'class' keyword defines a reference type blueprint that can be instantiated into objects, such as a timer or log entry used in a film lab tracking app.",
+        "id": 1,
+        "options": {
+          "A": "class",
+          "B": "struct",
+          "C": "namespace",
+          "D": "using"
+        },
+        "question": "In C#, which keyword is used to define a class that can be instantiated to create objects (e.g., a \"BathTimer\" for tracking development time)?",
+        "topic": "C# Programming"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Safety goggles protect against splashes and fumes contacting the eyes, which is a primary risk when mixing or pouring processing baths.",
+        "id": 2,
+        "options": {
+          "A": "Safety goggles",
+          "B": "Cotton gloves",
+          "C": "Earplugs",
+          "D": "Steel-toe boots"
+        },
+        "question": "Which piece of PPE is most appropriate to protect eyes when handling photographic processing chemicals (developer/stop/fixer)?",
+        "topic": "handle chemicals"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Update() runs every frame, making it suitable for continuously updating on-screen timers or status indicators during a simulated processing workflow.",
+        "id": 3,
+        "options": {
+          "A": "Update()",
+          "B": "Start()",
+          "C": "Awake()",
+          "D": "OnEnable()"
+        },
+        "question": "In Unity, which method is called once per frame and is commonly used to update a UI timer showing remaining development time?",
+        "topic": "Unity (C#)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Film should be cut between frames so no image area is lost; handling should also minimize fingerprints and scratches.",
+        "id": 4,
+        "options": {
+          "A": "Cut between frames to avoid cutting through an exposure",
+          "B": "Cut directly through the center of each frame for uniformity",
+          "C": "Cut only while the film is wet to reduce static",
+          "D": "Cut with bare hands to improve grip"
+        },
+        "question": "When cutting photographic film into strips for sleeves, what is the primary goal to avoid damaging images?",
+        "topic": "cut photographic film"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "World anchors (spatial anchors) bind virtual content to a real-world location/object so it remains stable relative to the environment as tracking updates.",
+        "id": 5,
+        "options": {
+          "A": "World anchors (persistent spatial anchors)",
+          "B": "Screen-space UI",
+          "C": "Local space relative to the camera only",
+          "D": "Randomized spawn points"
+        },
+        "question": "You are building an XR training app that overlays instructions on a processing machine. Which concept ensures the overlay stays fixed to the machine even as the user moves around?",
+        "topic": "Spatial Computing (Tracking, Coordinate Systems, World Anchors)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Quaternions prevent gimbal lock and support smooth interpolation (slerp), which is important for stable, realistic tool orientation in XR.",
+        "id": 6,
+        "options": {
+          "A": "They avoid gimbal lock and interpolate smoothly",
+          "B": "They store color and brightness information",
+          "C": "They are always faster than matrices on every platform",
+          "D": "They only work for 2D rotations"
+        },
+        "question": "In 3D math for XR, why are quaternions commonly used for representing rotations of virtual tools (e.g., a virtual film reel) instead of Euler angles?",
+        "topic": "3D Math (Linear Algebra, Vectors, Quaternions)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "XR Grab Interactable enables objects to be selected and manipulated by XR interactors (hands/controllers), matching common training interactions like picking up bottles.",
+        "id": 7,
+        "options": {
+          "A": "XR Grab Interactable",
+          "B": "NavMeshAgent",
+          "C": "AudioSource",
+          "D": "SpriteRenderer"
+        },
+        "question": "In Unity's XR Interaction Toolkit, which component is typically used to let a trainee grab and move a virtual chemical bottle with tracked controllers?",
+        "topic": "Xr Interaction Toolkit / Openxr"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Quality standards emphasize controlled parameters (time/temperature/agitation), adherence to SOP, and traceable documentation of deviations for QC; chemical cross-contamination is unsafe and incorrect.",
+        "id": 8,
+        "options": {
+          "A": "Pause processing if allowed by SOP, restore bath temperature to spec, increase agitation only per SOP, and document the deviation for QC review",
+          "B": "Add extra fixer to the developer tank to compensate and continue without logging",
+          "C": "Increase development time significantly to \"average out\" the density and discard temperature records",
+          "D": "Turn off recirculation permanently to prevent further temperature changes"
+        },
+        "question": "A film processor shows inconsistent density across a roll. Your logs show developer temperature drifting +2°C above spec for several minutes. In an XR training simulation, which combined corrective action best matches quality standards and process control?",
+        "topic": "quality standards"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "If the GPU is the bottleneck, reducing shader complexity, lighting cost, render resolution, and UI overdraw typically improves GPU frame time while keeping application logic unchanged.",
+        "id": 9,
+        "options": {
+          "A": "Simplify shaders/materials (reduce passes, expensive lighting), lower render scale, and reduce overdraw from UI",
+          "B": "Replace all C# scripts with more MonoBehaviours to increase modularity",
+          "C": "Increase physics fixed timestep to run physics more often",
+          "D": "Add more Debug.Log statements to confirm timing"
+        },
+        "question": "In a Unity-based XR lab simulator, you notice frame drops when multiple animated UI panels and real-time shader previews are visible. Profiling shows the GPU is the bottleneck. Which change is most likely to improve frame timing without altering the training logic?",
+        "topic": "Performance Optimization (Profiling, Frame Timing, Gpu/Cpu)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Blueprints are well-suited for clear, auditable interaction/state flow, while C++ is appropriate for robust integration/validation of sensor-like inputs—important for safety and procedural correctness.",
+        "id": 10,
+        "options": {
+          "A": "Use a Blueprint state machine (or Blueprint logic with enums) for the sequence, with C++ for low-level device/sensor integration and validation",
+          "B": "Use only Materials and Post Process volumes to control the sequence",
+          "C": "Store the sequence entirely in a texture and sample it in a shader",
+          "D": "Rely on random timers to approximate when rollers stop"
+        },
+        "question": "You are implementing an Unreal Engine training module where the user must safely remove film negatives from a processing machine. You need a reliable sequence: machine door sensor must be \"open,\" rollers must be \"stopped,\" then enable the \"Remove Negatives\" interaction. Which approach best fits Unreal's strengths for this safety-critical flow?",
+        "topic": "Unreal Engine (C++/Blueprints)"
+      }
+    ],
+    "topics_covered": [
+      "C# Programming",
+      "Unity (C#)",
+      "3D Math (Linear Algebra, Vectors, Quaternions)",
+      "Spatial Computing (Tracking, Coordinate Systems, World Anchors)",
+      "Xr Interaction Toolkit / Openxr",
+      "3D Graphics Rendering (Shaders, Lighting, Materials)",
+      "Performance Optimization (Profiling, Frame Timing, Gpu/Cpu)",
+      "Unreal Engine (C++/Blueprints)",
+      "monitor film development baths",
+      "quality standards",
+      "photographic processing techniques",
+      "handle chemicals",
+      "cut photographic film",
+      "remove film negatives from processing machine",
+      "post-processing of photographs"
+    ]
+  },
+  "success": true
+}

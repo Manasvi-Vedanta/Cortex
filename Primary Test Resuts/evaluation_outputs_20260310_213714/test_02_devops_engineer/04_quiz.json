@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:39:49.187077",
+      "learning_path_id": "test_02",
+      "target_occupation": "cloud DevOps engineer ",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "DevOps focuses on collaboration, automation, and continuous improvement to increase delivery speed and reliability.",
+        "id": 1,
+        "options": {
+          "A": "Increase separation between development and operations teams",
+          "B": "Automate and improve collaboration to deliver software faster and more reliably",
+          "C": "Replace testing with monitoring in production",
+          "D": "Eliminate the need for documentation"
+        },
+        "question": "What is the primary goal of DevOps in a software delivery organization?",
+        "topic": "DevOps"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in one step.",
+        "id": 2,
+        "options": {
+          "A": "git branch feature/login",
+          "B": "git checkout feature/login",
+          "C": "git checkout -b feature/login",
+          "D": "git switch --merge feature/login"
+        },
+        "question": "Which Git command creates a new branch named \"feature/login\" and switches to it?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "top provides an interactive, real-time view of processes and system resource usage.",
+        "id": 3,
+        "options": {
+          "A": "top",
+          "B": "ls",
+          "C": "chmod",
+          "D": "tar"
+        },
+        "question": "On a Linux system, which command is commonly used to view real-time CPU and memory usage interactively?",
+        "topic": "Linux Administration"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A Dockerfile contains instructions (FROM, RUN, COPY, etc.) used to build an image.",
+        "id": 4,
+        "options": {
+          "A": "To store runtime container logs",
+          "B": "To define how to build a Docker image",
+          "C": "To orchestrate multiple containers across nodes",
+          "D": "To encrypt container environment variables"
+        },
+        "question": "In Docker, what is the purpose of a Dockerfile?",
+        "topic": "Containers (Docker)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "OIDC federation allows short-lived credentials by assuming an IAM role, avoiding stored long-lived secrets.",
+        "id": 5,
+        "options": {
+          "A": "Commit AWS access keys into a private repo and restrict access",
+          "B": "Use OIDC-based federation from the CI system to assume an IAM role",
+          "C": "Base64-encode the credentials and store them in the repo",
+          "D": "Store credentials in a Docker image layer to avoid exposing them in logs"
+        },
+        "question": "In a CI/CD pipeline, which approach best prevents long-lived cloud credentials from being stored in the repository when deploying to AWS?",
+        "topic": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Deployment manages ReplicaSets, ensures desired replica count, and supports rolling updates/rollbacks.",
+        "id": 6,
+        "options": {
+          "A": "Service",
+          "B": "Deployment",
+          "C": "ConfigMap",
+          "D": "Ingress"
+        },
+        "question": "Which Kubernetes object is primarily responsible for keeping a specified number of pod replicas running and performing rolling updates?",
+        "topic": "Container Orchestration (Kubernetes)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Terraform state tracks resource IDs and attributes so Terraform can plan and apply changes correctly.",
+        "id": 7,
+        "options": {
+          "A": "To store application runtime logs for debugging",
+          "B": "To define cloud provider pricing and quotas",
+          "C": "To map declared resources to real infrastructure and track metadata for changes",
+          "D": "To encrypt secrets so they can be committed safely to Git"
+        },
+        "question": "In Terraform, what is the main purpose of the state file?",
+        "topic": "Infrastructure As Code (Terraform)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Vault can generate short-lived dynamic DB credentials and support rotation/renewal without rebuilding images.",
+        "id": 8,
+        "options": {
+          "A": "Bake credentials into the Docker image during build time",
+          "B": "Store credentials in Git and mount them as a ConfigMap",
+          "C": "Use Vault dynamic database credentials and have apps fetch/renew them at runtime",
+          "D": "Hardcode credentials in the application source and rely on code reviews"
+        },
+        "question": "You need to rotate database credentials used by multiple Kubernetes services without redeploying application images. Which design best fits this requirement?",
+        "topic": "Secrets Management (Vault/Kms)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Version/build labels (used carefully) plus deployment annotations enable correlating error spikes with specific releases.",
+        "id": 9,
+        "options": {
+          "A": "Increase Prometheus scrape interval to reduce metric noise",
+          "B": "Add a build/version label to metrics and correlate with deployment events in Grafana",
+          "C": "Disable labels to reduce cardinality and make graphs simpler",
+          "D": "Move all metrics to logs and stop using Prometheus"
+        },
+        "question": "A Prometheus alert fires when error rate increases, but you want to quickly identify which service version introduced the regression. Which approach best improves this investigation workflow?",
+        "topic": "Monitoring & Alerting (Prometheus/Grafana)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "CPU-bound tasks block Node’s event loop; offloading to worker threads or external workers reduces blocking and improves throughput.",
+        "id": 10,
+        "options": {
+          "A": "Replace asynchronous I/O with synchronous file reads for predictability",
+          "B": "Move CPU-heavy work to worker threads or an external job queue/service",
+          "C": "Increase console.log statements to improve observability",
+          "D": "Disable keep-alive on HTTP connections to force new connections"
+        },
+        "question": "Your Node.js API is deployed behind a load balancer and occasionally returns 502 errors under load. You suspect the app is blocking the event loop. Which change is most likely to reduce event-loop blocking?",
+        "topic": "JavaScript"
+      }
+    ],
+    "topics_covered": [
+      "DevOps",
+      "Version Control (Git)",
+      "Linux Administration",
+      "Scripting (Bash)",
+      "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+      "Containers (Docker)",
+      "Container Orchestration (Kubernetes)",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Infrastructure As Code (Terraform)",
+      "Configuration Management (Ansible)",
+      "Secrets Management (Vault/Kms)",
+      "Monitoring & Alerting (Prometheus/Grafana)",
+      "Logging & Observability (Elk/Opensearch)",
+      "JavaScript",
+      "software frameworks"
+    ]
+  },
+  "success": true
+}

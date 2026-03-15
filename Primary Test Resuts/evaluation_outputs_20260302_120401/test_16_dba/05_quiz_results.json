@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:28:05.831916",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A DBMS provides structured storage, querying, concurrency, and security mechanisms for managing data.",
+        "is_correct": false,
+        "question": "What is the primary role of a Database Management System (DBMS)?",
+        "question_id": 1,
+        "topic": "database management systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "DROP TABLE removes the table definition and data; TRUNCATE removes rows but keeps the table.",
+        "is_correct": false,
+        "question": "Which SQL statement is used to permanently remove a table and its definition from a relational database?",
+        "question_id": 2,
+        "topic": "operate relational database management system",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "top provides a live view of processes and system resource usage, useful for identifying resource contention.",
+        "is_correct": false,
+        "question": "On Linux, which command is commonly used to view real-time CPU and memory usage to help diagnose database host pressure?",
+        "question_id": 3,
+        "topic": "Linux/Unix Administration",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Normalization structures data to minimize redundancy and avoid insert/update/delete anomalies.",
+        "is_correct": true,
+        "question": "In data modeling, what is the main goal of normalization (e.g., 1NF to 3NF)?",
+        "question_id": 4,
+        "topic": "Data Modeling And Normalization",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A composite index starting with the filter column (customer_id) can efficiently locate rows and then provide ordering by created_at.",
+        "is_correct": false,
+        "question": "A query frequently filters by customer_id and sorts by created_at: WHERE customer_id = ? ORDER BY created_at DESC. Which index is typically most effective?",
+        "question_id": 5,
+        "topic": "Indexing And Query Optimization",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "ANALYZE collects statistics about table contents that the planner uses for cost estimates and plan selection.",
+        "is_correct": false,
+        "question": "In PostgreSQL, which command updates table statistics used by the query planner to choose better execution plans?",
+        "question_id": 6,
+        "topic": "PostgreSQL",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The FULL recovery model preserves the transaction log chain needed for point-in-time restores with log backups.",
+        "is_correct": false,
+        "question": "In SQL Server, which recovery model is required to support point-in-time recovery using transaction log backups?",
+        "question_id": 7,
+        "topic": "SQL Server",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "InnoDB MVCC retains old versions until all transactions that might need them finish; long transactions delay purge and grow undo/history.",
+        "is_correct": false,
+        "question": "A MySQL InnoDB server shows increasing 'history list length' and growing undo tablespace; long-running transactions are present. What is the most likely root cause?",
+        "question_id": 8,
+        "topic": "MySQL",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "HA requires redundancy and automated failover (e.g., primary/standby with health checks) to minimize downtime during failures or maintenance.",
+        "is_correct": false,
+        "question": "You need near-zero downtime maintenance for a critical database. Which approach best matches a high availability design that allows automatic failover?",
+        "question_id": 9,
+        "topic": "High Availability And Disaster Recovery (Hadr)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Replication lag with high write latency often indicates the replica cannot keep up with log receive/replay due to I/O constraints; improving I/O is a safe first step without weakening durability.",
+        "is_correct": false,
+        "question": "A monitoring system reports rising replication lag on a read replica and increasing disk write latency on the replica host. Which action is the best first step to reduce lag while preserving data consistency?",
+        "question_id": 10,
+        "topic": "Database Monitoring And Alerting",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: database management systems, operate relational database management system, Linux/Unix Administration",
+      "✅ Your strongest areas: Data Modeling And Normalization"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Modeling And Normalization",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "database management systems",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "operate relational database management system",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux/Unix Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Indexing And Query Optimization",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "PostgreSQL",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "SQL Server",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "MySQL",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "High Availability And Disaster Recovery (Hadr)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Database Monitoring And Alerting",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

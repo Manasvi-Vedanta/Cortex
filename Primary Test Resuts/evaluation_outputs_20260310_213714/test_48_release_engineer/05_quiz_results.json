@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:59:43.447424",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A commit captures a snapshot of changes (with metadata and a message), enabling traceability and rollback—critical for controlled engineering changes.",
+        "is_correct": true,
+        "question": "In Git, what is the primary purpose of a commit?",
+        "question_id": 1,
+        "topic": "Version Control (Git)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A Dockerfile contains the step-by-step instructions to build a Docker image (base image, dependencies, copy files, run commands, etc.).",
+        "is_correct": true,
+        "question": "Which file is commonly used by Docker to define how to build a container image?",
+        "question_id": 2,
+        "topic": "Containerization (Docker)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "SemVer increments MINOR for backward-compatible feature additions; MAJOR is for breaking changes and PATCH is for backward-compatible bug fixes.",
+        "is_correct": true,
+        "question": "In semantic versioning (MAJOR.MINOR.PATCH), which part should change when you add a backward-compatible feature?",
+        "question_id": 3,
+        "topic": "Semantic Versioning & Release Tagging",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Technical drawing tools produce standardized, dimensioned, and toleranced drawings that communicate design and manufacturing requirements clearly.",
+        "is_correct": false,
+        "question": "Which statement best describes the purpose of technical drawing software in an industrial engineering context?",
+        "question_id": 4,
+        "topic": "use technical drawing software",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Maven is a Java build tool that resolves dependencies and produces artifacts like JARs in a repeatable way, commonly used in CI.",
+        "is_correct": true,
+        "question": "You need a CI pipeline to build a Java service and produce a JAR with reproducible dependencies. Which build tool is most directly aligned with this requirement?",
+        "question_id": 5,
+        "topic": "Build Systems (Maven/Gradle/Bazel/Make)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "df -h reports filesystem disk space usage in human-readable units, useful for diagnosing capacity issues affecting production systems.",
+        "is_correct": true,
+        "question": "In Linux systems administration, which command is most appropriate to check disk space usage by mounted filesystems on a production server?",
+        "question_id": 6,
+        "topic": "Linux Systems Administration",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Artifact repositories store and serve versioned build outputs with metadata and access control, enabling traceable, repeatable deployments.",
+        "is_correct": true,
+        "question": "You want to publish and retrieve versioned build outputs (e.g., JARs, Docker images) for traceable releases across plants. Which tool category best fits this need?",
+        "question_id": 7,
+        "topic": "Artifact Repositories (Nexus/Artifactory)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A Git tag plus embedding the commit SHA (e.g., OCI labels) creates a strong audit trail linking the built image to an immutable source revision.",
+        "is_correct": false,
+        "question": "A GitHub Actions workflow builds a Docker image for a line-control application. You must ensure the exact source state used for the image can be audited later. Which approach best supports this?",
+        "question_id": 8,
+        "topic": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Deployments with RollingUpdate and readiness probes gradually shift traffic only to healthy pods and support rollback to a previous ReplicaSet if issues occur.",
+        "is_correct": true,
+        "question": "You manage a Kubernetes deployment for an industrial data-collection service. A new version causes intermittent failures under load. You need a safe rollout strategy that limits impact and allows quick rollback. Which Kubernetes feature best fits?",
+        "question_id": 9,
+        "topic": "Kubernetes",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Terraform is suited for declarative infrastructure provisioning, while Ansible handles configuration management; version control enables consistent, auditable environments.",
+        "is_correct": false,
+        "question": "You must provision identical test environments for a manufacturing execution system across multiple sites. Some resources are cloud (networks/VMs) and some are on-prem configuration steps (packages/services). Which approach best supports repeatability and separation of concerns?",
+        "question_id": 10,
+        "topic": "Infrastructure As Code (Terraform/Ansible)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 3,
+        "percentage": 75.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      },
+      "medium": {
+        "correct": 3,
+        "percentage": 100.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Good",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: use technical drawing software, Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions), Infrastructure As Code (Terraform/Ansible)",
+      "✅ Your strongest areas: Version Control (Git), Containerization (Docker)"
+    ],
+    "score": {
+      "correct": 7,
+      "grade": "B",
+      "incorrect": 3,
+      "percentage": 70.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Version Control (Git)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Containerization (Docker)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Semantic Versioning & Release Tagging",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Build Systems (Maven/Gradle/Bazel/Make)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Linux Systems Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Artifact Repositories (Nexus/Artifactory)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kubernetes",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use technical drawing software",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Infrastructure As Code (Terraform/Ansible)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

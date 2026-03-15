@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:14:28.040467",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "SIEM platforms centralize logs/events, correlate them across sources, and generate alerts/dashboards for detection and response.",
+        "is_correct": false,
+        "question": "What is the primary purpose of a SIEM such as Splunk or Elastic Security?",
+        "question_id": 1,
+        "topic": "Security Monitoring & Siem (Splunk/Elastic)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Read permission on a directory allows listing filenames; execute controls traversing/accessing entries.",
+        "is_correct": false,
+        "question": "In Linux, which permission bit allows a user to list a directory’s contents?",
+        "question_id": 2,
+        "topic": "Linux Security (Permissions, Auditd)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "The Windows Security log records audit events such as logons, logoffs, and account management actions.",
+        "is_correct": false,
+        "question": "Which Windows log is most directly used to review authentication and account logon events?",
+        "question_id": 3,
+        "topic": "Log Analysis (Windows Event Logs, Syslog)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The abstract/introduction frames the problem, motivation, and often summarizes aims/hypotheses and significance.",
+        "is_correct": false,
+        "question": "Which section of a research proposal typically states the specific aims, hypotheses, and why the work matters?",
+        "question_id": 4,
+        "topic": "write research proposals",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Authentication-related messages (including SSH) are commonly logged under auth/authpriv depending on configuration.",
+        "is_correct": true,
+        "question": "You need to detect repeated failed SSH logins on Linux from a central log server. Which Syslog facility is most commonly associated with authentication events?",
+        "question_id": 5,
+        "topic": "Log Analysis (Windows Event Logs, Syslog)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Triage focuses on validation and prioritization using context (logs, endpoint telemetry, asset criticality) before disruptive actions.",
+        "is_correct": false,
+        "question": "During incident triage, which action best helps you decide whether an alert is a true positive and how urgent it is?",
+        "question_id": 6,
+        "topic": "Incident Response & Triage",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Effective prioritization combines technical severity with real-world exploitability and asset criticality/exposure.",
+        "is_correct": false,
+        "question": "A vulnerability scanner reports CVE-XXXX on 500 hosts. Which prioritization approach is most defensible for remediation planning?",
+        "question_id": 7,
+        "topic": "Vulnerability Management (Scanning, Prioritization)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The sequence reflects attacker techniques (macro/doc to PowerShell, encoded commands, download/execute, scheduled task persistence), i.e., TTPs rather than a single indicator.",
+        "is_correct": false,
+        "question": "An EDR alert shows: a Word process spawns PowerShell with an encoded command, then PowerShell downloads a script and creates a scheduled task for persistence. Which mapping best describes this behavior?",
+        "question_id": 8,
+        "topic": "Threat Detection & Hunting (Ioc/Ttp Analysis)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Kerberos issues commonly surface as ticket/SPN/time-skew errors in Security logs; validating SPNs and time sync is a standard diagnostic step.",
+        "is_correct": false,
+        "question": "In an Active Directory environment, users report intermittent access failures to a file server after a GPO change. Kerberos is used. Which investigation step is most likely to confirm a Kerberos-related root cause?",
+        "question_id": 9,
+        "topic": "Windows Security (Active Directory, Gpo, Kerberos)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Reproducibility requires versioned code, documented data provenance/metadata, controlled environments, and an auditable pipeline—core to sound methodology and data management.",
+        "is_correct": false,
+        "question": "You are conducting a reproducible data science study using open-source tools. Which workflow best supports scientific research methodology and research data management?",
+        "question_id": 10,
+        "topic": "manage research data",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Log Analysis (Windows Event Logs, Syslog)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Security Monitoring & Siem (Splunk/Elastic), Linux Security (Permissions, Auditd), write research proposals",
+      "📖 Topics needing more practice: Log Analysis (Windows Event Logs, Syslog)"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Security Monitoring & Siem (Splunk/Elastic)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux Security (Permissions, Auditd)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "write research proposals",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Incident Response & Triage",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Vulnerability Management (Scanning, Prioritization)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Threat Detection & Hunting (Ioc/Ttp Analysis)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Windows Security (Active Directory, Gpo, Kerberos)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "manage research data",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

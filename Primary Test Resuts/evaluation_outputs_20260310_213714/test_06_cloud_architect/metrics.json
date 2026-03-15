@@ -1,0 +1,52 @@
+{
+  "test_id": "06",
+  "goal": "I want to become a Cloud Architect.",
+  "short_name": "Cloud Architect",
+  "category": "Infrastructure",
+  "matched_occupation": "cloud engineer",
+  "occupation_uri": "http://data.europa.eu/esco/occupation/349ee6f6-c295-4c38-9b98-48765b55280e",
+  "similarity_score": 0.9372994220703789,
+  "total_skills": 15,
+  "total_sessions": 3,
+  "skills_list": [
+    "Cloud Architecture & Design Patterns",
+    "Aws Core Services (Ec2, S3, Vpc, Iam)",
+    "Security & Identity (Iam, Kms, Secrets Management, Zero Trust)",
+    "Infrastructure As Code (Terraform)",
+    "Containers (Docker)",
+    "Kubernetes (Eks/Aks/Gke)",
+    "Monitoring & Observability (Cloudwatch/Prometheus/Grafana/Opentelemetry)",
+    "High Availability & Disaster Recovery (Multi-Az/Region, Backups, Rto/Rpo)",
+    "Linux Administration",
+    "cloud monitoring and reporting",
+    "design cloud architecture",
+    "do cloud refactoring",
+    "Cloud Cost Management (Finops, Tagging, Budgeting)",
+    "cloud technologies",
+    "Ci/Cd Pipelines (Github Actions/Jenkins/Gitlab Ci)"
+  ],
+  "session_durations": [
+    20,
+    19,
+    7
+  ],
+  "path_generation_time": 33.02998447418213,
+  "quiz_generation_time": 25.477633953094482,
+  "total_test_time": 109.90855288505554,
+  "quiz_questions_count": 10,
+  "quiz_difficulty_distribution": {
+    "easy": 4,
+    "medium": 3,
+    "hard": 3
+  },
+  "quiz_score_percentage": 20.0,
+  "votes_submitted": 5,
+  "suggestions_submitted": 3,
+  "path_generation_success": true,
+  "quiz_generation_success": true,
+  "voting_success": true,
+  "suggestions_success": true,
+  "regeneration_success": true,
+  "overall_success": true,
+  "errors": []
+}

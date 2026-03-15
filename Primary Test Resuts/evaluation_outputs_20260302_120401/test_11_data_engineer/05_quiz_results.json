@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:20:11.652903",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A data warehouse centralizes integrated, historical data optimized for analytics, reporting, and decision support rather than day-to-day transactions.",
+        "is_correct": false,
+        "question": "What is the primary purpose of a data warehouse in an organization?",
+        "question_id": 1,
+        "topic": "data warehouse",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows prior to GROUP BY aggregation; HAVING filters groups after aggregation.",
+        "is_correct": false,
+        "question": "In SQL, which clause is used to filter rows BEFORE aggregation occurs?",
+        "question_id": 2,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A DBMS is the software layer that manages data storage, retrieval, concurrency, security, and administration for databases.",
+        "is_correct": true,
+        "question": "Which statement best describes a Database Management System (DBMS)?",
+        "question_id": 3,
+        "topic": "database management systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Fact tables hold quantitative measures and link to dimension tables via foreign keys in a star schema.",
+        "is_correct": true,
+        "question": "In a star schema, what is a key characteristic of a fact table?",
+        "question_id": 4,
+        "topic": "Data Modeling",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "CDC captures incremental changes, reducing load and locking on the OLTP system compared to repeated full extracts.",
+        "is_correct": true,
+        "question": "You need to load data from an OLTP system into a warehouse while minimizing impact on the source database. Which approach is generally best?",
+        "question_id": 5,
+        "topic": "implement data warehousing techniques",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ELT loads data first and performs transformations inside the target warehouse, leveraging its compute and SQL engine.",
+        "is_correct": true,
+        "question": "In an ELT pipeline targeting a cloud data warehouse, where do most transformations typically occur?",
+        "question_id": 6,
+        "topic": "Etl/Elt Pipeline Development",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A task is the atomic schedulable unit in Airflow; a DAG is a collection of tasks with dependencies.",
+        "is_correct": true,
+        "question": "In Apache Airflow, which concept best represents a unit of work that can be scheduled and retried independently?",
+        "question_id": 7,
+        "topic": "Workflow Orchestration (Airflow)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Within a consumer group, each partition can be consumed by at most one consumer; with 12 partitions, only 12 consumers can be active and the rest will be idle.",
+        "is_correct": true,
+        "question": "A Kafka topic has 12 partitions. Your consumer group has 20 consumers. What is the maximum number of consumers that will actively read data in parallel from that topic?",
+        "question_id": 8,
+        "topic": "Stream Processing (Kafka)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Persisting/caching stores the join result so subsequent actions reuse it without recomputing the lineage and redoing expensive shuffles.",
+        "is_correct": false,
+        "question": "You run a Spark job that performs a large join and then multiple actions (e.g., write to two sinks and compute a metric). The join output is reused. Which change most directly reduces recomputation and repeated shuffles?",
+        "question_id": 9,
+        "topic": "Apache Spark",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "dbt tests like `unique` and `not_null` are designed for data quality enforcement and can be executed in CI via `dbt test` to fail builds when constraints are violated.",
+        "is_correct": false,
+        "question": "You are building a dbt project on a cloud data warehouse. You want to ensure that a model is not materialized if it contains duplicate primary keys, and you want this check to run automatically in CI. What is the best dbt-native approach?",
+        "question_id": 10,
+        "topic": "Dbt",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      },
+      "medium": {
+        "correct": 3,
+        "percentage": 100.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: data warehouse, Sql, Apache Spark",
+      "✅ Your strongest areas: database management systems, Data Modeling"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "database management systems",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Modeling",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "implement data warehousing techniques",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Etl/Elt Pipeline Development",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Workflow Orchestration (Airflow)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Stream Processing (Kafka)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "data warehouse",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Apache Spark",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Dbt",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

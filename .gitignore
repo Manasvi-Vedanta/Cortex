@@ -1,92 +1,61 @@
-# Python
+# Python artifacts
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
 *.egg
-MANIFEST
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
 
 # Virtual environments
 venv/
+.venv/
 ENV/
 env/
-.venv
 
-# IDEs
+# IDE/editor
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Test results (keep latest, ignore old ones)
-test_results_20251013_000427.json
-test_results_20251013_003909.json
-test_results_20251013_114328.json
-# To keep latest: test_results_20251013_115746.json
+# Local environment files
+.env
+.env.local
 
-# Old learning path outputs
-learning_path_20250925_224328.json
-learning_path_20250925_230625.json
-learning_path_20250926_122816.json
-
-# Old embedding files (keep the latest all-mpnet-base-v2)
-occupation_embeddings.pkl
-
-# Redundant/unused modules
-astar_pathfinding.py
-difficulty_scorer.py
-rag_system.py
-
-# Redundant test files
-quick_api_test.py
-final_user_test.py
-test_all_similarity_metrics.py
-
-# Database backups (if any)
+# Runtime database and locks
+genmentor.db
+genmentor.db-shm
+genmentor.db-wal
 *.db.bak
 *.db.old
+
+# Logs
+*.log
+full_system_test_log_*.txt
+
+# Generated outputs at repository root
+evaluation_outputs_*/
+test_outputs_*/
+test_results_*.json
+learning_path_*.json
+
+# Optional/generated embedding cache
+occupation_embeddings.pkl
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-
-# Environment variables
-.env
-.env.local
-.env.example
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+# Keep canonical evaluation artifacts under Primary Test Resuts tracked
+!Primary Test Resuts/
+!Primary Test Resuts/**

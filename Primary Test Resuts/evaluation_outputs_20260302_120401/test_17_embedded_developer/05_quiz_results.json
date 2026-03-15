@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:29:50.550285",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Embedded systems are purpose-built computers integrated into products (appliances, vehicles, sensors) to perform specific tasks, commonly under timing and resource constraints.",
+        "is_correct": true,
+        "question": "What best describes an embedded system?",
+        "question_id": 1,
+        "topic": "embedded systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Digital logic encodes bits as voltage ranges; logic '1' is typically represented by a voltage near VDD (within specified thresholds).",
+        "is_correct": true,
+        "question": "In digital systems, what does a logic level '1' typically represent?",
+        "question_id": 2,
+        "topic": "digital systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A debugger enables breakpoints, single-stepping, and inspection of memory/registers—core needs for embedded firmware bring-up.",
+        "is_correct": false,
+        "question": "Which IDE feature most directly helps you step through firmware line-by-line while inspecting variables and registers on a microcontroller?",
+        "question_id": 3,
+        "topic": "integrated development environment software",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is a widely used distributed version control system for tracking source code changes and collaborating across teams.",
+        "is_correct": false,
+        "question": "Which tool is most commonly used for software configuration management (version control) in embedded projects?",
+        "question_id": 4,
+        "topic": "tools for software configuration management",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Cortex-M commonly uses MSP for exceptions/handler mode and PSP for thread mode (e.g., RTOS tasks), improving isolation and context switching.",
+        "is_correct": true,
+        "question": "On an Arm Cortex-M microcontroller, which pair correctly matches the typical roles of MSP and PSP?",
+        "question_id": 5,
+        "topic": "Microcontroller Architecture (Arm Cortex-M)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Hardware timers provide stable periodic events; an interrupt (or timer-triggered flag) reduces jitter compared to busy-wait loops and polling.",
+        "is_correct": true,
+        "question": "You need periodic sampling every 1 ms with minimal CPU jitter on a bare-metal Cortex-M. Which approach is most appropriate?",
+        "question_id": 6,
+        "topic": "Interrupts And Timers",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "I2C uses SCL and SDA and includes 7/10-bit addressing, allowing multiple devices to share the same bus.",
+        "is_correct": false,
+        "question": "Which statement about UART, I2C, and SPI is correct?",
+        "question_id": 7,
+        "topic": "Serial Communication Protocols (Uart/I2C/Spi)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "FreeRTOS provides built-in stack overflow hooks and high-water mark measurements to detect insufficient stack and identify which task is at risk.",
+        "is_correct": false,
+        "question": "A FreeRTOS-based product occasionally hard-faults after running for hours. You suspect a stack overflow in one task. Which combination is the best first step to detect and diagnose it?",
+        "question_id": 8,
+        "topic": "Rtos (Freertos)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Wait queues allow a process to sleep efficiently until an event occurs; the driver wakes it when data is available, avoiding CPU waste.",
+        "is_correct": true,
+        "question": "On Embedded Linux, you are writing a character device driver for a sensor. User space should read samples via read(). Which kernel mechanism is most appropriate to block until new data arrives without busy-waiting?",
+        "question_id": 9,
+        "topic": "Device Drivers",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Model-based code generation is a common automatic programming approach in embedded systems, while Prolog/CLP is suited to expressing and solving rule/constraint problems like configuration validity.",
+        "is_correct": false,
+        "question": "You want to auto-generate embedded C code from a high-level specification and also use logic programming to express constraints (e.g., valid pin mappings). Which pairing best matches these goals?",
+        "question_id": 10,
+        "topic": "use automatic programming",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Needs Improvement",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: integrated development environment software, tools for software configuration management, Serial Communication Protocols (Uart/I2C/Spi)",
+      "✅ Your strongest areas: embedded systems, digital systems"
+    ],
+    "score": {
+      "correct": 5,
+      "grade": "C-",
+      "incorrect": 5,
+      "percentage": 50.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "embedded systems",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "digital systems",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Microcontroller Architecture (Arm Cortex-M)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Interrupts And Timers",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Device Drivers",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "integrated development environment software",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Serial Communication Protocols (Uart/I2C/Spi)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Rtos (Freertos)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use automatic programming",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:42:18.628463",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <name> creates a new branch and checks it out immediately.",
+        "is_correct": true,
+        "question": "In Git, which command creates a new branch named \"coating-process\" and switches to it in one step?",
+        "question_id": 1,
+        "topic": "Git Version Control",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "df -h reports filesystem disk space usage with human-readable units.",
+        "is_correct": false,
+        "question": "On a Linux system, which command shows disk space usage for mounted filesystems in a human-readable format?",
+        "question_id": 2,
+        "topic": "Linux Systems Administration",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Pitting corrosion is localized and forms pits, often promoted by chlorides on passive alloys like stainless steel.",
+        "is_correct": false,
+        "question": "Which corrosion type is characterized by highly localized attack that creates small holes and can rapidly perforate stainless steels in chloride environments?",
+        "question_id": 3,
+        "topic": "corrosion types",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A section view shows internal geometry by depicting the object as if cut by a plane.",
+        "is_correct": false,
+        "question": "In technical drawing software (CAD), what does a \"section view\" primarily help communicate?",
+        "question_id": 4,
+        "topic": "use technical drawing software",
+        "user_answer": "D"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "medium",
+        "explanation": "set -euo pipefail combines: exit on error (-e), error on unset vars (-u), and pipeline failure propagation (pipefail).",
+        "is_correct": false,
+        "question": "You need a Bash script to fail fast if any command errors, treat unset variables as errors, and fail a pipeline if any command in it fails. Which line best accomplishes this?",
+        "question_id": 5,
+        "topic": "Scripting (Bash)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ARG is designed for build-time parameters and is set via docker build --build-arg.",
+        "is_correct": true,
+        "question": "In Docker, what is the most appropriate way to pass a build-time value (e.g., a version string) into an image build without hardcoding it in the Dockerfile?",
+        "question_id": 6,
+        "topic": "Containerization (Docker)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Terraform state records resource instances and their IDs/attributes, enabling accurate diffing and change planning.",
+        "is_correct": false,
+        "question": "In Terraform, which concept is used to store and track the mapping between declared resources and real infrastructure so Terraform can plan changes safely?",
+        "question_id": 7,
+        "topic": "Infrastructure As Code (Terraform)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "readinessProbe controls whether a Pod is considered ready to receive traffic; failing readiness removes it from Service endpoints without restarting it.",
+        "is_correct": false,
+        "question": "A Kubernetes Deployment for a coating-inspection API experiences intermittent latency spikes. You want to reduce impact by ensuring traffic only goes to Pods that have fully initialized (e.g., warmed caches, loaded calibration data). Which probe is most appropriate?",
+        "question_id": 8,
+        "topic": "Kubernetes",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "OpenTelemetry supports distributed tracing with context propagation, enabling correlation of a single request across multiple services.",
+        "is_correct": false,
+        "question": "You are building observability for a production surface-treatment line where you must trace a part’s journey across services (order intake → bath control → QA reporting). You need end-to-end request correlation across microservices. Which approach best fits?",
+        "question_id": 9,
+        "topic": "Observability (Prometheus/Grafana/Opentelemetry)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Building once into an immutable, versioned artifact and promoting it through stages with tests and approval provides traceability, consistency, and controlled rollout.",
+        "is_correct": false,
+        "question": "A new coating recipe must be deployed to multiple production cells with minimal downtime and a clear audit trail. You want automated tests, manual approval before production, and immutable artifacts. Which CI/CD design best meets these requirements?",
+        "question_id": 10,
+        "topic": "Ci/Cd Pipelines (Github Actions/Jenkins/Gitlab Ci)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Linux Systems Administration, corrosion types, use technical drawing software",
+      "✅ Your strongest areas: Git Version Control, Containerization (Docker)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Git Version Control",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Containerization (Docker)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux Systems Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "corrosion types",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use technical drawing software",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Scripting (Bash)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Infrastructure As Code (Terraform)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Kubernetes",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Observability (Prometheus/Grafana/Opentelemetry)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Ci/Cd Pipelines (Github Actions/Jenkins/Gitlab Ci)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

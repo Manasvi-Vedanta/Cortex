@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:46:13.144256",
+      "learning_path_id": "test_06",
+      "target_occupation": "cloud engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Amazon S3 is AWS's object storage service designed for storing and retrieving any amount of data (e.g., files, backups, logs).",
+        "id": 1,
+        "options": {
+          "A": "Amazon EBS",
+          "B": "Amazon S3",
+          "C": "Amazon EC2",
+          "D": "Amazon RDS"
+        },
+        "question": "In AWS, which service is primarily used for object storage of files like images, backups, and logs?",
+        "topic": "Aws Core Services (Ec2, S3, Vpc, Iam)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "An IAM Role can be attached to an EC2 instance via an instance profile to provide temporary credentials, avoiding long-term access keys on the host.",
+        "id": 2,
+        "options": {
+          "A": "IAM User",
+          "B": "IAM Group",
+          "C": "IAM Role",
+          "D": "IAM Policy Version"
+        },
+        "question": "Which AWS IAM entity is best suited for granting permissions to an application running on an EC2 instance without storing long-term access keys on the server?",
+        "topic": "Security & Identity (Iam, Kms, Secrets Management, Zero Trust)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A Dockerfile contains instructions (FROM, RUN, COPY, etc.) that define how a Docker image is built.",
+        "id": 3,
+        "options": {
+          "A": "To store container runtime logs",
+          "B": "To define how to build a container image",
+          "C": "To orchestrate multiple containers across nodes",
+          "D": "To encrypt container images at rest"
+        },
+        "question": "In Docker, what is the primary purpose of a Dockerfile?",
+        "topic": "Containers (Docker)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The top command provides a real-time view of system resource usage and running processes.",
+        "id": 4,
+        "options": {
+          "A": "top",
+          "B": "grep",
+          "C": "tar",
+          "D": "chmod"
+        },
+        "question": "In Linux, which command is commonly used to view real-time CPU and memory usage by processes?",
+        "topic": "Linux Administration"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A NAT Gateway allows instances in private subnets to initiate outbound internet connections while preventing unsolicited inbound connections.",
+        "id": 5,
+        "options": {
+          "A": "Internet Gateway",
+          "B": "NAT Gateway",
+          "C": "VPC Peering",
+          "D": "AWS Direct Connect"
+        },
+        "question": "You need private subnets to access the internet for OS updates without allowing inbound internet traffic. Which AWS component enables this pattern?",
+        "topic": "Aws Core Services (Ec2, S3, Vpc, Iam)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Terraform state tracks resource IDs and attributes so Terraform can plan changes and manage real infrastructure safely and consistently.",
+        "id": 6,
+        "options": {
+          "A": "To store application secrets for runtime use",
+          "B": "To track the mapping between Terraform resources and real infrastructure objects",
+          "C": "To compile HCL into machine code for faster execution",
+          "D": "To store container images used by deployments"
+        },
+        "question": "In Terraform, what is the main purpose of the state file?",
+        "topic": "Infrastructure As Code (Terraform)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "OpenTelemetry provides standardized tracing instrumentation and the Collector can receive/process/export telemetry to multiple backends.",
+        "id": 7,
+        "options": {
+          "A": "Enable CloudWatch Logs only and parse logs for trace IDs",
+          "B": "Use OpenTelemetry instrumentation and an OpenTelemetry Collector to export traces",
+          "C": "Rely solely on Prometheus metrics and Grafana dashboards",
+          "D": "Use KMS to encrypt service-to-service traffic"
+        },
+        "question": "You want end-to-end request tracing across microservices running on Kubernetes and also want to export traces to multiple backends. Which approach best fits this requirement?",
+        "topic": "Monitoring & Observability (Cloudwatch/Prometheus/Grafana/Opentelemetry)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Multi-AZ Auto Scaling behind an ALB distributes traffic across AZs and can replace failed instances, enabling AZ fault tolerance.",
+        "id": 8,
+        "options": {
+          "A": "Single EC2 instance in one AZ with an Elastic IP",
+          "B": "Auto Scaling group spanning multiple AZs behind an Application Load Balancer",
+          "C": "Multiple EC2 instances in one AZ behind a Network Load Balancer",
+          "D": "Run the application only on AWS Lambda without any networking configuration"
+        },
+        "question": "A production web application must tolerate the loss of an entire Availability Zone with minimal downtime. Which architecture best meets this requirement on AWS?",
+        "topic": "High Availability & Disaster Recovery (Multi-Az/Region, Backups, Rto/Rpo)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Zero Trust assumes no implicit trust based on network location; it requires least privilege, strong identity, segmentation, and continuous verification (often with mTLS and policy enforcement).",
+        "id": 9,
+        "options": {
+          "A": "Allow all east-west traffic and focus only on perimeter firewall rules",
+          "B": "Implement least-privilege network controls (security groups/network policies), strong identity-based access, and continuous verification for service-to-service calls",
+          "C": "Disable TLS internally to reduce latency and rely on VPC isolation",
+          "D": "Use a single shared IAM user for all services to simplify auditing"
+        },
+        "question": "Your company is adopting Zero Trust. A team proposes allowing all traffic within the VPC because it is 'internal.' What is the best corrective action aligned with Zero Trust principles?",
+        "topic": "Security & Identity (Iam, Kms, Secrets Management, Zero Trust)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "IRSA provides pod-level, least-privilege access using short-lived credentials via OIDC, avoiding static keys in images, ConfigMaps, or nodes.",
+        "id": 10,
+        "options": {
+          "A": "Store AWS access keys in a ConfigMap and mount it into the pod",
+          "B": "Bake AWS access keys into the container image at build time",
+          "C": "Use IAM Roles for Service Accounts (IRSA) to map a Kubernetes service account to an IAM role",
+          "D": "SSH into worker nodes and export AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY as environment variables"
+        },
+        "question": "A Kubernetes workload on EKS needs to access an AWS API (e.g., S3) without using static credentials. Which solution is the most secure and cloud-native?",
+        "topic": "Kubernetes (Eks/Aks/Gke)"
+      }
+    ],
+    "topics_covered": [
+      "Cloud Architecture & Design Patterns",
+      "Aws Core Services (Ec2, S3, Vpc, Iam)",
+      "Security & Identity (Iam, Kms, Secrets Management, Zero Trust)",
+      "Infrastructure As Code (Terraform)",
+      "Containers (Docker)",
+      "Kubernetes (Eks/Aks/Gke)",
+      "Monitoring & Observability (Cloudwatch/Prometheus/Grafana/Opentelemetry)",
+      "High Availability & Disaster Recovery (Multi-Az/Region, Backups, Rto/Rpo)",
+      "Linux Administration",
+      "cloud monitoring and reporting",
+      "design cloud architecture",
+      "do cloud refactoring",
+      "Cloud Cost Management (Finops, Tagging, Budgeting)",
+      "cloud technologies",
+      "Ci/Cd Pipelines (Github Actions/Jenkins/Gitlab Ci)"
+    ]
+  },
+  "success": true
+}

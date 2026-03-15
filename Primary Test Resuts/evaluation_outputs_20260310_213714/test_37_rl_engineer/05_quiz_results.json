@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:40:36.459601",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "len() returns the number of elements in a sequence; the list has 3 elements.",
+        "is_correct": false,
+        "question": "In Python, what does the expression len([1, 2, 3]) return?",
+        "question_id": 1,
+        "topic": "Python",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Binary search halves the search space each step, leading to logarithmic time complexity.",
+        "is_correct": false,
+        "question": "Which Big-O notation best describes binary search on a sorted array of size n?",
+        "question_id": 2,
+        "topic": "algorithms",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A histogram shows how values are distributed across bins for a continuous variable.",
+        "is_correct": true,
+        "question": "Which plot is most appropriate to visualize the distribution of a single continuous variable (e.g., model inference latency)?",
+        "question_id": 3,
+        "topic": "data visualization",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A Bernoulli variable takes value 1 with probability p and 0 otherwise, so E[X] = 1·p + 0·(1-p) = p.",
+        "is_correct": false,
+        "question": "In probability, what is the expected value (mean) of a Bernoulli random variable X ~ Bernoulli(p)?",
+        "question_id": 4,
+        "topic": "Probability And Statistics",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "ROC-AUC evaluates ranking quality across all possible thresholds, unlike accuracy/F1/confusion matrix which depend on a chosen threshold.",
+        "is_correct": false,
+        "question": "You have a Pandas DataFrame with columns: y_true (0/1) and y_score (probability). Which metric is threshold-independent and commonly used for binary classifiers?",
+        "question_id": 5,
+        "topic": "data analysis",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "torch.no_grad() disables autograd tracking, reducing memory usage and ensuring no gradients are computed during inference.",
+        "is_correct": false,
+        "question": "In PyTorch, which code snippet correctly prevents gradient tracking during model evaluation?",
+        "question_id": 6,
+        "topic": "Pytorch",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A normalized design uses a one-to-many relationship: Experiments (1) → Metrics (many), enabling indexing and flexible querying by metric_name and step.",
+        "is_correct": false,
+        "question": "You are designing a relational database for ML experiments. Each experiment can have many metrics logged over time (step, metric_name, value). Which schema best supports this while avoiding duplication and enabling efficient queries?",
+        "question_id": 7,
+        "topic": "database design",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Exploding gradients can cause unstable updates and NaNs; gradient clipping bounds gradient magnitude and stabilizes training without changing the model objective.",
+        "is_correct": false,
+        "question": "You are training a deep network with SGD and observe the loss becomes NaN after a few steps. Which intervention most directly addresses exploding gradients while preserving the overall training setup?",
+        "question_id": 8,
+        "topic": "Optimization (Gradient-Based Methods, Convex/Non-Convex)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Reproducibility requires seeding all RNG sources used by the pipeline (Python/NumPy/PyTorch) and the environment/action space; logging does not enforce determinism.",
+        "is_correct": false,
+        "question": "You need reproducible RL training in Gymnasium across runs on the same machine. Which combination is most appropriate to reduce randomness from environment and learning code?",
+        "question_id": 9,
+        "topic": "Simulation Environments (Gymnasium, Mujoco, Isaac Gym)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Version control, reviews, automated testing, CI, and versioned releases provide auditability, validation, and reproducibility—critical for regulated statistical reporting.",
+        "is_correct": false,
+        "question": "Your team is building statistical software for model evaluation that will be used in regulated reporting. Which SDLC practice best ensures changes are traceable, validated, and reproducible over time?",
+        "question_id": 10,
+        "topic": "systems development life-cycle",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Python, algorithms, Probability And Statistics",
+      "✅ Your strongest areas: data visualization"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "data visualization",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "algorithms",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Probability And Statistics",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "data analysis",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Pytorch",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "database design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Optimization (Gradient-Based Methods, Convex/Non-Convex)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Simulation Environments (Gymnasium, Mujoco, Isaac Gym)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "systems development life-cycle",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

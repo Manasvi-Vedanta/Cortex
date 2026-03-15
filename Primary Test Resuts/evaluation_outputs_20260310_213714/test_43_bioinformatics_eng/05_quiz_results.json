@@ -1,0 +1,198 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:50:25.105948",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`ls -l` shows long format and `-a` includes hidden files (those starting with a dot).",
+        "is_correct": false,
+        "question": "In Linux/Unix, which command lists files in the current directory (including hidden files) in a long format?",
+        "question_id": 1,
+        "topic": "Linux/Unix Command Line",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A `set` stores unique elements and provides average O(1) membership checks.",
+        "is_correct": false,
+        "question": "In Python, which data type is best suited to store unique gene IDs and support fast membership testing (e.g., `id in collection`)?",
+        "question_id": 2,
+        "topic": "Python",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`git commit -m` records staged changes in the repository history with a commit message.",
+        "is_correct": false,
+        "question": "In Git, which command creates a new commit from staged changes with a message?",
+        "question_id": 3,
+        "topic": "Version Control (Git)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`WHERE` filters rows before grouping/ordering based on boolean conditions.",
+        "is_correct": false,
+        "question": "In SQL, which clause is used to filter rows based on a condition?",
+        "question_id": 4,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "`samtools stats` reports mapping statistics including mapped reads and percentages.",
+        "is_correct": false,
+        "question": "You have a BAM file and want to quickly estimate the fraction of reads mapped to the reference genome. Which `samtools` command is most appropriate?",
+        "question_id": 5,
+        "topic": "Genome Alignment And Variant Calling Tools (Bwa/Gatk/Samtools)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "GATK HaplotypeCaller performs local re-assembly and emits variant calls, commonly in gVCF mode for joint genotyping.",
+        "is_correct": false,
+        "question": "In a typical GATK germline short-variant workflow, which step is primarily responsible for assigning genotype likelihoods and producing a per-sample gVCF?",
+        "question_id": 6,
+        "topic": "Next-Generation Sequencing (Ngs) Data Analysis",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "`rule all` typically lists desired output files, letting Snakemake build the dependency graph to reach those targets.",
+        "is_correct": false,
+        "question": "In Snakemake, what is the main purpose of the `rule all` section in a workflow?",
+        "question_id": 7,
+        "topic": "Workflow Management (Nextflow/Snakemake)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "GATK relies on correct read group metadata, especially sample (`SM`) and read group identifier (`ID`), to track data provenance and handle duplicates and multi-lane inputs properly.",
+        "is_correct": false,
+        "question": "You are aligning 30x human WGS reads with BWA-MEM2 and plan to run GATK. Which read group (RG) fields are most critical to set correctly to avoid downstream issues with duplicate marking and sample identity?",
+        "question_id": 8,
+        "topic": "Genome Alignment And Variant Calling Tools (Bwa/Gatk/Samtools)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "`--cpus-per-task` requests the number of CPU cores allocated to the task, matching the tool’s thread count and preventing contention/throttling.",
+        "is_correct": false,
+        "question": "On an HPC cluster using Slurm, you submit a job that is much slower than expected. You suspect oversubscription because your tool uses 16 threads but the job only requested 4 CPUs. Which Slurm directive best addresses this mismatch?",
+        "question_id": 9,
+        "topic": "High-Performance Computing (Hpc) And Job Schedulers (Slurm)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Passing arguments as a list with `shell=False` avoids shell interpretation; combined with validation/sanitization it mitigates command injection risks.",
+        "is_correct": false,
+        "question": "You are building a web service that accepts a VCF upload and returns annotated variants. To prevent command injection when calling an external annotator from Python, which approach is safest?",
+        "question_id": 10,
+        "topic": "web programming",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Linux/Unix Command Line, Python, Version Control (Git)"
+    ],
+    "score": {
+      "correct": 0,
+      "grade": "F",
+      "incorrect": 10,
+      "percentage": 0.0,
+      "total": 10
+    },
+    "strengths": [],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux/Unix Command Line",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Version Control (Git)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Genome Alignment And Variant Calling Tools (Bwa/Gatk/Samtools)",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Next-Generation Sequencing (Ngs) Data Analysis",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Workflow Management (Nextflow/Snakemake)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "High-Performance Computing (Hpc) And Job Schedulers (Slurm)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "web programming",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

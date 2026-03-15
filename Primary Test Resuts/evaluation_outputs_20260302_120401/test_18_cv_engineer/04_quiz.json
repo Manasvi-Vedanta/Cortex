@@ -1,0 +1,173 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:31:24.947473",
+      "learning_path_id": "test_18",
+      "target_occupation": "computer vision engineer",
+      "total_questions": 10,
+      "total_topics": 11
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "OpenCV images are typically BGR; reversing the last axis swaps channels to RGB.",
+        "id": 1,
+        "options": {
+          "A": "Converts BGR to RGB by reversing the channel order",
+          "B": "Converts RGB to grayscale by averaging channels",
+          "C": "Flips the image vertically",
+          "D": "Normalizes pixel values to [0, 1]"
+        },
+        "question": "In Python, what does slicing img[:, :, ::-1] commonly do to an OpenCV image array?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The dot product equals ||a||·||b||·cos(theta), capturing alignment/projection between vectors.",
+        "id": 2,
+        "options": {
+          "A": "The angle-related similarity (projection) between the vectors",
+          "B": "The number of non-zero entries in the vectors",
+          "C": "The determinant of a matrix formed by the vectors",
+          "D": "The rank of the vectors"
+        },
+        "question": "In linear algebra, what does the dot product of two vectors primarily measure?",
+        "topic": "Linear Algebra"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "F1-score balances precision and recall, making it more informative than accuracy under class imbalance.",
+        "id": 3,
+        "options": {
+          "A": "Accuracy",
+          "B": "F1-score",
+          "C": "Mean Squared Error (MSE)",
+          "D": "R-squared"
+        },
+        "question": "Which metric is most appropriate to evaluate a binary classifier on a highly imbalanced dataset (e.g., rare defect detection)?",
+        "topic": "Model Training & Evaluation (Metrics, Validation, Overfitting Control)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "cv2.Sobel computes first-order derivatives (gradients) in x and/or y directions.",
+        "id": 4,
+        "options": {
+          "A": "cv2.Sobel",
+          "B": "cv2.threshold",
+          "C": "cv2.equalizeHist",
+          "D": "cv2.findContours"
+        },
+        "question": "In OpenCV, which function is commonly used to compute image gradients for edge detection (e.g., Sobel operator)?",
+        "topic": "Opencv"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Batch tensors require consistent dimensions; resizing or padding standardizes HxW for batching.",
+        "id": 5,
+        "options": {
+          "A": "Resize (or pad) images to a consistent spatial size",
+          "B": "Convert images to HSV color space only",
+          "C": "Apply Canny edge detection to all images",
+          "D": "Sort images by filename length"
+        },
+        "question": "You have a dataset of varying image sizes and want to train a CNN. Which preprocessing step is typically necessary to form batches efficiently?",
+        "topic": "Data Preprocessing & Augmentation For Vision"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "train() activates training behavior (e.g., dropout, BatchNorm updates); eval() uses inference behavior.",
+        "id": 6,
+        "options": {
+          "A": "train(): enables dropout/BatchNorm updates; eval(): disables dropout and uses running BatchNorm stats",
+          "B": "train(): freezes all weights; eval(): unfreezes all weights",
+          "C": "train(): switches to CPU; eval(): switches to GPU",
+          "D": "train(): computes gradients; eval(): permanently disables autograd for the model"
+        },
+        "question": "In PyTorch, which pair correctly describes the typical roles of model.train() and model.eval()?",
+        "topic": "PyTorch"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Convolutions reuse the same kernel across locations, drastically reducing parameters and leveraging local structure.",
+        "id": 7,
+        "options": {
+          "A": "They reduce parameters and exploit spatial locality/translation equivariance",
+          "B": "They guarantee perfect rotation invariance without augmentation",
+          "C": "They eliminate the need for nonlinear activations",
+          "D": "They always outperform transformers regardless of data size"
+        },
+        "question": "Why do CNNs typically use weight sharing and local receptive fields (convolutions) instead of fully connected layers for images?",
+        "topic": "Deep Learning (Cnn Architectures)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Too-large learning rates commonly cause oscillation/divergence; lowering LR or scheduling it improves stability.",
+        "id": 8,
+        "options": {
+          "A": "Reduce the learning rate (or use a learning rate scheduler with warmup/decay)",
+          "B": "Increase image resolution as much as possible",
+          "C": "Remove all data augmentation",
+          "D": "Switch the loss function to accuracy"
+        },
+        "question": "You are training a vision model with SGD and notice the training loss oscillates and sometimes diverges. Which change is most directly likely to stabilize training without changing the model architecture?",
+        "topic": "Optimization (Sgd, Adam, Learning Rate Scheduling)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "AP summarizes precision-recall tradeoffs; IoU threshold defines what counts as a true positive detection.",
+        "id": 9,
+        "options": {
+          "A": "Area under the precision-recall curve when detections are considered correct if IoU ≥ 0.5",
+          "B": "Average IoU across all predicted boxes regardless of class",
+          "C": "Percentage of images with at least one detection",
+          "D": "Area under the ROC curve computed from pixel-wise probabilities"
+        },
+        "question": "In object detection evaluation, what does Average Precision (AP) at IoU=0.5 primarily summarize?",
+        "topic": "Object Detection & Segmentation (Yolo, Faster R-Cnn, Mask R-Cnn)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "ROIAlign avoids quantization of ROI bin boundaries by using bilinear interpolation, improving spatial alignment for masks.",
+        "id": 10,
+        "options": {
+          "A": "ROIAlign",
+          "B": "Non-Maximum Suppression (NMS)",
+          "C": "Label smoothing",
+          "D": "Global average pooling"
+        },
+        "question": "You are training Mask R-CNN for instance segmentation and your masks look spatially misaligned with the objects, especially for small instances. Which component is most directly designed to reduce this misalignment compared to naive ROI pooling?",
+        "topic": "Object Detection & Segmentation (Yolo, Faster R-Cnn, Mask R-Cnn)"
+      }
+    ],
+    "topics_covered": [
+      "Python",
+      "Linear Algebra",
+      "Probability & Statistics",
+      "Computer Vision Fundamentals (Image Processing, Feature Extraction)",
+      "Opencv",
+      "PyTorch",
+      "Data Preprocessing & Augmentation For Vision",
+      "Deep Learning (Cnn Architectures)",
+      "Optimization (Sgd, Adam, Learning Rate Scheduling)",
+      "Model Training & Evaluation (Metrics, Validation, Overfitting Control)",
+      "Object Detection & Segmentation (Yolo, Faster R-Cnn, Mask R-Cnn)"
+    ]
+  },
+  "success": true
+}

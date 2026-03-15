@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:01:29.466917",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`top` provides an interactive, real-time view of processes and system resource usage.",
+        "is_correct": false,
+        "question": "In Linux, which command is commonly used to view real-time system and process resource usage (CPU/memory) interactively?",
+        "question_id": 1,
+        "topic": "Linux Systems Administration",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A Deployment manages ReplicaSets/Pods and supports declarative updates like rolling deployments and rollbacks.",
+        "is_correct": false,
+        "question": "In Kubernetes, what is the primary purpose of a Deployment?",
+        "question_id": 2,
+        "topic": "Kubernetes",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Terraform state tracks resource mappings and metadata so Terraform can compute diffs and manage infrastructure safely.",
+        "is_correct": false,
+        "question": "In Terraform, what is the purpose of the state file?",
+        "question_id": 3,
+        "topic": "Infrastructure As Code (Terraform)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "DMAIC is the standard Six Sigma improvement framework: Define, Measure, Analyze, Improve, Control.",
+        "is_correct": true,
+        "question": "In Six Sigma, what does the 'DMAIC' cycle stand for?",
+        "question_id": 4,
+        "topic": "six sigma methods",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Autoscaling plus right-sizing matches capacity to demand, reducing waste while maintaining availability through scaling policies.",
+        "is_correct": true,
+        "question": "You want to reduce cloud costs for a stateless web service with variable traffic. Which approach is typically most effective without sacrificing availability?",
+        "question_id": 5,
+        "topic": "cost management",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Canary releases limit blast radius and, with automated rollback tied to SLO/error signals, reduce risk and time-to-mitigate.",
+        "is_correct": true,
+        "question": "In CI/CD, which practice best reduces the risk of deploying a breaking change to production?",
+        "question_id": 6,
+        "topic": "Ci/Cd Pipelines (Jenkins/Github Actions)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "OpenTelemetry tracing relies on context propagation (commonly W3C Trace Context) and spans to represent operations across services.",
+        "is_correct": false,
+        "question": "You are instrumenting a Python service for distributed tracing across microservices. Which approach is most aligned with OpenTelemetry best practices?",
+        "question_id": 7,
+        "topic": "Logging And Tracing (Elk/Opentelemetry)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Traces pinpoint failing/slow dependencies and, when correlated with logs, quickly distinguishes app errors from downstream failures.",
+        "is_correct": false,
+        "question": "A Prometheus alert 'HighErrorRate' is firing for a Kubernetes service. Grafana shows a spike in 5xx responses, but node CPU/memory are normal. Which next step most directly helps isolate whether the issue is application-level vs. dependency-level?",
+        "question_id": 8,
+        "topic": "Monitoring And Observability (Prometheus/Grafana)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "SLO burn rate shows urgency, and version-based segmentation attributes whether the new release caused the regression despite traffic changes.",
+        "is_correct": false,
+        "question": "During an incident, you need to decide whether to roll back a new release. Error rate increased from 0.2% to 1.5% and p95 latency doubled, but traffic also increased 3x due to a marketing event. Which analysis is most appropriate for a dependability engineer before rolling back?",
+        "question_id": 9,
+        "topic": "Incident Response And On-Call Operations",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Predictive maintenance is time-dependent and imbalanced; time-based validation avoids leakage, and recall/PR-AUC with cost-based thresholds addresses rare, high-impact failures.",
+        "is_correct": false,
+        "question": "You are building a predictive maintenance model for rotating equipment using vibration and temperature sensors. Failures are rare, and missing a failure is very costly. Which evaluation approach is most appropriate?",
+        "question_id": 10,
+        "topic": "predictive maintenance",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: Linux Systems Administration, Kubernetes, Infrastructure As Code (Terraform)",
+      "✅ Your strongest areas: six sigma methods, cost management"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "six sigma methods",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "cost management",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Ci/Cd Pipelines (Jenkins/Github Actions)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux Systems Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Kubernetes",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Infrastructure As Code (Terraform)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Logging And Tracing (Elk/Opentelemetry)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Monitoring And Observability (Prometheus/Grafana)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Incident Response And On-Call Operations",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "predictive maintenance",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

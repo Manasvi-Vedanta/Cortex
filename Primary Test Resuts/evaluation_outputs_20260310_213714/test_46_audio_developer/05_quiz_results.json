@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:56:09.430991",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Headers typically contain declarations (interfaces) that multiple .cpp files include; compilation produces object code, and linking is separate.",
+        "is_correct": true,
+        "question": "In C++, what is the primary purpose of a header file (.h/.hpp) in an embedded project?",
+        "question_id": 1,
+        "topic": "C++",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is a version control system used to track changes, manage branches, and collaborate on source code.",
+        "is_correct": true,
+        "question": "Which tool is primarily used for software configuration management (version control) in embedded software teams?",
+        "question_id": 2,
+        "topic": "tools for software configuration management",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Release builds generally enable compiler optimizations and omit many debug-only checks/symbols compared to Debug.",
+        "is_correct": true,
+        "question": "In Microsoft Visual C++, which build configuration is typically used to enable optimizations and disable most debug checks for deployment?",
+        "question_id": 3,
+        "topic": "Microsoft Visual C++",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The built-in module venv is invoked via 'python -m venv <dir>' to create an isolated environment.",
+        "is_correct": true,
+        "question": "In Python, which statement correctly creates a virtual environment using the standard library?",
+        "question_id": 4,
+        "topic": "Python",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Keeping interfaces in headers and implementations in source files (and using forward declarations) limits recompilation and reduces dependencies.",
+        "is_correct": true,
+        "question": "You are using an external C/C++ library in an embedded firmware project. Which approach best reduces compile time and coupling while keeping the library usable across modules?",
+        "question_id": 5,
+        "topic": "use software libraries",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Direct Form II Transposed is popular because it uses minimal delay elements (state) and is often more numerically robust in practice.",
+        "is_correct": true,
+        "question": "In DSP for embedded audio, why is a biquad IIR filter often implemented in Direct Form II Transposed?",
+        "question_id": 6,
+        "topic": "Digital Signal Processing (Dsp)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "For symmetric positive definite matrices, Cholesky is efficient and numerically stable compared to generic elimination or explicit inversion.",
+        "is_correct": false,
+        "question": "You need to solve Ax = b on an embedded target where A is symmetric positive definite. Which method is typically the best choice for numerical stability and efficiency?",
+        "question_id": 7,
+        "topic": "Linear Algebra And Numerical Methods",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Audio callbacks must be real-time safe; allocations and locks can block and cause dropouts/clicks. Pre-allocation and RT-safe design prevent spikes.",
+        "is_correct": false,
+        "question": "A real-time audio plugin occasionally produces clicks. Profiling shows periodic CPU spikes caused by memory allocation in the audio callback. Which change best addresses the issue across VST3/AU/AAX?",
+        "question_id": 8,
+        "topic": "Audio Plugin Development (Vst3/Au/Aax)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "On Windows, ASIO is commonly used for low-latency pro audio; JUCE can interface with ASIO through appropriate support/driver integration.",
+        "is_correct": false,
+        "question": "You are building a cross-platform audio application with JUCE and need low-latency I/O. On Windows, which API is typically preferred for professional low-latency audio, and how does JUCE commonly access it?",
+        "question_id": 9,
+        "topic": "Audio I/O Apis (Asio/Core Audio/Wasapi/Alsa)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Profiling (perf) narrows down where time is spent on real hardware; a debugger (gdb/lldb) then validates logic/state at those hotspots.",
+        "is_correct": false,
+        "question": "An embedded Linux device shows a performance regression after a change. You can reproduce it only on target hardware. Which workflow best combines debugging and profiling to identify the root cause with minimal guesswork?",
+        "question_id": 10,
+        "topic": "Debugging And Profiling (Gdb/Lldb/Perf/Instruments)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Linear Algebra And Numerical Methods, Audio Plugin Development (Vst3/Au/Aax), Audio I/O Apis (Asio/Core Audio/Wasapi/Alsa)",
+      "✅ Your strongest areas: C++, tools for software configuration management"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "C++",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Microsoft Visual C++",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "use software libraries",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Digital Signal Processing (Dsp)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linear Algebra And Numerical Methods",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Audio Plugin Development (Vst3/Au/Aax)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Audio I/O Apis (Asio/Core Audio/Wasapi/Alsa)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Debugging And Profiling (Gdb/Lldb/Perf/Instruments)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

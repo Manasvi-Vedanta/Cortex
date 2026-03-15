@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:59:48.261248",
+      "learning_path_id": "test_14",
+      "target_occupation": "computer scientist",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`len()` returns the number of elements in a list; `[1,2,3]` has 3 elements.",
+        "id": 1,
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "[1, 2, 3]",
+          "D": "An error"
+        },
+        "question": "In Python, what does the expression `len([1, 2, 3])` return?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The binomial distribution models the count of successes across n independent trials with success probability p.",
+        "id": 2,
+        "options": {
+          "A": "Normal distribution",
+          "B": "Poisson distribution",
+          "C": "Binomial distribution",
+          "D": "Exponential distribution"
+        },
+        "question": "Which probability distribution is commonly used to model the number of successes in a fixed number of independent Bernoulli trials?",
+        "topic": "Probability And Statistics"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Dot product is 1*3 + 2*4 = 3 + 8 = 11.",
+        "id": 3,
+        "options": {
+          "A": "7",
+          "B": "10",
+          "C": "11",
+          "D": "14"
+        },
+        "question": "In linear algebra, what is the dot product of vectors a = [1, 2] and b = [3, 4]?",
+        "topic": "Linear Algebra"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Supervised learning uses labeled examples: features (X) with targets/labels (y).",
+        "id": 4,
+        "options": {
+          "A": "Only input features, no labels",
+          "B": "Only labels, no input features",
+          "C": "Input features paired with correct labels",
+          "D": "Randomly generated synthetic data without targets"
+        },
+        "question": "In supervised machine learning, what best describes the training data?",
+        "topic": "Machine Learning Fundamentals"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Standardization is done per feature/column, so compute mean and std along axis=0.",
+        "id": 5,
+        "options": {
+          "A": "(X - X.mean()) / X.std()",
+          "B": "(X - X.mean(axis=0)) / X.std(axis=0)",
+          "C": "(X - X.mean(axis=1)) / X.std(axis=1)",
+          "D": "(X - X.sum(axis=0)) / X.var(axis=0)"
+        },
+        "question": "You have a NumPy array `X` with shape (1000, 20). You want to standardize each feature to zero mean and unit variance. Which operation is correct (ignoring numerical stability)?",
+        "topic": "Scientific Computing (Numpy/Scipy)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "One-hot encoding represents categories without introducing ordinal relationships that can mislead linear models.",
+        "id": 6,
+        "options": {
+          "A": "Label encoding: red=0, green=1, blue=2",
+          "B": "One-hot encoding with three binary columns",
+          "C": "Hashing into a single integer feature",
+          "D": "Min-max scaling of the string values"
+        },
+        "question": "A dataset has a categorical feature `color` with values {red, green, blue} and a binary target. You plan to use logistic regression. Which encoding is generally most appropriate to avoid imposing an artificial order?",
+        "topic": "Data Preprocessing And Feature Engineering"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "With severe class imbalance, accuracy can be misleading; precision/recall (and F1) better reflect detection quality for the minority class.",
+        "id": 7,
+        "options": {
+          "A": "Mean squared error (MSE)",
+          "B": "R-squared (R²)",
+          "C": "Precision and recall (or F1 score)",
+          "D": "Explained variance"
+        },
+        "question": "You are evaluating a binary classifier on a highly imbalanced dataset (1% positive). Accuracy is 99%, but the model rarely detects positives. Which metric is typically more informative for the positive class performance?",
+        "topic": "Model Evaluation And Metrics"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Diverging train/validation performance indicates overfitting; early stopping and stronger regularization help improve generalization.",
+        "id": 8,
+        "options": {
+          "A": "Increase model capacity (more layers/parameters)",
+          "B": "Reduce regularization (e.g., remove dropout)",
+          "C": "Apply early stopping or increase regularization",
+          "D": "Train for more epochs without changes"
+        },
+        "question": "You are training a deep network and observe training loss decreasing while validation loss increases over epochs. Which intervention most directly targets this issue?",
+        "topic": "Deep Learning"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "`DistributedSampler` partitions data per rank; calling `set_epoch` changes the shuffle seed each epoch so shards differ and remain synchronized across processes.",
+        "id": 9,
+        "options": {
+          "A": "Use `torch.utils.data.RandomSampler` without any changes",
+          "B": "Use `DistributedSampler` and call `sampler.set_epoch(epoch)` each epoch",
+          "C": "Disable shuffling entirely to avoid overlap",
+          "D": "Manually split the dataset once and never reshuffle"
+        },
+        "question": "In PyTorch distributed data parallel (DDP) training across multiple GPUs, what is the correct way to ensure each process sees a different shard of the dataset each epoch?",
+        "topic": "Distributed Training And Compute (Gpus/Tpus)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A controlled experiment varies one factor (optimizer) while holding others constant and uses multiple seeds to account for stochasticity, enabling a fair causal comparison.",
+        "id": 10,
+        "options": {
+          "A": "Change the optimizer and also change the model architecture to match each optimizer’s strengths",
+          "B": "Hold the dataset, preprocessing, model, and training budget constant; vary only the optimizer and run multiple random seeds",
+          "C": "Pick the best result from many hyperparameter searches for one optimizer, but use default settings for the other",
+          "D": "Evaluate on the training set only to avoid test leakage"
+        },
+        "question": "You are writing a research proposal to compare two optimization methods for training a model. Which experimental design choice best improves causal interpretability of the comparison?",
+        "topic": "Research Methods And Experimental Design"
+      }
+    ],
+    "topics_covered": [
+      "Probability And Statistics",
+      "Linear Algebra",
+      "Machine Learning Fundamentals",
+      "Python",
+      "Scientific Computing (Numpy/Scipy)",
+      "Data Preprocessing And Feature Engineering",
+      "Optimization Methods",
+      "Model Evaluation And Metrics",
+      "Deep Learning",
+      "Pytorch",
+      "Distributed Training And Compute (Gpus/Tpus)",
+      "Research Methods And Experimental Design",
+      "scientific research methodology",
+      "manage research data",
+      "write research proposals"
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:18:36.215541",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Xcode’s toolbar Run/Stop buttons and the active scheme determine the target and allow building, running, and debugging on simulator or device.",
+        "is_correct": true,
+        "question": "In Xcode, which feature is primarily used to build, run, and debug an iOS app on a connected device or simulator?",
+        "question_id": 1,
+        "topic": "Xcode",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "An IDE integrates common developer tools (editor, compiler/build system, debugger, etc.) into one environment to streamline development.",
+        "is_correct": true,
+        "question": "What is the main purpose of an integrated development environment (IDE) in software development?",
+        "question_id": 2,
+        "topic": "integrated development environment software",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`let` declares an immutable binding in Swift; `var` is mutable, and `const` is not a Swift keyword.",
+        "is_correct": true,
+        "question": "In Swift, which keyword declares a constant whose value cannot be reassigned?",
+        "question_id": 3,
+        "topic": "Swift (computer programming)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Flip-flops are bistable circuits used to store a single bit, forming the basis of registers and sequential logic.",
+        "is_correct": true,
+        "question": "In digital systems, what does a flip-flop primarily provide?",
+        "question_id": 4,
+        "topic": "digital systems",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "URLSession is the standard networking API for HTTP requests; you typically create a request, perform a data task, then decode JSON with Codable.",
+        "is_correct": true,
+        "question": "You need to call a RESTful API from an iOS app to fetch JSON sensor readings from an embedded gateway. Which approach is most appropriate using URLSession?",
+        "question_id": 5,
+        "topic": "Restful Apis (Urlsession)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "In MVVM, the ViewModel mediates between the View and Model/services, handling data retrieval, transformation, and presentation-ready state.",
+        "is_correct": true,
+        "question": "In MVVM architecture for an app that displays live device telemetry, where should the networking and data formatting logic primarily live?",
+        "question_id": 6,
+        "topic": "Mvvm Architecture",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "UI frameworks require main-thread/main-actor updates; Swift concurrency provides MainActor to safely marshal UI changes.",
+        "is_correct": false,
+        "question": "You are using Swift concurrency to read data from a BLE peripheral and then update the UI. What is the best practice for updating UI state after an awaited background operation?",
+        "question_id": 7,
+        "topic": "Concurrency (Async/Await, Gcd)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Core Data supports structured persistence, indexing, and efficient fetch requests—well-suited for time-series-like queries and offline storage.",
+        "is_correct": false,
+        "question": "An embedded companion iOS app logs sensor samples locally for offline analysis. You need persistence with queries (e.g., fetch last 24 hours, filter by device ID) and efficient storage. Which choice best fits?",
+        "question_id": 8,
+        "topic": "Core Data",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "SwiftUI expects state changes that drive UI updates to be performed on the main actor; isolating the ViewModel to MainActor prevents race conditions and crashes.",
+        "is_correct": false,
+        "question": "A SwiftUI screen shows live telemetry. The data source emits updates on a background thread (e.g., from a socket). Occasionally the app crashes or shows inconsistent UI. Which design best prevents threading issues?",
+        "question_id": 9,
+        "topic": "Swiftui",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "SCM tools (like Git) manage source history and collaboration, while App Store Connect/TestFlight handles code signing, beta distribution, and App Store releases.",
+        "is_correct": false,
+        "question": "Your team ships an iOS app used to configure embedded devices in the field. You must manage releases, signing, and distribution to testers and production. Which workflow is most appropriate?",
+        "question_id": 10,
+        "topic": "App Store Connect",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Concurrency (Async/Await, Gcd), Core Data, Swiftui",
+      "✅ Your strongest areas: Xcode, integrated development environment software"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Xcode",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "integrated development environment software",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Swift (computer programming)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "digital systems",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Restful Apis (Urlsession)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Mvvm Architecture",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Concurrency (Async/Await, Gcd)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Core Data",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Swiftui",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "App Store Connect",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

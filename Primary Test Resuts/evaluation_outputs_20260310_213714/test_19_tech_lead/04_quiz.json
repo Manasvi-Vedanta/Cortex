@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:08:40.956015",
+      "learning_path_id": "test_19",
+      "target_occupation": "technical sales representative",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "APIs define how systems interact (endpoints, methods, schemas), enabling communication between services/clients and backends.",
+        "id": 1,
+        "options": {
+          "A": "Provide a user interface for customers",
+          "B": "Enable different software components to communicate via defined requests and responses",
+          "C": "Store files and backups for long-term retention",
+          "D": "Encrypt all data automatically without configuration"
+        },
+        "question": "In a typical web application, what is the primary role of an API?",
+        "topic": "Api Design (Rest/Graphql)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Authentication (Authn) confirms identity; authorization (Authz) controls permissions and access to resources.",
+        "id": 2,
+        "options": {
+          "A": "Authentication decides what you can do; authorization verifies who you are",
+          "B": "Authentication verifies who you are; authorization determines what you are allowed to do",
+          "C": "They are the same concept; the terms are interchangeable",
+          "D": "Authorization is only used for databases; authentication is only used for APIs"
+        },
+        "question": "Which statement best describes the difference between authentication and authorization?",
+        "topic": "Security Engineering (Authn/Authz, Owasp)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A primary key uniquely identifies records, enabling reliable joins, updates, and referential integrity.",
+        "id": 3,
+        "options": {
+          "A": "To encrypt sensitive columns",
+          "B": "To uniquely identify each row in a table",
+          "C": "To automatically replicate data across regions",
+          "D": "To store unstructured JSON documents"
+        },
+        "question": "In SQL database design, what is a primary key used for?",
+        "topic": "Database Design (Sql/Nosql)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "CRMs track opportunities, stages, probabilities, close dates, and amounts—inputs used for forecasting.",
+        "id": 4,
+        "options": {
+          "A": "Source code repository hosting",
+          "B": "Opportunity pipeline stages with expected close dates and deal values",
+          "C": "Container orchestration for microservices",
+          "D": "Automated unit test execution"
+        },
+        "question": "Which CRM capability most directly helps a technical sales representative forecast revenue?",
+        "topic": "use customer relationship management software"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "GraphQL can reduce over/under-fetching by letting clients request specific fields, often lowering the number of requests needed.",
+        "id": 5,
+        "options": {
+          "A": "Use GraphQL so the client can request exactly the fields it needs in a single query",
+          "B": "Use only SOAP because it is always faster than REST",
+          "C": "Disable caching headers to ensure fresh data every time",
+          "D": "Return HTML pages instead of JSON to reduce parsing"
+        },
+        "question": "A customer needs an API that mobile apps will call frequently over unreliable networks. Which design choice best improves efficiency and reduces round trips?",
+        "topic": "Api Design (Rest/Graphql)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "E2E tests validate the full workflow across components; unit/integration tests provide faster, more targeted coverage.",
+        "id": 6,
+        "options": {
+          "A": "Only unit tests, because they cover the whole system",
+          "B": "Only integration tests, because UI tests are unnecessary",
+          "C": "End-to-end (E2E) tests that simulate real user flows, supplemented by unit and integration tests",
+          "D": "Manual testing only, because automation is unreliable"
+        },
+        "question": "A prospect asks how you would validate that a new payment workflow works end-to-end across UI, API, and database. Which testing approach is most appropriate?",
+        "topic": "Testing Strategy (Unit/Integration/E2E)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Managed Kubernetes services provide a managed control plane and support autoscaling for containerized workloads.",
+        "id": 7,
+        "options": {
+          "A": "Managed Kubernetes service (e.g., EKS/AKS/GKE)",
+          "B": "Object storage (e.g., S3/Blob Storage/Cloud Storage)",
+          "C": "Managed DNS (e.g., Route 53/Azure DNS/Cloud DNS)",
+          "D": "Content delivery network only (e.g., CloudFront/Azure CDN/Cloud CDN)"
+        },
+        "question": "A customer wants to deploy a containerized service with automatic scaling and managed control plane. Which cloud service category best matches this need across AWS/Azure/GCP?",
+        "topic": "Cloud Platforms (Aws/Azure/Gcp)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Circuit breakers, timeouts, and bulkheads prevent retry storms and isolate failures, reducing cascading outages under load.",
+        "id": 8,
+        "options": {
+          "A": "Increase client-side retries with no limits so requests eventually succeed",
+          "B": "Add a circuit breaker and enforce timeouts/bulkheads between services",
+          "C": "Disable load balancing to keep sessions on the same instance",
+          "D": "Move all services into a single large database to avoid network calls"
+        },
+        "question": "A prospect reports intermittent timeouts during peak traffic. Metrics show high p95 latency and frequent retries between microservices. Which change is most likely to reduce cascading failures in a distributed system?",
+        "topic": "Distributed Systems"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Layered automation (PR checks + post-merge integration/build) plus approval gates and progressive deployment meets compliance while keeping developer feedback fast.",
+        "id": 9,
+        "options": {
+          "A": "Run all tests only after production deployment to maximize speed",
+          "B": "Use a single manual step for every commit and skip automated checks",
+          "C": "On each pull request run lint/unit tests and security scans; on merge run integration tests and build artifacts; require approval gates and deploy progressively (staging then production)",
+          "D": "Deploy every commit directly to production with no rollback strategy"
+        },
+        "question": "You’re reviewing a proposed CI/CD pipeline for a regulated customer. They require fast feedback for developers and strong release controls. Which pipeline design best balances both?",
+        "topic": "Ci/Cd Pipelines"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "It clarifies scope with measurable metrics and likely bottlenecks, enabling a structured diagnosis and credible recommendations.",
+        "id": 10,
+        "options": {
+          "A": "“Performance is complicated; you should rewrite the system in a faster language.”",
+          "B": "“Can you share which endpoints are slow, the p50/p95 latency, request rate, error rate, and whether slowness is CPU, DB, or network-bound? Then we can propose targeted fixes like indexing, caching, or query optimization.”",
+          "C": "“It’s probably your cloud provider; switch providers immediately.”",
+          "D": "“If it works sometimes, it’s not a real issue.”"
+        },
+        "question": "During a discovery call, a customer says: “Our API is slow.” You have limited time and need actionable next steps. Which response best demonstrates strong technical communication and performance triage?",
+        "topic": "apply technical communication skills"
+      }
+    ],
+    "topics_covered": [
+      "Software Architecture",
+      "System Design",
+      "Api Design (Rest/Graphql)",
+      "Database Design (Sql/Nosql)",
+      "Distributed Systems",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Security Engineering (Authn/Authz, Owasp)",
+      "Testing Strategy (Unit/Integration/E2E)",
+      "Ci/Cd Pipelines",
+      "Code Review",
+      "Performance Optimization",
+      "apply technical communication skills",
+      "characteristics of products",
+      "use customer relationship management software",
+      "sales promotion techniques"
+    ]
+  },
+  "success": true
+}

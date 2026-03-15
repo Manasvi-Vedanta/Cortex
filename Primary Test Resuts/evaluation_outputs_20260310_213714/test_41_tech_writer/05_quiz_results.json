@@ -1,0 +1,193 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:47:16.254376",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Product comprehension is a practical understanding of what the product does, where it fits, and how it solves customer problems, including constraints.",
+        "is_correct": true,
+        "question": "In a technical sales call, what does 'product comprehension' most directly mean?",
+        "question_id": 1,
+        "topic": "product comprehension",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Performance characteristics like latency, throughput, and scalability are measurable attributes customers often evaluate.",
+        "is_correct": true,
+        "question": "Which is an example of a product 'characteristic' that a technical sales representative should be able to explain?",
+        "question_id": 2,
+        "topic": "characteristics of products",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Markdown links use the format [link text](URL).",
+        "is_correct": true,
+        "question": "In Markdown, which syntax correctly creates a clickable link with text 'API Docs' pointing to https://example.com/docs?",
+        "question_id": 3,
+        "topic": "Markdown",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is used to read/retrieve a representation of a resource and is intended to be safe and non-modifying.",
+        "is_correct": true,
+        "question": "Which HTTP method is typically used to retrieve a resource without modifying it?",
+        "question_id": 4,
+        "topic": "Http Fundamentals (Methods/Status Codes/Auth)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "401 indicates authentication is required or missing/invalid; 403 is for authenticated requests that are not permitted.",
+        "is_correct": false,
+        "question": "A customer’s API request fails because they forgot to include credentials. Which HTTP status code is most appropriate?",
+        "question_id": 5,
+        "topic": "Http Fundamentals (Methods/Status Codes/Auth)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "JSON requires double-quoted property names and uses ':' for key/value pairs; single quotes and unquoted keys are invalid.",
+        "is_correct": true,
+        "question": "Which JSON example is valid and best represents an object with a string 'name' and a boolean 'trial'?",
+        "question_id": 6,
+        "topic": "Json",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Docs-as-code uses version control, code review, and automated publishing to keep documentation aligned with product changes.",
+        "is_correct": false,
+        "question": "You want to propose a docs-as-code workflow to reduce documentation drift. Which approach best aligns with docs-as-code principles?",
+        "question_id": 7,
+        "topic": "Docs-As-Code Workflows",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "OpenAPI is a machine- and human-readable contract that defines endpoints, parameters, schemas, and security, enabling tooling like SDK generation.",
+        "is_correct": false,
+        "question": "A prospect asks for a 'single source of truth' describing endpoints, request/response schemas, and auth so their team can generate client SDKs. What should you provide?",
+        "question_id": 8,
+        "topic": "Api Documentation (Rest/Openapi)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Idempotency keys (or stable client-generated identifiers) allow safe retries for POST by deduplicating repeated requests; 409 often indicates a conflict/duplicate.",
+        "is_correct": false,
+        "question": "A customer reports: 'Our POST to /v1/orders returns 409.' Logs show they are retrying the same request after a timeout, creating duplicates. What is the best technical guidance to reduce duplicates while keeping retries safe?",
+        "question_id": 9,
+        "topic": "Http Fundamentals (Methods/Status Codes/Auth)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "A small script is a fast, practical way to aggregate CRM export data (count, sort, report) without heavy tooling or manual work.",
+        "is_correct": false,
+        "question": "You need to quickly analyze a CSV export from a CRM to find the top 3 industries by number of open opportunities. Which approach is most appropriate for a technical sales representative who can script?",
+        "question_id": 10,
+        "topic": "Basic Programming/Scripting (Python/Javascript)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Needs Improvement",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Docs-As-Code Workflows, Api Documentation (Rest/Openapi), Basic Programming/Scripting (Python/Javascript)",
+      "✅ Your strongest areas: product comprehension, characteristics of products"
+    ],
+    "score": {
+      "correct": 5,
+      "grade": "C-",
+      "incorrect": 5,
+      "percentage": 50.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "product comprehension",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "characteristics of products",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Markdown",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Json",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Docs-As-Code Workflows",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Api Documentation (Rest/Openapi)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Basic Programming/Scripting (Python/Javascript)",
+        "total": 1
+      },
+      {
+        "accuracy": 33.3,
+        "correct": 1,
+        "topic": "Http Fundamentals (Methods/Status Codes/Auth)",
+        "total": 3
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

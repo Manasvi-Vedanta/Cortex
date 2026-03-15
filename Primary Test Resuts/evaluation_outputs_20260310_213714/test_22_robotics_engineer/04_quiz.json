@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:14:01.133123",
+      "learning_path_id": "test_22",
+      "target_occupation": "robotics engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`ls` lists directory contents; `cd` changes directories, `mkdir` creates directories, and `rm` removes files/directories.",
+        "id": 1,
+        "options": {
+          "A": "ls",
+          "B": "cd",
+          "C": "mkdir",
+          "D": "rm"
+        },
+        "question": "In Linux, which command is commonly used to list files and directories in the current directory?",
+        "topic": "Linux"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A tuple is immutable, making it appropriate for a fixed sequence like a constant set of joint angles.",
+        "id": 2,
+        "options": {
+          "A": "list",
+          "B": "tuple",
+          "C": "dict",
+          "D": "set"
+        },
+        "question": "In Python, which data structure is best suited to store a fixed sequence of joint angles that should not be modified?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Runtime polymorphism in C++ is achieved via virtual functions (dynamic dispatch through base-class pointers/references).",
+        "id": 3,
+        "options": {
+          "A": "Templates",
+          "B": "Virtual functions",
+          "C": "Namespaces",
+          "D": "Preprocessor macros"
+        },
+        "question": "In C++, which feature is primarily used to achieve runtime polymorphism in a robot hardware interface class hierarchy?",
+        "topic": "C++"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A section view reveals internal geometry (holes, ribs, cavities) by depicting a cut through the part.",
+        "id": 4,
+        "options": {
+          "A": "External surface color and texture",
+          "B": "Internal features by cutting through the object",
+          "C": "The assembly sequence of parts over time",
+          "D": "Electrical wiring connections"
+        },
+        "question": "In technical drawings, what does a section view primarily help you show?",
+        "topic": "technical drawings"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "For differential drive, linear velocity v = r(ωR + ωL)/2 and yaw rate ω = r(ωR − ωL)/L.",
+        "id": 5,
+        "options": {
+          "A": "r(ωR + ωL) / 2",
+          "B": "r(ωR - ωL) / L",
+          "C": "L(ωR - ωL) / r",
+          "D": "r(ωR + ωL) / L"
+        },
+        "question": "A differential-drive robot has wheel radius r and wheel separation (track width) L. If the left and right wheel angular speeds are ωL and ωR, what is the robot’s approximate yaw rate (angular velocity about vertical axis) on flat ground?",
+        "topic": "Robot Kinematics And Dynamics"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Integral action accumulates error over time and drives steady-state error toward zero for constant references/disturbances.",
+        "id": 6,
+        "options": {
+          "A": "Increase derivative gain (Kd)",
+          "B": "Decrease proportional gain (Kp)",
+          "C": "Increase integral gain (Ki)",
+          "D": "Add a low-pass filter to the measurement"
+        },
+        "question": "You are tuning a PID controller for a robot joint and observe steady-state error to a constant position command (step input). Which change most directly reduces steady-state error?",
+        "topic": "Control Systems (Pid/State-Space/Mpc)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A parametric (associative) drawing view stays linked to the 3D model and updates automatically when the model changes.",
+        "id": 7,
+        "options": {
+          "A": "Raster image import of the model",
+          "B": "Parametric drawing view linked to the 3D model",
+          "C": "Freehand sketch overlay",
+          "D": "Manual 2D tracing with fixed lines"
+        },
+        "question": "In a CAD tool used for technical drawing software, you need a drawing view that automatically updates when the 3D model changes and maintains correct scaling. Which feature should you use?",
+        "topic": "use technical drawing software"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "An EKF (or UKF) can incorporate asynchronous, timestamped measurements and handle latency via buffering and applying updates at the correct time (or using state augmentation), improving consistency under dropouts/latency.",
+        "id": 8,
+        "options": {
+          "A": "Use a complementary filter with a fixed blending factor and ignore timestamps",
+          "B": "Use an EKF with timestamped measurement updates and out-of-sequence handling (e.g., buffering/rewind or state augmentation)",
+          "C": "Average the IMU and GPS positions at each control cycle regardless of availability",
+          "D": "Use pure dead-reckoning from IMU and discard GPS entirely"
+        },
+        "question": "A mobile robot fuses IMU (high-rate) and GPS (low-rate) for state estimation. GPS measurements arrive with variable latency and occasional dropouts. Which approach is most appropriate to handle asynchronous measurements while maintaining a consistent estimate?",
+        "topic": "Sensor Fusion (Ekf/Ukf)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Loop closure adds constraints when revisiting places, and pose-graph optimization distributes error globally, reducing drift and map warping.",
+        "id": 9,
+        "options": {
+          "A": "Increase the camera frame rate",
+          "B": "Add loop-closure detection and pose-graph optimization",
+          "C": "Use a larger occupancy grid cell size",
+          "D": "Disable scan matching to reduce computation"
+        },
+        "question": "In SLAM, you notice the map gradually warps and the robot’s estimated trajectory drifts over long runs, especially after revisiting previously seen areas. Which addition most directly addresses this issue?",
+        "topic": "Slam (Localization And Mapping)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Impedance/admittance control with force/torque sensing enables compliant behavior during contact, and speed-and-separation monitoring reduces collision risk while maintaining productivity.",
+        "id": 10,
+        "options": {
+          "A": "Maximize joint stiffness and disable torque sensing to improve precision",
+          "B": "Use impedance/admittance control with torque/force sensing and enforce speed-and-separation monitoring",
+          "C": "Run the robot at maximum speed and rely only on an emergency stop button",
+          "D": "Use open-loop position control to avoid instability from feedback"
+        },
+        "question": "A collaborative robot (cobot) shares a workspace with humans and must reduce injury risk during unexpected contact while still being productive. Which design/control choice best supports safe human-robot collaboration in real deployments?",
+        "topic": "human-robot collaboration"
+      }
+    ],
+    "topics_covered": [
+      "Linux",
+      "Python",
+      "robotics",
+      "C++",
+      "engineering principles",
+      "technical drawings",
+      "use technical drawing software",
+      "Robot Kinematics And Dynamics",
+      "Control Systems (Pid/State-Space/Mpc)",
+      "Real-Time Systems",
+      "Robot Perception (Computer Vision)",
+      "Sensor Fusion (Ekf/Ukf)",
+      "Slam (Localization And Mapping)",
+      "Motion Planning (A*/Rrt/Trajectory Optimization)",
+      "human-robot collaboration"
+    ]
+  },
+  "success": true
+}

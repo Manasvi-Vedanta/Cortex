@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:52:12.858608",
+      "learning_path_id": "test_44",
+      "target_occupation": "employment and vocational integration consultant",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "ERP modules organize related processes and data (e.g., HR, Finance) so the organization can run end-to-end operations in an integrated way.",
+        "id": 1,
+        "options": {
+          "A": "To group related business processes and data into a functional area",
+          "B": "To replace the company’s internet connection",
+          "C": "To store only scanned paper documents",
+          "D": "To prevent any integration with other systems"
+        },
+        "question": "In an ERP system, what is the primary purpose of a 'module' (e.g., Finance, HR, Procurement)?",
+        "topic": "Erp Fundamentals (Modules & Processes)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An exclusive gateway routes the flow to exactly one of the outgoing paths based on conditions.",
+        "id": 2,
+        "options": {
+          "A": "A point where all paths must run in parallel",
+          "B": "A decision point where only one outgoing path is chosen",
+          "C": "A database table used for reporting",
+          "D": "A user role assignment step"
+        },
+        "question": "In BPMN, what does an 'Exclusive Gateway' (XOR) represent?",
+        "topic": "Business Process Mapping (Bpmn)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Master data is the shared, relatively stable reference data (e.g., customer, vendor, employee, job roles) used across many processes.",
+        "id": 3,
+        "options": {
+          "A": "Historical transaction records like invoices and payments",
+          "B": "Stable core records used across processes, such as customers, vendors, and job positions",
+          "C": "Temporary test data created only for UAT",
+          "D": "Encrypted backups stored offsite"
+        },
+        "question": "Which statement best describes 'master data' in an ERP context?",
+        "topic": "Master Data Management (Mdm)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "LinkedIn is a widely used online job platform for job search, networking, and applications.",
+        "id": 4,
+        "options": {
+          "A": "LinkedIn",
+          "B": "SAP IDoc Monitor",
+          "C": "Oracle Data Integrator",
+          "D": "BPMN Swimlane Diagram"
+        },
+        "question": "Which is an example of an online job platform commonly used to search and apply for vacancies?",
+        "topic": "online job platforms"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Business rules and acceptance criteria belong in the functional requirements section so developers and testers can implement and validate the behavior.",
+        "id": 5,
+        "options": {
+          "A": "Glossary",
+          "B": "Functional requirements / business rules",
+          "C": "Project budget",
+          "D": "Meeting minutes"
+        },
+        "question": "You are writing a functional specification for an ERP enhancement that flags candidates whose work authorization will expire within 60 days. Which section should clearly define the rule logic and acceptance criteria?",
+        "topic": "Requirements Gathering & Functional Specification Writing"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Configuration uses standard settings (e.g., workflows, tolerances, org structures) to adapt the ERP without altering vendor core code.",
+        "id": 6,
+        "options": {
+          "A": "Changing standard source code in the vendor core",
+          "B": "Defining approval workflows and tolerance limits using system settings",
+          "C": "Building a new database engine for the ERP",
+          "D": "Reverse-engineering the vendor’s encryption keys"
+        },
+        "question": "In SAP S/4HANA or Oracle ERP Cloud, which activity is typically considered configuration (not custom development)?",
+        "topic": "Erp Configuration/Customization (Module Setup)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A LEFT JOIN with a NULL check on the right table finds orphan records where no matching employer exists.",
+        "id": 7,
+        "options": {
+          "A": "SELECT c.* FROM candidate c INNER JOIN employer e ON c.employer_id = e.id;",
+          "B": "SELECT c.* FROM candidate c WHERE c.employer_id IN (SELECT id FROM employer);",
+          "C": "SELECT c.* FROM candidate c LEFT JOIN employer e ON c.employer_id = e.id WHERE e.id IS NULL;",
+          "D": "SELECT * FROM employer WHERE id = NULL;"
+        },
+        "question": "You need to validate that every placed candidate has a corresponding employer record in the ERP after migration. Which SQL query best identifies candidates whose employer_id does NOT exist in the employer table?",
+        "topic": "Sql (Data Querying & Validation)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A controlled deduplication strategy with survivorship and legacy-to-new cross-references reduces duplicates and maintains auditability and traceability.",
+        "id": 8,
+        "options": {
+          "A": "Delete all duplicates automatically and keep no record of what was removed",
+          "B": "Use deterministic matching rules (e.g., normalized name + DOB + phone/email), assign a survivorship record, and store cross-reference mappings from legacy IDs to the new master ID",
+          "C": "Ignore duplicates and let recruiters decide later without any system support",
+          "D": "Migrate only the most recent 10% of records to avoid duplicates"
+        },
+        "question": "During data migration, you discover duplicate candidate profiles caused by different spellings and missing national IDs. Which approach best reduces duplicates while preserving traceability for audit purposes?",
+        "topic": "Data Migration (Etl, Mapping, Cleansing)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Middleware enables transformation, validation, error handling, retries, and monitoring—key for stable EDI-to-ERP integrations.",
+        "id": 9,
+        "options": {
+          "A": "Have recruiters manually retype applications into the ERP to avoid integration complexity",
+          "B": "Send EDI directly into the ERP database tables with no validation",
+          "C": "Use middleware to translate EDI to the ERP’s canonical format (e.g., IDoc/API payload), apply validation, and implement retry/error queues with monitoring",
+          "D": "Convert EDI to PDF and email it to the ERP support team"
+        },
+        "question": "A partner job board sends candidate applications via EDI, while your ERP expects structured inbound messages. Which integration design is most robust for reliability and monitoring?",
+        "topic": "Integration (Apis, Idoc/Edi, Middleware)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "When UAT reveals a compliance-impacting mismatch, the correct approach is to validate the legal requirement, update specs and test cases, retest, and secure formal approval to ensure traceable compliance.",
+        "id": 10,
+        "options": {
+          "A": "Disable the rule in production immediately without documentation",
+          "B": "Treat it as a requirements/legislation gap: confirm the legal exception with HR/legal, update the functional specification and test cases, then retest and obtain formal UAT sign-off",
+          "C": "Ask developers to change the rule based only on verbal feedback and skip retesting to meet the deadline",
+          "D": "Ignore the issue because UAT feedback is optional"
+        },
+        "question": "In UAT for an employment integration program, users report that a new 'placement eligibility' rule blocks candidates who should be eligible under labour legislation exceptions. What is the best next step to resolve this while protecting compliance?",
+        "topic": "Testing (Sit/Uat, Test Case Design)"
+      }
+    ],
+    "topics_covered": [
+      "Erp Fundamentals (Modules & Processes)",
+      "Sap S/4Hana Or Oracle Erp Cloud (Platform Proficiency)",
+      "Business Process Mapping (Bpmn)",
+      "Requirements Gathering & Functional Specification Writing",
+      "Erp Configuration/Customization (Module Setup)",
+      "Master Data Management (Mdm)",
+      "Sql (Data Querying & Validation)",
+      "Data Migration (Etl, Mapping, Cleansing)",
+      "Integration (Apis, Idoc/Edi, Middleware)",
+      "Reporting & Analytics (Power Bi/Tableau/Erp Reports)",
+      "Testing (Sit/Uat, Test Case Design)",
+      "labour legislation",
+      "employment law",
+      "job market offers",
+      "online job platforms"
+    ]
+  },
+  "success": true
+}

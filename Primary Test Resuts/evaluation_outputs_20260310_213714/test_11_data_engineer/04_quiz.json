@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:54:36.376634",
+      "learning_path_id": "test_11",
+      "target_occupation": "data engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Indexes provide faster lookup paths (e.g., B-tree) so the database can find rows without scanning the entire table.",
+        "id": 1,
+        "options": {
+          "A": "To enforce referential integrity between tables",
+          "B": "To speed up data retrieval for certain queries",
+          "C": "To automatically normalize tables to 3NF",
+          "D": "To compress table data to reduce storage"
+        },
+        "question": "In a relational DBMS, what is the primary purpose of an index?",
+        "topic": "database management systems"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows prior to GROUP BY and aggregate functions; HAVING filters after aggregation.",
+        "id": 2,
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "ORDER BY",
+          "D": "GROUP BY"
+        },
+        "question": "Which SQL clause is used to filter rows before aggregation occurs?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Fact tables store measurable metrics (facts) and foreign keys to related dimension tables.",
+        "id": 3,
+        "options": {
+          "A": "Descriptive attributes like customer name and address",
+          "B": "Business process measurements such as sales amount and quantity",
+          "C": "Database constraints and indexes",
+          "D": "Only unique keys for all dimensions"
+        },
+        "question": "In dimensional modeling, what is a fact table primarily used to store?",
+        "topic": "Data Modeling"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Airflow DAGs define a workflow as tasks connected by dependencies in a directed acyclic graph.",
+        "id": 4,
+        "options": {
+          "A": "A database access gateway",
+          "B": "A directed acyclic graph defining tasks and dependencies",
+          "C": "A data aggregation group",
+          "D": "A deployment automation generator"
+        },
+        "question": "In Apache Airflow, what is a DAG?",
+        "topic": "Workflow Orchestration (Airflow)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ROW_NUMBER() (or DENSE_RANK()) OVER (PARTITION BY department ORDER BY salary DESC) enables selecting the top N per group.",
+        "id": 5,
+        "options": {
+          "A": "Use a correlated subquery with COUNT(*) and no indexes",
+          "B": "Use a window function like ROW_NUMBER() partitioned by department",
+          "C": "Use DISTINCT on (department_id) without ordering",
+          "D": "Use GROUP BY department_id and MAX(salary) to get top 3"
+        },
+        "question": "You need the top 3 highest-paid employees per department. Which SQL approach is most appropriate in PostgreSQL/MySQL 8+?",
+        "topic": "Database Systems (Postgresql/Mysql)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ELT typically loads data into the destination (warehouse/lakehouse) and performs transformations there using scalable compute.",
+        "id": 6,
+        "options": {
+          "A": "ELT transforms data before loading into the target system",
+          "B": "ELT loads raw data first, then transforms inside the target system (e.g., warehouse/lakehouse)",
+          "C": "ELT is only used for streaming data, not batch",
+          "D": "ELT eliminates the need for data quality checks"
+        },
+        "question": "Which statement best describes ELT compared to ETL in modern cloud analytics?",
+        "topic": "Etl/Elt Pipeline Development"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Iterating line-by-line avoids loading the entire dataset into memory and supports incremental processing.",
+        "id": 7,
+        "options": {
+          "A": "Read the entire file into a string and then parse it",
+          "B": "Load the entire file into a list of dicts using json.load()",
+          "C": "Stream the file line-by-line and parse each JSON object incrementally",
+          "D": "Convert the file to Excel first and then read it with pandas"
+        },
+        "question": "In Python, which approach is generally most memory-efficient for processing a very large newline-delimited JSON file?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Delta Lake adds a transaction log on top of Parquet to provide ACID guarantees, schema enforcement/evolution, and time travel.",
+        "id": 8,
+        "options": {
+          "A": "CSV with partitioned folders",
+          "B": "Delta Lake",
+          "C": "Avro without a transaction log",
+          "D": "Plain Parquet without a table format"
+        },
+        "question": "You store Parquet data in S3 and want ACID transactions, schema evolution, and time travel for analytics. Which table format best fits?",
+        "topic": "Data Lake/Lakehouse (S3/Adls/Gcs, Delta/Iceberg/Hudi)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Within a consumer group, each partition is assigned to at most one consumer; extra consumers remain unassigned (idle).",
+        "id": 9,
+        "options": {
+          "A": "All 6 consumers will read in parallel from all partitions",
+          "B": "Only 4 consumers will be actively assigned partitions; 2 will be idle",
+          "C": "Kafka will automatically increase partitions to 6",
+          "D": "Messages will be duplicated so each consumer gets all messages"
+        },
+        "question": "A Kafka consumer group has 6 consumers but the topic has only 4 partitions. What is the outcome?",
+        "topic": "Stream Processing (Kafka)"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Partitioning data by the aggregation key (and tuning shuffle partitions) reduces unnecessary data movement and can improve shuffle efficiency.",
+        "id": 10,
+        "options": {
+          "A": "Increase the number of executors without changing partitions",
+          "B": "Use a broadcast join hint for all joins regardless of table size",
+          "C": "Repartition the DataFrame by the grouping key before aggregation (or tune shuffle partitions appropriately)",
+          "D": "Convert the DataFrame to a Python list and aggregate locally"
+        },
+        "question": "You need to compute daily aggregates over a 10 TB dataset using Spark. The job is slow and shows heavy shuffle. Which change most directly reduces shuffle for groupBy on a high-cardinality key?",
+        "topic": "Apache Spark"
+      }
+    ],
+    "topics_covered": [
+      "database management systems",
+      "Sql",
+      "data analysis",
+      "Database Systems (Postgresql/Mysql)",
+      "Data Modeling",
+      "implement data warehousing techniques",
+      "Etl/Elt Pipeline Development",
+      "Python",
+      "Workflow Orchestration (Airflow)",
+      "Cloud Platforms (Aws/Azure/Gcp)",
+      "Data Lake/Lakehouse (S3/Adls/Gcs, Delta/Iceberg/Hudi)",
+      "Distributed Systems Fundamentals",
+      "Apache Spark",
+      "Nosql Databases (Cassandra/Mongodb/Dynamodb)",
+      "Stream Processing (Kafka)"
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:15:46.144805",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The <a> (anchor) element creates hyperlinks using the href attribute.",
+        "is_correct": false,
+        "question": "Which HTML element is used to create a hyperlink to another page or resource?",
+        "question_id": 1,
+        "topic": "Html",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Padding adds space between the content and the element’s border; margin is outside the border.",
+        "is_correct": true,
+        "question": "Which CSS property is primarily used to control the spacing inside an element’s border?",
+        "question_id": 2,
+        "topic": "CSS",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "let is block-scoped and allows reassignment; const is block-scoped but cannot be reassigned.",
+        "is_correct": false,
+        "question": "Which JavaScript keyword declares a block-scoped variable that can be reassigned?",
+        "question_id": 3,
+        "topic": "JavaScript",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is intended for safe, read-only retrieval of resources.",
+        "is_correct": false,
+        "question": "In HTTP, which method is typically used to retrieve data without changing server state?",
+        "question_id": 4,
+        "topic": "Http",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "201 Created is the standard response when a server successfully creates a new resource.",
+        "is_correct": true,
+        "question": "In a REST API, which HTTP status code best indicates that a new resource was successfully created?",
+        "question_id": 5,
+        "topic": "Rest Apis",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "TypeScript adds static typing, enabling compile-time checks that reduce runtime type errors.",
+        "is_correct": false,
+        "question": "Which TypeScript feature helps catch errors by enforcing types at compile time?",
+        "question_id": 6,
+        "topic": "TypeScript",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The dependency array determines when the effect re-runs: on mount and whenever any dependency changes.",
+        "is_correct": false,
+        "question": "In React, what is the primary purpose of the dependency array in useEffect?",
+        "question_id": 7,
+        "topic": "React",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "JWT access tokens are commonly sent on each request in the Authorization: Bearer <token> header.",
+        "is_correct": false,
+        "question": "You are building an Express (Node.js) API that uses JWTs. Where should the server typically look for the access token on each request?",
+        "question_id": 8,
+        "topic": "Authentication And Authorization (Jwt/Oauth)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A LEFT JOIN keeps all users and matches orders when present; COUNT(o.id) yields 0 for users with no orders.",
+        "is_correct": false,
+        "question": "Given a SQL table users(id, email) and orders(id, user_id, total), which query returns each user’s email and the number of orders they have (including users with zero orders)?",
+        "question_id": 9,
+        "topic": "Sql",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Using a union type (string | null) forces callers and the function body to account for null explicitly under strictNullChecks.",
+        "is_correct": false,
+        "question": "You are migrating a JavaScript codebase to TypeScript. A function accepts either a string or null. Which TypeScript signature best enforces handling of null under strictNullChecks?",
+        "question_id": 10,
+        "topic": "Add TypeScript",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Html, JavaScript, Http",
+      "✅ Your strongest areas: CSS, Rest Apis"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "CSS",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Rest Apis",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Html",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "JavaScript",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Http",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "TypeScript",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "React",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Authentication And Authorization (Jwt/Oauth)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Add TypeScript",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

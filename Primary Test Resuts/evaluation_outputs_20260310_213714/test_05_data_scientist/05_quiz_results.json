@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:44:30.093804",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Data science combines statistical thinking, programming, and domain context to derive insights and build data-driven solutions.",
+        "is_correct": false,
+        "question": "Which statement best defines data science?",
+        "question_id": 1,
+        "topic": "data science",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A p-value is computed under the assumption that the null hypothesis is true and measures how extreme the observed data are under that assumption.",
+        "is_correct": false,
+        "question": "In statistics, what does a p-value represent (in the context of a hypothesis test)?",
+        "question_id": 2,
+        "topic": "statistics",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Lists preserve order and can be modified (mutable), unlike tuples (immutable) and sets (unordered).",
+        "is_correct": false,
+        "question": "In Python, which data structure is an ordered, mutable collection commonly used to store a sequence of items?",
+        "question_id": 3,
+        "topic": "Python",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Histograms show how values are distributed across bins, making them a standard choice for a single numeric variable.",
+        "is_correct": false,
+        "question": "Which visualization is generally most appropriate for showing the distribution of a single numeric variable?",
+        "question_id": 4,
+        "topic": "data visualization",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A left join keeps all rows from the left DataFrame (orders) and brings in matching customer fields when available.",
+        "is_correct": true,
+        "question": "You need to combine two Pandas DataFrames, orders and customers, using customer_id so that all orders are kept even if customer details are missing. Which operation should you use?",
+        "question_id": 5,
+        "topic": "Data Wrangling (Pandas)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "You must aggregate per customer using GROUP BY, then sort by the aggregated SUM and limit to 5.",
+        "is_correct": false,
+        "question": "In SQL, which query returns the top 5 customers by total revenue (amount) from a table purchases(customer_id, amount)?",
+        "question_id": 6,
+        "topic": "Sql",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "With severe class imbalance, accuracy can be misleading; precision-recall focuses on performance for the positive class and is often more informative.",
+        "is_correct": false,
+        "question": "You are building a binary classifier on an imbalanced dataset (1% positive class). Which evaluation metric is typically most informative for model selection?",
+        "question_id": 7,
+        "topic": "Model Evaluation & Validation",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Using information from the future relative to the prediction point leaks target-related data into training, inflating offline performance and breaking production validity.",
+        "is_correct": false,
+        "question": "You are training a model to predict customer churn and you compute a feature: 'number of support tickets in the next 30 days'. Your model performance is excellent but fails in production. What is the most likely issue?",
+        "question_id": 8,
+        "topic": "Feature Engineering",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "For time-ordered data, walk-forward validation preserves temporal order and avoids training on future data relative to the validation fold.",
+        "is_correct": false,
+        "question": "Your cross-validation AUC is 0.92, but the test AUC drops to 0.71. You suspect the model is overfitting and want a validation approach that better reflects future performance on time-ordered data. What should you use?",
+        "question_id": 9,
+        "topic": "Model Evaluation & Validation",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Even if protected attributes are removed, correlated variables like ZIP code can encode them indirectly, leading to discriminatory outcomes.",
+        "is_correct": false,
+        "question": "A company wants to deploy a model that predicts loan default risk. They plan to exclude protected attributes (e.g., race) but keep ZIP code. Which ethical risk is most relevant?",
+        "question_id": 10,
+        "topic": "data ethics",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: data science, statistics, Python",
+      "✅ Your strongest areas: Data Wrangling (Pandas)"
+    ],
+    "score": {
+      "correct": 1,
+      "grade": "F",
+      "incorrect": 9,
+      "percentage": 10.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Data Wrangling (Pandas)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "data science",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "statistics",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "data visualization",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Model Evaluation & Validation",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Feature Engineering",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "data ethics",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:51:14.881494",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`val` creates an immutable reference (read-only). `var` is mutable, `const` is for compile-time constants, and `lateinit` is for deferred initialization of `var` properties.",
+        "is_correct": true,
+        "question": "In Kotlin, which keyword declares a read-only variable (cannot be reassigned)?",
+        "question_id": 1,
+        "topic": "Kotlin",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Android Studio is the official IDE for Android development, providing code editing, build tools integration, emulator support, debugging, and profiling.",
+        "is_correct": true,
+        "question": "What is Android Studio primarily used for?",
+        "question_id": 2,
+        "topic": "Android Studio",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Android platform for a given API level includes `android.jar`, which contains the Android framework APIs used at compile time.",
+        "is_correct": true,
+        "question": "Which Android SDK component provides the core Android APIs and libraries used to compile apps?",
+        "question_id": 3,
+        "topic": "Android Sdk",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is a distributed version control system used for tracking changes, branching, merging, and collaboration.",
+        "is_correct": true,
+        "question": "In software configuration management, which tool is most commonly used to track code changes and collaborate via branches and merges?",
+        "question_id": 4,
+        "topic": "tools for software configuration management",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "`LazyColumn` only composes and lays out visible items (plus a small buffer), making it suitable for large lists.",
+        "is_correct": true,
+        "question": "In Jetpack Compose, which composable is specifically designed to efficiently display a long scrolling list of items?",
+        "question_id": 5,
+        "topic": "Jetpack Compose",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "The ViewModel is designed to hold UI-related data and logic in a lifecycle-aware way and survive configuration changes.",
+        "is_correct": true,
+        "question": "In MVVM, where should UI state and business logic that survives configuration changes (like rotation) typically live?",
+        "question_id": 6,
+        "topic": "Mvvm Architecture",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Retrofit uses an annotated interface to define endpoints; with OkHttp and a converter (Moshi/Gson), it can map JSON to Kotlin data classes. Network calls should not run on the main thread.",
+        "is_correct": false,
+        "question": "You need to call a REST API using Retrofit with OkHttp and parse JSON into Kotlin objects. Which approach is most appropriate?",
+        "question_id": 7,
+        "topic": "Rest Api Integration (Retrofit/Okhttp)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "`repeatOnLifecycle` ties collection to the lifecycle state and automatically cancels/restarts collection, preventing leaks and wasted work when the UI is stopped.",
+        "is_correct": false,
+        "question": "You collect a Flow in a Fragment to update the UI. To avoid leaks and stop collecting when the view is not STARTED, which pattern is best?",
+        "question_id": 8,
+        "topic": "Coroutines & Flow",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "A repository coordinating Room (single source of truth) and network refresh is a common offline-first pattern. UI observes Room via Flow/LiveData; network updates are persisted to Room.",
+        "is_correct": false,
+        "question": "You want offline-first behavior: show cached data immediately from Room, then refresh from the network and update the cache. Which design best fits MVVM + Jetpack components?",
+        "question_id": 9,
+        "topic": "Room Database (Sqlite)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Installing the module in `SingletonComponent` and scoping with `@Singleton` ensures one shared Retrofit instance across the application.",
+        "is_correct": false,
+        "question": "In a multi-module Android app using Hilt, you need to provide a single instance of Retrofit shared across the app. Where and how should it be provided?",
+        "question_id": 10,
+        "topic": "Dependency Injection (Hilt/Dagger)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Rest Api Integration (Retrofit/Okhttp), Coroutines & Flow, Room Database (Sqlite)",
+      "✅ Your strongest areas: Kotlin, Android Studio"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kotlin",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Android Studio",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Android Sdk",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "tools for software configuration management",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Jetpack Compose",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Mvvm Architecture",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Rest Api Integration (Retrofit/Okhttp)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Coroutines & Flow",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Room Database (Sqlite)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Dependency Injection (Hilt/Dagger)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

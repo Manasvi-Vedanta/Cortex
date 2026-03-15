@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:57:59.700760",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A CRS specifies how coordinates map to real-world locations, typically combining a datum (Earth model) and a projection (map transformation).",
+        "is_correct": false,
+        "question": "In GIS, what does a coordinate reference system (CRS) define?",
+        "question_id": 1,
+        "topic": "Gis Fundamentals (Projections, Datums, Spatial Analysis)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters rows before aggregation and ordering are applied.",
+        "is_correct": false,
+        "question": "Which SQL clause is used to filter rows returned by a SELECT query?",
+        "question_id": 2,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <name> creates a branch and checks it out in one step.",
+        "is_correct": false,
+        "question": "Which Git command creates a new branch named feature/geocode and switches to it?",
+        "question_id": 3,
+        "topic": "Version Control (Git)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "GeoPackage (.gpkg) is an OGC standard built on SQLite that can store multiple layers in one file.",
+        "is_correct": true,
+        "question": "Which format is a single-file SQLite-based container that can store multiple vector layers and attributes?",
+        "question_id": 4,
+        "topic": "Geospatial Data Formats & Standards (Geojson, Shapefile, Geopackage, Ogc)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "ST_Intersection returns the actual intersecting geometry; ST_Intersects only returns a boolean.",
+        "is_correct": false,
+        "question": "In PostGIS, which function returns the geometry representing the intersection of two geometries?",
+        "question_id": 5,
+        "topic": "Postgis",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ArcGIS Server is the service engine that publishes and serves GIS web services; Portal handles identity/content, Data Store stores hosted data.",
+        "is_correct": true,
+        "question": "In ArcGIS Enterprise, which component primarily hosts and serves web services (map/feature services) to clients?",
+        "question_id": 6,
+        "topic": "Esri Arcgis Platform (Arcgis Pro, Arcgis Enterprise, Arcgis Online)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "L.geoJSON is designed to ingest GeoJSON and create corresponding Leaflet layers.",
+        "is_correct": false,
+        "question": "In Leaflet, which object type is most appropriate for displaying a GeoJSON FeatureCollection on a map?",
+        "question_id": 7,
+        "topic": "Web Gis (Leaflet/Openlayers/Mapbox Gl Js)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "GDAL provides server-friendly CLI tools that can be scripted for batch raster reprojection, clipping, and conversion at scale.",
+        "is_correct": false,
+        "question": "You are building a geoprocessing pipeline that must reproject, clip, and convert thousands of rasters nightly. You need robust command-line automation and good performance on servers. Which approach is most appropriate?",
+        "question_id": 8,
+        "topic": "Spatial Etl (Gdal/Ogr, Fme)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "OGC API - Features is the modern OGC standard for querying vector features over HTTP with filtering and paging.",
+        "is_correct": false,
+        "question": "A client requests an OGC-compliant way to query features with filtering and paging over HTTP, and they want to avoid vendor-specific endpoints. Which API best fits?",
+        "question_id": 9,
+        "topic": "Rest Apis (Arcgis Rest, Ogc Api)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Geological mapping benefits from topology validation and snapping to structural features (faults/contacts) to reduce gaps/overlaps and slivers after overlays.",
+        "is_correct": false,
+        "question": "You are compiling a geological map and need to ensure polygon contacts align with mapped faults and avoid sliver polygons after overlay operations. Which workflow best addresses this?",
+        "question_id": 10,
+        "topic": "geological mapping",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Gis Fundamentals (Projections, Datums, Spatial Analysis), Sql, Version Control (Git)",
+      "✅ Your strongest areas: Geospatial Data Formats & Standards (Geojson, Shapefile, Geopackage, Ogc), Esri Arcgis Platform (Arcgis Pro, Arcgis Enterprise, Arcgis Online)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Geospatial Data Formats & Standards (Geojson, Shapefile, Geopackage, Ogc)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Esri Arcgis Platform (Arcgis Pro, Arcgis Enterprise, Arcgis Online)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Gis Fundamentals (Projections, Datums, Spatial Analysis)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Version Control (Git)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Postgis",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Web Gis (Leaflet/Openlayers/Mapbox Gl Js)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Spatial Etl (Gdal/Ogr, Fme)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Rest Apis (Arcgis Rest, Ogc Api)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "geological mapping",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

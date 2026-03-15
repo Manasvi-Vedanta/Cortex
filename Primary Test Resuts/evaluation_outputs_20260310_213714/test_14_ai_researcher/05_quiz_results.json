@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:59:50.318124",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`len()` returns the number of elements in a list; `[1,2,3]` has 3 elements.",
+        "is_correct": false,
+        "question": "In Python, what does the expression `len([1, 2, 3])` return?",
+        "question_id": 1,
+        "topic": "Python",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "The binomial distribution models the count of successes across n independent trials with success probability p.",
+        "is_correct": true,
+        "question": "Which probability distribution is commonly used to model the number of successes in a fixed number of independent Bernoulli trials?",
+        "question_id": 2,
+        "topic": "Probability And Statistics",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Dot product is 1*3 + 2*4 = 3 + 8 = 11.",
+        "is_correct": true,
+        "question": "In linear algebra, what is the dot product of vectors a = [1, 2] and b = [3, 4]?",
+        "question_id": 3,
+        "topic": "Linear Algebra",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Supervised learning uses labeled examples: features (X) with targets/labels (y).",
+        "is_correct": false,
+        "question": "In supervised machine learning, what best describes the training data?",
+        "question_id": 4,
+        "topic": "Machine Learning Fundamentals",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Standardization is done per feature/column, so compute mean and std along axis=0.",
+        "is_correct": true,
+        "question": "You have a NumPy array `X` with shape (1000, 20). You want to standardize each feature to zero mean and unit variance. Which operation is correct (ignoring numerical stability)?",
+        "question_id": 5,
+        "topic": "Scientific Computing (Numpy/Scipy)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "One-hot encoding represents categories without introducing ordinal relationships that can mislead linear models.",
+        "is_correct": false,
+        "question": "A dataset has a categorical feature `color` with values {red, green, blue} and a binary target. You plan to use logistic regression. Which encoding is generally most appropriate to avoid imposing an artificial order?",
+        "question_id": 6,
+        "topic": "Data Preprocessing And Feature Engineering",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "With severe class imbalance, accuracy can be misleading; precision/recall (and F1) better reflect detection quality for the minority class.",
+        "is_correct": false,
+        "question": "You are evaluating a binary classifier on a highly imbalanced dataset (1% positive). Accuracy is 99%, but the model rarely detects positives. Which metric is typically more informative for the positive class performance?",
+        "question_id": 7,
+        "topic": "Model Evaluation And Metrics",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Diverging train/validation performance indicates overfitting; early stopping and stronger regularization help improve generalization.",
+        "is_correct": false,
+        "question": "You are training a deep network and observe training loss decreasing while validation loss increases over epochs. Which intervention most directly targets this issue?",
+        "question_id": 8,
+        "topic": "Deep Learning",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "`DistributedSampler` partitions data per rank; calling `set_epoch` changes the shuffle seed each epoch so shards differ and remain synchronized across processes.",
+        "is_correct": false,
+        "question": "In PyTorch distributed data parallel (DDP) training across multiple GPUs, what is the correct way to ensure each process sees a different shard of the dataset each epoch?",
+        "question_id": 9,
+        "topic": "Distributed Training And Compute (Gpus/Tpus)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A controlled experiment varies one factor (optimizer) while holding others constant and uses multiple seeds to account for stochasticity, enabling a fair causal comparison.",
+        "is_correct": false,
+        "question": "You are writing a research proposal to compare two optimization methods for training a model. Which experimental design choice best improves causal interpretability of the comparison?",
+        "question_id": 10,
+        "topic": "Research Methods And Experimental Design",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Python, Machine Learning Fundamentals, Data Preprocessing And Feature Engineering",
+      "✅ Your strongest areas: Probability And Statistics, Linear Algebra"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Probability And Statistics",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Linear Algebra",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Scientific Computing (Numpy/Scipy)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Python",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Machine Learning Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Preprocessing And Feature Engineering",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Model Evaluation And Metrics",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Deep Learning",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Training And Compute (Gpus/Tpus)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Research Methods And Experimental Design",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

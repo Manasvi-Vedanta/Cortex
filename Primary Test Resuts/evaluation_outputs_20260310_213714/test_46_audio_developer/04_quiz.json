@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:56:07.374031",
+      "learning_path_id": "test_46",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Headers typically contain declarations (interfaces) that multiple .cpp files include; compilation produces object code, and linking is separate.",
+        "id": 1,
+        "options": {
+          "A": "To store function/class declarations and interfaces shared across translation units",
+          "B": "To store compiled machine code for the target MCU",
+          "C": "To automatically allocate RAM for global variables at runtime",
+          "D": "To replace the linker by merging object files"
+        },
+        "question": "In C++, what is the primary purpose of a header file (.h/.hpp) in an embedded project?",
+        "topic": "C++"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is a version control system used to track changes, manage branches, and collaborate on source code.",
+        "id": 2,
+        "options": {
+          "A": "Git",
+          "B": "GDB",
+          "C": "CMake",
+          "D": "Valgrind"
+        },
+        "question": "Which tool is primarily used for software configuration management (version control) in embedded software teams?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Release builds generally enable compiler optimizations and omit many debug-only checks/symbols compared to Debug.",
+        "id": 3,
+        "options": {
+          "A": "Release",
+          "B": "Debug",
+          "C": "Safe Mode",
+          "D": "TestOnly"
+        },
+        "question": "In Microsoft Visual C++, which build configuration is typically used to enable optimizations and disable most debug checks for deployment?",
+        "topic": "Microsoft Visual C++"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The built-in module venv is invoked via 'python -m venv <dir>' to create an isolated environment.",
+        "id": 4,
+        "options": {
+          "A": "python -m venv .venv",
+          "B": "python --make-venv .venv",
+          "C": "pip install venv && venv .venv",
+          "D": "python -m pip venv .venv"
+        },
+        "question": "In Python, which statement correctly creates a virtual environment using the standard library?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Keeping interfaces in headers and implementations in source files (and using forward declarations) limits recompilation and reduces dependencies.",
+        "id": 5,
+        "options": {
+          "A": "Expose only necessary declarations in headers and hide implementation details in .cpp files (use forward declarations where possible)",
+          "B": "Put all library code into a single header and include it everywhere",
+          "C": "Copy/paste the library source into every module that needs it",
+          "D": "Disable compiler warnings to avoid integration issues"
+        },
+        "question": "You are using an external C/C++ library in an embedded firmware project. Which approach best reduces compile time and coupling while keeping the library usable across modules?",
+        "topic": "use software libraries"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Direct Form II Transposed is popular because it uses minimal delay elements (state) and is often more numerically robust in practice.",
+        "id": 6,
+        "options": {
+          "A": "It typically uses fewer state variables and has good numerical properties for fixed-point/limited precision",
+          "B": "It guarantees linear phase response",
+          "C": "It eliminates the need for coefficient quantization",
+          "D": "It always requires fewer multiplications than an FIR filter of any length"
+        },
+        "question": "In DSP for embedded audio, why is a biquad IIR filter often implemented in Direct Form II Transposed?",
+        "topic": "Digital Signal Processing (Dsp)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "For symmetric positive definite matrices, Cholesky is efficient and numerically stable compared to generic elimination or explicit inversion.",
+        "id": 7,
+        "options": {
+          "A": "Cholesky decomposition",
+          "B": "Gaussian elimination without pivoting",
+          "C": "Computing A^-1 explicitly and multiplying",
+          "D": "Using an FFT-based convolution"
+        },
+        "question": "You need to solve Ax = b on an embedded target where A is symmetric positive definite. Which method is typically the best choice for numerical stability and efficiency?",
+        "topic": "Linear Algebra And Numerical Methods"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Audio callbacks must be real-time safe; allocations and locks can block and cause dropouts/clicks. Pre-allocation and RT-safe design prevent spikes.",
+        "id": 8,
+        "options": {
+          "A": "Pre-allocate all needed buffers and avoid malloc/new, locks, and file I/O on the audio thread",
+          "B": "Increase the GUI refresh rate to reduce jitter",
+          "C": "Move DSP code to the message/UI thread to keep the audio thread light",
+          "D": "Use double-precision everywhere to reduce rounding noise"
+        },
+        "question": "A real-time audio plugin occasionally produces clicks. Profiling shows periodic CPU spikes caused by memory allocation in the audio callback. Which change best addresses the issue across VST3/AU/AAX?",
+        "topic": "Audio Plugin Development (Vst3/Au/Aax)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "On Windows, ASIO is commonly used for low-latency pro audio; JUCE can interface with ASIO through appropriate support/driver integration.",
+        "id": 9,
+        "options": {
+          "A": "ASIO, usually via an ASIO driver/SDK integration (or JUCE ASIO support where available)",
+          "B": "Core Audio, via AudioUnits",
+          "C": "ALSA, via snd_pcm",
+          "D": "OSS, via /dev/dsp"
+        },
+        "question": "You are building a cross-platform audio application with JUCE and need low-latency I/O. On Windows, which API is typically preferred for professional low-latency audio, and how does JUCE commonly access it?",
+        "topic": "Audio I/O Apis (Asio/Core Audio/Wasapi/Alsa)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Profiling (perf) narrows down where time is spent on real hardware; a debugger (gdb/lldb) then validates logic/state at those hotspots.",
+        "id": 10,
+        "options": {
+          "A": "Use perf to find hot functions and call stacks, then attach gdb/lldb to inspect state and verify assumptions at the suspected code paths",
+          "B": "Add printf statements everywhere and remove compiler optimizations",
+          "C": "Only run static analysis on the host machine and assume the same behavior on target",
+          "D": "Disable interrupts to make timing deterministic and then measure again"
+        },
+        "question": "An embedded Linux device shows a performance regression after a change. You can reproduce it only on target hardware. Which workflow best combines debugging and profiling to identify the root cause with minimal guesswork?",
+        "topic": "Debugging And Profiling (Gdb/Lldb/Perf/Instruments)"
+      }
+    ],
+    "topics_covered": [
+      "C++",
+      "integrated development environment software",
+      "tools for software configuration management",
+      "Microsoft Visual C++",
+      "use software libraries",
+      "Python",
+      "develop software prototype",
+      "Digital Signal Processing (Dsp)",
+      "Linear Algebra And Numerical Methods",
+      "Audio I/O Apis (Asio/Core Audio/Wasapi/Alsa)",
+      "Audio Frameworks (Juce)",
+      "Audio Plugin Development (Vst3/Au/Aax)",
+      "use software design patterns",
+      "Debugging And Profiling (Gdb/Lldb/Perf/Instruments)",
+      "debug software"
+    ]
+  },
+  "success": true
+}

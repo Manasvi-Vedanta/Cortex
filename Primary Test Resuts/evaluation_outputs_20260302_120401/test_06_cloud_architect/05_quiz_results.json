@@ -1,0 +1,201 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:12:39.212943",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "PaaS abstracts server management and provides a managed runtime/platform to deploy applications.",
+        "is_correct": false,
+        "question": "Which cloud service model provides managed application runtime where you deploy code without managing servers (e.g., AWS Lambda, Azure Functions)?",
+        "question_id": 1,
+        "topic": "cloud technologies",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "`top` provides an interactive, real-time view of processes and system resource usage.",
+        "is_correct": false,
+        "question": "On Linux, which command is commonly used to view real-time system processes and CPU/memory usage interactively?",
+        "question_id": 2,
+        "topic": "Linux Administration",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Amazon S3 is AWS's object storage service that stores data in buckets as objects.",
+        "is_correct": false,
+        "question": "In AWS, which service is primarily used for object storage (storing files as objects in buckets)?",
+        "question_id": 3,
+        "topic": "Aws Services (Ec2, S3, Vpc, Iam)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A Dockerfile contains build instructions (base image, dependencies, commands) used to create a container image.",
+        "is_correct": false,
+        "question": "In Docker, what is the primary purpose of a Dockerfile?",
+        "question_id": 4,
+        "topic": "Containers (Docker)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A NAT Gateway enables outbound internet access for resources in private subnets while preventing unsolicited inbound connections.",
+        "is_correct": true,
+        "question": "You need to allow an EC2 instance in a private subnet to download OS updates from the internet without allowing inbound internet traffic to that instance. Which AWS component is the best fit?",
+        "question_id": 5,
+        "topic": "Aws Services (Ec2, S3, Vpc, Iam)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Terraform state records resource IDs and metadata so Terraform can plan and apply changes against existing infrastructure.",
+        "is_correct": true,
+        "question": "In Terraform, what is the main purpose of the state file?",
+        "question_id": 6,
+        "topic": "Infrastructure As Code (Terraform)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Service exposes a stable virtual IP/DNS name and routes traffic to matching Pods via label selectors.",
+        "is_correct": false,
+        "question": "In Kubernetes, which object provides stable networking and load-balancing to a set of Pods selected by labels?",
+        "question_id": 7,
+        "topic": "Kubernetes",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "SSE-KMS with a customer-managed key enables granular key policies, auditing via CloudTrail, and controlled rotation/usage.",
+        "is_correct": false,
+        "question": "A company requires encryption at rest for S3 objects and strict control over key usage, including the ability to audit key access and rotate keys. Which approach best meets these requirements?",
+        "question_id": 8,
+        "topic": "Cloud Security (Encryption, Key Management, Security Groups)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "D",
+        "difficulty": "hard",
+        "explanation": "Active-active across regions provides the fastest recovery (very low RTO) and can achieve very low RPO with near-real-time replication.",
+        "is_correct": false,
+        "question": "You run a multi-region web application. The RTO must be under 15 minutes and the RPO under 5 minutes. Which disaster recovery strategy most appropriately meets these targets?",
+        "question_id": 9,
+        "topic": "Disaster Recovery And High Availability Design",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Distributed tracing reveals end-to-end request paths and per-service latency, making it ideal for diagnosing cross-service bottlenecks.",
+        "is_correct": false,
+        "question": "A microservices API shows intermittent latency spikes. Metrics indicate normal CPU/memory, and logs do not clearly show where time is spent. What is the best next step to pinpoint the bottleneck across services?",
+        "question_id": 10,
+        "topic": "Observability (Monitoring, Logging, Tracing)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Aws Services (Ec2, S3, Vpc, Iam)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: cloud technologies, Linux Administration, Containers (Docker)",
+      "✅ Your strongest areas: Infrastructure As Code (Terraform)",
+      "📖 Topics needing more practice: Aws Services (Ec2, S3, Vpc, Iam)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Infrastructure As Code (Terraform)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "cloud technologies",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Containers (Docker)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Kubernetes",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Cloud Security (Encryption, Key Management, Security Groups)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Disaster Recovery And High Availability Design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Observability (Monitoring, Logging, Tracing)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

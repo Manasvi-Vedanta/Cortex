@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T21:42:58.876280",
+      "learning_path_id": "test_04",
+      "target_occupation": "user interface developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`git checkout -b <name>` creates a new branch and checks it out in one step.",
+        "id": 1,
+        "options": {
+          "A": "git branch feature/login",
+          "B": "git checkout -b feature/login",
+          "C": "git switch feature/login --create",
+          "D": "git merge feature/login"
+        },
+        "question": "In Git, which command creates a new local branch named `feature/login` and switches to it?",
+        "topic": "Version Control (Git)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is intended for safe, read-only retrieval of resources.",
+        "id": 2,
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PUT",
+          "D": "DELETE"
+        },
+        "question": "Which HTTP method is typically used to retrieve data from a REST endpoint without changing server state?",
+        "topic": "Http/Https And Web Fundamentals"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows before GROUP BY and aggregate functions run; HAVING filters after aggregation.",
+        "id": 3,
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "ORDER BY",
+          "D": "GROUP BY"
+        },
+        "question": "In SQL, which clause is used to filter rows before grouping/aggregation is applied?",
+        "topic": "Sql (Relational Databases)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A debugger lets you pause execution, step line-by-line, and inspect program state to find issues.",
+        "id": 4,
+        "options": {
+          "A": "Automatically format code to a style guide",
+          "B": "Step through code execution and inspect variables",
+          "C": "Compress assets for production builds",
+          "D": "Generate UI mockups from requirements"
+        },
+        "question": "In an IDE, what is the primary purpose of a debugger?",
+        "topic": "integrated development environment software"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A balanced BST maintains sorted order with O(log n) inserts/removals and supports ordered traversal efficiently.",
+        "id": 5,
+        "options": {
+          "A": "Unsorted array/list",
+          "B": "Hash map keyed by index",
+          "C": "Balanced binary search tree (e.g., Red-Black Tree)",
+          "D": "Stack"
+        },
+        "question": "You need a data structure for a UI autocomplete feature that frequently adds/removes items and must keep them sorted for fast rendering. Which is the best choice?",
+        "topic": "Data Structures And Algorithms"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "201 Created indicates a new resource was created (often with a Location header pointing to it).",
+        "id": 6,
+        "options": {
+          "A": "200 OK",
+          "B": "201 Created",
+          "C": "204 No Content",
+          "D": "304 Not Modified"
+        },
+        "question": "In RESTful API design, which response is most appropriate when a client sends a valid POST to create a resource and the server successfully creates it?",
+        "topic": "Restful Api Design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A separate `order_items` table models the one-to-many relationship properly and avoids repeating groups and update anomalies.",
+        "id": 7,
+        "options": {
+          "A": "Store a comma-separated list of product IDs in `orders.items`",
+          "B": "Create `order_items(order_id, product_id, quantity, unit_price)` with a foreign key to `orders(id)`",
+          "C": "Duplicate customer address fields in every `order_items` row",
+          "D": "Store the entire order as a JSON blob in a single `orders.payload` column only"
+        },
+        "question": "You are designing tables for `orders` and `order_items`. Which design best supports normalization and avoids repeating groups?",
+        "topic": "Database Schema Design And Normalization"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "HttpOnly cookies are not readable by JavaScript (mitigating XSS token theft) and can be sent securely over HTTPS; refresh tokens are especially sensitive.",
+        "id": 8,
+        "options": {
+          "A": "LocalStorage",
+          "B": "SessionStorage",
+          "C": "An HttpOnly, Secure cookie set by the backend",
+          "D": "A JavaScript global variable in memory for the lifetime of the browser"
+        },
+        "question": "A single-page app uses OAuth2 Authorization Code with PKCE. After the user signs in, which component should store the refresh token to reduce XSS risk while still allowing session renewal?",
+        "topic": "Authentication And Authorization (Oauth2/Jwt)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Partitioning by `userId` preserves per-user ordering (same key -> same partition) while consumer groups enable scaling across partitions.",
+        "id": 9,
+        "options": {
+          "A": "Use one topic partition total to guarantee global ordering for everyone",
+          "B": "Partition the topic by `userId` so each user's events go to a single partition, and run a consumer group",
+          "C": "Publish all events to random partitions and rely on the UI to reorder them",
+          "D": "Use Kafka only as a cache and poll it like a database table"
+        },
+        "question": "Your UI shows real-time notifications. The backend publishes events to Kafka. You need each user to receive all events relevant to them in order, while allowing horizontal scaling of consumers. Which Kafka strategy best fits?",
+        "topic": "Message Queues And Event Streaming (Rabbitmq/Kafka)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Including `userId` (or another auth-scoped identifier) in the cache key ensures isolation between users; invalidation/TTL prevents stale data.",
+        "id": 10,
+        "options": {
+          "A": "Cache under a single key like `profile` for maximum hit rate",
+          "B": "Cache under a key that includes the authenticated user identifier, e.g., `profile:{userId}` (and invalidate on updates)",
+          "C": "Cache only the HTTP status code and recompute the body each time",
+          "D": "Cache the response in Redis without any TTL so it never expires"
+        },
+        "question": "A UI calls `GET /api/profile` frequently. You add Redis caching. Which approach best prevents serving one user's cached profile to another user?",
+        "topic": "Caching (Redis/Memcached)"
+      }
+    ],
+    "topics_covered": [
+      "programming",
+      "integrated development environment software",
+      "Data Structures And Algorithms",
+      "Version Control (Git)",
+      "Sql (Relational Databases)",
+      "Database Schema Design And Normalization",
+      "Http/Https And Web Fundamentals",
+      "web programming",
+      "Restful Api Design",
+      "Authentication And Authorization (Oauth2/Jwt)",
+      "Testing (Unit/Integration)",
+      "Caching (Redis/Memcached)",
+      "Message Queues And Event Streaming (Rabbitmq/Kafka)",
+      "software UI design patterns",
+      "graphics editor software"
+    ]
+  },
+  "success": true
+}

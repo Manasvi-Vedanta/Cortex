@@ -1,0 +1,201 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:45:33.276892",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Device drivers bridge the OS and hardware by implementing hardware-specific control and data transfer operations behind standard OS interfaces.",
+        "is_correct": true,
+        "question": "In an embedded Linux device, what is the primary purpose of a device driver?",
+        "question_id": 1,
+        "topic": "embedded systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Eventual consistency guarantees convergence over time (in the absence of new writes), not immediate visibility of the latest write.",
+        "is_correct": false,
+        "question": "Which statement best describes eventual consistency in a distributed system?",
+        "question_id": 2,
+        "topic": "Data Consistency Models (Strong/Eventual)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "TCP provides connection-oriented, reliable, in-order delivery with retransmissions and congestion control.",
+        "is_correct": false,
+        "question": "In TCP/IP networking, which protocol provides reliable, ordered delivery of a byte stream?",
+        "question_id": 3,
+        "topic": "Networking (Tcp/Ip, Http/2, Grpc)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A Pod is Kubernetes' basic scheduling unit, grouping one or more containers that share networking and (optionally) storage.",
+        "is_correct": true,
+        "question": "In Kubernetes, what is the primary role of a Pod?",
+        "question_id": 4,
+        "topic": "Containerization And Orchestration (Docker/Kubernetes)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A mutex (or an atomic for simple types) ensures mutual exclusion/atomicity and prevents torn reads/writes without wasteful spinning.",
+        "is_correct": true,
+        "question": "You have two threads on an embedded Linux gateway: one updates a shared sensor reading, another publishes it over MQTT/HTTP. Which approach best prevents data races with minimal overhead?",
+        "question_id": 5,
+        "topic": "Concurrency And Multithreading",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Kafka provides durable logs, replayability, and ordering within a partition; keying by device ID preserves per-device order while scaling throughput.",
+        "is_correct": false,
+        "question": "A fleet of embedded devices sends telemetry to a backend. You need high-throughput ingestion, ordered processing per device, and the ability to replay data for debugging. Which system best fits?",
+        "question_id": 6,
+        "topic": "Messaging And Streaming Systems (Kafka/Rabbitmq/Pulsar)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "gRPC runs over HTTP/2, which supports multiple concurrent streams multiplexed over one TCP connection.",
+        "is_correct": true,
+        "question": "An embedded gateway uses gRPC to communicate with a cloud service. Which gRPC feature most directly enables efficient multiplexing of multiple concurrent RPCs over a single connection?",
+        "question_id": 7,
+        "topic": "Networking (Tcp/Ip, Http/2, Grpc)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Raft commits entries when replicated to a majority. With 5 nodes, a majority is 3.",
+        "is_correct": false,
+        "question": "You are implementing a Raft-based leader election among 5 nodes for coordinating firmware rollouts. What is the minimum number of nodes that must agree to commit a log entry?",
+        "question_id": 8,
+        "topic": "Distributed Consensus (Raft/Paxos)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "To avoid stale reads in quorum systems, require R + W > RF. With RF=3, R=2 and W=2 gives 4>3 and still tolerates one node failure.",
+        "is_correct": false,
+        "question": "An embedded device uploads sensor events to a Cassandra-like store. You need to tolerate one node failure while ensuring reads see the latest acknowledged write (no stale reads). With replication factor RF=3, which (R, W) satisfies this requirement?",
+        "question_id": 9,
+        "topic": "Distributed Data Stores (Cassandra/Dynamodb/Hbase)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "eBPF/ftrace/perf can measure scheduler latency, wakeups, and lock contention with low overhead; correlating with metrics/traces helps identify when and why deadlines are missed.",
+        "is_correct": false,
+        "question": "A real-time-ish embedded Linux application occasionally misses deadlines. You suspect kernel scheduling latency and lock contention. Which observability + profiling combination is most appropriate to pinpoint the cause on-device?",
+        "question_id": 10,
+        "topic": "Performance Tuning And Profiling",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Networking (Tcp/Ip, Http/2, Grpc)",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: Data Consistency Models (Strong/Eventual), Messaging And Streaming Systems (Kafka/Rabbitmq/Pulsar), Distributed Consensus (Raft/Paxos)",
+      "✅ Your strongest areas: embedded systems, Containerization And Orchestration (Docker/Kubernetes)",
+      "📖 Topics needing more practice: Networking (Tcp/Ip, Http/2, Grpc)"
+    ],
+    "score": {
+      "correct": 4,
+      "grade": "F",
+      "incorrect": 6,
+      "percentage": 40.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "embedded systems",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Containerization And Orchestration (Docker/Kubernetes)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Concurrency And Multithreading",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Consistency Models (Strong/Eventual)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Messaging And Streaming Systems (Kafka/Rabbitmq/Pulsar)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Consensus (Raft/Paxos)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Distributed Data Stores (Cassandra/Dynamodb/Hbase)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Performance Tuning And Profiling",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

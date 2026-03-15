@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:43:57.403997",
+      "learning_path_id": "test_39",
+      "target_occupation": "software architect",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Lexing groups characters into tokens such as identifiers, keywords, operators, and literals before parsing builds grammatical structure.",
+        "id": 1,
+        "options": {
+          "A": "Lexing (lexical analysis)",
+          "B": "Parsing (syntax analysis)",
+          "C": "Semantic analysis",
+          "D": "Register allocation"
+        },
+        "question": "In a typical compiler pipeline, which phase is primarily responsible for converting a stream of characters into tokens (e.g., identifiers, keywords, literals)?",
+        "topic": "Compiler Theory (Lexing/Parsing/Semantic Analysis)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An AST captures the hierarchical structure of the program as a tree, reflecting nesting and syntactic constructs.",
+        "id": 2,
+        "options": {
+          "A": "CFG (Control Flow Graph)",
+          "B": "AST (Abstract Syntax Tree)",
+          "C": "SSA (Static Single Assignment form)",
+          "D": "ELF (Executable and Linkable Format)"
+        },
+        "question": "Which intermediate representation is most directly used to represent the hierarchical syntactic structure of source code (e.g., expressions nested inside statements)?",
+        "topic": "Intermediate Representations (Ssa, Cfg, Ast)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Headers provide declarations that allow multiple source files to compile consistently against shared interfaces.",
+        "id": 3,
+        "options": {
+          "A": "To store compiled machine code for faster linking",
+          "B": "To declare interfaces (types, function prototypes, constants) shared across translation units",
+          "C": "To embed debug symbols for GDB",
+          "D": "To define the program entry point (main) for the linker"
+        },
+        "question": "In C/C++, what is the primary purpose of a header file (.h/.hpp) in a multi-file project?",
+        "topic": "C/C++"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "GDB is the GNU Debugger used for breakpoints, stepping, inspecting variables, and analyzing crashes.",
+        "id": 4,
+        "options": {
+          "A": "perf",
+          "B": "ld",
+          "C": "gdb",
+          "D": "clang"
+        },
+        "question": "Which tool is primarily used to inspect and control a running process for step-by-step debugging on Linux?",
+        "topic": "Debugging And Profiling (Gdb, Perf)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Constant propagation is typically implemented using forward dataflow analysis to compute facts (e.g., constant values) at each program point.",
+        "id": 5,
+        "options": {
+          "A": "Dataflow analysis",
+          "B": "Instruction selection",
+          "C": "Relocation processing",
+          "D": "Cache coherence analysis"
+        },
+        "question": "You are designing a compiler optimization pass. Which analysis most directly determines whether a variable's value at a program point is guaranteed to be the same along all paths (enabling constant propagation)?",
+        "topic": "Optimization Techniques (Dataflow, Loop Opts, Peephole)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "LLVM backends lower LLVM IR to target-specific machine code, performing instruction selection, scheduling, and register allocation.",
+        "id": 6,
+        "options": {
+          "A": "Frontend (e.g., Clang) semantic analyzer",
+          "B": "LLVM backend code generator",
+          "C": "LLD linker",
+          "D": "DWARF debug info emitter only"
+        },
+        "question": "In LLVM, which component is responsible for transforming LLVM IR into target-specific machine instructions (e.g., x86-64) during compilation?",
+        "topic": "Llvm"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Poor locality increases cache miss rates, stressing the cache/memory hierarchy and increasing effective memory access latency.",
+        "id": 7,
+        "options": {
+          "A": "Branch predictor",
+          "B": "CPU caches and memory hierarchy",
+          "C": "Instruction set encoding density",
+          "D": "Relocation entries in the ELF file"
+        },
+        "question": "A hot loop repeatedly reads a large array with poor spatial locality, causing frequent cache misses. Which architectural feature is most directly being stressed?",
+        "topic": "Computer Architecture (Pipelines, Caches, Isa)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Dynamic linking relies on relocations to patch addresses (often via GOT/PLT). Incorrect or mismatched relocations/symbol resolution can cause invalid runtime jump targets.",
+        "id": 8,
+        "options": {
+          "A": "Lexical tokenization of the source code",
+          "B": "Relocation of symbol references (e.g., PLT/GOT updates for shared objects)",
+          "C": "SSA phi-node placement",
+          "D": "Peephole optimization of instruction sequences"
+        },
+        "question": "You are investigating a crash in a shared library after an update. The binary loads, but a function call jumps to an invalid address only at runtime. Which linker/loader concept most directly explains why this can happen if not handled correctly?",
+        "topic": "Linkers And Loaders (Elf, Relocation)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Ports-and-adapters (hexagonal) and dependency inversion keep domain logic independent by depending on abstractions, with infrastructure implemented as adapters.",
+        "id": 9,
+        "options": {
+          "A": "Place database access directly inside domain entities for simplicity",
+          "B": "Use a layered/hexagonal (ports and adapters) architecture with dependency inversion",
+          "C": "Use global singletons for infrastructure services to reduce boilerplate",
+          "D": "Generate all code from an IDL and avoid domain modeling"
+        },
+        "question": "As a software architect, you must align a new service with an existing system architecture that mandates strict separation between domain logic and infrastructure concerns. Which design approach best enforces this constraint while keeping the domain model independent?",
+        "topic": "align software with system architectures"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Git provides versioned change control; CI enforces automated validation; git bisect helps pinpoint the regression-introducing commit when builds/tests are reproducible.",
+        "id": 10,
+        "options": {
+          "A": "Use a centralized wiki for code storage and manually copy releases to servers",
+          "B": "Use Git with CI pipelines and bisecting (e.g., git bisect) supported by reproducible builds",
+          "C": "Disable optimization flags to make performance stable across builds",
+          "D": "Rely solely on manual QA sign-off and avoid automated testing"
+        },
+        "question": "A team reports intermittent performance regressions after merging feature branches. You need a process and tooling strategy to both control changes and quickly identify the commit that introduced the regression. Which combination is most appropriate?",
+        "topic": "tools for software configuration management"
+      }
+    ],
+    "topics_covered": [
+      "Compiler Theory (Lexing/Parsing/Semantic Analysis)",
+      "Intermediate Representations (Ssa, Cfg, Ast)",
+      "Optimization Techniques (Dataflow, Loop Opts, Peephole)",
+      "Code Generation (Instruction Selection, Register Allocation)",
+      "Computer Architecture (Pipelines, Caches, Isa)",
+      "C/C++",
+      "Llvm",
+      "Linkers And Loaders (Elf, Relocation)",
+      "Debugging And Profiling (Gdb, Perf)",
+      "systems development life-cycle",
+      "tools for software configuration management",
+      "align software with system architectures",
+      "create software design",
+      "oversee development of software",
+      "analyse software specifications"
+    ]
+  },
+  "success": true
+}

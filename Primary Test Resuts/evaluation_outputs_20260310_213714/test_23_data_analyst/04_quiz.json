@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:15:47.222490",
+      "learning_path_id": "test_23",
+      "target_occupation": "data analyst",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "SUMIF adds values in a range that meet one specified criterion (e.g., Region equals West).",
+        "id": 1,
+        "options": {
+          "A": "SUMIF",
+          "B": "VLOOKUP",
+          "C": "COUNTIF",
+          "D": "AVERAGEIF"
+        },
+        "question": "In Excel, which function is best suited to sum values that meet a single condition (e.g., sum Sales where Region = \"West\")?",
+        "topic": "Excel"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows prior to GROUP BY and aggregate functions; HAVING filters after aggregation.",
+        "id": 2,
+        "options": {
+          "A": "HAVING",
+          "B": "WHERE",
+          "C": "ORDER BY",
+          "D": "GROUP BY"
+        },
+        "question": "Which SQL clause is used to filter rows before aggregation occurs?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "dropna() removes rows (or columns) with missing values, depending on parameters.",
+        "id": 3,
+        "options": {
+          "A": "dropna()",
+          "B": "fillna()",
+          "C": "isna()",
+          "D": "astype()"
+        },
+        "question": "In pandas, which method is commonly used to remove rows containing missing values?",
+        "topic": "Data Cleaning (Pandas)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Standard deviation quantifies typical deviation from the mean, indicating variability.",
+        "id": 4,
+        "options": {
+          "A": "Median",
+          "B": "Standard deviation",
+          "C": "Mode",
+          "D": "Skewness"
+        },
+        "question": "Which statistic measures the spread of data around the mean?",
+        "topic": "statistics"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A LEFT JOIN keeps all rows from the left table (Customers) and matches Orders when available; unmatched orders become NULL.",
+        "id": 5,
+        "options": {
+          "A": "INNER JOIN",
+          "B": "LEFT JOIN (Customers LEFT JOIN Orders)",
+          "C": "RIGHT JOIN (Orders RIGHT JOIN Customers)",
+          "D": "CROSS JOIN"
+        },
+        "question": "You have a Customers table and an Orders table. Which SQL join returns all customers, including those with no orders, along with any matching orders?",
+        "topic": "Sql"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Fact tables contain measures (metrics) and link to dimension tables via foreign keys; dimensions hold descriptive context.",
+        "id": 6,
+        "options": {
+          "A": "Store descriptive attributes like customer name and product category",
+          "B": "Store transactional or measurable metrics (e.g., sales amount) and foreign keys to dimensions",
+          "C": "Eliminate the need for dimension tables by denormalizing everything",
+          "D": "Store only unstructured data such as text and images"
+        },
+        "question": "In a star schema used for analytics, what is the primary role of a fact table?",
+        "topic": "Data Modeling"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "CALCULATE evaluates an expression in a modified filter context, enabling dynamic measures responsive to slicers.",
+        "id": 7,
+        "options": {
+          "A": "CALCULATE",
+          "B": "SUMMARIZE",
+          "C": "RELATED",
+          "D": "UNION"
+        },
+        "question": "In Power BI, you need a measure that recalculates based on slicer selections (filter context). Which DAX function is most commonly used to modify filter context for a calculation?",
+        "topic": "Business Intelligence (Power Bi)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Separating line items into an OrderItems table removes repeating groups (1NF), supports any number of items per order, and enables efficient joins and aggregations.",
+        "id": 8,
+        "options": {
+          "A": "Keep the table as-is and add more ProductN columns as needed",
+          "B": "Split into Orders (OrderID, CustomerID, OrderDate) and OrderItems (OrderID, ProductID, Quantity) with a foreign key",
+          "C": "Store the repeating groups as a comma-separated string in one column",
+          "D": "Move all product columns into the Customers table to reduce joins"
+        },
+        "question": "A database has a single Orders table with repeating groups (Product1, Qty1, Product2, Qty2, ...). Which redesign best addresses normalization and improves queryability?",
+        "topic": "database design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A raw (immutable) layer plus curated transformed tables supports auditability, reprocessing, late data handling, and performant querying via incremental loads and partitioning.",
+        "id": 9,
+        "options": {
+          "A": "Overwrite the only table each day with the latest extract and keep no history",
+          "B": "Load raw immutable data to a landing zone, then transform into curated tables with incremental processing and partitioning by event_date",
+          "C": "Manually copy/paste daily CSVs into Excel and publish the workbook as the source of truth",
+          "D": "Store all events only as images to reduce schema management"
+        },
+        "question": "You must build a daily pipeline that ingests app events, supports late-arriving data, and allows analysts to query both raw and cleaned data. Which approach best fits common data engineering best practices?",
+        "topic": "data engineering"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Text must be represented numerically (TF-IDF/embeddings) before applying mining methods like clustering or topic modeling to extract themes from unstructured data.",
+        "id": 10,
+        "options": {
+          "A": "Use k-means directly on raw text strings without preprocessing",
+          "B": "Convert text to numeric features (e.g., TF-IDF or embeddings), then apply clustering or topic modeling to identify themes",
+          "C": "Only compute mean and standard deviation of ticket length to find issues",
+          "D": "Replace all text with NULLs to avoid unstructured data complexity"
+        },
+        "question": "You are asked to perform data mining on thousands of customer support tickets (free-text) to discover common issues and trends. Which workflow is most appropriate?",
+        "topic": "unstructured data"
+      }
+    ],
+    "topics_covered": [
+      "Excel",
+      "Sql",
+      "Python",
+      "Data Cleaning (Pandas)",
+      "statistics",
+      "Data Modeling",
+      "database design",
+      "data engineering",
+      "data mining",
+      "perform data mining",
+      "unstructured data",
+      "data visualization",
+      "Dashboard Design",
+      "Business Intelligence (Power Bi)",
+      "data visualisation software"
+    ]
+  },
+  "success": true
+}

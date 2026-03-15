@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:28:03.780211",
+      "learning_path_id": "test_16",
+      "target_occupation": "database administrator",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A DBMS provides structured storage, querying, concurrency, and security mechanisms for managing data.",
+        "id": 1,
+        "options": {
+          "A": "Manage and organize data storage, retrieval, and access control",
+          "B": "Compile application source code into binaries",
+          "C": "Route network traffic between subnets",
+          "D": "Encrypt all files on an operating system by default"
+        },
+        "question": "What is the primary role of a Database Management System (DBMS)?",
+        "topic": "database management systems"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "DROP TABLE removes the table definition and data; TRUNCATE removes rows but keeps the table.",
+        "id": 2,
+        "options": {
+          "A": "DELETE TABLE table_name;",
+          "B": "DROP TABLE table_name;",
+          "C": "TRUNCATE TABLE table_name;",
+          "D": "REMOVE TABLE table_name;"
+        },
+        "question": "Which SQL statement is used to permanently remove a table and its definition from a relational database?",
+        "topic": "operate relational database management system"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "top provides a live view of processes and system resource usage, useful for identifying resource contention.",
+        "id": 3,
+        "options": {
+          "A": "top",
+          "B": "chmod",
+          "C": "tar",
+          "D": "ssh"
+        },
+        "question": "On Linux, which command is commonly used to view real-time CPU and memory usage to help diagnose database host pressure?",
+        "topic": "Linux/Unix Administration"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Normalization structures data to minimize redundancy and avoid insert/update/delete anomalies.",
+        "id": 4,
+        "options": {
+          "A": "Increase data redundancy to improve read performance",
+          "B": "Reduce redundancy and prevent update anomalies",
+          "C": "Ensure every table has at least one index",
+          "D": "Store all data in a single table for simplicity"
+        },
+        "question": "In data modeling, what is the main goal of normalization (e.g., 1NF to 3NF)?",
+        "topic": "Data Modeling And Normalization"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A composite index starting with the filter column (customer_id) can efficiently locate rows and then provide ordering by created_at.",
+        "id": 5,
+        "options": {
+          "A": "An index on (created_at, customer_id)",
+          "B": "An index on (customer_id, created_at)",
+          "C": "Separate single-column indexes on customer_id and created_at always outperform composite indexes",
+          "D": "No index; sorting is always faster without indexes"
+        },
+        "question": "A query frequently filters by customer_id and sorts by created_at: WHERE customer_id = ? ORDER BY created_at DESC. Which index is typically most effective?",
+        "topic": "Indexing And Query Optimization"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "ANALYZE collects statistics about table contents that the planner uses for cost estimates and plan selection.",
+        "id": 6,
+        "options": {
+          "A": "ANALYZE",
+          "B": "CHECKPOINT",
+          "C": "REINDEX",
+          "D": "VACUUM FREEZE"
+        },
+        "question": "In PostgreSQL, which command updates table statistics used by the query planner to choose better execution plans?",
+        "topic": "PostgreSQL"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The FULL recovery model preserves the transaction log chain needed for point-in-time restores with log backups.",
+        "id": 7,
+        "options": {
+          "A": "SIMPLE",
+          "B": "BULK_LOGGED only",
+          "C": "FULL",
+          "D": "READ_ONLY"
+        },
+        "question": "In SQL Server, which recovery model is required to support point-in-time recovery using transaction log backups?",
+        "topic": "SQL Server"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "InnoDB MVCC retains old versions until all transactions that might need them finish; long transactions delay purge and grow undo/history.",
+        "id": 8,
+        "options": {
+          "A": "Binary logging is disabled, so purge cannot run",
+          "B": "Long-running transactions prevent purge from removing old row versions (MVCC), causing undo growth",
+          "C": "The buffer pool is too large, which forces undo retention",
+          "D": "The slow query log is enabled, which increases undo records"
+        },
+        "question": "A MySQL InnoDB server shows increasing 'history list length' and growing undo tablespace; long-running transactions are present. What is the most likely root cause?",
+        "topic": "MySQL"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "HA requires redundancy and automated failover (e.g., primary/standby with health checks) to minimize downtime during failures or maintenance.",
+        "id": 9,
+        "options": {
+          "A": "Nightly full backups to object storage",
+          "B": "A single server with RAID 10 only",
+          "C": "A clustered/replicated setup with a health-checked primary and automatic failover to a standby",
+          "D": "Disabling indexes to reduce write overhead"
+        },
+        "question": "You need near-zero downtime maintenance for a critical database. Which approach best matches a high availability design that allows automatic failover?",
+        "topic": "High Availability And Disaster Recovery (Hadr)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Replication lag with high write latency often indicates the replica cannot keep up with log receive/replay due to I/O constraints; improving I/O is a safe first step without weakening durability.",
+        "id": 10,
+        "options": {
+          "A": "Disable fsync on the replica to speed up writes",
+          "B": "Increase replica I/O capacity (faster storage or more IOPS) and verify replay/apply is not I/O bound",
+          "C": "Stop replication and manually copy tables during peak hours",
+          "D": "Drop foreign keys on the primary to reduce lag immediately"
+        },
+        "question": "A monitoring system reports rising replication lag on a read replica and increasing disk write latency on the replica host. Which action is the best first step to reduce lag while preserving data consistency?",
+        "topic": "Database Monitoring And Alerting"
+      }
+    ],
+    "topics_covered": [
+      "database management systems",
+      "operate relational database management system",
+      "Linux/Unix Administration",
+      "Database Installation And Configuration",
+      "MySQL",
+      "PostgreSQL",
+      "SQL Server",
+      "Data Modeling And Normalization",
+      "Indexing And Query Optimization",
+      "Database Performance Tuning",
+      "Database Monitoring And Alerting",
+      "Database Security And Access Control",
+      "Backup And Recovery",
+      "Replication And Clustering",
+      "High Availability And Disaster Recovery (Hadr)"
+    ]
+  },
+  "success": true
+}

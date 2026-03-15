@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:39:51.248949",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "DevOps focuses on collaboration, automation, and continuous improvement to increase delivery speed and reliability.",
+        "is_correct": false,
+        "question": "What is the primary goal of DevOps in a software delivery organization?",
+        "question_id": 1,
+        "topic": "DevOps",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "git checkout -b <branch> creates the branch and checks it out in one step.",
+        "is_correct": false,
+        "question": "Which Git command creates a new branch named \"feature/login\" and switches to it?",
+        "question_id": 2,
+        "topic": "Version Control (Git)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "top provides an interactive, real-time view of processes and system resource usage.",
+        "is_correct": false,
+        "question": "On a Linux system, which command is commonly used to view real-time CPU and memory usage interactively?",
+        "question_id": 3,
+        "topic": "Linux Administration",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A Dockerfile contains instructions (FROM, RUN, COPY, etc.) used to build an image.",
+        "is_correct": true,
+        "question": "In Docker, what is the purpose of a Dockerfile?",
+        "question_id": 4,
+        "topic": "Containers (Docker)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "OIDC federation allows short-lived credentials by assuming an IAM role, avoiding stored long-lived secrets.",
+        "is_correct": true,
+        "question": "In a CI/CD pipeline, which approach best prevents long-lived cloud credentials from being stored in the repository when deploying to AWS?",
+        "question_id": 5,
+        "topic": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A Deployment manages ReplicaSets, ensures desired replica count, and supports rolling updates/rollbacks.",
+        "is_correct": false,
+        "question": "Which Kubernetes object is primarily responsible for keeping a specified number of pod replicas running and performing rolling updates?",
+        "question_id": 6,
+        "topic": "Container Orchestration (Kubernetes)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Terraform state tracks resource IDs and attributes so Terraform can plan and apply changes correctly.",
+        "is_correct": false,
+        "question": "In Terraform, what is the main purpose of the state file?",
+        "question_id": 7,
+        "topic": "Infrastructure As Code (Terraform)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "Vault can generate short-lived dynamic DB credentials and support rotation/renewal without rebuilding images.",
+        "is_correct": false,
+        "question": "You need to rotate database credentials used by multiple Kubernetes services without redeploying application images. Which design best fits this requirement?",
+        "question_id": 8,
+        "topic": "Secrets Management (Vault/Kms)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Version/build labels (used carefully) plus deployment annotations enable correlating error spikes with specific releases.",
+        "is_correct": false,
+        "question": "A Prometheus alert fires when error rate increases, but you want to quickly identify which service version introduced the regression. Which approach best improves this investigation workflow?",
+        "question_id": 9,
+        "topic": "Monitoring & Alerting (Prometheus/Grafana)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "CPU-bound tasks block Node’s event loop; offloading to worker threads or external workers reduces blocking and improves throughput.",
+        "is_correct": false,
+        "question": "Your Node.js API is deployed behind a load balancer and occasionally returns 502 errors under load. You suspect the app is blocking the event loop. Which change is most likely to reduce event-loop blocking?",
+        "question_id": 10,
+        "topic": "JavaScript",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: DevOps, Version Control (Git), Linux Administration",
+      "✅ Your strongest areas: Containers (Docker), Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Containers (Docker)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Ci/Cd Pipelines (Jenkins/Gitlab Ci/Github Actions)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "DevOps",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Version Control (Git)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Linux Administration",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Container Orchestration (Kubernetes)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Infrastructure As Code (Terraform)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Secrets Management (Vault/Kms)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Monitoring & Alerting (Prometheus/Grafana)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "JavaScript",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

@@ -1,0 +1,176 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-02T12:07:58.179701",
+      "learning_path_id": "test_03",
+      "target_occupation": "web developer",
+      "total_questions": 10,
+      "total_topics": 14
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A variable holds a value (e.g., number, string, object) so code can read and update it during execution.",
+        "id": 1,
+        "options": {
+          "A": "Storing data values that can be referenced and changed",
+          "B": "Styling HTML elements on a page",
+          "C": "Encrypting network traffic between client and server",
+          "D": "Compiling JavaScript into machine code in the browser"
+        },
+        "question": "In programming, what is a variable primarily used for?",
+        "topic": "programming"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "<main> represents the dominant content of the <body> and should be unique per page.",
+        "id": 2,
+        "options": {
+          "A": "<main>",
+          "B": "<section>",
+          "C": "<article>",
+          "D": "<div>"
+        },
+        "question": "Which HTML5 element is most appropriate for the main content of a document (excluding headers, footers, and sidebars)?",
+        "topic": "Html5"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Media queries apply different CSS rules based on conditions like viewport width, enabling responsive design.",
+        "id": 3,
+        "options": {
+          "A": "Media queries",
+          "B": "CSS variables (custom properties)",
+          "C": "CSS transitions",
+          "D": "Box-shadow"
+        },
+        "question": "Which CSS3 feature is specifically designed to create layouts that adapt to different screen sizes?",
+        "topic": "Responsive Web Design"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Elements panel shows the DOM tree and associated styles, allowing live edits for debugging.",
+        "id": 4,
+        "options": {
+          "A": "Elements",
+          "B": "Network",
+          "C": "Application",
+          "D": "Performance"
+        },
+        "question": "In browser DevTools, which panel is typically used to inspect and edit the DOM and CSS rules live?",
+        "topic": "Browser Devtools"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "CSS Grid is designed for two-dimensional layouts, controlling both rows and columns efficiently.",
+        "id": 5,
+        "options": {
+          "A": "CSS Grid",
+          "B": "Float-based layout",
+          "C": "Inline-block layout",
+          "D": "Table layout"
+        },
+        "question": "You need to create a two-dimensional layout (rows and columns) for a dashboard. Which CSS3 layout system is best suited?",
+        "topic": "Css3"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Icon-only controls need an accessible name (e.g., aria-label or visible text) so assistive tech can announce the purpose.",
+        "id": 6,
+        "options": {
+          "A": "Add an accessible name using aria-label (or visible text) describing the action",
+          "B": "Increase the icon size to at least 32px",
+          "C": "Use a <div> instead of a <button> to avoid default button behavior",
+          "D": "Set role=\"presentation\" on the button"
+        },
+        "question": "A button is implemented as an icon-only control. Which approach best improves accessibility for screen readers?",
+        "topic": "Accessibility (Wcag/Aria)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "useEffect runs side-effect logic after render and can clean up effects (e.g., unsubscribing) when dependencies change.",
+        "id": 7,
+        "options": {
+          "A": "To perform side effects (e.g., data fetching, subscriptions) in function components",
+          "B": "To define global CSS styles for a component",
+          "C": "To create a new component instance on every render",
+          "D": "To replace the need for props by mutating parent state directly"
+        },
+        "question": "In React, what is the primary purpose of the useEffect hook?",
+        "topic": "React"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Modern formats and responsive images reduce bytes transferred while keeping the same displayed size and quality targets.",
+        "id": 8,
+        "options": {
+          "A": "Serve modern formats (e.g., WebP/AVIF) and use responsive images (srcset/sizes)",
+          "B": "Move all images into a single CSS sprite regardless of size",
+          "C": "Replace <img> tags with background-image for all images",
+          "D": "Disable browser caching to ensure fresh downloads"
+        },
+        "question": "Your page loads slowly due to large images. Which change most directly improves performance without changing visual dimensions?",
+        "topic": "Web Performance Optimization"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "A gradual approach (allowJs + staged strictness) minimizes disruption while steadily increasing type safety.",
+        "id": 9,
+        "options": {
+          "A": "Enable allowJs, start with strict: false, convert files gradually to .ts/.tsx, then tighten strictness over time",
+          "B": "Rename all .js files to .ts immediately and set noImplicitAny: false permanently",
+          "C": "Avoid type checking by using // @ts-nocheck in every file",
+          "D": "Only add TypeScript types in comments and do not use the TypeScript compiler"
+        },
+        "question": "You are adding TypeScript to an existing JavaScript project. Which approach is generally the safest incremental migration strategy?",
+        "topic": "Add TypeScript"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Git provides version control, and platforms like GitHub/GitLab add workflows for reviews, branching, tags, and releases.",
+        "id": 10,
+        "options": {
+          "A": "Git (with a hosted platform like GitHub/GitLab for PRs and releases)",
+          "B": "Figma",
+          "C": "Google Analytics",
+          "D": "Postman"
+        },
+        "question": "A team needs to track changes, review code, and manage releases for a web app. Which tool best fits software configuration management needs?",
+        "topic": "tools for software configuration management"
+      }
+    ],
+    "topics_covered": [
+      "programming",
+      "web programming",
+      "Html5",
+      "develop digital content",
+      "Css3",
+      "Responsive Web Design",
+      "Browser Devtools",
+      "Accessibility (Wcag/Aria)",
+      "Web Performance Optimization",
+      "React",
+      "TypeScript",
+      "Add TypeScript",
+      "tools for software configuration management",
+      "use e-services"
+    ]
+  },
+  "success": true
+}

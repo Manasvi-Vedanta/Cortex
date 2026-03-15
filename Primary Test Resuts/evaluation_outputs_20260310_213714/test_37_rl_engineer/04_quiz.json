@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:40:34.380727",
+      "learning_path_id": "test_37",
+      "target_occupation": " artificial intelligence engineer ",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "len() returns the number of elements in a sequence; the list has 3 elements.",
+        "id": 1,
+        "options": {
+          "A": "3",
+          "B": "2",
+          "C": "[1, 2, 3]",
+          "D": "An error because len() only works on strings"
+        },
+        "question": "In Python, what does the expression len([1, 2, 3]) return?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Binary search halves the search space each step, leading to logarithmic time complexity.",
+        "id": 2,
+        "options": {
+          "A": "O(n)",
+          "B": "O(log n)",
+          "C": "O(n log n)",
+          "D": "O(1)"
+        },
+        "question": "Which Big-O notation best describes binary search on a sorted array of size n?",
+        "topic": "algorithms"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A histogram shows how values are distributed across bins for a continuous variable.",
+        "id": 3,
+        "options": {
+          "A": "Histogram",
+          "B": "Pie chart",
+          "C": "Sankey diagram",
+          "D": "Radar chart"
+        },
+        "question": "Which plot is most appropriate to visualize the distribution of a single continuous variable (e.g., model inference latency)?",
+        "topic": "data visualization"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A Bernoulli variable takes value 1 with probability p and 0 otherwise, so E[X] = 1·p + 0·(1-p) = p.",
+        "id": 4,
+        "options": {
+          "A": "p",
+          "B": "1 - p",
+          "C": "p(1 - p)",
+          "D": "sqrt(p)"
+        },
+        "question": "In probability, what is the expected value (mean) of a Bernoulli random variable X ~ Bernoulli(p)?",
+        "topic": "Probability And Statistics"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "ROC-AUC evaluates ranking quality across all possible thresholds, unlike accuracy/F1/confusion matrix which depend on a chosen threshold.",
+        "id": 5,
+        "options": {
+          "A": "Accuracy at threshold 0.5",
+          "B": "F1-score at threshold 0.5",
+          "C": "ROC-AUC",
+          "D": "Confusion matrix"
+        },
+        "question": "You have a Pandas DataFrame with columns: y_true (0/1) and y_score (probability). Which metric is threshold-independent and commonly used for binary classifiers?",
+        "topic": "data analysis"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "torch.no_grad() disables autograd tracking, reducing memory usage and ensuring no gradients are computed during inference.",
+        "id": 6,
+        "options": {
+          "A": "with torch.no_grad(): outputs = model(inputs)",
+          "B": "model.train(); outputs = model(inputs)",
+          "C": "optimizer.zero_grad(); outputs = model(inputs)",
+          "D": "loss.backward(); outputs = model(inputs)"
+        },
+        "question": "In PyTorch, which code snippet correctly prevents gradient tracking during model evaluation?",
+        "topic": "Pytorch"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A normalized design uses a one-to-many relationship: Experiments (1) → Metrics (many), enabling indexing and flexible querying by metric_name and step.",
+        "id": 7,
+        "options": {
+          "A": "Store all metrics as a JSON blob in a single Experiments table row",
+          "B": "Create an Experiments table and a Metrics table with a foreign key experiment_id in Metrics",
+          "C": "Create a separate table for each metric name (e.g., AccuracyTable, LossTable)",
+          "D": "Store metrics as a comma-separated string column in Experiments"
+        },
+        "question": "You are designing a relational database for ML experiments. Each experiment can have many metrics logged over time (step, metric_name, value). Which schema best supports this while avoiding duplication and enabling efficient queries?",
+        "topic": "database design"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Exploding gradients can cause unstable updates and NaNs; gradient clipping bounds gradient magnitude and stabilizes training without changing the model objective.",
+        "id": 8,
+        "options": {
+          "A": "Increase the learning rate by 10×",
+          "B": "Apply gradient clipping (e.g., clip norm) before optimizer.step()",
+          "C": "Remove all nonlinearities to make the network linear",
+          "D": "Switch the loss to mean squared error regardless of task"
+        },
+        "question": "You are training a deep network with SGD and observe the loss becomes NaN after a few steps. Which intervention most directly addresses exploding gradients while preserving the overall training setup?",
+        "topic": "Optimization (Gradient-Based Methods, Convex/Non-Convex)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Reproducibility requires seeding all RNG sources used by the pipeline (Python/NumPy/PyTorch) and the environment/action space; logging does not enforce determinism.",
+        "id": 9,
+        "options": {
+          "A": "Only set env.reset(seed=0) and ignore all other seeds",
+          "B": "Set seeds for Python random, NumPy, and PyTorch; call env.reset(seed=seed); and use env.action_space.seed(seed)",
+          "C": "Disable GPU usage; reproducibility is guaranteed automatically",
+          "D": "Log metrics to W&B; logging alone ensures determinism"
+        },
+        "question": "You need reproducible RL training in Gymnasium across runs on the same machine. Which combination is most appropriate to reduce randomness from environment and learning code?",
+        "topic": "Simulation Environments (Gymnasium, Mujoco, Isaac Gym)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Version control, reviews, automated testing, CI, and versioned releases provide auditability, validation, and reproducibility—critical for regulated statistical reporting.",
+        "id": 10,
+        "options": {
+          "A": "Allow analysts to edit production code directly to speed up iteration",
+          "B": "Use version control with code reviews, automated tests (unit/integration), and a CI pipeline that produces versioned releases",
+          "C": "Rely on manual testing only, since automated tests are hard for statistics",
+          "D": "Keep requirements informal to avoid slowing development"
+        },
+        "question": "Your team is building statistical software for model evaluation that will be used in regulated reporting. Which SDLC practice best ensures changes are traceable, validated, and reproducible over time?",
+        "topic": "systems development life-cycle"
+      }
+    ],
+    "topics_covered": [
+      "Python",
+      "programming",
+      "algorithms",
+      "data analysis",
+      "Probability And Statistics",
+      "data visualization",
+      "database design",
+      "data mining",
+      "Optimization (Gradient-Based Methods, Convex/Non-Convex)",
+      "Pytorch",
+      "Experiment Tracking And Reproducibility (Wandb, Mlflow)",
+      "computer simulation",
+      "Simulation Environments (Gymnasium, Mujoco, Isaac Gym)",
+      "develop statistical software",
+      "systems development life-cycle"
+    ]
+  },
+  "success": true
+}

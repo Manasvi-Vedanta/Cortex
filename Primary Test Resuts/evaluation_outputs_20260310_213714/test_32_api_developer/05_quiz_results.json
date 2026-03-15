@@ -1,0 +1,205 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:31:30.570487",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "HTTPS is HTTP over TLS, providing encryption in transit and authenticating the server (and optionally the client).",
+        "is_correct": false,
+        "question": "Which statement best describes HTTPS compared to HTTP when an embedded device sends telemetry to a cloud endpoint?",
+        "question_id": 1,
+        "topic": "Http/Https Fundamentals",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is used to retrieve a representation of a resource without modifying it.",
+        "is_correct": false,
+        "question": "In a RESTful API used by an embedded gateway, which HTTP method is typically used to retrieve the current state of a resource (e.g., /devices/42)?",
+        "question_id": 2,
+        "topic": "Restful Api Design",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "400 indicates the client sent an invalid request (e.g., malformed JSON or missing required fields).",
+        "is_correct": false,
+        "question": "A device sends a request with missing required fields in JSON (e.g., missing \"firmwareVersion\"). Which HTTP status code is most appropriate?",
+        "question_id": 3,
+        "topic": "Error Handling & Status Codes",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "git commit records staged changes into the repository history.",
+        "is_correct": false,
+        "question": "In Git, which command creates a new commit from staged changes?",
+        "question_id": 4,
+        "topic": "Version Control (Git)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A one-to-many relationship is modeled by placing a foreign key (device_id) in the many-side table (readings).",
+        "is_correct": true,
+        "question": "You are designing a SQL schema to store device readings. Each reading belongs to exactly one device, and a device can have many readings. Which design best represents this relationship?",
+        "question_id": 5,
+        "topic": "Database Design & Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Client Credentials is designed for machine-to-machine authentication without user interaction.",
+        "is_correct": true,
+        "question": "An embedded device uses OAuth2 to call a cloud API. Which OAuth2 flow is generally most appropriate for a headless device that can securely store a client secret (no user present)?",
+        "question_id": 6,
+        "topic": "Api Security (Oauth2, Jwt, Api Keys)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Integration tests validate interactions between components (API, DB, auth) rather than isolated functions.",
+        "is_correct": false,
+        "question": "You are writing tests for a firmware-update service. Which test type best verifies that the HTTP API, database, and authentication work together end-to-end in a staging environment?",
+        "question_id": 7,
+        "topic": "Testing (Unit/Integration/Api Tests)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Rate limiting controls request bursts; 429 Too Many Requests is the standard response when limits are exceeded.",
+        "is_correct": false,
+        "question": "A cloud API used by thousands of devices must prevent a single device from overwhelming the service. Which approach best addresses this while keeping latency low?",
+        "question_id": 8,
+        "topic": "Performance & Scalability (Caching, Rate Limiting)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Strongly typed, reusable schemas enable code generation and automated validation across clients and servers.",
+        "is_correct": false,
+        "question": "You are documenting an embedded device management API with OpenAPI. You want client SDKs to be generated and to ensure request/response validation. Which OpenAPI practice is most important?",
+        "question_id": 9,
+        "topic": "Api Documentation (Openapi/Swagger)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "The Strategy pattern encapsulates interchangeable algorithms and allows selecting the appropriate one at runtime based on context (sensor model).",
+        "is_correct": false,
+        "question": "You are building firmware that supports multiple sensor types. At runtime, the device must select the correct algorithm for converting raw ADC values based on the detected sensor model. Which design pattern best fits this requirement?",
+        "question_id": 10,
+        "topic": "use software design patterns",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: Http/Https Fundamentals, Restful Api Design, Error Handling & Status Codes",
+      "✅ Your strongest areas: Database Design & Sql, Api Security (Oauth2, Jwt, Api Keys)"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Database Design & Sql",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Api Security (Oauth2, Jwt, Api Keys)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Http/Https Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Restful Api Design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Error Handling & Status Codes",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Version Control (Git)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Testing (Unit/Integration/Api Tests)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Performance & Scalability (Caching, Rate Limiting)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Api Documentation (Openapi/Swagger)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "use software design patterns",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

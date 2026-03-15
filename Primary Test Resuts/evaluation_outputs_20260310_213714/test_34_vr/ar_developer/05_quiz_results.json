@@ -1,0 +1,204 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:35:13.996670",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The 'class' keyword defines a reference type blueprint that can be instantiated into objects, such as a timer or log entry used in a film lab tracking app.",
+        "is_correct": true,
+        "question": "In C#, which keyword is used to define a class that can be instantiated to create objects (e.g., a \"BathTimer\" for tracking development time)?",
+        "question_id": 1,
+        "topic": "C# Programming",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Safety goggles protect against splashes and fumes contacting the eyes, which is a primary risk when mixing or pouring processing baths.",
+        "is_correct": true,
+        "question": "Which piece of PPE is most appropriate to protect eyes when handling photographic processing chemicals (developer/stop/fixer)?",
+        "question_id": 2,
+        "topic": "handle chemicals",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Update() runs every frame, making it suitable for continuously updating on-screen timers or status indicators during a simulated processing workflow.",
+        "is_correct": true,
+        "question": "In Unity, which method is called once per frame and is commonly used to update a UI timer showing remaining development time?",
+        "question_id": 3,
+        "topic": "Unity (C#)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Film should be cut between frames so no image area is lost; handling should also minimize fingerprints and scratches.",
+        "is_correct": true,
+        "question": "When cutting photographic film into strips for sleeves, what is the primary goal to avoid damaging images?",
+        "question_id": 4,
+        "topic": "cut photographic film",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "World anchors (spatial anchors) bind virtual content to a real-world location/object so it remains stable relative to the environment as tracking updates.",
+        "is_correct": true,
+        "question": "You are building an XR training app that overlays instructions on a processing machine. Which concept ensures the overlay stays fixed to the machine even as the user moves around?",
+        "question_id": 5,
+        "topic": "Spatial Computing (Tracking, Coordinate Systems, World Anchors)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Quaternions prevent gimbal lock and support smooth interpolation (slerp), which is important for stable, realistic tool orientation in XR.",
+        "is_correct": true,
+        "question": "In 3D math for XR, why are quaternions commonly used for representing rotations of virtual tools (e.g., a virtual film reel) instead of Euler angles?",
+        "question_id": 6,
+        "topic": "3D Math (Linear Algebra, Vectors, Quaternions)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "XR Grab Interactable enables objects to be selected and manipulated by XR interactors (hands/controllers), matching common training interactions like picking up bottles.",
+        "is_correct": false,
+        "question": "In Unity's XR Interaction Toolkit, which component is typically used to let a trainee grab and move a virtual chemical bottle with tracked controllers?",
+        "question_id": 7,
+        "topic": "Xr Interaction Toolkit / Openxr",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Quality standards emphasize controlled parameters (time/temperature/agitation), adherence to SOP, and traceable documentation of deviations for QC; chemical cross-contamination is unsafe and incorrect.",
+        "is_correct": false,
+        "question": "A film processor shows inconsistent density across a roll. Your logs show developer temperature drifting +2°C above spec for several minutes. In an XR training simulation, which combined corrective action best matches quality standards and process control?",
+        "question_id": 8,
+        "topic": "quality standards",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "If the GPU is the bottleneck, reducing shader complexity, lighting cost, render resolution, and UI overdraw typically improves GPU frame time while keeping application logic unchanged.",
+        "is_correct": false,
+        "question": "In a Unity-based XR lab simulator, you notice frame drops when multiple animated UI panels and real-time shader previews are visible. Profiling shows the GPU is the bottleneck. Which change is most likely to improve frame timing without altering the training logic?",
+        "question_id": 9,
+        "topic": "Performance Optimization (Profiling, Frame Timing, Gpu/Cpu)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "Blueprints are well-suited for clear, auditable interaction/state flow, while C++ is appropriate for robust integration/validation of sensor-like inputs—important for safety and procedural correctness.",
+        "is_correct": false,
+        "question": "You are implementing an Unreal Engine training module where the user must safely remove film negatives from a processing machine. You need a reliable sequence: machine door sensor must be \"open,\" rollers must be \"stopped,\" then enable the \"Remove Negatives\" interaction. Which approach best fits Unreal's strengths for this safety-critical flow?",
+        "question_id": 10,
+        "topic": "Unreal Engine (C++/Blueprints)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 4,
+        "percentage": 100.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Satisfactory",
+    "recommendations": [
+      "👍 Good job! You understand most concepts but have room for improvement.",
+      "🎯 Priority topics to review: Xr Interaction Toolkit / Openxr, quality standards, Performance Optimization (Profiling, Frame Timing, Gpu/Cpu)",
+      "✅ Your strongest areas: C# Programming, handle chemicals"
+    ],
+    "score": {
+      "correct": 6,
+      "grade": "C+",
+      "incorrect": 4,
+      "percentage": 60.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "C# Programming",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "handle chemicals",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Unity (C#)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "cut photographic film",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Spatial Computing (Tracking, Coordinate Systems, World Anchors)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "3D Math (Linear Algebra, Vectors, Quaternions)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Xr Interaction Toolkit / Openxr",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "quality standards",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Performance Optimization (Profiling, Frame Timing, Gpu/Cpu)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Unreal Engine (C++/Blueprints)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

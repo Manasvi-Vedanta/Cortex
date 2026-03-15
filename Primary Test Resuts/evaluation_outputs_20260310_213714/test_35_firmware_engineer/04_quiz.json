@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:37:05.406187",
+      "learning_path_id": "test_35",
+      "target_occupation": "semiconductor processor",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Doping intentionally adds donor/acceptor impurities to increase electrons or holes, controlling conductivity.",
+        "id": 1,
+        "options": {
+          "A": "Increases the bandgap to reduce leakage current",
+          "B": "Introduces impurities to control carrier concentration",
+          "C": "Adds an insulating layer to prevent oxidation",
+          "D": "Removes crystal defects by annealing"
+        },
+        "question": "In a silicon semiconductor, what does 'doping' primarily do?",
+        "topic": "semiconductors"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "ICs combine many devices (transistors, resistors, etc.) on one die, improving density, cost, and reliability.",
+        "id": 2,
+        "options": {
+          "A": "To increase the operating voltage of a circuit",
+          "B": "To integrate many electronic functions on a single chip for size/cost/reliability benefits",
+          "C": "To eliminate the need for any power supply regulation",
+          "D": "To ensure all signals are analog rather than digital"
+        },
+        "question": "What is the main purpose of an integrated circuit (IC) compared to discrete components?",
+        "topic": "integrated circuits"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "'volatile' tells the compiler the value can change outside program flow (e.g., hardware), so it must perform actual reads/writes.",
+        "id": 3,
+        "options": {
+          "A": "static",
+          "B": "register",
+          "C": "volatile",
+          "D": "extern"
+        },
+        "question": "In embedded C, which keyword prevents the compiler from optimizing away repeated reads of a memory-mapped hardware register?",
+        "topic": "Embedded C"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "An oscilloscope measures analog voltage vs. time, useful for clocks, PWM, signal integrity, and power rails.",
+        "id": 4,
+        "options": {
+          "A": "Oscilloscope",
+          "B": "Compiler",
+          "C": "Linker",
+          "D": "EEPROM programmer"
+        },
+        "question": "Which tool is primarily used to observe voltage over time on a physical pin of a microcontroller board?",
+        "topic": "Oscilloscope/Logic Analyzer Usage"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "The Nested Vectored Interrupt Controller (NVIC) controls interrupt enable/disable, priorities, and vectoring on Cortex-M.",
+        "id": 5,
+        "options": {
+          "A": "Converts analog signals to digital values",
+          "B": "Schedules RTOS tasks based on priority",
+          "C": "Manages interrupt enabling, prioritization, and dispatch",
+          "D": "Provides non-volatile storage for firmware images"
+        },
+        "question": "On Arm Cortex-M, what is the primary role of the NVIC?",
+        "topic": "Interrupts, Timers & Dma"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Timer-triggered ADC plus DMA moves data to memory with minimal CPU intervention and stable sampling intervals.",
+        "id": 6,
+        "options": {
+          "A": "Poll the ADC in a tight while-loop and store results",
+          "B": "Use a timer to trigger ADC conversions and DMA to transfer samples to a buffer",
+          "C": "Use printf over UART to log each sample immediately",
+          "D": "Disable interrupts to avoid timing jitter during sampling"
+        },
+        "question": "You need to continuously sample ADC data at a fixed rate with minimal CPU load. Which approach is typically best?",
+        "topic": "Interrupts, Timers & Dma"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "FLASH typically stores program code and constants; RAM stores mutable data, stack, heap, and relocated initialized data.",
+        "id": 7,
+        "options": {
+          "A": "To allow the CPU to execute only from RAM",
+          "B": "To map code/const data to non-volatile memory and runtime data (stack/heap/.data/.bss) to RAM",
+          "C": "To increase the CPU clock frequency",
+          "D": "To automatically encrypt firmware at link time"
+        },
+        "question": "In a typical embedded linker script, what is the main purpose of defining separate FLASH and RAM memory regions?",
+        "topic": "Memory Management & Linker Scripts"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "A non-starting clock source can halt or misconfigure startup; probing the crystal/clock pins is the fastest way to confirm oscillation without significantly loading the circuit.",
+        "id": 8,
+        "options": {
+          "A": "Measure the crystal pins with an oscilloscope using a high-impedance probe and minimal loading",
+          "B": "Increase compiler optimization to -O3 to improve startup timing",
+          "C": "Rewrite the bootloader to use OTA updates",
+          "D": "Change the RTOS tick rate to 10 kHz"
+        },
+        "question": "During hardware bring-up, SWD/JTAG connects but the CPU appears stuck immediately after reset. You suspect the external crystal is not oscillating. What is the most effective first measurement?",
+        "topic": "Hardware Bring-Up & Debugging (Jtag/Swd)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Intermittent faults that improve with larger stacks strongly indicate stack overflow leading to memory corruption and unpredictable crashes.",
+        "id": 9,
+        "options": {
+          "A": "Incorrect UART baud rate configuration",
+          "B": "Stack overflow in one or more tasks corrupting memory",
+          "C": "ADC reference voltage drift",
+          "D": "Using DMA instead of interrupts"
+        },
+        "question": "A FreeRTOS-based firmware occasionally hard faults after running for hours. The fault occurs in different tasks and disappears when you increase stack sizes. Which root cause is most consistent with this behavior?",
+        "topic": "Rtos (Freertos/Zephyr)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A dual-image (A/B) or staged update with verification and an atomic swap/flag ensures a valid fallback image remains if the update is interrupted.",
+        "id": 10,
+        "options": {
+          "A": "Overwrite the currently running application in place to save flash space",
+          "B": "Store the new image in a separate slot, verify integrity (e.g., hash/signature), then atomically switch the boot target",
+          "C": "Disable all interrupts during the update to avoid timing issues",
+          "D": "Use a faster SPI clock so the update finishes sooner"
+        },
+        "question": "You are designing a robust DFU/OTA firmware update mechanism for a microcontroller. Which strategy best prevents bricking if power is lost mid-update?",
+        "topic": "Bootloaders & Firmware Update Mechanisms (Dfu/Ota)"
+      }
+    ],
+    "topics_covered": [
+      "electronics",
+      "integrated circuits",
+      "semiconductors",
+      "microelectronics",
+      "Microcontroller Architecture (Arm Cortex-M/Avr/Pic)",
+      "Embedded C",
+      "Device Drivers & Peripheral Programming",
+      "Interrupts, Timers & Dma",
+      "Memory Management & Linker Scripts",
+      "Hardware Bring-Up & Debugging (Jtag/Swd)",
+      "Oscilloscope/Logic Analyzer Usage",
+      "Rtos (Freertos/Zephyr)",
+      "Bootloaders & Firmware Update Mechanisms (Dfu/Ota)",
+      "LED lighting components",
+      "microassembly"
+    ]
+  },
+  "success": true
+}

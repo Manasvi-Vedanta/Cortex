@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:04:48.221534",
+      "learning_path_id": "test_17",
+      "target_occupation": "embedded systems software developer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Bare-metal means the program runs directly on the MCU/SoC hardware (typically with startup code and a linker script) without an OS kernel.",
+        "id": 1,
+        "options": {
+          "A": "Application code running directly on hardware without an operating system",
+          "B": "Application code running inside a virtual machine on Linux",
+          "C": "Application code that only uses high-level scripting languages",
+          "D": "Application code that runs only when connected to the internet"
+        },
+        "question": "In embedded systems, what best describes a 'bare-metal' application?",
+        "topic": "embedded systems"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "An AND gate produces a HIGH output only if every input is HIGH.",
+        "id": 2,
+        "options": {
+          "A": "OR",
+          "B": "XOR",
+          "C": "AND",
+          "D": "NAND"
+        },
+        "question": "Which digital logic gate outputs HIGH only when all inputs are HIGH?",
+        "topic": "Digital Electronics Basics"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Git is the standard distributed version control system used to track code changes and collaborate.",
+        "id": 3,
+        "options": {
+          "A": "Git",
+          "B": "Make",
+          "C": "GDB",
+          "D": "OpenOCD"
+        },
+        "question": "Which tool is most commonly used for distributed version control in software configuration management?",
+        "topic": "tools for software configuration management"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "UART is an asynchronous serial interface commonly used for console logs and device-to-device serial links.",
+        "id": 4,
+        "options": {
+          "A": "SPI",
+          "B": "I2C",
+          "C": "UART",
+          "D": "GPIO"
+        },
+        "question": "Which interface is typically used for simple point-to-point asynchronous serial communication (TX/RX) between two devices?",
+        "topic": "Hardware Interfacing (Gpio/Uart/Spi/I2C)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A periodic timer interrupt is commonly used as a system tick for scheduling, timeouts, and periodic task execution.",
+        "id": 5,
+        "options": {
+          "A": "Run long blocking computations to maximize CPU utilization",
+          "B": "Implement a periodic system tick to schedule time-based tasks",
+          "C": "Poll SPI in a tight loop to avoid using DMA",
+          "D": "Disable all other interrupts to ensure deterministic logging"
+        },
+        "question": "A microcontroller timer is configured to generate an interrupt every 1 ms. What is the most appropriate use of this interrupt in a real-time firmware design?",
+        "topic": "Interrupts And Timers"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "The device tree describes the board hardware so the Linux kernel can discover devices and match them to drivers.",
+        "id": 6,
+        "options": {
+          "A": "Provide the compiler with CPU instruction scheduling hints",
+          "B": "Describe hardware (addresses, interrupts, buses) so the kernel can bind drivers without hardcoding board details",
+          "C": "Encrypt firmware images for secure boot",
+          "D": "Replace the bootloader by loading the kernel directly from flash"
+        },
+        "question": "In embedded Linux, what is the primary role of a device tree (DTS/DTB)?",
+        "topic": "Embedded Linux"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "ISRs typically 'give' a binary semaphore or use task notifications/event flags to wake a task safely and efficiently.",
+        "id": 7,
+        "options": {
+          "A": "Mutex",
+          "B": "Binary semaphore (or direct-to-task notification/event flag equivalent)",
+          "C": "Dynamic memory allocation (malloc/new)",
+          "D": "Busy-wait loop in the ISR until the task runs"
+        },
+        "question": "In FreeRTOS or Zephyr, which synchronization primitive is best suited to signal an event from an ISR to a task with minimal overhead?",
+        "topic": "Rtos (Freertos/Zephyr)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "With compiler optimizations, functions may be inlined or removed, causing breakpoints on the original symbol to not correspond to executed instructions.",
+        "id": 8,
+        "options": {
+          "A": "The function was inlined or optimized away, so the expected symbol/address is not executed as a distinct call site",
+          "B": "SWD cannot support breakpoints; only JTAG can",
+          "C": "GDB cannot debug C code, only assembly",
+          "D": "OpenOCD requires the UART baud rate to match the CPU clock"
+        },
+        "question": "You are debugging a Cortex-M target via SWD using OpenOCD and GDB. You set a breakpoint at a function, but it never triggers even though the function is executed. Which is the most likely cause in an optimized build?",
+        "topic": "Debugging With Jtag/Swd (Gdb/Openocd)"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "LTO and dead-code elimination can remove unused functions/data and improve inlining decisions, often reducing flash and sometimes RAM (e.g., fewer globals).",
+        "id": 9,
+        "options": {
+          "A": "Enable link-time optimization (LTO) and remove unused code paths (dead-code elimination)",
+          "B": "Replace all fixed-size buffers with larger dynamic allocations to avoid stack usage",
+          "C": "Turn off compiler warnings to reduce binary size",
+          "D": "Add extensive printf logging to help diagnose memory usage"
+        },
+        "question": "A bare-metal firmware must fit into 64 KB flash and 8 KB RAM. Which change is most likely to reduce both flash and RAM usage without changing functionality?",
+        "topic": "Memory-Constrained Optimization"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Logic programming expresses requirements as constraints; a solver searches for satisfying assignments, enabling automatic generation of configuration/code from the solved model.",
+        "id": 10,
+        "options": {
+          "A": "Write a C function with nested if/else statements and manually test all combinations",
+          "B": "Model the constraints as facts/rules and use a solver (e.g., Prolog/SMT) to find a valid pin assignment and generate code from the solution",
+          "C": "Use a faster compiler optimization level to automatically infer pin modes",
+          "D": "Store the constraints in a README and rely on code review to enforce them"
+        },
+        "question": "You want to auto-generate a correct-by-construction GPIO configuration routine from a set of constraints: 'Pins P1 and P2 must be outputs, P3 must be input with pull-up, and no two peripherals may claim the same pin.' Which approach best matches 'logic programming' used for automatic programming here?",
+        "topic": "use logic programming"
+      }
+    ],
+    "topics_covered": [
+      "embedded systems",
+      "digital systems",
+      "integrated development environment software",
+      "Digital Electronics Basics",
+      "programming",
+      "tools for software configuration management",
+      "Hardware Interfacing (Gpio/Uart/Spi/I2C)",
+      "Interrupts And Timers",
+      "Device Drivers (Bare-Metal/Linux)",
+      "Embedded Linux",
+      "Rtos (Freertos/Zephyr)",
+      "Debugging With Jtag/Swd (Gdb/Openocd)",
+      "Memory-Constrained Optimization",
+      "use logic programming",
+      "use automatic programming"
+    ]
+  },
+  "success": true
+}

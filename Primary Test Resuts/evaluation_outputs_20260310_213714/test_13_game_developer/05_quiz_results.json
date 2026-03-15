@@ -1,0 +1,200 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:58:06.202818",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "RTP is a long-run expected payout percentage of total stakes returned to players, used to describe game fairness/house edge.",
+        "is_correct": false,
+        "question": "In a gambling game, what does RTP (Return to Player) represent?",
+        "question_id": 1,
+        "topic": "games rules",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "git checkout -b both creates the branch and checks it out in one step.",
+        "is_correct": false,
+        "question": "Which Git command creates a new local branch named \"feature/free-spins\" and switches to it?",
+        "question_id": 2,
+        "topic": "Version Control (Git/Perforce)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Update() runs once per frame; FixedUpdate() is tied to the physics timestep.",
+        "is_correct": false,
+        "question": "In Unity, which method is called once per rendered frame and is commonly used for non-physics gameplay updates (e.g., UI animations)?",
+        "question_id": 3,
+        "topic": "Game Engine Proficiency (Unity/Unreal)",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "Hash maps (Dictionary in C#) provide average constant-time key-based access, ideal for payout tables.",
+        "is_correct": false,
+        "question": "Which data structure provides average O(1) lookup by key and is commonly used for mapping symbol IDs to payout values?",
+        "question_id": 4,
+        "topic": "Data Structures And Algorithms",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "Cumulative distribution sampling is a standard method for weighted random choice and matches the intended probabilities.",
+        "is_correct": false,
+        "question": "You need to implement weighted random selection for bonus outcomes (e.g., 50%, 30%, 15%, 5%). Which approach is most appropriate?",
+        "question_id": 5,
+        "topic": "Data Structures And Algorithms",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "In ECS, components store data; systems contain behavior and operate over entities that match required components.",
+        "is_correct": true,
+        "question": "In an ECS (Entity-Component-System) architecture for a slot game, where should the logic that advances reel spin state over time typically live?",
+        "question_id": 6,
+        "topic": "Gameplay Systems And Architecture (Ecs, Component-Based Design)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Quaternions avoid gimbal lock and are stable for incremental rotation composition in 3D.",
+        "is_correct": false,
+        "question": "You want to rotate a 3D wheel-of-fortune smoothly without gimbal lock. Which representation is generally preferred for accumulating rotations?",
+        "question_id": 7,
+        "topic": "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Compliance typically requires outcome determination to be independent of presentation; animations should only reveal a precomputed result.",
+        "is_correct": true,
+        "question": "A regulator requires that the game outcome is determined before any animation plays, and that the animation cannot influence the result. Which design best satisfies this?",
+        "question_id": 8,
+        "topic": "formulate game rules",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "explanation": "GPU spikes commonly come from expensive pixel shading and overdraw; simplifying shaders and reducing transparency/overdraw lowers GPU time.",
+        "is_correct": true,
+        "question": "Your slot game shows intermittent frame spikes. CPU profiling shows low usage, but GPU time spikes when many animated symbols are on screen. Which change is most likely to reduce GPU cost?",
+        "question_id": 9,
+        "topic": "Debugging And Profiling (Cpu/Gpu)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Normals must be transformed by the inverse-transpose of the model matrix under non-uniform scaling to preserve perpendicularity for correct lighting.",
+        "is_correct": false,
+        "question": "You are writing an HLSL/GLSL shader for a spinning 3D reel. You need correct lighting under non-uniform scaling of the model. How should you transform normals to world space?",
+        "question_id": 10,
+        "topic": "Shader Programming (Hlsl/Glsl)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: games rules, Version Control (Git/Perforce), Game Engine Proficiency (Unity/Unreal)",
+      "✅ Your strongest areas: Gameplay Systems And Architecture (Ecs, Component-Based Design), formulate game rules"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Gameplay Systems And Architecture (Ecs, Component-Based Design)",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "formulate game rules",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Debugging And Profiling (Cpu/Gpu)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "games rules",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Version Control (Git/Perforce)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Game Engine Proficiency (Unity/Unreal)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Structures And Algorithms",
+        "total": 2
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "3D Math (Linear Algebra, Vectors, Matrices, Quaternions)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Shader Programming (Hlsl/Glsl)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

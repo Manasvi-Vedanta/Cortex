@@ -1,0 +1,177 @@
+{
+  "message": "Quiz generated successfully",
+  "quiz": {
+    "metadata": {
+      "difficulty_distribution": {
+        "easy": 4,
+        "hard": 3,
+        "medium": 3
+      },
+      "generated_at": "2026-03-10T22:12:20.102446",
+      "learning_path_id": "test_21",
+      "target_occupation": "language engineer",
+      "total_questions": 10,
+      "total_topics": 15
+    },
+    "questions": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "Tokenization is the preprocessing step that breaks raw text into tokens (words, subwords, or characters) for downstream modeling.",
+        "id": 1,
+        "options": {
+          "A": "Splitting text into smaller units such as words or subwords",
+          "B": "Translating text from one language to another",
+          "C": "Reducing model size by pruning weights",
+          "D": "Encrypting text to protect privacy"
+        },
+        "question": "In NLP, what is tokenization?",
+        "topic": "natural language processing"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "easy",
+        "explanation": "A set stores unique elements and automatically removes duplicates, which is useful for vocabulary or unique token collections.",
+        "id": 2,
+        "options": {
+          "A": "list",
+          "B": "tuple",
+          "C": "set",
+          "D": "dict"
+        },
+        "question": "Which Python data structure is most appropriate for storing unique tokens while automatically removing duplicates?",
+        "topic": "Python"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "The Poisson distribution models counts of events occurring independently within a fixed interval (e.g., word occurrences in a document).",
+        "id": 3,
+        "options": {
+          "A": "Poisson distribution",
+          "B": "Uniform distribution",
+          "C": "Normal distribution",
+          "D": "Beta distribution"
+        },
+        "question": "Which probability distribution is commonly used to model the number of occurrences of a rare word in a fixed-length document?",
+        "topic": "Statistics & Probability"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "model.train() sets layers like Dropout and BatchNorm to training behavior; it does not run training by itself.",
+        "id": 4,
+        "options": {
+          "A": "Switches the model to training mode (e.g., enables dropout, uses batchnorm statistics appropriately)",
+          "B": "Runs one full epoch automatically",
+          "C": "Computes gradients without backpropagation",
+          "D": "Freezes all model parameters"
+        },
+        "question": "In PyTorch, what does calling model.train() do?",
+        "topic": "Deep Learning (Pytorch)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "TF-IDF over word/n-gram features is a standard, effective baseline for many text classification tasks with linear models.",
+        "id": 5,
+        "options": {
+          "A": "Raw character codes (ASCII values) concatenated into a vector",
+          "B": "TF-IDF vectors over word or n-gram features",
+          "C": "Random vectors sampled from a normal distribution",
+          "D": "Only the document length as a single feature"
+        },
+        "question": "You are building a linear classifier for sentiment analysis. Which feature representation is typically most suitable as a strong baseline for text classification?",
+        "topic": "Data Preprocessing & Feature Engineering For Text"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Welch’s t-test compares means of two independent samples without assuming equal variances.",
+        "id": 6,
+        "options": {
+          "A": "Paired t-test",
+          "B": "Welch’s t-test",
+          "C": "Chi-square test of independence",
+          "D": "One-way ANOVA with repeated measures"
+        },
+        "question": "You want to compare the mean token length between two independent corpora (Corpus A vs Corpus B). Which statistical test is most appropriate if token lengths are approximately normally distributed but variances may differ?",
+        "topic": "apply statistical analysis techniques"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Macro-F1 weights each class equally, making it more informative than accuracy when classes are imbalanced.",
+        "id": 7,
+        "options": {
+          "A": "Overall accuracy across all tokens",
+          "B": "Macro-averaged F1 score across entity classes",
+          "C": "Mean squared error (MSE)",
+          "D": "R-squared (coefficient of determination)"
+        },
+        "question": "For a highly imbalanced named-entity recognition dataset, which evaluation approach best reflects performance on the minority entity classes?",
+        "topic": "Model Training & Evaluation For Nlp (Metrics, Validation)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Hyperparameters should be tuned using validation data (or CV) and final performance reported on a separate test set to prevent leakage.",
+        "id": 8,
+        "options": {
+          "A": "Tune hyperparameters on the test set and report the best test score",
+          "B": "Use a train/validation split (or cross-validation) for tuning, then evaluate once on a held-out test set",
+          "C": "Train on the full dataset and report training accuracy",
+          "D": "Shuffle labels during training to reduce overfitting"
+        },
+        "question": "You are fine-tuning a Hugging Face Transformer for text classification and want to avoid data leakage while selecting hyperparameters. Which setup is most appropriate?",
+        "topic": "Transformers (Hugging Face)"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Constraints can reduce meaning drift for critical terms, and learned MT metrics (e.g., COMET) plus human error analysis better capture adequacy than BLEU alone.",
+        "id": 9,
+        "options": {
+          "A": "Increase beam size indefinitely and evaluate only with BLEU",
+          "B": "Add constrained decoding or terminology constraints and evaluate with COMET (or BLEURT) plus targeted human error analysis",
+          "C": "Remove the attention mechanism and evaluate with token-level accuracy",
+          "D": "Train only on monolingual target-language data and evaluate with perplexity"
+        },
+        "question": "A machine translation system produces fluent but meaning-altering translations (hallucinations). Which combined change is most likely to reduce this while keeping quality measurable?",
+        "topic": "machine translation"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Avoiding shell string concatenation, using safe argument passing, validating inputs, and adding security tests are standard secure engineering practices to prevent command injection exploits.",
+        "id": 10,
+        "options": {
+          "A": "Keep the code but add a comment warning about security risks",
+          "B": "Replace shell invocation with a safe API or subprocess call using an argument list, validate/escape inputs, and add tests for command-injection cases",
+          "C": "Base64-encode the user input before concatenation to the shell command",
+          "D": "Log the full command string for debugging and deploy as-is"
+        },
+        "question": "During an ICT code review of an internal NLP microservice, you notice user-provided text is passed into a shell command via string concatenation. What is the best engineering response that also reduces exploitability?",
+        "topic": "conduct ICT code review"
+      }
+    ],
+    "topics_covered": [
+      "natural language processing",
+      "Python",
+      "Statistics & Probability",
+      "apply statistical analysis techniques",
+      "Data Preprocessing & Feature Engineering For Text",
+      "Machine Learning",
+      "Model Training & Evaluation For Nlp (Metrics, Validation)",
+      "Deep Learning (Pytorch)",
+      "Transformers (Hugging Face)",
+      "machine translation",
+      "modern languages",
+      "conduct ICT code review",
+      "engineering principles",
+      "use technical drawing software",
+      "develop code exploits"
+    ]
+  },
+  "success": true
+}

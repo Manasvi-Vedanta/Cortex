@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T21:43:00.932640",
+    "detailed_results": [
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "`git checkout -b <name>` creates a new branch and checks it out in one step.",
+        "is_correct": false,
+        "question": "In Git, which command creates a new local branch named `feature/login` and switches to it?",
+        "question_id": 1,
+        "topic": "Version Control (Git)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "GET is intended for safe, read-only retrieval of resources.",
+        "is_correct": true,
+        "question": "Which HTTP method is typically used to retrieve data from a REST endpoint without changing server state?",
+        "question_id": 2,
+        "topic": "Http/Https And Web Fundamentals",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows before GROUP BY and aggregate functions run; HAVING filters after aggregation.",
+        "is_correct": false,
+        "question": "In SQL, which clause is used to filter rows before grouping/aggregation is applied?",
+        "question_id": 3,
+        "topic": "Sql (Relational Databases)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A debugger lets you pause execution, step line-by-line, and inspect program state to find issues.",
+        "is_correct": false,
+        "question": "In an IDE, what is the primary purpose of a debugger?",
+        "question_id": 4,
+        "topic": "integrated development environment software",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A balanced BST maintains sorted order with O(log n) inserts/removals and supports ordered traversal efficiently.",
+        "is_correct": false,
+        "question": "You need a data structure for a UI autocomplete feature that frequently adds/removes items and must keep them sorted for fast rendering. Which is the best choice?",
+        "question_id": 5,
+        "topic": "Data Structures And Algorithms",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "201 Created indicates a new resource was created (often with a Location header pointing to it).",
+        "is_correct": true,
+        "question": "In RESTful API design, which response is most appropriate when a client sends a valid POST to create a resource and the server successfully creates it?",
+        "question_id": 6,
+        "topic": "Restful Api Design",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A separate `order_items` table models the one-to-many relationship properly and avoids repeating groups and update anomalies.",
+        "is_correct": false,
+        "question": "You are designing tables for `orders` and `order_items`. Which design best supports normalization and avoids repeating groups?",
+        "question_id": 7,
+        "topic": "Database Schema Design And Normalization",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "HttpOnly cookies are not readable by JavaScript (mitigating XSS token theft) and can be sent securely over HTTPS; refresh tokens are especially sensitive.",
+        "is_correct": false,
+        "question": "A single-page app uses OAuth2 Authorization Code with PKCE. After the user signs in, which component should store the refresh token to reduce XSS risk while still allowing session renewal?",
+        "question_id": 8,
+        "topic": "Authentication And Authorization (Oauth2/Jwt)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Partitioning by `userId` preserves per-user ordering (same key -> same partition) while consumer groups enable scaling across partitions.",
+        "is_correct": false,
+        "question": "Your UI shows real-time notifications. The backend publishes events to Kafka. You need each user to receive all events relevant to them in order, while allowing horizontal scaling of consumers. Which Kafka strategy best fits?",
+        "question_id": 9,
+        "topic": "Message Queues And Event Streaming (Rabbitmq/Kafka)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Including `userId` (or another auth-scoped identifier) in the cache key ensures isolation between users; invalidation/TTL prevents stale data.",
+        "is_correct": false,
+        "question": "A UI calls `GET /api/profile` frequently. You add Redis caching. Which approach best prevents serving one user's cached profile to another user?",
+        "question_id": 10,
+        "topic": "Caching (Redis/Memcached)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: Version Control (Git), Sql (Relational Databases), integrated development environment software",
+      "✅ Your strongest areas: Http/Https And Web Fundamentals, Restful Api Design"
+    ],
+    "score": {
+      "correct": 2,
+      "grade": "F",
+      "incorrect": 8,
+      "percentage": 20.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Http/Https And Web Fundamentals",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Restful Api Design",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Version Control (Git)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Sql (Relational Databases)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "integrated development environment software",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Structures And Algorithms",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Database Schema Design And Normalization",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Authentication And Authorization (Oauth2/Jwt)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Message Queues And Event Streaming (Rabbitmq/Kafka)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Caching (Redis/Memcached)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

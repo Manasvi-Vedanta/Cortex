@@ -1,0 +1,201 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-10T22:15:49.294433",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "SUMIF adds values in a range that meet one specified criterion (e.g., Region equals West).",
+        "is_correct": false,
+        "question": "In Excel, which function is best suited to sum values that meet a single condition (e.g., sum Sales where Region = \"West\")?",
+        "question_id": 1,
+        "topic": "Excel",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "WHERE filters individual rows prior to GROUP BY and aggregate functions; HAVING filters after aggregation.",
+        "is_correct": false,
+        "question": "Which SQL clause is used to filter rows before aggregation occurs?",
+        "question_id": 2,
+        "topic": "Sql",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "dropna() removes rows (or columns) with missing values, depending on parameters.",
+        "is_correct": false,
+        "question": "In pandas, which method is commonly used to remove rows containing missing values?",
+        "question_id": 3,
+        "topic": "Data Cleaning (Pandas)",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "Standard deviation quantifies typical deviation from the mean, indicating variability.",
+        "is_correct": true,
+        "question": "Which statistic measures the spread of data around the mean?",
+        "question_id": 4,
+        "topic": "statistics",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "A LEFT JOIN keeps all rows from the left table (Customers) and matches Orders when available; unmatched orders become NULL.",
+        "is_correct": true,
+        "question": "You have a Customers table and an Orders table. Which SQL join returns all customers, including those with no orders, along with any matching orders?",
+        "question_id": 5,
+        "topic": "Sql",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "Fact tables contain measures (metrics) and link to dimension tables via foreign keys; dimensions hold descriptive context.",
+        "is_correct": false,
+        "question": "In a star schema used for analytics, what is the primary role of a fact table?",
+        "question_id": 6,
+        "topic": "Data Modeling",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "A",
+        "difficulty": "medium",
+        "explanation": "CALCULATE evaluates an expression in a modified filter context, enabling dynamic measures responsive to slicers.",
+        "is_correct": true,
+        "question": "In Power BI, you need a measure that recalculates based on slicer selections (filter context). Which DAX function is most commonly used to modify filter context for a calculation?",
+        "question_id": 7,
+        "topic": "Business Intelligence (Power Bi)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Separating line items into an OrderItems table removes repeating groups (1NF), supports any number of items per order, and enables efficient joins and aggregations.",
+        "is_correct": false,
+        "question": "A database has a single Orders table with repeating groups (Product1, Qty1, Product2, Qty2, ...). Which redesign best addresses normalization and improves queryability?",
+        "question_id": 8,
+        "topic": "database design",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "A raw (immutable) layer plus curated transformed tables supports auditability, reprocessing, late data handling, and performant querying via incremental loads and partitioning.",
+        "is_correct": false,
+        "question": "You must build a daily pipeline that ingests app events, supports late-arriving data, and allows analysts to query both raw and cleaned data. Which approach best fits common data engineering best practices?",
+        "question_id": 9,
+        "topic": "data engineering",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Text must be represented numerically (TF-IDF/embeddings) before applying mining methods like clustering or topic modeling to extract themes from unstructured data.",
+        "is_correct": false,
+        "question": "You are asked to perform data mining on thousands of customer support tickets (free-text) to discover common issues and trends. Which workflow is most appropriate?",
+        "question_id": 10,
+        "topic": "unstructured data",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 1,
+        "percentage": 25.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 2,
+        "percentage": 66.7,
+        "total": 3
+      }
+    },
+    "needs_improvement": [
+      {
+        "accuracy": 50.0,
+        "correct": 1,
+        "topic": "Sql",
+        "total": 2
+      }
+    ],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "🎯 Priority topics to review: Excel, Data Cleaning (Pandas), Data Modeling",
+      "✅ Your strongest areas: statistics, Business Intelligence (Power Bi)",
+      "📖 Topics needing more practice: Sql"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "statistics",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Business Intelligence (Power Bi)",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Excel",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Cleaning (Pandas)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Data Modeling",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "database design",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "data engineering",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "unstructured data",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}

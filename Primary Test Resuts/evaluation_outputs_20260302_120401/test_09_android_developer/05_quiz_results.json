@@ -1,0 +1,206 @@
+{
+  "analysis": {
+    "analyzed_at": "2026-03-02T12:17:08.455186",
+    "detailed_results": [
+      {
+        "correct_answer": "A",
+        "difficulty": "easy",
+        "explanation": "A variable is a named place in memory (conceptually) used to store data that may change during program execution.",
+        "is_correct": false,
+        "question": "In programming, what does a variable primarily represent?",
+        "question_id": 1,
+        "topic": "programming",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "A bit is the fundamental unit of digital information and can hold one of two values: 0 or 1.",
+        "is_correct": true,
+        "question": "In digital systems, what is a bit?",
+        "question_id": 2,
+        "topic": "digital systems",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "In Kotlin, 'val' declares an immutable reference (read-only), while 'var' is mutable.",
+        "is_correct": true,
+        "question": "Which Kotlin keyword declares a read-only reference (cannot be reassigned)?",
+        "question_id": 3,
+        "topic": "Kotlin",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "explanation": "An IDE integrates editor, build tools, debugging, and project navigation to streamline development.",
+        "is_correct": false,
+        "question": "What is the primary purpose of an Integrated Development Environment (IDE) for app development?",
+        "question_id": 4,
+        "topic": "integrated development environment software",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "Module-level build.gradle(.kts) specifies dependencies, compileSdk, defaultConfig, buildTypes, and other module build settings.",
+        "is_correct": true,
+        "question": "In Android Studio, which file typically defines app-level dependencies and build configuration for a module?",
+        "question_id": 5,
+        "topic": "Android Studio",
+        "user_answer": "C"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "medium",
+        "explanation": "A ViewModel is designed to store and manage UI-related data in a lifecycle-conscious way and survive configuration changes.",
+        "is_correct": false,
+        "question": "In MVVM on Android, which component should expose UI state and handle UI-related logic while surviving configuration changes?",
+        "question_id": 6,
+        "topic": "Mvvm Architecture",
+        "user_answer": "B"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "explanation": "@Composable identifies functions that describe UI and can be re-invoked by the Compose runtime during recomposition.",
+        "is_correct": false,
+        "question": "In Jetpack Compose, what is the main purpose of the @Composable annotation?",
+        "question_id": 7,
+        "topic": "Jetpack Compose",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "Suspend-based Retrofit calls executed in coroutines keep the UI responsive and use JSON converters for reliable parsing.",
+        "is_correct": false,
+        "question": "You need to call a REST API and parse JSON without blocking the UI. Which approach best matches modern Android practices?",
+        "question_id": 8,
+        "topic": "Rest Apis (Json)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "B",
+        "difficulty": "hard",
+        "explanation": "collectAsStateWithLifecycle bridges Flow to Compose State in a lifecycle-aware way, triggering recomposition when data changes.",
+        "is_correct": false,
+        "question": "A Room DAO returns a Flow<List<User>>. In a Compose screen, what is the recommended way to observe it so the UI updates automatically and respects lifecycle?",
+        "question_id": 9,
+        "topic": "Room Database (Sqlite)",
+        "user_answer": "A"
+      },
+      {
+        "correct_answer": "C",
+        "difficulty": "hard",
+        "explanation": "A Retrofit client is typically an app-wide dependency; providing it in a Hilt module installed in SingletonComponent with @Singleton ensures one shared instance.",
+        "is_correct": false,
+        "question": "In a multi-module Android app using Hilt, you want to provide a single Retrofit instance shared across the app. Where should you define the provider and which scope is most appropriate?",
+        "question_id": 10,
+        "topic": "Dependency Injection (Hilt/Dagger)",
+        "user_answer": ""
+      }
+    ],
+    "difficulty_analysis": {
+      "easy": {
+        "correct": 2,
+        "percentage": 50.0,
+        "total": 4
+      },
+      "hard": {
+        "correct": 0,
+        "percentage": 0.0,
+        "total": 3
+      },
+      "medium": {
+        "correct": 1,
+        "percentage": 33.3,
+        "total": 3
+      }
+    },
+    "needs_improvement": [],
+    "performance_level": "Requires Significant Review",
+    "recommendations": [
+      "📚 Consider reviewing the learning path materials more thoroughly.",
+      "⚠️ Focus on mastering fundamental concepts - you struggled with basic questions.",
+      "💡 Practice applying concepts to different scenarios to improve your understanding.",
+      "🎯 Priority topics to review: programming, integrated development environment software, Mvvm Architecture",
+      "✅ Your strongest areas: digital systems, Kotlin"
+    ],
+    "score": {
+      "correct": 3,
+      "grade": "F",
+      "incorrect": 7,
+      "percentage": 30.0,
+      "total": 10
+    },
+    "strengths": [
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "digital systems",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Kotlin",
+        "total": 1
+      },
+      {
+        "accuracy": 100.0,
+        "correct": 1,
+        "topic": "Android Studio",
+        "total": 1
+      }
+    ],
+    "weaknesses": [
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "programming",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "integrated development environment software",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Mvvm Architecture",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Jetpack Compose",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Rest Apis (Json)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Room Database (Sqlite)",
+        "total": 1
+      },
+      {
+        "accuracy": 0.0,
+        "correct": 0,
+        "topic": "Dependency Injection (Hilt/Dagger)",
+        "total": 1
+      }
+    ]
+  },
+  "message": "Quiz analyzed successfully",
+  "success": true
+}
