@@ -90,51 +90,6 @@ The following comparison is based on the two canonical 20-case runs in `Primary 
 | Systems | 94.06% | 40.0 |
 
 ---
-
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                              User Request                                    │
-│                    "I want to become a Machine Learning Engineer"           │
-└───────────────────────────────────┬─────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           Flask API Server                                   │
-│  /api/path  │  /api/quiz/generate  │  /api/vote  │  /api/suggestions        │
-└───────────────────────────────────┬─────────────────────────────────────────┘
-                                    │
-                    ┌───────────────┴───────────────┐
-                    ▼                               ▼
-┌───────────────────────────────┐   ┌───────────────────────────────┐
-│      RAG RETRIEVAL (R)        │   │       LLM GENERATION (G)      │
-│  ┌─────────────────────────┐  │   │  ┌─────────────────────────┐  │
-│  │ Sentence Transformer    │  │   │  │    GPT-5.2 / Gemini     │  │
-│  │ (all-mpnet-base-v2)     │  │   │  │    Temperature: 0.2-0.4 │  │
-│  │ 768-dim embeddings      │  │   │  │    Max Tokens: 2048-3000│  │
-│  └───────────┬─────────────┘  │   │  └───────────┬─────────────┘  │
-│              ▼                │   │              │                │
-│  ┌─────────────────────────┐  │   │              │                │
-│  │    FAISS Index Search   │  │   │              ▼                │
-│  │    occupation_faiss.idx │──┼───┼──► Augmented Prompt           │
-│  └───────────┬─────────────┘  │   │              │                │
-│              ▼                │   │              ▼                │
-│  ┌─────────────────────────┐  │   │  ┌─────────────────────────┐  │
-│  │   ESCO Skills Retrieval │  │   │  │  Structured Learning    │  │
-│  │   13,939+ skills        │  │   │  │  Path with Sessions     │  │
-│  └─────────────────────────┘  │   │  └─────────────────────────┘  │
-└───────────────────────────────┘   └───────────────────────────────┘
-                    │                               │
-                    └───────────────┬───────────────┘
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           SQLite Database                                    │
-│   • 3,039 ESCO Occupations    • 13,939 Skills    • Skill Hierarchies       │
-│   • Community Votes           • User Suggestions  • Learning Resources      │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## 🚀 Quick Start
@@ -144,13 +99,13 @@ The following comparison is based on the two canonical 20-case runs in `Primary 
 - Python 3.8 or higher
 - pip (Python package manager)
 - 4GB RAM minimum
-- Internet connection (for Gemini API)
+- Internet connection (for Gemini/OpenAI API)
 
 ### Installation
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Manasvi-Vedanta/Hybrid-GenMentor.git
+git clone https://github.com/Manasvi-Vedanta/Cortex.git
 cd Hybrid-GenMentor
 ```
 
@@ -486,22 +441,6 @@ GenMentorAI(model_name='all-MiniLM-L6-v2')       # 384-dim, faster
 ```
 
 ---
-
-## 📊 Similarity Metrics Explained
-
-The system uses **7 different similarity algorithms**:
-
-### Semantic Metrics (Embedding-based)
-1. **Cosine Similarity** (76% avg) - Angle between vectors
-2. **Euclidean Distance** (72% avg) - Straight-line distance
-3. **Manhattan Distance** (68% avg) - L1 norm distance
-
-### Lexical Metrics (Text-based)
-4. **Jaccard Similarity** (8% avg) - Word set overlap
-5. **Dice Coefficient** (14% avg) - Weighted intersection
-6. **Overlap Coefficient** (39% avg) - Subset matching
-7. **TF-IDF Similarity** (16% avg) - Term importance
-
 ---
 
 ## 🗂️ Project Structure
